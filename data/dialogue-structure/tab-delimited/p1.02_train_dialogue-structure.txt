@@ -1,0 +1,96 @@
+id	time	stream	text	tu	rel	ant	context
+2	77.29	CMD	"robot turn one hundred and eighty degrees"	1	1	summarization	None
+3	81.15	CMD	"and proceed <whispering> one two three four five"	1	2	continue	None
+4	96.4	CMD	"uh cancel last request uh robot"	2	None	None	None
+5	101.66	CMD	"turn one hundred and eighty degrees"	2	4	summarization	None
+6	103.69	CMD	"and proceed <pause> one meter"	2	5	continue	None
+7	127.92	CMD	"<no command>"	None	None	None	None
+8	139.94	CMD	"robot proceed three meters"	3	None	None	None
+9	200.43	CMD	"robot proceed ten meters"	4	None	None	None
+10	200.44	CMD	"<NOTE: After this point, 212.1s were added to CMD to account for a technical error.>"	X-CMD	None	None	None
+11	217.92	RN	"calibration complete"	5	None	None	None
+12	218.23	CMD	"robot take a photo"	6	None	None	None
+13	223.77	DM->CMD	"calibration complete"	5	11	translation-l	None
+14	229.09	DM->RN	"photo"	6	12	translation-r-direct	None
+15	231.72	RN	"image sent"	6	14	ack-done	None
+16	231.96	None	"None"	None	None	None	None
+17	231.96	CMD	"robot turn ninety degrees left"	7	None	None	None
+18	234.29	DM->CMD	"sent"	6	15	translation-l	None
+19	236.59	CMD	"and take a photo"	7	17	continue	None
+20A	245.5	DM->RN	"turn 45 left, "	7	17	translation-r-direct	None
+20B	None	DM->RN	"photo"	7	19	translation-r-direct	None
+21	251.12	DM->CMD	"executing..."	7	19*	ack-doing	None
+22	255.07	RN	"done"	7	20A	ack-done	None
+23	259.66	RN	"image sent"	7	20B	ack-done	None
+24	260.37	DM->CMD	"sent"	7	23	translation-l	None
+25	279.71	CMD	"robot turn forty five degrees right"	8	None	None	None
+26	286.29	CMD	"and continue to second doorway"	8	25	continue	None
+27A	298.25	DM->RN	"turn 45 right, "	8	25	translation-r-direct	None
+27B	None	DM->RN	"move forward to second doorway"	8	26	translation-r-default	None
+28	304.15	DM->CMD	"executing..."	8	26*	ack-doing	None
+29	314.21	CMD	"robot stop"	8	28	correction-cancel	None
+30	322.35	DM->RN	"stop"	8	29	translation-r-direct	None
+31	333.6	CMD	"robot take a photo"	9	None	None	None
+32	333.77	RN	"still getting slight <unintelligible> issues but um"	8	30*	comment	None
+33	339.32	DM->CMD	"done"	8	30*	ack-done	map
+34	343.08	DM->RN	"photo"	9	31	translation-r-direct	None
+35	345.73	RN	"image sent"	9	34	ack-done	None
+36	348.4	DM->CMD	"sent"	9	35	translation-l	None
+37	358.03	DM->RN	"turn 90 left"	ERR	None	None	None
+38	363.55	DM->CMD	"executing..."	ERR	None	None	None
+39	394.47	RN	"we're getting massive network issues"	10	None	None	None
+40	407.26	DM->CMD	"Please be patient.  I'm experiencing some technical issues."	10	40	translation-l	None
+41	418.34	CMD	"robot take a photo"	11	None	None	None
+42	418.62	RN	"done"	ERR	None	None	None
+43	421.79	DM->CMD	"done"	ERR	None	None	None
+44	426.14	DM->RN	"photo"	11	41	translation-r-direct	None
+45	428.07	CMD	"robot turn ninety degrees to the left"	12	None	None	None
+46	428.55	RN	"image sent"	11	44	ack-done	None
+47	431.86	DM->CMD	"sent"	11	46	translation-l	None
+48	432.25	CMD	"and take a photo"	12	45	continue	None
+49A	441.81	DM->RN	"turn 90 left, "	12	45	translation-r-direct	None
+49B	None	DM->RN	"photo"	12	48	translation-r-direct	None
+50	447.31	DM->CMD	"executing..."	12	48*	ack-doing	None
+51	466.68	RN	"image sent"	12	49B*	ack-done	None
+52	469.57	DM->CMD	"sent"	12	51	translation-l	None
+53	482.16	CMD	"robot continue to the first doorway"	13	None	None	None
+54	512.73	DM->RN	"return to first doorway"	13	53	translation-r-direct	None
+55	518.56	DM->CMD	"executing..."	13	53	ack-doing	None
+56	529.8	CMD	"robot take a photo"	14	None	None	None
+57	532.12	RN	"done"	13	54	ack-done	None
+58	535	DM->CMD	"done"	13	57	translation-l	None
+59	538.88	DM->RN	"photo"	14	56	translation-r-direct	None
+60	540.96	RN	"image sent"	14	59	ack-done	None
+61	544.72	DM->CMD	"sent"	14	60	translation-l	None
+62	546.01	CMD	"robot turn ninety degrees to the left"	15	None	None	None
+63A	557.05	DM->RN	"turn 90 left, "	15	62	translation-r-direct	None
+63B	None	DM->RN	"photo"	15	62	translation-r-history	None
+64	562.93	DM->CMD	"executing..."	15	62	ack-doing	None
+65	570.27	CMD	"and take a photo"	15	62	continue	None
+66	576.49	RN	"just for the record you meant l left correct"	15	63A	req-clar	None
+67	590.21	RN	"okay"	15	66	ack-wilco	None
+68	598.29	RN	"image sent"	15	63B*	ack-done	None
+69	600.77	CMD	"robot confirm that the object in front of you is a ladder"	16	None	None	None
+70	816.61	RN	"<no speech>"	None	None	None	None
+71	601.65	DM->CMD	"sent"	15	68	translation-l	None
+72	630.96	DM->CMD	"I think that you are more familiar with ladders than I am.  Would you like me to move back from this object to get another photo?"	16	69	nar	None
+73	630.97	CMD	"robot turn a hundred and eight degrees"	17	None	None	None
+74A	645.62	DM->RN	"turn 180, "	17	73	translation-r-direct	None
+74B	None	DM->RN	"photo"	17	73	translation-r-history	None
+75	652.44	DM->CMD	"executing..."	17	73	ack-doing	None
+76	663.68	RN	"image sent"	17	74B*	ack-done	None
+77	667.38	DM->CMD	"sent"	17	76	translation-l	None
+78	669.64	CMD	"robot proceed to the other doorway"	18	None	None	None
+79	690.34	DM->RN	"move to face the other doorway"	18	78	translation-r-direct	None
+80	695.9	DM->CMD	"executing..."	18	78	ack-doing	None
+81	735.42	CMD	"robot take a photo"	19	None	None	None
+82	745.19	DM->CMD	"done"	18	78	ack-done	map
+83	748.15	DM->RN	"photo"	19	81	translation-r-direct	None
+84	751.14	RN	"done"	19	83	ack-done	None
+85	752.55	RN	"there we go"	19	84	continue	None
+86	756.1	RN	"<static>"	None	None	None	None
+87	762.54	DM->CMD	"sent"	19	84	translation-l	None
+88	788.05	DM->CMD	"Good job, teammate!"	X-CMD	None	None	None
+89	794.48	DM->RN	"end training"	X-CMD	None	None	None
+90	813.83	CMD	"uh robot end exercise"	X-CMD	None	None	None
+91	813.83	CMD	"there were two doorways"	X-CMD	None	None	None

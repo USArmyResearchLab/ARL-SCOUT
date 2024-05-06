@@ -1,0 +1,10 @@
+p1.05_train_s15
+# ::tok move to the end of the hallway
+# ::snt move to the end of the hallway
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:ARG2 (e / end
+		:part-of (h / hallway))
+	:mode imperative)
+

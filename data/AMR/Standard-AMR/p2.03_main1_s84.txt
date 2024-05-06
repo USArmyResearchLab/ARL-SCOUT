@@ -1,0 +1,10 @@
+p2.03_main1_s84
+# ::tok I will turn to face South
+# ::snt I will turn to face South
+(t / turn-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:destination (f / face-01
+		:ARG0 i
+		:ARG1 (s / south)))
+

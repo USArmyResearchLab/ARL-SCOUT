@@ -1,0 +1,18 @@
+p3.29_main1_s158
+# ::tok move ninety degrees to the left
+# ::snt move ninety degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+

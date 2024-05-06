@@ -1,0 +1,218 @@
+id	time	stream	text	tu	rel	ant	context
+2	8.82	DM->CMD	"calibration complete"	1	1	translation-l	None
+3	58.77	CMD	"I'm ready"	2	None	None	None
+4	67.64	DM->CMD	"I'm also ready. "	2	4	reciprocal	None
+5	67.64	DM->CMD	" What should we do now?"	3	None	None	None
+6	71.91999999999999	CMD	"take pictures in north east south and west direction"	3	5	answer	None
+7	83.67	DM->RN	"take pictures at N, S, E W points"	3	6	translation-r-direct	None
+8	87.32	DM->CMD	"executing..."	3	6	ack-doing	None
+9	87.89	RN	"assuming the three sixty turn will turn back"	3	7	comment	None
+10	97.69	DM->RN	"returning to start point after"	3	9	3feedback	None
+11	119.95	RN	"done"	3	10*	ack-done	None
+12	122.22	DM->CMD	"done"	3	11	translation-l	None
+13	122.92	CMD	"move forward into the room"	4	None	None	None
+14	122.92	CMD	"and take pictures after each movement"	4	13	continue	None
+15A	135.5	DM->RN	"move forward into the room ahead, "	4	13	translation-r-direct	None
+15B	None	DM->RN	"image"	4	14	translation-r-direct	None
+16	139.05	DM->CMD	"executing..."	4	14*	ack-doing	None
+17	143.8	RN	"image sent"	4	15B*	ack-done	None
+18	145.66	DM->CMD	"sent"	4	17	translation-l	None
+19	148.41	CMD	"move forward to the middle of the room"	5	None	None	None
+20	150.68	CMD	"and take pictures in north east south and west direction"	5	19	continue	None
+21A	164.9	DM->RN	"move to middle of room, "	5	19	translation-r-direct	None
+21B	None	DM->RN	"photos at N, S, E W points"	5	20	translation-r-direct	None
+22	169.69	DM->CMD	"executing..."	5	20*	ack-doing	None
+23	193.23	RN	"done"	5	21B*	ack-done	None
+24	198.1	DM->CMD	"done"	5	23	translation-l	None
+25	199.85	CMD	"move into the hallway to your left"	6	None	None	None
+26A	211.14	DM->RN	"move into hallway to your left, "	6	25	translation-r-direct	None
+26B	None	DM->RN	"image"	6	25	translation-r-history	ID: 14
+27	216.85	RN	"image sent"	6	26B*	ack-done	None
+28	219.48	DM->CMD	"sent"	6	27	translation-l	None
+29	220.18	CMD	"move into the middle of the hallway"	7	None	None	None
+30A	230.11	DM->RN	"move into middle of hallway, "	7	29	translation-r-direct	None
+30B	None	DM->RN	"image"	7	29	translation-r-history	ID: 14
+31	244.8	RN	"image sent"	7	30B*	ack-done	None
+32	246.49	CMD	"take pictures in all four directions after each movement"	8	None	None	None
+33	248.85	DM->CMD	"executing..."	7	29	ack-doing	None
+34	249.76	DM->CMD	"sent"	7	31	translation-l	None
+35	264.61	DM->RN	"take photos at N, S, E, W points"	8	32	translation-r-direct-partial	None
+36	270.64	DM->RN	"do this after each movement command"	8	35	continue	None
+37	275.75	DM->CMD	"executing..."	8	32	ack-doing	None
+38	291.6	RN	"done"	8	36*	ack-done	None
+39	296.87	DM->CMD	"done"	8	38	translation-l	None
+40	297.32	CMD	"move forward three feet"	9	None	None	None
+41A	313.5	DM->RN	"move forward 3 feet, "	9	40	translation-r-direct	None
+41B	None	DM->RN	"photos at n, s, e w points"	9	40	translation-r-history	ID: 32
+42	317.25	DM->CMD	"executing..."	9	40	ack-doing	None
+43	337.56	RN	"<no speech>"	None	None	None	None
+44	339.65	DM->CMD	"done"	9	40	ack-done	map
+45	340.67	CMD	"move to the middle of the room in the room to your right"	10	None	None	None
+46A	358.55	DM->RN	"move to the middle of the room to your right,"	10	45	translation-r-direct	None
+46B	None	DM->RN	"photos at n s e w"	10	45	translation-r-history	ID: 32
+47	362.3	DM->CMD	"executing..."	10	45	ack-doing	None
+48	386.16	DM->CMD	"There is an obstruction in the middle of the room, I got as close as I could."	10	45	comment	None
+49	388.98	RN	"done"	10	46B*	ack-done	None
+50	390.74	DM->CMD	"done"	10	49	translation-l	None
+51	394.5	CMD	"move to the next room forward"	11	None	None	None
+52	406.02	RN	"<no speech>"	None	None	None	None
+53A	414.83	DM->RN	"move into the next room ahead of you, "	11	51	translation-r-direct	None
+53B	None	DM->RN	"photos at n s e w"	11	51	translation-r-history	ID: 32
+54	418.3	DM->CMD	"executing..."	11	51	ack-doing	None
+55	445.59	RN	"done"	11	53B*	ack-done	None
+56	446.97	CMD	"move to the room to your left"	12	None	None	None
+57	447.08	DM->CMD	"done"	11	55	translation-l	None
+58	479.55	DM->CMD	"I'm not detecting a room to the left.  Should I return to the hallway out the door to my left?"	12	56	req-clar	None
+59	485.99	CMD	"do not take pictures after new movements"	12	56	continue	None
+60	492.45	DM->CMD	"ok"	12	59	ack-understand	None
+61	493.37	CMD	"turn to your left"	12	58	clar-repair	None
+62	504.06	DM->RN	"no more pics after movements"	12	59	translation-r-direct	None
+63	505.4400000000001	RN	"ah thank you"	12	62	comment	None
+64	512.65	DM->CMD	"How far should I turn to the left?"	12	61	req-clar	None
+65	514.01	CMD	"ninety degrees"	12	64	clar-repair	None
+66	520.29	DM->RN	"turn left 90"	12	65*	translation-r-direct	None
+67	523.66	DM->CMD	"executing..."	12	65*	ack-doing	None
+68	527.78	RN	"done"	12	66	ack-done	None
+69	530.47	DM->CMD	"done"	12	68	translation-l	None
+70	531.8199999999999	CMD	"calibrate"	13	None	None	None
+71	541.37	DM->RN	"calibrate?"	13	70	translation-r-direct	None
+72	551.3000000000001	RN	"<no speech>"	None	None	None	None
+73	554.07	RN	"i could not do that"	13	71	ack-cant	None
+74	554.41	DM->CMD	"calibration complete"	13	73	ack-done-error	None
+75	557.81	CMD	"move forward into the next hallway"	14	None	None	None
+76	582.79	DM->RN	"move forward into the hallway ahead of you, through door ahead on left"	14	75	translation-r-situated	None
+77	585.85	DM->CMD	"executing..."	14	75	ack-doing	None
+78	597.38	RN	"done"	14	76	ack-done	None
+79	599.98	DM->CMD	"done"	14	78	translation-l	None
+80	601.42	CMD	"turn around one hundred and eighty degrees"	15	None	None	None
+81	609.2	DM->RN	"turn around 180"	15	80	translation-r-direct	None
+82	612.58	DM->CMD	"executing..."	15	80	ack-doing	None
+83	623.2	RN	"done"	15	81	ack-done	None
+84	624.97	DM->CMD	"done"	15	83	translation-l	None
+85	625.0999999999999	CMD	"take a picture"	16	None	None	None
+86	629.94	DM->RN	"image"	16	85	translation-r-direct	None
+87	630.97	RN	"image sent"	16	86	ack-done	None
+88	632.5799999999999	CMD	"take a picture after each movement"	17	None	None	None
+89	633.29	DM->CMD	"sent"	16	87	translation-l	None
+90	637.11	DM->CMD	"ok"	17	88	ack-understand	None
+91	641.75	CMD	"turn to your left ninety degrees"	17	88	continue	None
+92A	647.45	DM->RN	"turn left 90, "	17	91	translation-r-direct	None
+92B	None	DM->RN	"image"	17	88	translation-r-direct	None
+93	650.86	DM->CMD	"executing..."	17	91*	ack-doing	None
+94	661.88	RN	"image sent"	17	92B*	ack-done	None
+95	663.44	DM->CMD	"sent"	17	94	translation-l	None
+96	665.87	CMD	"move to the middle of the room"	18	None	None	None
+97	682	DM->CMD	"Which room?"	18	96	req-clar	None
+98	682.01	CMD	"move forward to that wall in the middle of the room"	18	97	clar-repair	None
+99	709.32	RN	"<no speech>"	None	None	None	None
+100	712.64	DM->CMD	"I'm not sure which wall you are referring to.  Can you describe it another way, using proximity of another object?"	18	98	req-clar	None
+101	723.55	CMD	"move forward to the water bottle"	18	100	clar-repair	None
+102A	735.09	DM->RN	"move forward to water bottle, "	18	101	translation-r-direct	None
+102B	None	DM->RN	"image"	18	101	translation-r-history	ID: 88
+103	738.58	DM->CMD	"executing..."	18	101	ack-doing	None
+104	746.46	RN	"image sent"	18	102B*	ack-done	None
+105	748.54	DM->CMD	"sent"	18	104	translation-l	None
+106	749.03	CMD	"take pictures in all four directions"	19	None	None	None
+107	773.07	DM->CMD	"Do you mean North, South, East, and West?"	19	106	req-clar	None
+108	773.16	CMD	"yes"	19	107	clar-repair	None
+109	779.33	DM->CMD	"executing..."	19	108*	ack-doing	None
+110	785.04	DM->RN	"photos at n, s, e w"	19	108*	translation-r-direct	None
+111	813.4100000000001	RN	"done"	19	110	ack-done	None
+112	817.68	CMD	"turn to your left ninety degrees"	20	None	None	None
+113	818.23	DM->CMD	"done"	19	111	translation-l	None
+114A	826.33	DM->RN	"turn left 90, "	20	112	translation-r-direct	None
+114B	None	DM->RN	"image"	20	112	translation-r-history	ID: 88
+115	829.6	DM->CMD	"executing..."	20	112	ack-doing	None
+116	832.87	RN	"image sent"	20	114B*	ack-done	None
+117	835.88	DM->CMD	"sent"	20	116	translation-l	None
+118	837.38	CMD	"move forward into the room on your right"	21	None	None	None
+119	863.78	DM->CMD	"I detect two entrances to the right.  Should I move forward into the room through the entrance closest to me?"	21	118	req-clar	None
+120	867.28	CMD	"yes"	21	119	clar-repair	None
+121A	885.21	DM->RN	"move into the room through the closest door at right, "	21	120*	translation-r-direct	None
+121B	None	DM->RN	"image"	21	120*	translation-r-history	ID: 88
+122	888.87	DM->CMD	"executing..."	21	120*	ack-doing	None
+123	894.32	RN	"image sent"	21	121B*	ack-done	None
+124	897.41	DM->CMD	"sent"	21	123	translation-l	None
+125	897.8599999999999	CMD	"move forward into the middle of the room"	22	None	None	None
+126A	908.43	DM->RN	"move into middle of room, "	22	125	translation-r-direct	None
+126B	None	DM->RN	"image"	22	125	translation-r-history	ID: 88
+127	912.01	DM->CMD	"executing..."	22	125	ack-doing	None
+128	915.55	RN	"image sent"	22	126B*	ack-done	None
+129	916.55	CMD	"take pictures in all four directions"	23	None	None	None
+130	918.09	DM->CMD	"sent"	22	128	translation-l	None
+131	922.33	DM->CMD	"executing..."	23	129	ack-doing	None
+132	927.08	DM->RN	"photos at n, s, e w"	23	129	translation-r-direct	None
+133	954.37	CMD	"move forward into the next room"	24	None	None	None
+134	954.82	RN	"done"	23	132	ack-done	None
+135	958.37	DM->CMD	"done"	23	134	translation-l	None
+136A	968.77	DM->RN	"move forward into next room, "	24	133	translation-r-direct	None
+136B	None	DM->RN	"image"	24	133	translation-r-history	ID: 88
+137	973.17	DM->CMD	"executing..."	24	133	ack-doing	None
+138	975.43	CMD	"move to the middle of the room"	25	None	None	None
+139	976.06	RN	"image sent"	24	136B*	ack-done	None
+140	978.8	DM->CMD	"sent"	24	139	translation-l	None
+141A	987.3	DM->RN	"move to middle of room,"	25	138	translation-r-direct	None
+141B	None	DM->RN	"image"	25	138	translation-r-history	ID: 88
+142	990.54	DM->CMD	"executing..."	25	138	ack-doing	None
+143	990.64	CMD	"take pictures in all four directions"	26	None	None	None
+144	994.76	RN	"image sent"	25	141B*	ack-done	None
+145	996.79	DM->CMD	"sent"	25	144	translation-l	None
+146	998.5	RN	"<no speech>"	None	None	None	None
+147	1002.83	DM->RN	"photos at n, w, e, w"	26	143	translation-r-direct	None
+148	1006.11	DM->CMD	"executing..."	26	143	ack-doing	None
+149	1037.04	RN	"done"	26	147	ack-done	None
+150	1038.62	CMD	"move forward into the next hallway"	27	None	None	None
+151	1039.41	DM->CMD	"done"	26	149	translation-l	None
+152A	1051.11	DM->RN	"move forward into hallway ahead, "	27	150	translation-r-direct	None
+152B	None	DM->RN	"image"	27	150	translation-r-history	ID: 88
+153	1054.67	DM->CMD	"executing..."	27	150	ack-doing	None
+154	1055.85	RN	"image sent"	27	152B*	ack-done	None
+155	1057.35	CMD	"turn to your right ninety degrees"	28	None	None	None
+156	1060.18	DM->CMD	"sent"	27	154	translation-l	None
+157A	1067.02	DM->RN	"turn right 90, "	28	155	translation-r-direct	None
+157B	None	DM->RN	"image"	28	155	translation-r-history	ID: 88
+158	1071.4	DM->CMD	"executing..."	28	155	ack-doing	None
+159	1074.9	CMD	"move forward into the next room"	29	None	None	None
+160	1075.91	RN	"image sent"	28	157B*	ack-done	None
+161	1078.68	DM->CMD	"sent"	28	160	translation-l	None
+162A	1089.42	DM->RN	"move forward into room ahead, "	29	159	translation-r-direct	None
+162B	None	DM->RN	"image"	29	159	translation-r-history	ID: 88
+163	1093.06	DM->CMD	"executing..."	29	159	ack-doing	None
+164	1097.77	RN	"image sent"	29	162B*	ack-done	None
+165	1099.23	CMD	"take pictures in all four directions"	30	None	None	None
+166	1100.37	DM->CMD	"sent"	29	164	translation-l	None
+167	1108.96	DM->RN	"photos at n, s, e, w"	30	165	translation-r-direct	None
+168	1112.41	DM->CMD	"executing..."	30	165	ack-doing	None
+169	1136.5	RN	"done"	30	167	ack-done	None
+170	1137.62	CMD	"move to the middle of the room to your left"	31	None	None	None
+171	1138.42	DM->CMD	"done"	30	169	translation-l	None
+172A	1157.65	DM->RN	"move into the middle of the room to you left, "	31	170	translation-r-situated-partial	None
+172B	None	DM->RN	"enter through door on left"	31	172A	continue	None
+173	1160.76	DM->RN	"image"	31	170	translation-r-history	ID: 88
+174	1163.79	DM->CMD	"executing..."	31	170	ack-doing	None
+175	1172.75	RN	"image sent"	31	173*	ack-done	None
+176	1182.7	DM->CMD	"sent"	31	175	translation-l	None
+177	1182.81	CMD	"take pictures in all four directions"	32	None	None	None
+178	1187.83	RN	"my map keeps on moving"	31	175	continue	None
+179	1196.12	DM->RN	"images at n, s, e, w"	32	177	translation-r-direct	None
+180	1199.75	DM->CMD	"executing..."	32	177	ack-doing	None
+181	1221.18	CMD	"move to the hallway to your left"	33	None	None	None
+182	1222.13	RN	"done"	32	179	ack-done	None
+183	1224.29	DM->CMD	"done"	32	182	translation-l	None
+184A	1237.57	DM->RN	"move into hallway to your left, "	33	181	translation-r-direct-partial	None
+184B	None	DM->RN	"through door on left, "	33	184A	continue	None
+184C	None	DM->RN	"image"	33	181	translation-r-history	ID: 88
+185	1241.43	DM->CMD	"executing..."	33	181	ack-doing	None
+186	1250.43	CMD	"move into the room to your right"	34	None	None	None
+187	1251.59	RN	"image sent"	33	184C*	ack-done	None
+188	1253.73	DM->CMD	"sent"	33	187	translation-l	None
+189	1265.27	DM->RN	"move into room ahead and on right"	34	186	translation-r-direct	None
+190	1270.1	DM->CMD	"executing..."	34	186	ack-doing	None
+191	1272.07	RN	"if i take new one"	34	189	comment	None
+192	1274.69	DM->RN	"image"	34	186	translation-r-history	ID: 88
+193	1274.7	RN	"image sent"	34	192	ack-done	None
+194	1277.56	DM->CMD	"sent"	34	193	translation-l	None
+195	1293.51	RN	"<no speech>"	None	None	None	None
+196	1331.84	CMD	"there were ten doorways there were five shoes"	X-CMD	None	None	None
+197	1340.12	DM->RN	"ending task"	X-CMD	None	None	None
+198	1344.07	CMD	"there were shoes clothing food and cookware to indicate uh recent occupica <occupation> uh occupying of the facility"	X-CMD	None	None	None

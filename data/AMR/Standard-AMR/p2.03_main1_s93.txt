@@ -1,0 +1,12 @@
+p2.03_main1_s93
+# ::tok robot what is in front of me
+# ::snt robot what is in front of me
+(s / say-01
+	:ARG0 (i / i)
+	:ARG1 (a / amr-unknown
+		:location (i2 / in-front-of
+			:op1 i))
+	:ARG2 (y / you
+		:name (n / name
+			:op1 "Robot")))
+

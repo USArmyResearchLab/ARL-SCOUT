@@ -1,0 +1,184 @@
+id	time	stream	text	tu	rel	ant	context
+1	2.92	RN	"calibration complete"	1	0	ack-done	None
+2	9.24	CMD	"	I am ready are you"	2	None	None	None
+3	12.64	DM->CMD	"calibration complete"	1	1	translation-l	None
+4	17.84	DM->CMD	"I'm ready.  What should we do next?"	2	2	reciprocal	None
+5	21	CMD	"robot can I call you fido"	3	None	None	None
+6	27.82	DM->CMD	"Yes. I am Fido."	3	5	answer	None
+7	35.84	CMD	"fantastic"	3	6	3feedback	None
+8	35.84	CMD	"please take a photo fido"	4	None	None	None
+9	36.91	DM->RN	"photo"	4	8	translation-r-direct	None
+10	37.93	RN	"image sent"	4	9	ack-done	None
+11	40.02	DM->CMD	"sent"	4	10	translation-l	None
+12	52.42	CMD	"fido take a photo every thirty degrees"	5	None	None	None
+13	57.29	CMD	"and then go back to your starting position"	5	12	continue	None
+14	90.46	DM->CMD	"I'm not sure what you mean by a photo every 30 degrees.  Should I turn around here 360 degrees?"	5	12	req-clar	None
+15	101.66	CMD	"no"	5	14	clar-repair	None
+16	101.66	CMD	"start where you are and lurk until you are ninety degrees"	5	15	continue	None
+17	108.46	CMD	"then turn one eighty degrees"	5	16	continue	None
+18	110.34	CMD	"and then do another photo every thirty degrees until you're back to where your current position is"	5	17	continue	None
+19	120.84	CMD	"essentially I don't need photos behind you"	5	18	continue	None
+20	126.47	DM->CMD	"executing..."	5	19*	ack-doing	None
+21A	144.64	DM->RN	"turn 30 left, "	5	19*	translation-r-direct-partial	None
+21B	None	DM->RN	"photo"	5	21A	continue	None
+22A	151.67	DM->RN	"then turn 30 left, "	5	21B	continue	None
+22B	None	DM->RN	"photo"	5	22A	continue	None
+23	154.74	RN	"<no speech>"	None	None	None	None
+24A	155.77	DM->RN	"then turn 30 left, "	5	22B	continue	None
+24B	None	DM->RN	"photo"	5	24A	continue	None
+25	166.07	RN	"done"	5	24B*	ack-done	None
+26A	183.25	DM->RN	"return to start position, "	5	24A	continue	None
+26B	None	DM->RN	"turn right 90, "	5	26A	continue	None
+26C	None	DM->RN	"stopping every 30 degrees to send photo"	5	26B	continue	None
+27	212.37	RN	"done"	5	26C*	ack-done	None
+28	213.92	DM->RN	"return to start position"	5	26A	summarization	None
+29	222.82	DM->CMD	"done"	5	19*	translation-l	map
+30	229.08	CMD	"can you go back to that blue sign on the wall back up to it"	6	None	None	None
+31	235.55	CMD	"and take a photo"	6	30	continue	None
+32	240.33	CMD	"thank you fido"	6	31	continue	None
+33	241.48	DM->CMD	"executing..."	6	31*	ack-doing	None
+34A	259.57	DM->RN	"Back up to blue sign on wall to your left, "	6	30	translation-r-situated	None
+34B	None	DM->RN	"send photo"	6	31	translation-r-direct	None
+35	273.58	RN	"that's when i should be driving backwards"	6	34A	comment	None
+36	284.5	DM->RN	"That was the command: back up to"	6	35	summarization	None
+37	310.13	RN	"sent"	6	36*	ack-done	None
+38	314.4	DM->CMD	"sent"	6	37	translation-l	None
+39	323.23	CMD	"fido back up <laughter> to the other wall"	7	None	None	None
+40	327.07	CMD	"and take a picture of that blue sign that's behind you"	7	39	continue	None
+41	335.25	DM->CMD	"What other wall?  I see several walls."	7	39	req-clar	None
+42	347.11	CMD	"the wall on your right that's attached to the fire extinguisher"	7	41	clar-repair	None
+43A	371.32	DM->RN	"back up to the wall across from the blue sign, "	7	42*	translation-r-situated-partial	None
+43B	None	DM->RN	"turn to face blue sign, "	7	43A	continue	None
+43C	None	DM->RN	"photo"	7	40	translation-r-direct	None
+44	374.81	DM->CMD	"executing..."	7	42*	ack-doing	None
+45	390.28	RN	"image sent"	7	43C*	ack-done	None
+46	392.58	DM->CMD	"sent"	7	45	translation-l	None
+47	399.32	CMD	"can you zoom in into that picture slash blue thing"	8	None	None	None
+48	408.26	DM->CMD	"I can't zoom in, but I can move closer, ok?"	8	47	ack-try	None
+49	416.24	CMD	"that's ok"	8	48	answer	None
+50A	435.37	DM->RN	"move to get a good shot of blue sign, "	8	49*	translation-r-direct-partial	None
+50B	None	DM->RN	"image"	8	50A	continue	None
+51	441.72	DM->CMD	"executing..."	8	49*	ack-doing	None
+52	445.03	RN	"image sent"	8	50B*	ack-done	None
+53	447.82	DM->CMD	"sent"	8	52	translation-l	None
+54	453.27	CMD	"robot do you read arabic"	9	None	None	None
+55	458.25	DM->CMD	"No.  Do you?"	9	54	answer	None
+56	461.75	CMD	"sorry you're fido not robot <pause> "	9	55	3feedback	None
+57	461.75	CMD	"no I do not"	9	56	continue	None
+58	474.86	CMD	"okay <pause>"	10	None	None	None
+59	474.86	CMD	"can you go to the other doorway the one that's on your right"	10	58	continue	None
+60	481.93	CMD	"and go in about halfway into that room"	10	59	continue	None
+61	485.87	CMD	"turn left"	10	60	continue	None
+62	487.51	CMD	"then take a photo"	10	61	continue	None
+63	491.58	DM->CMD	"How far should I turn left in the other room?"	10	62*	req-clar	None
+64	500.48	CMD	"use your best judgement"	10	63	clar-repair	None
+65	515.6	DM->CMD	"I will turn 90 degrees when you say turn left, ok?"	10	64	ack-try	None
+66	523.21	CMD	"okay"	10	65	answer	None
+67A	538.42	DM->RN	"move into next room through doorway on the right, "	10	59	translation-r-direct	None
+67B	None	DM->RN	"move into center of room, "	10	60	translation-r-direct	None
+67C	None	DM->RN	"turn left 90, "	10	61	translation-r-situated	None
+67D	None	DM->RN	"photo"	10	62	translation-r-direct	None
+68	542.07	DM->CMD	"executing..."	10	66*	ack-doing	None
+69	560.71	CMD	"turn left"	11	None	None	None
+70	562.8599999999999	RN	"image sent"	10	67D*	ack-done	None
+71	566.94	DM->CMD	"sent"	10	70	translation-l	None
+72	571.34	DM->RN	"turn left 90"	11	69	translation-r-situated	None
+73	573.14	CMD	"do you know what that is"	12	None	None	None
+74	581.64	RN	"image sent"	11	72	ack-done-error	None
+75	588.51	DM->CMD	"sent"	11	74	translation-l	None
+76	596.66	CMD	"are you calibrated to detect shoes"	13	None	None	None
+77	610.71	DM->CMD	"No.  I need your help to find shoes."	13	76	answer	None
+78	620.5600000000001	CMD	"turn about thirty degrees"	14	None	None	None
+79	623.35	CMD	"and take a photo"	14	78	continue	None
+80	623.35	CMD	"actually you know what take a photo of every corner in the room that you are currently in"	14	79*	continue	None
+81A	638.17	DM->RN	"turn to face each corner of the room, "	14	80*	translation-r-contextual-partial	None
+81B	None	DM->RN	"send photo of each corner"	14	81A	continue	None
+82	641.44	DM->CMD	"executing..."	14	80*	ack-doing	None
+83	665.27	RN	"done"	14	81B*	ack-done	None
+84	668	DM->CMD	"done"	14	83	translation-l	None
+85	671.39	CMD	"turn around"	15	None	None	None
+86	673.51	CMD	"and take another photo a closer look at those dvds or those boxes on top of the wood"	15	85	continue	None
+87A	695.12	DM->RN	"turn around 180, "	15	85	translation-r-direct	None
+87B	None	DM->RN	"move closer to objects on left front corner of crate, "	15	86	translation-r-situated-partial	None
+87C	None	DM->RN	"photo"	15	87B	continue	None
+88	698.79	DM->CMD	"executing..."	15	86*	ack-doing	None
+89	711.46	DM->RN	"move close enough to take good photo of objects"	15	87C	continue	None
+90	721.66	RN	"image sent"	15	89*	ack-done	None
+91	724.88	DM->CMD	"sent"	15	90	translation-l	None
+92	739.64	CMD	"can you go around and take a photo behind the tv"	16	None	None	None
+93	747.95	CMD	"please and thank you"	16	92	continue	None
+94	769.66	DM->CMD	"No.  My LIDAR map is showing no space behind the TV.  Do you want me to move around the left or right side of the TV?"	16	92	ack-cant	None
+95	779.41	RN	"<no speech>"	None	None	None	None
+96	789.69	CMD	"no if you can just back up to the entryway of that room"	16	94	clar-repair	None
+97	794.5	CMD	"take a photo"	16	96	continue	None
+98	795.49	CMD	"and then go into the other entryway on the left side of that room"	16	97	continue	None
+99	802.68	CMD	"and take a photo in front and behind you"	16	98	continue	None
+100A	824.19	DM->RN	"back up to entry way of room, "	16	96	translation-r-direct	None
+100B	None	DM->RN	"photo, "	16	97	translation-r-direct	None
+100C	None	DM->RN	"move to door currently to your left, "	16	99*	translation-r-direct-partial	None
+100D	None	DM->RN	"then send photo, "	16	100C	continue	None
+100E	None	DM->RN	"turn 180, "	16	100D	continue	None
+100F	None	DM->RN	"send photo"	16	100E	continue	None
+101	827.56	DM->CMD	"executing..."	16	99*	ack-doing	None
+102	867.65	CMD	"nope stop stop"	16	101	correction-cancel	None
+103	867.66	DM->RN	"stop"	16	102	translation-r-direct	None
+104	869.27	RN	"<unintelligible>"	None	None	None	None
+105	875.46	CMD	"back up into that hallway"	17	None	None	None
+106	875.47	DM->CMD	"Did I misunderstand?"	16	102*	req-clar	None
+107	893.25	DM->CMD	"How far shoudl I back up?  Until I reach the wall behind me?"	17	105	req-clar	None
+108	899.27	CMD	"yes"	17	107	clar-repair	None
+109	906.72	DM->RN	"back up into hallway until you reach the wall behind you"	17	108*	translation-r-direct	None
+110	918.44	RN	"done"	17	109	ack-done	None
+111	920.51	DM->CMD	"done"	17	110	translation-l	None
+112	927.71	CMD	"turn to your right about ninety degrees"	18	None	None	None
+113	932.78	CMD	"and take a photo"	18	112	continue	None
+114	934.64	CMD	"and turn a hundred and eighty degrees after that"	18	113	continue	None
+115	937.54	CMD	"and take another photo"	18	114	continue	None
+116A	949.99	DM->RN	"turn right 90, "	18	112	translation-r-direct	None
+116B	None	DM->RN	"photo, "	18	113	translation-r-direct	None
+116C	None	DM->RN	"turn right 180, "	18	114	translation-r-direct	None
+116D	None	DM->RN	"photo"	18	115	translation-r-direct	None
+117	953.58	DM->CMD	"executing..."	18	115*	ack-doing	None
+118	972.1099999999999	RN	"done"	18	116D*	ack-done	None
+119	975.74	DM->CMD	"done"	18	118	translation-l	None
+120	984.66	CMD	"investigate that white sign that's to your right"	19	None	None	None
+121	998.8	DM->CMD	"I see more than one white sign to my right.  Should I move to face the one closest to me?"	19	120	req-clar	None
+122	1012.82	CMD	"please do"	19	121	clar-repair	None
+123	1015.34	DM->CMD	"executing..."	19	122*	ack-doing	None
+124	1023.31	DM->RN	"move to face the first white sign on the right"	19	122*	translation-r-direct	None
+125	1057.38	RN	"done"	19	124	ack-done	None
+126	1059.69	DM->CMD	"done"	19	125	translation-l	None
+127	1063.46	DM->CMD	"Should I send a picture?"	20	None	None	None
+128	1069.85	CMD	"please"	20	127	offer-accept	None
+129	1070.12	DM->RN	"photo"	20	128*	translation-r-direct	None
+130	1070.13	RN	"image sent"	20	129	ack-done	None
+131	1073.74	DM->CMD	"sent"	20	130	translation-l	None
+132	1077.81	CMD	"do you know what that is"	21	None	None	None
+133	1088.48	DM->CMD	"I'm not sure, but it is similar to Arabic numerals."	21	132	answer	None
+134	1103.03	CMD	"go into that room"	22	None	None	None
+135	1106.05	CMD	"and take a three hundred and sixty degree photo"	22	134	continue	None
+136	1111.24	CMD	"actually you know what go into that room"	22	134	summarization	None
+137	1113.83	CMD	"and take a photo every thirty degrees three hundred and sixty degrees in that room"	22	136	continue	None
+138	1113.83	CMD	"go back to where you are"	22	137	continue	None
+139	1125.73	CMD	"and wait for further instructions"	22	138	continue	None
+140	1125.73	CMD	"thanks fido"	22	139	continue	None
+141	1125.97	DM->CMD	"executing..."	22	140*	ack-doing	None
+142A	1151.63	DM->RN	"move into room ahead and to the right, "	22	134	translation-r-situated	None
+142B	None	DM->RN	"move to center of room, "	22	136	translation-r-direct	None
+142C	None	DM->RN	"turn 360, "	22	137	translation-r-direct-partial	None
+142D	None	DM->RN	"sending photos every 30 degrees, "	22	142C	continue	None
+142E	None	DM->RN	"then return to the position that you are in now"	22	138	translation-r-direct	None
+143	1230.59	CMD	"stop"	22	140*	correction-cancel	None
+144	1231.42	DM->RN	"stop"	22	143	translation-r-direct	None
+145	1233.12	CMD	"go into the room you just saw"	22	143	continue	None
+146	1258.81	DM->CMD	"I'm not sure which room you are referring to.  Can you describe it another way, using proximity to an object or location?"	22	145	req-clar	None
+147	1274.95	RN	"<no speech>"	None	None	None	None
+148	1305.47	CMD	"robot fido i saw nine doorways "	23	None	None	None
+149	1305.47	CMD	"how about you"	23	148	continue	None
+150	1328.49	DM->CMD	"I'm not sure what a doorway is exactly.  I detect six on the LIDAR map."	23	149*	answer	None
+151	1365.66	CMD	"in our search i saw two shoes"	24	None	None	None
+152	1365.66	CMD	"how about you"	24	151	answer	None
+153	1382.25	DM->CMD	"I think you are more familiar with shoes than I am.  Good job finding them!"	24	152*	nar	None
+154	1406.1	CMD	"i believe it has been recently occupied as there was a sleeping bag or a duffel bag and dvds next to uh a tv um and it was a newer tv so um it's not old um and i also saw a poster and signs as well as a few um uh um structures or uh er cloths that you would need for privacy"	X-CMD	None	None	None
+155	1418.14	DM->RN	"ending task"	X-CMD	None	None	None
+156	1437.92	DM->CMD	"Great job, teammate!"	X-CMD	None	None	None

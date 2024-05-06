@@ -1,0 +1,12 @@
+p3.29_main1_s121
+# ::tok move forward 4 ft
+# ::snt move forward 4 ft
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (f / forward)
+	:extent (d / distance-quantity
+		:quant 4
+		:unit (f2 / foot))
+	:mode imperative)
+

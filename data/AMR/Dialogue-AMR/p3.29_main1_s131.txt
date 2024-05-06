@@ -1,0 +1,13 @@
+p3.29_main1_s131
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

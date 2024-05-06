@@ -1,0 +1,18 @@
+p2.03_main2_s14
+# ::tok If you describe an object , you can help me to learn what it is . < beep >
+# ::snt If you describe an object, you can help me to learn what it is. <beep>
+(o / open-option-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (f / familiarize-01
+		:ARG0 (c / commander)
+		:ARG1 r
+		:ARG1-of (p / possible-01)
+		:ARG2 (o2 / object)
+		:condition (d / describe-01
+			:ARG0 c
+			:ARG1 o2)
+		:stable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+

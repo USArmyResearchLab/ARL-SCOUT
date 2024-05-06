@@ -1,0 +1,144 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	0	DM->RN	"calibrate"	None	None
+2	0	DM->CMD	"calibrating. . ."	None	None
+3	12.93	RN	"done"	None	None
+4	14.21	DM->CMD	"calibration complete"	None	None
+5	17.45	DM->CMD	"Hello! <beep>"	None	None
+6	18.71	DM->CMD	". . ."	None	None
+7	19.72	DM->CMD	"Thanks for teaming up with me today."	None	None
+8	20.74	DM->CMD	". . ."	None	None
+9	22.81	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	None	None
+10	23.82	DM->CMD	". . ."	None	None
+11	26.44	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	None	None
+12	27.35	DM->CMD	". . ."	None	None
+13	29.71	DM->CMD	"You can ask for help at any time."	None	None
+14	57.99	CMD	"robot explore the area"	None	None
+15	63.69	DM->CMD	"processing. . ."	None	None
+16	73.71	DM->CMD	"I'm not sure where you want me to go.  <beep>"	None	None
+17	75.32	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	None	None
+18	77.2	DM->CMD	"Would you like me to send a picture?  <beep>"	None	None
+19	81.1	CMD	"send a picture"	None	None
+20	85.34	DM->RN	"send image"	None	None
+i000	86.03	IMAGE	"frame000"	None	None
+21	86.39	RN	"sent"	None	None
+22	87.77	DM->CMD	"sent"	None	None
+23	118.57	CMD	"<experimenter talking>"	None	None
+24	120.51	CMD	"uh robot move forward"	None	None
+25	126.48	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	None	None
+26	128.4	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	None	None
+27	141.29	CMD	"robot move forward unto until the second column"	None	None
+28	151.44	DM->CMD	"processing. . ."	None	None
+29	160.52	DM->CMD	"I'm unsure which object you mean.  <beep>"	None	None
+30	162.79	DM->CMD	"I don't know what all the objects are around me.   <beep>"	None	None
+31	164.46	DM->CMD	"If you describe an object, you can help me to learn what it is.  <beep>"	None	None
+32	166.94	DM->CMD	"Can you describe it another way, using its color, size, or position?  <beep>"	None	None
+33	169.45	CMD	"robot can you move forward to the uh the triangle object on the ground orange it's orange"	None	None
+34	183.84	DM->CMD	"processing. . ."	None	None
+35	186.37	DM->CMD	"The one to my left?  <beep>"	None	None
+36	188	CMD	"the one on the right "	None	None
+37	192.66	DM->CMD	"processing. . ."	None	None
+38	199.03	DM->RN	"move to Alley cone"	None	None
+39	209.959999999999	CMD	"<no command, starts to say robot>"	None	None
+40	210.22	DM->CMD	"moving. . ."	None	None
+41	214.589999999999	CMD	"robot send a picture"	None	None
+42	220.82	RN	"done"	None	None
+43	225	DM->CMD	"done"	None	None
+44	225.76	DM->RN	"send image"	None	None
+i001	227.07	IMAGE	"frame001"	None	None
+45	227.41	RN	"sent"	None	None
+46	227.94	DM->CMD	"sent"	None	None
+47	233.92	CMD	"robot turn around"	None	None
+48	239.05	DM->CMD	"ok"	None	None
+49	241.12	DM->RN	"turn 180"	None	None
+50	241.82	DM->CMD	"I will turn around 180 degrees"	None	None
+51	244.6	CMD	"send a picture"	None	None
+52	244.84	DM->CMD	"turning. . ."	None	None
+53	249.14	DM->RN	"then. . ."	None	None
+54	250.38	DM->RN	"send image"	None	None
+i002	266.6	IMAGE	"frame002"	None	None
+55	266.95	RN	"done and sent"	None	None
+56	267.86	DM->CMD	"done, sent"	None	None
+57	315.28	CMD	"robot"	None	None
+58	327.56	CMD	"<notification noise>"	None	None
+59	327.67	DM->CMD	"I didn't get all of that.  <beep>"	None	None
+60	329.26	DM->CMD	"Can you repeat that?  <beep>"	None	None
+61	330.02	CMD	"robot turn around"	None	None
+62	331.74	CMD	"and send another pic picture"	None	None
+63	335.82	DM->CMD	"ok"	None	None
+64	338.65	DM->RN	"turn 180"	None	None
+65	339.78	DM->CMD	"I will turn around 180 degrees"	None	None
+66	341.32	DM->CMD	"and. . ."	None	None
+67	342.18	DM->RN	"then. . ."	None	None
+68	343.37	DM->RN	"send image"	None	None
+69	344.23	DM->CMD	"I will send a picture"	None	None
+70	345.24	DM->CMD	"turning. . ."	None	None
+i003	364.62	IMAGE	"frame003"	None	None
+71	365	RN	"done and sent"	None	None
+72	366.02	DM->CMD	"done, sent"	None	None
+73	371.47	CMD	"robot mo move closer to the object on your left"	None	None
+74	380.3	DM->CMD	"processing. . ."	None	None
+75	387.76	DM->RN	"move to Alley plant"	None	None
+76	391.96	DM->CMD	"moving. . ."	None	None
+77	403.15	RN	"done"	None	None
+78	403.92	CMD	"sent a picture"	None	None
+79	404.48	DM->CMD	"done"	None	None
+80	405.77	DM->RN	"send image"	None	None
+i004	406.49	IMAGE	"frame004"	None	None
+81	406.83	RN	"sent"	None	None
+82	407.89	DM->CMD	"sent"	None	None
+83	417.1	CMD	"hmm turn around <pause>"	None	None
+84	421.02	CMD	"send a picture"	None	None
+85	423.16	DM->CMD	"ok"	None	None
+86	425.61	DM->RN	"turn 180"	None	None
+87	426.9	DM->RN	"then. . ."	None	None
+88	427.9	DM->RN	"send image"	None	None
+89	429.89	DM->CMD	"turning. . ."	None	None
+i005	448.2	IMAGE	"frame005"	None	None
+90	448.62	RN	"done and sent"	None	None
+91	449.41	DM->CMD	"done, sent"	None	None
+92	453.8	CMD	"move forward <pause> to the object on your <pause> left"	None	None
+93	464.4	DM->CMD	"processing. . ."	None	None
+94	469.87	DM->CMD	"The one directly to my left, or ahead and to the left?  <beep>"	None	None
+95	473.07	CMD	"ahead and to the left"	None	None
+96	475.88	DM->CMD	"processing. . ."	None	None
+97	481.81	DM->RN	"move to ladder"	None	None
+98	481.86	CMD	"send a picture when done"	None	None
+99	485.31	DM->RN	"then. . ."	None	None
+100	486.26	DM->RN	"send image"	None	None
+101	488.15	DM->CMD	"moving. . ."	None	None
+i006	496.75	IMAGE	"frame006"	None	None
+102	497.2	RN	"done and sent"	None	None
+103	499.18	DM->CMD	"done, sent"	None	None
+104	500.84	CMD	"move past the object on your left"	None	None
+105	504.32	CMD	"and send a picture"	None	None
+106	508.39	DM->CMD	"processing. . ."	None	None
+107	515.86	DM->RN	"move to Alley start position"	None	None
+108	519.38	DM->RN	"then. . ."	None	None
+109	520.37	DM->RN	"send image"	None	None
+110	535.56	DM->CMD	"moving. . ."	None	None
+i007	548.01	IMAGE	"frame007"	None	None
+111	548.47	RN	"done and sent"	None	None
+112	549.11	DM->CMD	"done, sent"	None	None
+113	559.02	CMD	"robot move back ff fifty feet not fifty feet hm"	None	None
+114	564.089999999999	CMD	"robot move back <pause> two feet"	None	None
+115	569.68	DM->CMD	"ok"	None	None
+116	578.04	CMD	"robot back up"	None	None
+117	578.26	DM->RN	"move back 2 feet"	None	None
+118	583.05	DM->CMD	"moving. . ."	None	None
+119	584.37	RN	"done"	None	None
+120	584.88	CMD	"send a pic picture"	None	None
+121	586.09	DM->CMD	"done"	None	None
+122	587.82	DM->RN	"send image"	None	None
+i008	588.69	IMAGE	"frame008"	None	None
+123	589.07	RN	"sent"	None	None
+124	589.94	DM->CMD	"sent"	None	None
+125	675.75	CMD	"mhm"	None	None
+126	676.199999999999	CMD	"<a: okay we're gonna go ahead and review>"	None	None
+127	678.18	CMD	"<a: and we would like you to tell your robot teammate as well as me your answers to the worksheet>"	None	None
+128	683.77	CMD	"<a: um how many doors were there>"	None	None
+129	685.819999999999	CMD	"one"	None	None
+130	686.63	CMD	"<a: one door okay>"	None	None
+131	687.54	CMD	"<a: how many cones were there>"	None	None
+132	688.77	CMD	"two cones"	None	None
+133	690.03	CMD	"<a: do you think that there's any type of container in which a soldier might be able to use to move things>"	None	None

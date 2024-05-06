@@ -1,0 +1,15 @@
+p2.06_main2_s176
+# ::tok < pause > is there a shovel in the room
+# ::snt <pause> is there a shovel in the room
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / sense-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (s2 / shovel
+			:ARG1-of (b / be-located-at-91
+				:ARG2 (r / room)
+				:polarity (a / amr-unknown)))
+		:stable -
+		:time (n / now))
+	:ARG2 r2)
+

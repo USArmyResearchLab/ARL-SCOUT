@@ -1,0 +1,15 @@
+p2.03_main1_s88
+# ::tok I will send a picture
+# ::snt I will send a picture
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+

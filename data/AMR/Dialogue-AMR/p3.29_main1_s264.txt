@@ -1,0 +1,19 @@
+p3.29_main1_s264
+# ::tok I turned right 45 degrees
+# ::snt I turned right 45 degrees
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a2 / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

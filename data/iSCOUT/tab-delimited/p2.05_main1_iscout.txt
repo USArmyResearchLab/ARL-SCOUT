@@ -1,0 +1,352 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	0	DM->RN	"calibrate"	None	None
+2	0	DM->CMD	"calibrating. . ."	None	None
+3	12.02	RN	"done"	None	None
+4	14.06	DM->CMD	"calibration complete"	None	None
+5	24.47	CMD	"robot send a picture"	None	None
+6	28.91	DM->RN	"send image"	None	None
+i000	29.79	IMAGE	"frame000"	None	None
+7	30.18	RN	"sent"	None	None
+8	31.33	DM->CMD	"sent"	None	None
+9	38.75	CMD	"robot turn to the left"	None	None
+10	41.1799999999999	CMD	"and take a picture"	None	None
+11	45.92	DM->CMD	"I'm unsure where or when I should stop turning.  <beep>"	None	None
+12	46.99	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	None	None
+13	51.36	CMD	"<pause> turn ninety degrees to the left"	None	None
+14	54.42	CMD	"and take a picture"	None	None
+15	56.16	DM->CMD	"ok"	None	None
+16	60.13	DM->RN	"turn left 90 degrees"	None	None
+17	61.03	DM->CMD	"I will turn left 90 degrees"	None	None
+18	62.46	DM->CMD	"and. . ."	None	None
+19	63.3	DM->RN	"then. . ."	None	None
+20	64.59	DM->RN	"send image"	None	None
+21	65.44	DM->CMD	"I will send a picture"	None	None
+22	66.66	DM->CMD	"turning. . ."	None	None
+i001	81.54	IMAGE	"frame001"	None	None
+23	82.01	RN	"done"	None	None
+24	83.4	DM->CMD	"done, sent"	None	None
+25	89	CMD	"turn one eighty to the right"	None	None
+26	92.31	CMD	"and take a picture"	None	None
+27	93.93	DM->CMD	"ok"	None	None
+28	96.78	DM->RN	"turn right 180"	None	None
+29	98.13	DM->RN	"then. . ."	None	None
+30	99.4	DM->RN	"send image"	None	None
+31	100.82	DM->CMD	"turning. . ."	None	None
+i002	125.2	IMAGE	"frame002"	None	None
+32	125.61	RN	"done and sent"	None	None
+33	126.59	DM->CMD	"done, sent"	None	None
+34	132.21	CMD	"turn ninety degrees <pause> left <pause>"	None	None
+35	139.4	DM->CMD	"ok"	None	None
+36	144.62	DM->RN	"turn left 90 degrees"	None	None
+37	147.15	DM->CMD	"turning. . ."	None	None
+38	156.02	CMD	"take a picture"	None	None
+39	157.66	RN	"done"	None	None
+40	158.93	DM->CMD	"I turned left 90 degrees"	None	None
+41	160.83	DM->RN	"send image"	None	None
+i003	161.69	IMAGE	"frame003"	None	None
+42	162.06	RN	"sent"	None	None
+43	163.24	DM->CMD	"sent"	None	None
+44	164.43	CMD	"move through the first doorway"	None	None
+45	171.52	DM->CMD	"processing. . ."	None	None
+46	175.88	DM->RN	"move into TV room"	None	None
+47	180.16	DM->CMD	"moving. . ."	None	None
+48	186.7	CMD	"stop on the other side of the door"	None	None
+49	194.91	RN	"done"	None	None
+50	195.89	DM->CMD	"done"	None	None
+51	195.92	CMD	"send a picture"	None	None
+52	198.35	DM->RN	"send image"	None	None
+i004	198.92	IMAGE	"frame004"	None	None
+53	199.25	RN	"sent"	None	None
+54	200.47	DM->CMD	"sent"	None	None
+55	225.84	CMD	"what about move two feet closer"	None	None
+56	228.6	CMD	"and take a picture"	None	None
+57	233.24	DM->CMD	"ok, I think I got it."	None	None
+58	236.67	DM->RN	"move forward 2 feet"	None	None
+59	237.7	DM->CMD	"I will move forward 2 feet"	None	None
+60	239.2	DM->CMD	"and. . ."	None	None
+61	239.93	DM->RN	"then. . ."	None	None
+62	241.15	DM->RN	"send image"	None	None
+63	242.06	DM->CMD	"I will send a picture"	None	None
+i005	244.46	IMAGE	"frame005"	None	None
+64	244.88	RN	"done and sent"	None	None
+65	247.18	DM->CMD	"done, sent"	None	None
+66	274.32	CMD	"robot move a couple of inches closer <pause>"	None	None
+67	278.29	CMD	"and send a pic picture"	None	None
+68	280.26	DM->CMD	"ok"	None	None
+69	289.07	DM->RN	"move forward 2 inches"	None	None
+70	294.6	RN	"uh done"	None	None
+71	295.11	DM->CMD	"I will move forward 2 inches"	None	None
+72	298.09	DM->RN	"send image"	None	None
+i006	299.45	IMAGE	"frame006"	None	None
+73	299.95	RN	"sent"	None	None
+74	301.32	DM->CMD	"done, sent"	None	None
+75	328.72	CMD	"robot move <pause>"	None	None
+76	331.37	CMD	"turn <pause> robot turn to the <pause> left forty five degrees"	None	None
+77	339.17	CMD	"and take a picture"	None	None
+78	341.06	DM->CMD	"ok"	None	None
+79	344.48	DM->RN	"turn left 45 degrees"	None	None
+80	345.3	DM->RN	"then. . ."	None	None
+81	346.34	DM->RN	"send image"	None	None
+82	348.06	DM->CMD	"turning. . ."	None	None
+i007	355.88	IMAGE	"frame007"	None	None
+83	356.4	RN	"done and sent"	None	None
+84	358.51	DM->CMD	"done, sent"	None	None
+85	372.81	CMD	"back up two feet"	None	None
+86	375.12	CMD	"and take a picture"	None	None
+87	377.51	DM->CMD	"ok"	None	None
+88	385.14	DM->RN	"move back 2 feet"	None	None
+89	386.29	DM->RN	"then. . ."	None	None
+90	387.38	DM->RN	"send image"	None	None
+91	389.37	DM->CMD	"moving. . ."	None	None
+i008	391.83	IMAGE	"frame008"	None	None
+92	392.17	RN	"done and sent"	None	None
+93	393.71	DM->CMD	"done, sent"	None	None
+94	398.02	CMD	"robot move through the doorway"	None	None
+95	400.34	CMD	"and stop on the other side"	None	None
+96	406.45	DM->CMD	"processing. . ."	None	None
+97	412.66	DM->CMD	"The one directly to my left, or ahead and to the left?  <beep>"	None	None
+98	417.19	CMD	"ahead and to the left"	None	None
+99	421.7	DM->CMD	"processing. . ."	None	None
+100	426.55	DM->RN	"move into TV hallway"	None	None
+101	431.4	DM->CMD	"moving. . ."	None	None
+102	446.82	RN	"done"	None	None
+103	448.15	DM->CMD	"done"	None	None
+104	450.54	CMD	"<pause> send a picture"	None	None
+105	453.49	DM->RN	"send image"	None	None
+i009	454.22	IMAGE	"frame009"	None	None
+106	454.6	RN	"sent"	None	None
+107	455.72	DM->CMD	"sent"	None	None
+108	456.96	CMD	"<pause> turn forty five degrees to the right"	None	None
+109	461.07	CMD	"and take a picture"	None	None
+110	462.58	DM->CMD	"ok"	None	None
+111	466.63	DM->RN	"turn right 45 degrees"	None	None
+112	467.78	DM->CMD	"I will turn right 45 degrees"	None	None
+113	468.82	DM->CMD	"and. . ."	None	None
+114	469.42	DM->RN	"then. . ."	None	None
+115	470.59	DM->RN	"send image"	None	None
+116	471.14	DM->CMD	"I will send a picture"	None	None
+i010	477.27	IMAGE	"frame010"	None	None
+117	477.66	RN	"done and sent"	None	None
+118	478.49	DM->CMD	"done, sent"	None	None
+119	497.2	CMD	"move forward <pause> about ten feet"	None	None
+120	501.93	CMD	"and take a picture"	None	None
+121	503.88	DM->CMD	"ok"	None	None
+122	508.22	DM->RN	"move forward 10 feet"	None	None
+123	509.79	DM->RN	"then. . ."	None	None
+124	510.99	DM->RN	"send image"	None	None
+125	512.99	DM->CMD	"moving. . ."	None	None
+126	516.839999999999	CMD	"robot stop"	None	None
+i011	526.28	IMAGE	"frame011"	None	None
+127	526.67	RN	"done and sent"	None	None
+128	528.839999999999	CMD	"robot turn around"	None	None
+129	530.73	DM->CMD	"done, sent"	None	None
+130	530.979999999999	CMD	"and take a picture"	None	None
+131	535.37	DM->CMD	"ok"	None	None
+132	537.74	DM->RN	"turn 180"	None	None
+133	539.09	DM->RN	"then. . ."	None	None
+134	540.02	DM->RN	"send image"	None	None
+135	543.57	DM->CMD	"turning. . ."	None	None
+i012	566.13	IMAGE	"frame012"	None	None
+136	566.56	RN	"done and sent"	None	None
+137	566.75	DM->CMD	"done, sent"	None	None
+138	573.109999999999	CMD	"<pause> robot turn around"	None	None
+139	577.67	DM->CMD	"ok"	None	None
+140	579.74	DM->RN	"turn 180"	None	None
+141	581.78	DM->CMD	"I will turn around 180 degrees"	None	None
+142	584.58	DM->CMD	"turning. . ."	None	None
+143	599.52	CMD	"move through doorway on your left"	None	None
+144	609.1	RN	"done "	None	None
+145	614.64	DM->CMD	"processing. . ."	None	None
+146	617.25	DM->CMD	"Which doorway?  <beep>"	None	None
+147	621.5	CMD	"robot turn left"	None	None
+148	624.619999999999	CMD	"and take a picture"	None	None
+149	633.54	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+150	635.869999999999	CMD	"ninety degrees"	None	None
+151	639.27	DM->CMD	"ok"	None	None
+152	641.99	DM->RN	"turn left 90 degrees"	None	None
+153	643.55	DM->RN	"then. . ."	None	None
+154	644.85	DM->RN	"send image"	None	None
+155	654.339999999999	CMD	"robot stop there"	None	None
+i013	659.33	IMAGE	"frame013"	None	None
+156	659.8	RN	"done and sent"	None	None
+157	663.44	DM->CMD	"done, sent"	None	None
+158	674.55	CMD	"<no command>"	None	None
+159	684.64	CMD	"move forward through the doorway ahead of you"	None	None
+160	695.5	DM->CMD	"processing. . ."	None	None
+161	700.74	DM->CMD	"I see more than one doorway.  <beep>"	None	None
+162	703.67	DM->CMD	"Which doorway?  <beep>"	None	None
+163	705.51	CMD	"<pause> directly in front of you"	None	None
+164	711.6	DM->CMD	"processing. . ."	None	None
+165	735.88	DM->RN	"move to Shovel Start door"	None	None
+166	741.05	DM->CMD	"moving. . ."	None	None
+167	766.54	RN	"alright done"	None	None
+168	768.04	CMD	"send a picture"	None	None
+169	769.8	DM->CMD	"done"	None	None
+170	772.43	DM->RN	"send image"	None	None
+i014	773.22	IMAGE	"frame014"	None	None
+171	773.6	RN	"sent"	None	None
+172	775.75	DM->CMD	"sent"	None	None
+173	784.719999999999	CMD	"turn to your right <pause>"	None	None
+174	787.3	CMD	"and take a picture"	None	None
+175	791.7	DM->CMD	"How far should I rotate right? <beep>"	None	None
+176	793.54	CMD	"<pause> one hundred and eighty degrees"	None	None
+177	800.69	DM->CMD	"ok"	None	None
+178	803.51	DM->RN	"turn right 180"	None	None
+179	805.85	DM->RN	"then. . ."	None	None
+180	806.96	DM->RN	"send image"	None	None
+181	807.86	DM->CMD	"turning. . ."	None	None
+i015	824.96	IMAGE	"frame015"	None	None
+182	824.02	RN	"uh done and sent"	None	None
+183	826.9	DM->CMD	"done, sent"	None	None
+184	840.939999999999	CMD	"move forward two feeet"	None	None
+185	843.609999999999	CMD	"and take a picture"	None	None
+186	846.29	DM->CMD	"ok"	None	None
+187	848.84	DM->RN	"move forward 2 feet"	None	None
+188	849.63	DM->CMD	"I will move forward 2 feet"	None	None
+189	850.64	DM->CMD	"and. . ."	None	None
+190	851.32	DM->RN	"then. . ."	None	None
+191	852.52	DM->RN	"send image"	None	None
+192	853.3	DM->CMD	"I will send a picture"	None	None
+193	854.92	DM->CMD	"moving. . ."	None	None
+i016	857.01	IMAGE	"frame016"	None	None
+194	857.55	RN	"uh done and sent"	None	None
+195	860.29	DM->CMD	"done, sent"	None	None
+196	869.239999999999	CMD	"uh move um five feet"	None	None
+197	872.089999999999	CMD	"and take a picture"	None	None
+198	876.65	DM->CMD	"ok, I think I got it."	None	None
+199	879.82	DM->RN	"move forward 5 feet"	None	None
+200	880.64	DM->CMD	"I will move forward 5 feet"	None	None
+201	881.94	DM->CMD	"and. . ."	None	None
+202	882.4	DM->RN	"then. . ."	None	None
+203	883.59	DM->RN	"send image"	None	None
+204	884.19	DM->CMD	"I will send a picture"	None	None
+205	885.8	DM->CMD	"moving. . ."	None	None
+i017	892.68	IMAGE	"frame017"	None	None
+206	893.12	RN	"done and sent"	None	None
+207	893.91	DM->CMD	"done, sent"	None	None
+208	894.819999999999	CMD	"back up two feet"	None	None
+209	896.349999999999	CMD	"and take a picture"	None	None
+210	899.34	DM->CMD	"ok"	None	None
+211	907.24	DM->RN	"move back 2 feet"	None	None
+212	908.36	DM->RN	"then. . ."	None	None
+213	909.26	DM->RN	"send image"	None	None
+214	910.91	DM->CMD	"moving. . ."	None	None
+i018	914.32	IMAGE	"frame018"	None	None
+215	914.75	RN	"done and sent"	None	None
+216	914.99	DM->CMD	"done, sent"	None	None
+217	916.479999999999	CMD	"turn forty five degrees to the <pause> left"	None	None
+218	920.229999999999	CMD	"and take a picture"	None	None
+219	921.54	DM->CMD	"ok"	None	None
+220	925.37	DM->RN	"turn left 45 degrees"	None	None
+221	926.58	DM->RN	"then. . ."	None	None
+222	927.65	DM->RN	"send image"	None	None
+223	928.96	DM->CMD	"turning. . ."	None	None
+i019	935.1	IMAGE	"frame019"	None	None
+224	935.52	RN	"done and sent"	None	None
+225	937.77	DM->CMD	"done, sent"	None	None
+226	944.56	CMD	"move one foot closer"	None	None
+227	946.569999999999	CMD	"and take a picture"	None	None
+228	949.93	DM->CMD	"ok, I think I got it."	None	None
+229	952.42	DM->RN	"move forward 1 foot"	None	None
+230	953.27	DM->CMD	"I will move forward 1 foot"	None	None
+231	954.45	DM->CMD	"and. . ."	None	None
+232	955.08	DM->RN	"then. . ."	None	None
+233	955.93	DM->RN	"send image"	None	None
+234	956.7	DM->CMD	"I will send a picture"	None	None
+i020	959.77	IMAGE	"frame020"	None	None
+235	960.2	RN	"uh done and sent"	None	None
+236	961.77	DM->CMD	"done, sent"	None	None
+237	968.27	CMD	"robot turn forty five degrees"	None	None
+238	970.91	CMD	"and move through the <pause> door ahead of you"	None	None
+239	978.75	DM->CMD	"processing. . ."	None	None
+240	982.5	DM->CMD	"Which direction should I turn?  <beep>"	None	None
+241	984.54	CMD	"<no command>"	None	None
+242	987.579999999999	CMD	"turn left forty five degrees"	None	None
+243	993.28	DM->CMD	"ok"	None	None
+244	996.03	DM->RN	"turn left 45 degrees"	None	None
+245	997.06	DM->CMD	"I will turn left 45 degrees"	None	None
+246	1000.04	DM->CMD	"turning. . ."	None	None
+247	1005.81	RN	"uh done"	None	None
+248	1007.10999999999	CMD	"turn left <pause> ninety degrees"	None	None
+249	1007.32	DM->CMD	"done"	None	None
+250	1013.65	DM->CMD	"ok"	None	None
+251	1017.1	DM->RN	"turn left 90 degrees"	None	None
+252	1018.88	CMD	"robot turn left ninety"	None	None
+253	1020.03	DM->CMD	"turning. . ."	None	None
+254	1033.91999999999	RN	"done"	None	None
+255	1036.04	DM->CMD	"done"	None	None
+256	1038.79	CMD	"send a picture"	None	None
+257	1040.87	DM->RN	"send image"	None	None
+i021	1041.78	IMAGE	"frame021"	None	None
+258	1042.05	RN	"sent"	None	None
+259	1043.35	DM->CMD	"sent"	None	None
+260	1050.13999999999	CMD	"<pause> uh robot turn ninety degrees left"	None	None
+261	1056.68	DM->CMD	"ok"	None	None
+262	1059.93	DM->RN	"turn left 90 degrees"	None	None
+263	1060.63	DM->CMD	"I will turn left 90 degrees"	None	None
+264	1062.9	DM->CMD	"turning. . ."	None	None
+265	1079.33	RN	"uh done"	None	None
+266	1080.2	CMD	"move forward to door on your right"	None	None
+267	1082.47	DM->CMD	"done"	None	None
+268	1087.33	DM->CMD	"processing. . ."	None	None
+269	1094.73	DM->RN	"move to Cleaning room - hall doorway"	None	None
+270	1099.05	DM->CMD	"moving. . ."	None	None
+271	1110.03	RN	"okay done"	None	None
+272	1111.4	DM->CMD	"done"	None	None
+273	1112.52	CMD	"go through door on your right"	None	None
+274	1115.48	CMD	"and take a picture"	None	None
+275	1119.97	DM->CMD	"ok"	None	None
+276	1124.87	DM->RN	"move into Cleaning room"	None	None
+277	1127.16	DM->RN	"then. . ."	None	None
+278	1128.16	DM->RN	"send image"	None	None
+279	1129.27	DM->CMD	"moving. . ."	None	None
+i022	1041.81	IMAGE	"frame022"	None	None
+280	1140.87999999999	RN	"done and sent"	None	None
+281	1142.43	DM->CMD	"done, sent"	None	None
+282	1144.99	CMD	"back up two feet"	None	None
+283	1149.16	DM->CMD	"ok"	None	None
+284	1156.76	DM->RN	"move back 2 feet"	None	None
+285	1157.95	DM->CMD	"moving. . ."	None	None
+286	1164.59	RN	"done"	None	None
+287	1165.94	DM->CMD	"done"	None	None
+288	1166.55	CMD	"send a picture"	None	None
+289	1168.51	DM->RN	"send image"	None	None
+i023	1140.57	IMAGE	"frame023"	None	None
+290	1169.48999999999	RN	"sent"	None	None
+291	1170.78	DM->CMD	"sent"	None	None
+292	1176.85	CMD	"back up two p back up two feet"	None	None
+293	1179.67999999999	CMD	"and take a picture"	None	None
+294	1181.85	DM->CMD	"ok"	None	None
+295	1188.26	DM->RN	"move back 2 feet"	None	None
+296	1189.47	DM->RN	"then. . ."	None	None
+297	1190.62	DM->RN	"send image"	None	None
+298	1192.12	DM->CMD	"moving. . ."	None	None
+i024	1169.15	IMAGE	"frame024"	None	None
+299	1195.52	RN	"done and sent"	None	None
+300	1195.68	DM->CMD	"done, sent"	None	None
+301	1198.76	CMD	"move through the doorway <pause>"	None	None
+302	1201.33	CMD	"and<pause> turn to your left turn forty five degrees to your left"	None	None
+303	1208.83	DM->CMD	"ok"	None	None
+304	1211.68	DM->RN	"move into Cleaning room"	None	None
+305	1214.59	DM->RN	"then. . ."	None	None
+306	1216.81	DM->RN	"turn left 45 degrees"	None	None
+307	1218.53	DM->CMD	"moving. . ."	None	None
+308	1224.17	DM->CMD	"turning. . ."	None	None
+309	1230.63999999999	RN	"done"	None	None
+310	1232.01	DM->CMD	"done"	None	None
+311	1254.84	CMD	"mhm"	None	None
+312	1255.85	CMD	"<a: okay>"	None	None
+313	1256.71	CMD	"<a: um how many doorways were there>"	None	None
+314	1259.32	CMD	"um i counted six but i don't think i got all of em"	None	None
+315	1262.09	CMD	"<a: okay six good>"	None	None
+316	1262.90999999999	CMD	"<a: how many shoes were there>"	None	None
+317	1264.95	CMD	"um one"	None	None
+318	1265.69	CMD	"<a: one shoe >"	None	None
+319	1266.37999999999	CMD	"mhm"	None	None
+320	1266.84	CMD	"<a: good>"	None	None
+321	1267.17999999999	CMD	"<a: um do you think there's anything  that indicates the environment has recently been occupied>"	None	None
+322	1272.47	CMD	"uh yes the tv that was left behind with objects  on the tv stand i couldn't see what they were but"	None	None
+323	1277.38999999999	CMD	"<a: okay>"	None	None
+324	1277.92999999999	CMD	"and then the pictures on the wall and there were papers on the wall"	None	None
+325	1282.85	CMD	"<a:okay>"	None	None

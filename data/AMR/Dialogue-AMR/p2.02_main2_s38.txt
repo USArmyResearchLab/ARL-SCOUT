@@ -1,0 +1,13 @@
+p2.02_main2_s38
+# ::tok Can you repeat that ? < beep >
+# ::snt Can you repeat that? <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (r3 / repeat-01
+		:ARG0 (c / commander)
+		:ARG1 (t / that)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+

@@ -1,0 +1,276 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	0	DM->RN	"calibrate"	None	None
+2	0	DM->CMD	"calibrating. . ."	None	None
+3	14.0499999999999	RN	"done"	None	None
+4	15.43	DM->CMD	"calibration complete"	None	None
+5	18.69	CMD	"take a picture <pause> in front of you"	None	None
+6	21.93	DM->RN	"send image"	None	None
+7	22.8	CMD	"to the left of you"	None	None
+i000	22.85	IMAGE	"frame000"	None	None
+8	23.19	RN	"sent"	None	None
+9	23.9	CMD	"and to the right of you"	None	None
+10	27.07	DM->CMD	"sent"	None	None
+11	42.1299999999999	CMD	"please turn to your left"	None	None
+12	44.43	CMD	"and take a photo"	None	None
+13	49.66	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+14	51.93	CMD	"<pause> turn about a foot to your left"	None	None
+15	55.32	CMD	"take a photo"	None	None
+16	56.45	CMD	"and a foot to your right"	None	None
+17	57.86	CMD	"take a photo"	None	None
+18	60.4	DM->CMD	"processing. . ."	None	None
+19	75.41	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	None	None
+20	77.48	DM->CMD	"Can you describe it another way?  <beep>"	None	None
+21	84.59	CMD	"<pause> turn one foot to the south "	None	None
+22	89.07	CMD	"and take a photo"	None	None
+23	95.04	DM->CMD	"processing. . ."	None	None
+24	132.07	DM->CMD	"I'll turn to face South, ok?"	None	None
+25	142.4	CMD	"<pause> turn ten degrees south"	None	None
+26	150.94	DM->CMD	"processing. . ."	None	None
+27	157.06	DM->RN	"turn right 10 degrees"	None	None
+28	159.94	DM->CMD	"turning. . ."	None	None
+29	161.45	RN	"done"	None	None
+30	162.57	DM->CMD	"done"	None	None
+31	164.09	CMD	"take a photo"	None	None
+32	165.65	DM->RN	"send image"	None	None
+i001	166.38	IMAGE	"frame001"	None	None
+33	166.7	RN	"sent"	None	None
+34	168.03	DM->CMD	"sent"	None	None
+35	182.16	CMD	"<pause> turn ten more degrees south"	None	None
+36	187.67	CMD	"and take a photo"	None	None
+37	190.32	DM->CMD	"processing. . ."	None	None
+38	195.11	DM->RN	"turn right 10 degrees"	None	None
+39	196.26	DM->RN	"then. . ."	None	None
+40	197.06	DM->RN	"send image"	None	None
+41	198.25	DM->CMD	"turning. . ."	None	None
+i002	200.94	IMAGE	"frame002"	None	None
+42	201.28	RN	"done and sent"	None	None
+43	202.55	DM->CMD	"done, sent"	None	None
+44	210.65	CMD	"turn thirty degrees north"	None	None
+45	213.05	CMD	"and take a photo"	None	None
+46	215.64	DM->CMD	"ok"	None	None
+47	224.2	DM->RN	"turn left 30 degrees"	None	None
+48	225.42	DM->RN	"then. . ."	None	None
+49	226.17	DM->RN	"send image"	None	None
+50	227.77	DM->CMD	"turning. . ."	None	None
+i003	231.81	IMAGE	"frame003"	None	None
+51	232.17	RN	"done and sent"	None	None
+52	232.48	DM->CMD	"done, sent"	None	None
+53	239.47	CMD	"<no command>"	None	None
+54	248.54	CMD	"<pause> turn thirty degrees north"	None	None
+55	253.18	CMD	"and take a photo"	None	None
+56	255.56	DM->CMD	"ok"	None	None
+57	262.2	DM->RN	"turn left 30 degrees"	None	None
+58	263.31	DM->RN	"then. . ."	None	None
+59	264.4	DM->RN	"send image"	None	None
+60	265.31	DM->CMD	"turning. . ."	None	None
+i004	268.99	IMAGE	"frame004"	None	None
+61	269.38	RN	"done and sent"	None	None
+62	271.08	DM->CMD	"done, sent"	None	None
+63	274.89	CMD	"<pause> head three feet north"	None	None
+64	284.38	DM->CMD	"processing. . ."	None	None
+65	286.9	DM->RN	"turn to face North"	None	None
+66	288.35	DM->RN	"then. . ."	None	None
+67	289.62	DM->RN	"move forward 3 feet"	None	None
+68	291.83	DM->CMD	"turning. . ."	None	None
+69	303.1	CMD	"<no command>"	None	None
+70	303.18	DM->CMD	"moving. . ."	None	None
+71	307.28	CMD	"take a picture"	None	None
+72	307.309999999999	RN	"done"	None	None
+73	308.25	DM->CMD	"done"	None	None
+74	309.74	DM->RN	"send image"	None	None
+i005	310.79	IMAGE	"frame005"	None	None
+75	311.119999999999	RN	"sent"	None	None
+76	312.2	DM->CMD	"sent"	None	None
+77	315.96	CMD	"go through the doorway on your right"	None	None
+78	322.88	DM->CMD	"processing. . ."	None	None
+79	330.95	DM->CMD	"I see more than one doorway.  <beep>"	None	None
+80	333.74	CMD	"<notification sound>"	None	None
+81	334.02	DM->CMD	"The one directly ahead of me?  <beep>"	None	None
+82	334.3	CMD	"go through the first doorway on your right"	None	None
+83	345.82	DM->CMD	"processing. . ."	None	None
+84	357.9	DM->RN	"move into TV hallway"	None	None
+85	370.21	DM->CMD	"moving. . ."	None	None
+86	374.58	CMD	"<no command>"	None	None
+87	378.44	CMD	"stop"	None	None
+88	380.6	DM->RN	"stop"	None	None
+89	381.54	CMD	"take a photo"	None	None
+90	381.65	RN	"done"	None	None
+91	383.82	DM->RN	"send image"	None	None
+i006	384.96	IMAGE	"frame006"	None	None
+92	385.159999999999	RN	"sent"	None	None
+93	386.4	DM->CMD	"sent"	None	None
+94	395.58	CMD	"<pause> take a photo of the doorway to your right"	None	None
+95	404.19	DM->CMD	"processing. . ."	None	None
+96	413.37	DM->RN	"turn to face TV - hall doorway"	None	None
+97	416.59	DM->RN	"then. . ."	None	None
+98	417.61	DM->RN	"send image"	None	None
+99	423.48	DM->CMD	"turning. . ."	None	None
+i007	426.46	IMAGE	"frame007"	None	None
+100	426.88	RN	"done and sent"	None	None
+101	427.81	DM->CMD	"done, sent"	None	None
+102	440.74	CMD	"go through the doorway"	None	None
+103	446.08	DM->CMD	"processing. . ."	None	None
+104	449.8	DM->RN	"move into TV room"	None	None
+105	454.83	DM->CMD	"moving. . ."	None	None
+106	464.17	CMD	"stop"	None	None
+107	466.1	DM->RN	"stop"	None	None
+108	467.38	CMD	"take a photo"	None	None
+109	469.15	DM->RN	"send image"	None	None
+i008	470.12	IMAGE	"frame008"	None	None
+110	470.34	RN	"sent"	None	None
+111	471.57	DM->CMD	"sent"	None	None
+112	491.62	CMD	"<pause> move forward five feet"	None	None
+113	495.63	CMD	"take a photo every foot"	None	None
+114	500.62	DM->CMD	"processing. . ."	None	None
+115	507.97	DM->RN	"Do the following 5 times. . ."	None	None
+116	509.38	DM->RN	"move forward 1 foot"	None	None
+117	510.33	DM->RN	"then. . ."	None	None
+118	511.11	DM->RN	"send image"	None	None
+i009	517.54	IMAGE	"frame009"	None	None
+i010	523.34	IMAGE	"frame010"	None	None
+i011	529.45	IMAGE	"frame011"	None	None
+i012	534.26	IMAGE	"frame012"	None	None
+i013	538.79	IMAGE	"frame013"	None	None
+119	539.8	RN	"done sent"	None	None
+120	540.93	DM->CMD	"done, sent"	None	None
+121	546.819999999999	CMD	"go through the doorway directly in front of you"	None	None
+122	551.04	CMD	"and take a photo"	None	None
+123	554.89	DM->CMD	"processing. . ."	None	None
+124	558.19	DM->RN	"move into Conf room"	None	None
+125	560.41	DM->RN	"then. . ."	None	None
+126	561.51	DM->RN	"send image"	None	None
+127	563.22	DM->CMD	"moving. . ."	None	None
+i014	581.08	IMAGE	"frame014"	None	None
+128	581.5	RN	"uh done and sent"	None	None
+129	582.18	DM->CMD	"done, sent"	None	None
+130	609.78	CMD	"<pause> make a u turn"	None	None
+131	619.06	DM->CMD	"ok"	None	None
+132	621.14	DM->RN	"turn 180"	None	None
+133	621.76	DM->CMD	"I will turn around 180 degrees"	None	None
+134	625.87	DM->CMD	"turning. . ."	None	None
+135	646.439999999999	CMD	"<long pause>"	None	None
+136	647.86	RN	"done"	None	None
+137	648.91	DM->CMD	"done"	None	None
+138	649.979999999999	CMD	"move forward about a foot"	None	None
+139	651.709999999999	CMD	"and go north"	None	None
+140	663.37	DM->CMD	"processing. . ."	None	None
+141	666.5	DM->RN	"move forward 1 foot"	None	None
+142	667.83	DM->CMD	"I will move forward 1 foot"	None	None
+143	669.31	DM->RN	"then. . ."	None	None
+144	671.9	DM->RN	"turn to face North"	None	None
+145	672.95	DM->CMD	"I will turn to face North"	None	None
+146	680.839999999999	CMD	"stop"	None	None
+147	682.34	DM->CMD	"How far forward should I go?  <beep>"	None	None
+148	683.479999999999	CMD	"take a photo"	None	None
+149	686.17	DM->RN	"stop"	None	None
+150	687.31	DM->RN	"send image"	None	None
+i015	688.45	IMAGE	"frame015"	None	None
+151	688.819999999999	RN	"done and sent"	None	None
+152	691.03	DM->CMD	"sent"	None	None
+153	702.459999999999	CMD	"head toward the yellow cone"	None	None
+154	707.51	DM->CMD	"processing. . ."	None	None
+155	710.64	DM->RN	"move to yellow cone"	None	None
+156	716.6	DM->CMD	"moving. . ."	None	None
+157	726.37	RN	"done"	None	None
+158	727.56	DM->CMD	"done"	None	None
+159	729.939999999999	CMD	"<pause> take a photo"	None	None
+160	733.51	DM->RN	"send image"	None	None
+i016	734.59	IMAGE	"frame016"	None	None
+161	734.81	RN	"sent"	None	None
+162	736.37	DM->CMD	"sent"	None	None
+163	740.189999999999	CMD	"<long pause>"	None	None
+164	745.14	CMD	"go through the door to the north west"	None	None
+165	754.43	DM->CMD	"processing. . ."	None	None
+166	757.93	DM->RN	"move into Cleaning room"	None	None
+167	766.63	DM->CMD	"moving. . ."	None	None
+168	777.77	CMD	"stop"	None	None
+169	779.8	DM->RN	"stop"	None	None
+170	781.14	CMD	"take a photo"	None	None
+171	782.95	DM->RN	"send image"	None	None
+i017	783.89	IMAGE	"frame017"	None	None
+172	784.14	RN	"sent"	None	None
+173	786.06	DM->CMD	"sent"	None	None
+174	793.079999999999	CMD	"<pause> make a three hundred and sixty degree turn"	None	None
+175	798	CMD	"take a photo every forty five degrees"	None	None
+176	805.56	DM->CMD	"processing. . ."	None	None
+177	823.45	DM->RN	"Do the following 8 times. . ."	None	None
+178	827.28	DM->RN	"turn left 45 degrees"	None	None
+179	828.66	DM->RN	"then. . ."	None	None
+i018	840.65	IMAGE	"frame018"	None	None
+i019	850.87	IMAGE	"frame019"	None	None
+i020	870.29	IMAGE	"frame020"	None	None
+180	829.66	DM->RN	"send image"	None	None
+181	837.41	DM->CMD	"turning. . ."	None	None
+182	874.5	CMD	"stop"	None	None
+183	876.3	DM->RN	"stop"	None	None
+184	878.18	CMD	"<pause> <disfl. unintelligible 'grow to'?>"	None	None
+185	881.819999999999	CMD	"move toward the red bucket"	None	None
+186	895	DM->RN	"move to bucket with rope"	None	None
+187	899.32	DM->CMD	"moving. . ."	None	None
+188	910.97	RN	"it's done"	None	None
+189	913.08	DM->CMD	"done"	None	None
+190	932.819999999999	CMD	"<long pause>"	None	None
+191	937.75	CMD	"continue three hundred to si"	None	None
+192	940	CMD	"continue three hundred and sixty degree turn"	None	None
+193	943.31	CMD	"taking photos every forty five degrees"	None	None
+194	947.3	DM->CMD	"processing. . ."	None	None
+195	959.86	DM->RN	"Do the following 3 times. . ."	None	None
+196	962.52	DM->RN	"turn left 45 degrees"	None	None
+197	963.47	DM->RN	"then. . ."	None	None
+198	964.27	DM->RN	"send image"	None	None
+199	966.27	DM->CMD	"turning. . ."	None	None
+200	998.29	DM->CMD	"done, sent"	None	None
+i021	971.73	IMAGE	"frame021"	None	None
+i022	981.53	IMAGE	"frame022"	None	None
+i023	995.89	IMAGE	"frame023"	None	None
+201	998.41	RN	"done and sent"	None	None
+202	1022.9	CMD	"make a ninety degree turn"	None	None
+203	1026	CMD	"taking photos every <pause> mmm <sharp inhale> fifteen degrees"	None	None
+204	1041.37	DM->CMD	"Can you repeat that?  <beep>"	None	None
+205	1044.53	CMD	"make a ninety degree turn"	None	None
+206	1047.52	CMD	"take a photo every thirty degrees"	None	None
+207	1053.18	DM->CMD	"processing. . ."	None	None
+208	1060.4	DM->CMD	"Which direction should I turn?  <beep>"	None	None
+209	1065.3	CMD	"to your left"	None	None
+210	1067.55	CMD	"turn to your left"	None	None
+211	1069	DM->CMD	"processing. . ."	None	None
+212	1076.84	DM->RN	"Do the following 3 times. . ."	None	None
+213	1082.16	DM->RN	"turn left 30 degrees"	None	None
+214	1083.07	DM->RN	"then. . ."	None	None
+215	1083.89	DM->RN	"send image"	None	None
+216	1085.31	DM->CMD	"turning. . ."	None	None
+i024	1091.13	IMAGE	"frame024"	None	None
+i025	1103.0	IMAGE	"frame025"	None	None
+i026	1111.07	IMAGE	"frame026"	None	None
+217	1111.3	RN	"done and sent"	None	None
+218	1112.27	DM->CMD	"done, sent"	None	None
+219	1120.47	CMD	"<pause> go toward the door <pause> on your right"	None	None
+220	1133.83	DM->CMD	"processing. . ."	None	None
+221	1137.46	DM->CMD	"The one directly to my right, or ahead and to the right?  <beep>"	None	None
+222	1153.96	CMD	"ahead and to your right"	None	None
+223	1158.22	DM->CMD	"processing. . ."	None	None
+224	1165.03	DM->RN	"move to Office - hall doorway"	None	None
+225	1171.06	DM->CMD	"moving. . ."	None	None
+226	1189.54	CMD	"stop"	None	None
+227	1191.15	DM->RN	"stop"	None	None
+228	1191.85	RN	"done"	None	None
+229	1192.58	CMD	"take a photo"	None	None
+230	1194.8	DM->RN	"send image"	None	None
+i027	1195.75	IMAGE	"frame027"	None	None
+231	1195.96	RN	"sent"	None	None
+232	1197.31	DM->CMD	"sent"	None	None
+233	1215.37999999999	CMD	"<pause> <alarm noise> move to your left"	None	None
+234	1228.68	DM->CMD	"I didn't get all of that.  <beep>"	None	None
+235	1230.42	DM->CMD	"Can you repeat that?  <beep>"	None	None
+236	1233.26	CMD	"my time is up"	None	None
+237	1238.91	DM->CMD	"ok"	None	None
+238	1246.12	CMD	"<a: go ahead okay>"	None	None
+239	1247.47	CMD	"how many doorways were there"	None	None
+240	1248.89999999999	CMD	"i counted sixteen"	None	None
+241	1252.12999999999	CMD	"<a: great>"	None	None
+242	1252.89999999999	CMD	"<a: um how many shoes were there>"	None	None
+243	1255.25	CMD	"two shoes"	None	None
+244	1260.1	CMD	"<a:yep>"	None	None
+245	1260.33	CMD	"<a: um do you think there's anything that indicates the environment has recently been occupied>"	None	None
+246	1265.48	CMD	"yes"	None	None

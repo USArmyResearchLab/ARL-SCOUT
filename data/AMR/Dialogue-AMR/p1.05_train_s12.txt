@@ -1,0 +1,16 @@
+p1.05_train_s12
+# ::tok < pause > trying to find out the number of doorways
+# ::snt <pause> trying to find out the number of doorways
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (t / task-01
+		:ARG1 (f / find-out-03
+			:ARG0 c
+			:ARG1 (n / number
+				:quant-of (d / doorway)))
+		:ARG2 c
+		:complete -
+		:ongoing +
+		:time (n2 / now))
+	:ARG2 (r / robot-dm))
+

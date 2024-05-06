@@ -1,0 +1,22 @@
+p2.01_main1_s262
+# ::tok okay move close to it < laughter >
+# ::snt okay move close to it <laughter>
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG4 (c3 / close-10
+				:ARG1 r
+				:ARG2 (i / it))
+			:completable +
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r))
+

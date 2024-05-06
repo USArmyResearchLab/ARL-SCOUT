@@ -1,0 +1,13 @@
+p2.06_main2_s171
+# ::tok turn left 30 degrees
+# ::snt turn left 30 degrees
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (l / left-20
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 30
+		:unit (d / degree))
+	:mode imperative)
+

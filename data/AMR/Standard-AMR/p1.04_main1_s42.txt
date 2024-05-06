@@ -1,0 +1,15 @@
+p1.04_main1_s42
+# ::tok I see a few walls . Which wall should I move to ?
+# ::snt I see a few walls. Which wall should I move to?
+(m / multi-sentence
+	:snt1 (s / see-01
+		:ARG0 (i / i)
+		:ARG1 (w / wall
+			:quant (f / few)))
+	:snt2 (r / recommend-01
+		:ARG1 (m2 / move-01
+			:ARG0 i
+			:ARG1 i
+			:ARG2 (a / amr-unknown
+				:domain w))))
+

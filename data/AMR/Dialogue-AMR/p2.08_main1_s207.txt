@@ -1,0 +1,14 @@
+p2.08_main1_s207
+# ::tok turn around
+# ::snt turn around
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:extent (a2 / around)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

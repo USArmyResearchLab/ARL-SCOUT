@@ -1,0 +1,351 @@
+id	time	stream	text	tu	rel	ant	context
+2	2019-07-29 14:45:20.63	RN	"calibrating. . ."	1	1	ack-doing	None
+3	2019-07-29 14:45:20.64	DM->CMD	"calibrating. . ."	1	2	translation-l	None
+4	2019-07-29 14:45:27.80	RN	"calibration complete"	1	1	ack-done	None
+5	2019-07-29 14:45:27.80	DM->CMD	"calibration complete"	1	4	translation-l	None
+6	2019-07-29 14:45:36.52	CMD	"I am ready"	2	None	None	None
+7	2019-07-29 14:45:37.53	DM->RN	"participant is ready"	2	6	translation-r-direct	None
+8	2019-07-29 14:45:37.53	DM->CMD	"Processing...."	2	6	processing	None
+9	2019-07-29 14:45:40.40	RN	"I'm also ready.  <beep>"	2	7	reciprocal	None
+10	2019-07-29 14:45:40.40	DM->CMD	"I'm also ready.  <beep>"	2	9	translation-l	None
+11	2019-07-29 14:45:46.02	CMD	"take image"	3	None	None	None
+12	2019-07-29 14:45:47.24	DM->RN	"send image"	3	11	translation-r-direct	None
+13	2019-07-29 14:45:47.27	DM->CMD	"I will send image."	3	11	ack-wilco	None
+14	2019-07-29 14:45:49.49	RN	"sent"	3	12	ack-done	None
+15	2019-07-29 14:45:49.51	DM->CMD	"sent"	3	14	translation-l	None
+16	2019-07-29 14:46:01.27	CMD	"move forward"	4	None	None	None
+17	2019-07-29 14:46:02.18	DM->CMD	"Can you repeat that?  <beep>"	4	16	req-repeat	None
+18	2019-07-29 14:46:08.17	CMD	"move forward"	4	17	clar-repeat	None
+19	2019-07-29 14:46:08.88	DM->CMD	"How far should I move forward? <beep>"	4	18	req-clar	None
+20	2019-07-29 14:46:12.67	CMD	"six feet"	4	19	clar-repair	None
+21	2019-07-29 14:46:13.03	DM->RN	"move forward 6ft"	4	20*	translation-r-direct	None
+22	2019-07-29 14:46:13.03	DM->CMD	"I will move forward 6ft."	4	20*	ack-wilco	None
+23	2019-07-29 14:46:15.65	RN	"moving. . ."	4	21	ack-doing	None
+24	2019-07-29 14:46:15.72	DM->CMD	"moving. . ."	4	23	translation-l	None
+25	2019-07-29 14:46:24.66	RN	"done"	4	21	ack-done	None
+26	2019-07-29 14:46:24.74	DM->CMD	"done"	4	25	translation-l	None
+27	2019-07-29 14:46:30.37	CMD	"take image"	5	None	None	None
+28	2019-07-29 14:46:30.88	DM->RN	"send image"	5	27	translation-r-direct	None
+29	2019-07-29 14:46:30.88	DM->CMD	"I will send image."	5	27	ack-wilco	None
+30	2019-07-29 14:46:32.17	RN	"sent"	5	28	ack-done	None
+31	2019-07-29 14:46:32.22	DM->CMD	"sent"	5	30	translation-l	None
+32	2019-07-29 14:46:48.04	CMD	"move forward"	6	None	None	None
+33	2019-07-29 14:46:49.03	DM->CMD	"How far should I move forward? <beep>"	6	32	req-clar	None
+34	2019-07-29 14:46:57.63	CMD	"six feet"	6	33	clar-repair	None
+35	2019-07-29 14:46:58.10	DM->RN	"move forward 6ft"	6	34*	translation-r-direct	None
+36	2019-07-29 14:46:58.10	DM->CMD	"I will move forward 6ft."	6	34*	ack-wilco	None
+37	2019-07-29 14:47:02.59	RN	"moving. . ."	6	35	ack-doing	None
+38	2019-07-29 14:47:02.62	DM->CMD	"moving. . ."	6	37	translation-l	None
+39	2019-07-29 14:47:14.00	RN	"done"	6	35	ack-done	None
+40	2019-07-29 14:47:14.09	DM->CMD	"done"	6	39	translation-l	None
+41	2019-07-29 14:47:32.84	CMD	"take image"	7	None	None	None
+42	2019-07-29 14:47:33.73	DM->RN	"send image"	7	41	translation-r-direct	None
+43	2019-07-29 14:47:33.73	DM->CMD	"I will send image."	7	41	ack-wilco	None
+44	2019-07-29 14:47:35.35	RN	"sent"	7	42	ack-done	None
+45	2019-07-29 14:47:35.37	DM->CMD	"sent"	7	44	translation-l	None
+46	2019-07-29 14:47:44.88	CMD	"look left"	8	None	None	None
+47	2019-07-29 14:47:45.29	DM->RN	"turn left 90 degrees"	8	46	translation-r-situated	None
+48	2019-07-29 14:47:45.32	DM->CMD	"I will turn left 90 degrees."	8	46	ack-wilco	None
+49	2019-07-29 14:47:47.72	RN	"turning. . ."	8	47	ack-doing	None
+50	2019-07-29 14:47:47.78	DM->CMD	"turning. . ."	8	49	translation-l	None
+51	2019-07-29 14:47:59.62	RN	"done"	8	47	ack-done	None
+52	2019-07-29 14:47:59.66	DM->CMD	"done"	8	51	translation-l	None
+53	2019-07-29 14:48:04.13	CMD	"take image"	9	None	None	None
+54	2019-07-29 14:48:04.87	DM->RN	"send image"	9	53	translation-r-direct	None
+55	2019-07-29 14:48:04.87	DM->CMD	"I will send image."	9	53	ack-wilco	None
+56	2019-07-29 14:48:06.35	RN	"sent"	9	54	ack-done	None
+57	2019-07-29 14:48:06.42	DM->CMD	"sent"	9	56	translation-l	None
+58	2019-07-29 14:48:20.98	CMD	"move forward"	10	None	None	None
+59	2019-07-29 14:48:22.28	DM->CMD	"How far should I move forward? <beep>"	10	58	req-clar	None
+60	2019-07-29 14:48:25.68	CMD	"three feet"	10	59	clar-repair	None
+61	2019-07-29 14:48:26.43	DM->RN	"move forward 3 feet"	10	60*	translation-r-direct	None
+62	2019-07-29 14:48:26.43	DM->CMD	"I will move forward 3 feet."	10	60*	ack-wilco	None
+63	2019-07-29 14:48:30.37	RN	"moving. . ."	10	61	ack-doing	None
+64	2019-07-29 14:48:30.48	DM->CMD	"moving. . ."	10	63	translation-l	None
+65	2019-07-29 14:48:37.18	RN	"done"	10	61	ack-done	None
+66	2019-07-29 14:48:37.25	DM->CMD	"done"	10	65	translation-l	None
+67	2019-07-29 14:48:43.52	CMD	"take image"	11	None	None	None
+68	2019-07-29 14:48:43.97	DM->RN	"send image"	11	67	translation-r-direct	None
+69	2019-07-29 14:48:43.98	DM->CMD	"I will send image."	11	67	ack-wilco	None
+70	2019-07-29 14:48:46.95	RN	"sent"	11	68	ack-done	None
+71	2019-07-29 14:48:46.97	DM->CMD	"sent"	11	70	translation-l	None
+72	2019-07-29 14:49:00.42	CMD	"move forward ten inches"	12	None	None	None
+73	2019-07-29 14:49:00.93	DM->RN	"move forward 1 foot"	12	72	translation-r-direct	None
+74	2019-07-29 14:49:00.94	DM->CMD	"I will move forward 1 foot."	12	72	ack-wilco	None
+75	2019-07-29 14:49:02.72	RN	"moving. . ."	12	73	ack-doing	None
+76	2019-07-29 14:49:02.76	DM->CMD	"moving. . ."	12	75	translation-l	None
+77	2019-07-29 14:49:10.89	RN	"done"	12	73	ack-done	None
+78	2019-07-29 14:49:11.02	DM->CMD	"done"	12	77	translation-l	None
+79	2019-07-29 14:49:24.18	CMD	"take image"	13	None	None	None
+80	2019-07-29 14:49:24.93	DM->CMD	"Can you repeat that?  <beep>"	13	79	req-repeat	None
+81	2019-07-29 14:49:28.57	CMD	"take image"	13	80	clar-repeat	None
+82	2019-07-29 14:49:29.28	DM->RN	"send image"	13	81	translation-r-direct	None
+83	2019-07-29 14:49:29.32	DM->CMD	"I will send image."	13	81	ack-wilco	None
+84	2019-07-29 14:49:31.28	RN	"sent"	13	82	ack-done	None
+85	2019-07-29 14:49:31.32	DM->CMD	"sent"	13	84	translation-l	None
+86	2019-07-29 14:49:59.12	CMD	"move forward"	14	None	None	None
+87	2019-07-29 14:50:00.07	DM->CMD	"How far should I move forward? <beep>"	14	86	req-clar	None
+88	2019-07-29 14:50:03.27	CMD	"nine feet"	14	87	clar-repair	None
+89	2019-07-29 14:50:03.77	DM->CMD	"Can you repeat that?  <beep>"	14	88	req-repeat	None
+90	2019-07-29 14:50:08.02	CMD	"nine feet"	14	89	clar-repeat	None
+91	2019-07-29 14:50:08.72	DM->CMD	"Can you repeat that?  <beep>"	14	90	req-repeat	None
+92	2019-07-29 14:50:19.82	CMD	"nine feet"	14	91	clar-repeat	None
+93	2019-07-29 14:50:19.93	DM->CMD	"Can you repeat that?  <beep>"	14	92	req-repeat	None
+94	2019-07-29 14:50:27.54	CMD	"turn around"	15	None	None	None
+95	2019-07-29 14:50:28.51	DM->RN	"turn 180"	15	94	translation-r-direct	None
+96	2019-07-29 14:50:28.52	DM->CMD	"I will turn 180."	15	94	ack-wilco	None
+97	2019-07-29 14:50:31.45	RN	"turning. . ."	15	95	ack-doing	None
+98	2019-07-29 14:50:31.52	DM->CMD	"turning. . ."	15	97	translation-l	None
+99	2019-07-29 14:50:45.09	RN	"done"	15	95	ack-done	None
+100	2019-07-29 14:50:45.14	DM->CMD	"done"	15	99	translation-l	None
+101	2019-07-29 14:52:31.02	CMD	"take image"	16	None	None	None
+102	2019-07-29 14:52:31.63	DM->RN	"send image"	16	101	translation-r-direct	None
+103	2019-07-29 14:52:31.63	DM->CMD	"I will send image."	16	101	ack-wilco	None
+104	2019-07-29 14:52:35.38	RN	"sent"	16	102	ack-done	None
+105	2019-07-29 14:52:35.43	DM->CMD	"sent"	16	104	translation-l	None
+106	2019-07-29 14:53:28.97	CMD	"move forward five feet"	17	None	None	None
+107	2019-07-29 14:53:29.83	DM->RN	"send image"	17	106	translation-r-direct-error	None
+108	2019-07-29 14:53:29.84	DM->CMD	"I will send image."	17	106	ack-wilco	None
+109	2019-07-29 14:53:33.04	RN	"sent"	17	107	ack-done	None
+110	2019-07-29 14:53:33.08	DM->CMD	"sent"	17	109	translation-l	None
+111	2019-07-29 14:53:33.16	CMD	"move forward"	18	None	None	None
+112	2019-07-29 14:53:33.98	DM->RN	"move forward 4 feet"	18	111	translation-r-situated	None
+113	2019-07-29 14:53:33.98	DM->CMD	"I will move forward 4 feet."	18	111	ack-wilco	None
+114	2019-07-29 14:53:35.67	RN	"moving. . ."	18	112	ack-doing	None
+115	2019-07-29 14:53:35.74	DM->CMD	"moving. . ."	18	114	translation-l	None
+116	2019-07-29 14:53:41.63	RN	"done"	18	112	ack-done	None
+117	2019-07-29 14:53:41.68	DM->CMD	"done"	18	116	translation-l	None
+118	2019-07-29 14:53:58.78	CMD	"move forward"	19	None	None	None
+119	2019-07-29 14:53:59.67	DM->CMD	"How far should I move forward? <beep>"	19	118	req-clar	None
+120	2019-07-29 14:54:03.62	CMD	"ten feet"	19	119	clar-repair	None
+121	2019-07-29 14:54:04.22	DM->RN	"move forward 10 feet"	19	120*	translation-r-direct	None
+122	2019-07-29 14:54:04.22	DM->CMD	"I will move forward 10 feet."	19	120*	ack-wilco	None
+123	2019-07-29 14:54:11.07	RN	"I'm not sure if I can move that far forward.  <beep>"	19	121	ack-unsure	None
+124	2019-07-29 14:54:11.07	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	19	123	translation-l	None
+125	2019-07-29 14:54:16.62	CMD	"eight feet"	19	124	clar-repair	None
+126	2019-07-29 14:54:17.37	DM->CMD	"Can you repeat that?  <beep>"	19	125	req-repeat	None
+127	2019-07-29 14:54:26.08	CMD	"move straightforward eight feet"	19	126	clar-repeat	None
+128	2019-07-29 14:54:27.03	DM->CMD	"Can you repeat that?  <beep>"	19	127	req-repeat	None
+129	2019-07-29 14:54:35.52	CMD	"move forward eight feet"	19	128	clar-repeat	None
+130	2019-07-29 14:54:36.78	DM->CMD	"Can you repeat that?  <beep>"	19	129	req-repeat	None
+131	2019-07-29 14:54:47.04	CMD	"move right fifty degrees"	20	None	None	None
+132	2019-07-29 14:54:47.22	DM->RN	"turn right 50 degrees"	20	131	translation-r-direct	None
+133	2019-07-29 14:54:47.22	DM->CMD	"I will turn right 50 degrees."	20	131	ack-wilco	None
+134	2019-07-29 14:54:50.65	RN	"turning. . ."	20	132	ack-doing	None
+135	2019-07-29 14:54:50.70	DM->CMD	"turning. . ."	20	134	translation-l	None
+136	2019-07-29 14:54:58.50	RN	"done"	20	132	ack-done	None
+137	2019-07-29 14:54:58.58	DM->CMD	"done"	20	136	translation-l	None
+138	2019-07-29 14:55:13.73	CMD	"turn around"	21	None	None	None
+139	2019-07-29 14:55:14.03	DM->RN	"turn left 180"	21	138	translation-r-situated	None
+140	2019-07-29 14:55:14.07	DM->CMD	"I will turn left 180."	21	138	ack-wilco	None
+141	2019-07-29 14:55:19.40	RN	"turning. . ."	21	139	ack-doing	None
+142	2019-07-29 14:55:19.47	DM->CMD	"turning. . ."	21	141	translation-l	None
+143	2019-07-29 14:55:39.82	CMD	"take image"	22	None	None	None
+144	2019-07-29 14:55:41.08	DM->RN	"send image"	22	143	translation-r-direct	None
+145	2019-07-29 14:55:41.09	DM->CMD	"I will send image."	22	143	ack-wilco	None
+146	2019-07-29 14:55:42.29	RN	"sent"	22	144	ack-done	None
+147	2019-07-29 14:55:42.41	DM->CMD	"sent"	22	146	translation-l	None
+148	2019-07-29 14:56:00.42	CMD	"turn around"	23	None	None	None
+149	2019-07-29 14:56:01.02	DM->RN	"turn left 180"	23	148	translation-r-situated	None
+150	2019-07-29 14:56:01.03	DM->CMD	"I will turn left 180."	23	148	ack-wilco	None
+151	2019-07-29 14:56:04.13	RN	"turning. . ."	23	149	ack-doing	None
+152	2019-07-29 14:56:04.19	DM->CMD	"turning. . ."	23	151	translation-l	None
+153	2019-07-29 14:56:14.12	CMD	"move forward"	24	None	None	None
+154	2019-07-29 14:56:15.03	DM->CMD	"Can you repeat that?  <beep>"	24	153	req-repeat	None
+155	2019-07-29 14:56:17.97	CMD	"move forward"	24	154	clar-repeat	None
+156	2019-07-29 14:56:18.97	DM->CMD	"How far should I move forward? <beep>"	24	155	req-clar	None
+157	2019-07-29 14:56:20.91	RN	"done"	23	149	ack-done	None
+158	2019-07-29 14:56:21.02	DM->CMD	"done"	23	157	translation-l	None
+159	2019-07-29 14:56:23.32	CMD	"eight feet"	24	156	clar-repair	None
+160	2019-07-29 14:56:24.02	DM->RN	"move forward 8"	24	159*	translation-r-direct	None
+161	2019-07-29 14:56:24.04	DM->CMD	"I will move forward 8."	24	159*	ack-wilco	None
+162	2019-07-29 14:56:25.88	RN	"moving. . ."	24	160	ack-doing	None
+163	2019-07-29 14:56:25.93	DM->CMD	"moving. . ."	24	162	translation-l	None
+164	2019-07-29 14:56:35.12	RN	"done"	24	160	ack-done	None
+165	2019-07-29 14:56:35.14	DM->CMD	"done"	24	164	translation-l	None
+166	2019-07-29 14:56:42.92	CMD	"take image"	25	None	None	None
+167	2019-07-29 14:56:44.17	DM->RN	"send image"	25	166	translation-r-direct	None
+168	2019-07-29 14:56:44.18	DM->CMD	"I will send image."	25	166	ack-wilco	None
+169	2019-07-29 14:56:45.65	RN	"sent"	25	167	ack-done	None
+170	2019-07-29 14:56:45.69	DM->CMD	"sent"	25	169	translation-l	None
+171	2019-07-29 14:57:04.47	CMD	"move right thirty degrees"	26	None	None	None
+172	2019-07-29 14:57:04.92	DM->RN	"turn right 30 degrees"	26	171	translation-r-direct	None
+173	2019-07-29 14:57:04.92	DM->CMD	"I will turn right 30 degrees."	26	171	ack-wilco	None
+174	2019-07-29 14:57:07.61	RN	"turning. . ."	26	172	ack-doing	None
+175	2019-07-29 14:57:07.71	DM->CMD	"turning. . ."	26	174	translation-l	None
+176	2019-07-29 14:57:14.91	RN	"done"	26	172	ack-done	None
+177	2019-07-29 14:57:14.98	DM->CMD	"done"	26	176	translation-l	None
+178	2019-07-29 14:57:24.42	CMD	"take image"	27	None	None	None
+179	2019-07-29 14:57:25.83	DM->RN	"send image"	27	178	translation-r-direct	None
+180	2019-07-29 14:57:25.87	DM->CMD	"I will send image."	27	178	ack-wilco	None
+181	2019-07-29 14:57:27.88	RN	"sent"	27	179	ack-done	None
+182	2019-07-29 14:57:27.98	DM->CMD	"sent"	27	181	translation-l	None
+183	2019-07-29 14:57:33.52	CMD	"turn around"	28	None	None	None
+184	2019-07-29 14:57:34.28	DM->RN	"turn left 180"	28	183	translation-r-situated	None
+185	2019-07-29 14:57:34.32	DM->CMD	"I will turn left 180."	28	183	ack-wilco	None
+186	2019-07-29 14:57:37.09	RN	"turning. . ."	28	184	ack-doing	None
+187	2019-07-29 14:57:37.20	DM->CMD	"turning. . ."	28	186	translation-l	None
+188	2019-07-29 14:57:54.16	RN	"done"	28	184	ack-done	None
+189	2019-07-29 14:57:54.20	DM->CMD	"done"	28	188	translation-l	None
+190	2019-07-29 14:58:35.88	CMD	"leave room"	29	None	None	None
+191	2019-07-29 14:58:36.98	DM->CMD	"Can you repeat that?  <beep>"	29	190	req-repeat	None
+192	2019-07-29 14:58:39.72	CMD	"leave room"	29	191	clar-repeat	None
+193	2019-07-29 14:58:40.78	DM->CMD	"Can you repeat that?  <beep>"	29	192	req-repeat	None
+194	2019-07-29 14:58:43.38	CMD	"go forward"	30	None	clar-repeat	None
+195	2019-07-29 14:58:44.73	DM->CMD	"Can you repeat that?  <beep>"	30	194	req-repeat	None
+196	2019-07-29 14:58:49.27	CMD	"move forward"	30	195	clar-repeat	None
+197	2019-07-29 14:58:50.13	DM->CMD	"Can you repeat that?  <beep>"	30	196	req-repeat	None
+198	2019-07-29 14:58:55.97	CMD	"take image"	31	None	None	None
+199	2019-07-29 14:58:56.93	DM->RN	"send image"	31	198	translation-r-direct	None
+200	2019-07-29 14:58:56.97	DM->CMD	"I will send image."	31	198	ack-wilco	None
+201	2019-07-29 14:58:58.65	RN	"sent"	31	199	ack-done	None
+202	2019-07-29 14:58:58.71	DM->CMD	"sent"	31	201	translation-l	None
+203	2019-07-29 14:59:15.07	CMD	"turn right"	32	None	None	None
+204	2019-07-29 14:59:16.22	DM->CMD	"How far should I turn to the right?  <beep>"	32	203	req-clar	None
+205	2019-07-29 14:59:19.03	CMD	"seventy degrees"	32	204	clar-repair	None
+206	2019-07-29 14:59:19.78	DM->RN	"turn right 70 degrees"	32	205*	translation-r-direct	None
+207	2019-07-29 14:59:19.82	DM->CMD	"I will turn right 70 degrees."	32	205*	ack-wilco	None
+208	2019-07-29 14:59:25.20	RN	"turning. . ."	32	206	ack-doing	None
+209	2019-07-29 14:59:25.21	DM->CMD	"turning. . ."	32	208	translation-l	None
+210	2019-07-29 14:59:31.77	RN	"done"	32	206	ack-done	None
+211	2019-07-29 14:59:31.88	DM->CMD	"done"	32	210	translation-l	None
+212	2019-07-29 14:59:40.52	CMD	"take photo"	33	None	None	None
+213	2019-07-29 14:59:41.53	DM->RN	"send image"	33	212	translation-r-direct	None
+214	2019-07-29 14:59:41.56	DM->CMD	"I will send image."	33	212	ack-wilco	None
+215	2019-07-29 14:59:42.92	RN	"sent"	33	213	ack-done	None
+216	2019-07-29 14:59:42.94	DM->CMD	"sent"	33	215	translation-l	None
+217	2019-07-29 15:00:04.47	CMD	"turn left ninety degrees"	34	None	None	None
+218	2019-07-29 15:00:05.73	DM->RN	"turn left 90 degrees"	34	217	translation-r-direct	None
+219	2019-07-29 15:00:05.76	DM->CMD	"I will turn left 90 degrees."	34	217	ack-wilco	None
+220	2019-07-29 15:00:08.40	RN	"turning. . ."	34	218	ack-doing	None
+221	2019-07-29 15:00:08.55	DM->CMD	"turning. . ."	34	220	translation-l	None
+222	2019-07-29 15:00:17.79	RN	"done"	34	218	ack-done	None
+223	2019-07-29 15:00:17.87	DM->CMD	"done"	34	222	translation-l	None
+224	2019-07-29 15:00:26.37	CMD	"take image"	35	None	None	None
+225	2019-07-29 15:00:27.73	DM->RN	"send image"	35	224	translation-r-direct	None
+226	2019-07-29 15:00:27.77	DM->CMD	"I will send image."	35	224	ack-wilco	None
+227	2019-07-29 15:00:29.16	RN	"sent"	35	225	ack-done	None
+228	2019-07-29 15:00:29.23	DM->CMD	"sent"	35	227	translation-l	None
+229	2019-07-29 15:00:50.58	CMD	"all right turn right"	36	None	None	None
+230	2019-07-29 15:00:51.38	DM->CMD	"Can you repeat that?  <beep>"	36	229	req-repeat	None
+231	2019-07-29 15:00:53.98	CMD	"turn right"	36	230	clar-repeat	None
+232	2019-07-29 15:00:54.82	DM->CMD	"How far should I turn to the right?  <beep>"	36	231	req-clar	None
+233	2019-07-29 15:00:58.52	CMD	"ninety degrees"	36	232	clar-repair	None
+234	2019-07-29 15:00:59.13	DM->RN	"turn right 90 degrees"	36	233*	translation-r-direct	None
+235	2019-07-29 15:00:59.13	DM->CMD	"I will turn right 90 degrees."	36	233*	ack-wilco	None
+236	2019-07-29 15:01:01.45	RN	"turning. . ."	36	234	ack-doing	None
+237	2019-07-29 15:01:01.59	DM->CMD	"turning. . ."	36	236	translation-l	None
+238	2019-07-29 15:01:08.69	RN	"done"	36	234	ack-done	None
+239	2019-07-29 15:01:08.75	DM->CMD	"done"	36	238	translation-l	None
+240	2019-07-29 15:01:11.87	CMD	"take image"	37	None	None	None
+241	2019-07-29 15:01:12.77	DM->RN	"send image"	37	240	translation-r-direct	None
+242	2019-07-29 15:01:12.77	DM->CMD	"I will send image."	37	240	ack-wilco	None
+243	2019-07-29 15:01:14.22	RN	"sent"	37	241	ack-done	None
+244	2019-07-29 15:01:14.29	DM->CMD	"sent"	37	243	translation-l	None
+245	2019-07-29 15:01:19.02	CMD	"turn right ninety degrees"	38	None	None	None
+246	2019-07-29 15:01:20.26	DM->RN	"turn right 90 degrees"	38	245	translation-r-direct	None
+247	2019-07-29 15:01:20.27	DM->CMD	"I will turn right 90 degrees."	38	245	ack-wilco	None
+248	2019-07-29 15:01:23.42	RN	"turning. . ."	38	246	ack-doing	None
+249	2019-07-29 15:01:23.50	DM->CMD	"turning. . ."	38	248	translation-l	None
+250	2019-07-29 15:01:30.69	RN	"done"	38	246	ack-done	None
+251	2019-07-29 15:01:30.78	DM->CMD	"done"	38	250	translation-l	None
+252	2019-07-29 15:01:35.92	CMD	"take image"	39	None	None	None
+253	2019-07-29 15:01:37.02	DM->RN	"send image"	39	252	translation-r-direct	None
+254	2019-07-29 15:01:37.03	DM->CMD	"I will send image."	39	252	ack-wilco	None
+255	2019-07-29 15:01:38.76	RN	"sent"	39	253	ack-done	None
+256	2019-07-29 15:01:38.86	DM->CMD	"sent"	39	255	translation-l	None
+257	2019-07-29 15:01:58.57	CMD	"turn left ninety degrees"	40	None	None	None
+258	2019-07-29 15:01:59.98	DM->RN	"turn left 90 degrees"	40	257	translation-r-direct	None
+259	2019-07-29 15:02:00.02	DM->CMD	"I will turn left 90 degrees."	40	257	ack-wilco	None
+260	2019-07-29 15:02:02.52	RN	"turning. . ."	40	258	ack-doing	None
+261	2019-07-29 15:02:02.53	DM->CMD	"turning. . ."	40	260	translation-l	None
+262	2019-07-29 15:02:12.92	RN	"done"	40	258	ack-done	None
+263	2019-07-29 15:02:12.96	DM->CMD	"done"	40	262	translation-l	None
+264	2019-07-29 15:02:17.93	CMD	"turn right ninety degrees"	41	None	None	None
+265	2019-07-29 15:02:18.87	DM->RN	"turn right 90 degrees"	41	264	translation-r-direct	None
+266	2019-07-29 15:02:18.92	DM->CMD	"I will turn right 90 degrees."	41	264	ack-wilco	None
+267	2019-07-29 15:02:21.02	RN	"turning. . ."	41	265	ack-doing	None
+268	2019-07-29 15:02:21.05	DM->CMD	"turning. . ."	41	267	translation-l	None
+269	2019-07-29 15:02:29.28	RN	"done"	41	265	ack-done	None
+270	2019-07-29 15:02:29.34	DM->CMD	"done"	41	269	translation-l	None
+271	2019-07-29 15:02:35.37	CMD	"true right forty degrees"	42	None	None	None
+272	2019-07-29 15:02:36.02	DM->RN	"turn right 45 degrees"	42	271	translation-r-direct	None
+273	2019-07-29 15:02:36.02	DM->CMD	"I will turn right 45 degrees."	42	271	ack-wilco	None
+274	2019-07-29 15:02:38.21	RN	"turning. . ."	42	272	ack-doing	None
+275	2019-07-29 15:02:38.25	DM->CMD	"turning. . ."	42	274	translation-l	None
+276	2019-07-29 15:02:45.52	RN	"done"	42	272	ack-done	None
+277	2019-07-29 15:02:45.62	DM->CMD	"done"	42	276	translation-l	None
+278	2019-07-29 15:02:50.87	CMD	"take image"	43	None	None	None
+279	2019-07-29 15:02:50.98	DM->RN	"send image"	43	278	translation-r-direct	None
+280	2019-07-29 15:02:51.02	DM->CMD	"I will send image."	43	278	ack-wilco	None
+281	2019-07-29 15:02:52.05	RN	"sent"	43	279	ack-done	None
+282	2019-07-29 15:02:52.08	DM->CMD	"sent"	43	281	translation-l	None
+283	2019-07-29 15:03:11.83	CMD	"turn right thirty degrees"	44	None	None	None
+284	2019-07-29 15:03:12.17	DM->RN	"turn right 30 degrees"	44	283	translation-r-direct	None
+285	2019-07-29 15:03:12.18	DM->CMD	"I will turn right 30 degrees."	44	283	ack-wilco	None
+286	2019-07-29 15:03:14.03	RN	"turning. . ."	44	284	ack-doing	None
+287	2019-07-29 15:03:14.09	DM->CMD	"turning. . ."	44	286	translation-l	None
+288	2019-07-29 15:03:18.14	RN	"done"	44	284	ack-done	None
+289	2019-07-29 15:03:18.19	DM->CMD	"done"	44	288	translation-l	None
+290	2019-07-29 15:03:21.27	CMD	"take image"	45	None	None	None
+291	2019-07-29 15:03:22.08	DM->RN	"send image"	45	290	translation-r-direct	None
+292	2019-07-29 15:03:22.12	DM->CMD	"I will send image."	45	290	ack-wilco	None
+293	2019-07-29 15:03:23.28	RN	"sent"	45	291	ack-done	None
+294	2019-07-29 15:03:23.32	DM->CMD	"sent"	45	293	translation-l	None
+295	2019-07-29 15:03:32.27	CMD	"move forward four feet"	46	None	None	None
+296	2019-07-29 15:03:32.33	DM->RN	"move forward 4"	46	295	translation-r-direct	None
+297	2019-07-29 15:03:32.37	DM->CMD	"I will move forward 4."	46	295	ack-wilco	None
+298	2019-07-29 15:03:34.21	RN	"moving. . ."	46	296	ack-doing	None
+299	2019-07-29 15:03:34.27	DM->CMD	"moving. . ."	46	298	translation-l	None
+300	2019-07-29 15:03:39.25	RN	"done"	46	296	ack-done	None
+301	2019-07-29 15:03:39.28	DM->CMD	"done"	46	300	translation-l	None
+302	2019-07-29 15:03:44.64	CMD	"take image"	47	None	None	None
+303	2019-07-29 15:03:44.88	DM->RN	"send image"	47	302	translation-r-direct	None
+304	2019-07-29 15:03:44.92	DM->CMD	"I will send image."	47	302	ack-wilco	None
+305	2019-07-29 15:03:46.92	RN	"sent"	47	303	ack-done	None
+306	2019-07-29 15:03:46.97	DM->CMD	"sent"	47	305	translation-l	None
+307	2019-07-29 15:03:54.58	CMD	"go in doorway"	48	None	None	None
+308	2019-07-29 15:03:55.62	DM->CMD	"Can you repeat that?  <beep>"	48	307	req-repeat	None
+309	2019-07-29 15:04:00.63	CMD	"move into doorway"	48	308	clar-repeat	None
+310	2019-07-29 15:04:01.29	DM->RN	"move into room"	48	309	translation-r-landmark	None
+311	2019-07-29 15:04:01.32	DM->CMD	"I will try to move into room."	48	309	ack-wilco	None
+312	2019-07-29 15:04:05.25	RN	"moving. . ."	48	310	ack-doing	None
+313	2019-07-29 15:04:05.29	DM->CMD	"moving. . ."	48	312	translation-l	None
+314	2019-07-29 15:04:13.18	RN	"done"	48	310	ack-done	None
+315	2019-07-29 15:04:13.28	DM->CMD	"done"	48	314	translation-l	None
+316	2019-07-29 15:04:21.83	CMD	"take image"	49	None	None	None
+317	2019-07-29 15:04:22.18	DM->CMD	"Can you repeat that?  <beep>"	49	316	req-repeat	None
+318	2019-07-29 15:04:26.53	CMD	"take image"	49	317	clar-repeat	None
+319	2019-07-29 15:04:26.73	DM->RN	"send image"	49	318	translation-r-direct	None
+320	2019-07-29 15:04:26.77	DM->CMD	"I will send image."	49	318	ack-wilco	None
+321	2019-07-29 15:04:28.22	RN	"sent"	49	319	ack-done	None
+322	2019-07-29 15:04:28.33	DM->CMD	"sent"	49	321	translation-l	None
+323	2019-07-29 15:04:49.92	CMD	"turn left fifty degrees"	50	None	None	None
+324	2019-07-29 15:04:50.58	DM->RN	"turn right 50 degrees"	50	323	translation-r-direct-error	None
+325	2019-07-29 15:04:50.61	DM->CMD	"I will turn right 50 degrees."	50	323	ack-wilco	None
+326	2019-07-29 15:04:54.98	RN	"turning. . ."	50	324	ack-doing	None
+327	2019-07-29 15:04:55.06	DM->CMD	"turning. . ."	50	326	translation-l	None
+328	2019-07-29 15:05:02.05	RN	"done"	50	324	ack-done	None
+329	2019-07-29 15:05:02.06	DM->CMD	"done"	50	328	translation-l	None
+330	2019-07-29 15:05:06.07	CMD	"take image"	51	None	None	None
+331	2019-07-29 15:05:07.00	DM->RN	"send image"	51	330	translation-r-direct	None
+332	2019-07-29 15:05:07.00	DM->CMD	"I will send image."	51	330	ack-wilco	None
+333	2019-07-29 15:05:09.11	RN	"sent"	51	331	ack-done	None
+334	2019-07-29 15:05:09.27	DM->CMD	"sent"	51	333	translation-l	None
+335	2019-07-29 15:05:20.12	CMD	"turn left one forty degrees"	52	None	None	None
+336	2019-07-29 15:05:20.38	DM->CMD	"Can you repeat that?  <beep>"	52	335	req-repeat	None
+337	2019-07-29 15:05:26.02	CMD	"turn left one hundred and forty degrees"	52	336	clar-repeat	None
+338	2019-07-29 15:05:26.23	DM->RN	"turn 180"	52	337	translation-r-situated	None
+339	2019-07-29 15:05:26.27	DM->CMD	"I will turn 180."	52	337	ack-wilco	None
+340	2019-07-29 15:05:28.20	RN	"turning. . ."	52	338	ack-doing	None
+341	2019-07-29 15:05:28.24	DM->CMD	"turning. . ."	52	340	translation-l	None
+342	2019-07-29 15:05:42.25	RN	"done"	52	338	ack-done	None
+343	2019-07-29 15:05:42.38	DM->CMD	"done"	52	342	translation-l	None
+344	2019-07-29 15:06:10.02	CMD	"task complete"	53	None	None	None
+345	2019-07-29 15:06:11.03	DM->CMD	"I can hear you"	53	344	comment	None
+346	2019-07-29 15:06:20.02	CMD	"task complete"	54	None	None	None
+347	2019-07-29 15:06:20.78	DM->CMD	"Can you repeat that?  <beep>"	54	346	req-repeat	None
+348	2019-07-29 15:06:26.97	CMD	"task complete"	54	347	clar-repeat	None
+349	2019-07-29 15:06:27.83	DM->RN	"end task"	54	348	translation-r-direct	None
+350	2019-07-29 15:06:27.87	DM->CMD	"Processing...."	54	348	processing	None
+351	2019-07-29 15:06:31.31	RN	"Great job, teammate!  Task complete.  <beep>"	54	349	ack-done	None

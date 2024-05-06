@@ -1,0 +1,11 @@
+p3.29_main1_s132
+# ::tok go forward four four feet
+# ::snt go forward four four feet
+(g / go-02
+	:ARG0 (y / you)
+	:direction (f2 / forward)
+	:extent (d / distance-quantity
+		:quant 4
+		:unit (f / foot))
+	:mode imperative)
+

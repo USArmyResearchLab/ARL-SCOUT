@@ -1,0 +1,9 @@
+p2.08_main1_s191
+# ::tok I see more than one doorway . < beep >
+# ::snt I see more than one doorway. <beep>
+(s / see-01
+	:ARG0 (i / i)
+	:ARG1 (d / doorway
+		:quant (m / more-than
+			:op1 1)))
+

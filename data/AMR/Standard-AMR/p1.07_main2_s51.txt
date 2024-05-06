@@ -1,0 +1,15 @@
+p1.07_main2_s51
+# ::tok and then turn forty five degrees to your right
+# ::snt and then turn forty five degrees to your right
+(a / and
+	:op2 (t / turn-01
+		:ARG0 (y / you)
+		:ARG1 y
+		:direction (r / right-04
+			:ARG2 y)
+		:extent (a2 / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:mode imperative
+		:time (t2 / then)))
+

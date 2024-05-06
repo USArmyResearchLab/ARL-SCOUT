@@ -1,0 +1,11 @@
+p2.06_main2_s194
+# ::tok Would you like me to send a picture ? < beep >
+# ::snt Would you like me to send a picture? <beep>
+(l / like-02
+	:ARG0 (y / you)
+	:ARG1 (s / send-01
+		:ARG0 (i / i)
+		:ARG1 (p / picture)
+		:ARG2 y)
+	:polarity (a / amr-unknown))
+

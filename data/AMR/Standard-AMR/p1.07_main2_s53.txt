@@ -1,0 +1,24 @@
+p1.07_main2_s53
+# ::tok back up 11 feet , turn 45 right , image
+# ::snt back up 11 feet, turn 45 right, image
+(a / and
+	:op1 (b / back-up-06
+		:ARG0 (y / you)
+		:ARG1 y
+		:extent (d / distance-quantity
+			:quant 11
+			:unit (f / foot))
+		:mode imperative)
+	:op2 (t / turn-01
+		:ARG0 y
+		:ARG1 y
+		:direction (r / right-04
+			:ARG2 y)
+		:extent (a2 / angle-quantity
+			:quant 45
+			:unit (d2 / degree))
+		:mode imperative)
+	:op3 (i / image-101
+		:ARG0 y
+		:mode imperative))
+

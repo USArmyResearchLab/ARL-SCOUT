@@ -1,0 +1,18 @@
+p2.07_main2_s50
+# ::tok move five feet down the hallway on your right
+# ::snt move five feet down the hallway on your right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:path (h / hallway
+			:ARG0-of (r / right-04
+				:ARG2 r2))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r2)
+

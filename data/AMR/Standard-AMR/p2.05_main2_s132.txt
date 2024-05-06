@@ -1,0 +1,14 @@
+p2.05_main2_s132
+# ::tok robot turn around
+# ::snt robot turn around
+(s / say-01
+	:ARG0 (i / i)
+	:ARG1 (t / turn-01
+		:ARG0 (y / you
+			:name (n / name
+				:op1 "Robot"))
+		:ARG1 y
+		:extent (a / around)
+		:mode imperative)
+	:ARG2 y)
+

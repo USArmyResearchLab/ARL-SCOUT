@@ -1,0 +1,17 @@
+p3.29_main1_s145
+# ::tok I will move forward as far as I can , ok ?
+# ::snt I will move forward as far as I can, ok?
+(m / move-01
+	:ARG0 (i / i
+		:ARG0-of (r / request-confirmation-91
+			:ARG2 (y / you)))
+	:ARG1 i
+	:ARG1-of (h / have-degree-91
+		:ARG2 (f2 / far)
+		:ARG3 (e / equal)
+		:ARG4 (d / distance-quantity
+			:ARG1-of (p / possible-01)))
+	:ARG1-of r
+	:direction (f / forward)
+	:extent f2)
+

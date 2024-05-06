@@ -1,0 +1,18 @@
+p2.02_main1_s82
+# ::tok uh i think six feet is too fff far
+# ::snt uh i think six feet is too fff far
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG1-of (c2 / cause-01
+		:ARG0 (h / have-degree-91
+			:ARG1 (d / distance-quantity
+				:quant 6
+				:unit (f / foot))
+			:ARG2 (f2 / far)
+			:ARG3 (t / too)))
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:polarity -
+	:time (n / now))
+

@@ -1,0 +1,15 @@
+p1.09_main1_s98
+# ::tok and then go into the other entryway on the left side of that room
+# ::snt and then go into the other entryway on the left side of that room
+(a / and
+	:op2 (g / go-02
+		:ARG0 (y / you)
+		:ARG4 (e / entryway
+			:location (s / side
+				:ARG1-of (l / left-20)
+				:part-of (r / room
+					:mod (t / that)))
+			:mod (o / other))
+		:mode imperative
+		:time (t2 / then)))
+

@@ -1,0 +1,27 @@
+p1.04_main1_s42
+# ::tok I see a few walls . Which wall should I move to ?
+# ::snt I see a few walls. Which wall should I move to?
+(m / multi-sentence
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (s / see-01
+			:ARG0 r
+			:ARG1 (w / wall
+				:quant (f / few))
+			:stable -
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (c2 / clarify-10
+			:ARG0 c
+			:ARG1 (g / go-02
+				:ARG0 r
+				:ARG4 (a2 / amr-unknown
+					:domain w))
+			:ARG2 r
+			:completable +
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+

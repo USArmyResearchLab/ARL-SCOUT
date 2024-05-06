@@ -1,0 +1,201 @@
+id	time	stream	text	tu	rel	ant	context
+2	7.09	RN	"ready"	1	None	None	None
+3	11.82	DM->CMD	"I'm also ready.  Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	1	None	None	None
+4	22.77	CMD	"move forward"	2	None	None	None
+5	38.15	DM->CMD	"I'm not sure where or when to stop moving forward. You can tell me to move a certain distance or to an object that you see."	2	4	missing-info	None
+6	53.66999999999999	RN	"<no speech>"	None	None	None	None
+7	57.48	CMD	"turn left"	3	None	None	None
+8	75.91	DM->CMD	"How far should I turn left?  You can tell me to turn a certain number of degrees or to face an object."	3	7	req-clar	None
+9	79.13	RN	"<no speech>"	None	None	None	None
+10	80.37	DM->CMD	"Would you like me to send a picture?"	3	8	continue	None
+11	89.77000000000001	CMD	"uhh thirty degrees left"	3	8	clar-repair	None
+12	90.69	RN	"<no speech>"	None	None	None	None
+13	93.63000000000001	CMD	"please send picture"	3	10	offer-accept	None
+14A	97.99	DM->RN	"turn left 30, "	3	11	translation-r-contextual	None
+14B	None	DM->RN	"image"	3	13	translation-r-direct	None
+15	105.38	RN	"image sent"	3	14B*	ack-done	None
+16	110.96	DM->CMD	"sent"	3	15	translation-l	None
+17	116.66	CMD	"take photo of cone"	4	None	None	None
+18	164.23	DM->CMD	"I'm not sure which object you are referring to.  Would you like me to move closer to the orange object and send a photo?"	4	17	req-clar	None
+19	166.48	CMD	"yes"	4	18	clar-repair	None
+20A	184.64	DM->RN	"Move to take a good picture of cone. "	4	19*	translation-r-situated-partial	None
+20B	None	DM->RN	"send image"	4	20A	continue	None
+21	189.19	DM->CMD	"executing..."	4	19*	ack-doing	None
+22	197.02	RN	"image sent"	4	20B*	ack-done	None
+23	197.98	DM->CMD	"sent"	4	22	translation-l	None
+24	239.05	RN	"<unintelligible>"	None	None	None	None
+25	245.9	CMD	"turn fifteen degrees right"	5	None	None	None
+26	251.39	CMD	"and move forward until I say stop"	5	25	continue	None
+27	267.43	RN	"<unintelligible>"	None	None	None	None
+28	285.89	DM->CMD	"There is too much lag time for me to wait for you to tell me to stop.  About how far would you like me to move forward after turning 15 degrees right?"	5	26*	req-clar	None
+29	295.25	CMD	"fifteen feet"	5	28	clar-repair	None
+30A	298.01	DM->RN	"turn 15 right, "	5	25	translation-r-direct	None
+30B	None	DM->RN	"move forward 15 feet."	5	29*	translation-r-direct	None
+31	305.89	DM->CMD	"executing..."	5	29*	ack-doing	None
+32	311.28	RN	"I'm not gonna be able to move forward fifteen feet"	5	30B	comment	None
+33	320.01	RN	"I'm just gonna hit the wall if I do that so I can just move forward as far as I can"	5	32	continue	None
+34	337.06	RN	"I moved five feet"	5	30B*	ack-done	None
+35	347.54	DM->CMD	"I moved forward as far as I could after turning right."	5	34	translation-l	None
+36	355.88	CMD	"turn to the right another thirty degrees"	6	None	None	None
+37	361.71	DM->RN	"turn right 30"	6	36	translation-r-direct	None
+38	364.78	DM->CMD	"executing..."	6	36	ack-doing	None
+39	373.06	RN	"done"	6	37	ack-done	None
+40	373.76	DM->CMD	"done"	6	39	translation-l	None
+41	380.5	CMD	"now move forward fifteen feet"	7	None	None	None
+42	385.89	DM->RN	"move forward 15 feet"	7	41	translation-r-direct	None
+43	388.78	DM->CMD	"executing..."	7	41	ack-doing	None
+44	404.32	RN	"done"	7	42	ack-done	None
+45	405.49	DM->CMD	"done"	7	44	translation-l	None
+46	414.39	CMD	"show me your surroundings"	8	None	None	None
+47	433.83	DM->CMD	"I'm not sure what you mean.  Would you like me to send you a picture?"	8	46	req-clar	None
+48	440.6	CMD	"yes"	8	47	clar-repair	None
+49	440.61	DM->RN	"image"	8	48*	translation-r-direct	None
+50	443.26	RN	"image sent"	8	49	ack-done	None
+51	443.94	DM->CMD	"sent"	8	50	translation-l	None
+52	460.69	CMD	"turn ninety degrees to the left"	9	None	None	None
+53	464.98	DM->RN	"turn 90 left"	9	52	translation-r-direct	None
+54	467.97	DM->CMD	"executing..."	9	52	ack-doing	None
+55	477.08	RN	"done"	9	53	ack-done	None
+56	478.23	DM->CMD	"done"	9	55	translation-l	None
+57	487.23	CMD	"send picture"	10	None	None	None
+58	489.99	DM->RN	"image"	10	57	translation-r-direct	None
+59	492.57	RN	"image sent"	10	58	ack-done	None
+60	493.41	DM->CMD	"sent"	10	59	translation-l	None
+61	500.15	CMD	"back up three feet"	11	None	None	None
+62	503.22	DM->RN	"back up 3 feet"	11	61	translation-r-direct	None
+63	505.97	DM->CMD	"executing..."	11	61	ack-doing	None
+64	524.53	CMD	"send picture"	12	None	None	None
+65	528.26	RN	"<unintelligible>"	None	None	None	None
+66	529.09	DM->CMD	"done"	11	61	ack-done	map
+67	531.84	DM->RN	"image"	12	64	translation-r-direct	None
+68	535.17	RN	"image sent"	12	67	ack-done	None
+69	535.58	DM->CMD	"sent"	12	68	translation-l	None
+70	546.03	RN	"<no speech>"	None	None	None	None
+71	549.47	CMD	"turn left one hundred and eighty degrees"	13	None	None	None
+72	556.17	DM->RN	"turn left 180"	13	71	translation-r-direct	None
+73	559.23	DM->CMD	"executing..."	13	71	ack-doing	None
+74	579.9	RN	"done"	13	72	ack-done	None
+75	580.22	DM->CMD	"done"	13	74	translation-l	None
+76	585.96	CMD	"turn right ninety degrees"	14	None	None	None
+77	590.04	DM->RN	"turn right 90"	14	76	translation-r-direct	None
+78	593.92	DM->CMD	"executing..."	14	76	ack-doing	None
+79	604.9899999999999	RN	"done"	14	77	ack-done	None
+80	605.1	DM->CMD	"done"	14	79	translation-l	None
+81	608.39	CMD	"send picture"	15	None	None	None
+82	610.43	DM->RN	"image"	15	81	translation-r-direct	None
+83	613.1099999999999	RN	"image sent"	15	82	ack-done	None
+84	613.24	DM->CMD	"sent"	15	83	translation-l	None
+85	631.75	CMD	"move forward ten feet"	16	None	None	None
+86	637.2	DM->RN	"move forward 10 feet"	16	85	translation-r-direct	None
+87	640.4	DM->CMD	"executing..."	16	85	ack-doing	None
+88	663.1099999999999	RN	"done"	16	86	ack-done	None
+89	663.76	DM->CMD	"done"	16	88	translation-l	None
+90	668.45	RN	"<unintelligible> my map went really crazy"	16	86	comment	None
+91	688.88	CMD	"move forward and stop in front of orange object"	17	None	None	None
+92	690.65	RN	"<no speech>"	None	None	None	None
+93	698.33	DM->RN	"move to face orange object"	17	91	translation-r-direct	None
+94	702.49	DM->CMD	"executing..."	17	91	ack-doing	None
+95	710.76	RN	"I interpreted that as rotate to face orange object done"	17	93	ack-done	None
+96	715.12	DM->CMD	"done"	17	95	translation-l	None
+97	720.91	CMD	"send picture"	18	None	None	None
+98	723.27	DM->RN	"image"	18	97	translation-r-direct	None
+99	726.7	RN	"image sent"	18	98	ack-done	None
+100	726.8	DM->CMD	"sent"	18	99	translation-l	None
+101	731.63	RN	"<no speech>"	None	None	None	None
+102	734.9699999999999	RN	"<no speech>"	None	None	None	None
+103	754.73	CMD	"turn left thirty degrees"	19	None	None	None
+104	757.29	CMD	"move forward five feet"	19	103	continue	None
+105A	760.92	DM->RN	"turn left 30, "	19	103	translation-r-direct	None
+105B	None	DM->RN	"move forward 5 feet"	19	104	translation-r-direct	None
+106	763.76	DM->CMD	"executing..."	19	104*	ack-doing	None
+107	779.4799999999999	RN	"done"	19	105B*	ack-done	None
+108	780.34	DM->CMD	"done"	19	107	translation-l	None
+109	782.03	CMD	"send picture"	20	None	None	None
+110	783.08	DM->RN	"image"	20	109	translation-r-direct	None
+111	785.57	RN	"image sent"	20	110	ack-done	None
+112	786.04	DM->CMD	"sent"	20	111	translation-l	None
+113	790.3	RN	"<no speech>"	None	None	None	None
+114	810.37	CMD	"<sigh> turn 20 degrees left"	21	None	None	None
+115	817.44	CMD	"send picture"	21	114	continue	None
+116A	817.71	DM->RN	"turn 20 left, "	21	114	translation-r-direct	None
+116B	None	DM->RN	"image"	21	115	translation-r-direct	None
+117	821.05	DM->CMD	"executing..."	21	115*	ack-doing	None
+118	825.8599999999999	RN	"image sent"	21	116B*	ack-done	None
+119	826.27	DM->CMD	"sent"	21	118	translation-l	None
+120	850.63	CMD	"move forward to brown object"	22	None	None	None
+121	862.73	DM->CMD	"Which round object? The one on the left or the right?"	22	120	req-clar	None
+122	869.52	CMD	"brown not round"	22	121	clar-repair	None
+123	904.98	DM->CMD	"I'm not sure which object is the brown object.  Would you like me to move to the object closest to me?"	22	122	req-clar	None
+124	912.23	CMD	"yes"	22	123	clar-repair	None
+125	922.37	DM->RN	"Move to the barrel directly in front of you"	22	124*	translation-r-landmark	None
+126	925.73	DM->CMD	"executing..."	22	124*	ack-doing	None
+127	934.95	RN	"done"	22	125	ack-done	None
+128	936.06	DM->CMD	"done"	22	127	translation-l	None
+129	940.36	CMD	"send picture"	23	None	None	None
+130	941.32	DM->RN	"image"	23	129	translation-r-direct	None
+131	944.14	RN	"image sent"	23	130	ack-done	None
+132	944.43	DM->CMD	"sent"	23	131	translation-l	None
+133	950.37	CMD	"back up three feet"	24	None	None	None
+134	952.91	CMD	"turn thirty degrees right"	24	133	continue	None
+135A	957.42	DM->RN	"back up 3 feet, "	24	133	translation-r-direct	None
+135B	None	DM->RN	"turn 30 right"	24	134	translation-r-direct	None
+136	960.6	DM->CMD	"executing..."	24	134*	ack-doing	None
+137	977.0899999999999	RN	"done"	24	135B*	ack-done	None
+138	977.5	DM->CMD	"done"	24	137	translation-l	None
+139	979.18	CMD	"send picture"	25	None	None	None
+140	980.14	DM->RN	"image"	25	139	translation-r-direct	None
+141	982.0999999999999	RN	"image sent"	25	140	ack-done	None
+142	982.77	DM->CMD	"sent"	25	141	translation-l	None
+143	995.13	CMD	"turn right twenty degrees"	26	None	None	None
+144	999.55	DM->RN	"turn right 20"	26	143	translation-r-direct	None
+145	1002.82	DM->CMD	"executing..."	26	143	ack-doing	None
+146	1006.24	RN	"done"	26	144	ack-done	None
+147	1006.25	DM->CMD	"done"	26	146	translation-l	None
+148	1010.29	CMD	"send picture"	27	None	None	None
+149	1009.6	DM->RN	"image"	27	148	translation-r-direct	None
+150	1012.89	RN	"image sent"	27	149	ack-done	None
+151	1013.59	DM->CMD	"sent"	27	150	translation-l	None
+152	1022.47	CMD	"turn one hundred and eighty degrees"	28	None	None	None
+153	1026.91	CMD	"send picture"	28	152	continue	None
+154A	1027.23	DM->RN	"turn 180, "	28	152	translation-r-direct	None
+154B	None	DM->RN	"image"	28	153	translation-r-direct	None
+155	1030.75	DM->CMD	"executing..."	28	153*	ack-doing	None
+156	1047.63	RN	"image sent"	28	154B*	ack-done	None
+157	1049.09	DM->CMD	"sent"	28	156	translation-l	None
+158	1059.24	CMD	"<sigh> turn left one hundred and eighty degrees"	29	None	None	None
+159	1065.43	CMD	"send picture"	29	158	continue	None
+160A	1064.51	DM->RN	"turn left 30, "	29	158	translation-r-direct-error	None
+160B	None	DM->RN	"image"	29	159	translation-r-direct	None
+161	1067.5	DM->CMD	"executing..."	29	159*	ack-doing	None
+162	1074.25	RN	"image sent"	29	160B*	ack-done	None
+163	1075.63	DM->CMD	"sent"	29	162	translation-l	None
+164	1085.87	CMD	"move straight forward <pause> to doorway"	30	None	None	None
+165	1108.37	CMD	"send picture"	30	164	continue	None
+166	1119.84	DM->CMD	"Which doorway should I move to?"	30	164	req-clar	None
+167	1126.18	CMD	"forward ten feet"	30	166	clar-repair	None
+168	1127.66	RN	"<no speech>"	None	None	None	None
+169	1132.2	CMD	"ninety degrees left"	30	167	continue	None
+170A	1135.41	DM->RN	"move forward 10 feet, "	30	167*	translation-r-direct	None
+170B	None	DM->RN	"turn left 90"	30	169	translation-r-contextual	None
+171	1138.97	DM->CMD	"executing..."	30	169*	ack-doing	None
+172	1156.33	CMD	"send picture"	31	None	None	None
+173	1159.18	DM->RN	"image"	31	172	translation-r-direct	None
+174	1161.66	RN	"image sent"	31	173	ack-done	None
+175	1163.96	DM->CMD	"sent"	31	174	translation-l	None
+176	1169.32	CMD	"thirty degrees right"	32	None	None	None
+177	1173.77	CMD	"send picture"	32	176	continue	None
+178	1190.98	DM->CMD	"I couldn't hear all of that.  Should I turn 30 degrees right?"	32	176	req-clar	None
+179	1196.67	CMD	"yes"	32	178	clar-repair	None
+180A	1197.88	DM->RN	"turn 30 right, "	32	179*	translation-r-direct	None
+180B	None	DM->RN	"image"	32	177	translation-r-direct	None
+181	1201	DM->CMD	"executing..."	32	179*	ack-doing	None
+182	1219.71	RN	"image sent"	32	180B*	ack-done	None
+183	1220.75	DM->CMD	"sent"	32	182	translation-l	None
+184	1244.46	CMD	"<m:so how many doorways were there>"	X-CMD	None	None	None
+185	1247.22	CMD	"uh i found two"	X-CMD	None	None	None
+186	1247.32	DM->RN	"ending task"	X-CMD	None	None	None
+187	1248.94	CMD	"<m:okay>"	X-CMD	None	None	None
+188	1249.91	CMD	"<m:how many cones were there>"	X-CMD	None	None	None
+189	1251.4	CMD	"also found two"	X-CMD	None	None	None
+190	1252.85	CMD	"<m:okay>"	X-CMD	None	None	None
+191	1253.98	CMD	"<m:do you think there's any type of container in which a soldier might be able to move something>"	X-CMD	None	None	None

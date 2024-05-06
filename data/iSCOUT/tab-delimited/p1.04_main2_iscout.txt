@@ -1,0 +1,242 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	7.28	RN	"calibration complete"	None	None
+2	10.16	DM->CMD	"calibration complete"	None	None
+3	23.31	CMD	"send picture"	None	None
+4	29.91	DM->RN	"image"	None	None
+i000	32.38	IMAGE	"frame000"	None	None
+5	32.9	RN	"image sent"	None	None
+6	33.69	DM->CMD	"sent"	None	None
+7	48.08000000000001	CMD	"move forward until you reach the crate"	None	None
+8	53.1	CMD	"stop there"	None	None
+9	55.44	CMD	"turn right"	None	None
+10	56.47000000000001	CMD	"send picture"	None	None
+11	62.59	DM->RN	"move forward to the crate"	None	None
+12	69.44	DM->CMD	"How far should I turn right?"	None	None
+13	72.19999999999999	CMD	"turn ninety degrees to the right"	None	None
+14	72.88	RN	"done"	None	None
+15	79.47	DM->RN	"turn 90 right"	None	None
+16	83.42	DM->RN	"then image"	None	None
+i001	87.15	IMAGE	"frame001"	None	None
+17	87.72	RN	"image sent"	None	None
+18	88.58	DM->CMD	"sent"	None	None
+19	93.13	CMD	"back up three feet"	None	None
+20	96.65	CMD	"send picture"	None	None
+21	102.52	DM->RN	"back up 3 feet, image"	None	None
+22	106.34	DM->CMD	"executing..."	None	None
+i002	116.03	IMAGE	"frame002"	None	None
+23	116.21	RN	"image sent"	None	None
+24	117.64	DM->CMD	"sent"	None	None
+25	130.22	CMD	"turn ninety north"	None	None
+26	133.67	CMD	"send picture"	None	None
+27	179.24	DM->CMD	"I'm not sure which way to turn towards the north.  Should I turn to the left or the right?"	None	None
+28	182.04	CMD	"to the right ninety degrees"	None	None
+29	187.59	CMD	"stop there"	None	None
+30	188.57	CMD	"send picture"	None	None
+31	191.48	DM->RN	"turn 90 right, image"	None	None
+32	195	DM->CMD	"executing..."	None	None
+i003	201.2	IMAGE	"frame003"	None	None
+33	201.51	RN	"image sent"	None	None
+34	204.01	DM->CMD	"sent"	None	None
+35	213.37	CMD	"turn twenty degrees left"	None	None
+36	217.71	CMD	"move forward five feet"	None	None
+37	222.3	CMD	"turn ninety degrees right"	None	None
+38	225.25	CMD	"send picture"	None	None
+39	228.63	DM->RN	"turn 20 left, move forward 5 feet, turn 90 right, image"	None	None
+40	237.61	DM->CMD	"executing..."	None	None
+i004	258.2	IMAGE	"frame004"	None	None
+41	258.62	RN	"image sent"	None	None
+42	259.63	DM->CMD	"sent"	None	None
+43	259.99	CMD	"<deep breath> turn ninety degrees left"	None	None
+44	263.41	CMD	"move forward three feet"	None	None
+45	266.57	CMD	"send picture"	None	None
+46	271.53	DM->RN	"turn 90 left, move forward 3 feet, image"	None	None
+47	277.41	DM->CMD	"executing..."	None	None
+i005	290.4	IMAGE	"frame005"	None	None
+48	290.6199999999999	RN	"image sent"	None	None
+49	292.28	DM->CMD	"sent"	None	None
+50	294.89	CMD	"move three feet forward"	None	None
+51	298.81	CMD	"turn right eighty degrees"	None	None
+52	302.07	CMD	"send picture"	None	None
+53	308.74	DM->RN	"move 3 feet forward, turn right 80, image"	None	None
+54	313.01	DM->CMD	"executing..."	None	None
+i006	328.96	IMAGE	"frame006"	None	None
+55	329.34	RN	"image sent"	None	None
+56	330.48	DM->CMD	"sent"	None	None
+57	340.96	CMD	"<deep breath> turn twenty five degrees right"	None	None
+58	347.85	CMD	"send picture"	None	None
+59	352.57	DM->RN	"turn 25 right, image"	None	None
+60	355.76	DM->CMD	"executing..."	None	None
+i007	362.89	IMAGE	"frame007"	None	None
+61	362.9299999999999	RN	"image sent"	None	None
+62	364.34	DM->CMD	"sent"	None	None
+63	375.09	CMD	"move up two feet"	None	None
+64	378.29	CMD	"turn right ninety degrees"	None	None
+65	381.45	CMD	"move forward seven feet"	None	None
+66	385.96	CMD	"stop"	None	None
+67	387.14	CMD	"send picture"	None	None
+68	448.01	DM->CMD	"I'm not sure if I can move forward 7 feet after moving forward two feet and turning right.  Would you like me to move through the doorway ahead on the right?"	None	None
+69	454.05	CMD	"yes please proceed"	None	None
+70	466.87	DM->RN	"Move through the doorway ahead of you on teh right"	None	None
+71	471.26	DM->CMD	"executing..."	None	None
+72	475.3699999999999	RN	"done"	None	None
+73	477.55	DM->CMD	"done"	None	None
+74	480.8	CMD	"send picture"	None	None
+75	486.98	DM->RN	"image"	None	None
+i008	488.04	IMAGE	"frame008"	None	None
+76	488.52	RN	"image sent"	None	None
+77	489.83	DM->CMD	"sent"	None	None
+78	492.49	CMD	"turn right nine uh forty five degrees"	None	None
+79	496.09	CMD	"move forward two feet"	None	None
+80	499.03	CMD	"send picture"	None	None
+81	509.38	DM->RN	"turn right 45, move forward 2 feet, image"	None	None
+82	512.39	DM->CMD	"executing..."	None	None
+i009	527.39	IMAGE	"frame009"	None	None
+83	527.52	RN	"image sent"	None	None
+84	528.59	CMD	"turn left forty five <four uh five> degrees"	None	None
+85	529.6	DM->CMD	"sent"	None	None
+86	532.33	CMD	"find next doorway on your left"	None	None
+87	548.11	DM->RN	"turn left 45 degrees, go to next doorway on left"	None	None
+88	552.43	DM->CMD	"executing..."	None	None
+89	569.1	RN	"which one's the next <pause> does he mean round <unintelligible>"	None	None
+90	596.9	DM->CMD	"I see a hallway to the left.  Do you mean to go to the next hallway on the left?"	None	None
+91	599.53	CMD	"yes proceed"	None	None
+92	609.9	DM->RN	"go to hallway on left"	None	None
+93	615.28	DM->CMD	"executing..."	None	None
+94	615.81	RN	"not the one that's immediately to my left but down the hallway on the left ok"	None	None
+i010	632.2	IMAGE	"frame010"	None	None
+95	632.41	RN	"image sent"	None	None
+96	636.3	DM->CMD	"sent"	None	None
+97	648.31	CMD	"turn left forty five degrees"	None	None
+98	652.04	CMD	"move forward seven feet"	None	None
+99	655.31	CMD	"send picture"	None	None
+100	663.62	DM->RN	"turn left 45, move forward 7 feet, image"	None	None
+101	668.31	DM->CMD	"executing..."	None	None
+102	678.83	RN	"i'm totally not gonna be able to move seven feet"	None	None
+103	686.13	RN	"wait I'll just do the turny thing"	None	None
+i011	692.83	IMAGE	"frame011"	None	None
+104	693.07	RN	"image sent"	None	None
+105	694.69	DM->CMD	"sent"	None	None
+106	696.15	CMD	"move forward three feet"	None	None
+107	699.02	CMD	"send picture"	None	None
+108	707.65	DM->RN	"move forward 3 feet, image"	None	None
+109	710.78	DM->CMD	"executing..."	None	None
+i012	715.45	IMAGE	"frame012"	None	None
+110	715.7	RN	"image sent"	None	None
+111	716.59	DM->CMD	"sent"	None	None
+112	720.54	CMD	"<deep breath> turn right fifty degrees"	None	None
+113	724.55	CMD	"and picture"	None	None
+114	729.12	DM->RN	"turn right 50, image"	None	None
+i013	739.57	IMAGE	"frame013"	None	None
+115	740.29	RN	"image sent"	None	None
+116	740.86	DM->CMD	"sent"	None	None
+117	748.68	CMD	"move forward five feet"	None	None
+118	751.7	CMD	"turn left ninety degrees"	None	None
+119	754.14	CMD	"send picture"	None	None
+120	759.14	DM->RN	"move forward 5 feet, turn left 90, image"	None	None
+121	763.9	DM->CMD	"executing..."	None	None
+i014	776.99	IMAGE	"frame014"	None	None
+122	777.4	RN	"image sent"	None	None
+123	778.83	DM->CMD	"sent"	None	None
+124	779.56	CMD	"find next hallway straight ahead"	None	None
+125	782.77	CMD	"go through"	None	None
+126	784.64	CMD	"stop"	None	None
+127	800.8	DM->CMD	"I see a doorway straight ahead of me.  Should I go through that doorway?"	None	None
+128	802.14	CMD	"yes proceed"	None	None
+129	814.41	DM->RN	"go through the doorway straight ahead of you."	None	None
+130	819.46	DM->CMD	"executing..."	None	None
+131	826.07	RN	"done"	None	None
+132	826.37	CMD	"send picture"	None	None
+133	827	DM->CMD	"done"	None	None
+134	830.92	DM->RN	"image"	None	None
+i015	832.19	IMAGE	"frame015"	None	None
+135	832.93	RN	"image sent"	None	None
+136	833.46	DM->CMD	"sent"	None	None
+137	838.49	CMD	"turn forty five degrees left"	None	None
+138	841.24	CMD	"send picture"	None	None
+139	846.61	DM->RN	"turn 45 left, image"	None	None
+140	849.97	DM->CMD	"executing..."	None	None
+i016	853.64	IMAGE	"frame016"	None	None
+141	854.08	RN	"image sent"	None	None
+142	855.46	DM->CMD	"sent"	None	None
+143	863.81	CMD	"back up five feet"	None	None
+144	867.36	CMD	"turn forty five degrees to the right"	None	None
+145	870.02	CMD	"send picture"	None	None
+146	873.69	RN	"<no speech>"	None	None
+147	877.11	DM->RN	"back up 5 feet, turn 45 right, image"	None	None
+148	881.03	DM->CMD	"executing..."	None	None
+149	898.57	CMD	"turn forty five degrees to the right"	None	None
+i017	899.36	IMAGE	"frame017"	None	None
+150	899.74	RN	"image sent"	None	None
+151	900.43	DM->CMD	"sent"	None	None
+152	903.21	CMD	"send picture"	None	None
+153	907.86	DM->RN	"turn 45 right, image"	None	None
+154	911.33	DM->CMD	"executing..."	None	None
+i018	927.44	IMAGE	"frame018"	None	None
+155	927.48	RN	"image sent"	None	None
+156	928.78	DM->CMD	"sent"	None	None
+157	937.21	CMD	"turn ninety degrees to the right"	None	None
+158	940.6	CMD	"send picture"	None	None
+159	944.86	DM->RN	"turn 90 right, image"	None	None
+160	947.86	DM->CMD	"executing..."	None	None
+i019	952.58	IMAGE	"frame019"	None	None
+161	952.83	RN	"image sent"	None	None
+162	953.91	DM->CMD	"sent"	None	None
+163	959.28	CMD	"turn forty five degrees to the left"	None	None
+164	962.98	CMD	"move forward until the end of the hallway until you see the wall"	None	None
+165	968.34	CMD	"stop there"	None	None
+166	970.04	CMD	"send picture"	None	None
+167	977.8	DM->RN	"turn 45 left, move forward until the wall at the end of the hallway, image"	None	None
+168	1022.67	DM->CMD	"I don't see a hallway to the left.  Do you mean turn 45 degrees to the right?"	None	None
+169	1022.68	CMD	"yes"	None	None
+170	1042.94	DM->RN	"turn 90 right, move forward until the wall at end of hall, image"	None	None
+171	1049.53	DM->CMD	"executing..."	None	None
+i020	1055.97	IMAGE	"frame020"	None	None
+172	1056.09	RN	"image sent"	None	None
+173	1058.13	DM->CMD	"sent"	None	None
+174	1063.29	CMD	"turn ninety degrees to the left"	None	None
+175	1067.38	CMD	"send picture"	None	None
+176	1071.84	DM->RN	"turn 90 left, image"	None	None
+177	1075.17	DM->CMD	"executing..."	None	None
+i021	1080.96	IMAGE	"frame021"	None	None
+178	1081.13	RN	"image sent"	None	None
+179	1082.62	CMD	"move forward two feet"	None	None
+180	1082.67	DM->CMD	"sent"	None	None
+181	1084.95	CMD	"send pic"	None	None
+182	1091.52	DM->RN	"move forward 2 feet, image"	None	None
+183	1094.6	DM->CMD	"executing..."	None	None
+i022	1099.48	IMAGE	"frame022"	None	None
+184	1100.03	RN	"image sent"	None	None
+185	1101.98	DM->CMD	"sent"	None	None
+186	1102.68	CMD	"move forward two feet"	None	None
+187	1105.31	CMD	"turn thirty degrees to the left"	None	None
+188	1108.45	CMD	"send picture"	None	None
+189	1114.92	DM->RN	"move forward 2 feet, turn 30 left, image"	None	None
+190	1120.11	DM->CMD	"executing..."	None	None
+i023	1125.53	IMAGE	"frame023"	None	None
+191	1126.23	RN	"image sent"	None	None
+192	1127.65	DM->CMD	"sent"	None	None
+193	1131.85	CMD	"turn right one hundred degrees"	None	None
+194	1139.77	CMD	"follow hallway to the end of the wall uh to until you reach the wall"	None	None
+195	1145.64	CMD	"turn left ninety degrees"	None	None
+196	1149.57	CMD	"send picture"	None	None
+197	1162.54	DM->RN	"turn right 100 degrees"	None	None
+198	1173.59	RN	"done"	None	None
+199	1194.76	DM->CMD	"I'm not sure which hallway you are referring to. Should I send a picture?"	None	None
+200	1199.11	CMD	"turn twenty degrees to the right"	None	None
+201	1207.82	DM->RN	"turn 20 right"	None	None
+202	1210.35	DM->CMD	"executing..."	None	None
+203	1212.07	CMD	"go straight five feet"	None	None
+204	1213.83	RN	"done"	None	None
+205	1215.21	DM->CMD	"done"	None	None
+206	1216.58	CMD	"send picture"	None	None
+207	1222.32	DM->RN	"move forward 5 feet, image"	None	None
+208	1225.15	DM->CMD	"executing..."	None	None
+i024	1235.78	IMAGE	"frame024"	None	None
+209	1236.31	RN	"done"	None	None
+210	1238.26	DM->CMD	"sent"	None	None
+211	1242.72	CMD	"<m: your robot teammate as well as me so how many door were there>"	None	None
+212	1246.34	CMD	"i found six doorways"	None	None
+213	1247.26	RN	"<no speech>"	None	None
+214	1248.03	CMD	"<m: six door "	None	None
+215	1248.96	DM->RN	"ending task"	None	None

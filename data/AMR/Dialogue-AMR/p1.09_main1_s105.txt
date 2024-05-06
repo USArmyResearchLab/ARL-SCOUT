@@ -1,0 +1,17 @@
+p1.09_main1_s105
+# ::tok back up into that hallway
+# ::snt back up into that hallway
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG4 (h / hallway
+			:mod (t / that))
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

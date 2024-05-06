@@ -1,0 +1,142 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	0	DM->RN	"calibrate"	None	None
+2	0	DM->CMD	"calibrating. . ."	None	None
+3	9.75	RN	"done"	None	None
+4	12.63	DM->CMD	"calibration complete"	None	None
+5	13.78	DM->CMD	"Hello! <beep>"	None	None
+6	15	DM->CMD	". . ."	None	None
+7	16.6	DM->CMD	"Thanks for teaming up with me today."	None	None
+8	17.94	DM->CMD	". . ."	None	None
+9	20.24	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	None	None
+10	21.43	DM->CMD	". . ."	None	None
+11	24.69	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	None	None
+12	25.91	DM->CMD	". . ."	None	None
+13	29.23	DM->CMD	"You can ask for help at any time."	None	None
+14	50.68	CMD	"<yeah>"	None	None
+15	51.3399999999999	CMD	"go ahead"	None	None
+16	57.6999999999999	CMD	"we're looking for doorways"	None	None
+17	63.79	DM->CMD	"Hmm. . ."	None	None
+18	65.86	CMD	"go ahead"	None	None
+19	68.31	CMD	"move for"	None	None
+20	68.92	DM->CMD	"Would you like me to send a picture?  <beep>"	None	None
+21	71.82	CMD	"no thank you not right now"	None	None
+22	78.52	CMD	"<pause> move forward"	None	None
+23	84.59	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	None	None
+24	86.56	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	None	None
+25	91.82	CMD	"<so the>"	None	None
+26	92.66	CMD	"move ahead"	None	None
+27	97.67	DM->CMD	"How far forward should I go?  <beep>"	None	None
+28	141.709999999999	CMD	"<m: a real chance for you to try all of those kind of <unintelligible> and see what you like>"	None	None
+29	144.66	CMD	"move to the next doorway"	None	None
+30	149.58	DM->CMD	"processing. . ."	None	None
+31	160.1	DM->RN	"move to alley Door 1"	None	None
+32	164.36	DM->CMD	"moving. . ."	None	None
+33	176.49	RN	"done"	None	None
+34	177.62	DM->CMD	"done"	None	None
+35	178.48	CMD	"take a picture"	None	None
+36	181.48	DM->RN	"send image"	None	None
+i000	182.09	IMAGE	"frame000"	None	None
+37	182.4	RN	"sent"	None	None
+38	183.92	DM->CMD	"sent"	None	None
+39	186.73	CMD	"move to the next doorway"	None	None
+40	190.14	DM->CMD	"processing. . ."	None	None
+41	194.89	DM->RN	"move to alley Door 2"	None	None
+42	200.64	DM->CMD	"moving. . ."	None	None
+43	216.16	RN	"done"	None	None
+44	217.6	DM->CMD	"done"	None	None
+45	230.91	CMD	"sorry"	None	None
+46	231.26	CMD	"<a: it's okay>"	None	None
+47	231.76	CMD	"take a picture"	None	None
+48	233.41	DM->RN	"send image"	None	None
+i001	234.28	IMAGE	"frame001"	None	None
+49	234.63	RN	"sent"	None	None
+50	236.12	DM->CMD	"sent"	None	None
+51	239.76	CMD	"move to the next cone"	None	None
+52	246.19	DM->CMD	"I'm not sure which object you are referring to. <beep>"	None	None
+53	247.57	DM->CMD	". . ."	None	None
+54	248.92	DM->CMD	"I don't know what all the objects are around me.   <beep>"	None	None
+55	250.61	DM->CMD	"but. . ."	None	None
+56	252.01	DM->CMD	"If you describe an object, you can help me to learn what it is.  <beep>"	None	None
+57	254.62	DM->CMD	"Can you describe it another way, using its color, size, or position?  <beep>"	None	None
+58	257.61	CMD	"<pause> move to the next doorway "	None	None
+59	262.52	DM->CMD	"processing. . ."	None	None
+60	268.5	DM->RN	"move to alley Door 1"	None	None
+61	294.48	DM->CMD	"moving. . ."	None	None
+62	313.9	RN	"done"	None	None
+63	314.96	DM->CMD	"done"	None	None
+64	317.92	CMD	"take a picture"	None	None
+65	320.33	DM->RN	"send image"	None	None
+i002	321.02	IMAGE	"frame002"	None	None
+66	321.26	RN	"sent"	None	None
+67	322.59	DM->CMD	"sent"	None	None
+68	329.48	CMD	"move to the next doorway"	None	None
+69	334.36	DM->CMD	"processing. . ."	None	None
+70	338.5	DM->RN	"move to alley Door 2"	None	None
+71	366.79	DM->CMD	"moving. . ."	None	None
+72	385.23	RN	"i see <?>"	None	None
+73	386.25	RN	"done"	None	None
+74	387.37	DM->CMD	"done"	None	None
+75	388.02	CMD	"take a picture"	None	None
+76	391.01	DM->RN	"send image"	None	None
+i003	392.34	IMAGE	"frame003"	None	None
+77	392.64	RN	"sent"	None	None
+78	393.95	DM->CMD	"sent"	None	None
+79	398.55	CMD	"<pause> are there any other doorways"	None	None
+80	407.1	CMD	"<a: so um just to remind you>"	None	None
+81	407.55	DM->CMD	"processing. . ."	None	None
+82	408.26	CMD	"move to the next doorway"	None	None
+83	410.14	CMD	"<a: um try>"	None	None
+84	418.45	DM->CMD	"I see 2 doorways."	None	None
+85	420.62	DM->CMD	"processing. . ."	None	None
+86	426.51	DM->RN	"move to alley Door 1"	None	None
+87	445.85	DM->CMD	"moving. . ."	None	None
+88	467.48	RN	"done"	None	None
+89	468.52	DM->CMD	"done"	None	None
+90	470.32	CMD	"take a picture"	None	None
+91	472.46	DM->RN	"send image"	None	None
+i004	473.1	IMAGE	"frame004"	None	None
+92	473.34	RN	"sent"	None	None
+93	474.47	DM->CMD	"sent"	None	None
+94	479.98	CMD	"<pause> move to the next doorway"	None	None
+95	485.27	DM->CMD	"processing. . ."	None	None
+96	488.93	DM->RN	"move to alley Door 2"	None	None
+97	513.03	DM->CMD	"moving. . ."	None	None
+98	531.33	RN	"done"	None	None
+99	532.07	DM->CMD	"done"	None	None
+100	533.66	CMD	"take a picture"	None	None
+101	535.28	DM->RN	"send image"	None	None
+i005	535.96	IMAGE	"frame005"	None	None
+102	536.31	RN	"sent"	None	None
+103	537.6	DM->CMD	"sent"	None	None
+104	577.78	CMD	"move do move south"	None	None
+105	584.92	DM->CMD	"processing. . ."	None	None
+106	600.87	DM->CMD	"How far south should I go?"	None	None
+107	603.85	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	None	None
+108	612.829999999999	CMD	"<pause>  move to the next doorway"	None	None
+109	616.89	CMD	"<pause> but move south"	None	None
+110	620.63	DM->CMD	"processing. . ."	None	None
+111	656.36	DM->CMD	"I don't see a doorway to the south."	None	None
+112	682.35	DM->CMD	"I can move to take a good picture of an object that you are interested in.  <beep>"	None	None
+113	695.68	CMD	"move to the next doorway"	None	None
+114	699.45	DM->CMD	"processing. . ."	None	None
+115	706.58	DM->RN	"move to alley Door 1"	None	None
+116	733.35	DM->CMD	"moving. . ."	None	None
+117	751.48	RN	"done"	None	None
+118	752.8	DM->CMD	"done"	None	None
+119	755.479999999999	CMD	"<a: that stops>"	None	None
+120	756.439999999999	CMD	"take a picture"	None	None
+121	760.04	DM->RN	"send image"	None	None
+i006	760.69	IMAGE	"frame006"	None	None
+122	761.03	RN	"and sent"	None	None
+123	762.3	DM->CMD	"sent"	None	None
+124	808.21	DM->CMD	"I can turn to face the doorway, ok?"	None	None
+125	830.839999999999	CMD	"<a: okay we're gonna go ahead and review>"	None	None
+126	833.54	CMD	"<a: how many doorways were there>"	None	None
+127	835.51	CMD	"three"	None	None
+128	836.089999999999	CMD	"how many cones were there"	None	None
+129	837.75	CMD	"one"	None	None
+130	838.359999999999	CMD	"<a: do you think there's any type of container in which a soldier might be able to use to move things>"	None	None
+131	843.859999999999	CMD	"yes"	None	None
+132	844.4	CMD	"<a: what w were they>"	None	None
+133	846.17	CMD	"the black containers right here"	None	None

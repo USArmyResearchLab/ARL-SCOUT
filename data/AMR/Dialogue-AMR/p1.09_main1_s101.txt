@@ -1,0 +1,12 @@
+p1.09_main1_s101
+# ::tok executing ...
+# ::snt executing...
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+

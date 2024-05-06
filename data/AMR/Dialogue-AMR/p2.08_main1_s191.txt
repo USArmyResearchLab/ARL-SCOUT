@@ -1,0 +1,14 @@
+p2.08_main1_s191
+# ::tok I see more than one doorway . < beep >
+# ::snt I see more than one doorway. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (d / doorway
+			:quant (m / more-than
+				:op1 1))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+

@@ -1,0 +1,15 @@
+p2.02_main1_s79
+# ::tok can you move several yards towards the white door
+# ::snt can you move several yards towards the white door
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (d2 / door
+		:ARG1-of (w / white-03))
+	:extent (s / several
+		:op1 (d / distance-quantity
+			:quant 1
+			:unit (y2 / yard)))
+	:mode imperative
+	:polite +)
+

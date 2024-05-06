@@ -1,0 +1,13 @@
+p2.02_train_s171
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

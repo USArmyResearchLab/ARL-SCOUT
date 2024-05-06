@@ -1,0 +1,12 @@
+p2.08_main1_s200
+# ::tok I will turn left 90 degrees
+# ::snt I will turn left 90 degrees
+(t / turn-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:direction (l / left-20
+		:ARG2 i)
+	:extent (a / angle-quantity
+		:quant 90
+		:unit (d / degree)))
+

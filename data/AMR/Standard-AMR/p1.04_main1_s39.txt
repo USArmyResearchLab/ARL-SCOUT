@@ -1,0 +1,12 @@
+p1.04_main1_s39
+# ::tok move forward till you reach the wall
+# ::snt move forward till you reach the wall
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:ARG2 (r / reach-01
+		:ARG0 y
+		:ARG1 (w / wall))
+	:direction (f / forward)
+	:mode imperative)
+

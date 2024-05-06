@@ -1,0 +1,18 @@
+p3.29_main1_s161
+# ::tok I will turn left 90 degrees
+# ::snt I will turn left 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

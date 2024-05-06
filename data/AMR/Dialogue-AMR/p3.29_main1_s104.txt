@@ -1,0 +1,17 @@
+p3.29_main1_s104
+# ::tok I moved forward 5 feet
+# ::snt I moved forward 5 feet
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:complete +
+		:direction (f2 / forward)
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 r)
+

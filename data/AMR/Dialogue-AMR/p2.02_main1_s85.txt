@@ -1,0 +1,18 @@
+p2.02_main1_s85
+# ::tok move 3 feet towards shoe start door
+# ::snt move 3 feet towards shoe start door
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG4 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (d2 / door
+			:name (n / name
+				:op1 "shoe"
+				:op2 "start"))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 (r / robot-rn))
+

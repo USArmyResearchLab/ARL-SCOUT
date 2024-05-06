@@ -1,0 +1,15 @@
+p2.01_main1_s261
+# ::tok I will move close to it , ok ?
+# ::snt I will move close to it, ok?
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG4 (c / close-10
+			:ARG1 r
+			:ARG2 (i / it))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c2 / commander))
+

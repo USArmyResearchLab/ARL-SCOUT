@@ -1,0 +1,179 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	3.18	RN	"calibration complete"	None	None
+2	9.69	DM->CMD	"calibration complete"	None	None
+3	13.43	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	None	None
+4	21.35	CMD	"take a photo"	None	None
+5	28.95	DM->RN	"photo"	None	None
+i000	29.98	IMAGE	"frame000"	None	None
+6	29.97	RN	"image sent"	None	None
+7	32.1	DM->CMD	"sent"	None	None
+8	52.62	CMD	"I'm ready"	None	None
+9	71.16	CMD	"move forward a little bit"	None	None
+10	75.08	DM->CMD	"I'm also ready.  What should I do next?  You can tell me to move to an object that you see or to move a certain distance."	None	None
+11	81.51	DM->CMD	"How far is a little bit?"	None	None
+12	81.52	CMD	"two feet"	None	None
+13	94.2	DM->RN	"move forward 2 feet"	None	None
+14	97.57	DM->CMD	"executing..."	None	None
+15	103.01	RN	"done"	None	None
+16	104.49	DM->CMD	"done"	None	None
+17	113.15	CMD	"move forward a little bit again"	None	None
+18	113.15	CMD	"and then turn left"	None	None
+19	119.33	CMD	"then take a photo"	None	None
+20	128.4	DM->CMD	"Does a little bit mean two feet?"	None	None
+21	137.16	DM->RN	"move forward two feet"	None	None
+22	143.43	RN	"done"	None	None
+23	156.6	CMD	"yes it does"	None	None
+24	172.66	DM->CMD	"How far should I turn left?  Until facing the door to my left?"	None	None
+25	177.87	CMD	"perpendicular to the doorway"	None	None
+26	202.24	DM->RN	"move until perpendicular to the first doorway to your left"	None	None
+27	207.04	DM->CMD	"executing..."	None	None
+28	209.9	RN	"done"	None	None
+29	220.91	DM->RN	"turn to face the doorway to the left"	None	None
+30	230.18	RN	"done"	None	None
+31	231.27	DM->CMD	"done"	None	None
+32	235.18	CMD	"take a photo"	None	None
+33	241.3	DM->RN	"photo"	None	None
+i001	242.06	IMAGE	"frame001"	None	None
+34	242.13	RN	"image sent"	None	None
+35	244.01	DM->CMD	"sent"	None	None
+36	244.05	CMD	"move around the cone into the next room"	None	None
+37	249.01	CMD	"turn right ninety degrees"	None	None
+38	252.38	CMD	"and take a photo"	None	None
+39	282.41	DM->CMD	"There is not enough space for me to move around the cone and enter the room ahead.  Would you like me to get as close as possible to the room?"	None	None
+40	291.6	CMD	"yes i would "	None	None
+41	291.6	CMD	"on the right side of the cone"	None	None
+42	311.43	DM->RN	"move to the right side of the cone, get as close as possible"	None	None
+43	319.42	DM->CMD	"executing..."	None	None
+44	322.51	RN	"done"	None	None
+45	324.59	DM->CMD	"done"	None	None
+46	324.72	CMD	"turn left about forty five degrees"	None	None
+47	329.4	CMD	"and take a photo"	None	None
+48	336.16	DM->RN	"turn left 45, photo"	None	None
+49	339.44	DM->CMD	"executing..."	None	None
+50	348.25	CMD	"can you tell if there's a doorway in that room"	None	None
+i002	348.98	IMAGE	"frame002"	None	None
+51	349.26	RN	"<no speech>"	None	None
+52	350.91	DM->CMD	"sent"	None	None
+53	381.5	DM->CMD	"My LIDAR map isn't showing any other doorway in the room ahead."	None	None
+54	387.1	CMD	"okay"	None	None
+55	387.1	CMD	"then turn around one hundred and eighty degrees"	None	None
+56	391.75	CMD	"move forward about two feet"	None	None
+57	394.28	CMD	"then turn left and continue down the hallway you're in"	None	None
+58	410.64	DM->RN	"turn around 180, move forward two feet, turn left to face back down the hallway"	None	None
+59	422.27	DM->CMD	"How far should I continue down the hallway?"	None	None
+60	444.26	RN	"done"	None	None
+61	458.95	CMD	"continue up to the next opening on your left side"	None	None
+62	472.64	DM->RN	"move to the next door on the left"	None	None
+63	476.26	DM->CMD	"executing..."	None	None
+64	492.97	CMD	"turn right about thirty degrees"	None	None
+65	492.97	CMD	"and take a photo"	None	None
+66	494.72	DM->CMD	"done"	None	None
+67	506.55	DM->RN	"turn right 30, photo"	None	None
+68	509.9	DM->CMD	"executing..."	None	None
+i003	514.97	IMAGE	"frame003"	None	None
+69	514.83	RN	"image sent"	None	None
+70	516.56	DM->CMD	"sent"	None	None
+71	521.92	CMD	"turn back to face the doorway"	None	None
+72	521.92	CMD	"and then can you tell what is inside that doorway"	None	None
+73	535.48	DM->RN	"turn left to face the doorway"	None	None
+74	558.41	DM->CMD	"You are probably more familiar with the objects inside the doorway than I am.  Should I send a picture after turning to face the doorway?"	None	None
+75	565.35	CMD	"yes"	None	None
+76	572.27	DM->RN	"photo"	None	None
+77	572.79	CMD	"can you get around that object"	None	None
+i004	573.46	IMAGE	"frame004"	None	None
+78	573.39	RN	"image sent"	None	None
+79	575.78	DM->CMD	"sent"	None	None
+80	590.09	DM->CMD	"No, the object is obstructing the doorway."	None	None
+81	594.92	CMD	"turn to your left ninety degrees"	None	None
+82	597.07	CMD	"and take a photo"	None	None
+83	604.93	DM->RN	"turn left 90, photo"	None	None
+84	607.71	DM->CMD	"executing..."	None	None
+i005	619.03	IMAGE	"frame005"	None	None
+85	618.86	RN	"image sent"	None	None
+86	621.7	DM->CMD	"sent"	None	None
+87	646.79	CMD	"go back to the other doorway"	None	None
+88	659.39	DM->RN	"return to the other doorway"	None	None
+89	662.92	DM->CMD	"executing..."	None	None
+90	668.77	CMD	"face the doorway"	None	None
+91	673.31	CMD	"and back up until you hit the wall"	None	None
+92	675.8	DM->CMD	"done"	None	None
+93	678.57	CMD	"or just about hit the wall"	None	None
+94	689	DM->RN	"turn to face the doorway, back up to the wall"	None	None
+95	692.48	DM->CMD	"executing..."	None	None
+96	697.84	CMD	"stop"	None	None
+97	700.56	CMD	"take a photo"	None	None
+98	710.01	DM->CMD	"done"	None	None
+99	712.46	DM->RN	"photo"	None	None
+i006	713.02	IMAGE	"frame006"	None	None
+100	712.84	RN	"image sent"	None	None
+101	714.96	DM->CMD	"sent"	None	None
+102	723.07	CMD	"do the same thing to the other doorway"	None	None
+103	732.21	DM->CMD	"executing..."	None	None
+104	745.21	DM->RN	"return to face the other doorway, then back up to the wall there and send photo"	None	None
+i007	775.48	IMAGE	"frame007"	None	None
+105	774.73	RN	"image sent"	None	None
+106	776.65	CMD	"move up to that <pause> space between the uh object that blocks the doorway in the doorway itself"	None	None
+107	776.95	DM->CMD	"sent"	None	None
+108	785.6	CMD	"and take a photo"	None	None
+109	794.23	DM->CMD	"executing..."	None	None
+110	816.42	DM->RN	"move to space between obstruction in doorway and door frame on left, photo"	None	None
+i008	840.07	IMAGE	"frame008"	None	None
+111	843.26	DM->RN	"sent"	None	None
+112	847.26	DM->CMD	"sent"	None	None
+113	851.55	CMD	"if you can turn around"	None	None
+114	851.55	CMD	"and take another photo so i have a clear picture of everything"	None	None
+115	869.21	DM->RN	"turn 180, photo"	None	None
+116	872.4	DM->CMD	"executing..."	None	None
+i009	887.76	IMAGE	"frame009"	None	None
+117	887.64	RN	"image sent"	None	None
+118	890.32	DM->CMD	"sent"	None	None
+119	896.6	CMD	"go back to where you started"	None	None
+120	901.7	CMD	"turn a hundred and eighty degrees"	None	None
+121	904.72	CMD	"and take a photo at the entryway"	None	None
+122	916.58	DM->RN	"return to start, turn 180, photo"	None	None
+123	921.87	DM->CMD	"executing..."	None	None
+124	929.79	IMAGE	"None"	None	None
+125	947.88	RN	"<unintelligible>"	None	None
+126	949.9	CMD	"back up a little bit"	None	None
+i010	957.54	IMAGE	"frame010"	None	None
+127	957.18	RN	"image sent"	None	None
+128	963.68	DM->CMD	"How far is a little bit?"	None	None
+129	965	CMD	"same thing as before by two feet"	None	None
+130	969.17	DM->CMD	"Two feet?"	None	None
+131	970.38	CMD	"you know what make it four"	None	None
+132	979.68	DM->RN	"Back up four feet"	None	None
+133	983.57	DM->CMD	"executing..."	None	None
+134	998.38	RN	"done"	None	None
+135	1001.6	DM->CMD	"done"	None	None
+136	1003.81	CMD	"take a photo"	None	None
+137	1010.2	DM->RN	"photo"	None	None
+i011	1013.71	IMAGE	"frame011"	None	None
+138	1013.43	RN	"image sent"	None	None
+139	1015.48	DM->CMD	"sent"	None	None
+140	1031.4	CMD	"are you sure there's no way to get into the first doorway"	None	None
+141	1062.88	DM->CMD	"I'm not sure.  I will return to face the first doorway and send a photo, ok?"	None	None
+142	1065.07	CMD	"no just back up a little bit"	None	None
+143	1067.74	CMD	"and take another photo"	None	None
+144	1078.54	DM->CMD	"Four feet?"	None	None
+145	1078.63	CMD	"two feet this time"	None	None
+146	1087.35	DM->RN	"back up two feet, photo"	None	None
+147	1090.98	DM->CMD	"executing..."	None	None
+i012	1099.51	IMAGE	"frame012"	None	None
+148	1099.07	RN	"image sent"	None	None
+149	1102.06	DM->CMD	"sent"	None	None
+150	1121.4	CMD	"go back to the start"	None	None
+151	1124.94	CMD	"and turn around"	None	None
+152	1126.69	CMD	"and do a victory lap"	None	None
+153	1140.27	DM->RN	"return to starting point, do victory lap"	None	None
+154	1148.76	DM->RN	"hold on lap"	None	None
+155	1151.9	CMD	"<k:and we'll review so how many doorways were there>"	None	None
+156	1156.04	CMD	"there are two doorways in the hallway and behind the robot is three doorways"	None	None
+157	1165.54	CMD	"<k:okay>"	None	None
+158	1165.92	CMD	"per se"	None	None
+159	1167.33	CMD	"i saw two cones how about you robot"	None	None
+160	1190.01	DM->CMD	"I think you are better at recognizing cones than I am."	None	None
+161	1204.83	CMD	"there are two containers that uh three containers that a soldier can move things uh two drums and a cardboard box in the first doorway"	None	None
+162	1214.48	CMD	"<k:alright>"	None	None
+163	1227.89	CMD	"end session"	None	None
+164	1228.78	DM->RN	"ending task"	None	None

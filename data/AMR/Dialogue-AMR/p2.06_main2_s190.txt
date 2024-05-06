@@ -1,0 +1,14 @@
+p2.06_main2_s190
+# ::tok do you see foreign writing
+# ::snt do you see foreign writing
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (t / thing
+			:ARG1-of (w / write-01))
+		:polarity (a / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+

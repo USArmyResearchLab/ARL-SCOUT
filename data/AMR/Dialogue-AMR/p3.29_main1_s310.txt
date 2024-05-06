@@ -1,0 +1,14 @@
+p3.29_main1_s310
+# ::tok uh there were clothes hanging
+# ::snt uh there were clothes hanging
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 c
+		:ARG1 (h / hang-01
+			:ARG1 (c2 / clothes))
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (e / experimenter))
+

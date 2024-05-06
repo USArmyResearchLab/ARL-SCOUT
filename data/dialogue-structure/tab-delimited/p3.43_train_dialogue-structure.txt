@@ -1,0 +1,126 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-08-24 10:16:59.69	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+2	2018-08-24 10:17:02.40	DM->RN	"calibrate"	1	0	translation-r-direct	None
+3	2018-08-24 10:18:24.38	RN	"<X: audio sync in three two one>"	X-CMD	None	None	None
+4	2018-08-24 10:18:24.43	CMD	"<X: audio sync in three two one>"	X-CMD	None	None	None
+5	2018-08-24 10:18:28.31	RN	"<loud noise>"	X-CMD	None	None	None
+6	2018-08-24 10:18:28.31	CMD	"<loud noise>"	X-CMD	None	None	None
+7	2018-08-24 10:18:35.87	CMD	"<X: ok you can let it up now>"	X-CMD	None	None	None
+8	2018-08-24 10:18:37.49	DM->CMD	"calibration complete"	1	2	ack-done	None
+9	2018-08-24 10:18:51.15	CMD	"i am ready"	2	None	None	None
+10	2018-08-24 10:18:55.36	DM->CMD	"Hello! <beep>"	3	None	None	None
+11	2018-08-24 10:18:58.15	DM->CMD	"Thanks for teaming up with me today."	3	10	continue	None
+12	2018-08-24 10:19:01.61	CMD	"hello"	3	10	3feedback	None
+13	2018-08-24 10:19:02.04	CMD	"you're welcome"	3	11	3feedback	None
+14	2018-08-24 10:19:04.18	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	3	11	continue	None
+15	2018-08-24 10:19:11.76	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	3	14	continue	None
+16	2018-08-24 10:19:20.57	DM->CMD	"You can ask for help at any time."	3	15	continue	None
+17	2018-08-24 10:19:27.50	DM->CMD	"I'm also ready.  <beep>"	2	9	reciprocal	None
+18	2018-08-24 10:20:01.68	CMD	"start searching room"	4	None	None	None
+19	2018-08-24 10:20:04.44	DM->RN	"participant is ready"	2	17	translation-r-direct	None
+20	2018-08-24 10:20:06.66	DM->CMD	"processing. . ."	4	18	processing	None
+21	2018-08-24 10:20:17.90	DM->CMD	"I need your help to search room."	4	18	nar	None
+22	2018-08-24 10:20:30.14	CMD	"search for doorway"	5	None	None	None
+23	2018-08-24 10:20:34.15	CMD	"then cone"	5	22	continue	None
+24	2018-08-24 10:20:36.41	CMD	"then containers"	5	23	continue	None
+25	2018-08-24 10:20:36.94	DM->CMD	"processing. . ."	5	24*	processing	None
+26	2018-08-24 10:20:53.19	DM->CMD	"I need your help to find objects."	5	24*	nar	None
+27	2018-08-24 10:20:55.01	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	5	26	continue	None
+28	2018-08-24 10:21:03.43	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	5	27	continue	None
+29	2018-08-24 10:21:18.47	CMD	"go straight two feet"	6	None	None	None
+30	2018-08-24 10:21:22.49	DM->CMD	"ok"	6	29	ack-wilco	None
+31	2018-08-24 10:21:25.54	DM->RN	"move forward 2 feet"	6	29	translation-r-direct	None
+32	2018-08-24 10:21:28.87	DM->CMD	"moving. . ."	6	29	ack-doing	None
+33	2018-08-24 10:21:31.46	RN	"done"	6	31	ack-done	None
+34	2018-08-24 10:21:32.66	DM->CMD	"done"	6	33	translation-l	None
+35	2018-08-24 10:22:25.66	CMD	"go straight ten feet"	7	None	None	None
+36	2018-08-24 10:22:30.11	DM->CMD	"ok"	7	35	ack-wilco	None
+37	2018-08-24 10:22:32.11	DM->RN	"move forward 10 feet"	7	35	translation-r-direct	None
+38	2018-08-24 10:22:32.97	DM->CMD	"I will move forward 10 feet"	7	35	ack-wilco	None
+39	2018-08-24 10:22:44.05	RN	"done"	7	37	ack-done	None
+40	2018-08-24 10:22:45.29	DM->CMD	"done"	7	39	translation-l	None
+41	2018-08-24 10:22:47.35	CMD	"can you see any doorways"	8	None	None	None
+42	2018-08-24 10:22:54.08	DM->CMD	"processing. . ."	8	41	processing	None
+43	2018-08-24 10:23:00.29	DM->CMD	"I'm not sure."	8	41	ack-unsure	None
+44	2018-08-24 10:23:01.63	DM->CMD	"Would you like me to send a picture?  <beep>"	9	None	None	None
+45	2018-08-24 10:23:04.01	CMD	"yes"	9	44	offer-accept	None
+46	2018-08-24 10:23:07.04	DM->RN	"send image"	9	45	translation-r-history	ID: 44
+47	2018-08-24 10:23:07.90	RN	"sent"	9	46	ack-done	None
+48	2018-08-24 10:23:09.65	DM->CMD	"sent"	9	47	translation-l	None
+49	2018-08-24 10:23:26.01	CMD	"can you see doorways"	10	None	None	None
+50	2018-08-24 10:23:34.32	DM->CMD	"processing. . ."	10	49	processing	None
+51	2018-08-24 10:23:50.61	DM->CMD	"I think so."	10	49	answer	None
+52	2018-08-24 10:23:55.93	CMD	"how many doorways do you see"	11	None	None	None
+53	2018-08-24 10:24:06.90	DM->CMD	"I'm not sure."	11	52	answer	None
+54	2018-08-24 10:24:21.21	CMD	"can you see doorways"	12	None	None	None
+55	2018-08-24 10:24:29.30	DM->CMD	"processing. . ."	12	54	processing	None
+56	2018-08-24 10:24:43.91	DM->CMD	"I think so."	12	54	answer	None
+57	2018-08-24 10:24:47.30	CMD	"tell me how many doorways you can see"	13	None	None	None
+58	2018-08-24 10:24:55.28	DM->CMD	"I'm not sure."	13	57	answer	None
+59	2018-08-24 10:24:57.72	DM->CMD	"Would you like me to send a picture?  <beep>"	14	None	None	None
+60	2018-08-24 10:24:59.58	CMD	"yes"	14	59	offer-accept	None
+61	2018-08-24 10:25:04.55	DM->RN	"send image"	14	60	translation-r-history	ID:59
+62	2018-08-24 10:25:06.23	RN	"sent"	14	61	ack-done	None
+63	2018-08-24 10:25:08.06	DM->CMD	"sent"	14	62	translation-l	None
+64	2018-08-24 10:25:41.98	CMD	"turn to the right "	15	None	None	None
+65	2018-08-24 10:25:42.86	CMD	"and take a picture"	15	64	continue	None
+66	2018-08-24 10:25:46.60	DM->CMD	"ok"	15	65*	ack-wilco	None
+67	2018-08-24 10:25:49.81	DM->RN	"turn right 90 degrees"	15	64	translation-r-default	None
+68	2018-08-24 10:25:50.90	DM->RN	"then. . ."	15	67	link-next	None
+69	2018-08-24 10:25:51.83	DM->RN	"send image"	15	65	translation-r-direct	None
+70	2018-08-24 10:25:53.30	DM->CMD	"I will turn right 90 degrees"	15	64	ack-wilco	None
+71	2018-08-24 10:25:55.40	DM->CMD	"I will send a picture"	15	65	ack-wilco	None
+72	2018-08-24 10:26:03.97	RN	"done and sent"	15	69*	ack-done	None
+73	2018-08-24 10:26:06.03	DM->CMD	"done, sent"	15	72	translation-l	None
+74	2018-08-24 10:26:22.85	CMD	"take pictures of the entire room"	16	None	None	None
+75	2018-08-24 10:26:26.60	CMD	"behind you in front of you to your right to your left"	16	74	continue	None
+76	2018-08-24 10:26:31.40	CMD	"make a complete circle"	16	75	continue	None
+77	2018-08-24 10:26:36.02	DM->CMD	"processing. . ."	16	76*	processing	None
+78	2018-08-24 10:26:46.28	DM->RN	"Do the following 4 times. . ."	16	76*	translation-r-default	None
+79	2018-08-24 10:26:48.46	DM->RN	"turn right 90 degrees"	16	76*	translation-r-default	None
+80	2018-08-24 10:26:49.85	DM->RN	"then. . ."	16	79	link-next	None
+81	2018-08-24 10:26:51.08	DM->RN	"send image"	16	76*	translation-r-default	None
+82	2018-08-24 10:26:54.74	DM->CMD	"executing. . ."	16	76*	ack-doing	None
+83	2018-08-24 10:27:37.70	RN	"done and sent"	16	81*	ack-done	None
+84	2018-08-24 10:27:39.34	DM->CMD	"done, sent"	16	83	translation-l	None
+85	2018-08-24 10:27:43.52	CMD	"do you know what cones look like"	17	None	None	None
+86	2018-08-24 10:27:53.01	DM->CMD	"I don't know what all the objects are around me.   <beep>"	17	85	nar	None
+87	2018-08-24 10:27:54.93	DM->CMD	"If you describe an object, you can help me locate it.  <beep>"	17	86	continue	None
+88	2018-08-24 10:28:04.00	CMD	"do you know what doorways look like"	18	None	None	None
+89	2018-08-24 10:28:08.92	DM->CMD	"I think so."	18	88	answer	None
+90	2018-08-24 10:28:15.28	CMD	"can you look at the entire room"	19	None	None	None
+91	2018-08-24 10:28:18.99	CMD	"all around you behind you in front of you to your right to your left"	19	90	continue	None
+92	2018-08-24 10:28:23.43	CMD	"and count all of the doorways you see"	19	91	continue	None
+93	2018-08-24 10:28:33.55	DM->CMD	"processing. . ."	19	92*	processing	None
+94	2018-08-24 10:28:45.65	DM->CMD	"I need your help to find doorways."	19	92	nar	None
+95	2018-08-24 10:28:51.14	DM->CMD	"I can move to take a good picture of an object that you are interested in.  <beep>"	20	None	None	None
+96	2018-08-24 10:29:13.90	CMD	"please take pictures"	20	95	offer-accept	None
+97	2018-08-24 10:29:18.22	CMD	"of the entire wall <pause 1.01> thats in front of you"	20	96	continue	None
+98	2018-08-24 10:29:26.66	DM->CMD	"processing. . ."	20	97*	processing	None
+99	2018-08-24 10:29:41.45	DM->RN	"send image"	20	97*	translation-r-history	ID: 95
+100	2018-08-24 10:29:43.04	RN	"sent"	20	99	ack-done	None
+101	2018-08-24 10:29:45.21	DM->CMD	"sent"	20	100	translation-l	None
+102	2018-08-24 10:30:01.76	CMD	"do you know what a container is"	21	None	None	None
+103	2018-08-24 10:30:12.13	DM->CMD	"I think you are more familiar with containers than I am."	21	102	nar	None
+104	2018-08-24 10:30:17.89	DM->CMD	"I can move to take a good picture of an object that you are interested in.  <beep>"	22	None	None	None
+105	2018-08-24 10:30:31.65	CMD	"can you take pictures <pause .77> of the entire room so i can see everything"	22	104	offer-accept	None
+106	2018-08-24 10:30:37.49	CMD	"<no speech>"	None	None	None	None
+107	2018-08-24 10:30:38.55	CMD	"and <pause .41> go around in a circle and just keep taking pictures so i get the whole room"	22	105	continue	None
+108	2018-08-24 10:30:46.69	DM->CMD	"processing. . ."	22	107*	processing	None
+109	2018-08-24 10:30:57.56	DM->RN	"Do the following 8 times. . ."	22	107*	translation-r-default	None
+110	2018-08-24 10:30:58.82	DM->RN	"turn right 45 degrees"	22	107*	translation-r-default	None
+111	2018-08-24 10:31:00.20	DM->RN	"then. . ."	22	110	link-next	None
+112	2018-08-24 10:31:01.13	DM->RN	"send image"	22	107*	translation-r-default	None
+113	2018-08-24 10:31:04.51	DM->CMD	"executing. . ."	22	107*	ack-doing	None
+114	2018-08-24 10:32:03.24	RN	"done and sent"	22	112*	ack-done	None
+115	2018-08-24 10:32:06.38	DM->CMD	"done, sent"	22	114	translation-l	None
+116	2018-08-24 10:33:15.06	CMD	"<X: and how many doorways were there>"	X-CMD	None	None	None
+117	2018-08-24 10:33:17.60	CMD	"i think two"	X-CMD	None	None	None
+118	2018-08-24 10:33:18.78	CMD	"<X: ok>"	X-CMD	None	None	None
+119	2018-08-24 10:33:19.54	CMD	"<X: and how many cones were there>"	X-CMD	None	None	None
+120	2018-08-24 10:33:20.96	CMD	"i saw two"	X-CMD	None	None	None
+121	2018-08-24 10:33:22.22	CMD	"<X: ok>"	X-CMD	None	None	None
+122	2018-08-24 10:33:22.52	CMD	"<no speech>"	X-CMD	None	None	None
+123	2018-08-24 10:33:22.97	CMD	"<X: and do you think theres any type of container>"	X-CMD	None	None	None
+124	2018-08-24 10:33:25.23	CMD	"i saw two barrels if that's what they were looking for containers"	X-CMD	None	None	None
+125	2018-08-24 10:33:34.34	DM->CMD	"Good job!"	X-CMD	None	None	None

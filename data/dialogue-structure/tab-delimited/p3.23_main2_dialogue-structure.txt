@@ -1,0 +1,241 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-09-26 11:01:37.20	DM->RN	"calibrate"	1	0	translation-r-direct	None
+2	2018-09-26 11:01:41.68	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+3	2018-09-26 11:02:31.70	CMD	"<X: audio sync in three two one>"	X-CMD	None	None	None
+4	2018-09-26 11:02:32.00	RN	"<X: audio sync in three two one>"	X-CMD	None	None	None
+5	2018-09-26 11:02:35.82	RN	"<loud noise>"	X-CMD	None	None	None
+6	2018-09-26 11:02:35.82	CMD	"<loud noise>"	X-CMD	None	None	None
+7	2018-09-26 11:02:38.10	CMD	"<X: okay you can let>"	X-CMD	None	None	None
+8	2018-09-26 11:02:38.31	DM->CMD	"calibration complete"	1	0	ack-done	None
+9	2018-09-26 11:02:46.11	CMD	"i am ready"	2	None	None	None
+10	2018-09-26 11:02:47.54	DM->RN	"participant is ready"	2	9	translation-r-direct	None
+11	2018-09-26 11:02:50.21	DM->CMD	"I'm also ready.  <beep>"	2	9	reciprocal	None
+12	2018-09-26 11:02:53.09	CMD	"move to the left doorway"	3	None	None	None
+13	2018-09-26 11:02:57.71	DM->CMD	"ok"	3	12	ack-wilco	None
+14	2018-09-26 11:03:08.20	DM->RN	"move to Shoe Start - hall doorway"	3	12	translation-r-landmark	None
+15	2018-09-26 11:03:10.24	DM->CMD	"executing. . ."	3	12	ack-doing	None
+16	2018-09-26 11:03:27.80	RN	"done"	3	14	ack-done	None
+17	2018-09-26 11:03:30.12	DM->CMD	"done"	3	16	translation-l	None
+18	2018-09-26 11:03:31.77	CMD	"move a hundred degrees up"	4	None	None	None
+19	2018-09-26 11:03:37.22	DM->CMD	"Can you rephrase that?  <beep>"	4	18	req-clar	None
+20	2018-09-26 11:03:39.64	CMD	"move fifty degrees up"	4	19	clar-repair	None
+21	2018-09-26 11:03:49.94	DM->CMD	"processing. . ."	4	20	processing	None
+22	2018-09-26 11:03:51.43	DM->CMD	"I'm not sure where you want me to go.  <beep>"	4	20	missing-info	None
+23	2018-09-26 11:03:55.66	CMD	"take picture"	5	None	None	None
+24	2018-09-26 11:03:59.52	DM->RN	"send image"	5	23	translation-r-direct	None
+25	2018-09-26 11:04:00.07	RN	"sent"	5	24	ack-done	None
+26	2018-09-26 11:04:01.64	DM->CMD	"sent"	5	25	translation-l	None
+27	2018-09-26 11:04:10.78	CMD	"move <pause> to the left doorway"	6	None	None	None
+28	2018-09-26 11:04:20.64	DM->RN	"move into Kitchen hallway"	6	27	translation-r-landmark	None
+29	2018-09-26 11:04:30.04	RN	"done"	6	28	ack-done	None
+30	2018-09-26 11:04:31.27	DM->CMD	"done"	6	29	translation-l	None
+31	2018-09-26 11:04:32.77	CMD	"take picture"	7	None	None	None
+32	2018-09-26 11:04:36.25	DM->RN	"send image"	7	31	translation-r-direct	None
+33	2018-09-26 11:04:36.71	RN	"sent"	7	32	ack-done	None
+34	2018-09-26 11:04:38.10	DM->CMD	"sent"	7	33	translation-l	None
+35	2018-09-26 11:04:41.30	CMD	"move left"	8	None	None	None
+36	2018-09-26 11:04:48.71	DM->CMD	"Could you break it down for me?  <beep>"	8	35	req-clar	None
+37	2018-09-26 11:04:53.23	CMD	"move fifty degrees left"	8	36	clar-repair	None
+38	2018-09-26 11:04:59.62	DM->CMD	"processing. . ."	8	37	processing	None
+39	2018-09-26 11:05:04.76	DM->RN	"turn left 50 degrees"	8	37	translation-r-direct	None
+40	2018-09-26 11:05:08.92	DM->CMD	"turning. . ."	8	37	ack-doing	None
+41	2018-09-26 11:05:12.84	RN	"done"	8	39	ack-done	None
+42	2018-09-26 11:05:22.16	DM->CMD	"Would you like me to send a picture?  <beep>"	9	None	None	None
+43	2018-09-26 11:05:25.79	CMD	"yes"	9	42	offer-accept	None
+44	2018-09-26 11:05:27.27	DM->RN	"send image"	9	43*	translation-r-direct	None
+45	2018-09-26 11:05:27.72	RN	"sent"	9	44	ack-done	None
+46	2018-09-26 11:05:29.04	DM->CMD	"sent"	9	45	translation-l	None
+47	2018-09-26 11:05:33.84	CMD	"move to the right door"	10	None	None	None
+48	2018-09-26 11:05:40.74	DM->CMD	"ok"	10	47	ack-wilco	None
+49	2018-09-26 11:05:47.80	DM->RN	"move into Office"	10	47	translation-r-landmark	None
+50	2018-09-26 11:05:54.10	DM->RN	"move to Office - hall doorway"	10	49	correction-update	None
+51	2018-09-26 11:05:54.38	DM->RN	"move to Office - hall doorway"	10	50	summarization	None
+52	2018-09-26 11:06:21.00	RN	"done"	10	51*	ack-done	None
+53	2018-09-26 11:06:21.65	CMD	"take picture"	11	None	None	None
+54	2018-09-26 11:06:22.34	DM->CMD	"done"	10	52	translation-l	None
+55	2018-09-26 11:06:24.88	DM->RN	"send image"	11	53	translation-r-direct	None
+56	2018-09-26 11:06:25.53	RN	"sent"	11	55	ack-done	None
+57	2018-09-26 11:06:26.74	DM->CMD	"sent"	11	56	translation-l	None
+58	2018-09-26 11:06:45.38	CMD	"move to the left door"	12	None	None	None
+59	2018-09-26 11:06:49.86	DM->CMD	"ok"	12	58	ack-wilco	None
+60	2018-09-26 11:06:55.94	DM->RN	"move to Foyer - hall doorway"	12	58	translation-r-landmark	None
+61	2018-09-26 11:07:18.66	RN	"done"	12	60	ack-done	None
+62	2018-09-26 11:07:20.03	DM->CMD	"done"	12	61	translation-l	None
+63	2018-09-26 11:07:22.52	CMD	"take picture"	13	None	None	None
+64	2018-09-26 11:07:24.13	DM->RN	"send image"	13	63	translation-r-direct	None
+65	2018-09-26 11:07:24.39	RN	"sent"	13	64	ack-done	None
+66	2018-09-26 11:07:25.83	DM->CMD	"sent"	13	65	translation-l	None
+67	2018-09-26 11:07:38.67	CMD	"move twenty degrees right"	14	None	None	None
+68	2018-09-26 11:07:42.53	DM->CMD	"processing. . ."	14	67	processing	None
+69	2018-09-26 11:07:47.83	DM->RN	"turn right 20 degrees"	14	67	translation-r-direct	None
+70	2018-09-26 11:07:51.03	DM->CMD	"turning. . ."	14	67	ack-doing	None
+71	2018-09-26 11:07:54.33	RN	"done"	14	69	ack-done	None
+72	2018-09-26 11:07:55.58	DM->CMD	"done"	14	71	translation-l	None
+73	2018-09-26 11:08:03.92	CMD	"move to the left door"	15	None	None	None
+74	2018-09-26 11:08:16.18	DM->CMD	"The one closest to me?  <beep>"	15	73	req-clar	None
+75	2018-09-26 11:08:18.71	CMD	"yes"	15	74	clar-repair	None
+76	2018-09-26 11:08:21.34	DM->CMD	"ok"	15	75*	ack-wilco	None
+77	2018-09-26 11:08:26.74	DM->RN	"move to Kitchen - hall doorway"	15	75*	translation-r-landmark	None
+78	2018-09-26 11:08:34.70	DM->CMD	"executing. . ."	15	75*	ack-doing	None
+79	2018-09-26 11:08:52.88	RN	"done"	15	77	ack-done	None
+80	2018-09-26 11:08:54.24	DM->CMD	"done"	15	79	translation-l	None
+81	2018-09-26 11:08:58.24	CMD	"take picture"	16	None	None	None
+82	2018-09-26 11:09:00.12	DM->RN	"send image"	16	81	translation-r-direct	None
+83	2018-09-26 11:09:00.34	RN	"sent"	16	82	ack-done	None
+84	2018-09-26 11:09:01.45	DM->CMD	"sent"	16	83	translation-l	None
+85	2018-09-26 11:09:16.40	CMD	"move to the right door"	17	None	None	None
+86	2018-09-26 11:09:23.28	DM->CMD	"I see more than one doorway.  <beep>"	17	85	missing-info	None
+87	2018-09-26 11:09:26.49	CMD	"the first door"	17	86	clar-repair	None
+88	2018-09-26 11:09:30.86	DM->CMD	"ok"	17	87	ack-wilco	None
+89	2018-09-26 11:09:34.81	DM->RN	"move to Foyer - hall doorway"	17	87*	translation-r-landmark	None
+90	2018-09-26 11:09:39.08	DM->CMD	"executing. . ."	17	87*	ack-doing	None
+91	2018-09-26 11:09:51.57	CMD	"take picture"	17	None	None	None
+92	2018-09-26 11:09:57.49	DM->RN	"then. . ."	17	89	link-next	None
+93	2018-09-26 11:09:58.55	DM->RN	"send image"	17	91	translation-r-direct	None
+94	2018-09-26 11:09:59.10	RN	"done and sent"	17	93*	ack-done	None
+95	2018-09-26 11:10:00.89	DM->CMD	"done, sent"	17	94	translation-l	None
+96	2018-09-26 11:10:09.86	CMD	"move upwards to the left door"	18	None	None	None
+97	2018-09-26 11:10:20.32	DM->CMD	"Do you mean the one on the right?  <beep>"	18	96	req-clar	None
+98	2018-09-26 11:10:22.87	CMD	"yes"	18	97	clar-repair	None
+99	2018-09-26 11:10:25.62	DM->CMD	"ok"	18	98	ack-wilco	None
+100	2018-09-26 11:10:29.11	DM->RN	"move to Office - hall doorway"	18	98*	translation-r-landmark	None
+101	2018-09-26 11:10:33.34	DM->CMD	"moving. . ."	18	98*	ack-doing	None
+102	2018-09-26 11:10:51.59	RN	"done"	18	100	ack-done	None
+103	2018-09-26 11:10:52.80	DM->CMD	"done"	18	102	translation-l	None
+104	2018-09-26 11:10:56.28	CMD	"move twenty five degrees left"	19	None	None	None
+105	2018-09-26 11:11:04.84	DM->RN	"turn left 25 degrees"	19	104	translation-r-direct	None
+106	2018-09-26 11:11:06.13	DM->CMD	"turning. . ."	19	104	ack-doing	None
+107	2018-09-26 11:11:10.96	RN	"done"	19	105	ack-done	None
+108	2018-09-26 11:11:12.40	DM->CMD	"done"	19	107	translation-l	None
+109	2018-09-26 11:11:14.71	CMD	"move to the right door"	20	None	None	None
+110	2018-09-26 11:11:27.18	DM->CMD	"I don't see a door on the right.  <beep>"	20	109	missing-info	None
+111	2018-09-26 11:11:30.89	CMD	"move to the left door"	20	110	clar-repair	None
+112	2018-09-26 11:11:37.08	DM->CMD	"The one closest to me?  <beep>"	20	111	req-clar	None
+113	2018-09-26 11:11:39.76	CMD	"yes"	20	112	clar-repair	None
+114	2018-09-26 11:11:42.69	DM->CMD	"ok"	20	113*	ack-wilco	None
+115	2018-09-26 11:11:46.64	DM->RN	"move to Foyer - hall doorway"	20	113*	translation-r-landmark	None
+116	2018-09-26 11:12:06.86	RN	"done"	20	115	ack-done	None
+117	2018-09-26 11:12:11.46	DM->CMD	"done"	20	116	translation-l	None
+118	2018-09-26 11:12:13.13	CMD	"move to the right door"	21	None	None	None
+119	2018-09-26 11:12:23.19	DM->CMD	"The one closest to me?  <beep>"	21	118	req-clar	None
+120	2018-09-26 11:12:25.80	CMD	"the one a little a hundred degrees over "	21	119	clar-repair	None
+121	2018-09-26 11:12:38.85	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	21	120	missing-info	None
+122	2018-09-26 11:12:44.88	CMD	"move thirty degrees over"	22	None	None	None
+123	2018-09-26 11:12:57.55	DM->CMD	"Which direction should I turn?  <beep>"	22	122	req-clar	None
+124	2018-09-26 11:13:01.91	CMD	"right"	22	123	clar-repair	None
+125	2018-09-26 11:13:04.81	DM->CMD	"ok"	22	124*	ack-wilco	None
+126	2018-09-26 11:13:10.35	DM->RN	"turn right 30 degrees"	22	124*	translation-r-direct	None
+127	2018-09-26 11:13:18.41	RN	"done"	22	126	ack-done	None
+128	2018-09-26 11:13:19.93	DM->CMD	"done"	22	127	translation-l	None
+129	2018-09-26 11:13:22.57	CMD	"move <pause> to the right door"	23	None	None	None
+130	2018-09-26 11:13:28.45	DM->CMD	"ok"	23	129	ack-wilco	None
+131	2018-09-26 11:13:34.20	DM->RN	"move to Office - hall doorway"	23	129	translation-r-landmark	None
+132	2018-09-26 11:13:37.04	DM->CMD	"executing. . ."	23	129	ack-doing	None
+133	2018-09-26 11:13:54.99	RN	"done"	23	131	ack-done	None
+134	2018-09-26 11:13:56.27	DM->CMD	"done"	23	133	translation-l	None
+135	2018-09-26 11:13:59.29	CMD	"move sixty degrees to the right "	24	None	None	None
+136	2018-09-26 11:14:04.76	DM->CMD	"ok"	24	135	ack-wilco	None
+137	2018-09-26 11:14:12.12	DM->RN	"turn right 60 degrees"	24	135	translation-r-direct	None
+138	2018-09-26 11:14:22.59	RN	"done"	24	137	ack-done	None
+139	2018-09-26 11:14:24.03	DM->CMD	"done"	24	138	translation-l	None
+140	2018-09-26 11:14:25.59	CMD	"take picture"	25	None	None	None
+141	2018-09-26 11:14:27.45	DM->RN	"send image"	25	140	translation-r-direct	None
+142	2018-09-26 11:14:27.82	RN	"sent"	25	141	ack-done	None
+143	2018-09-26 11:14:29.44	DM->CMD	"sent"	25	142	translation-l	None
+144	2018-09-26 11:14:50.05	CMD	"move upwards to the left door"	26	None	None	None
+145	2018-09-26 11:14:57.43	DM->CMD	"processing. . ."	26	144	processing	None
+146	2018-09-26 11:15:03.30	DM->RN	"move to Cleaning room - hall doorway"	26	144	translation-r-landmark	None
+147	2018-09-26 11:15:06.73	DM->CMD	"executing. . ."	26	144	ack-doing	None
+148	2018-09-26 11:15:14.86	CMD	"take picture"	26	None	None	None
+149	2018-09-26 11:15:18.84	DM->RN	"then. . ."	26	146	link-next	None
+150	2018-09-26 11:15:19.97	DM->RN	"send image"	26	148	translation-r-direct	None
+151	2018-09-26 11:15:34.36	RN	"done and sent"	26	150*	ack-done	None
+152	2018-09-26 11:15:36.11	DM->CMD	"done, sent"	26	151	translation-l	None
+153	2018-09-26 11:15:48.00	CMD	"move sixty degrees to the left"	27	None	None	None
+154	2018-09-26 11:15:52.84	DM->CMD	"processing. . ."	27	153	processing	None
+155	2018-09-26 11:15:59.43	DM->RN	"turn left 60 degrees"	27	153	translation-r-direct	None
+156	2018-09-26 11:16:00.80	DM->CMD	"turning. . ."	27	153	ack-doing	None
+157	2018-09-26 11:16:08.61	RN	"done"	27	155	ack-done	None
+158	2018-09-26 11:16:09.91	DM->CMD	"done"	27	157	translation-l	None
+159	2018-09-26 11:16:12.14	CMD	"move up north"	28	None	None	None
+160	2018-09-26 11:16:17.13	DM->RN	"turn to face North"	28	159	translation-r-direct	None
+161	2018-09-26 11:16:18.35	DM->CMD	"I will turn to face North"	28	159	ack-wilco	None
+162	2018-09-26 11:16:31.72	RN	"done"	28	160	ack-done	None
+163	2018-09-26 11:16:33.11	DM->CMD	"done"	28	162	translation-l	None
+164	2018-09-26 11:16:35.52	CMD	"move upwards north"	29	None	None	None
+165	2018-09-26 11:16:48.16	DM->CMD	"How far north should I go?"	29	164	req-clar	None
+166	2018-09-26 11:16:52.41	CMD	"sixty degrees"	29	165	clar-repair	None
+167	2018-09-26 11:16:56.39	DM->CMD	"If you're having trouble figuring out how far I should move or turn to get to something, you can always try telling me to go directly to whatever you are interested in.  <beep>"	30	None	None	None
+168	2018-09-26 11:17:03.41	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	30	167	continue	None
+169	2018-09-26 11:17:12.36	CMD	"take picture"	31	None	None	None
+170	2018-09-26 11:17:16.47	DM->RN	"send image"	31	169	translation-r-direct	None
+171	2018-09-26 11:17:17.17	RN	"sent"	31	170	ack-done	None
+172	2018-09-26 11:17:18.41	DM->CMD	"sent"	31	171	translation-l	None
+173	2018-09-26 11:17:28.52	CMD	"move to the right door"	32	None	None	None
+174	2018-09-26 11:17:43.77	DM->CMD	"I don't see a door on the right.  <beep>"	32	173	missing-info	None
+175	2018-09-26 11:17:52.60	CMD	"move to the left door"	32	174	clar-repair	None
+176	2018-09-26 11:18:01.68	DM->RN	"turn to face Cleaning room - hall doorway"	32	175	translation-r-landmark	None
+177	2018-09-26 11:18:03.82	DM->CMD	"executing. . ."	32	175	ack-doing	None
+178	2018-09-26 11:18:15.21	RN	"done"	32	176	ack-done	None
+179	2018-09-26 11:18:17.00	DM->CMD	"done"	32	178	translation-l	None
+180	2018-09-26 11:18:19.25	CMD	"take picture"	33	None	None	None
+181	2018-09-26 11:18:22.96	DM->RN	"send image"	33	180	translation-r-direct	None
+182	2018-09-26 11:18:23.47	RN	"sent"	33	181	ack-done	None
+183	2018-09-26 11:18:24.99	DM->CMD	"sent"	33	182	translation-l	None
+184	2018-09-26 11:18:32.94	CMD	"move to the left door"	34	None	None	None
+185	2018-09-26 11:18:43.71	DM->CMD	"I'm unsure which doorway you mean.  <beep>"	34	184	missing-info	None
+186	2018-09-26 11:18:48.64	CMD	"the door to the right"	34	185	clar-repair	None
+187	2018-09-26 11:19:01.45	DM->CMD	"ok"	34	186*	ack-wilco	None
+188	2018-09-26 11:19:19.58	CMD	"move forward up north"	35	None	None	None
+189	2018-09-26 11:19:19.88	DM->RN	"turn to face Shoe Start external door"	34	186*	translation-r-landmark-partial	None
+190	2018-09-26 11:19:21.13	DM->RN	"move to Shoe Start external door"	34	189	continue	None
+191	2018-09-26 11:19:25.27	DM->CMD	"executing. . ."	34	186*	ack-doing	None
+192	2018-09-26 11:19:45.86	RN	"done"	34	190*	ack-done	None
+193	2018-09-26 11:19:47.42	DM->CMD	"done"	34	192	translation-l	None
+194	2018-09-26 11:19:48.14	CMD	"take picture"	36	None	None	None
+195	2018-09-26 11:19:51.75	DM->RN	"send image"	36	194	translation-r-direct	None
+196	2018-09-26 11:19:52.02	RN	"sent"	36	195	ack-done	None
+197	2018-09-26 11:19:53.88	DM->CMD	"sent"	36	196	translation-l	None
+198	2018-09-26 11:19:57.51	CMD	"move sixty degrees right"	37	None	None	None
+199	2018-09-26 11:20:02.15	DM->CMD	"processing. . ."	37	198	processing	None
+200	2018-09-26 11:20:08.21	DM->RN	"turn right 60 degrees"	37	198	translation-r-direct	None
+201	2018-09-26 11:20:16.34	RN	"done"	37	200	ack-done	None
+202	2018-09-26 11:20:17.82	DM->CMD	"I turned right 60 degrees"	37	201	translation-l	None
+203	2018-09-26 11:20:21.84	CMD	"move up forward"	38	None	None	None
+204	2018-09-26 11:20:28.76	DM->CMD	"Can you rephrase that?  <beep>"	38	203	req-clar	None
+205	2018-09-26 11:20:33.56	CMD	"move to the left door"	38	204	clar-repair	None
+206	2018-09-26 11:20:40.05	DM->CMD	"I don't see a door on the left.  <beep>"	38	205	missing-info	None
+207	2018-09-26 11:20:50.56	CMD	"move to the right door"	38	206	clar-repair	None
+208	2018-09-26 11:20:59.58	DM->RN	"move to Shoe Start - hall doorway"	38	207	translation-r-landmark	None
+209	2018-09-26 11:21:10.63	CMD	"move sixty degrees left"	38	207	continue	None
+210	2018-09-26 11:21:18.11	DM->CMD	"ok"	38	209	ack-wilco	None
+211	2018-09-26 11:21:25.39	DM->RN	"turn left 560 degrees"	38	209	translation-r-direct-error	None
+212	2018-09-26 11:21:36.21	DM->RN	"turn left 60 degrees"	38	211	correction-update	None
+213	2018-09-26 11:21:37.83	CMD	"move to the right"	39	None	None	None
+214	2018-09-26 11:21:43.60	DM->CMD	"turning. . ."	38	209	ack-doing	None
+215	2018-09-26 11:21:45.31	RN	"done"	38	212	ack-done	None
+216	2018-09-26 11:21:47.75	DM->CMD	"done"	38	215	translation-l	None
+217	2018-09-26 11:21:49.40	CMD	"take picture"	40	None	None	None
+218	2018-09-26 11:21:55.84	DM->RN	"send image"	40	217	translation-r-direct	None
+219	2018-09-26 11:21:56.84	RN	"sent"	40	218	ack-done	None
+220	2018-09-26 11:21:57.48	DM->CMD	"sent"	40	219	translation-l	None
+221	2018-09-26 11:22:02.29	CMD	"move seventy degrees right"	41	None	None	None
+222	2018-09-26 11:22:06.99	DM->CMD	"ok"	41	221	ack-wilco	None
+223	2018-09-26 11:22:12.88	DM->CMD	"I will turn right 70 degrees"	41	222	continue	None
+224	2018-09-26 11:22:26.37	DM->RN	"turn right 70 degrees"	41	221	translation-r-direct	None
+225	2018-09-26 11:22:26.38	CMD	"go to the right door"	42	None	None	None
+226	2018-09-26 11:22:27.86	DM->CMD	"turning. . ."	41	221	ack-doing	None
+227	2018-09-26 11:22:37.16	RN	"done"	41	224	ack-done	None
+228	2018-09-26 11:22:38.60	DM->CMD	"done"	41	227	translation-l	None
+229	2018-09-26 11:22:40.64	CMD	"take picture"	43	None	None	None
+230	2018-09-26 11:22:45.01	DM->RN	"send image"	43	229	translation-r-direct	None
+231	2018-09-26 11:22:45.58	RN	"sent"	43	230	ack-done	None
+232	2018-09-26 11:22:47.04	DM->CMD	"sent"	43	231	translation-l	None
+233	2018-09-26 11:23:06.01	CMD	"<X: okay so how many doorways did you find>"	X-CMD	None	None	None
+234	2018-09-26 11:23:07.77	CMD	"eleven"	X-CMD	None	None	None
+235	2018-09-26 11:23:09.31	CMD	"<X: and how many shoes>"	X-CMD	None	None	None
+236	2018-09-26 11:23:10.27	CMD	"zero"	X-CMD	None	None	None
+237	2018-09-26 11:23:10.87	CMD	"<X: and do you think there's anything that indicates the environment has been recently occupied>"	X-CMD	None	None	None
+238	2018-09-26 11:23:15.45	CMD	"yes"	X-CMD	None	None	None
+239	2018-09-26 11:23:16.09	CMD	"<X: what did you find>"	X-CMD	None	None	None
+240	2018-09-26 11:23:16.99	CMD	"<breath> i found a desk a shirt and some chairs"	X-CMD	None	None	None

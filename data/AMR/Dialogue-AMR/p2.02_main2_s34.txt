@@ -1,0 +1,15 @@
+p2.02_main2_s34
+# ::tok do you know the objects beside it
+# ::snt do you know the objects beside it
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (f / familiarize-01
+		:ARG1 (r / robot-dm)
+		:ARG2 (o / object
+			:location (b / beside
+				:op1 (i / it)))
+		:polarity (a / amr-unknown)
+		:stable +
+		:time (n / now))
+	:ARG2 r)
+

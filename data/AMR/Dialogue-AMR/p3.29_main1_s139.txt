@@ -1,0 +1,15 @@
+p3.29_main1_s139
+# ::tok I did n't get all of that .
+# ::snt I didn't get all of that.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (u / understand-01
+		:ARG0 r
+		:ARG1 (t / that
+			:mod (a2 / all))
+		:polarity -
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

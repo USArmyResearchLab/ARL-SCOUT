@@ -1,0 +1,11 @@
+p2.07_main2_s55
+# ::tok turn to face East
+# ::snt turn to face East
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:destination (f / face-01
+		:ARG0 y
+		:ARG1 (e / east))
+	:mode imperative)
+

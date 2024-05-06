@@ -1,0 +1,136 @@
+id	time	stream	text	tu	rel	ant	context
+1	0	DM->RN	"calibrate"	1	0	translation-r-direct	None
+2	0	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+3	12.93	RN	"done"	1	1	ack-done	None
+4	14.21	DM->CMD	"calibration complete"	1	3	translation-l	None
+5	17.45	DM->CMD	"Hello! <beep>"	2	None	None	None
+6	18.71	DM->CMD	". . ."	2	5	link-next	None
+7	19.72	DM->CMD	"Thanks for teaming up with me today."	2	5	continue	None
+8	20.74	DM->CMD	". . ."	2	7	link-next	None
+9	22.81	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	2	7	continue	None
+10	23.82	DM->CMD	". . ."	2	9	link-next	None
+11	26.44	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	2	9	continue	None
+12	27.35	DM->CMD	". . ."	2	11	link-next	None
+13	29.71	DM->CMD	"You can ask for help at any time."	2	11	continue	None
+14	57.99	CMD	"robot explore the area"	3	None	None	None
+15	63.69	DM->CMD	"processing. . ."	3	14	processing	None
+16	73.71	DM->CMD	"I'm not sure where you want me to go.  <beep>"	3	14	missing-info	None
+17	75.32	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	3	16	continue	None
+18	77.2	DM->CMD	"Would you like me to send a picture?  <beep>"	4	None	None	None
+19	81.1	CMD	"send a picture"	4	18	offer-accept	None
+20	85.34	DM->RN	"send image"	4	19	translation-r-direct	None
+21	86.39	RN	"sent"	4	20	ack-done	None
+22	87.77	DM->CMD	"sent"	4	21	translation-l	None
+23	118.57	CMD	"<experimenter talking>"	None	None	None	None
+24	120.51	CMD	"uh robot move forward"	5	None	None	None
+25	126.48	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	5	24	missing-info	None
+26	128.4	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	5	25	continue	None
+27	141.29	CMD	"robot move forward unto until the second column"	6	None	None	None
+28	151.44	DM->CMD	"processing. . ."	6	27	processing	None
+29	160.52	DM->CMD	"I'm unsure which object you mean.  <beep>"	6	27	missing-info	None
+30	162.79	DM->CMD	"I don't know what all the objects are around me.   <beep>"	6	29	continue	None
+31	164.46	DM->CMD	"If you describe an object, you can help me to learn what it is.  <beep>"	6	30	continue	None
+32	166.94	DM->CMD	"Can you describe it another way, using its color, size, or position?  <beep>"	6	27	req-clar	None
+33	169.45	CMD	"robot can you move forward to the uh the triangle object on the ground orange it's orange"	7	None	None	None
+34	183.84	DM->CMD	"processing. . ."	7	33	processing	None
+35	186.37	DM->CMD	"The one to my left?  <beep>"	7	33	req-clar	None
+36	188	CMD	"the one on the right "	7	35	clar-repair	None
+37	192.66	DM->CMD	"processing. . ."	7	36*	processing	None
+38	199.03	DM->RN	"move to Alley cone"	7	36*	translation-r-landmark	None
+39	209.959999999999	CMD	"<no command, starts to say robot>"	None	None	None	None
+40	210.22	DM->CMD	"moving. . ."	7	36*	ack-doing	None
+41	214.589999999999	CMD	"robot send a picture"	8	None	None	None
+42	220.82	RN	"done"	7	38	ack-done	None
+43	225	DM->CMD	"done"	7	42	translation-l	None
+44	225.76	DM->RN	"send image"	8	41	translation-r-direct	None
+45	227.41	RN	"sent"	8	44	ack-done	None
+46	227.94	DM->CMD	"sent"	8	45	translation-l	None
+47	233.92	CMD	"robot turn around"	9	None	None	None
+48	239.05	DM->CMD	"ok"	9	47	ack-wilco	None
+49	241.12	DM->RN	"turn 180"	9	47	translation-r-direct	None
+50	241.82	DM->CMD	"I will turn around 180 degrees"	9	47	ack-wilco	None
+51	244.6	CMD	"send a picture"	9	47	continue	None
+52	244.84	DM->CMD	"turning. . ."	9	47	ack-doing	None
+53	249.14	DM->RN	"then. . ."	9	49	link-next	None
+54	250.38	DM->RN	"send image"	9	51	translation-r-direct	None
+55	266.95	RN	"done and sent"	9	54*	ack-done	None
+56	267.86	DM->CMD	"done, sent"	9	55	translation-l	None
+57	315.28	CMD	"robot"	10	None	None	None
+58	327.56	CMD	"<notification noise>"	None	None	None	None
+59	327.67	DM->CMD	"I didn't get all of that.  <beep>"	10	57	nack	None
+60	329.26	DM->CMD	"Can you repeat that?  <beep>"	10	57	req-repeat	None
+61	330.02	CMD	"robot turn around"	10	60	clar-repeat	None
+62	331.74	CMD	"and send another pic picture"	10	61	continue	None
+63	335.82	DM->CMD	"ok"	10	62*	ack-understand	None
+64	338.65	DM->RN	"turn 180"	10	61	translation-r-direct	None
+65	339.78	DM->CMD	"I will turn around 180 degrees"	10	61	ack-wilco	None
+66	341.32	DM->CMD	"and. . ."	10	65	link-next	None
+67	342.18	DM->RN	"then. . ."	10	64	link-next	None
+68	343.37	DM->RN	"send image"	10	62	translation-r-direct	None
+69	344.23	DM->CMD	"I will send a picture"	10	62	ack-wilco	None
+70	345.24	DM->CMD	"turning. . ."	10	61	ack-doing	None
+71	365	RN	"done and sent"	10	68*	ack-done	None
+72	366.02	DM->CMD	"done, sent"	10	71	translation-l	None
+73	371.47	CMD	"robot mo move closer to the object on your left"	11	None	None	None
+74	380.3	DM->CMD	"processing. . ."	11	73	processing	None
+75	387.76	DM->RN	"move to Alley plant"	11	73	translation-r-landmark	None
+76	391.96	DM->CMD	"moving. . ."	11	73	ack-doing	None
+77	403.15	RN	"done"	11	75	ack-done	None
+78	403.92	CMD	"sent a picture"	12	None	None	None
+79	404.48	DM->CMD	"done"	11	77	translation-l	None
+80	405.77	DM->RN	"send image"	12	78	translation-r-direct	None
+81	406.83	RN	"sent"	12	80	ack-done	None
+82	407.89	DM->CMD	"sent"	12	81	translation-l	None
+83	417.1	CMD	"hmm turn around <pause>"	13	None	None	None
+84	421.02	CMD	"send a picture"	13	83	continue	None
+85	423.16	DM->CMD	"ok"	13	84*	ack-wilco	None
+86	425.61	DM->RN	"turn 180"	13	83	translation-r-direct	None
+87	426.9	DM->RN	"then. . ."	13	86	link-next	None
+88	427.9	DM->RN	"send image"	13	84	translation-r-direct	None
+89	429.89	DM->CMD	"turning. . ."	13	83	ack-doing	None
+90	448.62	RN	"done and sent"	13	88*	ack-done	None
+91	449.41	DM->CMD	"done, sent"	13	90	translation-l	None
+92	453.8	CMD	"move forward <pause> to the object on your <pause> left"	14	None	None	None
+93	464.4	DM->CMD	"processing. . ."	14	92	processing	None
+94	469.87	DM->CMD	"The one directly to my left, or ahead and to the left?  <beep>"	14	92	req-clar	None
+95	473.07	CMD	"ahead and to the left"	14	94	clar-repair	None
+96	475.88	DM->CMD	"processing. . ."	14	95*	processing	None
+97	481.81	DM->RN	"move to ladder"	14	95*	translation-r-landmark	None
+98	481.86	CMD	"send a picture when done"	14	95*	continue	None
+99	485.31	DM->RN	"then. . ."	14	97	link-next	None
+100	486.26	DM->RN	"send image"	14	98	translation-r-direct	None
+101	488.15	DM->CMD	"moving. . ."	14	95*	ack-doing	None
+102	497.2	RN	"done and sent"	14	100*	ack-done	None
+103	499.18	DM->CMD	"done, sent"	14	102	translation-l	None
+104	500.84	CMD	"move past the object on your left"	15	None	None	None
+105	504.32	CMD	"and send a picture"	15	104	continue	None
+106	508.39	DM->CMD	"processing. . ."	15	105*	processing	None
+107	515.86	DM->RN	"move to Alley start position"	15	104	translation-r-landmark	None
+108	519.38	DM->RN	"then. . ."	15	107	link-next	None
+109	520.37	DM->RN	"send image"	15	105	translation-r-direct	None
+110	535.56	DM->CMD	"moving. . ."	15	104	ack-doing	None
+111	548.47	RN	"done and sent"	15	109*	ack-done	None
+112	549.11	DM->CMD	"done, sent"	15	111	translation-l	None
+113	559.02	CMD	"robot move back ff fifty feet not fifty feet hm"	16	None	None	None
+114	564.089999999999	CMD	"robot move back <pause> two feet"	16	113	continue	None
+115	569.68	DM->CMD	"ok"	16	114	ack-wilco	None
+116	578.04	CMD	"robot back up"	16	114	summarization	None
+117	578.26	DM->RN	"move back 2 feet"	16	116*	translation-r-direct	None
+118	583.05	DM->CMD	"moving. . ."	16	116*	ack-doing	None
+119	584.37	RN	"done"	16	117	ack-done	None
+120	584.88	CMD	"send a pic picture"	17	None	None	None
+121	586.09	DM->CMD	"done"	16	119	translation-l	None
+122	587.82	DM->RN	"send image"	17	120	translation-r-direct	None
+123	589.07	RN	"sent"	17	122	ack-done	None
+124	589.94	DM->CMD	"sent"	17	123	translation-l	None
+125	675.75	CMD	"mhm"	X-CMD	None	None	None
+126	676.199999999999	CMD	"<a: okay we're gonna go ahead and review>"	X-CMD	None	None	None
+127	678.18	CMD	"<a: and we would like you to tell your robot teammate as well as me your answers to the worksheet>"	X-CMD	None	None	None
+128	683.77	CMD	"<a: um how many doors were there>"	X-CMD	None	None	None
+129	685.819999999999	CMD	"one"	X-CMD	None	None	None
+130	686.63	CMD	"<a: one door okay>"	X-CMD	None	None	None
+131	687.54	CMD	"<a: how many cones were there>"	X-CMD	None	None	None
+132	688.77	CMD	"two cones"	X-CMD	None	None	None
+133	690.03	CMD	"<a: do you think that there's any type of container in which a soldier might be able to use to move things>"	X-CMD	None	None	None
+134	695.75	CMD	"um two containers one wood crate and one drum"	X-CMD	None	None	None
+135	699.18	CMD	"<a: great thank you>"	X-CMD	None	None	None

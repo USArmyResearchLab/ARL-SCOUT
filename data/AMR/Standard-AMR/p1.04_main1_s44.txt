@@ -1,0 +1,12 @@
+p1.04_main1_s44
+# ::tok Move to the wall directly ahead of you
+# ::snt Move to the wall directly ahead of you
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:ARG2 (w / wall
+		:location (a / ahead
+			:ARG1-of (d / direct-02)
+			:op1 y))
+	:mode imperative)
+

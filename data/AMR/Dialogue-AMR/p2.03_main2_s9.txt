@@ -1,0 +1,12 @@
+p2.03_main2_s9
+# ::tok robot what do you see
+# ::snt robot what do you see
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (a / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+

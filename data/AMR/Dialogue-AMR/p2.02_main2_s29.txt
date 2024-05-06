@@ -1,0 +1,17 @@
+p2.02_main2_s29
+# ::tok I see a grey box - like object ahead and to the left .
+# ::snt I see a grey box-like object ahead and to the left.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (o / object
+			:ARG1-of (g / gray-02)
+			:ARG1-of (r2 / resemble-01
+				:ARG2 (b / box))
+			:ARG1-of (l / left-20
+				:ARG2 r2)
+			:location (a2 / ahead
+				:op1 r2)))
+	:ARG2 (c / commander))
+

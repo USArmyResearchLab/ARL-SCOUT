@@ -1,0 +1,293 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2018-09-19 11:47:50.50	DM->RN	"calibrate"	None	None
+2	2018-09-19 11:47:51.16	DM->CMD	"calibrating. . ."	None	None
+3	2018-09-19 11:48:38.31	RN	"<X: alright audio sync in three two one>"	None	None
+4	2018-09-19 11:48:38.37	CMD	"<X: alright audio sync in three two one>"	None	None
+5	2018-09-19 11:48:42.90	RN	"<loud noise>"	None	None
+6	2018-09-19 11:48:42.90	CMD	"<loud noise>"	None	None
+7	2018-09-19 11:48:44.18	DM->CMD	"calibration complete"	None	None
+8	2018-09-19 11:48:45.24	CMD	"<X: okay you can let it up>"	None	None
+9	2018-09-19 11:48:53.44	CMD	"i am ready"	None	None
+10	2018-09-19 11:49:19.65	CMD	"robot i am ready"	None	None
+11	2018-09-19 11:49:24.25	DM->RN	"participant is ready"	None	None
+12	2018-09-19 11:49:27.10	DM->CMD	"I'm also ready.  <beep>"	None	None
+13	2018-09-19 11:49:29.21	CMD	"good"	None	None
+14	2018-09-19 11:49:35.51	CMD	"robot will you go to your right"	None	None
+15	2018-09-19 11:49:39.87	CMD	"and take a picture of the room that you are facing"	None	None
+16	2018-09-19 11:49:48.16	DM->CMD	"How far should I turn to the right?  <beep>"	None	None
+17	2018-09-19 11:49:52.56	CMD	"please turn thirty degrees to your right"	None	None
+18	2018-09-19 11:49:59.57	DM->CMD	"ok"	None	None
+19	2018-09-19 11:50:05.17	DM->RN	"turn right 30 degrees"	None	None
+20	2018-09-19 11:50:06.26	DM->RN	"then. . ."	None	None
+21	2018-09-19 11:50:07.19	DM->RN	"send image"	None	None
+i000	2018-09-19 11:50:13.95	IMAGE	"frame000"	None	None
+22	2018-09-19 11:50:11.18	RN	"done and sent"	None	None
+23	2018-09-19 11:50:12.76	DM->CMD	"done, sent"	None	None
+24	2018-09-19 11:50:59.34	CMD	"thank you"	None	None
+25	2018-09-19 11:51:03.16	CMD	"robot will you turn to your left"	None	None
+26	2018-09-19 11:51:11.50	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+27	2018-09-19 11:51:17.29	CMD	"sixty five degrees to your left"	None	None
+28	2018-09-19 11:51:21.00	DM->CMD	"ok"	None	None
+29	2018-09-19 11:51:26.22	DM->RN	"turn left 65 degrees"	None	None
+30	2018-09-19 11:51:34.81	RN	"done"	None	None
+31	2018-09-19 11:51:38.36	DM->CMD	"done"	None	None
+32	2018-09-19 11:51:39.46	CMD	"robot will you turn to your left"	None	None
+33	2018-09-19 11:51:46.90	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+34	2018-09-19 11:51:48.39	CMD	"twenty degrees to your left"	None	None
+35	2018-09-19 11:51:52.45	DM->CMD	"processing. . ."	None	None
+36	2018-09-19 11:51:57.33	DM->RN	"turn left 20 degrees"	None	None
+37	2018-09-19 11:52:03.02	RN	"done"	None	None
+38	2018-09-19 11:52:04.58	DM->CMD	"done"	None	None
+39	2018-09-19 11:52:05.92	CMD	"robot will you move forward four feet"	None	None
+40	2018-09-19 11:52:14.34	DM->CMD	"processing. . ."	None	None
+41	2018-09-19 11:52:24.66	DM->RN	"move forward 4"	None	None
+42	2018-09-19 11:52:31.16	DM->CMD	"moving. . ."	None	None
+43	2018-09-19 11:52:32.40	RN	"done"	None	None
+44	2018-09-19 11:52:34.51	DM->CMD	"done"	None	None
+45	2018-09-19 11:52:35.10	CMD	"robot will you turn to your right"	None	None
+46	2018-09-19 11:52:39.01	CMD	"twenty degrees"	None	None
+47	2018-09-19 11:52:43.56	DM->RN	"turn right 20 degrees"	None	None
+48	2018-09-19 11:52:44.78	DM->CMD	"turning. . ."	None	None
+49	2018-09-19 11:52:47.88	RN	"done"	None	None
+50	2018-09-19 11:52:49.36	DM->CMD	"done"	None	None
+51	2018-09-19 11:52:50.28	CMD	"doing a good job robot"	None	None
+52	2018-09-19 11:52:52.09	CMD	"will you please take a picture"	None	None
+53	2018-09-19 11:52:57.00	DM->CMD	"Thank you."	None	None
+54	2018-09-19 11:52:59.09	DM->RN	"send image"	None	None
+i001	2018-09-19 11:53:00.77	IMAGE	"frame001"	None	None
+55	2018-09-19 11:52:59.64	RN	"sent"	None	None
+56	2018-09-19 11:53:01.23	DM->CMD	"sent"	None	None
+57	2018-09-19 11:53:08.21	CMD	"robot will you move forward one foot"	None	None
+58	2018-09-19 11:53:16.82	DM->CMD	"processing. . ."	None	None
+59	2018-09-19 11:53:19.64	DM->RN	"move forward 1 foot"	None	None
+60	2018-09-19 11:53:24.39	RN	"done"	None	None
+61	2018-09-19 11:53:25.85	DM->CMD	"I moved forward 1 foot"	None	None
+62	2018-09-19 11:53:27.07	CMD	"robot will you turn to your left thirty degrees"	None	None
+63	2018-09-19 11:53:46.30	CMD	"robot will you turn to your left thirty degrees"	None	None
+64	2018-09-19 11:54:05.25	CMD	"robot will you turn to your left"	None	None
+65	2018-09-19 11:54:12.42	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+66	2018-09-19 11:54:14.03	CMD	"thirty degrees please"	None	None
+67	2018-09-19 11:54:16.70	DM->CMD	"ok"	None	None
+68	2018-09-19 11:54:23.72	DM->RN	"turn left 30 degrees"	None	None
+69	2018-09-19 11:54:26.59	DM->CMD	"executing. . ."	None	None
+70	2018-09-19 11:54:30.53	RN	"done"	None	None
+71	2018-09-19 11:54:31.86	DM->CMD	"done"	None	None
+72	2018-09-19 11:54:34.84	CMD	"will you turn thirty degrees more"	None	None
+73	2018-09-19 11:54:39.80	DM->CMD	"processing. . ."	None	None
+74	2018-09-19 11:54:45.34	DM->RN	"turn left 30 degrees"	None	None
+75	2018-09-19 11:54:50.79	RN	"done"	None	None
+76	2018-09-19 11:54:52.04	DM->CMD	"done"	None	None
+77	2018-09-19 11:54:56.14	CMD	"robot will you move forward two feet"	None	None
+78	2018-09-19 11:55:02.52	DM->RN	"move forward 2 feet"	None	None
+79	2018-09-19 11:55:03.05	DM->CMD	"I will move forward 2 feet"	None	None
+80	2018-09-19 11:55:07.27	RN	"done"	None	None
+81	2018-09-19 11:55:08.60	DM->CMD	"done"	None	None
+82	2018-09-19 11:55:10.48	CMD	"will you take a picture for me"	None	None
+83	2018-09-19 11:55:13.38	DM->RN	"send image"	None	None
+i002	2018-09-19 11:55:13.57	IMAGE	"frame002"	None	None
+84	2018-09-19 11:55:13.82	RN	"sent"	None	None
+85	2018-09-19 11:55:16.85	DM->CMD	"sent"	None	None
+86	2018-09-19 11:55:30.59	CMD	"robot will you move forward two feet"	None	None
+87	2018-09-19 11:55:36.32	DM->CMD	"ok"	None	None
+88	2018-09-19 11:55:39.26	DM->RN	"move forward 2 feet"	None	None
+89	2018-09-19 11:55:43.67	RN	"done"	None	None
+90	2018-09-19 11:55:45.23	DM->CMD	"I moved forward 2 feet"	None	None
+91	2018-09-19 11:55:47.79	CMD	"robot will you turn right for me"	None	None
+92	2018-09-19 11:55:56.90	DM->CMD	"How far should I turn to the right?  <beep>"	None	None
+93	2018-09-19 11:56:02.75	CMD	"twenty five degrees"	None	None
+94	2018-09-19 11:56:05.42	DM->CMD	"ok"	None	None
+95	2018-09-19 11:56:10.40	DM->RN	"turn right 25 degrees"	None	None
+96	2018-09-19 11:56:14.48	RN	"done"	None	None
+97	2018-09-19 11:56:17.69	DM->CMD	"done"	None	None
+98	2018-09-19 11:56:20.60	CMD	"turn again twenty degrees"	None	None
+99	2018-09-19 11:56:26.05	DM->CMD	"processing. . ."	None	None
+100	2018-09-19 11:56:31.27	DM->RN	"turn right 20 degrees"	None	None
+101	2018-09-19 11:56:33.25	DM->CMD	"turning. . ."	None	None
+102	2018-09-19 11:56:36.10	RN	"done"	None	None
+103	2018-09-19 11:56:38.09	DM->CMD	"done"	None	None
+104	2018-09-19 11:56:38.75	CMD	"will you take a picture for me"	None	None
+105	2018-09-19 11:56:42.72	DM->RN	"send image"	None	None
+i003	2018-09-19 11:56:41.79	IMAGE	"frame003"	None	None
+106	2018-09-19 11:56:43.30	RN	"sent"	None	None
+107	2018-09-19 11:56:44.54	DM->CMD	"sent"	None	None
+108	2018-09-19 11:56:50.21	CMD	"will you move closer inside the room"	None	None
+109	2018-09-19 11:57:05.39	CMD	"robot will you move inside the room"	None	None
+110	2018-09-19 11:57:12.94	DM->CMD	"processing. . ."	None	None
+111	2018-09-19 11:57:22.80	DM->RN	"move into TV hallway"	None	None
+112	2018-09-19 11:57:26.57	DM->CMD	"moving. . ."	None	None
+113	2018-09-19 11:57:33.44	RN	"done"	None	None
+114	2018-09-19 11:57:34.78	DM->CMD	"done"	None	None
+115	2018-09-19 11:57:37.70	CMD	"will you take a picture to your right"	None	None
+116	2018-09-19 11:57:47.90	DM->CMD	"I will turn right 90 degrees"	None	None
+117	2018-09-19 11:57:50.97	DM->RN	"turn right 90 degrees"	None	None
+118	2018-09-19 11:57:52.28	DM->RN	"then. . ."	None	None
+119	2018-09-19 11:57:53.37	DM->RN	"send image"	None	None
+i004	2018-09-19 11:57:57.53	IMAGE	"frame004"	None	None
+120	2018-09-19 11:57:59.97	RN	"done and sent"	None	None
+121	2018-09-19 11:58:03.23	DM->CMD	"done, sent"	None	None
+122	2018-09-19 11:58:09.72	CMD	"will you turn to your left forty degrees"	None	None
+123	2018-09-19 11:58:18.95	DM->RN	"turn left 40 degrees"	None	None
+124	2018-09-19 11:58:19.78	DM->CMD	"turning. . ."	None	None
+125	2018-09-19 11:58:26.14	RN	"done"	None	None
+126	2018-09-19 11:58:27.44	DM->CMD	"done"	None	None
+127	2018-09-19 11:58:28.75	CMD	"will you take a picture"	None	None
+128	2018-09-19 11:58:31.85	DM->RN	"send image"	None	None
+i005	2018-09-19 11:58:29.56	IMAGE	"frame005"	None	None
+129	2018-09-19 11:58:32.17	RN	"sent"	None	None
+130	2018-09-19 11:58:33.59	DM->CMD	"sent"	None	None
+131	2018-09-19 11:58:41.97	CMD	"will you move forward to the room that you can see through your camera lens"	None	None
+132	2018-09-19 11:58:54.12	DM->CMD	"The one directly to my right, or ahead and to the right?  <beep>"	None	None
+133	2018-09-19 11:58:59.15	CMD	"move ahead please"	None	None
+134	2018-09-19 11:59:07.91	DM->RN	"move into Dark room"	None	None
+135	2018-09-19 11:59:13.91	DM->CMD	"executing. . ."	None	None
+136	2018-09-19 11:59:38.32	RN	"done"	None	None
+137	2018-09-19 11:59:39.63	DM->CMD	"done"	None	None
+138	2018-09-19 11:59:40.90	CMD	"will you take a picture to your right in the room"	None	None
+139	2018-09-19 11:59:51.19	DM->CMD	"ok"	None	None
+140	2018-09-19 11:59:54.88	DM->RN	"turn right 90 degrees"	None	None
+141	2018-09-19 11:59:56.28	DM->RN	"then. . ."	None	None
+142	2018-09-19 11:59:57.33	DM->RN	"send image"	None	None
+i006	2018-09-19 12:00:02.14	IMAGE	"frame006"	None	None
+143	2018-09-19 12:00:06.17	RN	"done and sent"	None	None
+144	2018-09-19 12:00:07.76	DM->CMD	"done, sent"	None	None
+145	2018-09-19 12:00:16.48	CMD	"will you turn to your left"	None	None
+146	2018-09-19 12:00:20.92	CMD	"forty degrees"	None	None
+147	2018-09-19 12:00:24.94	DM->CMD	"processing. . ."	None	None
+148	2018-09-19 12:00:31.72	DM->RN	"turn left 40 degrees"	None	None
+149	2018-09-19 12:00:39.01	RN	"done"	None	None
+150	2018-09-19 12:00:42.33	DM->CMD	"done"	None	None
+151	2018-09-19 12:00:43.40	CMD	"will you take a picture of the room"	None	None
+152	2018-09-19 12:00:46.75	DM->RN	"send image"	None	None
+i007	2018-09-19 12:00:42.60	IMAGE	"frame007"	None	None
+153	2018-09-19 12:00:47.08	RN	"sent"	None	None
+154	2018-09-19 12:00:48.54	DM->CMD	"sent"	None	None
+155	2018-09-19 12:01:01.12	CMD	"will you turn to your left sixty five degrees"	None	None
+156	2018-09-19 12:01:08.63	DM->CMD	"processing. . ."	None	None
+157	2018-09-19 12:01:15.82	DM->RN	"turn left 65 degrees"	None	None
+158	2018-09-19 12:01:24.72	RN	"done"	None	None
+159	2018-09-19 12:01:27.96	DM->CMD	"done"	None	None
+160	2018-09-19 12:01:29.65	CMD	"will you turn to your right thirty five more degrees"	None	None
+161	2018-09-19 12:01:36.62	DM->CMD	"ok"	None	None
+162	2018-09-19 12:01:43.17	DM->RN	"turn right 35 degrees"	None	None
+163	2018-09-19 12:01:47.35	CMD	"robot will you turn to your left forty five degrees"	None	None
+164	2018-09-19 12:01:48.05	RN	"done"	None	None
+165	2018-09-19 12:01:51.81	DM->CMD	"done"	None	None
+166	2018-09-19 12:01:58.21	DM->RN	"turn left 45 degrees"	None	None
+167	2018-09-19 12:01:59.14	DM->CMD	"turning. . ."	None	None
+168	2018-09-19 12:02:06.29	RN	"done"	None	None
+169	2018-09-19 12:02:07.61	DM->CMD	"done"	None	None
+170	2018-09-19 12:02:09.79	CMD	"will you turn to your left twenty degrees"	None	None
+171	2018-09-19 12:02:14.33	DM->CMD	"processing. . ."	None	None
+172	2018-09-19 12:02:20.33	DM->RN	"turn left 20 degrees"	None	None
+173	2018-09-19 12:02:26.44	RN	"done"	None	None
+174	2018-09-19 12:02:27.75	DM->CMD	"done"	None	None
+175	2018-09-19 12:02:28.90	CMD	"robot will you move forward"	None	None
+176	2018-09-19 12:02:31.19	CMD	"and take a picture for me"	None	None
+177	2018-09-19 12:02:39.84	DM->CMD	"How far should I move forward? <beep>"	None	None
+178	2018-09-19 12:02:44.24	CMD	"move five feet forward"	None	None
+179	2018-09-19 12:02:47.71	DM->CMD	"ok"	None	None
+180	2018-09-19 12:02:51.31	DM->RN	"move forward 5 feet"	None	None
+181	2018-09-19 12:02:52.71	DM->RN	"then. . ."	None	None
+182	2018-09-19 12:02:53.62	DM->RN	"send image"	None	None
+i008	2018-09-19 12:02:59.87	IMAGE	"frame008"	None	None
+183	2018-09-19 12:03:06.12	RN	"done and sent"	None	None
+184	2018-09-19 12:03:07.38	DM->CMD	"Action done, photo sent"	None	None
+185	2018-09-19 12:03:13.58	CMD	"robot will you turn left"	None	None
+186	2018-09-19 12:03:17.07	CMD	"ten degrees"	None	None
+187	2018-09-19 12:03:20.00	DM->CMD	"ok"	None	None
+188	2018-09-19 12:03:25.97	DM->RN	"turn left 10 degrees"	None	None
+189	2018-09-19 12:03:28.71	RN	"done"	None	None
+190	2018-09-19 12:03:30.08	DM->CMD	"done"	None	None
+191	2018-09-19 12:03:32.63	CMD	"yes robot please turn left fifteen degrees"	None	None
+192	2018-09-19 12:03:38.41	DM->CMD	"ok"	None	None
+193	2018-09-19 12:03:43.71	DM->RN	"turn left 15 degrees"	None	None
+194	2018-09-19 12:03:47.94	RN	"done"	None	None
+195	2018-09-19 12:03:49.34	DM->CMD	"done"	None	None
+196	2018-09-19 12:03:50.81	CMD	"one more time fifteen degrees robot"	None	None
+197	2018-09-19 12:03:55.99	DM->CMD	"ok"	None	None
+198	2018-09-19 12:04:01.28	DM->RN	"turn left 15 degrees"	None	None
+199	2018-09-19 12:04:05.44	RN	"done"	None	None
+200	2018-09-19 12:04:05.75	CMD	"thank you"	None	None
+201	2018-09-19 12:04:07.65	DM->CMD	"done"	None	None
+202	2018-09-19 12:04:08.18	CMD	"will you move forward four feet"	None	None
+203	2018-09-19 12:04:11.94	CMD	"and take a picture"	None	None
+204	2018-09-19 12:04:12.86	DM->CMD	"processing. . ."	None	None
+205	2018-09-19 12:04:19.46	DM->RN	"move forward 4"	None	None
+206	2018-09-19 12:04:21.35	DM->RN	"then. . ."	None	None
+207	2018-09-19 12:04:22.61	DM->RN	"send image"	None	None
+i009	2018-09-19 12:04:20.96	IMAGE	"frame009"	None	None
+208	2018-09-19 12:04:28.25	RN	"done and sent"	None	None
+209	2018-09-19 12:04:29.55	DM->CMD	"done, sent"	None	None
+210	2018-09-19 12:04:46.99	CMD	"robot will you move forward two feet"	None	None
+211	2018-09-19 12:04:50.52	CMD	"and turn left"	None	None
+212	2018-09-19 12:04:56.67	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+213	2018-09-19 12:05:07.54	CMD	"thirty five degrees"	None	None
+214	2018-09-19 12:05:10.40	DM->CMD	"ok"	None	None
+215	2018-09-19 12:05:12.81	DM->RN	"move forward 2 feet"	None	None
+216	2018-09-19 12:05:13.88	DM->RN	"then. . ."	None	None
+217	2018-09-19 12:05:18.70	DM->RN	"turn left 35 degrees"	None	None
+218	2018-09-19 12:05:28.41	RN	"done"	None	None
+219	2018-09-19 12:05:31.15	DM->CMD	"done"	None	None
+220	2018-09-19 12:05:31.30	CMD	"robot can you turn to your left twenty degrees"	None	None
+221	2018-09-19 12:05:37.10	DM->CMD	"processing. . ."	None	None
+222	2018-09-19 12:05:42.34	DM->RN	"turn left 20 degrees"	None	None
+223	2018-09-19 12:05:47.27	RN	"done"	None	None
+224	2018-09-19 12:05:48.64	DM->CMD	"done"	None	None
+225	2018-09-19 12:05:50.85	CMD	"robot please move forward two feet"	None	None
+226	2018-09-19 12:05:54.29	CMD	"and take a picture"	None	None
+227	2018-09-19 12:05:56.95	DM->CMD	"ok"	None	None
+228	2018-09-19 12:05:59.12	DM->RN	"move forward 2 feet"	None	None
+229	2018-09-19 12:06:00.13	DM->RN	"then. . ."	None	None
+230	2018-09-19 12:06:00.99	DM->RN	"send image"	None	None
+i010	2018-09-19 12:05:59.97	IMAGE	"frame010"	None	None
+231	2018-09-19 12:06:08.28	RN	"done and sent"	None	None
+232	2018-09-19 12:06:09.73	DM->CMD	"done, sent"	None	None
+233	2018-09-19 12:06:15.86	CMD	"robot move forward six feet"	None	None
+234	2018-09-19 12:06:18.43	CMD	"and take a picture"	None	None
+235	2018-09-19 12:06:43.19	CMD	"robot can you turn left five degrees"	None	None
+236	2018-09-19 12:06:48.75	DM->CMD	"ok"	None	None
+237	2018-09-19 12:06:55.12	DM->RN	"turn left 5 degrees"	None	None
+238	2018-09-19 12:06:58.46	CMD	"can you move forward"	None	None
+239	2018-09-19 12:07:00.08	RN	"done"	None	None
+240	2018-09-19 12:07:01.23	CMD	"three feet"	None	None
+241	2018-09-19 12:07:03.18	DM->CMD	"done"	None	None
+242	2018-09-19 12:07:05.57	DM->RN	"move forward 3 feet"	None	None
+243	2018-09-19 12:07:06.10	DM->CMD	"I will move forward 3 feet"	None	None
+244	2018-09-19 12:07:10.79	RN	"done"	None	None
+245	2018-09-19 12:07:12.23	DM->CMD	"done"	None	None
+246	2018-09-19 12:07:13.92	CMD	"will you take a picture please"	None	None
+247	2018-09-19 12:07:17.88	DM->RN	"send image"	None	None
+i011	2018-09-19 12:07:09.55	IMAGE	"frame011"	None	None
+248	2018-09-19 12:07:18.50	RN	"sent"	None	None
+249	2018-09-19 12:07:19.84	DM->CMD	"sent"	None	None
+250	2018-09-19 12:07:25.93	CMD	"robot will you turn to your left thirty five degrees"	None	None
+251	2018-09-19 12:07:34.19	DM->RN	"turn left 35 degrees"	None	None
+252	2018-09-19 12:07:35.14	DM->CMD	"turning. . ."	None	None
+253	2018-09-19 12:07:39.84	RN	"done"	None	None
+254	2018-09-19 12:07:41.03	DM->CMD	"done"	None	None
+255	2018-09-19 12:07:44.04	CMD	"robot will you turn again thirty five degrees"	None	None
+256	2018-09-19 12:07:49.15	DM->RN	"turn left 35 degrees"	None	None
+257	2018-09-19 12:07:50.64	DM->CMD	"turning. . ."	None	None
+258	2018-09-19 12:07:56.73	RN	"done"	None	None
+259	2018-09-19 12:07:58.20	DM->CMD	"done"	None	None
+260	2018-09-19 12:07:59.50	CMD	"okay once again robot will you turn twenty five degrees"	None	None
+261	2018-09-19 12:08:07.18	DM->RN	"turn left 25 degrees"	None	None
+262	2018-09-19 12:08:08.09	DM->CMD	"turning. . ."	None	None
+263	2018-09-19 12:08:12.45	RN	"done"	None	None
+264	2018-09-19 12:08:13.78	DM->CMD	"done"	None	None
+265	2018-09-19 12:08:15.77	CMD	"robot will you move forward two feet"	None	None
+266	2018-09-19 12:08:20.43	DM->CMD	"processing. . ."	None	None
+267	2018-09-19 12:08:23.09	DM->RN	"move forward 2 feet"	None	None
+268	2018-09-19 12:08:30.45	RN	"done"	None	None
+269	2018-09-19 12:08:31.93	DM->CMD	"I moved forward 2 feet"	None	None
+270	2018-09-19 12:08:39.94	CMD	"robot will you turn to your right forty five degrees"	None	None
+271	2018-09-19 12:08:46.77	DM->CMD	"ok"	None	None
+272	2018-09-19 12:08:49.61	DM->RN	"turn right 45 degrees"	None	None
+273	2018-09-19 12:08:50.96	DM->CMD	"I will turn right 45 degrees"	None	None
+274	2018-09-19 12:08:56.64	RN	"done"	None	None
+275	2018-09-19 12:08:58.05	DM->CMD	"done"	None	None
+276	2018-09-19 12:09:36.68	CMD	"robot <pause 1.30> it's me again"	None	None
+277	2018-09-19 12:09:39.58	CMD	"i'm going to tell you number of entrance or doorways i encountered were ten"	None	None
+278	2018-09-19 12:09:45.78	CMD	"i did not see a pair of shoes <pause .72>"	None	None
+279	2018-09-19 12:09:49.37	CMD	"but i did know it was occupied the environment was occupied"	None	None

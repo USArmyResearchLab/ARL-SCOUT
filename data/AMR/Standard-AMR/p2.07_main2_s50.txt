@@ -1,0 +1,14 @@
+p2.07_main2_s50
+# ::tok move five feet down the hallway on your right
+# ::snt move five feet down the hallway on your right
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:extent (d / distance-quantity
+		:quant 5
+		:unit (f / foot))
+	:mode imperative
+	:path (h / hallway
+		:ARG1-of (r / right-04
+			:ARG2 y)))
+

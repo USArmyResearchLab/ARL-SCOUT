@@ -1,0 +1,11 @@
+p3.29_main1_s104
+# ::tok I moved forward 5 feet
+# ::snt I moved forward 5 feet
+(m / move-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:direction (f2 / forward)
+	:extent (d / distance-quantity
+		:quant 5
+		:unit (f / foot)))
+

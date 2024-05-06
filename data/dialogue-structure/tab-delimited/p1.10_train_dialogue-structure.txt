@@ -1,0 +1,60 @@
+id	time	stream	text	tu	rel	ant	context
+2	41.91	CMD	"go forward robot"	2	None	None	None
+3	74.37	DM->CMD	"How far forward should I go?  You can tell me to move a distance or to move to an object.  Would you like me to send a picture so you can see the space?"	2	2	req-clar	None
+4	78.46	CMD	"send a picture"	3	None	None	None
+5	88.7	DM->RN	"photo"	3	4	translation-r-direct	None
+6	88.74	RN	"image sent"	3	5	ack-done	None
+7	91.86	DM->CMD	"sent"	3	6	translation-l	None
+8	125.08	CMD	"move to first cone"	4	None	None	None
+9	151.93	DM->CMD	"I'm not sure which object you are referring to.  Can you describe it another way, using color or its location?"	4	8	req-clar	None
+10	154.22	CMD	"move to orange cone in doorway"	4	9	clar-repair	None
+11	174.69	DM->RN	"move to the orange cone in the first doorway"	4	10	translation-r-direct	None
+12	178.16	DM->CMD	"executing..."	4	10	ack-doing	None
+13	185.68	RN	"done"	4	11	ack-done	None
+14	186	CMD	"send photo"	5	None	None	None
+15	187.95	DM->CMD	"done"	4	13	translation-l	None
+16	195.05	DM->RN	"image"	5	14	translation-r-direct	None
+17	197.39	RN	"image sent"	5	16	ack-done	None
+18	199.69	DM->CMD	"sent"	5	17	translation-l	None
+19	222.02	CMD	"go back three feet"	6	None	None	None
+20	233.2	DM->RN	"move back three feet"	6	19	translation-r-direct	None
+21	236.52	DM->CMD	"executing..."	6	19	ack-doing	None
+22	241.39	RN	"done"	6	20	ack-done	None
+23	243.66	DM->CMD	"done"	6	22	translation-l	None
+24	248.51	CMD	"turn east"	7	None	None	None
+25	272.84	DM->CMD	"executing..."	7	24	ack-doing	None
+26	277.97	DM->RN	"turn to face east"	7	24	translation-r-direct	None
+27	287.18	CMD	"send photo"	8	None	None	None
+28	287.44	RN	"done"	7	26	ack-done	None
+29	290.63	DM->CMD	"done"	7	28	translation-l	None
+30	294.55	RN	"<no speech>"	None	None	None	None
+31	296.59	DM->RN	"image"	8	27	translation-r-direct	None
+32	297.64	RN	"image sent"	8	31	ack-done	None
+33	300.21	DM->CMD	"sent"	8	32	translation-l	None
+34	308.9	CMD	"proceed forward to orange cone"	9	None	None	None
+35	331.33	DM->RN	"move forward to orange cone ahead"	9	34	translation-r-direct	None
+36	334.83	DM->CMD	"executing..."	9	34	ack-doing	None
+37	350.22	CMD	"send photo"	10	None	None	None
+38	351.73	RN	"done"	9	35	ack-done	None
+39	354.13	DM->CMD	"done"	9	38	translation-l	None
+40	359.58	DM->RN	"image"	10	37	translation-r-direct	None
+41	360.04	RN	"image sent"	10	40	ack-done	None
+42	362.82	DM->CMD	"sent"	10	41	translation-l	None
+43	381.48	CMD	"turn left"	11	None	None	None
+44	411.15	DM->CMD	"How far to the left should I turn?  You can tell me about how many degrees, or to turn to face something."	11	43	req-clar	None
+45	416.44	CMD	"turn left ninety degrees"	11	44	clar-repair	None
+46	428.08	DM->RN	"turn left 90"	11	45	translation-r-direct	None
+47	431.85	DM->CMD	"executing..."	11	45	ack-doing	None
+48	437.41	RN	"done"	11	46	ack-done	None
+49	438.69	CMD	"send photo"	12	None	None	None
+50	440.28	DM->CMD	"done"	11	48	translation-l	None
+51	447.08	DM->RN	"image"	12	49	translation-r-direct	None
+52	448.54	RN	"image sent"	12	51	ack-done	None
+53	450.84	DM->CMD	"sent"	12	52	translation-l	None
+54	594.96	CMD	"<m:so how many doorways were there>"	X-CMD	None	None	None
+55	599.43	CMD	"two doorways"	X-CMD	None	None	None
+56	603.57	CMD	"<m:alright and how many cones were there>"	X-CMD	None	None	None
+57	605.34	CMD	"two cones"	X-CMD	None	None	None
+58	606.92	CMD	"<m:do you think there's any type of container>"	X-CMD	None	None	None
+59	608.88	CMD	"no containers"	X-CMD	None	None	None
+60	612.03	CMD	"<m:alright that's it yeah>"	X-CMD	None	None	None

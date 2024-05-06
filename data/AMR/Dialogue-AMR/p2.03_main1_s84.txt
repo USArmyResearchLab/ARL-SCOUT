@@ -1,0 +1,16 @@
+p2.03_main1_s84
+# ::tok I will turn to face South
+# ::snt I will turn to face South
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (s / south))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

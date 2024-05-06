@@ -1,0 +1,609 @@
+id	time	stream	text	context	notes
+1	2019-10-09 14:49:06.45	CMD	"calibrate"	None	None
+2	1976-10-23 00:35:26.00	DM->RN	" calibrate"	None	None
+3	1976-10-23 00:36:05.00	DM->CMD	"I will calibrate...."	None	None
+4	2019-10-09 14:49:29.21	RN	" calibrating. . ."	None	None
+5	2019-10-09 14:49:29.21	DM->CMD	"calibrating. . ."	None	None
+6	2019-10-09 14:49:39.13	RN	" calibration complete"	None	None
+7	2019-10-09 14:49:39.13	DM->CMD	"calibration complete"	None	None
+8	2019-10-09 14:49:29.19	CMD	"I'm ready"	None	None
+9	2019-10-09 14:49:49.61	DM->RN	" participant is ready"	None	None
+10	2019-10-09 14:49:49.61	DM->CMD	"Processing...."	None	None
+11	2019-10-09 14:49:52.05	RN	" I'm also ready. <beep>"	None	None
+12	2019-10-09 14:49:52.05	DM->CMD	"I'm also ready. <beep>"	None	None
+13	2019-10-09 14:49:34.90	CMD	"take a picture"	None	None
+14	2019-10-09 14:49:55.52	DM->RN	" send image"	None	None
+15	2019-10-09 14:49:55.52	DM->CMD	"I will send image."	None	None
+i000	2019-10-09 14:49:26.58	IMAGE	"frame000"	None	None
+16	2019-10-09 14:49:57.65	RN	" sent"	None	None
+17	2019-10-09 14:49:57.99	DM->CMD	"sent"	None	None
+18	2019-10-09 14:49:48.20	CMD	"go towards the doorway"	None	None
+19	2019-10-09 14:50:10.76	DM->RN	" move forward 1.5 feet"	None	None
+20	2019-10-09 14:50:10.76	DM->CMD	"I will move forward 1.5 feet."	None	None
+21	2019-10-09 14:50:12.99	RN	" moving. . ."	None	None
+22	2019-10-09 14:50:13.04	DM->CMD	"moving. . ."	None	None
+23	2019-10-09 14:50:18.63	RN	" done"	None	None
+24	2019-10-09 14:50:18.67	DM->CMD	"done"	None	None
+25	2019-10-09 14:50:01.11	CMD	"go to the doorway"	None	None
+26	2019-10-09 14:50:21.86	DM->RN	" move to doorway"	None	None
+27	2019-10-09 14:50:21.87	DM->CMD	"I will move to doorway."	None	None
+28	2019-10-09 14:50:25.23	RN	" moving. . ."	None	None
+29	2019-10-09 14:50:25.33	DM->CMD	"moving. . ."	None	None
+30	2019-10-09 14:50:09.20	CMD	"take a picture"	None	None
+31	2019-10-09 14:50:29.11	DM->RN	" send image"	None	None
+32	2019-10-09 14:50:29.12	DM->CMD	"I will send image."	None	None
+33	2019-10-09 14:50:37.85	RN	" done"	None	None
+34	2019-10-09 14:50:37.86	DM->CMD	"done"	None	None
+i001	2019-10-09 14:50:07.46	IMAGE	"frame001"	None	None
+35	2019-10-09 14:50:39.04	RN	" sent"	None	None
+36	2019-10-09 14:50:39.15	DM->CMD	"sent"	None	None
+37	2019-10-09 14:50:34.77	CMD	"move into the next room"	None	None
+38	2019-10-09 14:50:57.51	DM->CMD	"Can you repeat that? <beep>"	None	None
+39	2019-10-09 14:50:39.30	CMD	"move into the next room"	None	None
+40	2019-10-09 14:51:00.16	DM->CMD	"Can you repeat that? <beep>"	None	None
+41	2019-10-09 14:50:41.89	CMD	"go into the next room"	None	None
+42	2019-10-09 14:51:02.46	DM->CMD	"I will move to doorway."	None	None
+43	2019-10-09 14:51:10.48	RN	" I'm not sure which doorway you are referring to. <beep>"	None	None
+44	2019-10-09 14:51:10.48	DM->CMD	"I'm not sure which doorway you are referring to. <beep>"	None	None
+45	2019-10-09 14:50:56.00	CMD	"the one on your right"	None	None
+46	2019-10-09 14:50:58.72	CMD	"the one on your right"	None	None
+47	2019-10-09 14:51:19.57	DM->CMD	"Can you repeat that? <beep>"	None	None
+48	2019-10-09 14:51:01.44	CMD	"on your right"	None	None
+49	2019-10-09 14:51:21.96	DM->RN	" move into room"	None	None
+50	2019-10-09 14:51:21.97	DM->CMD	"I will try to move into room."	None	None
+51	2019-10-09 14:51:07.33	CMD	"take a picture"	None	None
+52	2019-10-09 14:51:27.21	DM->RN	" send image"	None	None
+53	2019-10-09 14:51:27.22	DM->CMD	"I will send image."	None	None
+i002	2019-10-09 14:50:57.73	IMAGE	"frame002"	None	None
+54	2019-10-09 14:51:30.47	RN	" sent"	None	None
+55	2019-10-09 14:51:30.55	DM->CMD	"sent"	None	None
+56	2019-10-09 14:51:34.91	RN	" The one directly ahead of me? <beep>"	None	None
+57	2019-10-09 14:51:34.91	DM->CMD	"The one directly ahead of me? <beep>"	None	None
+58	2019-10-09 14:51:15.07	CMD	"move<mov>"	None	None
+59	2019-10-09 14:51:15.07	CMD	"yes"	None	None
+60	2019-10-09 14:51:37.01	DM->RN	" yes"	None	None
+61	2019-10-09 14:51:37.01	DM->CMD	"Processing...."	None	None
+62	2019-10-09 14:51:38.22	RN	" moving. . ."	None	None
+63	2019-10-09 14:51:38.34	DM->CMD	"moving. . ."	None	None
+64	2019-10-09 14:51:20.05	CMD	"take a picture"	None	None
+65	2019-10-09 14:51:39.91	DM->RN	" send image"	None	None
+66	2019-10-09 14:51:39.91	DM->CMD	"I will send image."	None	None
+67	2019-10-09 14:52:11.68	RN	" done"	None	None
+68	2019-10-09 14:52:11.72	DM->CMD	"done"	None	None
+i003	2019-10-09 14:51:39.84	IMAGE	"frame003"	None	None
+69	2019-10-09 14:52:12.93	RN	" sent"	None	None
+70	2019-10-09 14:52:12.95	DM->CMD	"sent"	None	None
+71	2019-10-09 14:51:57.49	CMD	"turn towards the shovel"	None	None
+72	2019-10-09 14:52:19.46	DM->CMD	"I will try to move to shopping bag."	None	None
+73	2019-10-09 14:52:02.00	CMD	"cancel"	None	None
+74	2019-10-09 14:52:04.75	CMD	"cancel"	None	None
+75	2019-10-09 14:52:24.72	DM->CMD	"Can you repeat that? <beep>"	None	None
+76	2019-10-09 14:52:06.76	CMD	"cancel"	None	None
+77	2019-10-09 14:52:26.77	DM->RN	" cancel command"	None	None
+78	2019-10-09 14:52:26.81	DM->CMD	"Processing...."	None	None
+79	2019-10-09 14:52:08.74	CMD	"turn towards the shovel"	None	None
+80	2019-10-09 14:52:29.96	DM->CMD	"Can you repeat that? <beep>"	None	None
+81	2019-10-09 14:52:11.73	CMD	"the shovel"	None	None
+82	2019-10-09 14:52:32.11	DM->RN	" send image"	None	None
+83	2019-10-09 14:52:32.12	DM->CMD	"I will send image."	None	None
+i004	2019-10-09 14:52:00.93	IMAGE	"frame004"	None	None
+84	2019-10-09 14:52:34.64	RN	" sent"	None	None
+85	2019-10-09 14:52:34.76	DM->CMD	"sent"	None	None
+86	2019-10-09 14:52:17.65	CMD	"go to the shovel"	None	None
+87	2019-10-09 14:52:39.50	DM->RN	" move to shopping bag"	None	None
+88	2019-10-09 14:52:39.51	DM->CMD	"I will try to move to shopping bag."	None	None
+89	2019-10-09 14:52:21.52	CMD	"cancel"	None	None
+90	2019-10-09 14:52:41.57	DM->RN	" cancel command"	None	None
+91	2019-10-09 14:52:41.57	DM->CMD	"Processing...."	None	None
+92	2019-10-09 14:52:26.53	CMD	"turn towards the doorway"	None	None
+93	2019-10-09 14:52:48.16	DM->CMD	"Can you repeat that? <beep>"	None	None
+94	2019-10-09 14:52:29.89	CMD	"turn towards the doorway"	None	None
+95	2019-10-09 14:52:50.86	DM->RN	" move to doorway"	None	None
+96	2019-10-09 14:52:50.87	DM->CMD	"I will move to doorway."	None	None
+97	2019-10-09 14:52:53.31	RN	" moving. . ."	None	None
+98	2019-10-09 14:52:53.40	DM->CMD	"moving. . ."	None	None
+99	2019-10-09 14:53:00.68	RN	" done"	None	None
+100	2019-10-09 14:53:00.77	DM->CMD	"done"	None	None
+101	2019-10-09 14:52:43.36	CMD	"take a picture"	None	None
+102	2019-10-09 14:53:04.01	DM->RN	" send image"	None	None
+103	2019-10-09 14:53:04.02	DM->CMD	"I will send image."	None	None
+i005	2019-10-09 14:52:31.65	IMAGE	"frame005"	None	None
+104	2019-10-09 14:53:05.71	RN	" sent"	None	None
+105	2019-10-09 14:53:05.79	DM->CMD	"sent"	None	None
+106	2019-10-09 14:52:47.73	CMD	"turn toward the doorway behind you"	None	None
+107	2019-10-09 14:53:12.92	DM->CMD	"Can you repeat that? <beep>"	None	None
+108	2019-10-09 14:52:54.63	CMD	"turn toward the doorway behind you"	None	None
+109	2019-10-09 14:53:15.81	DM->CMD	"Can you repeat that? <beep>"	None	None
+110	2019-10-09 14:52:57.46	CMD	"behind you"	None	None
+111	2019-10-09 14:53:17.65	DM->CMD	"Can you repeat that? <beep>"	None	None
+112	2019-10-09 14:52:59.30	CMD	"cancel"	None	None
+113	2019-10-09 14:53:19.21	DM->RN	" cancel command"	None	None
+114	2019-10-09 14:53:19.22	DM->CMD	"Processing...."	None	None
+115	2019-10-09 14:53:01.72	CMD	"turn around"	None	None
+116	2019-10-09 14:53:23.01	DM->RN	" turn 180"	None	None
+117	2019-10-09 14:53:23.01	DM->CMD	"I will turn 180."	None	None
+118	2019-10-09 14:53:24.65	RN	" turning. . ."	None	None
+119	2019-10-09 14:53:24.73	DM->CMD	"turning. . ."	None	None
+120	2019-10-09 14:53:06.40	CMD	"take a picture"	None	None
+121	2019-10-09 14:53:26.47	DM->RN	" send image"	None	None
+122	2019-10-09 14:53:26.47	DM->CMD	"I will send image."	None	None
+123	2019-10-09 14:53:38.61	RN	" done"	None	None
+124	2019-10-09 14:53:38.66	DM->CMD	"done"	None	None
+i006	2019-10-09 14:53:05.37	IMAGE	"frame006"	None	None
+125	2019-10-09 14:53:40.09	RN	" sent"	None	None
+126	2019-10-09 14:53:40.19	DM->CMD	"sent"	None	None
+127	2019-10-09 14:53:23.54	CMD	"go into the room on your right"	None	None
+128	2019-10-09 14:53:44.66	DM->RN	" move into room"	None	None
+129	2019-10-09 14:53:44.67	DM->CMD	"I will try to move into room."	None	None
+130	2019-10-09 14:53:46.30	RN	" moving. . ."	None	None
+131	2019-10-09 14:53:46.34	DM->CMD	"moving. . ."	None	None
+132	2019-10-09 14:53:29.62	CMD	"stop"	None	None
+133	2019-10-09 14:53:49.66	DM->RN	" stop"	None	None
+134	2019-10-09 14:53:49.67	DM->CMD	"Processing...."	None	None
+135	2019-10-09 14:53:51.75	RN	" done"	None	None
+136	2019-10-09 14:53:51.76	DM->CMD	"done"	None	None
+137	2019-10-09 14:53:32.00	CMD	"turn to your right<ri> south"	None	None
+138	2019-10-09 14:53:54.28	DM->CMD	"Can you repeat that? <beep>"	None	None
+139	2019-10-09 14:53:35.89	CMD	"turn south"	None	None
+140	2019-10-09 14:53:56.13	DM->CMD	"Can you repeat that? <beep>"	None	None
+141	2019-10-09 14:53:37.79	CMD	"face south"	None	None
+142	2019-10-09 14:53:58.01	DM->CMD	"Can you repeat that? <beep>"	None	None
+143	2019-10-09 14:53:39.62	CMD	"cancel"	None	None
+144	2019-10-09 14:53:59.76	DM->RN	" cancel command"	None	None
+145	2019-10-09 14:53:59.77	DM->CMD	"Processing...."	None	None
+146	2019-10-09 14:53:41.43	CMD	"face south"	None	None
+147	2019-10-09 14:54:01.76	DM->CMD	"Can you repeat that? <beep>"	None	None
+148	2019-10-09 14:53:43.54	CMD	"face south"	None	None
+149	2019-10-09 14:54:04.55	DM->RN	" turn to face South"	None	None
+150	2019-10-09 14:54:04.56	DM->CMD	"I will turn to face South."	None	None
+151	2019-10-09 14:54:06.83	RN	" turning. . ."	None	None
+152	2019-10-09 14:54:06.92	DM->CMD	"turning. . ."	None	None
+153	2019-10-09 14:53:50.82	CMD	"take a picture"	None	None
+154	2019-10-09 14:54:11.27	DM->RN	" send image"	None	None
+155	2019-10-09 14:54:11.31	DM->CMD	"I will send image."	None	None
+156	2019-10-09 14:54:17.53	RN	" done"	None	None
+157	2019-10-09 14:54:17.57	DM->CMD	"done"	None	None
+i007	2019-10-09 14:53:43.39	IMAGE	"frame007"	None	None
+158	2019-10-09 14:54:18.99	RN	" sent"	None	None
+159	2019-10-09 14:54:19.10	DM->CMD	"sent"	None	None
+160	2019-10-09 14:54:01.88	CMD	"go into the room on your right"	None	None
+161	2019-10-09 14:54:23.32	DM->RN	" move into room"	None	None
+162	2019-10-09 14:54:23.36	DM->CMD	"I will try to move into room."	None	None
+163	2019-10-09 14:54:24.91	RN	" moving. . ."	None	None
+164	2019-10-09 14:54:24.94	DM->CMD	"moving. . ."	None	None
+165	2019-10-09 14:54:11.46	CMD	"stop"	None	None
+166	2019-10-09 14:54:33.67	DM->RN	" stop"	None	None
+167	2019-10-09 14:54:33.71	DM->CMD	"Processing...."	None	None
+168	2019-10-09 14:54:15.20	CMD	"take a picture"	None	None
+169	2019-10-09 14:54:35.36	DM->RN	" send image"	None	None
+170	2019-10-09 14:54:35.37	DM->CMD	"I will send image."	None	None
+171	2019-10-09 14:54:35.52	RN	" done"	None	None
+172	2019-10-09 14:54:35.53	DM->CMD	"done"	None	None
+i008	2019-10-09 14:54:01.35	IMAGE	"frame008"	None	None
+173	2019-10-09 14:54:37.27	RN	" sent"	None	None
+174	2019-10-09 14:54:37.27	DM->CMD	"sent"	None	None
+175	2019-10-09 14:54:17.19	CMD	"go into the hallway on your left"	None	None
+176	2019-10-09 14:54:45.11	DM->RN	" move into room"	None	None
+177	2019-10-09 14:54:45.11	DM->CMD	"I will try to move into room."	None	None
+178	2019-10-09 14:54:46.45	RN	" moving. . ."	None	None
+179	2019-10-09 14:54:46.55	DM->CMD	"moving. . ."	None	None
+180	2019-10-09 14:54:51.25	RN	" done"	None	None
+181	2019-10-09 14:54:51.36	DM->CMD	"done"	None	None
+182	2019-10-09 14:54:33.16	CMD	"go into the next room"	None	None
+183	2019-10-09 14:54:54.08	DM->CMD	"I will move to doorway."	None	None
+184	2019-10-09 14:54:55.62	RN	" moving. . ."	None	None
+185	2019-10-09 14:54:55.66	DM->CMD	"moving. . ."	None	None
+186	2019-10-09 14:55:05.48	RN	" done"	None	None
+187	2019-10-09 14:55:05.59	DM->CMD	"done"	None	None
+188	2019-10-09 14:54:47.00	CMD	"take a picture"	None	None
+189	2019-10-09 14:54:49.88	CMD	"take a picture"	None	None
+190	2019-10-09 14:55:10.02	DM->RN	" send image"	None	None
+191	2019-10-09 14:55:10.02	DM->CMD	"I will send image."	None	None
+i009	2019-10-09 14:54:35.41	IMAGE	"frame009"	None	None
+192	2019-10-09 14:55:11.96	RN	" sent"	None	None
+193	2019-10-09 14:55:12.04	DM->CMD	"sent"	None	None
+194	2019-10-09 14:54:55.17	CMD	"go into the next room"	None	None
+195	2019-10-09 14:55:19.31	DM->RN	" move into room"	None	None
+196	2019-10-09 14:55:19.32	DM->CMD	"I will try to move into room."	None	None
+197	2019-10-09 14:55:22.55	RN	" moving. . ."	None	None
+198	2019-10-09 14:55:22.59	DM->CMD	"moving. . ."	None	None
+199	2019-10-09 14:55:06.48	CMD	"turn west"	None	None
+200	2019-10-09 14:55:27.96	DM->RN	" turn to face West"	None	None
+201	2019-10-09 14:55:27.96	DM->CMD	"I will turn to face West."	None	None
+202	2019-10-09 14:55:09.75	CMD	"take a picture"	None	None
+203	2019-10-09 14:55:29.96	DM->RN	" send image"	None	None
+204	2019-10-09 14:55:29.96	DM->CMD	"I will send image."	None	None
+205	2019-10-09 14:55:31.49	RN	" turning. . ."	None	None
+206	2019-10-09 14:55:31.60	DM->CMD	"turning. . ."	None	None
+207	2019-10-09 14:55:17.94	CMD	"stop"	None	None
+208	2019-10-09 14:55:37.91	DM->RN	" stop"	None	None
+209	2019-10-09 14:55:37.91	DM->CMD	"Processing...."	None	None
+210	2019-10-09 14:55:19.49	CMD	"take a picture"	None	None
+211	2019-10-09 14:55:39.76	DM->RN	" send image"	None	None
+212	2019-10-09 14:55:39.77	DM->CMD	"I will send image."	None	None
+213	2019-10-09 14:55:40.41	RN	" done"	None	None
+214	2019-10-09 14:55:40.51	DM->CMD	"done"	None	None
+i010	2019-10-09 14:55:05.13	IMAGE	"frame010"	None	None
+215	2019-10-09 14:55:42.33	RN	" sent"	None	None
+216	2019-10-09 14:55:42.36	DM->CMD	"sent"	None	None
+217	2019-10-09 14:55:26.03	CMD	"turn east"	None	None
+218	2019-10-09 14:55:47.81	DM->CMD	"Can you repeat that? <beep>"	None	None
+219	2019-10-09 14:55:29.51	CMD	"face east"	None	None
+220	2019-10-09 14:55:50.11	DM->CMD	"Can you repeat that? <beep>"	None	None
+221	2019-10-09 14:55:31.78	CMD	"face east"	None	None
+222	2019-10-09 14:55:52.86	DM->RN	" move forward 1 foot"	None	None
+223	2019-10-09 14:55:52.87	DM->CMD	"I will move forward 1 foot."	None	None
+224	2019-10-09 14:55:54.75	RN	" moving. . ."	None	None
+225	2019-10-09 14:55:54.91	DM->CMD	"moving. . ."	None	None
+226	2019-10-09 14:55:35.06	CMD	"cancel"	None	None
+227	2019-10-09 14:55:55.12	DM->RN	" cancel command"	None	None
+228	2019-10-09 14:55:55.12	DM->CMD	"Processing...."	None	None
+229	2019-10-09 14:55:57.00	RN	" done"	None	None
+230	2019-10-09 14:55:57.04	DM->CMD	"done"	None	None
+231	2019-10-09 14:55:36.72	CMD	"face east"	None	None
+232	2019-10-09 14:55:58.41	DM->RN	" move forward 1 foot"	None	None
+233	2019-10-09 14:55:58.41	DM->CMD	"I will move forward 1 foot."	None	None
+234	2019-10-09 14:55:40.24	CMD	"cancel"	None	None
+235	2019-10-09 14:56:00.26	DM->RN	" cancel command"	None	None
+236	2019-10-09 14:56:00.27	DM->CMD	"Processing...."	None	None
+237	2019-10-09 14:55:42.23	CMD	"turn a hundred eighty degrees to your right"	None	None
+238	2019-10-09 14:56:04.11	DM->RN	" turn right 180"	None	None
+239	2019-10-09 14:56:04.12	DM->CMD	"I will turn right 180."	None	None
+240	2019-10-09 14:56:06.89	RN	" moving. . ."	None	None
+241	2019-10-09 14:56:06.93	DM->CMD	"moving. . ."	None	None
+242	2019-10-09 14:55:49.92	CMD	"take a picture"	None	None
+243	2019-10-09 14:56:10.56	DM->RN	" send image"	None	None
+244	2019-10-09 14:56:10.57	DM->CMD	"I will send image."	None	None
+245	2019-10-09 14:56:19.20	RN	" done"	None	None
+246	2019-10-09 14:56:19.22	DM->CMD	"done"	None	None
+i011	2019-10-09 14:55:42.93	IMAGE	"frame011"	None	None
+247	2019-10-09 14:56:20.89	RN	" sent"	None	None
+248	2019-10-09 14:56:20.96	DM->CMD	"sent"	None	None
+249	2019-10-09 14:56:05.40	CMD	"go into the room on your left"	None	None
+250	2019-10-09 14:56:29.12	DM->RN	" move into room"	None	None
+251	2019-10-09 14:56:29.16	DM->CMD	"I will try to move into room."	None	None
+252	2019-10-09 14:56:45.43	RN	" I'm not sure which room you are referring to. <beep>"	None	None
+253	2019-10-09 14:56:45.43	DM->CMD	"I'm not sure which room you are referring to. <beep>"	None	None
+254	2019-10-09 14:56:28.29	CMD	"on your left"	None	None
+255	2019-10-09 14:56:49.35	DM->CMD	"Can you repeat that? <beep>"	None	None
+256	2019-10-09 14:56:31.19	CMD	"on your left"	None	None
+257	2019-10-09 14:56:51.81	DM->CMD	"Can you repeat that? <beep>"	None	None
+258	2019-10-09 14:56:33.41	CMD	"on your right"	None	None
+259	2019-10-09 14:56:53.62	DM->CMD	"I will try to move into room."	None	None
+260	2019-10-09 14:57:01.92	RN	" Do you mean the one on the right? <beep>"	None	None
+261	2019-10-09 14:57:01.92	DM->CMD	"Do you mean the one on the right? <beep>"	None	None
+262	2019-10-09 14:56:44.00	CMD	"yes"	None	None
+263	2019-10-09 14:56:48.20	CMD	"yes"	None	None
+264	2019-10-09 14:57:08.31	DM->RN	" yes"	None	None
+265	2019-10-09 14:57:08.31	DM->CMD	"Processing...."	None	None
+266	2019-10-09 14:57:09.72	RN	" moving. . ."	None	None
+267	2019-10-09 14:57:09.73	DM->CMD	"moving. . ."	None	None
+268	2019-10-09 14:56:59.72	CMD	"take a picture"	None	None
+269	2019-10-09 14:57:20.05	DM->RN	" send image"	None	None
+270	2019-10-09 14:57:20.06	DM->CMD	"I will send image."	None	None
+271	2019-10-09 14:57:31.23	RN	" done"	None	None
+272	2019-10-09 14:57:31.31	DM->CMD	"done"	None	None
+i012	2019-10-09 14:56:53.51	IMAGE	"frame012"	None	None
+273	2019-10-09 14:57:32.42	RN	" sent"	None	None
+274	2019-10-09 14:57:32.54	DM->CMD	"sent"	None	None
+275	2019-10-09 14:57:17.73	CMD	"turn east"	None	None
+276	2019-10-09 14:57:38.81	DM->RN	" turn to face East"	None	None
+277	2019-10-09 14:57:38.81	DM->CMD	"I will turn to face East."	None	None
+278	2019-10-09 14:57:20.50	CMD	"take a picture"	None	None
+279	2019-10-09 14:57:40.56	DM->RN	" send image"	None	None
+280	2019-10-09 14:57:40.56	DM->CMD	"I will send image."	None	None
+281	2019-10-09 14:57:41.51	RN	" turning. . ."	None	None
+282	2019-10-09 14:57:41.55	DM->CMD	"turning. . ."	None	None
+283	2019-10-09 14:57:49.50	RN	" done"	None	None
+284	2019-10-09 14:57:49.53	DM->CMD	"done"	None	None
+i013	2019-10-09 14:57:11.47	IMAGE	"frame013"	None	None
+285	2019-10-09 14:57:50.83	RN	" sent"	None	None
+286	2019-10-09 14:57:50.97	DM->CMD	"sent"	None	None
+287	2019-10-09 14:57:45.09	CMD	"go into the next room on your left"	None	None
+288	2019-10-09 14:58:06.51	DM->RN	" move into room"	None	None
+289	2019-10-09 14:58:06.51	DM->CMD	"I will try to move into room."	None	None
+290	2019-10-09 14:58:09.71	RN	" moving. . ."	None	None
+291	2019-10-09 14:58:09.81	DM->CMD	"moving. . ."	None	None
+292	2019-10-09 14:58:02.56	CMD	"take a picture"	None	None
+293	2019-10-09 14:58:22.86	DM->RN	" send image"	None	None
+294	2019-10-09 14:58:22.86	DM->CMD	"I will send image."	None	None
+295	2019-10-09 14:58:26.42	RN	" done"	None	None
+296	2019-10-09 14:58:26.50	DM->CMD	"done"	None	None
+i014	2019-10-09 14:57:47.96	IMAGE	"frame014"	None	None
+297	2019-10-09 14:58:28.03	RN	" sent"	None	None
+298	2019-10-09 14:58:28.14	DM->CMD	"sent"	None	None
+299	2019-10-09 14:58:12.68	CMD	"look at the poster"	None	None
+300	2019-10-09 14:58:33.66	DM->RN	" send image"	None	None
+301	2019-10-09 14:58:33.66	DM->CMD	"I will send image."	None	None
+302	2019-10-09 14:58:16.47	CMD	"turn toward the poster"	None	None
+303	2019-10-09 14:58:37.16	DM->RN	" turn to face East"	None	None
+304	2019-10-09 14:58:37.17	DM->CMD	"I will turn to face East."	None	None
+305	2019-10-09 14:58:20.82	CMD	"cancel"	None	None
+306	2019-10-09 14:58:41.16	DM->RN	" cancel command"	None	None
+307	2019-10-09 14:58:41.16	DM->CMD	"Processing...."	None	None
+308	2019-10-09 14:58:23.04	CMD	"face the wall on your left"	None	None
+309	2019-10-09 14:58:44.31	DM->CMD	"Can you repeat that? <beep>"	None	None
+310	2019-10-09 14:58:26.00	CMD	"face the wall on your left"	None	None
+311	2019-10-09 14:58:47.26	DM->CMD	"Can you repeat that? <beep>"	None	None
+312	2019-10-09 14:58:28.92	CMD	"face the wall on your left"	None	None
+313	2019-10-09 14:58:50.70	DM->CMD	"Can you repeat that? <beep>"	None	None
+314	2019-10-09 14:58:32.50	CMD	"turn northwest"	None	None
+315	2019-10-09 14:58:55.05	DM->CMD	"I will turn left 95 degrees."	None	None
+316	2019-10-09 14:58:37.30	CMD	"cancel"	None	None
+317	2019-10-09 14:58:57.12	DM->RN	" cancel command"	None	None
+318	2019-10-09 14:58:57.15	DM->CMD	"Processing...."	None	None
+319	2019-10-09 14:58:38.95	CMD	"turn northwest"	None	None
+320	2019-10-09 14:58:59.51	DM->CMD	"I will turn left 95 degrees."	None	None
+321	2019-10-09 14:59:03.61	RN	" turning. . ."	None	None
+322	2019-10-09 14:59:03.67	DM->CMD	"turning. . ."	None	None
+323	2019-10-09 14:58:47.08	CMD	"stop"	None	None
+324	2019-10-09 14:59:10.00	DM->RN	" stop"	None	None
+325	2019-10-09 14:59:10.01	DM->CMD	"Processing...."	None	None
+326	2019-10-09 14:59:11.87	RN	" done"	None	None
+327	2019-10-09 14:59:11.88	DM->CMD	"done"	None	None
+328	2019-10-09 14:58:51.91	CMD	"take a picture"	None	None
+329	2019-10-09 14:59:12.16	DM->RN	" send image"	None	None
+330	2019-10-09 14:59:12.16	DM->CMD	"I will send image."	None	None
+i015	2019-10-09 14:58:33.08	IMAGE	"frame015"	None	None
+331	2019-10-09 14:59:14.13	RN	" sent"	None	None
+332	2019-10-09 14:59:14.22	DM->CMD	"sent"	None	None
+333	2019-10-09 14:58:58.04	CMD	"go into the room ahead of you"	None	None
+334	2019-10-09 14:59:21.00	DM->CMD	"Can you repeat that? <beep>"	None	None
+335	2019-10-09 14:59:02.74	CMD	"go into the room ahead of you"	None	None
+336	2019-10-09 14:59:23.67	DM->RN	" move into room"	None	None
+337	2019-10-09 14:59:23.71	DM->CMD	"I will try to move into room."	None	None
+338	2019-10-09 14:59:31.50	RN	" moving. . ."	None	None
+339	2019-10-09 14:59:31.52	DM->CMD	"moving. . ."	None	None
+340	2019-10-09 14:59:26.39	CMD	"take a picture"	None	None
+341	2019-10-09 14:59:46.41	DM->RN	" send image"	None	None
+342	2019-10-09 14:59:46.42	DM->CMD	"I will send image."	None	None
+343	2019-10-09 14:59:50.15	RN	" done"	None	None
+344	2019-10-09 14:59:50.27	DM->CMD	"done"	None	None
+i016	2019-10-09 14:59:09.95	IMAGE	"frame016"	None	None
+345	2019-10-09 14:59:51.49	RN	" sent"	None	None
+346	2019-10-09 14:59:51.60	DM->CMD	"sent"	None	None
+347	2019-10-09 14:59:36.64	CMD	"go to where we haven't explored yet"	None	None
+348	2019-10-09 14:59:59.36	DM->RN	" send image"	None	None
+349	2019-10-09 14:59:59.36	DM->CMD	"I will send image."	None	None
+350	2019-10-09 14:59:41.46	CMD	"go to the unexplored area"	None	None
+351	2019-10-09 15:00:03.41	DM->CMD	"Can you repeat that? <beep>"	None	None
+352	2019-10-09 14:59:45.16	CMD	"unexplored area"	None	None
+353	2019-10-09 15:00:06.12	DM->CMD	"I'm not sure where you want me to go. <beep>"	None	None
+354	2019-10-09 14:59:49.22	CMD	"face north"	None	None
+355	2019-10-09 15:00:10.66	DM->CMD	"Can you repeat that? <beep>"	None	None
+356	2019-10-09 14:59:52.58	CMD	"face north"	None	None
+357	2019-10-09 15:00:13.22	DM->CMD	"Can you repeat that? <beep>"	None	None
+358	2019-10-09 14:59:54.84	CMD	"face north"	None	None
+359	2019-10-09 15:00:16.10	DM->RN	" turn to face North"	None	None
+360	2019-10-09 15:00:16.11	DM->CMD	"I will turn to face North."	None	None
+361	2019-10-09 15:00:19.68	RN	" turning. . ."	None	None
+362	2019-10-09 15:00:19.76	DM->CMD	"turning. . ."	None	None
+363	2019-10-09 15:00:01.76	CMD	"take a picture"	None	None
+364	2019-10-09 15:00:21.82	DM->RN	" send image"	None	None
+365	2019-10-09 15:00:21.86	DM->CMD	"I will send image."	None	None
+366	2019-10-09 15:00:29.37	RN	" done"	None	None
+367	2019-10-09 15:00:29.49	DM->CMD	"done"	None	None
+i017	2019-10-09 14:59:48.31	IMAGE	"frame017"	None	None
+368	2019-10-09 15:00:30.61	RN	" sent"	None	None
+369	2019-10-09 15:00:30.72	DM->CMD	"sent"	None	None
+370	2019-10-09 15:00:15.25	CMD	"go to the shovel"	None	None
+371	2019-10-09 15:00:36.62	DM->RN	" move to shovel"	None	None
+372	2019-10-09 15:00:36.65	DM->CMD	"I will try to move to shovel."	None	None
+373	2019-10-09 15:00:44.13	RN	" Can you describe it another way, using its color, size, or position? <beep>"	None	None
+374	2019-10-09 15:00:44.13	DM->CMD	"Can you describe it another way, using its color, size, or position? <beep>"	None	None
+375	2019-10-09 15:00:31.06	CMD	"it's silver and is leaning against the wall"	None	None
+376	2019-10-09 15:00:54.81	DM->RN	" move to object against the wall on your left"	None	None
+377	2019-10-09 15:00:54.82	DM->CMD	"I will try to move to object against the wall on my left."	None	None
+378	2019-10-09 15:01:09.52	RN	" Can you describe it another way? <beep>"	None	None
+379	2019-10-09 15:01:09.52	DM->CMD	"Can you describe it another way? <beep>"	None	None
+380	2019-10-09 15:00:50.52	CMD	"go to the room on your right"	None	None
+381	2019-10-09 15:01:14.96	DM->RN	" move into room"	None	None
+382	2019-10-09 15:01:14.96	DM->CMD	"I will try to move into room."	None	None
+383	2019-10-09 15:01:19.35	RN	" The one directly ahead of me? <beep>"	None	None
+384	2019-10-09 15:01:19.35	DM->CMD	"The one directly ahead of me? <beep>"	None	None
+385	2019-10-09 15:01:01.86	CMD	"yes"	None	None
+386	2019-10-09 15:01:21.91	DM->RN	" yes"	None	None
+387	2019-10-09 15:01:21.91	DM->CMD	"Processing...."	None	None
+388	2019-10-09 15:01:22.95	RN	" moving. . ."	None	None
+389	2019-10-09 15:01:23.04	DM->CMD	"moving. . ."	None	None
+390	2019-10-09 15:01:39.29	RN	" done"	None	None
+391	2019-10-09 15:01:39.30	DM->CMD	"done"	None	None
+392	2019-10-09 15:01:20.28	CMD	"take a picture"	None	None
+393	2019-10-09 15:01:40.21	DM->RN	" send image"	None	None
+394	2019-10-09 15:01:40.25	DM->CMD	"I will send image."	None	None
+i018	2019-10-09 15:00:58.05	IMAGE	"frame018"	None	None
+395	2019-10-09 15:01:41.81	RN	" sent"	None	None
+396	2019-10-09 15:01:42.04	DM->CMD	"sent"	None	None
+397	2019-10-09 15:01:21.96	CMD	"turn west"	None	None
+398	2019-10-09 15:01:42.85	DM->CMD	"Can you repeat that? <beep>"	None	None
+399	2019-10-09 15:01:24.79	CMD	"take a picture"	None	None
+400	2019-10-09 15:01:45.21	DM->RN	" send image"	None	None
+401	2019-10-09 15:01:45.21	DM->CMD	"I will send image."	None	None
+402	2019-10-09 15:01:28.98	CMD	"turn west"	None	None
+403	2019-10-09 15:01:49.22	DM->RN	" turn to face West"	None	None
+404	2019-10-09 15:01:49.25	DM->CMD	"I will turn to face West."	None	None
+405	2019-10-09 15:01:30.91	CMD	"take a picture"	None	None
+406	2019-10-09 15:01:50.95	DM->RN	" send image"	None	None
+407	2019-10-09 15:01:50.96	DM->CMD	"I will send image."	None	None
+408	2019-10-09 15:01:51.94	RN	" turning. . ."	None	None
+409	2019-10-09 15:01:52.02	DM->CMD	"turning. . ."	None	None
+410	2019-10-09 15:02:00.46	RN	" done"	None	None
+411	2019-10-09 15:02:00.52	DM->CMD	"done"	None	None
+i019	2019-10-09 15:01:17.48	IMAGE	"frame019"	None	None
+412	2019-10-09 15:02:01.42	RN	" sent"	None	None
+413	2019-10-09 15:02:01.44	DM->CMD	"sent"	None	None
+414	2019-10-09 15:01:46.48	CMD	"turn east"	None	None
+415	2019-10-09 15:02:09.77	DM->CMD	"Can you repeat that? <beep>"	None	None
+416	2019-10-09 15:01:51.48	CMD	"turn east"	None	None
+417	2019-10-09 15:02:12.01	DM->RN	" turn to face East"	None	None
+418	2019-10-09 15:02:12.01	DM->CMD	"I will turn to face East."	None	None
+419	2019-10-09 15:01:53.79	CMD	"take a picture"	None	None
+420	2019-10-09 15:02:14.01	DM->RN	" send image"	None	None
+421	2019-10-09 15:02:14.01	DM->CMD	"I will send image."	None	None
+422	2019-10-09 15:02:15.82	RN	" turning. . ."	None	None
+423	2019-10-09 15:02:15.88	DM->CMD	"turning. . ."	None	None
+424	2019-10-09 15:02:27.09	RN	" done"	None	None
+425	2019-10-09 15:02:27.15	DM->CMD	"done"	None	None
+i020	2019-10-09 15:01:44.02	IMAGE	"frame020"	None	None
+426	2019-10-09 15:02:28.52	RN	" sent"	None	None
+427	2019-10-09 15:02:28.58	DM->CMD	"sent"	None	None
+428	2019-10-09 15:02:17.70	CMD	"move into the room on your right"	None	None
+429	2019-10-09 15:02:38.92	DM->RN	" move forward to room through the closest door at right"	None	None
+430	2019-10-09 15:02:38.96	DM->CMD	"I will try to move forward to room through the closest door at right."	None	None
+431	2019-10-09 15:02:42.38	RN	" moving. . ."	None	None
+432	2019-10-09 15:02:42.40	DM->CMD	"moving. . ."	None	None
+433	2019-10-09 15:02:25.83	CMD	"take a picture"	None	None
+434	2019-10-09 15:02:46.45	DM->RN	" send image"	None	None
+435	2019-10-09 15:02:46.46	DM->CMD	"I will send image."	None	None
+436	2019-10-09 15:02:56.74	RN	" done"	None	None
+437	2019-10-09 15:02:56.84	DM->CMD	"done"	None	None
+438	2019-10-09 15:02:37.62	CMD	"stop"	None	None
+439	2019-10-09 15:02:57.66	DM->RN	" stop"	None	None
+440	2019-10-09 15:02:57.67	DM->CMD	"Processing...."	None	None
+i021	2019-10-09 15:02:12.94	IMAGE	"frame021"	None	None
+441	2019-10-09 15:02:57.88	RN	" sent"	None	None
+442	2019-10-09 15:02:57.96	DM->CMD	"sent"	None	None
+443	2019-10-09 15:02:39.54	CMD	"go towards the object closest to the wall"	None	None
+444	2019-10-09 15:03:05.12	DM->RN	" move to doorway"	None	None
+445	2019-10-09 15:03:05.16	DM->CMD	"I will move to doorway."	None	None
+446	2019-10-09 15:03:06.84	RN	" moving. . ."	None	None
+447	2019-10-09 15:03:06.85	DM->CMD	"moving. . ."	None	None
+448	2019-10-09 15:02:47.17	CMD	"cancel"	None	None
+449	2019-10-09 15:03:07.16	DM->RN	" cancel command"	None	None
+450	2019-10-09 15:03:07.16	DM->CMD	"Processing...."	None	None
+451	2019-10-09 15:03:08.77	RN	" done"	None	None
+452	2019-10-09 15:03:08.79	DM->CMD	"done"	None	None
+453	2019-10-09 15:02:48.68	CMD	"move to the bag leaning on the wall"	None	None
+454	2019-10-09 15:03:10.46	DM->RN	" move to shopping bag"	None	None
+455	2019-10-09 15:03:10.50	DM->CMD	"I will try to move to shopping bag."	None	None
+456	2019-10-09 15:03:16.02	RN	" moving. . ."	None	None
+457	2019-10-09 15:03:16.09	DM->CMD	"moving. . ."	None	None
+458	2019-10-09 15:03:02.53	CMD	"take a picture"	None	None
+459	2019-10-09 15:03:22.71	DM->RN	" send image"	None	None
+460	2019-10-09 15:03:22.71	DM->CMD	"I will send image."	None	None
+461	2019-10-09 15:03:23.57	RN	" done"	None	None
+462	2019-10-09 15:03:23.67	DM->CMD	"done"	None	None
+i022	2019-10-09 15:02:39.34	IMAGE	"frame022"	None	None
+463	2019-10-09 15:03:24.85	RN	" sent"	None	None
+464	2019-10-09 15:03:24.90	DM->CMD	"sent"	None	None
+465	2019-10-09 15:03:07.89	CMD	"move to the room we started in"	None	None
+466	2019-10-09 15:03:30.31	DM->RN	" move to starting room"	None	None
+467	2019-10-09 15:03:30.31	DM->CMD	"I will try to move to starting room."	None	None
+468	2019-10-09 15:03:41.57	RN	" moving. . ."	None	None
+469	2019-10-09 15:03:41.58	DM->CMD	"moving. . ."	None	None
+470	2019-10-09 15:03:42.45	CMD	"cancel"	None	None
+471	2019-10-09 15:04:03.52	DM->RN	" cancel command"	None	None
+472	2019-10-09 15:04:03.55	DM->CMD	"Processing...."	None	None
+473	2019-10-09 15:04:06.25	RN	" done"	None	None
+474	2019-10-09 15:04:06.26	DM->CMD	"done"	None	None
+475	2019-10-09 15:03:45.73	CMD	"move to the room directly ahead"	None	None
+476	2019-10-09 15:04:07.11	DM->RN	" move into room"	None	None
+477	2019-10-09 15:04:07.11	DM->CMD	"I will try to move into room."	None	None
+478	2019-10-09 15:03:50.55	CMD	"take a picture"	None	None
+i023	2019-10-09 15:03:26.50	IMAGE	"frame023"	None	None
+479	2019-10-09 15:04:13.15	RN	" sent"	None	None
+480	2019-10-09 15:04:13.23	DM->CMD	"sent"	None	None
+481	2019-10-09 15:03:52.00	CMD	"cancel"	None	None
+482	2019-10-09 15:04:07.00	CMD	"move to the room directly ahead with the shirt"	None	None
+483	2019-10-09 15:04:09.91	CMD	"move to the room with the shirt"	None	None
+484	2019-10-09 15:04:31.01	DM->RN	" move into room"	None	None
+485	2019-10-09 15:04:31.02	DM->CMD	"I will try to move into room."	None	None
+486	2019-10-09 15:04:17.06	CMD	"directly ahead"	None	None
+487	2019-10-09 15:04:37.42	DM->CMD	"I will move to doorway."	None	None
+488	2019-10-09 15:04:45.42	RN	" moving. . ."	None	None
+489	2019-10-09 15:04:45.49	DM->CMD	"moving. . ."	None	None
+490	2019-10-09 15:04:54.49	RN	" done"	None	None
+491	2019-10-09 15:04:54.60	DM->CMD	"done"	None	None
+492	2019-10-09 15:04:36.53	CMD	"take a picture"	None	None
+493	2019-10-09 15:04:56.66	DM->RN	" send image"	None	None
+494	2019-10-09 15:04:56.66	DM->CMD	"I will send image."	None	None
+i024	2019-10-09 15:04:11.16	IMAGE	"frame024"	None	None
+495	2019-10-09 15:04:58.49	RN	" sent"	None	None
+496	2019-10-09 15:04:58.59	DM->CMD	"sent"	None	None
+497	2019-10-09 15:04:40.53	CMD	"move into the room"	None	None
+498	2019-10-09 15:05:01.41	DM->CMD	"Can you repeat that? <beep>"	None	None
+499	2019-10-09 15:04:43.20	CMD	"move into the room"	None	None
+500	2019-10-09 15:05:04.21	DM->RN	" move into the center of the current room"	None	None
+501	2019-10-09 15:05:04.25	DM->CMD	"I will move into the center of the current room."	None	None
+502	2019-10-09 15:05:07.59	RN	" moving. . ."	None	None
+503	2019-10-09 15:05:07.70	DM->CMD	"moving. . ."	None	None
+504	2019-10-09 15:04:50.67	CMD	"take a picture"	None	None
+505	2019-10-09 15:05:12.50	DM->RN	" send image"	None	None
+506	2019-10-09 15:05:12.51	DM->CMD	"I will send image."	None	None
+507	2019-10-09 15:04:55.48	CMD	"stop"	None	None
+508	2019-10-09 15:05:17.31	DM->RN	" stop"	None	None
+509	2019-10-09 15:05:17.31	DM->CMD	"Processing...."	None	None
+510	2019-10-09 15:05:18.35	RN	" done"	None	None
+511	2019-10-09 15:05:18.36	DM->CMD	"done"	None	None
+512	2019-10-09 15:04:58.93	CMD	"take a picture"	None	None
+513	2019-10-09 15:05:19.35	DM->RN	" send image"	None	None
+514	2019-10-09 15:05:19.36	DM->CMD	"I will send image."	None	None
+i025	2019-10-09 15:04:32.28	IMAGE	"frame025"	None	None
+515	2019-10-09 15:05:20.27	RN	" sent"	None	None
+516	2019-10-09 15:05:20.40	DM->CMD	"sent"	None	None
+517	2019-10-09 15:05:04.15	CMD	"move into the room"	None	None
+518	2019-10-09 15:05:24.71	DM->RN	" move into the center of the current room"	None	None
+519	2019-10-09 15:05:24.71	DM->CMD	"I will move into the center of the current room."	None	None
+520	2019-10-09 15:05:30.75	RN	" I'm not sure where you want me to go. <beep>"	None	None
+521	2019-10-09 15:05:30.75	DM->CMD	"I'm not sure where you want me to go. <beep>"	None	None
+522	2019-10-09 15:05:10.50	CMD	"move into the next room"	None	None
+523	2019-10-09 15:05:31.40	DM->RN	" move into room"	None	None
+524	2019-10-09 15:05:31.41	DM->CMD	"I will try to move into room."	None	None
+525	2019-10-09 15:05:34.53	RN	" The one directly ahead of me? <beep>"	None	None
+526	2019-10-09 15:05:34.53	DM->CMD	"The one directly ahead of me? <beep>"	None	None
+527	2019-10-09 15:05:16.61	CMD	"yes"	None	None
+528	2019-10-09 15:05:36.56	DM->RN	" yes"	None	None
+529	2019-10-09 15:05:36.56	DM->CMD	"Processing...."	None	None
+530	2019-10-09 15:05:37.71	RN	" moving. . ."	None	None
+531	2019-10-09 15:05:37.73	DM->CMD	"moving. . ."	None	None
+532	2019-10-09 15:05:18.23	CMD	"take a picture"	None	None
+533	2019-10-09 15:05:38.50	DM->RN	" send image"	None	None
+534	2019-10-09 15:05:38.51	DM->CMD	"I will send image."	None	None
+535	2019-10-09 15:05:47.57	RN	" done"	None	None
+536	2019-10-09 15:05:47.64	DM->CMD	"done"	None	None
+i026	2019-10-09 15:05:00.62	IMAGE	"frame026"	None	None
+537	2019-10-09 15:05:48.80	RN	" sent"	None	None
+538	2019-10-09 15:05:48.87	DM->CMD	"sent"	None	None
+539	2019-10-09 15:05:50.60	CMD	"turn east"	None	None
+540	2019-10-09 15:05:50.60	CMD	"and take a picture"	None	None
+541	2019-10-09 15:06:12.45	DM->RN	" send image"	None	None
+542	2019-10-09 15:06:12.46	DM->CMD	"I will send image."	None	None
+543	2019-10-09 15:05:54.72	CMD	"turn east"	None	None
+544	2019-10-09 15:06:14.82	DM->CMD	"Can you repeat that? <beep>"	None	None
+i027	2019-10-09 15:05:27.04	IMAGE	"frame027"	None	None
+545	2019-10-09 15:06:15.12	RN	" sent"	None	None
+546	2019-10-09 15:06:15.13	DM->CMD	"sent"	None	None
+547	2019-10-09 15:05:56.53	CMD	"turn east"	None	None
+548	2019-10-09 15:06:17.11	DM->RN	" turn to face East"	None	None
+549	2019-10-09 15:06:17.11	DM->CMD	"I will turn to face East."	None	None
+550	2019-10-09 15:05:58.74	CMD	"take a picture"	None	None
+551	2019-10-09 15:06:19.16	DM->RN	" send image"	None	None
+552	2019-10-09 15:06:19.16	DM->CMD	"I will send image."	None	None
+553	2019-10-09 15:06:19.24	RN	" turning. . ."	None	None
+554	2019-10-09 15:06:19.25	DM->CMD	"turning. . ."	None	None
+555	2019-10-09 15:06:28.32	RN	" done"	None	None
+556	2019-10-09 15:06:28.40	DM->CMD	"done"	None	None
+i028	2019-10-09 15:05:40.73	IMAGE	"frame028"	None	None
+557	2019-10-09 15:06:29.35	RN	" sent"	None	None
+558	2019-10-09 15:06:29.42	DM->CMD	"sent"	None	None
+559	2019-10-09 15:06:13.70	CMD	"move to unexplored room"	None	None
+560	2019-10-09 15:06:35.96	DM->CMD	"Can you repeat that? <beep>"	None	None
+561	2019-10-09 15:06:17.83	CMD	"move to unexplored room"	None	None
+562	2019-10-09 15:06:39.66	DM->RN	" move into room"	None	None
+563	2019-10-09 15:06:39.66	DM->CMD	"I will try to move into room."	None	None
+564	2019-10-09 15:06:42.87	RN	" moving. . ."	None	None
+565	2019-10-09 15:06:42.94	DM->CMD	"moving. . ."	None	None
+566	2019-10-09 15:06:57.20	RN	" done"	None	None
+567	2019-10-09 15:06:57.27	DM->CMD	"done"	None	None
+568	2019-10-09 15:06:40.37	CMD	"take a picture"	None	None
+569	2019-10-09 15:07:00.46	DM->RN	" send image"	None	None
+570	2019-10-09 15:07:00.46	DM->CMD	"I will send image."	None	None
+i029	2019-10-09 15:06:12.79	IMAGE	"frame029"	None	None
+571	2019-10-09 15:07:02.08	RN	" sent"	None	None
+572	2019-10-09 15:07:02.19	DM->CMD	"sent"	None	None
+573	2019-10-09 15:07:03.27	CMD	"task complete"	None	None
+574	2019-10-09 15:07:24.01	DM->CMD	"Can you repeat that? <beep>"	None	None
+575	2019-10-09 15:07:06.23	CMD	"task complete"	None	None
+576	2019-10-09 15:07:27.01	DM->RN	" end task"	None	None
+577	2019-10-09 15:07:27.06	DM->CMD	"Processing...."	None	None
+578	2019-10-09 15:07:30.09	RN	" Great job, teammate! Task complete. <beep>"	None	None

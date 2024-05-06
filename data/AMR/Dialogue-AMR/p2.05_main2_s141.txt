@@ -1,0 +1,12 @@
+p2.05_main2_s141
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+

@@ -1,0 +1,18 @@
+p2.02_main1_s79
+# ::tok can you move several yards towards the white door
+# ::snt can you move several yards towards the white door
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG2 (s / several
+			:op1 (d / distance-quantity
+				:quant 1
+				:unit (y / yard)))
+		:completable +
+		:direction (d2 / door
+			:ARG1-of (w / white-03))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

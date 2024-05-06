@@ -1,0 +1,167 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	14.22	RN	"<no speech>"	None	None
+2	20.36	DM->CMD	"calibration complete"	None	None
+3	31.01	CMD	"i'm ready"	None	None
+4	50.59	DM->CMD	"I'm also ready.  Would you like me to send a picture so you can see the room?"	None	None
+5	55.2	CMD	"send a picture"	None	None
+6	61.63	DM->RN	"photo"	None	None
+i000	63.63	IMAGE	"frame000"	None	None
+7	62.04000000000001	RN	"image sent"	None	None
+8	62.93	CMD	"do a three hundred and sixty degree spin"	None	None
+9	65.17	DM->CMD	"sent"	None	None
+10	72.48	DM->RN	"rotate 360"	None	None
+11	76.56	DM->CMD	"executing..."	None	None
+12	96.92	CMD	"take a picture of what's behind you"	None	None
+13	97.2	RN	"done"	None	None
+14	99.94	DM->CMD	"done"	None	None
+15	113.8	DM->RN	"turn 180, photo"	None	None
+16	117.78	DM->CMD	"executing..."	None	None
+i001	132.69	IMAGE	"frame001"	None	None
+17	131.13	RN	"image sent"	None	None
+18	134.24	DM->CMD	"sent"	None	None
+19	144.04	CMD	"go to the center of the room"	None	None
+20	145.49	CMD	"and face south"	None	None
+21	148.35	CMD	"and then take a picture"	None	None
+22	162.58	DM->RN	"move to the middle of this room, turn to face south, image"	None	None
+23	166.38	DM->CMD	"executing..."	None	None
+i002	187.78	IMAGE	"frame002"	None	None
+24	185.99	RN	"image sent"	None	None
+25	189.36	DM->CMD	"sent"	None	None
+26	209.89	CMD	"take a picture of the doorway to your left"	None	None
+27	262.01	DM->CMD	"I see a doorway"	None	None
+28	269.72	CMD	"take a picture of the one closest to you"	None	None
+29	287.04	DM->RN	"Turn to face the hallway on the left, image"	None	None
+30	291.32	DM->CMD	"executing..."	None	None
+i003	296.98	IMAGE	"frame003"	None	None
+31	295.91	RN	"image sent"	None	None
+32	299.79	DM->CMD	"sent"	None	None
+33	305.79	CMD	"go into the room"	None	None
+34	333.36	DM->CMD	"Can you repeat that? I had trouble understanding."	None	None
+35	334.68	CMD	"go through the doorway"	None	None
+36	373.76	DM->CMD	"Which doorway? The opening directly to the right of the orange object?"	None	None
+37	375.55	CMD	"yes"	None	None
+38	389.58	DM->RN	"move into the hallway directly to the right of the orange bucket."	None	None
+39	392.95	DM->CMD	"executing..."	None	None
+40	398.08	RN	"done"	None	None
+41	400.46	DM->CMD	"done"	None	None
+42	403.36	CMD	"take a picture"	None	None
+43	410.71	DM->RN	"image"	None	None
+i004	412.41	IMAGE	"frame004"	None	None
+44	411.13	RN	"<no speech>"	None	None
+45	414.12	DM->CMD	"sent"	None	None
+46	427.82	CMD	"go to the wall facing you"	None	None
+47	429.65	CMD	"and face south"	None	None
+48	444.06	DM->RN	"move to the wall directly ahead, turn to face south"	None	None
+49	448.11	DM->CMD	"executing..."	None	None
+50	462.1	RN	"done"	None	None
+51	463.48	CMD	"take a picture"	None	None
+52	464.57	DM->CMD	"done"	None	None
+53	467.92	CMD	"and take a picture behind you"	None	None
+54	468.1	DM->RN	"photo"	None	None
+i005	469.55	IMAGE	"frame005"	None	None
+55	468.11	RN	"image sent"	None	None
+56	470.94	DM->CMD	"sent"	None	None
+57	477.44	DM->RN	"turn 180 photo"	None	None
+58	481.49	DM->CMD	"executing..."	None	None
+i006	497.69	IMAGE	"frame006"	None	None
+59	496.04	RN	"image sent"	None	None
+60	498.7	DM->CMD	"sent"	None	None
+61	525.02	CMD	"go into the room in front of you"	None	None
+62	535.19	DM->RN	"move into the room ahead"	None	None
+63	538.69	DM->CMD	"executing..."	None	None
+64	539.27	RN	"done"	None	None
+65	542.47	DM->CMD	"done"	None	None
+66	544.28	CMD	"<pause> face east"	None	None
+67	555.39	DM->RN	"face east"	None	None
+68	558.92	DM->CMD	"executing..."	None	None
+69	564.69	CMD	"go to the wall"	None	None
+70	565.24	RN	"done"	None	None
+71	565.87	CMD	"and face north"	None	None
+72	568.36	DM->CMD	"done"	None	None
+73	589.95	DM->CMD	"I see several walls.  Do you mean the wall facing me?"	None	None
+74	590.0500000000001	CMD	"yes"	None	None
+75	590.0500000000001	CMD	"and take a picture"	None	None
+76	594.8299999999999	RN	"<no speech>"	None	None
+77	608.58	DM->RN	"move to the wall facing you ahead, turn to the north, photo"	None	None
+78	612.34	DM->CMD	"executing..."	None	None
+i007	638.36	IMAGE	"frame007"	None	None
+79	636.8399999999999	RN	"image sent"	None	None
+80	639.76	DM->CMD	"sent"	None	None
+81	639.89	CMD	"face south"	None	None
+82	641.03	CMD	"and take a picture"	None	None
+83	649.66	DM->RN	"turn to face south, photo"	None	None
+84	653.2	DM->CMD	"executing..."	None	None
+i008	662.34	IMAGE	"frame008"	None	None
+85	660.43	RN	"image sent"	None	None
+86	663.8	DM->CMD	"sent"	None	None
+87	668.82	CMD	"face the door in front of you"	None	None
+88	672.02	CMD	"and then take a picture"	None	None
+89	682.51	DM->RN	"move to face the door in front of you photo"	None	None
+90	686.67	DM->CMD	"executing..."	None	None
+i009	691.52	IMAGE	"frame009"	None	None
+91	689.32	RN	"image sent"	None	None
+92	693.3	DM->CMD	"sent"	None	None
+93	700.82	CMD	"go to the center center of the room"	None	None
+94	702.55	CMD	"and spin around"	None	None
+95	727.62	DM->CMD	"Which room? The room I'm in or the one ahead of me?"	None	None
+96	727.63	CMD	"the one in front of you"	None	None
+97	739.01	DM->RN	"move to the center of the room in front of you, rotate 360"	None	None
+98	744.61	DM->CMD	"executing..."	None	None
+99	773.27	RN	"done"	None	None
+100	774.27	CMD	"face the door on your right"	None	None
+101	775.55	CMD	"and take a picture"	None	None
+102	797.55	DM->RN	"move to face the doorway on the right"	None	None
+103	801.26	DM->CMD	"executing..."	None	None
+104	805.05	RN	"done"	None	None
+105	808.2	DM->CMD	"done"	None	None
+106	845.6	CMD	"take a picture"	None	None
+107	852.2	DM->RN	"image"	None	None
+i010	853.2	IMAGE	"frame010"	None	None
+108	851.89	RN	"image sent"	None	None
+109	852.99	CMD	"go to the hallway"	None	None
+110	854.21	CMD	"face south"	None	None
+111	854.77	CMD	"and then take a picture"	None	None
+112	854.86	DM->CMD	"sent"	None	None
+113	862.52	CMD	"the hallway in front of you"	None	None
+114	863.64	DM->RN	"move into hall, face south, image"	None	None
+115	867.47	DM->CMD	"executing..."	None	None
+i011	879.65	IMAGE	"frame011"	None	None
+116	878.64	RN	"image sent"	None	None
+117	881.11	DM->CMD	"sent"	None	None
+118	1019.78	CMD	"go through the doorway on your left"	None	None
+119	1022.38	CMD	"and then take a picture"	None	None
+120	1031.71	DM->RN	"turn to face doorway on left, image"	None	None
+121	1035.42	DM->CMD	"executing..."	None	None
+i012	1075.72	IMAGE	"frame012"	None	None
+122	1074.73	RN	"image sent"	None	None
+123	1079	DM->CMD	"sent"	None	None
+124	1082	CMD	"go into the center of the room in front of you"	None	None
+125	1086.11	CMD	"and then take a picture at the <pause> east south west and north position"	None	None
+126	1103.51	DM->RN	"move into the center of the room in front of you, take photos at east, south, west, north positions"	None	None
+127	1107.48	DM->CMD	"executing..."	None	None
+128	1126.28	RN	"<no speech>"	None	None
+i013	1128.77	IMAGE	"frame013"	None	None
+i014	1135.23	IMAGE	"frame014"	None	None
+i015	1140.86	IMAGE	"frame015"	None	None
+i016	1146.64	IMAGE	"frame016"	None	None
+129	1144.37	RN	"done"	None	None
+130	1148.49	DM->CMD	"done"	None	None
+131	1159.14	CMD	"go into the room behind you"	None	None
+132	1161.38	CMD	"and do the same"	None	None
+133	1187.04	DM->RN	"move into the center of the room behind you, repeat command taking photos at east, south, west, north"	None	None
+134	1190.44	DM->CMD	"executing..."	None	None
+i017	1225.44	IMAGE	"frame017"	None	None
+i018	1230.41	IMAGE	"frame018"	None	None
+i019	1235.78	IMAGE	"frame019"	None	None
+i020	1241.57	IMAGE	"frame020"	None	None
+135	1241.45	RN	"done"	None	None
+136	1243.75	CMD	"face the doorway on your left"	None	None
+137	1243.75	CMD	"and then take a picture"	None	None
+138	1245.37	DM->CMD	"done"	None	None
+139	1255.49	DM->RN	"move to face doorway on the left, image"	None	None
+140	1258.86	DM->CMD	"executing..."	None	None
+i021	1270.01	IMAGE	"frame021"	None	None
+141	1267.52	RN	"image sent"	None	None
+142	1272.13	DM->CMD	"sent"	None	None
+143	1372.28	CMD	"uh i found thirteen doorways"	None	None

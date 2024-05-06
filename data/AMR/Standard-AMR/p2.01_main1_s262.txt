@@ -1,0 +1,15 @@
+p2.01_main1_s262
+# ::tok okay move close to it < laughter >
+# ::snt okay move close to it <laughter>
+(m / multi-sentence
+	:snt1 (o / okay-01
+		:ARG0 (i / i)
+		:ARG1 m2)
+	:snt2 (m2 / move-01
+		:ARG0 (y / you)
+		:ARG1 y
+		:ARG2 (c / close-10
+			:ARG1 y
+			:ARG2 (i2 / it))
+		:mode imperative))
+

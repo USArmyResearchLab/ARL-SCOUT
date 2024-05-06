@@ -1,0 +1,17 @@
+p2.05_main2_s133
+# ::tok and < pause > leave this room
+# ::snt and <pause> leave this room
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (g / go-02
+			:ARG0 (r2 / robot-dm)
+			:ARG4 (l / leave-11
+				:ARG0 r2
+				:ARG1 (r / room
+					:mod (t / this)))
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r2))
+

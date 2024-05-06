@@ -1,0 +1,13 @@
+p2.02_main2_s39
+# ::tok can you stop
+# ::snt can you stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

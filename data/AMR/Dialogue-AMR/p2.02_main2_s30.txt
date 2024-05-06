@@ -1,0 +1,18 @@
+p2.02_main2_s30
+# ::tok Would you like me to move to take a good picture ? < beep >
+# ::snt Would you like me to move to take a good picture? <beep>
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG1 r
+		:completable +
+		:purpose (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG1-of (g2 / good-02)
+			:ARG2 c)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

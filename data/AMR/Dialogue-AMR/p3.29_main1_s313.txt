@@ -1,0 +1,11 @@
+p3.29_main1_s313
+# ::tok end task
+# ::snt end task
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (e / end-01 :completable +
+		:ARG0 r
+		:ARG1 (t / task-01)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (r / robot-rn))

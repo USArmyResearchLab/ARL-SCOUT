@@ -1,0 +1,27 @@
+p1.04_main1_s49
+# ::tok turn right 90 , image
+# ::snt turn right 90, image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (t / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:direction (r / right-04
+				:ARG2 r2)
+			:extent (a2 / angle-quantity
+				:quant 90
+				:unit (d / degree))
+			:time (a3 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now))))
+	:ARG2 (r2 / robot-rn))
+

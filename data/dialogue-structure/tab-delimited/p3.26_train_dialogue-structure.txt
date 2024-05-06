@@ -1,0 +1,232 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-09-19 14:15:16.66	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+2	2018-09-19 14:15:19.88	DM->RN	"calibrate"	1	0	translation-r-direct	None
+3	2018-09-19 14:15:53.90	CMD	"<X: audio sync in three two one>"	X-CMD	None	None	None
+4	2018-09-19 14:15:53.92	RN	"<X: audio sync in three two one>"	X-CMD	None	None	None
+5	2018-09-19 14:15:57.94	RN	"<loud noise>"	X-CMD	None	None	None
+6	2018-09-19 14:15:57.94	CMD	"<loud noise>"	X-CMD	None	None	None
+7	2018-09-19 14:16:00.25	CMD	"<X: okay you can let it up>"	X-CMD	None	None	None
+8	2018-09-19 14:16:07.42	DM->CMD	"calibration complete"	1	0	ack-done	None
+9	2018-09-19 14:16:11.16	CMD	"i am ready"	2	None	None	None
+10	2018-09-19 14:16:17.35	DM->CMD	"Hello! <beep>"	3	None	None	None
+11	2018-09-19 14:16:20.12	DM->CMD	"Thanks for teaming up with me today."	3	10	continue	None
+12	2018-09-19 14:16:25.40	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	3	11	continue	None
+13	2018-09-19 14:16:32.96	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	3	12	continue	None
+14	2018-09-19 14:16:42.27	DM->CMD	"You can ask for help at any time."	3	13	continue	None
+15	2018-09-19 14:16:49.07	DM->CMD	"I'm also ready.  <beep>"	2	9	reciprocal	None
+16	2018-09-19 14:17:36.05	CMD	"robot go up the stairs"	4	None	None	None
+17	2018-09-19 14:17:39.90	CMD	"north"	4	16	continue	None
+18	2018-09-19 14:17:43.01	DM->CMD	"processing. . ."	4	17*	processing	None
+19	2018-09-19 14:17:56.24	DM->CMD	"I will turn to face North"	4	17*	ack-wilco	None
+20	2018-09-19 14:17:57.00	DM->RN	"turn to face North"	4	17*	translation-r-contextual	None
+21	2018-09-19 14:18:05.73	DM->CMD	"turning. . ."	4	17*	ack-doing	None
+22	2018-09-19 14:18:08.16	RN	"done"	4	20	ack-done	None
+23	2018-09-19 14:18:10.02	DM->CMD	"done"	4	22	translation-l	None
+24	2018-09-19 14:18:29.99	CMD	"go up"	5	None	None	None
+25	2018-09-19 14:18:35.61	DM->CMD	"processing. . ."	5	24	processing	None
+26	2018-09-19 14:18:46.18	DM->CMD	"How far forward should I go?  <beep>"	5	24	req-clar	None
+27	2018-09-19 14:18:53.20	CMD	"just a few steps"	5	26	clar-repair	None
+28	2018-09-19 14:18:58.43	DM->CMD	"processing. . ."	5	27	processing	None
+29	2018-09-19 14:19:15.32	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	5	27	nar	None
+30	2018-09-19 14:19:26.30	CMD	"move towards the stairs"	6	None	None	None
+31	2018-09-19 14:19:30.23	CMD	"towards the right"	6	30	continue	None
+32	2018-09-19 14:19:33.78	DM->CMD	"processing. . ."	6	31	processing	None
+33	2018-09-19 14:19:52.99	DM->CMD	"I'm unsure which object you mean.  <beep>"	6	31	missing-info	None
+34	2018-09-19 14:20:07.09	CMD	"just go up"	7	None	None	None
+35	2018-09-19 14:20:14.29	DM->CMD	"processing. . ."	7	34	processing	None
+36	2018-09-19 14:20:22.47	DM->CMD	"How far forward should I go?  <beep>"	7	34	req-clar	None
+37	2018-09-19 14:20:25.53	CMD	"just go up a few steps"	7	36	clar-repair	None
+38	2018-09-19 14:20:31.46	DM->CMD	"processing. . ."	7	37	processing	None
+39	2018-09-19 14:20:43.35	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	7	37	nar	None
+40	2018-09-19 14:20:59.75	CMD	"move up"	8	None	None	None
+41	2018-09-19 14:21:04.21	DM->CMD	"processing. . ."	8	40	processing	None
+42	2018-09-19 14:21:11.57	DM->CMD	"How far forward should I go?  <beep>"	8	40	req-clar	None
+43	2018-09-19 14:21:16.18	CMD	"five steps up"	8	42	clar-repair	None
+44	2018-09-19 14:21:20.00	DM->CMD	"processing. . ."	8	43	processing	None
+45	2018-09-19 14:21:37.35	DM->CMD	"How far forward should I go?  <beep>"	8	43	req-clar	None
+46	2018-09-19 14:22:03.31	CMD	"move to the right"	9	None	None	None
+47	2018-09-19 14:22:08.26	DM->CMD	"processing. . ."	9	46	processing	None
+48	2018-09-19 14:22:18.02	DM->CMD	"How far should I turn to the right?  <beep>"	9	46	req-clar	None
+49	2018-09-19 14:22:20.97	CMD	"move to the right five steps"	9	48	clar-repair	None
+50	2018-09-19 14:22:32.68	DM->CMD	"processing. . ."	9	49	processing	None
+51	2018-09-19 14:22:45.19	DM->CMD	"How far should I turn to the right?  <beep>"	9	49	req-clar	None
+52	2018-09-19 14:22:46.80	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	9	49	nar	None
+53	2018-09-19 14:23:09.69	CMD	"go up"	10	None	None	None
+54	2018-09-19 14:23:14.73	CMD	"five steps"	10	53	continue	None
+55	2018-09-19 14:23:18.09	DM->CMD	"processing. . ."	10	54*	processing	None
+56	2018-09-19 14:23:28.54	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	10	54*	nack	None
+57	2018-09-19 14:23:32.21	DM->CMD	"Would you like me to send a picture?  <beep>"	11	None	None	None
+58	2018-09-19 14:23:36.01	CMD	"yes"	11	57	offer-accept	None
+59	2018-09-19 14:23:41.92	DM->RN	"send image"	11	58*	translation-r-direct	None
+60	2018-09-19 14:23:43.78	RN	"sent"	11	59	ack-done	None
+61	2018-09-19 14:23:45.19	DM->CMD	"sent"	11	60	translation-l	None
+62	2018-09-19 14:24:07.38	CMD	"go straight"	12	None	None	None
+63	2018-09-19 14:24:12.42	DM->CMD	"processing. . ."	12	62	processing	None
+64	2018-09-19 14:24:21.79	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	12	62	missing-info	None
+65	2018-09-19 14:24:30.79	CMD	"go ninety degrees straight"	13	None	None	None
+66	2018-09-19 14:24:33.64	CMD	"up north"	13	65	continue	None
+67	2018-09-19 14:24:38.79	DM->CMD	"processing. . ."	13	66*	processing	None
+68	2018-09-19 14:24:50.69	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	13	66*	nar	None
+69	2018-09-19 14:24:54.75	CMD	"go towards the cone"	14	None	None	None
+70	2018-09-19 14:24:58.94	DM->CMD	"processing. . ."	14	69	processing	None
+71	2018-09-19 14:25:06.87	DM->RN	"move to Room 1 cone"	14	69	translation-r-landmark	None
+72	2018-09-19 14:25:11.15	DM->CMD	"moving. . ."	14	69	ack-doing	None
+73	2018-09-19 14:25:22.56	RN	"done"	14	71	ack-done	None
+74	2018-09-19 14:25:23.94	DM->CMD	"done"	14	73	translation-l	None
+75	2018-09-19 14:25:29.19	CMD	"take a picture of the doorway"	15	None	None	None
+76	2018-09-19 14:25:33.67	DM->RN	"send image"	15	75	translation-r-direct	None
+77	2018-09-19 14:25:34.56	RN	"sent"	15	76	ack-done	None
+78	2018-09-19 14:25:36.04	DM->CMD	"sent"	15	77	translation-l	None
+79	2018-09-19 14:25:46.12	DM->CMD	"processing. . ."	15	78	processing	None
+80	2018-09-19 14:25:52.79	DM->CMD	"How far should I turn to the left?  <beep>"	16	None	None	None
+81	2018-09-19 14:25:59.03	CMD	"go three steps left"	16	80	clar-repair	None
+82	2018-09-19 14:26:06.96	DM->CMD	"processing. . ."	16	81	processing	None
+83	2018-09-19 14:26:17.89	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	16	81	nar	None
+84	2018-09-19 14:26:23.58	CMD	"face the hallway"	17	None	None	None
+85	2018-09-19 14:26:30.64	DM->CMD	"processing. . ."	17	84	processing	None
+86	2018-09-19 14:26:46.71	DM->CMD	"I'm not sure what you are asking me to do.  <beep>"	17	84	nack	None
+87	2018-09-19 14:26:48.26	CMD	"<notification sound>"	None	None	None	None
+88	2018-09-19 14:26:48.66	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	17	84	nar	None
+89	2018-09-19 14:26:54.75	CMD	"turn towards the doorway"	18	None	None	None
+90	2018-09-19 14:27:00.63	DM->CMD	"processing. . ."	18	89	processing	None
+91	2018-09-19 14:27:17.40	DM->RN	"turn to face alley Door 1"	18	89	translation-r-landmark	None
+92	2018-09-19 14:27:28.41	RN	"done"	18	91	ack-done	None
+93	2018-09-19 14:27:29.58	DM->CMD	"done"	18	92	translation-l	None
+94	2018-09-19 14:27:37.79	CMD	"keep going straight"	19	None	None	None
+95	2018-09-19 14:27:43.31	DM->CMD	"processing. . ."	19	94	processing	None
+96	2018-09-19 14:27:50.44	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	19	94	ack-cant	None
+97	2018-09-19 14:27:53.98	CMD	"then turn right"	19	96	clar-repair	None
+98	2018-09-19 14:27:56.62	CMD	"and continue going"	19	97	continue	None
+99	2018-09-19 14:27:58.76	DM->CMD	"processing. . ."	19	98	processing	None
+100	2018-09-19 14:28:08.16	DM->CMD	"How far should I turn to the right?  <beep>"	19	98	req-clar	None
+101	2018-09-19 14:28:14.46	CMD	"turn right ninety degrees"	19	100	clar-repair	None
+102	2018-09-19 14:28:17.97	DM->CMD	"ok"	19	101	ack-wilco	None
+103	2018-09-19 14:28:21.60	DM->RN	"turn right 90 degrees"	19	101	translation-r-direct	None
+104	2018-09-19 14:28:22.73	DM->CMD	"I will turn right 90 degrees"	19	101	ack-wilco	None
+105	2018-09-19 14:28:30.78	RN	"done"	19	103	ack-done	None
+106	2018-09-19 14:28:31.75	DM->CMD	"done"	19	105	translation-l	None
+107	2018-09-19 14:28:35.79	CMD	"go straight"	20	None	None	None
+108	2018-09-19 14:28:38.82	CMD	"travel straight"	20	107	continue	None
+109	2018-09-19 14:28:42.10	DM->CMD	"processing. . ."	20	108	processing	None
+110	2018-09-19 14:28:49.28	DM->CMD	"How far forward should I go?  <beep>"	20	108	req-clar	None
+111	2018-09-19 14:28:54.58	CMD	"go five steps straight"	20	110	clar-repair	None
+112	2018-09-19 14:29:01.10	DM->CMD	"processing. . ."	20	111	processing	None
+113	2018-09-19 14:29:12.04	DM->CMD	"I'm not sure what you are asking me to do.  <beep>"	20	111	nack	None
+114	2018-09-19 14:29:14.23	CMD	"to move away from the wall"	20	113	clar-repair	None
+115	2018-09-19 14:29:14.84	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	20	114	nar	None
+116	2018-09-19 14:29:16.52	CMD	"move away from the wall"	21	None	None	None
+117	2018-09-19 14:29:21.19	DM->CMD	"processing. . ."	21	116	processing	None
+118	2018-09-19 14:29:35.78	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	21	116	nar	None
+119	2018-09-19 14:29:41.60	CMD	"move away from the cone"	22	None	None	None
+120	2018-09-19 14:29:43.91	CMD	"travel to the right"	22	119	continue	None
+121	2018-09-19 14:29:49.54	DM->CMD	"processing. . ."	22	120*	processing	None
+122	2018-09-19 14:29:57.68	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	22	120*	missing-info	None
+123	2018-09-19 14:30:02.90	CMD	"keep traveling to the right"	23	None	None	None
+124	2018-09-19 14:30:05.50	CMD	"five steps"	23	123	continue	None
+125	2018-09-19 14:30:11.32	DM->CMD	"processing. . ."	23	124*	processing	None
+126	2018-09-19 14:30:23.09	DM->CMD	"I'm not sure what you are asking me to do.  <beep>"	23	124*	nack	None
+127	2018-09-19 14:30:24.79	CMD	"take a picture of your front viewing"	24	None	None	None
+128	2018-09-19 14:30:27.33	CMD	"what you see"	24	127	continue	None
+129	2018-09-19 14:30:31.66	DM->RN	"send image"	24	127	translation-r-direct	None
+130	2018-09-19 14:30:33.19	RN	"sent"	24	129	ack-done	None
+131	2018-09-19 14:30:35.34	DM->CMD	"sent"	24	130	translation-l	None
+132	2018-09-19 14:30:38.52	CMD	"continue going straight"	25	None	None	None
+133	2018-09-19 14:30:43.22	DM->CMD	"processing. . ."	25	132	processing	None
+134	2018-09-19 14:30:44.78	CMD	"a few steps"	25	132	continue	None
+135	2018-09-19 14:30:57.77	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	25	134*	nar	None
+136	2018-09-19 14:31:00.12	CMD	"go to the other cone"	26	None	None	None
+137	2018-09-19 14:31:01.82	CMD	"travel to the other cone"	26	136	continue	None
+138	2018-09-19 14:31:04.50	DM->CMD	"ok"	26	137	ack-wilco	None
+139	2018-09-19 14:31:09.19	DM->RN	"move to Alley cone"	26	137	translation-r-landmark	None
+140	2018-09-19 14:31:26.11	CMD	"when you get to the other cone stop"	26	137	continue	None
+141	2018-09-19 14:31:27.81	CMD	"and take a photo"	26	140	continue	None
+142	2018-09-19 14:31:31.34	DM->RN	"then. . ."	26	139	link-next	None
+143	2018-09-19 14:31:32.46	DM->RN	"send image"	26	141	translation-r-direct	None
+144	2018-09-19 14:31:33.73	DM->CMD	"I will send a picture"	26	141	ack-wilco	None
+145	2018-09-19 14:31:41.14	RN	"done and sent"	26	143*	ack-done	None
+146	2018-09-19 14:31:42.91	DM->CMD	"done, sent"	26	145	translation-l	None
+147	2018-09-19 14:31:52.48	CMD	"now <pause .83> turn a hundred and twenty degrees and travel"	27	None	None	None
+148	2018-09-19 14:31:57.99	CMD	"straight"	27	147	continue	None
+149	2018-09-19 14:32:00.54	DM->CMD	"processing. . ."	27	148*	processing	None
+150	2018-09-19 14:32:07.11	DM->CMD	"Which direction should I turn?  <beep>"	27	148*	req-clar	None
+151	2018-09-19 14:32:13.93	CMD	"travel south"	27	150	clar-repair	None
+152	2018-09-19 14:32:23.42	DM->CMD	"I will turn to face South"	27	151	ack-wilco	None
+153	2018-09-19 14:32:24.01	DM->RN	"turn to face South"	27	151	translation-r-contextual	None
+154	2018-09-19 14:32:27.40	DM->CMD	"turning. . ."	27	151	ack-doing	None
+155	2018-09-19 14:32:32.68	RN	"done"	27	153	ack-done	None
+156	2018-09-19 14:32:33.03	CMD	"actually travel north"	28	None	None	None
+157	2018-09-19 14:32:35.20	CMD	"travel north"	28	156	summarization	None
+158	2018-09-19 14:32:36.21	DM->CMD	"done"	27	155	translation-l	None
+159	2018-09-19 14:32:45.72	DM->CMD	"processing. . ."	28	157	processing	None
+160	2018-09-19 14:32:52.84	DM->CMD	"I will turn to face North"	28	157	ack-wilco	None
+161	2018-09-19 14:32:53.72	DM->RN	"turn to face North"	28	157	translation-r-contextual	None
+162	2018-09-19 14:32:56.82	DM->CMD	"turning. . ."	28	157	ack-doing	None
+163	2018-09-19 14:33:09.61	RN	"done"	28	161	ack-done	None
+164	2018-09-19 14:33:10.93	DM->CMD	"done"	28	163	translation-l	None
+165	2018-09-19 14:33:11.52	CMD	"then go north until you hit the doorway"	29	None	None	None
+166	2018-09-19 14:33:15.47	CMD	"and stop"	29	165	continue	None
+167	2018-09-19 14:33:16.39	CMD	"and take a photo"	29	166	continue	None
+168	2018-09-19 14:33:19.87	DM->CMD	"processing. . ."	29	167*	processing	None
+169	2018-09-19 14:33:25.22	DM->RN	"move to alley Door 3"	29	165	translation-r-landmark	None
+170	2018-09-19 14:33:27.66	DM->RN	"then. . ."	29	169	link-next	None
+171	2018-09-19 14:33:28.81	DM->RN	"send image"	29	167	translation-r-direct	None
+172	2018-09-19 14:33:30.24	DM->CMD	"moving. . ."	29	165	ack-doing	None
+173	2018-09-19 14:33:34.07	RN	"done and sent"	29	171*	ack-done	None
+174	2018-09-19 14:33:35.68	DM->CMD	"done, sent"	29	173	translation-l	None
+175	2018-09-19 14:33:44.52	CMD	"now pass the box"	30	None	None	None
+176	2018-09-19 14:33:46.68	CMD	"travel"	30	175	continue	None
+177	2018-09-19 14:33:49.21	CMD	"north"	30	176	continue	None
+178	2018-09-19 14:33:51.54	CMD	"northeast"	30	177	correction-update	None
+179	2018-09-19 14:33:53.49	DM->CMD	"processing. . ."	30	178*	processing	None
+180	2018-09-19 14:33:59.78	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	30	178*	ack-cant	None
+181	2018-09-19 14:34:05.76	CMD	"travel"	31	None	None	None
+182	2018-09-19 14:34:07.42	CMD	"northwest"	31	181	continue	None
+183	2018-09-19 14:34:15.76	DM->CMD	"processing. . ."	31	182*	processing	None
+184	2018-09-19 14:34:19.21	CMD	"travel south"	31	182	continue	None
+185	2018-09-19 14:34:21.66	CMD	"then south west"	31	184	continue	None
+186	2018-09-19 14:34:34.28	DM->CMD	"I'm not sure what you are asking me to do.  <beep>"	31	185*	nack	None
+187	2018-09-19 14:34:38.53	CMD	"<notification sound>"	None	None	None	None
+188	2018-09-19 14:34:38.75	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	31	186	continue	None
+189	2018-09-19 14:34:44.26	CMD	"travel"	32	None	None	None
+190	2018-09-19 14:34:46.78	CMD	"a hundred and twenty degrees southwest"	32	189	continue	None
+191	2018-09-19 14:34:54.15	DM->CMD	"processing. . ."	32	190*	processing	None
+192	2018-09-19 14:34:59.15	CMD	"turn away from the box"	32	190	continue	None
+193	2018-09-19 14:35:00.44	CMD	"travel south"	32	192	continue	None
+194	2018-09-19 14:35:03.96	CMD	"and turn west"	32	193	continue	None
+195	2018-09-19 14:35:09.22	DM->CMD	"I didn't get all of that.  <beep>"	32	194*	nack	None
+196	2018-09-19 14:35:10.12	DM->CMD	"Could you break it down for me?  <beep>"	32	194*	req-clar	None
+197	2018-09-19 14:35:12.33	CMD	"<notification sound>"	None	None	None	None
+198	2018-09-19 14:35:12.53	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	32	196	continue	None
+199	2018-09-19 14:35:13.94	CMD	"back up away from the box"	33	None	None	None
+200	2018-09-19 14:35:15.74	CMD	"travel south"	33	199	continue	None
+201	2018-09-19 14:35:19.62	CMD	"and just stop there"	33	200	continue	None
+202	2018-09-19 14:35:21.74	DM->CMD	"How far should I move back?  <beep>"	33	199	req-clar	None
+203	2018-09-19 14:35:24.69	CMD	"just travel south ninety degrees"	33	202	clar-repair	None
+204	2018-09-19 14:35:27.61	CMD	"<sigh>"	None	None	None	None
+205	2018-09-19 14:35:33.62	DM->CMD	"processing. . ."	33	203	processing	None
+206	2018-09-19 14:35:43.47	DM->CMD	"Which direction should I turn?  <beep>"	33	203	req-clar	None
+207	2018-09-19 14:35:45.97	CMD	"turn west"	33	206	clar-repair	None
+208	2018-09-19 14:35:49.27	DM->CMD	"ok"	33	207	ack-wilco	None
+209	2018-09-19 14:35:52.16	DM->RN	"turn to face West"	33	207	translation-r-direct	None
+210	2018-09-19 14:35:55.39	DM->CMD	"turning. . ."	33	207	ack-doing	None
+211	2018-09-19 14:36:04.34	RN	"done"	33	209	ack-done	None
+212	2018-09-19 14:36:05.71	DM->CMD	"done"	33	211	translation-l	None
+213	2018-09-19 14:36:06.28	CMD	"now travel west until you run into a doorway"	34	None	None	None
+214	2018-09-19 14:36:08.95	CMD	"and take a photo"	34	213	continue	None
+215	2018-09-19 14:36:09.97	CMD	"and stop"	34	214	continue	None
+216	2018-09-19 14:36:16.52	DM->CMD	"processing. . ."	34	215*	processing	None
+217	2018-09-19 14:36:38.06	DM->RN	"move forward until parallel with alley Door 2"	34	213	translation-r-landmark	None
+218	2018-09-19 14:36:41.95	DM->RN	"then. . ."	34	217	link-next	None
+219	2018-09-19 14:36:43.35	DM->RN	"send image"	34	214	translation-r-direct	None
+220	2018-09-19 14:36:45.03	DM->CMD	"moving. . ."	34	213	ack-doing	None
+221	2018-09-19 14:36:46.10	CMD	"<X: okay>"	X-CMD	None	None	None
+222	2018-09-19 14:36:46.41	CMD	"<X: so how many doorways did you find>"	X-CMD	None	None	None
+223	2018-09-19 14:36:49.25	CMD	"one"	X-CMD	None	None	None
+224	2018-09-19 14:36:50.31	CMD	"<X: okay>"	X-CMD	None	None	None
+225	2018-09-19 14:36:50.91	CMD	"<X: and how many cones>"	X-CMD	None	None	None
+226	2018-09-19 14:36:53.07	CMD	"two"	X-CMD	None	None	None
+227	2018-09-19 14:36:54.15	RN	"done and sent"	34	219*	ack-done	None
+228	2018-09-19 14:36:54.93	CMD	"<X: and do you think there's any type of container>"	X-CMD	None	None	None
+229	2018-09-19 14:36:56.35	DM->CMD	"done, sent"	34	227	translation-l	None
+230	2018-09-19 14:36:58.54	CMD	"i found one box"	X-CMD	None	None	None
+231	2018-09-19 14:37:00.08	CMD	"<X: one box okay>"	X-CMD	None	None	None

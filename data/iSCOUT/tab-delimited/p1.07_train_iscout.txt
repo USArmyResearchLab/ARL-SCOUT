@@ -1,0 +1,202 @@
+id	time	stream	text	context	notes
+1	4.74	RN	"ready"	None	None
+2	8.73	DM->CMD	"I'm also ready. "	None	None
+3	8.73	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	None	None
+4	30.43	CMD	"move forward at this time"	None	None
+5	38.84	RN	"<no speech>"	None	None
+6	47.33	RN	"<no speech>"	None	None
+7	55.32	DM->CMD	"How far should I move forward?  You can tell me to move to an object that you see or a distance.  I can send you a photo to start, ok?"	None	None
+8	65.47999999999999	CMD	"yes send me a photo so i could see"	None	None
+9	72.54	DM->RN	"image"	None	None
+i000	73.89	IMAGE	"frame000"	None	None
+10	73.38000000000001	RN	"image sent"	None	None
+11	75.56	DM->CMD	"sent"	None	None
+12	80.02	CMD	"move to the first cone on your left"	None	None
+13	104.39	DM->CMD	"I'm not sure which object you are referring to.  Can you describe it in another way, using location or color?"	None	None
+14	111.92	CMD	"move to the first orange cone at the left doorway"	None	None
+15	123.34	DM->CMD	"executing..."	None	None
+16	131.84	DM->RN	"move to the first orange object in the left doorway"	None	None
+17	139.77	RN	"done"	None	None
+18	142.9	CMD	"send me a picture of what you see"	None	None
+19	143.42	DM->CMD	"done"	None	None
+20	149.57	DM->RN	"image"	None	None
+i001	150.12	IMAGE	"frame001"	None	None
+21	149.58	RN	"image sent"	None	None
+22	152.36	DM->CMD	"sent"	None	None
+23	156	CMD	"now move to the second orange cone at the end of the hallway"	None	None
+24	173.41	DM->RN	"move to the other orange object at the end of the hallway"	None	None
+25	176.15	DM->CMD	"executing..."	None	None
+26	184.72	RN	"done"	None	None
+27	186.34	DM->CMD	"done"	None	None
+28	187.94	CMD	"send me a picture"	None	None
+29	195.61	DM->RN	"image"	None	None
+i002	196.18	IMAGE	"frame002"	None	None
+30	195.71	RN	"image sent"	None	None
+31	199.08	DM->CMD	"sent"	None	None
+32	208.06	CMD	"go back to your left"	None	None
+33	208.06	CMD	"and go to the first doorway that you see"	None	None
+34	251.11	DM->CMD	"I'm not sure which doorway you are referring to.  The doorway immediately to my left or behind me and to the left?"	None	None
+35	257.13	CMD	"the doorway immediately to your left"	None	None
+36	273	DM->RN	"Move to the doorway closest to you and to the left."	None	None
+37	276.46	DM->CMD	"executing..."	None	None
+38	283.62	CMD	"send me a picture"	None	None
+39	283.88	RN	"done"	None	None
+40	285.32	DM->CMD	"done"	None	None
+41	291.03	DM->RN	"image"	None	None
+i003	292.39	IMAGE	"frame003"	None	None
+42	291.77	RN	"image sent"	None	None
+43	294.06	DM->CMD	"sent"	None	None
+44	305.42	CMD	"turn forty five degrees"	None	None
+45	308.69	CMD	"and send me a photo of the hallway"	None	None
+46	315.68	DM->RN	"turn 45, image"	None	None
+47	319.18	DM->CMD	"executing..."	None	None
+48	322.25	RN	"done"	None	None
+i004	326.52	IMAGE	"frame004"	None	None
+49	325.83	RN	"image sent"	None	None
+50	327.19	RN	"sorry"	None	None
+51	328.18	DM->CMD	"sent"	None	None
+52	329.69	CMD	"turn another forty"	None	None
+53	332.42	CMD	"and send me a picture of the hallway"	None	None
+54	338.17	DM->RN	"turn 45, image"	None	None
+55	341.51	DM->CMD	"executing..."	None	None
+i005	346.21	IMAGE	"frame005"	None	None
+56	345.78	RN	"done"	None	None
+57	348.07	DM->CMD	"sent"	None	None
+58	361.89	CMD	"turn forty five degrees"	None	None
+59	364.28	CMD	"and send me a picture"	None	None
+60	371.15	DM->RN	"turn 45, image"	None	None
+61	374.25	DM->CMD	"executing..."	None	None
+i006	380.24	IMAGE	"frame006"	None	None
+62	379.62	RN	"done"	None	None
+63	381.61	DM->CMD	"sent"	None	None
+64	381.71	CMD	"turn forty five degrees again"	None	None
+65	384.76	CMD	"and send me a picture"	None	None
+66	390.47	DM->RN	"turn 45, image"	None	None
+67	394.22	DM->CMD	"executing..."	None	None
+i007	399.12	IMAGE	"frame007"	None	None
+68	398.65	RN	"done"	None	None
+69	400.25	CMD	"turn forty five degrees"	None	None
+70	401.24	DM->CMD	"sent"	None	None
+71	402.62	CMD	"and send me a photo"	None	None
+72	409.26	DM->RN	"turn 45, image"	None	None
+73	412.46	DM->CMD	"executing..."	None	None
+i008	417.64	IMAGE	"frame008"	None	None
+74	416.95	RN	"done"	None	None
+75	419.75	CMD	"are you alone"	None	None
+76	421.66	DM->CMD	"sent"	None	None
+77	440.94	DM->CMD	"I'm not sure.  I'm not detecting any people."	None	None
+78	444.02	CMD	"what is the current temperature of the environment you are in"	None	None
+79	460.12	DM->RN	"can you give temp?"	None	None
+80	466.09	DM->CMD	"standby"	None	None
+81	469.67	RN	"google says its fifty six degrees"	None	None
+82	478.23	DM->CMD	"56 degrees"	None	None
+83	478.24	CMD	"good job "	None	None
+84	478.24	CMD	"do you detect any threats"	None	None
+85	481.15	RN	"<no speech>"	None	None
+86	512.52	DM->CMD	"I think that you are better at understanding a threat than I am.  "	None	None
+87	512.52	DM->CMD	"I can help you find evidence if you guide me."	None	None
+88	525.14	CMD	"turn ninety degrees to you"	None	None
+89	529.3100000000001	CMD	"and get"	None	None
+90	529.3100000000001	CMD	"uh send me a picture"	None	None
+91	535.45	DM->RN	"turn 90 right, image"	None	None
+92	538.65	DM->CMD	"executing..."	None	None
+i009	550.04	IMAGE	"frame009"	None	None
+93	549.5699999999999	RN	"done"	None	None
+94	552.42	DM->CMD	"sent"	None	None
+95	552.59	CMD	"<cough:in background, so not participant> turn forty five degrees"	None	None
+96	555.57	CMD	"and send me a photo"	None	None
+97	561.1	DM->RN	"turn 45, image"	None	None
+98	564.24	DM->CMD	"executing..."	None	None
+99	564.91	RN	"turn in which direction"	None	None
+100	574.24	DM->CMD	"Which way should I turn?"	None	None
+101	579.6700000000001	CMD	"turn right forty five degrees"	None	None
+102	589.28	DM->RN	"turn right 45, image"	None	None
+103	592.32	DM->CMD	"executing..."	None	None
+i010	607.13	IMAGE	"frame010"	None	None
+104	606.31	RN	"done"	None	None
+105	608.73	DM->CMD	"sent"	None	None
+106	611.5500000000001	CMD	"go to the first orange cone on your right"	None	None
+107	618.73	CMD	"and send me a photo"	None	None
+108	630.28	DM->RN	"move to the first orange cone on right, image"	None	None
+109	633.27	DM->CMD	"executing..."	None	None
+i011	643.36	IMAGE	"frame011"	None	None
+110	642.87	RN	"done"	None	None
+111	645.25	DM->CMD	"sent"	None	None
+112	647.61	CMD	"are you able to move that orange cone in front of you"	None	None
+113	664.69	DM->CMD	"No, I'm not able to manipulate objects."	None	None
+114	682.71	CMD	"turn forty five degrees to your left"	None	None
+115	682.71	CMD	"and send me a photo"	None	None
+116	693.95	DM->RN	"turn 45 left, image"	None	None
+117	697.87	DM->CMD	"executing..."	None	None
+i012	712.8	IMAGE	"frame012"	None	None
+118	712.14	RN	"image sent"	None	None
+119	714.87	DM->CMD	"sent"	None	None
+120	715.45	CMD	"how tall is that black ball in front of you"	None	None
+121	728.3	DM->CMD	"standby"	None	None
+122	741.81	DM->RN	"how tall is the black barrel in front of you, approximately?"	None	None
+123	747.49	RN	"<no speech>"	None	None
+124	753.36	RN	"three three feet maybe"	None	None
+125	757.79	RN	"let's say a meter"	None	None
+126	772.88	DM->CMD	"approximately one meter tall"	None	None
+127	785.96	CMD	"do you think there's some type of container that a soldier might be able to use to move things"	None	None
+128	827.43	DM->CMD	"I think that you are better at recognizing containers than I am.  I can help you find a container if you guide me."	None	None
+129	834.27	CMD	"turn fff twenty degrees to your left"	None	None
+130	843.15	DM->RN	"turn 20 left"	None	None
+131	846.26	DM->CMD	"executing..."	None	None
+132	849.9599999999999	RN	"done"	None	None
+133	850.71	CMD	"send me a photo of what you see"	None	None
+134	854.42	DM->CMD	"done"	None	None
+135	858.51	DM->RN	"image"	None	None
+i013	860.47	IMAGE	"frame013"	None	None
+136	859.74	RN	"image sent"	None	None
+137	861.96	DM->CMD	"sent"	None	None
+138	865.22	CMD	"what type of material is that in front of you"	None	None
+139	884.98	DM->CMD	"Which object are you referring to? Can you describe it using shape or color?"	None	None
+140	892.02	CMD	"the material is <pause> square brown in color"	None	None
+141	917.04	DM->CMD	"I'm detecting wood."	None	None
+142	917.39	CMD	"good job "	None	None
+143	917.39	CMD	"how many window openings do you see in front of you"	None	None
+144	935.91	DM->CMD	"three"	None	None
+145	935.92	CMD	"what do you see in the first window on your left"	None	None
+146	972.12	DM->CMD	"I'm not sure which window you are referring to.  The window farthest to the left ahead of me?"	None	None
+147	975.96	CMD	"yes the window farthest to the left ahead of you"	None	None
+148	989.69	RN	"<no speech>"	None	None
+149	1005.77	RN	"<no speech>"	None	None
+150	1010.54	DM->CMD	"I see an object in the bottom right corner, but I cannot detect what it is."	None	None
+151	1014.63	CMD	"do you detect any type of hazardous gas sources"	None	None
+152	1023.09	RN	"<no speech>"	None	None
+153	1037.22	DM->CMD	"I do not have a sensor to detect hazardous gases."	None	None
+154	1041.06	CMD	"okay"	None	None
+155	1041.06	CMD	"can you detect any water sources near you"	None	None
+156	1054.64	RN	"<no speech>"	None	None
+157	1063.92	RN	"<no speech>"	None	None
+158	1073.77	DM->CMD	"I think that you are better at recognizing water sources than I am.  I can help you find water sources if you guide me."	None	None
+159	1078.71	CMD	"what type of sensors do you have"	None	None
+160	1102.32	DM->RN	"what type of sensors do I have?"	None	None
+161	1123.96	RN	"uh"	None	None
+162	1125.87	RN	"that"	None	None
+163	1126.72	RN	"<unintelligible>"	None	None
+164	1138.82	DM->CMD	"LIDAR, video, HD camera"	None	None
+165	1141.65	RN	"<non>"	None	None
+166	1147.15	CMD	"are you a male or a female"	None	None
+167	1164.26	DM->CMD	"I do not have a gender."	None	None
+168	1175.86	CMD	"in front of you past about"	None	None
+169	1175.86	CMD	"is that a plant that you see on your right"	None	None
+170	1215.98	DM->CMD	"I'm not sure, it is obstructed.  Would you like me to move closer and send another photo?"	None	None
+171	1219.04	CMD	"yes move closer"	None	None
+172	1219.04	CMD	"and send me a photo"	None	None
+173	1248.41	DM->RN	"move to get the best possible shot of the plant ahead and to the right, beyond the barrel"	None	None
+174	1251.54	DM->RN	"send image"	None	None
+175	1255.31	DM->CMD	"executing..."	None	None
+i014	1274.39	IMAGE	"frame014"	None	None
+176	1273.77	RN	"image sent"	None	None
+177	1276.75	DM->CMD	"sent"	None	None
+178	1278.35	RN	"<no speech>"	None	None
+179	1305.66	CMD	"<b:uh how many doorways were there>"	None	None
+180	1308.82	CMD	"how many doorways <b: uh you"	None	None
+181	1315.29	DM->RN	"ending task"	None	None
+182	1325.51	CMD	"there were two doorways"	None	None
+183	1328.71	CMD	"<b: okay how many cones were there>"	None	None
+184	1331.02	CMD	"there were two orange cones"	None	None
+185	1333.64	CMD	"<b:okay and do you think there's any type of a container which a soldier might be able to move though>"	None	None
+186	1337.85	CMD	"yyyy <beginning to say yes> do you think there's some kind of container that a soldier might be able to use to move things"	None	None

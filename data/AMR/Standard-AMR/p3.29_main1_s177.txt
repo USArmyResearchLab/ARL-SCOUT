@@ -1,0 +1,12 @@
+p3.29_main1_s177
+# ::tok move forward two feet
+# ::snt move forward two feet
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (f2 / forward)
+	:extent (d / distance-quantity
+		:quant 2
+		:unit (f / foot))
+	:mode imperative)
+

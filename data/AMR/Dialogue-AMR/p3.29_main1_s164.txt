@@ -1,0 +1,19 @@
+p3.29_main1_s164
+# ::tok move another ten degrees to the left
+# ::snt move another ten degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:mod (a2 / another)
+			:quant 10
+			:unit (d / degree))
+		:time (a3 / after
+			:op1 (n / now)))
+	:ARG2 r)
+

@@ -1,0 +1,16 @@
+p3.29_main1_s291
+# ::tok move forward ten feet
+# ::snt move forward ten feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 10
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

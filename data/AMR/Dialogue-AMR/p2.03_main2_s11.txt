@@ -1,0 +1,12 @@
+p2.03_main2_s11
+# ::tok Hmm . . .
+# ::snt Hmm. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+

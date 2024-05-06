@@ -1,0 +1,27 @@
+p1.04_main1_s46
+# ::tok I 'm moving to the wall ahead of me . Then what ?
+# ::snt I'm moving to the wall ahead of me. Then what?
+(m / multi-sentence
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (w / wall
+				:location (a2 / ahead
+					:op1 r))
+			:complete -
+			:ongoing +
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (i / instruct-01
+			:ARG0 c
+			:ARG1 (a3 / amr-unknown)
+			:ARG2 r
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+

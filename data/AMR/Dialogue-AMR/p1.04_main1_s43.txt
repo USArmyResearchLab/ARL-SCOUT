@@ -1,0 +1,16 @@
+p1.04_main1_s43
+# ::tok the wall straight ahead
+# ::snt the wall straight ahead
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (c2 / clarify-10
+		:ARG0 c
+		:ARG1 (w / wall
+			:location (a2 / ahead
+				:ARG1-of (s / straight-04)))
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:ARG2 r)
+

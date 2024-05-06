@@ -1,0 +1,12 @@
+p2.01_main1_s257
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+

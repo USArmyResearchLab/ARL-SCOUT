@@ -1,0 +1,40 @@
+p1.09_main1_s107
+# ::tok How far should I back up ? Until I reach the wall behind me ?
+# ::snt How far should I back up? Until I reach the wall behind me?
+(m / multi-sentence
+	:snt1 (r / request-SA
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (c / clarify-10
+			:ARG0 (c2 / commander)
+			:ARG1 (g / go-02
+				:ARG0 r2
+				:ARG1 (a / amr-unknown)
+				:manner (b / back-02
+					:ARG0 r2
+					:ARG1 r2))
+			:ARG2 r2
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 c2)
+	:snt2 (r3 / request-SA
+		:ARG0 r2
+		:ARG1 (c3 / clarify-10
+			:ARG0 c2
+			:ARG1 (g2 / go-02
+				:ARG0 r2
+				:ARG1 (r4 / reach-01
+					:ARG0 r2
+					:ARG1 (w / wall
+						:location (b2 / behind
+							:op1 r2)))
+				:manner (b3 / back-02
+					:ARG0 r2
+					:ARG1 r2)
+				:polarity (a3 / amr-unknown))
+			:ARG2 r2
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c2))
+

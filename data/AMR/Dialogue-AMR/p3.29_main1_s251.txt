@@ -1,0 +1,20 @@
+p3.29_main1_s251
+# ::tok move five feet closer
+# ::snt move five feet closer
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:ARG4 (c3 / close-10
+			:ARG1 r
+			:ARG2-of (h / have-degree-91
+				:ARG1 r
+				:ARG3 (m / more)))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

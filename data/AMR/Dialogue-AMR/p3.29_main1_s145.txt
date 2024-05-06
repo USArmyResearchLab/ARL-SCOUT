@@ -1,0 +1,19 @@
+p3.29_main1_s145
+# ::tok I will move forward as far as I can , ok ?
+# ::snt I will move forward as far as I can, ok?
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (f / far
+			:ARG2-of (h / have-degree-91
+				:ARG1 (m / move-01)
+				:ARG3 (e / equal)
+				:ARG4 (d / distance-quantity
+					:ARG1-of (p / possible-01))))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

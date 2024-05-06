@@ -1,0 +1,21 @@
+p3.29_main1_s307
+# ::tok alright so how many doorways were there
+# ::snt alright so how many doorways were there
+(m / multi-sentence
+	:snt1 (j / judge-SA
+		:ARG0 (e / experimenter)
+		:ARG1 (t / task-01
+			:mod (a / all-right))
+		:ARG2 (c / commander)
+		:stable -
+		:time (n / now))
+	:snt2 (q / question-SA
+		:ARG0 (e2 / experimenter)
+		:ARG1 (r / remember-01
+			:ARG0 c2
+			:ARG1 (d / doorway
+				:quant (a2 / amr-unknown))
+			:stable +
+			:time (n2 / now))
+		:ARG2 (c2 / commander)))
+

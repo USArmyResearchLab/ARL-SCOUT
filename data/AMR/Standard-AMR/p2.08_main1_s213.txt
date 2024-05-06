@@ -1,0 +1,11 @@
+p2.08_main1_s213
+# ::tok I 'm unsure which doorway you mean . < beep >
+# ::snt I'm unsure which doorway you mean. <beep>
+(s / sure-02
+	:ARG0 (i / i)
+	:ARG1 (t / thing
+		:ARG2-of (m / mean-01
+			:ARG0 (y / you))
+		:domain (d / doorway))
+	:polarity -)
+

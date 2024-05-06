@@ -1,0 +1,323 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-08-01 14:43:50.96	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+2	2018-08-01 14:43:51.77	DM->RN	"calibrate"	1	0	translation-r-direct	None
+3	2018-08-01 14:44:33.45	CMD	"<audio sync in three two one>"	X-CMD	None	None	None
+4	2018-08-01 14:44:33.87	RN	"<audio sync in three two one>"	X-CMD	None	None	None
+5	2018-08-01 14:44:36.92	RN	"<loud noise>"	X-CMD	None	None	None
+6	2018-08-01 14:44:36.92	CMD	"<loud noise>"	X-CMD	None	None	None
+7	2018-08-01 14:44:44.68	DM->CMD	"calibration complete"	1	0	ack-done	None
+8	2018-08-01 14:44:57.58	CMD	"i am ready"	2	None	None	None
+9	2018-08-01 14:44:58.70	DM->RN	"participant is ready"	2	8	translation-r-direct	None
+10	2018-08-01 14:45:01.54	CMD	"<notification sound>"	X-CMD	None	None	None
+11	2018-08-01 14:45:01.73	DM->CMD	"I'm also ready.  <beep>"	2	8	reciprocal	None
+12	2018-08-01 14:45:04.19	CMD	"how you doing today robot"	3	None	None	None
+13	2018-08-01 14:45:07.65	DM->CMD	"Hi!"	3	12	reciprocal	None
+14	2018-08-01 14:45:15.29	DM->CMD	"What should we do next?  <beep>"	4	None	None	None
+15	2018-08-01 14:45:16.33	CMD	"that's a good question"	4	14	nar	None
+16	2018-08-01 14:45:18.57	CMD	"i think we should take a picture first"	4	14	answer	None
+17	2018-08-01 14:45:24.20	DM->CMD	"ok"	4	16	ack-wilco	None
+18	2018-08-01 14:45:26.47	DM->RN	"send image"	4	16	translation-r-direct	None
+19	2018-08-01 14:45:28.94	DM->CMD	"I will send a picture"	4	16	ack-wilco	None
+20	2018-08-01 14:45:29.39	RN	"sent"	4	18	ack-done	None
+21	2018-08-01 14:45:30.76	DM->CMD	"sent"	4	20	translation-l	None
+22	2018-08-01 14:45:35.39	CMD	"okay now turn to the northwest"	5	None	None	None
+23	2018-08-01 14:45:38.20	CMD	"and take another picture please"	5	22	continue	None
+24	2018-08-01 14:45:41.60	DM->CMD	"processing. . ."	5	23*	processing	None
+25	2018-08-01 14:45:47.32	DM->RN	"turn left 45 degrees"	5	22	translation-r-situated	None
+26	2018-08-01 14:45:48.97	DM->RN	"then. . ."	5	25	link-next	None
+27	2018-08-01 14:45:50.13	DM->RN	"send image"	5	23	translation-r-direct	None
+28	2018-08-01 14:45:52.56	DM->CMD	"executing. . ."	5	23*	ack-doing	None
+29	2018-08-01 14:45:56.19	RN	"done and sent"	5	27*	ack-done	None
+30	2018-08-01 14:45:59.08	DM->CMD	"done, sent"	5	29	translation-l	None
+31	2018-08-01 14:46:06.80	CMD	"okay now turn south"	6	None	None	None
+32	2018-08-01 14:46:08.85	CMD	"and take a picture"	6	31	continue	None
+33	2018-08-01 14:46:11.09	DM->CMD	"processing. . ."	6	32*	processing	None
+34	2018-08-01 14:46:15.08	DM->RN	"turn to face South"	6	31	translation-r-direct	None
+35	2018-08-01 14:46:16.67	DM->RN	"then. . ."	6	34	link-next	None
+36	2018-08-01 14:46:17.55	DM->RN	"send image"	6	32	translation-r-direct	None
+37	2018-08-01 14:46:26.09	RN	"done and sent"	6	36*	ack-done	None
+38	2018-08-01 14:46:27.80	DM->CMD	"I turned to face South"	6	37	translation-l-partial	None
+39	2018-08-01 14:46:29.31	DM->CMD	"sent"	6	38	continue	None
+40	2018-08-01 14:46:33.07	CMD	"okay turn north"	7	None	None	None
+41	2018-08-01 14:46:35.95	CMD	"and then go forward as far as you can"	7	40	continue	None
+42	2018-08-01 14:46:37.84	DM->RN	"turn to face North"	7	40	translation-r-direct	None
+43	2018-08-01 14:46:41.34	DM->CMD	"ok"	7	41*	ack-wilco	None
+44	2018-08-01 14:46:47.25	RN	"done"	7	42	ack-done	None
+45	2018-08-01 14:46:50.97	DM->RN	"move into TV room"	7	41	translation-r-landmark	None
+46	2018-08-01 14:47:00.55	RN	"done"	7	45	ack-done	None
+47	2018-08-01 14:47:02.24	DM->CMD	"done"	7	46	translation-l	None
+48	2018-08-01 14:47:05.86	CMD	"take a picture"	8	None	None	None
+49	2018-08-01 14:47:11.40	DM->RN	"send image"	8	48	translation-r-direct	None
+50	2018-08-01 14:47:14.90	RN	"sent"	8	49	ack-done	None
+51	2018-08-01 14:47:16.24	DM->CMD	"sent"	8	50	translation-l	None
+52	2018-08-01 14:47:29.19	CMD	"move forward until you hit that desk"	9	None	None	None
+53	2018-08-01 14:47:35.92	DM->CMD	"processing. . ."	9	52	processing	None
+54	2018-08-01 14:47:41.46	DM->RN	"move to TV"	9	52	translation-r-landmark	None
+55	2018-08-01 14:47:50.17	RN	"done"	9	54	ack-done	None
+56	2018-08-01 14:47:51.71	DM->CMD	"done"	9	55	translation-l	None
+57	2018-08-01 14:47:55.21	CMD	"now turn northwest"	10	None	None	None
+58	2018-08-01 14:47:57.15	CMD	"and take a picture"	10	57	continue	None
+59	2018-08-01 14:48:00.90	DM->CMD	"ok"	10	58*	ack-wilco	None
+60	2018-08-01 14:48:11.44	DM->RN	"turn left 50 degrees"	10	57	translation-r-situated	None
+61	2018-08-01 14:48:13.33	DM->RN	"then. . ."	10	60	link-next	None
+62	2018-08-01 14:48:14.39	DM->RN	"send image"	10	58	translation-r-direct	None
+63	2018-08-01 14:48:18.17	RN	"done and sent"	10	62*	ack-done	None
+64	2018-08-01 14:48:22.08	DM->CMD	"done, sent"	10	63	translation-l	None
+65	2018-08-01 14:48:32.82	CMD	"move forward about <pause> ten feet"	11	None	None	None
+66	2018-08-01 14:48:38.08	DM->CMD	"ok"	11	65	ack-wilco	None
+67	2018-08-01 14:48:43.49	DM->RN	"move forward 10 feet"	11	65	translation-r-direct	None
+68	2018-08-01 14:48:54.88	RN	"done"	11	67	ack-done	None
+69	2018-08-01 14:48:56.06	DM->CMD	"I moved forward 10 feet"	11	68	translation-l	None
+70	2018-08-01 14:49:04.68	CMD	"turn south"	12	None	None	None
+71	2018-08-01 14:49:05.62	CMD	"and move forward about <pause> three feet"	12	70	continue	None
+72	2018-08-01 14:49:14.02	DM->CMD	"I will turn to face South"	12	70	ack-wilco	None
+73	2018-08-01 14:49:14.77	DM->RN	"turn to face South"	12	70	translation-r-direct	None
+74	2018-08-01 14:49:16.29	DM->RN	"then. . ."	12	73	link-next	None
+75	2018-08-01 14:49:19.47	DM->RN	"move forward 3 feet"	12	71	translation-r-direct	None
+76	2018-08-01 14:49:26.34	RN	"done"	12	75*	ack-done	None
+77	2018-08-01 14:49:29.50	DM->CMD	"done"	12	76	translation-l	None
+78	2018-08-01 14:49:30.71	CMD	"take a picture"	13	None	None	None
+79	2018-08-01 14:49:31.55	CMD	"and then turn east"	13	78	continue	None
+80	2018-08-01 14:49:37.00	DM->CMD	"processing. . ."	13	79*	processing	None
+81	2018-08-01 14:49:38.90	DM->RN	"send image"	13	78	translation-r-direct	None
+82	2018-08-01 14:49:40.45	DM->RN	"then. . ."	13	81	link-next	None
+83	2018-08-01 14:49:42.85	DM->RN	"turn to face East"	13	79	translation-r-direct	None
+84	2018-08-01 14:49:53.35	RN	"done"	13	83	ack-done	None
+85	2018-08-01 14:49:54.77	RN	"sent"	13	81	ack-done	None
+86	2018-08-01 14:49:55.73	DM->CMD	"done, sent"	13	85*	translation-l	None
+87	2018-08-01 14:49:58.56	CMD	"okay now take another picture"	14	None	None	None
+88	2018-08-01 14:50:01.50	DM->RN	"send image"	14	87	translation-r-direct	None
+89	2018-08-01 14:50:02.87	RN	"done and sent"	14	88	ack-done	None
+90	2018-08-01 14:50:04.56	DM->CMD	"sent"	14	89	translation-l	None
+91	2018-08-01 14:50:17.41	CMD	"okay turn north"	15	None	None	None
+92	2018-08-01 14:50:18.34	CMD	"and then take a picture"	15	91	continue	None
+93	2018-08-01 14:50:21.54	DM->CMD	"ok"	15	92*	ack-wilco	None
+94	2018-08-01 14:50:23.84	DM->RN	"turn to face North"	15	91	translation-r-direct	None
+95	2018-08-01 14:50:26.33	DM->RN	"send image"	15	92	translation-r-direct	None
+96	2018-08-01 14:50:28.57	DM->CMD	"executing. . ."	15	92*	ack-doing	None
+97	2018-08-01 14:50:33.99	RN	"done and sent"	15	95*	ack-done	None
+98	2018-08-01 14:50:37.11	DM->CMD	"done, sent"	15	97	translation-l	None
+99	2018-08-01 14:50:47.37	CMD	"okay move forward until you come to a doorway"	16	None	None	None
+100	2018-08-01 14:50:52.98	DM->CMD	"processing. . ."	16	99	processing	None
+101	2018-08-01 14:51:09.46	DM->RN	"move to Dark room - hall doorway"	16	99	translation-r-landmark	None
+102	2018-08-01 14:51:12.67	DM->CMD	"moving. . ."	16	99	ack-doing	None
+103	2018-08-01 14:51:20.91	RN	"done"	16	101	ack-done	None
+104	2018-08-01 14:51:23.40	DM->CMD	"done"	16	103	translation-l	None
+105	2018-08-01 14:51:28.82	CMD	"okay turn east"	17	None	None	None
+106	2018-08-01 14:51:30.54	CMD	"and then take a picture"	17	105	continue	None
+107	2018-08-01 14:51:33.59	DM->CMD	"ok"	17	106*	ack-wilco	None
+108	2018-08-01 14:51:36.32	DM->RN	"turn to face East"	17	105	translation-r-direct	None
+109	2018-08-01 14:51:37.65	DM->RN	"then. . ."	17	108	link-next	None
+110	2018-08-01 14:51:38.74	DM->RN	"send image"	17	106	translation-r-direct	None
+111	2018-08-01 14:51:39.88	DM->CMD	"I will send a picture"	17	106	ack-wilco	None
+112	2018-08-01 14:51:46.20	RN	"done and sent"	17	110*	ack-done	None
+113	2018-08-01 14:51:47.59	DM->CMD	"done, sent"	17	112	translation-l	None
+114	2018-08-01 14:51:59.79	CMD	"move forward until you hit something"	18	None	None	None
+115	2018-08-01 14:52:05.05	DM->CMD	"ok"	18	114	ack-wilco	None
+116	2018-08-01 14:52:17.19	DM->RN	"move to Dark room crate"	18	114	translation-r-landmark	None
+117	2018-08-01 14:52:20.83	DM->CMD	"moving. . ."	18	114	ack-doing	None
+118	2018-08-01 14:52:25.06	RN	"done"	18	116	ack-done	None
+119	2018-08-01 14:52:27.43	DM->CMD	"done"	18	118	translation-l	None
+120	2018-08-01 14:52:32.20	CMD	"turn southeast"	19	None	None	None
+121	2018-08-01 14:52:33.81	CMD	"and take a picture"	19	120	continue	None
+122	2018-08-01 14:52:35.61	CMD	"and then turn north"	19	121	continue	None
+123	2018-08-01 14:52:38.36	DM->CMD	"ok"	19	122*	ack-wilco	None
+124	2018-08-01 14:52:47.90	DM->RN	"turn right 45 degrees"	19	120	translation-r-situated	None
+125	2018-08-01 14:52:49.72	DM->RN	"then. . ."	19	124	link-next	None
+126	2018-08-01 14:52:50.92	DM->RN	"send image"	19	121	translation-r-direct	None
+127	2018-08-01 14:52:52.55	DM->RN	"then. . ."	19	126	link-next	None
+128	2018-08-01 14:52:53.67	DM->RN	"turn to face North"	19	122	translation-r-direct	None
+129	2018-08-01 14:52:56.23	DM->CMD	"executing. . ."	19	122*	ack-doing	None
+130	2018-08-01 14:52:57.85	RN	"done"	19	124	ack-done	None
+131	2018-08-01 14:53:02.16	RN	"done and sent"	19	128*	ack-done	None
+132	2018-08-01 14:53:04.69	DM->CMD	"done, sent"	19	131*	translation-l	None
+133	2018-08-01 14:53:05.76	CMD	"turn southwest"	20	None	None	None
+134	2018-08-01 14:53:07.17	CMD	"and take a picture"	20	133	continue	None
+135	2018-08-01 14:53:07.94	CMD	"and then turn north"	20	134	continue	None
+136	2018-08-01 14:53:10.20	DM->CMD	"processing. . ."	20	135*	processing	None
+137	2018-08-01 14:53:25.52	DM->RN	"turn left 135 degrees"	20	133	translation-r-situated	None
+138	2018-08-01 14:53:27.97	DM->RN	"then. . ."	20	137	link-next	None
+139	2018-08-01 14:53:29.29	DM->RN	"send image"	20	134	translation-r-direct	None
+140	2018-08-01 14:53:30.42	DM->RN	"then. . ."	20	139	link-next	None
+141	2018-08-01 14:53:31.76	DM->RN	"turn to face North"	20	135	translation-r-direct	None
+142	2018-08-01 14:53:37.82	RN	"sent"	20	139	ack-done	None
+143	2018-08-01 14:53:41.28	DM->CMD	"sent"	20	142	translation-l	None
+144	2018-08-01 14:53:44.56	RN	"done"	20	141	ack-done	None
+145	2018-08-01 14:53:45.95	DM->CMD	"done"	20	144	translation-l	None
+146	2018-08-01 14:53:53.40	CMD	"take a picture"	21	None	None	None
+147	2018-08-01 14:53:55.34	CMD	"and then tur<disfl> move north until you're just outside the next doorway"	21	146	continue	None
+148	2018-08-01 14:53:56.95	DM->RN	"send image"	21	146	translation-r-direct	None
+149	2018-08-01 14:53:58.81	RN	"sent"	21	148	ack-done	None
+150	2018-08-01 14:53:59.40	DM->RN	"then. . ."	21	148	link-next	None
+151	2018-08-01 14:54:09.58	DM->RN	"move into Conf room"	21	147	translation-r-landmark	None
+152	2018-08-01 14:54:11.93	DM->CMD	"executing. . ."	21	147*	ack-doing	None
+153	2018-08-01 14:54:30.94	RN	"done"	21	151	ack-done	None
+154	2018-08-01 14:54:32.16	DM->CMD	"done"	21	153	translation-l	None
+155	2018-08-01 14:54:48.11	CMD	"turn east"	22	None	None	None
+156	2018-08-01 14:54:48.84	CMD	"and take a picture"	22	155	continue	None
+157	2018-08-01 14:54:51.11	CMD	"and then turn back north"	22	156	continue	None
+158	2018-08-01 14:54:54.20	CMD	"yeah just turn back north"	22	157	summarization	None
+159	2018-08-01 14:54:56.26	DM->CMD	"processing. . ."	22	158*	processing	None
+160	2018-08-01 14:54:59.92	DM->RN	"turn to face East"	22	155	translation-r-direct	None
+161	2018-08-01 14:55:01.67	DM->RN	"then. . ."	22	160	link-next	None
+162	2018-08-01 14:55:02.54	DM->RN	"send image"	22	156	translation-r-direct	None
+163	2018-08-01 14:55:04.43	DM->RN	"then. . ."	22	162	link-next	None
+164	2018-08-01 14:55:05.83	DM->RN	"turn to face North"	22	158*	translation-r-direct	None
+165	2018-08-01 14:55:09.19	DM->CMD	"I turned to face East"	22	155	ack-done	None
+166	2018-08-01 14:55:10.48	RN	"sent"	22	162	ack-done	None
+167	2018-08-01 14:55:14.03	DM->CMD	"sent"	22	166	translation-l	None
+168	2018-08-01 14:55:15.15	RN	"done"	22	164	ack-done	None
+169	2018-08-01 14:55:16.59	DM->CMD	"done"	22	168	translation-l	None
+170	2018-08-01 14:55:19.55	CMD	"take another picture"	23	None	None	None
+171	2018-08-01 14:55:22.12	DM->RN	"send image"	23	170	translation-r-direct	None
+172	2018-08-01 14:55:24.22	RN	"sent"	23	171	ack-done	None
+173	2018-08-01 14:55:25.52	DM->CMD	"sent"	23	172	translation-l	None
+174	2018-08-01 14:55:32.22	CMD	"turn northwest"	24	None	None	None
+175	2018-08-01 14:55:33.41	CMD	"and take a picture"	24	174	continue	None
+176	2018-08-01 14:55:36.62	DM->CMD	"processing. . ."	24	175*	processing	None
+177	2018-08-01 14:55:43.80	DM->RN	"turn left 45 degrees"	24	174	translation-r-situated	None
+178	2018-08-01 14:55:45.39	DM->RN	"then. . ."	24	177	link-next	None
+179	2018-08-01 14:55:46.40	DM->RN	"send image"	24	175	translation-r-direct	None
+180	2018-08-01 14:55:49.86	RN	"done and sent"	24	179*	ack-done	None
+181	2018-08-01 14:55:52.22	DM->CMD	"done, sent"	24	180	translation-l	None
+182	2018-08-01 14:56:15.85	CMD	"turn <pause>"	25	None	None	None
+183	2018-08-01 14:56:18.59	CMD	"no don't turn"	25	182	continue	None
+184	2018-08-01 14:56:26.65	CMD	"move forward until you hit something"	25	183	continue	None
+185	2018-08-01 14:56:30.60	DM->CMD	"ok"	25	184*	ack-wilco	None
+186	2018-08-01 14:56:58.71	DM->RN	"move to newspaper"	25	184	translation-r-landmark	None
+187	2018-08-01 14:57:02.42	CMD	"<no speech>"	None	None	None	None
+188	2018-08-01 14:57:04.28	DM->CMD	"executing. . ."	25	184*	ack-doing	None
+189	2018-08-01 14:57:05.62	RN	"done"	25	186	ack-done	None
+190	2018-08-01 14:57:08.14	DM->CMD	"done"	25	189	translation-l	None
+191	2018-08-01 14:57:11.49	CMD	"turn <pause> south"	26	None	None	None
+192	2018-08-01 14:57:13.23	CMD	"and take a picture"	26	191	continue	None
+193	2018-08-01 14:57:14.92	DM->RN	"turn to face South"	26	191	translation-r-direct	None
+194	2018-08-01 14:57:15.22	CMD	"and then turn west"	26	192	continue	None
+195	2018-08-01 14:57:16.19	DM->RN	"then. . ."	26	193	link-next	None
+196	2018-08-01 14:57:17.15	DM->RN	"send image"	26	192	translation-r-direct	None
+197	2018-08-01 14:57:18.26	DM->RN	"then. . ."	26	196	link-next	None
+198	2018-08-01 14:57:20.26	DM->RN	"turn to face West"	26	194	translation-r-direct	None
+199	2018-08-01 14:57:23.13	DM->CMD	"executing. . ."	26	194*	ack-doing	None
+200	2018-08-01 14:57:24.75	RN	"sent"	26	196	ack-done	None
+201	2018-08-01 14:57:28.86	RN	"done"	26	198	ack-done	None
+202	2018-08-01 14:57:31.46	DM->CMD	"sent"	26	200	translation-l	None
+203	2018-08-01 14:57:32.11	DM->CMD	"done"	26	201	translation-l	None
+204	2018-08-01 14:57:35.58	CMD	"take a picture"	27	None	None	None
+205	2018-08-01 14:57:36.84	CMD	"and then move about five feet forward"	27	204	continue	None
+206	2018-08-01 14:57:41.79	DM->RN	"then. . ."	ERR	None	None	None
+207	2018-08-01 14:57:44.80	DM->RN	"move forward 5 feet"	27	205	translation-r-direct	None
+208	2018-08-01 14:57:50.41	RN	"done"	27	207	ack-done	None
+209	2018-08-01 14:57:50.68	DM->CMD	"moving. . ."	27	205	ack-doing	None
+210	2018-08-01 14:58:08.93	CMD	"take a picture"	28	None	None	None
+211	2018-08-01 14:58:12.69	DM->RN	"send image"	28	210	translation-r-direct	None
+212	2018-08-01 14:58:17.62	RN	"sent"	28	211	ack-done	None
+213	2018-08-01 14:58:18.60	DM->CMD	"sent"	28	212	translation-l	None
+214	2018-08-01 14:58:30.24	CMD	"turn north"	29	None	None	None
+215	2018-08-01 14:58:31.09	CMD	"and take a picture"	29	214	continue	None
+216	2018-08-01 14:58:33.01	DM->RN	"turn to face North"	29	214	translation-r-direct	None
+217	2018-08-01 14:58:35.35	DM->RN	"send image"	29	215	translation-r-direct	None
+218	2018-08-01 14:58:37.63	DM->CMD	"executing. . ."	29	215*	ack-doing	None
+219	2018-08-01 14:58:42.36	RN	"sent"	29	217	ack-done	None
+220	2018-08-01 14:58:45.18	DM->CMD	"sent"	29	219	translation-l	None
+221	2018-08-01 14:58:51.35	CMD	"turn northeast"	30	None	None	None
+222	2018-08-01 14:58:52.62	CMD	"and take a picture"	30	221	continue	None
+223	2018-08-01 14:58:55.19	DM->CMD	"processing. . ."	30	222*	processing	None
+224	2018-08-01 14:59:00.26	DM->RN	"turn right 45 degrees"	30	221	translation-r-situated	None
+225	2018-08-01 14:59:01.80	DM->RN	"then. . ."	30	224	link-next	None
+226	2018-08-01 14:59:03.11	DM->RN	"send image"	30	222	translation-r-direct	None
+227	2018-08-01 14:59:12.90	RN	"done and sent"	30	226*	ack-done	None
+228	2018-08-01 14:59:14.54	DM->CMD	"done, sent"	30	227	translation-l	None
+229	2018-08-01 14:59:26.03	CMD	"okay"	31	None	None	None
+230	2018-08-01 14:59:27.16	CMD	"turn <pause>"	31	229	continue	None
+231	2018-08-01 14:59:28.45	CMD	"sss <disfl> uh southeast <pause>"	31	230	continue	None
+232	2018-08-01 14:59:31.20	CMD	"and move through the doorway there"	31	231	continue	None
+233	2018-08-01 14:59:34.22	DM->CMD	"ok"	31	232*	ack-wilco	None
+234	2018-08-01 14:59:46.26	DM->RN	"move into Stairwell hallway"	31	232*	translation-r-landmark	None
+235	2018-08-01 14:59:56.05	RN	"done"	31	234	ack-done	None
+236	2018-08-01 14:59:57.81	DM->CMD	"done"	31	235	translation-l	None
+237	2018-08-01 14:59:59.51	CMD	"turn to the west"	32	None	None	None
+238	2018-08-01 15:00:01.07	CMD	"and take a picture"	32	237	continue	None
+239	2018-08-01 15:00:03.10	DM->CMD	"processing. . ."	32	238*	processing	None
+240	2018-08-01 15:00:07.26	DM->RN	"turn to face West"	32	237	translation-r-direct	None
+241	2018-08-01 15:00:08.61	DM->RN	"then. . ."	32	240	link-next	None
+242	2018-08-01 15:00:09.74	DM->RN	"send image"	32	238	translation-r-direct	None
+243	2018-08-01 15:00:13.36	RN	"done and sent"	32	242*	ack-done	None
+244	2018-08-01 15:00:14.88	DM->CMD	"done, sent"	32	243	translation-l	None
+245	2018-08-01 15:00:25.23	CMD	"move forward about ten feet"	33	None	None	None
+246	2018-08-01 15:00:30.02	DM->RN	"move forward 10 feet"	33	245	translation-r-direct	None
+247	2018-08-01 15:00:31.02	DM->CMD	"I will move forward 10 feet"	33	245	ack-wilco	None
+248	2018-08-01 15:00:41.21	RN	"done"	33	246	ack-done	None
+249	2018-08-01 15:00:43.25	CMD	"take a picture"	34	None	None	None
+250	2018-08-01 15:00:43.63	DM->CMD	"done"	33	248	translation-l	None
+251	2018-08-01 15:00:45.08	DM->RN	"send image"	34	249	translation-r-direct	None
+252	2018-08-01 15:00:50.68	RN	"sent"	34	251	ack-done	None
+253	2018-08-01 15:00:51.89	DM->CMD	"sent"	34	252	translation-l	None
+254	2018-08-01 15:01:16.49	CMD	"move forward about five feet"	35	None	None	None
+255	2018-08-01 15:01:22.48	DM->RN	"move forward 5 feet"	35	254	translation-r-direct	None
+256	2018-08-01 15:01:23.15	DM->CMD	"I will move forward 5 feet"	35	254	ack-wilco	None
+257	2018-08-01 15:01:33.77	RN	"done"	35	255	ack-done	None
+258	2018-08-01 15:01:35.00	CMD	"turn <pause>  north <pause>"	36	None	None	None
+259	2018-08-01 15:01:35.15	DM->CMD	"done"	35	257	translation-l	None
+260	2018-08-01 15:01:37.88	CMD	"take a picture"	36	258	continue	None
+261	2018-08-01 15:01:39.51	DM->CMD	"ok"	36	260*	ack-wilco	None
+262	2018-08-01 15:01:41.41	DM->RN	"turn to face North"	36	258	translation-r-direct	None
+263	2018-08-01 15:01:42.76	DM->RN	"then. . ."	36	262	link-next	None
+264	2018-08-01 15:01:43.87	DM->RN	"send image"	36	260	translation-r-direct	None
+265	2018-08-01 15:01:50.63	RN	"done and sent"	36	264*	ack-done	None
+266	2018-08-01 15:01:52.09	DM->CMD	"done, sent"	36	265	translation-l	None
+267	2018-08-01 15:02:04.01	CMD	"uh turn northeast"	37	None	None	None
+268	2018-08-01 15:02:05.90	CMD	"then take a picture"	37	267	continue	None
+269	2018-08-01 15:02:06.87	CMD	"and then turn northwest"	37	268	continue	None
+270	2018-08-01 15:02:08.96	DM->CMD	"processing. . ."	37	269*	processing	None
+271	2018-08-01 15:02:18.53	DM->RN	"turn right 45 degrees"	37	267	translation-r-situated	None
+272	2018-08-01 15:02:21.60	DM->RN	"send image"	37	268	translation-r-direct	None
+273	2018-08-01 15:02:22.77	DM->RN	"then. . ."	37	272	link-next	None
+274	2018-08-01 15:02:23.34	RN	"done and sent"	37	272*	ack-done	None
+275	2018-08-01 15:02:25.71	DM->RN	"turn left 90 degrees"	37	269	translation-r-situated	None
+276	2018-08-01 15:02:31.66	RN	"done and sent"	37	275*	ack-done	None
+277	2018-08-01 15:02:35.78	DM->CMD	"done, sent"	37	276	translation-l	None
+278	2018-08-01 15:02:47.62	CMD	"turn southeast <pause>"	38	None	None	None
+279	2018-08-01 15:02:50.61	CMD	"and move through that doorway there"	38	278	continue	None
+280	2018-08-01 15:02:55.78	CMD	"excuse me i meant southwest"	38	278	correction-update	None
+281	2018-08-01 15:02:58.78	DM->CMD	"ok"	38	280*	ack-wilco	None
+282	2018-08-01 15:03:06.13	DM->RN	"turn right 180"	38	280*	translation-r-situated	None
+283	2018-08-01 15:03:08.78	DM->RN	"then. . ."	38	282	link-next	None
+284	2018-08-01 15:03:17.71	DM->RN	"move into Office hallway"	38	279	translation-r-landmark	None
+285	2018-08-01 15:03:27.19	RN	"done"	38	284*	ack-done	None
+286	2018-08-01 15:03:32.09	DM->CMD	"done"	38	285	translation-l	None
+287	2018-08-01 15:03:32.77	CMD	"take a picture"	39	None	None	None
+288	2018-08-01 15:03:36.69	DM->RN	"send image"	39	287	translation-r-direct	None
+289	2018-08-01 15:03:36.85	RN	"sent"	39	288	ack-done	None
+290	2018-08-01 15:03:38.91	DM->CMD	"sent"	39	289	translation-l	None
+291	2018-08-01 15:03:46.09	CMD	"move about a foot forward"	40	None	None	None
+292	2018-08-01 15:03:48.68	CMD	"then turn west"	40	291	continue	None
+293	2018-08-01 15:03:51.66	DM->RN	"move forward 1 foot"	40	291	translation-r-direct	None
+294	2018-08-01 15:03:52.66	DM->RN	"then. . ."	40	293	link-next	None
+295	2018-08-01 15:03:54.38	DM->RN	"turn to face West"	40	292	translation-r-direct	None
+296	2018-08-01 15:03:55.91	DM->CMD	"turning. . ."	40	292	ack-doing	None
+297	2018-08-01 15:04:00.30	RN	"done"	40	295	ack-done	None
+298	2018-08-01 15:04:03.87	DM->CMD	"done"	40	297	translation-l	None
+299	2018-08-01 15:04:04.28	CMD	"take a picture"	41	None	None	None
+300	2018-08-01 15:04:07.01	DM->RN	"send image"	41	299	translation-r-direct	None
+301	2018-08-01 15:04:08.43	RN	"sent"	41	300	ack-done	None
+302	2018-08-01 15:04:09.85	DM->CMD	"sent"	41	301	translation-l	None
+303	2018-08-01 15:04:19.91	CMD	"move forward till you hit something"	42	None	None	None
+304	2018-08-01 15:04:26.89	DM->CMD	"processing. . ."	42	303	processing	None
+305	2018-08-01 15:04:39.38	DM->RN	"move to Cleaning room luggage"	42	303	translation-r-landmark	None
+306	2018-08-01 15:04:48.47	RN	"done"	42	305	ack-done	None
+307	2018-08-01 15:04:51.27	CMD	"now turn south"	43	None	None	None
+308	2018-08-01 15:04:53.00	CMD	"and take a picture"	43	307	continue	None
+309	2018-08-01 15:04:54.22	DM->CMD	"done"	42	306	translation-l	None
+310	2018-08-01 15:04:58.42	DM->RN	"turn to face South"	43	307	translation-r-direct	None
+311	2018-08-01 15:04:59.14	DM->CMD	"I will turn to face South"	43	307	ack-wilco	None
+312	2018-08-01 15:05:00.35	DM->RN	"then. . ."	43	310	link-next	None
+313	2018-08-01 15:05:01.62	DM->RN	"send image"	43	308	translation-r-direct	None
+314	2018-08-01 15:05:02.67	RN	"done and sent"	43	313*	ack-done	None
+315	2018-08-01 15:05:04.91	DM->CMD	"done, sent"	43	314	translation-l	None
+316	2018-08-01 15:05:23.48	CMD	"<okay so how many doorways were there>"	X-CMD	None	None	None
+317	2018-08-01 15:05:26.88	CMD	"i counted seven or eight but i did not get the whole thing"	X-CMD	None	None	None
+318	2018-08-01 15:05:30.81	CMD	"<okay>"	X-CMD	None	None	None
+319	2018-08-01 15:05:33.69	CMD	"i only got one"	X-CMD	None	None	None
+320	2018-08-01 15:05:35.22	CMD	"<okay>"	X-CMD	None	None	None
+321	2018-08-01 15:05:42.32	CMD	"possibly i did see a newspaper and a water bottle on the table or near the table"	X-CMD	None	None	None
+322	2018-08-01 15:05:47.76	CMD	"<okay>"	X-CMD	None	None	None

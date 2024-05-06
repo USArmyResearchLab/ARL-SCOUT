@@ -1,0 +1,14 @@
+p1.05_train_s15
+# ::tok move to the end of the hallway
+# ::snt move to the end of the hallway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (e / end
+			:part-of (h / hallway))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

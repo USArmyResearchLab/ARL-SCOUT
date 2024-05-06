@@ -1,0 +1,189 @@
+id	time	stream	text	context	notes
+1	5.619999999999999	RN	"calibration complete"	None	None
+2	8.48	DM->CMD	"calibration complete"	None	None
+3	84.7	CMD	"<K:and say i am ready>"	None	None
+4	86.86	CMD	"i am ready"	None	None
+5	105.09	DM->CMD	"I'm ready too.  Would you like me to send a picture so you can see the space?"	None	None
+6	108.86	CMD	"yes"	None	None
+7	112.96	DM->RN	"image"	None	None
+i000	114.65	IMAGE	"frame000"	None	None
+8	114.88	RN	"image sent"	None	None
+9	115.35	DM->CMD	"sent"	None	None
+10	125.27	CMD	"move through the doorway"	None	None
+11	154.4	CMD	"take a picture"	None	None
+12	159.67	DM->CMD	"There is a doorway directly in front of me and one to the left of me.  Which should I move through?"	None	None
+13	163.48	CMD	"move through the doorway directly in front of you"	None	None
+14	171.34	DM->RN	"move through the doorway in front of you"	None	None
+15	174.67	DM->RN	"then image"	None	None
+16	176.81	DM->CMD	"executing..."	None	None
+i001	183.42	IMAGE	"frame001"	None	None
+17	183.02	RN	"image sent"	None	None
+18	183.6	DM->CMD	"sent"	None	None
+19	189.22	CMD	"<pause>"	None	None
+20	196.58	CMD	"do a three hundred and sixty degree turn"	None	None
+21	210.26	DM->RN	"rotate 360"	None	None
+22	212.98	DM->CMD	"executing..."	None	None
+23	226.01	CMD	"take a picture"	None	None
+24	232.8	DM->RN	"image"	None	None
+25	238.82	DM->CMD	"done"	None	None
+i002	240.2	IMAGE	"frame002"	None	None
+26	239.82	RN	"image sent"	None	None
+27	240.41	DM->CMD	"sent"	None	None
+28	262.19	CMD	"send a picture"	None	None
+29	270.23	DM->RN	"image"	None	None
+30	273.32	RN	"<unintelligible>"	None	None
+i003	277.51	IMAGE	"frame003"	None	None
+31	277.69	RN	"image sent"	None	None
+32	278.42	DM->CMD	"sent"	None	None
+33	285.78	CMD	"<pause>turn around and face the door that you just came into"	None	None
+34	302.78	CMD	"take a picture"	None	None
+35	306.55	DM->RN	"turn around and move to face the door you just came through"	None	None
+36	308.6	DM->CMD	"executing..."	None	None
+37	312.98	DM->RN	"then image"	None	None
+38	326.39	DM->CMD	"done"	None	None
+i004	327.68	IMAGE	"frame004"	None	None
+39	327.57	RN	"image sent"	None	None
+40	327.58	DM->CMD	"sent"	None	None
+41	332.6	CMD	"move closer to the door towards the fire extinguisher"	None	None
+42	358.45	CMD	"take a picture"	None	None
+43	363.68	DM->CMD	"About how much closer should I get?"	None	None
+44	378.37	CMD	"about three feet"	None	None
+45	394.62	DM->RN	"Move three feet closer to the fire extinguisher"	None	None
+46	397.34	DM->RN	"then image"	None	None
+47	399.63	DM->CMD	"executing..."	None	None
+48	404.45	RN	"done"	None	None
+49	405.26	DM->CMD	"done"	None	None
+50	406.78	DM->CMD	"sent"	None	None
+i005	406.55	IMAGE	"frame005"	None	None
+51	407.04	RN	"image sent"	None	None
+52	416.26	CMD	"<pause> move closer to the fire extinguisher"	None	None
+53	428.68	DM->CMD	"Three feet closer?"	None	None
+54	430.31	CMD	"take a picture <pause>"	None	None
+55	432.15	CMD	"yes"	None	None
+56	448.5	DM->RN	"repeat last command, move three feet closer to fire extinguisher, image"	None	None
+57	452.24	DM->CMD	"executing..."	None	None
+i006	458.75	IMAGE	"frame006"	None	None
+58	458.99	RN	"image sent"	None	None
+59	460.1	DM->CMD	"sent"	None	None
+60	472.13	CMD	"turn around"	None	None
+61	474.76	CMD	"and go back out of the door that you came into"	None	None
+62	489.92	DM->RN	"turn around and go back through the door you just came through"	None	None
+63	492.19	DM->CMD	"executing..."	None	None
+64	501.76	RN	"done"	None	None
+65	501.81	DM->CMD	"done"	None	None
+66	502.22	CMD	"take a picture"	None	None
+67	509.01	DM->RN	"image"	None	None
+i007	515.22	IMAGE	"frame007"	None	None
+68	515.0500000000001	RN	"done image sent"	None	None
+69	515.59	DM->CMD	"sent"	None	None
+70	521.51	CMD	"<pause>"	None	None
+71	528.5899999999999	CMD	"go back out of the door that you came into"	None	None
+72	548.77	DM->RN	"move back through the door you just came through"	None	None
+73	551.35	DM->CMD	"executing..."	None	None
+74	557.64	CMD	"take a picture"	None	None
+75	558.4100000000001	RN	"<no speech>"	None	None
+76	559.11	DM->CMD	"done"	None	None
+77	564.31	DM->RN	"image"	None	None
+i008	566.09	IMAGE	"frame008"	None	None
+78	566.0100000000001	RN	"image sent"	None	None
+79	566.67	DM->CMD	"sent"	None	None
+80	578.14	CMD	"<pause>"	None	None
+81	581.16	CMD	"turn to your right"	None	None
+82	582.8599999999999	CMD	"and go down the hallway"	None	None
+83	615.11	DM->CMD	"I'm not sure what hallway you are referring to.  I can turn to my right and go through the door to my right, ok?"	None	None
+84	622.2199999999999	CMD	"go through the doorway to your right"	None	None
+85	638.78	DM->RN	"move through the doorway to your right"	None	None
+86	645.05	CMD	"take a picture"	None	None
+87	645.4	DM->CMD	"executing..."	None	None
+88	647.86	RN	"done"	None	None
+89	648.04	DM->CMD	"done"	None	None
+90	652.1	DM->RN	"image"	None	None
+i009	652.69	IMAGE	"frame009"	None	None
+91	652.84	RN	"image sent"	None	None
+92	653.37	DM->CMD	"sent"	None	None
+93	655.28	CMD	"continue to move down the hallway"	None	None
+94	684	DM->CMD	"How far should I continue down the hallway? Would you like me to reach something that you see or go a certain distance?"	None	None
+95	695.55	CMD	"go down the end of the hallway where it appears to be a clock on the wall"	None	None
+96	721.14	DM->RN	"Move to the end of the hallway where you are facing the clock on the wall."	None	None
+97	723.46	DM->CMD	"executing..."	None	None
+98	733.8599999999999	CMD	"take a picture"	None	None
+99	737.21	RN	"done"	None	None
+100	737.52	DM->CMD	"done"	None	None
+101	741.12	DM->RN	"image"	None	None
+i010	741.95	IMAGE	"frame010"	None	None
+102	742.21	RN	"image sent"	None	None
+103	742.43	DM->CMD	"sent"	None	None
+104	768.9699999999999	CMD	"turn back around"	None	None
+105	773.17	CMD	"and go <pause> towards the dis uh my sign is saying"	None	None
+106	778.77	CMD	"turn back around and <pause>"	None	None
+107	782.17	CMD	"go back down the end of the hallway"	None	None
+108	792.9	DM->RN	"turn around, return to the end of the hallway"	None	None
+109	795.18	DM->CMD	"executing..."	None	None
+110	807.93	CMD	"make a right"	None	None
+111	810.2099999999999	CMD	"and keep straight"	None	None
+112	811.31	RN	"done"	None	None
+113	811.56	DM->CMD	"done"	None	None
+114	831.26	DM->CMD	"How far should I turn right?"	None	None
+115	833.66	CMD	"change of command"	None	None
+116	835.92	CMD	"turn back around"	None	None
+117	837.1199999999999	CMD	"and go <laughter><pause>back down the end of the hallway"	None	None
+118	847.2099999999999	CMD	"<no command>"	None	None
+119	848.63	DM->RN	"return to the other end of the hallway"	None	None
+120	851.78	DM->CMD	"executing..."	None	None
+121	855.31	CMD	"make a right"	None	None
+122	867.1600000000001	RN	"<no speech>"	None	None
+123	867.89	CMD	"turn back around"	None	None
+124	869.53	DM->CMD	"done"	None	None
+125	870.75	CMD	"and make a <pause> go in the first left the first doorway to your left"	None	None
+126	893.58	DM->RN	"rotate 180, go through first doorway on left"	None	None
+127	895.07	DM->CMD	"executing..."	None	None
+128	912.2199999999999	CMD	"take a picture"	None	None
+129	915.46	DM->CMD	"done"	None	None
+130	915.5400000000001	RN	"done"	None	None
+131	919.15	DM->RN	"image"	None	None
+i011	920.53	IMAGE	"frame011"	None	None
+132	920.5300000000001	RN	"image sent"	None	None
+133	920.69	DM->CMD	"sent"	None	None
+134	926.32	CMD	"go further inside the doorway to your left"	None	None
+135	950.63	DM->CMD	"About how far should I go to the left? Three feet?"	None	None
+136	951.64	CMD	"about <pause> four feet"	None	None
+137	977.45	DM->RN	"Move into the room and to the left four feet"	None	None
+138	988.17	CMD	"about four feet to your left"	None	None
+139	999.7	CMD	"make a right <pause> well about three feet"	None	None
+140	999.9000000000001	RN	"done"	None	None
+141	1001.18	DM->CMD	"done"	None	None
+142	1006.32	CMD	"and a quick left"	None	None
+143	1019.78	DM->CMD	"How far should I turn to the right?"	None	None
+144	1031.17	CMD	"three feet"	None	None
+145	1072.22	CMD	"go through the doorway that's inside of the room"	None	None
+146	1078.82	DM->CMD	"I'm not sure how to turn to the right three feet.  You can tell me to rotate to face something, or a number of degrees, or to a certain direction."	None	None
+147	1093.43	DM->CMD	"The doorway to my right?"	None	None
+148	1093.87	CMD	"yes"	None	None
+149	1104.69	DM->RN	"Move through the doorway to the right."	None	None
+150	1123.58	CMD	"the doorway to your right"	None	None
+151	1131.85	CMD	"take a picture"	None	None
+152	1135.81	DM->CMD	"executing..."	None	None
+153	1135.82	RN	"done"	None	None
+154	1137.41	DM->CMD	"done"	None	None
+155	1141.62	DM->RN	"image"	None	None
+i012	1143.88	IMAGE	"frame012"	None	None
+156	1144.33	RN	"image sent"	None	None
+157	1144.48	DM->CMD	"sent"	None	None
+158	1149.85	CMD	"go back out of the doorway you entered into"	None	None
+159	1154.77	CMD	"and go back down the hallway to the left"	None	None
+160	1198.32	DM->CMD	"About how far down the hallway should I go?"	None	None
+161	1199.94	CMD	"<pause>"	None	None
+162	1205.72	CMD	"all the way to the end of the hallway "	None	None
+163	1217.42	DM->CMD	"To the end of the hallway?"	None	None
+164	1218.18	CMD	"and make a right"	None	None
+165	1250.02	CMD	"yes"	None	None
+166	1259.91	DM->CMD	"How far should I turn right once I get to the end of the hallway?"	None	None
+167	1280.41	DM->RN	"go back through the doorway you entered the last room from, return to the hallway, go down the hallway to the end"	None	None
+168	1283.69	CMD	"<no command>"	None	None
+169	1287.67	CMD	"move to the end of the hallway"	None	None
+170	1289.64	RN	"the end of the hallway"	None	None
+171	1307.09	DM->RN	"go down to the left end of hallway"	None	None
+172	1310.69	DM->CMD	"executing..."	None	None
+173	1327.21	RN	"done"	None	None
+174	1331.98	CMD	"the number of doorways were five"	None	None
+175	1334.12	DM->CMD	"done"	None	None

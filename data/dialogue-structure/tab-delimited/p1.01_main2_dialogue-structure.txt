@@ -1,0 +1,161 @@
+id	time	stream	text	tu	rel	ant	context
+2	8.620000000000001	RN	"done"	ERR	None	None	None
+3	21.54	DM->RN	"move to center of room, photo at n, s, e, w positions"	1	1	translation-r-direct	None
+4	26.38	DM->CMD	"executing..."	1	1	ack-doing	None
+5	62.87	RN	"got it"	1	3	ack-done	None
+6	63.72	DM->CMD	"done"	1	5	translation-l	None
+7	69.58	CMD	"face the door on your right"	2	None	None	None
+8	71.63	CMD	"and take a picture"	2	7	continue	None
+9	91.91	DM->CMD	"There's a door ahead of me on the right and one just behind me on the right.  Which would you like me to face?"	2	8*	req-clar	None
+10	95.86	CMD	"the door ahead of you on the right"	2	9	clar-repair	None
+11A	110.32	DM->RN	"move to face the door ahead of you on the right, "	2	10*	translation-r-contextual	None
+11B	None	DM->RN	"image"	2	8	translation-r-direct	None
+12	113.82	DM->CMD	"executing..."	2	10*	ack-doing	None
+13	122.34	RN	"image sent"	2	11B*	ack-done	None
+14	124.55	DM->CMD	"sent"	2	13	translation-l	None
+15	185.01	CMD	"go through the hallway in front of you"	3	None	None	None
+16	186.98	CMD	"face west"	3	15	continue	None
+17	187.98	CMD	"and take a picture"	3	16	continue	None
+18A	200.73	DM->RN	"move into hallway in front of you, "	3	15	translation-r-direct	None
+18B	None	DM->RN	"face west, "	3	16	translation-r-direct	None
+18C	None	DM->RN	"image"	3	17	translation-r-direct	None
+19	205.24	DM->CMD	"executing..."	3	17*	ack-doing	None
+20	218	CMD	"<no command>"	None	None	None	None
+21	222.95	CMD	"face north"	4	None	None	None
+22	223.93	CMD	"and take a picture"	4	21	continue	None
+23	227.05	RN	"image sent"	3	18C*	ack-done	None
+24	228.28	DM->CMD	"sent"	3	23	translation-l	None
+25A	232.96	DM->RN	"face north, "	4	21	translation-r-direct	None
+25B	None	DM->RN	"image"	4	22	translation-r-direct	None
+26	236.65	DM->CMD	"executing..."	4	22*	ack-doing	None
+27	245.73	RN	"image sent"	4	25B*	ack-done	None
+28	246.74	DM->CMD	"sent"	4	27	translation-l	None
+29	262.4	CMD	"go into the center of the first room on your left"	5	None	None	None
+30	266.16	CMD	"and then take a picture at the <pause>west north east and south position"	5	29	continue	None
+31	305.34	DM->CMD	"Can you repeat the positions you'd like photos from?"	5	30	req-clar	None
+32	305.35	CMD	"west north <cough> north east and south"	5	31	clar-repair	None
+33A	310.59	DM->RN	"move into room ahead on left, "	5	29	translation-r-direct-partial	None
+33B	None	DM->RN	"move to center"	5	33A	continue	None
+34	319.79	DM->RN	"take pictures from west, north, east, south positions"	5	32*	translation-r-direct	None
+35	323.67	DM->CMD	"executing..."	5	32*	ack-doing	None
+36	360.12	RN	"done"	5	34*	ack-done	None
+37	360.76	DM->CMD	"done"	5	36	translation-l	None
+38	375.85	CMD	"go into the room behind you"	6	None	None	None
+39	379.42	CMD	"and re repeat"	6	38	continue	None
+40A	395.65	DM->RN	"move into the room behind you, "	6	38	translation-r-direct	None
+40B	None	DM->RN	"repeat photos on w, n, e, s"	6	39	translation-r-history	None
+41	401.02	DM->CMD	"executing..."	6	39*	ack-doing	None
+42	449.35	RN	"done"	6	40B*	ack-done	None
+43	450.13	DM->CMD	"done"	6	42	translation-l	None
+44	454.64	CMD	"go out into the center of the hallway on your left"	7	None	None	None
+45	469.48	DM->RN	"move to the center of the hallway on your left"	7	44	translation-r-direct	None
+46	474	DM->CMD	"executing..."	7	44	ack-doing	None
+47	488.45	RN	"done"	7	45	ack-done	None
+48	491.06	CMD	"go into the center of the room that you just passed on your left"	8	None	None	None
+49	491.11	DM->CMD	"done"	7	47	translation-l	None
+50A	513.02	DM->RN	"move back to face the doorway on the left behind you, "	8	48	translation-r-direct-partial	None
+50B	None	DM->RN	"move into the center of that room"	8	50A	continue	None
+51	516.72	DM->CMD	"executing..."	8	48	ack-doing	None
+52	541.86	CMD	"take a picture uh at the north east west and south positions"	9	None	None	None
+53	544.61	RN	"done"	8	50B*	ack-done	None
+54	545.09	DM->CMD	"done"	8	53	translation-l	None
+55	555.1	DM->RN	"photos at n, e, s, w positions"	9	52	translation-r-direct	None
+56	559.31	DM->CMD	"executing..."	9	52	ack-doing	None
+57	590.98	CMD	"go back out into the hallway"	10	None	None	None
+58	592.44	RN	"done"	9	55	ack-done	None
+59	593.0600000000001	CMD	"face the door we just left"	10	57	continue	None
+60	593.86	DM->CMD	"done"	9	58	translation-l	None
+61	594.8000000000001	CMD	"and then take a picture"	10	59	continue	None
+62A	613.16	DM->RN	"move back out into the hall, "	10	57	translation-r-direct	None
+62B	None	DM->RN	"turn around to face the doorway of the room you just left,"	10	59	translation-r-contextual	None
+62C	None	DM->RN	"image"	10	61	translation-r-direct	None
+63	616.89	DM->CMD	"executing..."	10	61*	ack-doing	None
+64	638.17	RN	"done"	10	62C*	ack-done	None
+65	640.01	DM->CMD	"sent"	10	64	translation-l	None
+66	641.76	CMD	"go back into the room"	11	None	None	None
+67	643.37	CMD	"and face the doorway at the other end of the room <pause>"	11	66	continue	None
+68	647.3000000000001	CMD	"and then take a picture"	11	67	continue	None
+69A	665.54	DM->RN	"move back into the room, "	11	66	translation-r-direct	None
+69B	None	DM->RN	"move to face the doorway on the right side of the room, "	11	67	translation-r-contextual	None
+69C	None	DM->RN	"photo"	11	68	translation-r-direct	None
+70	668.96	DM->CMD	"executing..."	11	68*	ack-doing	None
+71	684.06	RN	"image sent"	11	69C*	ack-done	None
+72	684.6	DM->CMD	"sent"	11	71	translation-l	None
+73	685.82	CMD	"go into the center of the room that you're facing"	12	None	None	None
+74	688.07	CMD	"and take a picture at the south west north and east positions"	12	73	continue	None
+75A	706.03	DM->RN	"move into center of room you're facing,"	12	73	translation-r-direct	None
+75B	None	DM->RN	" s, w, n e positions"	12	74	translation-r-direct	None
+76	710.98	DM->CMD	"executing..."	12	74*	ack-doing	None
+77	749.42	RN	"done"	12	75B*	ack-done	None
+78	750.33	DM->CMD	"done"	12	77	translation-l	None
+79	751.17	CMD	"go back out into the hallway through the door on your right"	13	None	None	None
+80	754.25	CMD	"face that door"	13	79	continue	None
+81	755.38	CMD	"and then take a picture"	13	80	continue	None
+82A	772.5	DM->RN	"move back out into hallway through door on right, "	13	79	translation-r-direct	None
+82B	None	DM->RN	"turn around to face that door, "	13	80	translation-r-contextual	None
+82C	None	DM->RN	"image"	13	81	translation-r-direct	None
+83	776.61	DM->CMD	"executing..."	13	81*	ack-doing	None
+84	792.31	RN	"image sent"	13	82C*	ack-done	None
+85	793.2	DM->CMD	"sent"	13	84	translation-l	None
+86	798.21	CMD	"face east"	14	None	None	None
+87	801.53	CMD	"and take a picture"	14	86	continue	None
+88A	810.08	DM->RN	"face east, "	14	86	translation-r-direct	None
+88B	None	DM->RN	"photo"	14	87	translation-r-direct	None
+89	813.71	DM->CMD	"executing..."	14	87*	ack-doing	None
+90	820.93	RN	"done"	14	88B*	ack-done	None
+91	821.96	CMD	"go into the center of the room in front of you"	15	None	None	None
+92	824.35	CMD	"and then take a picture at the east south west and north positions"	15	91	continue	None
+93	824.86	DM->CMD	"sent"	14	90	translation-l	None
+94A	848.22	DM->RN	"move into center of room ahead,"	15	91	translation-r-direct	None
+94B	None	DM->RN	"photos at e,s, w, n"	15	92	translation-r-direct	None
+95	853.26	DM->CMD	"executing..."	15	92*	ack-doing	None
+96	889.48	RN	"done"	15	94B*	ack-done	None
+97	890.32	DM->CMD	"done"	15	96	translation-l	None
+98	899.85	CMD	"go into the hallway behind you"	16	None	None	None
+99	910.75	RN	"<no speech>"	None	None	None	None
+100A	932.65	DM->RN	"turn around, "	16	98	translation-r-contextual-partial	None
+100B	None	DM->RN	"move into the hallway behind you."	16	100A	continue	None
+101	936.36	DM->CMD	"executing..."	16	98	ack-doing	None
+102	945.24	CMD	"take a picture"	17	None	None	None
+103	949.09	RN	"done"	16	100B*	ack-done	None
+104	950.14	DM->CMD	"done"	16	103	translation-l	None
+105	954.2	DM->RN	"image"	17	102	translation-r-direct	None
+106	964.83	RN	"image sent"	17	105	ack-done	None
+107	964.84	DM->CMD	"sent"	17	106	translation-l	None
+108	986.24	CMD	"face the doorway on your right in front of you"	18	None	None	None
+109	989.8	CMD	"and take a picture"	18	108	continue	None
+110	1028.42	DM->CMD	"I see a doorway ahead of me on the right and a doorway"	18	108	req-clar	None
+111	1035.89	CMD	"the one closest to you"	18	110	clar-repair	None
+112A	1064.7	DM->RN	"move to face the hallway opening to the right,"	18	111*	translation-r-contextual	None
+112B	None	DM->RN	"image"	18	109	translation-r-direct	None
+113	1068.48	DM->CMD	"executing..."	18	111*	ack-doing	None
+114	1081.94	RN	"done"	18	112B*	ack-done	None
+115	1083.78	DM->CMD	"sent"	18	114	translation-l	None
+116	1114.95	CMD	"turn around"	19	None	None	None
+117	1114.95	CMD	"and take a picture"	19	116	continue	None
+118A	1128.49	DM->RN	"rotate 180,"	19	116	translation-r-direct	None
+118B	None	DM->RN	"image"	19	117	translation-r-direct	None
+119	1132.1	DM->CMD	"executing..."	19	117*	ack-doing	None
+120	1139.8	RN	"image sent"	19	118B*	ack-done	None
+121	1140.82	DM->CMD	"sent"	19	120	translation-l	None
+122	1148.67	CMD	"go into the room in front of you"	20	None	None	None
+123	1151.37	CMD	"<pause> and face south"	20	122	continue	None
+124A	1164.82	DM->RN	"move into room in front of you,"	20	122	translation-r-direct	None
+124B	None	DM->RN	"face south"	20	123	translation-r-direct	None
+125	1168.56	DM->CMD	"executing..."	20	123*	ack-doing	None
+126	1174.92	CMD	"take a picture"	21	None	None	None
+127	1180.78	RN	"<no speech>"	None	None	None	None
+128	1180.43	DM->CMD	"done"	20	126	ack-done	map
+129	1183.11	DM->RN	"image"	21	126	translation-r-direct	None
+130	1185.03	CMD	"face the doorway in front of you and to your right"	22	None	None	None
+131	1186.84	RN	"image sent"	21	129	ack-done	None
+132	1187.04	CMD	"and then take a picture"	22	130	continue	None
+133	1187.62	DM->CMD	"sent"	21	131	translation-l	None
+134A	1201.05	DM->RN	"move to face the doorway in front of you and to the right,"	22	130	translation-r-contextual	None
+134B	None	DM->RN	"image"	22	132	translation-r-direct	None
+135	1204.24	DM->CMD	"executing..."	22	132*	ack-doing	None
+136	1215.98	RN	"image sent"	22	134B*	ack-done	None
+137	1217.45	DM->CMD	"sent"	22	136	translation-l	None
+138	1255.95	CMD	"so i identified sixteeen doorways"	X-CMD	None	None	None
+139	1258.69	CMD	"i found three shoes"	X-CMD	None	None	None
+140	1261.71	CMD	"and there seems to be occupation in the environment because i saw a box of cereal"	X-CMD	None	None	None

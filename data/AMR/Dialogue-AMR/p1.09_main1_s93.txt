@@ -1,0 +1,18 @@
+p1.09_main1_s93
+# ::tok please and thank you
+# ::snt please and thank you
+(a / and
+	:op1 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (d / do-02
+			:ARG0 (r / robot-dm)
+			:completable -
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r)
+	:op2 (t / thank-SA
+		:ARG0 c2
+		:ARG2 r
+		:ongoing +
+		:time (n2 / now)))
+

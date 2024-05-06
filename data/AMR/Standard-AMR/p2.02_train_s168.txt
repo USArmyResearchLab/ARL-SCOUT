@@ -1,0 +1,13 @@
+p2.02_train_s168
+# ::tok turn left 10 degrees
+# ::snt turn left 10 degrees
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (l / left-20
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 10
+		:unit (d / degree))
+	:mode imperative)
+

@@ -1,0 +1,101 @@
+id	time	stream	text	context	notes
+1	6.02	RN	"calibration complete"	None	None
+2	15.9	DM->CMD	"calibration complete"	None	None
+3	18.14	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	None	None
+4	36.9	CMD	"<k: now you can begin>"	None	None
+5	38.32	CMD	"i am ready"	None	None
+6	65.63	DM->CMD	"I'm ready too.  "	None	None
+7	65.63	DM->CMD	"Would you like me to send you a picture so you can see the space?"	None	None
+8	66.54	CMD	"yes"	None	None
+9	78.6	DM->RN	"image"	None	None
+i000	80.57	IMAGE	"frame000"	None	None
+10	79.29	RN	"image sent"	None	None
+11	82.31	DM->CMD	"sent"	None	None
+12	123.21	CMD	"<pause> trying to find out the number of doorways"	None	None
+13	179.82	DM->CMD	"I think that you are more familiar with doorways than I am, but you can tell me to move to any object or part of the building you can see."	None	None
+14	186.74	CMD	"move to the end of the hallway"	None	None
+15	205.18	DM->RN	"move to the end of the hallway"	None	None
+16	209.16	DM->CMD	"executing..."	None	None
+17	223.67	RN	"done"	None	None
+18	226.87	DM->CMD	"done"	None	None
+19	229.02	CMD	"take another picture"	None	None
+20	242.12	DM->RN	"image"	None	None
+i001	243.58	IMAGE	"frame001"	None	None
+21	242.13	RN	"image sent"	None	None
+22	245.21	DM->CMD	"sent"	None	None
+23	259.52	CMD	"turn around"	None	None
+24	259.52	CMD	"and go back the opposite direction"	None	None
+25	306.89	DM->CMD	"I can turn around and then how far should I go back the opposite direction?  You can tell me to move to any object or part of the building you can see, or a distance to move."	None	None
+26	320.86	CMD	"move to the middle of the building"	None	None
+27	330.74	DM->RN	"rotate 180"	None	None
+28	345.92	RN	"done"	None	None
+29	352.29	DM->CMD	"The middle of the building is outside of my operational zone.  I can move to the middle of this alley, ok?"	None	None
+30	354.28	CMD	"yes"	None	None
+31	369.76	DM->RN	"move to the middle of the alley"	None	None
+32	372.97	DM->CMD	"executing..."	None	None
+33	380.9	CMD	"stop there"	None	None
+34	386.44	CMD	"take another picture"	None	None
+35	390.94	RN	"done"	None	None
+36	396.97	DM->CMD	"done"	None	None
+37	400.18	DM->RN	"image"	None	None
+i002	402.78	IMAGE	"frame002"	None	None
+38	401.54	RN	"image sent"	None	None
+39	404	DM->CMD	"sent"	None	None
+40	411.78	CMD	"move to where you see the first cone"	None	None
+41	466.95	DM->CMD	"I'm not sure which object you are referring to.  Can you describe it in another way, using color or its location?"	None	None
+42	473.33	CMD	"<pause> move to the cone on the right a red cone on the right"	None	None
+43	500.29	DM->RN	"move to face the cone on the right"	None	None
+44	504.57	DM->CMD	"executing..."	None	None
+45	509.74	CMD	"take another picture"	None	None
+46	513.78	RN	"done"	None	None
+47	516.28	DM->CMD	"done"	None	None
+48	522.4	DM->RN	"image"	None	None
+i003	527.53	IMAGE	"frame003"	None	None
+49	525.94	RN	"image sent"	None	None
+50	529.32	DM->CMD	"sent"	None	None
+51	582.37	CMD	"<someone else talking, unintelligible>"	None	None
+52	617.33	CMD	"<pause, no command given entire press>"	None	None
+53	634.8	CMD	"turn to the left"	None	None
+54	638.23	CMD	"and go back down the hallway"	None	None
+55	683.3	DM->CMD	"How far should I turn to the left? You can tell me to turn to face something, or a number of degrees or towards a particular direction."	None	None
+56	726.5	CMD	"can you go back in this direction where you came from"	None	None
+57	750.13	DM->CMD	"Would you like me to return to my starting position?"	None	None
+58	750.15	CMD	"return to your starting position"	None	None
+59	764.51	DM->RN	"return to start position"	None	None
+60	768.23	DM->CMD	"executing..."	None	None
+61	768.51	CMD	"take another photo"	None	None
+62	779.04	RN	"done"	None	None
+63	781.58	DM->RN	"image"	None	None
+64	783.96	DM->CMD	"done"	None	None
+i004	788.1	IMAGE	"frame004"	None	None
+65	787.04	RN	"image sent"	None	None
+66	789.52	DM->CMD	"sent"	None	None
+67	814.41	CMD	"move to the second doorway on the left"	None	None
+68	831.72	DM->RN	"move to the second doorway on the left"	None	None
+69	835.33	DM->CMD	"executing..."	None	None
+70	839.15	CMD	"take another picture"	None	None
+71	846.23	RN	"done"	None	None
+72	848.83	DM->CMD	"done"	None	None
+73	852.14	DM->RN	"image"	None	None
+i005	854.5	IMAGE	"frame005"	None	None
+74	853.29	RN	"image sent"	None	None
+75	855.73	DM->CMD	"sent"	None	None
+76	862.16	CMD	"<no command>"	None	None
+77	874.39	CMD	"<pause> turn to your right"	None	None
+78	911.64	DM->CMD	"How far should I turn to the right? Would you like me to face something?"	None	None
+79	911.9	CMD	"face the end of the hallway"	None	None
+80	927.88	DM->RN	"turn to face the end of the hallway"	None	None
+81	930.61	RN	"um which way the end to my right"	None	None
+82	932.33	DM->CMD	"executing..."	None	None
+83	939.22	CMD	"take another picture"	None	None
+84	940.59	DM->RN	"turn right until facing the end of the hallway"	None	None
+85	947.07	RN	"done"	None	None
+86	949.9	DM->CMD	"done"	None	None
+87	952.74	DM->RN	"image"	None	None
+i006	954.89	IMAGE	"frame006"	None	None
+88	953.57	RN	"image sent"	None	None
+89	956.12	DM->CMD	"sent"	None	None
+90	1059.69	CMD	"<k:so how many doorways were there>"	None	None
+91	1062.72	CMD	"two just said there were two doorways"	None	None
+92	1069.09	CMD	"<k:okay>"	None	None
+93	1071.1	CMD	"there were three cones"	None	None

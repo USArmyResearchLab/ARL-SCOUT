@@ -1,0 +1,17 @@
+p2.03_main2_s13
+# ::tok I do n't know what all the objects are around me . < beep >
+# ::snt I don't know what all the objects are around me. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (f / familiarize-01
+		:ARG1 r
+		:ARG2 (o / object
+			:domain (t / thing)
+			:location (a2 / around
+				:op1 r)
+			:mod (a3 / all))
+		:polarity -
+		:stable +
+		:time (n / now))
+	:ARG2 (c / commander))
+

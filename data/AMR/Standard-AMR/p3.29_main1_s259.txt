@@ -1,0 +1,13 @@
+p3.29_main1_s259
+# ::tok move forty five degrees to the right
+# ::snt move forty five degrees to the right
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (r / right-04
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 45
+		:unit (d / degree))
+	:mode imperative)
+

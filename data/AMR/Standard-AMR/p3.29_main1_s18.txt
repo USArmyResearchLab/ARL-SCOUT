@@ -1,0 +1,12 @@
+p3.29_main1_s18
+# ::tok go forty five degrees to the left
+# ::snt go forty five degrees to the left
+(g / go-02
+	:ARG0 (y / you)
+	:direction (l / left-20
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 45
+		:unit (d / degree))
+	:mode imperative)
+

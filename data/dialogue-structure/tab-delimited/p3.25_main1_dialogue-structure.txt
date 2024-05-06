@@ -1,0 +1,330 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-09-24 10:57:19.29	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+2	2018-09-24 10:57:21.55	DM->RN	"calibrate"	1	0	translation-r-direct	None
+3	2018-09-24 10:57:41.08	CMD	"xxx okay"	X-CMD	None	None	None
+4	2018-09-24 10:57:42.80	CMD	"<no speech>"	X-CMD	None	None	None
+5	2018-09-24 10:57:50.37	CMD	"<X: audio sync in three two one>"	X-CMD	None	None	None
+6	2018-09-24 10:57:50.45	RN	"<X: audio sync in three two one>"	X-CMD	None	None	None
+7	2018-09-24 10:57:54.40	RN	"<loud noise>"	X-CMD	None	None	None
+8	2018-09-24 10:57:54.40	CMD	"<loud noise>"	X-CMD	None	None	None
+9	2018-09-24 10:57:56.94	CMD	"<X: okay xxx>"	X-CMD	None	None	None
+10	2018-09-24 10:58:02.71	DM->CMD	"calibration complete"	1	0	ack-done	None
+11	2018-09-24 10:58:07.11	CMD	"i'm ready"	2	None	None	None
+12	2018-09-24 10:58:12.00	DM->CMD	"I'm also ready.  <beep>"	2	11	reciprocal	None
+13	2018-09-24 10:58:22.49	CMD	"uh robot turn left ninety degree"	3	None	None	None
+14	2018-09-24 10:58:29.86	DM->CMD	"ok"	3	13	ack-wilco	None
+15	2018-09-24 10:58:32.95	DM->RN	"turn left 90 degrees"	3	13	translation-r-direct	None
+16	2018-09-24 10:58:35.72	DM->CMD	"turning. . ."	3	13	ack-doing	None
+17	2018-09-24 10:58:42.04	RN	"done"	3	15	ack-done	None
+18	2018-09-24 10:58:44.34	DM->CMD	"done"	3	17	translation-l	None
+19	2018-09-24 10:58:44.81	CMD	"go straight uh fifteen inches"	4	None	None	None
+20	2018-09-24 10:58:50.46	DM->CMD	"processing. . ."	4	20	processing	None
+21	2018-09-24 10:58:57.88	DM->RN	"move forward 15 inches"	4	20	translation-r-direct	None
+22	2018-09-24 10:59:01.94	DM->CMD	"moving. . ."	4	20	ack-doing	None
+23	2018-09-24 10:59:09.54	RN	"done"	4	21	ack-done	None
+24	2018-09-24 10:59:11.67	DM->CMD	"done"	4	23	translation-l	None
+25	2018-09-24 10:59:16.04	CMD	"five more inches"	5	None	None	None
+26	2018-09-24 10:59:22.22	DM->CMD	"processing. . ."	5	25	processing	None
+27	2018-09-24 10:59:29.04	DM->RN	"move forward 5 inches"	5	25	translation-r-history	TU: 4
+28	2018-09-24 10:59:33.21	DM->CMD	"moving. . ."	5	25	ack-doing	None
+29	2018-09-24 10:59:35.30	RN	"done"	5	27	ack-done	None
+30	2018-09-24 10:59:36.86	DM->CMD	"done"	5	29	translation-l	None
+31	2018-09-24 10:59:52.54	CMD	"can you take a pictures"	6	None	None	None
+32	2018-09-24 10:59:56.96	DM->RN	"send image"	6	31	translation-r-direct	None
+33	2018-09-24 10:59:57.71	RN	"sent"	6	32	ack-done	None
+34	2018-09-24 11:00:00.83	DM->CMD	"sent"	6	33	translation-l	None
+35	2018-09-24 11:00:05.30	CMD	"is this doorway"	7	None	None	None
+36	2018-09-24 11:00:10.97	DM->CMD	"processing. . ."	7	35	processing	None
+37	2018-09-24 11:00:18.95	CMD	"no h"	7	35	continue	None
+38	2018-09-24 11:00:19.01	DM->CMD	"no"	7	35	answer	None
+39	2018-09-24 11:00:20.63	DM->CMD	"I'm facing a wall now.  <beep>"	7	38	continue	None
+40	2018-09-24 11:00:25.59	CMD	"kay"	7	39	3feedback	None
+41	2018-09-24 11:00:37.10	CMD	"uh turn right ninety degrees"	8	None	None	None
+42	2018-09-24 11:00:43.44	DM->CMD	"ok"	8	41	ack-wilco	None
+43	2018-09-24 11:00:43.79	CMD	"<no speech>"	None	None	None	None
+44	2018-09-24 11:00:45.87	DM->RN	"turn right 90 degrees"	8	41	translation-r-direct	None
+45	2018-09-24 11:00:47.46	DM->CMD	"I will turn right 90 degrees"	8	41	ack-wilco	None
+46	2018-09-24 11:00:59.55	RN	"done"	8	44	ack-done	None
+47	2018-09-24 11:01:01.12	DM->CMD	"done"	8	46	translation-l	None
+48	2018-09-24 11:01:02.63	CMD	"uh moving forward uh five inches"	9	None	None	None
+49	2018-09-24 11:01:11.14	DM->CMD	"processing. . ."	9	48	processing	None
+50	2018-09-24 11:01:17.84	DM->RN	"move forward 5 inches"	9	38	translation-r-direct	None
+51	2018-09-24 11:01:21.36	RN	"done"	9	50	ack-done	None
+52	2018-09-24 11:01:22.60	CMD	"five more inches"	10	None	None	None
+53	2018-09-24 11:01:23.96	DM->CMD	"done"	9	51	translation-l	None
+54	2018-09-24 11:01:27.73	DM->CMD	"ok"	10	52	ack-wilco	None
+55	2018-09-24 11:01:32.77	DM->RN	"move forward 5 inches"	10	52	translation-r-history	TU: 9
+56	2018-09-24 11:01:34.84	DM->CMD	"moving. . ."	10	52	ack-doing	None
+57	2018-09-24 11:01:35.06	RN	"done"	10	55	ack-done	None
+58	2018-09-24 11:01:36.95	DM->CMD	"done"	10	57	translation-l	None
+59	2018-09-24 11:01:39.36	CMD	"three inches"	11	None	None	None
+60	2018-09-24 11:01:44.56	DM->CMD	"processing. . ."	11	59	processing	None
+61	2018-09-24 11:01:52.34	DM->RN	"move forward 3 inches"	11	59	translation-r-history	TU: 9
+62	2018-09-24 11:01:54.62	DM->CMD	"moving. . ."	11	59	ack-doing	None
+63	2018-09-24 11:01:55.16	RN	"done"	11	61	ack-done	None
+64	2018-09-24 11:01:57.14	DM->CMD	"done"	11	63	translation-l	None
+65	2018-09-24 11:01:58.29	CMD	"uh turn right ninety degree"	12	None	None	None
+66	2018-09-24 11:02:03.82	DM->CMD	"ok"	12	65	ack-wilco	None
+67	2018-09-24 11:02:06.34	DM->RN	"turn right 90 degrees"	12	65	translation-r-direct	None
+68	2018-09-24 11:02:08.90	DM->CMD	"turning. . ."	12	65	ack-doing	None
+69	2018-09-24 11:02:11.59	CMD	"xxx"	None	None	None	None
+70	2018-09-24 11:02:16.06	RN	"done"	12	67	ack-done	None
+71	2018-09-24 11:02:17.64	DM->CMD	"done"	12	70	translation-l	None
+72	2018-09-24 11:02:19.49	CMD	"uh turn right ninety degrees"	13	None	None	None
+73	2018-09-24 11:02:25.92	CMD	"xxx"	None	None	None	None
+74	2018-09-24 11:02:26.34	DM->RN	"turn right 90 degrees"	13	72	translation-r-direct	None
+75	2018-09-24 11:02:26.85	DM->CMD	"I will turn right 90 degrees"	13	72	ack-wilco	None
+76	2018-09-24 11:02:36.59	RN	"done"	13	74	ack-done	None
+77	2018-09-24 11:02:37.46	CMD	"<sigh>"	None	None	None	None
+78	2018-09-24 11:02:38.06	DM->CMD	"done"	13	76	translation-l	None
+79	2018-09-24 11:02:42.40	CMD	"ow"	None	None	None	None
+80	2018-09-24 11:02:44.96	CMD	"turn right forty five degrees"	14	None	None	None
+81	2018-09-24 11:02:49.74	CMD	"<notification sound>"	None	None	None	None
+82	2018-09-24 11:02:51.12	DM->CMD	"ok"	14	80	ack-wilco	None
+83	2018-09-24 11:02:54.94	DM->RN	"turn right 45 degrees"	14	80	translation-r-direct	None
+84	2018-09-24 11:02:58.13	DM->CMD	"turning. . ."	14	80	ack-doing	None
+85	2018-09-24 11:03:01.70	RN	"done"	14	83	ack-done	None
+86	2018-09-24 11:03:03.42	DM->CMD	"done"	14	85	translation-l	None
+87	2018-09-24 11:03:10.44	CMD	"forty five degrees uh turn right"	15	None	None	None
+88	2018-09-24 11:03:17.54	DM->CMD	"ok"	15	87	ack-wilco	None
+89	2018-09-24 11:03:20.13	DM->RN	"turn right 45 degrees"	15	87	translation-r-direct	None
+90	2018-09-24 11:03:21.70	DM->CMD	"I will turn right 45 degrees"	15	87	ack-wilco	None
+91	2018-09-24 11:03:25.91	RN	"done"	15	89	ack-done	None
+92	2018-09-24 11:03:26.95	CMD	"uh go straight uh five inches"	16	None	None	None
+93	2018-09-24 11:03:27.71	DM->CMD	"done"	15	91	translation-l	None
+94	2018-09-24 11:03:33.21	DM->CMD	"processing. . ."	16	92	processing	None
+95	2018-09-24 11:03:39.14	DM->RN	"move forward 5 inches"	16	92	translation-r-direct	None
+96	2018-09-24 11:03:43.79	DM->CMD	"moving. . ."	16	92	ack-doing	None
+97	2018-09-24 11:03:46.40	RN	"done"	16	95	ack-done	None
+98	2018-09-24 11:03:48.14	CMD	"three more inches"	17	None	None	None
+99	2018-09-24 11:03:48.15	DM->CMD	"done"	16	97	translation-l	None
+100	2018-09-24 11:03:54.20	DM->CMD	"processing. . ."	17	98	processing	None
+101	2018-09-24 11:04:02.13	CMD	"<notification sound>"	X-CMD	None	None	None
+102	2018-09-24 11:04:02.95	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	17	98	ack-cant	None
+103	2018-09-24 11:04:10.60	CMD	"can you take a picture"	18	None	None	None
+104	2018-09-24 11:04:14.79	DM->CMD	"yes"	18	103	ack-wilco	None
+105	2018-09-24 11:04:16.90	DM->RN	"send image"	18	103	translation-r-direct	None
+106	2018-09-24 11:04:17.43	RN	"sent"	18	105	ack-done	None
+107	2018-09-24 11:04:19.69	CMD	"oh"	19	None	None	None
+108	2018-09-24 11:04:20.75	DM->CMD	"sent"	18	106	translation-l	None
+109	2018-09-24 11:04:21.73	CMD	"this is not the doorway"	19	107	continue	None
+110	2018-09-24 11:04:29.20	DM->CMD	"no"	19	109	answer	None
+111	2018-09-24 11:04:30.71	DM->CMD	"I'm facing a wall now.  <beep>"	19	110	continue	None
+112	2018-09-24 11:04:44.27	CMD	"uh turn right ninety degree"	20	None	None	None
+113	2018-09-24 11:04:49.73	DM->CMD	"ok"	20	112	ack-wilco	None
+114	2018-09-24 11:04:52.49	DM->RN	"turn right 90 degrees"	20	112	translation-r-direct	None
+115	2018-09-24 11:04:55.98	DM->CMD	"turning. . ."	20	112	ack-doing	None
+116	2018-09-24 11:05:01.88	RN	"done"	20	114	ack-done	None
+117	2018-09-24 11:05:03.81	DM->CMD	"done"	20	116	translation-l	None
+118	2018-09-24 11:05:05.77	CMD	"xxx"	None	None	None	None
+119	2018-09-24 11:05:08.48	CMD	"uh turn right uh thirty degree"	21	None	None	None
+120	2018-09-24 11:05:15.07	DM->CMD	"ok"	21	119	ack-wilco	None
+121	2018-09-24 11:05:21.13	DM->RN	"turn right 30\ degrees"	21	119	translation-r-direct	None
+122	2018-09-24 11:05:27.98	RN	"done"	21	121	ack-done	None
+123	2018-09-24 11:05:30.73	DM->CMD	"done"	21	122	translation-l	None
+124	2018-09-24 11:05:31.92	CMD	"uh go straight <sigh> thirty inches"	22	None	None	None
+125	2018-09-24 11:05:42.01	DM->CMD	"processing. . ."	22	124	processing	None
+126	2018-09-24 11:05:48.40	DM->RN	"move forward 30 inches"	22	124	translation-r-direct	None
+127	2018-09-24 11:05:51.55	DM->CMD	"moving. . ."	22	124	ack-doing	None
+128	2018-09-24 11:05:57.89	RN	"done"	22	126	ack-done	None
+129	2018-09-24 11:06:00.38	DM->CMD	"done"	22	128	translation-l	None
+130	2018-09-24 11:06:03.33	CMD	"uh ten inches"	23	None	None	None
+131	2018-09-24 11:06:06.88	CMD	"go straight"	23	130	continue	None
+132	2018-09-24 11:06:10.34	DM->CMD	"processing. . ."	23	131*	processing	None
+133	2018-09-24 11:06:17.11	DM->RN	"move forward 10 inches"	23	131*	translation-r-direct	None
+134	2018-09-24 11:06:19.51	DM->CMD	"moving. . ."	23	131*	ack-doing	None
+135	2018-09-24 11:06:21.64	RN	"done"	23	133	ack-done	None
+136	2018-09-24 11:06:23.97	DM->CMD	"done"	23	135	translation-l	None
+137	2018-09-24 11:06:26.00	CMD	"can you take a pictures"	24	None	None	None
+138	2018-09-24 11:06:29.71	CMD	"<no speech>"	None	None	None	None
+139	2018-09-24 11:06:31.61	DM->CMD	"yes"	24	137	ack-wilco	None
+140	2018-09-24 11:06:34.26	DM->RN	"send image"	24	137	translation-r-direct	None
+141	2018-09-24 11:06:34.65	RN	"sent"	24	140	ack-done	None
+142	2018-09-24 11:06:36.67	DM->CMD	"sent"	24	141	translation-l	None
+143	2018-09-24 11:06:46.00	CMD	"umm"	None	None	None	None
+144	2018-09-24 11:06:49.32	CMD	"is this doorway"	25	None	None	None
+145	2018-09-24 11:07:00.50	DM->CMD	"processing. . ."	25	144	processing	None
+146	2018-09-24 11:07:08.10	DM->CMD	"I don't think so."	25	144	answer	None
+147	2018-09-24 11:07:08.39	CMD	"no i don't think so xxx"	25	146	3feedback	None
+148	2018-09-24 11:07:14.79	CMD	"ahh"	None	None	None	None
+149	2018-09-24 11:07:22.31	CMD	"uh turn left forty five degree please"	26	None	None	None
+150	2018-09-24 11:07:29.06	DM->CMD	"ok"	26	149	ack-wilco	None
+151	2018-09-24 11:07:31.41	DM->RN	"turn left 45 degrees"	26	149	translation-r-direct	None
+152	2018-09-24 11:07:34.89	DM->CMD	"turning. . ."	26	149	ack-doing	None
+153	2018-09-24 11:07:42.51	RN	"done"	26	151	ack-done	None
+154	2018-09-24 11:07:44.85	DM->CMD	"done"	26	153	translation-l	None
+155	2018-09-24 11:07:45.23	CMD	"okay go straight uh twenty inches"	27	None	None	None
+156	2018-09-24 11:07:52.92	DM->CMD	"processing. . ."	27	155	processing	None
+157	2018-09-24 11:07:58.67	DM->RN	"move forward 20 inches"	27	155	translation-r-direct	None
+158	2018-09-24 11:07:59.80	CMD	"<no speech>"	None	None	None	None
+159	2018-09-24 11:08:02.22	DM->CMD	"moving. . ."	27	155	ack-doing	None
+160	2018-09-24 11:08:05.79	RN	"done"	27	157	ack-done	None
+161	2018-09-24 11:08:07.49	CMD	"twenty more inches"	28	None	None	None
+162	2018-09-24 11:08:07.63	DM->CMD	"done"	27	160	translation-l	None
+163	2018-09-24 11:08:13.52	DM->CMD	"processing. . ."	28	161	processing	None
+164	2018-09-24 11:08:30.29	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	28	161	ack-cant	None
+165	2018-09-24 11:08:31.65	DM->CMD	"Would you like me to send a picture?  <beep>"	29	None	None	None
+166	2018-09-24 11:08:34.24	CMD	"yes please"	29	165	offer-accept	None
+167	2018-09-24 11:08:38.40	DM->CMD	"ok"	29	166	ack-wilco	None
+168	2018-09-24 11:08:40.43	DM->RN	"send image"	29	166*	translation-r-direct	None
+169	2018-09-24 11:08:40.99	RN	"sent"	29	168	ack-done	None
+170	2018-09-24 11:08:43.05	DM->CMD	"sent"	29	169	translation-l	None
+171	2018-09-24 11:08:49.75	CMD	"uh turn right ninety degree please"	30	None	None	None
+172	2018-09-24 11:08:55.56	DM->CMD	"ok"	30	171	ack-wilco	None
+173	2018-09-24 11:08:58.76	DM->RN	"turn right 90 degrees"	30	171	translation-r-direct	None
+174	2018-09-24 11:09:00.27	DM->CMD	"I will turn right 90 degrees"	30	171	ack-wilco	None
+175	2018-09-24 11:09:08.93	RN	"done"	30	173	ack-done	None
+176	2018-09-24 11:09:10.74	DM->CMD	"done"	30	175	translation-l	None
+177	2018-09-24 11:09:19.89	CMD	"the picture you send me was doorway or not"	31	None	None	None
+178	2018-09-24 11:09:28.83	DM->CMD	"processing. . ."	31	177	processing	None
+179	2018-09-24 11:09:34.54	CMD	"<no speech>"	None	None	None	None
+180	2018-09-24 11:09:45.66	DM->CMD	"I see a doorway."	31	177	answer	None
+181	2018-09-24 11:09:52.23	CMD	"um go straight uh twenty inches"	32	None	None	None
+182	2018-09-24 11:10:01.00	DM->CMD	"ok"	32	181	ack-wilco	None
+183	2018-09-24 11:10:06.60	CMD	"<no speech>"	None	None	None	None
+184	2018-09-24 11:10:09.54	DM->RN	"move forward 20 inches"	32	181	translation-r-direct	None
+185	2018-09-24 11:10:16.54	RN	"done"	32	184	ack-done	None
+186	2018-09-24 11:10:19.89	DM->CMD	"done"	32	185	translation-l	None
+187	2018-09-24 11:10:20.97	CMD	"uh twenty more inches"	33	None	None	None
+188	2018-09-24 11:10:23.08	CMD	"<no speech>"	None	None	None	None
+189	2018-09-24 11:10:26.50	DM->CMD	"ok"	33	187	ack-wilco	None
+190	2018-09-24 11:10:31.94	DM->RN	"move forward 20 inches"	33	187	translation-r-history	TU: 32
+191	2018-09-24 11:10:34.74	DM->CMD	"moving. . ."	33	187	ack-doing	None
+192	2018-09-24 11:10:38.27	RN	"done"	33	190	ack-done	None
+193	2018-09-24 11:10:41.17	DM->CMD	"done"	33	192	translation-l	None
+194	2018-09-24 11:10:43.38	CMD	"uh twenty more inches"	34	None	None	None
+195	2018-09-24 11:10:52.22	DM->CMD	"ok"	34	194	ack-wilco	None
+196	2018-09-24 11:10:52.39	CMD	"<no speech>"	None	None	None	None
+197	2018-09-24 11:10:59.23	DM->RN	"move forward 20 in"	34	194	translation-r-history	TU: 32
+198	2018-09-24 11:11:02.19	DM->CMD	"moving. . ."	34	194	ack-doing	None
+199	2018-09-24 11:11:06.83	RN	"done"	34	197	ack-done	None
+200	2018-09-24 11:11:08.47	DM->CMD	"done"	34	199	translation-l	None
+201	2018-09-24 11:11:18.55	CMD	"uh thirty inches"	35	None	None	None
+202	2018-09-24 11:11:25.10	DM->CMD	"processing. . ."	35	201	processing	None
+203	2018-09-24 11:11:28.80	CMD	"<no speech>"	None	None	None	None
+204	2018-09-24 11:11:30.68	DM->RN	"move forward 30 inches"	35	201	translation-r-history	TU: 32
+205	2018-09-24 11:11:33.33	DM->CMD	"moving. . ."	35	201	ack-doing	None
+206	2018-09-24 11:11:40.25	RN	"done"	35	204	ack-done	None
+207	2018-09-24 11:11:42.29	DM->CMD	"done"	35	206	translation-l	None
+208	2018-09-24 11:11:47.59	CMD	"twenty more inches"	36	None	None	None
+209	2018-09-24 11:11:52.75	DM->CMD	"ok"	36	208	ack-wilco	None
+210	2018-09-24 11:11:57.38	DM->RN	"move forward 20 in"	36	208	translation-r-history	TU: 32
+211	2018-09-24 11:12:00.18	DM->CMD	"moving. . ."	36	208	ack-doing	None
+212	2018-09-24 11:12:04.67	RN	"done"	36	210	ack-done	None
+213	2018-09-24 11:12:06.25	DM->CMD	"done"	36	212	translation-l	None
+214	2018-09-24 11:12:09.54	CMD	"uh thirty more inches"	37	None	None	None
+215	2018-09-24 11:12:16.61	DM->CMD	"processing. . ."	37	214	processing	None
+216	2018-09-24 11:12:20.85	DM->RN	"move forward 30 in"	37	214	translation-r-history	TU: 32
+217	2018-09-24 11:12:22.97	DM->CMD	"moving. . ."	37	214	ack-doing	None
+218	2018-09-24 11:12:29.41	RN	"done"	37	216	ack-done	None
+219	2018-09-24 11:12:31.07	CMD	"uh"	None	None	None	None
+220	2018-09-24 11:12:31.41	DM->CMD	"done"	37	218	translation-l	None
+221	2018-09-24 11:12:33.98	CMD	"xxx"	None	None	None	None
+222	2018-09-24 11:12:39.69	CMD	"ten inches"	38	None	None	None
+223	2018-09-24 11:12:44.23	DM->CMD	"processing. . ."	38	222	processing	None
+224	2018-09-24 11:12:49.26	DM->RN	"move forward 10 inches"	38	222	translation-r-history	TU: 32
+225	2018-09-24 11:12:53.67	DM->CMD	"moving. . ."	38	222	ack-doing	None
+226	2018-09-24 11:12:54.38	RN	"done"	38	224	ack-done	None
+227	2018-09-24 11:12:56.02	DM->CMD	"done"	38	226	translation-l	None
+228	2018-09-24 11:12:56.80	CMD	"five inches"	39	None	None	None
+229	2018-09-24 11:12:59.41	CMD	"<no speech>"	None	None	None	None
+230	2018-09-24 11:13:03.08	DM->CMD	"ok"	39	228	ack-wilco	None
+231	2018-09-24 11:13:07.22	DM->RN	"move forward 5 in"	39	228	translation-r-history	TU: 32
+232	2018-09-24 11:13:09.97	DM->CMD	"moving. . ."	39	228	ack-doing	None
+233	2018-09-24 11:13:10.37	RN	"done"	39	231	ack-done	None
+234	2018-09-24 11:13:12.08	DM->CMD	"done"	39	233	translation-l	None
+235	2018-09-24 11:13:15.25	CMD	"uh five inches"	40	None	None	None
+236	2018-09-24 11:13:17.39	CMD	"<no speech>"	None	None	None	None
+237	2018-09-24 11:13:20.05	DM->CMD	"processing. . ."	40	235	processing	None
+238	2018-09-24 11:13:25.51	DM->RN	"move forward 5 in"	40	235	translation-r-history	TU: 32
+239	2018-09-24 11:13:27.51	DM->CMD	"moving. . ."	40	235	ack-doing	None
+240	2018-09-24 11:13:29.27	RN	"done"	40	238	ack-done	None
+241	2018-09-24 11:13:31.75	DM->CMD	"done"	40	240	translation-l	None
+242	2018-09-24 11:13:32.78	DM->CMD	"If you're having trouble figuring out how far I should move or turn to get to something, you can always try telling me to go directly to whatever you are interested in.  <beep>"	41	None	None	None
+243	2018-09-24 11:13:52.46	CMD	"uh make a right turn"	42	None	None	None
+244	2018-09-24 11:13:57.04	DM->CMD	"processing. . ."	42	243	processing	None
+245	2018-09-24 11:14:00.35	DM->RN	"turn right 90 degrees"	42	243	translation-r-situated	None
+246	2018-09-24 11:14:03.00	DM->CMD	"I will turn right 90 degrees"	42	243	ack-wilco	None
+247	2018-09-24 11:14:11.24	RN	"done"	42	245	ack-done	None
+248	2018-09-24 11:14:13.77	DM->CMD	"done"	42	247	translation-l	None
+249	2018-09-24 11:14:18.49	CMD	"go straight five inches"	43	None	None	None
+250	2018-09-24 11:14:25.26	DM->CMD	"processing. . ."	43	249	processing	None
+251	2018-09-24 11:14:30.84	DM->RN	"move forward 5 in"	43	249	translation-r-situated	None
+252	2018-09-24 11:14:35.16	RN	"done"	43	251	ack-done	None
+253	2018-09-24 11:14:39.35	CMD	"uh"	None	None	None	None
+254	2018-09-24 11:14:39.87	CMD	"<no speech>"	None	None	None	None
+255	2018-09-24 11:14:42.86	DM->CMD	"done"	43	252	translation-l	None
+256	2018-09-24 11:14:44.71	CMD	"umm five more inches"	44	None	None	None
+257	2018-09-24 11:14:54.38	DM->CMD	"processing. . ."	44	256	processing	None
+258	2018-09-24 11:14:55.67	CMD	"<no speech>"	None	None	None	None
+259	2018-09-24 11:15:03.14	DM->CMD	"I'm facing a wall now.  <beep>"	44	256	ack-cant	None
+260	2018-09-24 11:15:08.00	CMD	"can you take a pictures"	45	None	None	None
+261	2018-09-24 11:15:12.46	DM->CMD	"yes"	45	260	ack-wilco	None
+262	2018-09-24 11:15:16.64	DM->RN	"send image"	45	260	translation-r-direct	None
+263	2018-09-24 11:15:17.30	RN	"sent"	45	262	ack-done	None
+264	2018-09-24 11:15:20.07	DM->CMD	"sent"	45	263	translation-l	None
+265	2018-09-24 11:15:20.35	CMD	"is this doorway"	46	None	None	None
+266	2018-09-24 11:15:22.98	CMD	"<no speech>"	None	None	None	None
+267	2018-09-24 11:15:25.49	DM->CMD	"processing. . ."	46	265	processing	None
+268	2018-09-24 11:15:34.35	DM->CMD	"yes"	46	265	answer	None
+269	2018-09-24 11:15:47.86	CMD	"umm"	None	None	None	None
+270	2018-09-24 11:15:57.43	CMD	"uh turn left ninety degree"	47	None	None	None
+271	2018-09-24 11:16:03.11	DM->CMD	"ok"	47	270	ack-wilco	None
+272	2018-09-24 11:16:05.94	DM->RN	"turn left 90 degrees"	47	270	translation-r-direct	None
+273	2018-09-24 11:16:08.64	DM->CMD	"turning. . ."	47	270	ack-doing	None
+274	2018-09-24 11:16:14.68	RN	"done"	47	272	ack-done	None
+275	2018-09-24 11:16:16.50	CMD	"moving forward five inches"	48	None	None	None
+276	2018-09-24 11:16:16.57	DM->CMD	"done"	47	274	translation-l	None
+277	2018-09-24 11:16:20.91	CMD	"<no speech>"	None	None	None	None
+278	2018-09-24 11:16:22.06	DM->CMD	"ok"	48	275	ack-wilco	None
+279	2018-09-24 11:16:30.04	DM->RN	"move forward 5 in"	48	275	translation-r-direct	None
+280	2018-09-24 11:16:33.25	RN	"done"	48	279	ack-done	None
+281	2018-09-24 11:16:35.97	DM->CMD	"done"	48	280	translation-l	None
+282	2018-09-24 11:16:36.02	CMD	"turn right"	49	None	None	None
+283	2018-09-24 11:16:42.24	DM->CMD	"processing. . ."	49	282	processing	None
+284	2018-09-24 11:16:45.31	DM->RN	"turn right 90 degrees"	49	282	translation-r-situated	None
+285	2018-09-24 11:16:47.73	DM->CMD	"I will turn right 90 degrees"	49	282	ack-wilco	None
+286	2018-09-24 11:16:56.93	RN	"done"	49	284	ack-done	None
+287	2018-09-24 11:16:59.74	DM->CMD	"done"	49	286	translation-l	None
+288	2018-09-24 11:16:59.93	CMD	"uh go straight"	50	None	None	None
+289	2018-09-24 11:17:02.79	CMD	"uh"	50	288	link-next	None
+290	2018-09-24 11:17:06.03	CMD	"five inches"	50	289	continue	None
+291	2018-09-24 11:17:07.55	CMD	"<no speech>"	None	None	None	None
+292	2018-09-24 11:17:10.16	DM->CMD	"processing. . ."	50	290*	processing	None
+293	2018-09-24 11:17:22.24	DM->RN	"move forward 5 in"	50	290*	translation-r-direct	None
+294	2018-09-24 11:17:25.52	DM->CMD	"moving. . ."	50	290*	ack-doing	None
+295	2018-09-24 11:17:28.30	RN	"done"	50	293	ack-done	None
+296	2018-09-24 11:17:29.71	DM->CMD	"done"	50	295	translation-l	None
+297	2018-09-24 11:17:31.75	CMD	"uhh go straight twenty inches"	51	None	None	None
+298	2018-09-24 11:17:35.55	CMD	"<no speech>"	None	None	None	None
+299	2018-09-24 11:17:39.19	DM->CMD	"ok"	51	297	ack-wilco	None
+300	2018-09-24 11:17:43.85	DM->RN	"move forward 20 in"	51	297	translation-r-direct	None
+301	2018-09-24 11:17:47.21	DM->CMD	"moving. . ."	51	297	ack-doing	None
+302	2018-09-24 11:17:55.83	RN	"done"	51	300	ack-done	None
+303	2018-09-24 11:17:57.37	DM->CMD	"done"	51	302	translation-l	None
+304	2018-09-24 11:18:00.15	CMD	"<mic bump>"	None	None	None	None
+305	2018-09-24 11:18:02.53	CMD	"uh taking a picture"	52	None	None	None
+306	2018-09-24 11:18:07.80	DM->CMD	"ok"	52	305	ack-wilco	None
+307	2018-09-24 11:18:10.23	DM->RN	"send image"	52	305	translation-r-direct	None
+308	2018-09-24 11:18:10.56	RN	"sent"	52	307	ack-done	None
+309	2018-09-24 11:18:12.84	DM->CMD	"sent"	52	308	translation-l	None
+310	2018-09-24 11:18:43.18	CMD	"<X: so how many doorways did you find>"	X-CMD	None	None	None
+311	2018-09-24 11:18:46.14	CMD	"uh one"	X-CMD	None	None	None
+312	2018-09-24 11:18:47.09	CMD	"<X: okay>"	X-CMD	None	None	None
+313	2018-09-24 11:18:48.25	CMD	"<X: and how many shovels were there>"	X-CMD	None	None	None
+314	2018-09-24 11:18:49.81	CMD	"one"	X-CMD	None	None	None
+315	2018-09-24 11:18:50.70	CMD	"<X: okay> <pause .40>"	X-CMD	None	None	None
+316	2018-09-24 11:18:51.98	CMD	"<X: do you think that there is anything you could use to coordinate operations or activities in xxx environment>"	X-CMD	None	None	None
+317	2018-09-24 11:18:57.48	CMD	"um no zero"	X-CMD	None	None	None
+318	2018-09-24 11:18:59.67	CMD	"<no speech>"	X-CMD	None	None	None
+319	2018-09-24 11:19:01.19	CMD	"<X: okay>"	X-CMD	None	None	None
+320	2018-09-24 11:19:02.25	CMD	"<X: and what the last occupants speak is it english or a foreign language>"	X-CMD	None	None	None
+321	2018-09-24 11:19:09.14	CMD	"don't don't know"	X-CMD	None	None	None
+322	2018-09-24 11:19:10.42	CMD	"<X: you don't know>"	X-CMD	None	None	None
+323	2018-09-24 11:19:11.00	CMD	"no"	X-CMD	None	None	None
+324	2018-09-24 11:19:11.55	CMD	"<X: okay>"	X-CMD	None	None	None
+325	2018-09-24 11:19:16.44	DM->CMD	"Good job!"	X-CMD	None	None	None
+326	2018-09-24 11:19:19.92	DM->RN	"end task"	X-CMD	None	None	None
+327	2018-09-24 11:19:24.97	CMD	"english"	X-CMD	None	None	None
+328	2018-09-24 11:19:25.77	CMD	"<X: did you see something that made>"	X-CMD	None	None	None
+329	2018-09-24 11:19:27.31	CMD	"yeah"	X-CMD	None	None	None

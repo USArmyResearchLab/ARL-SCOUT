@@ -1,0 +1,12 @@
+p2.06_main2_s168
+# ::tok turn thirty degrees south
+# ::snt turn thirty degrees south
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (s / south)
+	:extent (a / angle-quantity
+		:quant 30
+		:unit (d / degree))
+	:mode imperative)
+

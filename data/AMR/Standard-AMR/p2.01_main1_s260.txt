@@ -1,0 +1,12 @@
+p2.01_main1_s260
+# ::tok move forward one foot
+# ::snt move forward one foot
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (f / forward)
+	:extent (d / distance-quantity
+		:quant 1
+		:unit (f2 / foot))
+	:mode imperative)
+

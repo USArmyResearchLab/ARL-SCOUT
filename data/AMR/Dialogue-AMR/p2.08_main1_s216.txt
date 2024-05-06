@@ -1,0 +1,14 @@
+p2.08_main1_s216
+# ::tok right
+# ::snt right
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (c2 / clarify-10
+		:ARG0 c
+		:ARG1 (r / right-04)
+		:ARG2 (r2 / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:ARG2 r2)
+

@@ -1,0 +1,17 @@
+p3.29_main1_s157
+# ::tok There 's an obstruction preventing me from doing that .
+# ::snt There's an obstruction preventing me from doing that.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / sense-01
+		:ARG0 r
+		:ARG1 (t / thing
+			:ARG0-of (o / obstruct-01)
+			:ARG0-of (p / prevent-01
+				:ARG1 (d / do-02
+					:ARG0 r
+					:ARG1 (t2 / that))))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+

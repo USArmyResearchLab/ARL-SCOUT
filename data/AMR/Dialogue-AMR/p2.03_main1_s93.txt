@@ -1,0 +1,14 @@
+p2.03_main1_s93
+# ::tok robot what is in front of me
+# ::snt robot what is in front of me
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (a / amr-unknown
+			:location (i / in-front-of
+				:op1 r))
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+

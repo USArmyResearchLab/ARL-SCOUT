@@ -1,0 +1,17 @@
+p2.06_main2_s181
+# ::tok < pause > turn ninety degrees south east
+# ::snt <pause> turn ninety degrees south east
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (s / southeast)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+

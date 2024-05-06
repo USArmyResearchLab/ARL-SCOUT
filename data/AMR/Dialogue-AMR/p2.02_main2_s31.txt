@@ -1,0 +1,15 @@
+p2.02_main2_s31
+# ::tok yes can you take a picture
+# ::snt yes can you take a picture
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / send-image
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:time (n / now))
+

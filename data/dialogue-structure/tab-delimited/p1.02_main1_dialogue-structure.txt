@@ -1,0 +1,215 @@
+id	time	stream	text	tu	rel	ant	context
+1	2.43	RN	"calibration complete"	1	0	ack-done	None
+2	8.31	DM->CMD	"calibration complete"	1	1	translation-l	None
+3	8.34	CMD	"robot take a photo"	2	None	None	None
+4	11.15	DM->RN	"photo"	2	3	translation-r-direct	None
+5	11.25	RN	"image sent"	2	4	ack-done	None
+6	14.2	DM->CMD	"sent"	2	5	translation-l	None
+7	20.5	CMD	"robot turn ninety degrees to the right"	3	None	None	None
+8	23.83	CMD	"and take a photo"	3	7	continue	None
+9A	25.08	DM->RN	"turn 90 right, "	3	7	translation-r-direct	None
+9B	None	DM->RN	"photo"	3	8	translation-r-direct	None
+10	28.78	DM->CMD	"executing..."	3	8*	ack-doing	None
+11	35.32	RN	"image sent"	3	9B*	ack-done	None
+12	37.93	DM->CMD	"sent"	3	11	translation-l	None
+13	40.53	CMD	"robot turn ninety degrees to the right"	4	None	None	None
+14	43.71	CMD	"and take a photo"	4	13	continue	None
+15A	48.06	DM->RN	"turn 90 right, "	4	13	translation-r-direct	None
+15B	None	DM->RN	"photo"	4	14	translation-r-direct	None
+16	52.42	DM->CMD	"executing..."	4	14*	ack-doing	None
+17	62.69	RN	"image sent"	4	15B*	ack-done	None
+18	64.9	DM->CMD	"sent"	4	17	translation-l	None
+19	68.61	CMD	"robot turn ninety degrees to the right"	5	None	None	None
+20	71.39	CMD	"and take one last photo"	5	19	continue	None
+21A	72.67	DM->RN	"turn 90 right, "	5	19	translation-r-direct	None
+21B	None	DM->RN	"photo"	5	20	translation-r-direct	None
+22	76.61	DM->CMD	"executing..."	5	20*	ack-doing	None
+23	88.32	RN	"image sent"	5	21B*	ack-done	None
+24	90.55	DM->CMD	"sent"	5	23	translation-l	None
+25	107.18	CMD	"robot take a better photo of the shoes"	6	None	None	None
+26A	118.96	DM->RN	"move to where you can take a good photo of shoes, "	6	25	translation-r-contextual-partial	None
+26B	None	DM->RN	"photo"	6	26A	continue	None
+27	125.85	RN	"I will attempt to interpret what good means"	6	26A	comment	None
+28	135.22	DM->CMD	"executing..."	6	25	ack-doing	None
+29	159.33	CMD	"robot turn one hundred and eighty degrees"	7	None	None	None
+30	160.44	RN	"image sent"	6	26B*	ack-done	None
+31	162.14	DM->CMD	"sent"	6	30	translation-l	None
+32	163.95	CMD	"and enter the room"	7	29	continue	None
+33	174.92	DM->CMD	"Turn "	ERR	None	None	None
+34	181.1	DM->RN	"turn 180"	7	29	translation-r-direct	None
+35	196.92	RN	"done"	7	34	ack-done	None
+36	209.98	CMD	"enter the room"	8	None	None	None
+37	212.52	CMD	"and take a photo"	8	36	continue	None
+38A	218	DM->RN	"enter the room,"	8	36	translation-r-direct	None
+38B	None	DM->RN	"photo"	8	37	translation-r-direct	None
+39	221.71	DM->CMD	"executing..."	8	37*	ack-doing	None
+40	234.42	RN	"image sent"	8	38B*	ack-done	None
+41	237.36	DM->CMD	"sent"	8	40	translation-l	None
+42	246.62	CMD	"robot <pause> take a better photo of the tv set"	9	None	None	None
+43A	267.43	DM->RN	"move halfway to tv set, "	9	42	translation-r-contextual-partial	None
+43B	None	DM->RN	"photo"	9	43A	continue	None
+44	271.52	DM->CMD	"executing..."	9	42	ack-doing	None
+45	284.81	RN	"image sent"	9	43B*	ack-done	None
+46	287.63	DM->CMD	"sent"	9	45	translation-l	None
+47	302.22	CMD	"robot turn forty five degrees to the left to the door"	10	None	None	None
+48	307.66	CMD	"and take a picture"	10	47	continue	None
+49A	315.82	DM->RN	"turn to face door on left, "	10	47	translation-r-situated	None
+49B	None	DM->RN	"photo"	10	48	translation-r-direct	None
+50	320.22	DM->CMD	"executing..."	10	48*	ack-doing	None
+51	328.07	RN	"image sent"	10	49B*	ack-done	None
+52	330.49	DM->CMD	"sent"	10	51	translation-l	None
+53	341.87	CMD	"robot turn forty five degrees to the left"	11	None	None	None
+54	345.23	CMD	"and take another photo"	11	53	continue	None
+55A	347.79	DM->RN	"turn 45 left, "	11	53	translation-r-direct	None
+55B	None	DM->RN	"photo"	11	54	translation-r-direct	None
+56	352.54	DM->CMD	"executing..."	11	54*	ack-doing	None
+57	354.47	RN	"image sent"	11	55B*	ack-done	None
+58	357.28	DM->CMD	"sent"	11	57	translation-l	None
+59	373.89	CMD	"robot proceed through the doorway to your right"	12	None	None	None
+60	380.3	CMD	"turn right"	12	59	continue	None
+61	381.05	CMD	"and take a photo"	12	60	continue	None
+62	393.47	DM->CMD	"I will proceed through the doorway on the right, then how far should I turn right?"	12	60*	req-clar	None
+63	400.18	CMD	"robot when you turn right turn ninety degrees right"	12	62	clar-repair	None
+64A	406.23	DM->RN	"Move through doorway on right,"	12	59	translation-r-direct	None
+64B	None	DM->RN	"turn 90 right,"	12	63*	translation-r-direct	None
+64C	None	DM->RN	"photo"	12	61	translation-r-direct	None
+65	409.73	DM->CMD	"executing..."	12	63*	ack-doing	None
+66	428.08	RN	"image sent"	12	64C*	ack-done	None
+67	430.21	DM->CMD	"sent"	12	66	translation-l	None
+68	446.73	CMD	"robot proceed to first doorway on the right"	13	None	None	None
+69	452.73	CMD	"turn ninety degrees right"	13	68	continue	None
+70	454.88	CMD	"then take a photo"	13	69	continue	None
+71A	460.8	DM->RN	"move to first doorway on right, "	13	68	translation-r-direct	None
+71B	None	DM->RN	"turn 90 right, "	13	69	translation-r-direct	None
+71C	None	DM->RN	"photo"	13	70	translation-r-direct	None
+72	465.69	DM->CMD	"executing..."	13	70*	ack-doing	None
+73	480.09	RN	"image sent"	13	71C*	ack-done	None
+74	482.63	DM->CMD	"sent"	13	73	translation-l	None
+75	485.64	CMD	"robot turn ninety degrees to the left"	14	None	None	None
+76	489.99	CMD	"and take a photo"	14	75	continue	None
+77A	491.45	DM->RN	"turn 90 left,"	14	75	translation-r-direct	None
+77B	None	DM->RN	"photo"	14	76	translation-r-direct	None
+78	495.16	DM->CMD	"executing..."	14	76*	ack-doing	None
+79	502.37	RN	"image sent"	14	77B*	ack-done	None
+80	505.2	DM->CMD	"sent"	14	79	translation-l	None
+81	511.93	CMD	"robot turn ninety degrees to the uh <pause> turn forty five degrees to the left"	15	None	None	None
+82	519.59	CMD	"and take a photo"	15	81	continue	None
+83A	524.11	DM->RN	"turn 45 left, "	15	81	translation-r-direct	None
+83B	None	DM->RN	"photo"	15	82	translation-r-direct	None
+84	528.37	DM->CMD	"executing..."	15	82*	ack-doing	None
+85	530.28	RN	"image sent"	15	83B*	ack-done	None
+86	532.64	DM->CMD	"sent"	15	85	translation-l	None
+87	537.76	CMD	"<pause> robot proceed through the doorway in front of you"	16	None	None	None
+88	544.65	CMD	"and take another photo"	16	87	continue	None
+89A	550.93	DM->RN	"move through doorway in front of you, "	16	87	translation-r-direct	None
+89B	None	DM->RN	"photo"	16	88	translation-r-direct	None
+90	555.04	DM->CMD	"executing..."	16	88*	ack-doing	None
+91	560.52	RN	"image sent"	16	89B*	ack-done	None
+92	562.72	DM->CMD	"sent"	16	91	translation-l	None
+93	568.53	CMD	"robot turn forty five degrees left"	17	None	None	None
+94	572.28	CMD	"and take a photo"	17	93	continue	None
+95A	575.71	DM->RN	"turn 45 left, "	17	93	translation-r-direct	None
+95B	None	DM->RN	"photo"	17	94	translation-r-direct	None
+96	579.46	DM->CMD	"executing..."	17	94*	ack-doing	None
+97	583.57	RN	"image sent"	17	95B*	ack-done	None
+98	585.64	DM->CMD	"sent"	17	97	translation-l	None
+99	602.41	CMD	"robot proceed through the doorway right in front of you"	18	None	None	None
+100	607.13	CMD	"and take a photo"	18	99	continue	None
+101	637.33	DM->CMD	"I'm not sure what you mean by the doorway in front of me.  Should I move to the doorway ahead and on the left?"	18	99	req-clar	None
+102	645.73	CMD	"<sigh> robot proceed between the chair and the <xxx unintelligible> directly in front of you"	18	101	clar-repair	None
+103	654.32	CMD	"and then take a photo"	18	102	continue	None
+104	679.69	DM->CMD	"I couldn't understand part of what you said.  Between the chair and what?"	18	102	req-clar	None
+105	689.45	CMD	"robot turn ninety degrees to the left"	19	None	None	None
+106	694.64	CMD	"and proceed through that doorway into the main hallway"	19	105	continue	None
+107A	716.13	DM->RN	"turn 90 left, "	19	105	translation-r-direct	None
+107B	None	DM->RN	"move through doorway that will be in front of you into main hallway"	19	106	translation-r-direct	None
+108	732.1	DM->CMD	"executing..."	19	106*	ack-doing	None
+109	747.62	RN	"done"	19	107B*	ack-done	None
+110	749.65	DM->CMD	"done"	19	109	translation-l	None
+111	752.81	CMD	"robot turn right then proceed through the doorway"	20	None	None	None
+112	757.51	CMD	"then take a photo"	20	111	continue	None
+113	773.96	DM->CMD	"How far should I turn right?"	20	111	req-clar	None
+114	778.39	CMD	"robot turn ninety degrees to the right down the hallway"	20	113	clar-repair	None
+115	785.22	CMD	"and enter the doorway directly in front"	20	114	continue	None
+116	787.55	CMD	"then take a photo"	20	115	continue	None
+117A	789.27	DM->RN	"turn 90 right, "	20	114	translation-r-direct	None
+117B	None	DM->RN	"move through doorway in front of you, "	20	115	translation-r-direct	None
+117C	None	DM->RN	"photo"	20	116	translation-r-direct	None
+118	792.82	DM->CMD	"executing..."	20	116*	ack-doing	None
+119	810.38	RN	"image sent"	20	117C*	ack-done	None
+120	812.81	DM->CMD	"sent"	20	119	translation-l	None
+121	823.64	CMD	"robot turn ninety degrees <pause> turn forty five degrees to the left"	21	None	None	None
+122	830	CMD	"and take a photo"	21	121	continue	None
+123A	833.85	DM->RN	"turn 45 left, "	21	121	translation-r-direct	None
+123B	None	DM->RN	"photo"	21	122	translation-r-direct	None
+124	837.6	DM->CMD	"executing..."	21	122*	ack-doing	None
+125	842.68	RN	"image sent"	21	123B*	ack-done	None
+126	845.13	DM->CMD	"sent"	21	125	translation-l	None
+127	854.89	CMD	"robot proceed directly ahead"	22	None	None	None
+128	859.24	CMD	"and take a photo of the item on the right on the wall"	22	127	continue	None
+129A	873.23	DM->RN	"move to face item on the wall on the right, "	22	128*	translation-r-direct-partial	None
+129B	None	DM->RN	"photo"	22	129A	continue	None
+130	880.05	DM->CMD	"executing..."	22	128*	ack-doing	None
+131	883.15	RN	"you mean this <pause> calendar right"	22	129A	comment	None
+132	894.77	RN	"image sent"	22	129B*	ack-done	None
+133	897.04	DM->CMD	"sent"	22	132	translation-l	None
+134	927.27	CMD	"robot exit this room"	23	None	None	None
+135	930.84	CMD	"and take a right down the hallway"	23	134	continue	None
+136	966.3	DM->CMD	"I'm not sure where or when to stop going right down the hallway.  How far should I go?"	23	135*	req-clar	None
+137	974.04	CMD	"robot exit this room"	23	136	clar-repair	None
+138	977.45	CMD	"then turn ninety degrees to the right"	23	137	continue	None
+139	980.51	CMD	"and take a photo"	23	138	continue	None
+140A	986.85	DM->RN	"exit the room through the door you came in through, "	23	137	translation-r-direct	None
+140B	None	DM->RN	"turn 90 right, "	23	138	translation-r-direct	None
+140C	None	DM->RN	"photo"	23	139	translation-r-direct	None
+141	990.43	DM->CMD	"executing..."	23	139*	ack-doing	None
+142	1010.1	RN	"done"	23	140B*	ack-done	None
+143	1011.57	RN	"image sent"	23	140C	ack-done	None
+144	1013.52	DM->CMD	"sent"	23	143	translation-l	None
+145	1017.99	CMD	"robot proceed into this room"	24	None	None	None
+146	1023.71	CMD	"turn right ninety degrees"	24	145	continue	None
+147	1027.02	CMD	"and take a photo"	24	146	continue	None
+148	1031.48	DM->CMD	"How far should I proceed into the room?"	24	145	req-clar	None
+149	1037.17	CMD	"<sigh> a foot or two"	24	148	clar-repair	None
+150A	1059.09	DM->RN	"Move into the room ahead of you 1 or 2 feet, "	24	149*	translation-r-direct	None
+150B	None	DM->RN	"photo"	24	147	translation-r-direct	None
+151	1062.37	DM->CMD	"executing..."	24	149*	ack-doing	None
+152	1069.73	RN	"i'll drive past the bucket in front of you"	24	150A	comment	None
+153	1073.41	RN	"alright so mine is overheated"	24	152	continue	None
+154	1083.24	RN	"done"	24	150A	ack-done	None
+155	1084.51	RN	"image sent"	24	150B	ack-done	None
+156	1086.86	DM->CMD	"sent"	24	155	translation-l	None
+157	1092.34	CMD	"robot turn ninety degrees to the right"	25	None	None	None
+158	1095.33	CMD	"and take a photo"	25	157	continue	None
+159A	1096.51	DM->RN	"turn 90 right, "	25	157	translation-r-direct	None
+159B	None	DM->RN	"photo"	25	158	translation-r-direct	None
+160	1100.42	DM->CMD	"executing..."	25	158*	ack-doing	None
+161	1104.41	RN	"image sent"	25	159B*	ack-done	None
+162	1106.96	DM->CMD	"sent"	25	161	translation-l	None
+163	1111.52	CMD	"robot turn ninety degrees to the left"	26	None	None	None
+164	1116.59	CMD	"proceed to the end"	26	163	continue	None
+165	1118.92	CMD	"and then turn another ninety degrees to the left"	26	164	continue	None
+166	1121.6	CMD	"and take a photo"	26	165	continue	None
+167	1136.13	DM->CMD	"I'm not sure what you mean by proceed to the end.  How far should I move?"	26	164	req-clar	None
+168	1143.3	CMD	"robot turn ninety degrees to the left"	27	None	None	None
+169A	1148.13	DM->RN	"turn 90 left, "	27	168	translation-r-direct	None
+169B	None	DM->RN	"photo"	27	166	translation-r-direct	None
+170	1148.76	CMD	"and take a photo"	27	168	continue	None
+171	1151.21	DM->CMD	"executing..."	27	170*	ack-doing	None
+172	1159.91	RN	"image sent"	27	169B*	ack-done	None
+173	1162.92	DM->CMD	"sent"	27	172	translation-l	None
+174	1165.16	CMD	"robot continue moving forward until you are two feet shy of the water bottle"	28	None	None	None
+175	1175.48	CMD	"then turn ninety degrees to the left"	28	174	continue	None
+176A	1184.6	DM->RN	"move forward until 2 feet away from water bottle,"	28	174	translation-r-direct	None
+176B	None	DM->RN	"turn 90 left"	28	175	translation-r-direct	None
+177	1188.58	DM->CMD	"executing..."	28	175*	ack-doing	None
+178	1197.64	RN	"this is a guess distance"	28	176A	comment	None
+179	1212.28	RN	"done"	28	176B*	ack-done	None
+180	1214.58	DM->CMD	"done"	28	179	translation-l	None
+181	1226.43	CMD	"<b: uh how many doorways were there>"	X-CMD	None	None	None
+182	1228.48	CMD	"uh i counted <whisper> five six seven <normal voice> eight doorways"	X-CMD	None	None	None
+183	1230.17	DM->RN	"ending exercise"	X-CMD	None	None	None
+184	1231.92	CMD	"<b:okay>"	X-CMD	None	None	None
+185	1234.44	CMD	"i counted two pairs of shoes"	X-CMD	None	None	None
+186	1237.54	CMD	"<b:okay and do you think there is anything that indicates the environment has been recently occupied>"	X-CMD	None	None	None
+187	1243.55	CMD	"no in fact there's evidence to the contrary the last date of the calendar was august and september twenty fifteen <"	X-CMD	None	None	None

@@ -1,0 +1,13 @@
+p1.04_main1_s46
+# ::tok I 'm moving to the wall ahead of me . Then what ?
+# ::snt I'm moving to the wall ahead of me. Then what?
+(m / multi-sentence
+	:snt1 (m2 / move-01
+		:ARG0 (i / i)
+		:ARG1 i
+		:ARG2 (w / wall
+			:location (a / ahead
+				:op1 i)))
+	:snt2 (a2 / amr-unknown
+		:time (t / then)))
+

@@ -1,0 +1,15 @@
+p2.02_main1_s85
+# ::tok move 3 feet towards shoe start door
+# ::snt move 3 feet towards shoe start door
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (d2 / door
+		:name (n / name
+			:op1 "Shoe"
+			:op2 "Start"))
+	:extent (d / distance-quantity
+		:quant 3
+		:unit (f / foot))
+	:mode imperative)
+

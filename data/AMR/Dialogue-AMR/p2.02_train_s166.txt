@@ -1,0 +1,20 @@
+p2.02_train_s166
+# ::tok can you turn at least maybe ten more degrees to your left
+# ::snt can you turn at least maybe ten more degrees to your left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / at-least
+			:op1 (a2 / angle-quantity
+				:mod (m / more)
+				:quant 10
+				:unit (d / degree)))
+		:time (a3 / after
+			:op1 (n / now)))
+	:ARG2 r)
+

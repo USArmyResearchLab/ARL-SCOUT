@@ -1,0 +1,15 @@
+p1.09_main1_s96
+# ::tok no if you can just back up to the entryway of that room
+# ::snt no if you can just back up to the entryway of that room
+(m / multi-sentence
+	:snt1 (n / no)
+	:snt2 (b / back-up-06
+		:ARG0 (y / you)
+		:ARG1 y
+		:destination (e / entryway
+			:part-of (r / room
+				:mod (t / that)))
+		:mod (j / just)
+		:mode imperative
+		:polite +))
+

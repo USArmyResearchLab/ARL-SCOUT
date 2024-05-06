@@ -1,0 +1,19 @@
+p2.05_main2_s135
+# ::tok ok , I think I got it .
+# ::snt ok, I think I got it.
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (r / robot-dm)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (u / understand-01
+			:ARG0 r
+			:ARG1 (i / it)
+			:stable +
+			:time (n2 / now))
+		:ARG2 c))
+

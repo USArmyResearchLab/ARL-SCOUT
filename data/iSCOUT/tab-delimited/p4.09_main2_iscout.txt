@@ -1,0 +1,625 @@
+id	time	stream	text	context	notes
+1	2019-10-31 09:37:22.78	CMD	"calibrate"	None	None
+2	1975-03-10 14:35:58.00	DM->RN	" calibrate"	None	None
+3	1975-03-10 14:36:02.00	DM->CMD	"I will calibrate...."	None	None
+4	2019-10-31 09:37:33.95	RN	" calibrating. . ."	None	None
+5	2019-10-31 09:37:33.95	DM->CMD	"calibrating. . ."	None	None
+6	2019-10-31 09:37:40.19	RN	" calibration complete"	None	None
+7	2019-10-31 09:37:40.19	DM->CMD	"calibration complete"	None	None
+8	2019-10-31 09:37:44.15	CMD	"<X: you say I am ready>"	None	None
+9	2019-10-31 09:37:44.15	CMD	"I am ready"	None	None
+10	2019-10-31 09:37:51.63	DM->RN	" participant is ready"	None	None
+11	2019-10-31 09:37:51.66	DM->CMD	"Processing...."	None	None
+12	2019-10-31 09:37:55.56	RN	" I'm also ready. <beep>"	None	None
+13	2019-10-31 09:37:55.56	DM->CMD	"I'm also ready. <beep>"	None	None
+14	2019-10-31 09:37:54.24	CMD	"move forward"	None	None
+15	2019-10-31 09:38:01.76	DM->CMD	"Can you repeat that? <beep>"	None	None
+16	2019-10-31 09:37:56.76	CMD	"move forward"	None	None
+17	2019-10-31 09:38:04.23	DM->CMD	"How far forward should I go? <beep>"	None	None
+18	2019-10-31 09:38:00.09	CMD	"two feet"	None	None
+19	2019-10-31 09:38:07.72	DM->RN	" move forward 1.5 feet"	None	None
+20	2019-10-31 09:38:07.73	DM->CMD	"I will move forward 1.5 feet."	None	None
+21	2019-10-31 09:38:10.18	RN	" moving. . ."	None	None
+22	2019-10-31 09:38:10.30	DM->CMD	"moving. . ."	None	None
+23	2019-10-31 09:38:14.50	RN	" done"	None	None
+24	2019-10-31 09:38:14.60	DM->CMD	"done"	None	None
+25	2019-10-31 09:38:10.54	CMD	"move forward"	None	None
+26	2019-10-31 09:38:18.02	DM->CMD	"How far forward should I go? <beep>"	None	None
+27	2019-10-31 09:38:12.44	CMD	"two feet"	None	None
+28	2019-10-31 09:38:19.93	DM->RN	" move forward 1.5 feet"	None	None
+29	2019-10-31 09:38:19.97	DM->CMD	"I will move forward 1.5 feet."	None	None
+30	2019-10-31 09:38:21.30	RN	" moving. . ."	None	None
+31	2019-10-31 09:38:21.35	DM->CMD	"moving. . ."	None	None
+32	2019-10-31 09:38:25.86	RN	" done"	None	None
+33	2019-10-31 09:38:25.96	DM->CMD	"done"	None	None
+34	2019-10-31 09:38:21.16	CMD	"take a picture"	None	None
+35	2019-10-31 09:38:28.62	DM->RN	" send image"	None	None
+36	2019-10-31 09:38:28.62	DM->CMD	"I will send image."	None	None
+i000	2019-10-31 09:38:13.41	IMAGE	"frame000"	None	None
+37	2019-10-31 09:38:30.36	RN	" sent"	None	None
+38	2019-10-31 09:38:30.64	DM->CMD	"sent"	None	None
+39	2019-10-31 09:38:37.67	CMD	"turn right"	None	None
+40	2019-10-31 09:38:45.08	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+41	2019-10-31 09:38:41.26	CMD	"thirty degrees"	None	None
+42	2019-10-31 09:38:48.73	DM->RN	" turn right 30 degrees"	None	None
+43	2019-10-31 09:38:48.77	DM->CMD	"I will turn right 30 degrees."	None	None
+44	2019-10-31 09:38:50.49	RN	" turning. . ."	None	None
+45	2019-10-31 09:38:50.54	DM->CMD	"turning. . ."	None	None
+46	2019-10-31 09:38:55.26	RN	" done"	None	None
+47	2019-10-31 09:38:55.35	DM->CMD	"done"	None	None
+48	2019-10-31 09:38:50.08	CMD	"take a picture"	None	None
+49	2019-10-31 09:38:57.62	DM->RN	" send image"	None	None
+50	2019-10-31 09:38:57.63	DM->CMD	"I will send image."	None	None
+i001	2019-10-31 09:38:42.32	IMAGE	"frame001"	None	None
+51	2019-10-31 09:39:00.05	RN	" sent"	None	None
+52	2019-10-31 09:39:00.07	DM->CMD	"sent"	None	None
+53	2019-10-31 09:38:57.05	CMD	"turn left"	None	None
+54	2019-10-31 09:39:04.52	DM->CMD	"How far should I rotate left? <beep>"	None	None
+55	2019-10-31 09:39:00.51	CMD	"one twenty degrees"	None	None
+56	2019-10-31 09:39:08.07	DM->RN	" turn left 100 degrees"	None	None
+57	2019-10-31 09:39:08.07	DM->CMD	"I will turn left 100 degrees."	None	None
+58	2019-10-31 09:39:10.63	RN	" turning. . ."	None	None
+59	2019-10-31 09:39:10.72	DM->CMD	"turning. . ."	None	None
+60	2019-10-31 09:39:18.75	RN	" done"	None	None
+61	2019-10-31 09:39:18.80	DM->CMD	"done"	None	None
+62	2019-10-31 09:39:17.07	CMD	"move towards left"	None	None
+63	2019-10-31 09:39:24.77	DM->CMD	"Can you repeat that? <beep>"	None	None
+64	2019-10-31 09:39:20.30	CMD	"move towards left"	None	None
+65	2019-10-31 09:39:27.82	DM->CMD	"Can you repeat that? <beep>"	None	None
+66	2019-10-31 09:39:23.60	CMD	"move left"	None	None
+67	2019-10-31 09:39:31.17	DM->CMD	"Can you repeat that? <beep>"	None	None
+68	2019-10-31 09:39:28.56	CMD	"move forward"	None	None
+69	2019-10-31 09:39:36.07	DM->CMD	"Can you repeat that? <beep>"	None	None
+70	2019-10-31 09:39:30.60	CMD	"move forward"	None	None
+71	2019-10-31 09:39:38.13	DM->CMD	"How far forward should I go? <beep>"	None	None
+72	2019-10-31 09:39:34.60	CMD	"six feet"	None	None
+73	2019-10-31 09:39:42.12	DM->RN	" move forward 6"	None	None
+74	2019-10-31 09:39:42.13	DM->CMD	"I will move forward 6."	None	None
+75	2019-10-31 09:39:46.46	RN	" moving. . ."	None	None
+76	2019-10-31 09:39:46.55	DM->CMD	"moving. . ."	None	None
+77	2019-10-31 09:39:58.52	RN	" done"	None	None
+78	2019-10-31 09:39:58.64	DM->CMD	"done"	None	None
+79	2019-10-31 09:39:54.67	CMD	"take a picture"	None	None
+80	2019-10-31 09:40:02.18	DM->CMD	"I will send image."	None	None
+i002	2019-10-31 09:39:45.83	IMAGE	"frame002"	None	None
+81	2019-10-31 09:40:03.94	RN	" sent"	None	None
+82	2019-10-31 09:40:03.96	DM->CMD	"sent"	None	None
+83	2019-10-31 09:40:08.00	CMD	"turn left"	None	None
+84	2019-10-31 09:40:11.45	CMD	"turn left"	None	None
+85	2019-10-31 09:40:19.02	DM->CMD	"Can you repeat that? <beep>"	None	None
+86	2019-10-31 09:40:13.72	CMD	"turn left"	None	None
+87	2019-10-31 09:40:21.23	DM->CMD	"How far should I rotate left? <beep>"	None	None
+88	2019-10-31 09:40:16.41	CMD	"ninety degrees"	None	None
+89	2019-10-31 09:40:23.93	DM->CMD	"I will turn left 90 degrees."	None	None
+90	2019-10-31 09:40:25.98	RN	" turning. . ."	None	None
+91	2019-10-31 09:40:26.08	DM->CMD	"turning. . ."	None	None
+92	2019-10-31 09:40:35.61	RN	" done"	None	None
+93	2019-10-31 09:40:35.71	DM->CMD	"done"	None	None
+94	2019-10-31 09:40:33.37	CMD	"scan through the room"	None	None
+95	2019-10-31 09:40:40.92	DM->RN	" move into room"	None	None
+96	2019-10-31 09:40:40.93	DM->CMD	"I will try to move into room."	None	None
+97	2019-10-31 09:40:48.50	RN	" Hmm, I'm not sure what you would like me to do. <beep>"	None	None
+98	2019-10-31 09:40:48.51	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	None	None
+99	2019-10-31 09:40:46.51	CMD	"walk forward"	None	None
+100	2019-10-31 09:40:54.02	DM->CMD	"Can you repeat that? <beep>"	None	None
+101	2019-10-31 09:40:49.69	CMD	"move forward"	None	None
+102	2019-10-31 09:40:57.12	DM->CMD	"How far forward should I go? <beep>"	None	None
+103	2019-10-31 09:40:53.04	CMD	"two feet"	None	None
+104	2019-10-31 09:41:00.53	DM->RN	" move forward 1.5 feet"	None	None
+105	2019-10-31 09:41:00.57	DM->CMD	"I will move forward 1.5 feet."	None	None
+106	2019-10-31 09:41:01.97	RN	" moving. . ."	None	None
+107	2019-10-31 09:41:02.02	DM->CMD	"moving. . ."	None	None
+108	2019-10-31 09:41:06.40	RN	" done"	None	None
+109	2019-10-31 09:41:06.43	DM->CMD	"done"	None	None
+110	2019-10-31 09:41:01.28	CMD	"take a picture"	None	None
+111	2019-10-31 09:41:08.77	DM->RN	" send image"	None	None
+112	2019-10-31 09:41:08.78	DM->CMD	"I will send image."	None	None
+i003	2019-10-31 09:40:51.04	IMAGE	"frame003"	None	None
+113	2019-10-31 09:41:10.50	RN	" sent"	None	None
+114	2019-10-31 09:41:10.52	DM->CMD	"sent"	None	None
+115	2019-10-31 09:41:12.80	CMD	"turn right"	None	None
+116	2019-10-31 09:41:20.33	DM->CMD	"Can you repeat that? <beep>"	None	None
+117	2019-10-31 09:41:14.65	CMD	"turn right"	None	None
+118	2019-10-31 09:41:22.18	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+119	2019-10-31 09:41:17.59	CMD	"ninety degrees"	None	None
+120	2019-10-31 09:41:25.12	DM->RN	" turn right 90 degrees"	None	None
+121	2019-10-31 09:41:25.12	DM->CMD	"I will turn right 90 degrees."	None	None
+122	2019-10-31 09:41:27.39	RN	" turning. . ."	None	None
+123	2019-10-31 09:41:27.42	DM->CMD	"turning. . ."	None	None
+124	2019-10-31 09:41:37.92	RN	" done"	None	None
+125	2019-10-31 09:41:37.96	DM->CMD	"done"	None	None
+126	2019-10-31 09:41:32.64	CMD	"take a picture"	None	None
+127	2019-10-31 09:41:40.12	DM->RN	" send image"	None	None
+128	2019-10-31 09:41:40.12	DM->CMD	"I will send image."	None	None
+i004	2019-10-31 09:41:22.57	IMAGE	"frame004"	None	None
+129	2019-10-31 09:41:42.47	RN	" sent"	None	None
+130	2019-10-31 09:41:42.57	DM->CMD	"sent"	None	None
+131	2019-10-31 09:41:39.50	CMD	"turn left"	None	None
+132	2019-10-31 09:41:47.02	DM->CMD	"How far should I rotate left? <beep>"	None	None
+133	2019-10-31 09:41:41.92	CMD	"one eighty degrees"	None	None
+134	2019-10-31 09:41:49.47	DM->RN	" turn 180"	None	None
+135	2019-10-31 09:41:49.47	DM->CMD	"I will turn 180."	None	None
+136	2019-10-31 09:41:53.31	RN	" turning. . ."	None	None
+137	2019-10-31 09:41:53.43	DM->CMD	"turning. . ."	None	None
+138	2019-10-31 09:42:05.22	RN	" done"	None	None
+139	2019-10-31 09:42:05.31	DM->CMD	"done"	None	None
+140	2019-10-31 09:42:01.36	CMD	"take a picture"	None	None
+141	2019-10-31 09:42:08.88	DM->RN	" send image"	None	None
+142	2019-10-31 09:42:08.92	DM->CMD	"I will send image."	None	None
+i005	2019-10-31 09:41:50.78	IMAGE	"frame005"	None	None
+143	2019-10-31 09:42:11.29	RN	" sent"	None	None
+144	2019-10-31 09:42:11.35	DM->CMD	"sent"	None	None
+145	2019-10-31 09:42:11.90	CMD	"move forward"	None	None
+146	2019-10-31 09:42:16.60	CMD	"five feet"	None	None
+147	2019-10-31 09:42:24.12	DM->CMD	"Can you repeat that? <beep>"	None	None
+148	2019-10-31 09:42:19.27	CMD	"five feet"	None	None
+149	2019-10-31 09:42:27.00	CMD	"six feet"	None	None
+150	2019-10-31 09:42:30.06	CMD	"six feet"	None	None
+151	2019-10-31 09:42:37.58	DM->CMD	"Can you repeat that? <beep>"	None	None
+152	2019-10-31 09:42:31.85	CMD	"six feet"	None	None
+153	2019-10-31 09:42:39.42	DM->RN	" move forward 6"	None	None
+154	2019-10-31 09:42:39.43	DM->CMD	"I will move forward 6."	None	None
+155	2019-10-31 09:42:40.88	RN	" moving. . ."	None	None
+156	2019-10-31 09:42:40.94	DM->CMD	"moving. . ."	None	None
+157	2019-10-31 09:42:51.85	RN	" done"	None	None
+158	2019-10-31 09:42:51.90	DM->CMD	"done"	None	None
+159	2019-10-31 09:42:48.49	CMD	"turn left"	None	None
+160	2019-10-31 09:42:55.93	DM->CMD	"I will try to move into room on left."	None	None
+161	2019-10-31 09:42:58.37	RN	" moving. . ."	None	None
+162	2019-10-31 09:42:58.45	DM->CMD	"moving. . ."	None	None
+163	2019-10-31 09:43:00.46	CMD	"stop"	None	None
+164	2019-10-31 09:43:07.92	DM->RN	" stop"	None	None
+165	2019-10-31 09:43:07.92	DM->CMD	"Processing...."	None	None
+166	2019-10-31 09:43:09.73	RN	" done"	None	None
+167	2019-10-31 09:43:09.82	DM->CMD	"done"	None	None
+168	2019-10-31 09:43:07.31	CMD	"pass through the door"	None	None
+169	2019-10-31 09:43:14.82	DM->RN	" move into room"	None	None
+170	2019-10-31 09:43:14.82	DM->CMD	"I will try to move into room."	None	None
+171	2019-10-31 09:43:18.28	RN	" moving. . ."	None	None
+172	2019-10-31 09:43:18.42	DM->CMD	"moving. . ."	None	None
+173	2019-10-31 09:43:25.89	RN	" done"	None	None
+174	2019-10-31 09:43:26.00	DM->CMD	"done"	None	None
+175	2019-10-31 09:43:21.19	CMD	"take a picture"	None	None
+176	2019-10-31 09:43:28.72	DM->RN	" send image"	None	None
+177	2019-10-31 09:43:28.73	DM->CMD	"I will send image."	None	None
+i006	2019-10-31 09:43:08.92	IMAGE	"frame006"	None	None
+178	2019-10-31 09:43:31.17	RN	" sent"	None	None
+179	2019-10-31 09:43:31.22	DM->CMD	"sent"	None	None
+180	2019-10-31 09:43:30.36	CMD	"move ahead"	None	None
+181	2019-10-31 09:43:37.87	DM->CMD	"How far forward should I go? <beep>"	None	None
+182	2019-10-31 09:43:33.95	CMD	"through the door"	None	None
+183	2019-10-31 09:43:41.47	DM->CMD	"How far forward should I go? <beep>"	None	None
+184	2019-10-31 09:43:36.41	CMD	"through the door"	None	None
+185	2019-10-31 09:43:43.92	DM->CMD	"Can you repeat that? <beep>"	None	None
+186	2019-10-31 09:43:38.97	CMD	"straight"	None	None
+187	2019-10-31 09:43:46.47	DM->RN	" move forward 3 feet"	None	None
+188	2019-10-31 09:43:46.48	DM->CMD	"I will move forward 3 feet."	None	None
+189	2019-10-31 09:43:49.92	RN	" moving. . ."	None	None
+190	2019-10-31 09:43:49.96	DM->CMD	"moving. . ."	None	None
+191	2019-10-31 09:43:57.04	RN	" done"	None	None
+192	2019-10-31 09:43:57.13	DM->CMD	"done"	None	None
+193	2019-10-31 09:43:57.05	CMD	"move forward"	None	None
+194	2019-10-31 09:44:04.57	DM->CMD	"How far forward should I go? <beep>"	None	None
+195	2019-10-31 09:43:59.58	CMD	"three feet"	None	None
+196	2019-10-31 09:44:07.22	DM->RN	" move forward 3 feet"	None	None
+197	2019-10-31 09:44:07.22	DM->CMD	"I will move forward 3 feet."	None	None
+198	2019-10-31 09:44:09.44	RN	" moving. . ."	None	None
+199	2019-10-31 09:44:09.52	DM->CMD	"moving. . ."	None	None
+200	2019-10-31 09:44:17.11	RN	" done"	None	None
+201	2019-10-31 09:44:17.19	DM->CMD	"done"	None	None
+202	2019-10-31 09:44:12.87	CMD	"turn left"	None	None
+203	2019-10-31 09:44:20.42	DM->CMD	"Can you repeat that? <beep>"	None	None
+204	2019-10-31 09:44:15.77	CMD	"pass through the door"	None	None
+205	2019-10-31 09:44:21.00	CMD	"pass through the door"	None	None
+206	2019-10-31 09:44:24.73	CMD	"pass through the door"	None	None
+207	2019-10-31 09:44:32.42	DM->CMD	"I will try to move into room."	None	None
+208	2019-10-31 09:44:36.24	RN	" The one to my left? <beep>"	None	None
+209	2019-10-31 09:44:36.25	DM->CMD	"The one to my left? <beep>"	None	None
+210	2019-10-31 09:44:32.00	CMD	"yes"	None	None
+211	2019-10-31 09:44:36.75	CMD	"move into the room on your left"	None	None
+212	2019-10-31 09:44:44.32	DM->RN	" move into room"	None	None
+213	2019-10-31 09:44:44.32	DM->CMD	"I will try to move into room."	None	None
+214	2019-10-31 09:44:50.89	RN	" The one closest to me? <beep>"	None	None
+215	2019-10-31 09:44:50.89	DM->CMD	"The one closest to me? <beep>"	None	None
+216	2019-10-31 09:44:46.30	CMD	"yes"	None	None
+217	2019-10-31 09:44:53.78	DM->RN	" yes"	None	None
+218	2019-10-31 09:44:53.78	DM->CMD	"Processing...."	None	None
+219	2019-10-31 09:44:56.02	RN	" moving. . ."	None	None
+220	2019-10-31 09:44:56.11	DM->CMD	"moving. . ."	None	None
+221	2019-10-31 09:45:09.29	RN	" done"	None	None
+222	2019-10-31 09:45:09.32	DM->CMD	"done"	None	None
+223	2019-10-31 09:45:03.71	CMD	"take a picture"	None	None
+224	2019-10-31 09:45:11.23	DM->RN	" send image"	None	None
+225	2019-10-31 09:45:11.23	DM->CMD	"I will send image."	None	None
+i007	2019-10-31 09:44:49.39	IMAGE	"frame007"	None	None
+226	2019-10-31 09:45:13.06	RN	" sent"	None	None
+227	2019-10-31 09:45:13.10	DM->CMD	"sent"	None	None
+228	2019-10-31 09:45:09.68	CMD	"turn right"	None	None
+229	2019-10-31 09:45:17.18	DM->CMD	"Can you repeat that? <beep>"	None	None
+230	2019-10-31 09:45:12.08	CMD	"turn right"	None	None
+231	2019-10-31 09:45:19.58	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+232	2019-10-31 09:45:14.83	CMD	"ninety degrees"	None	None
+233	2019-10-31 09:45:22.33	DM->RN	" turn right 90 degrees"	None	None
+234	2019-10-31 09:45:22.33	DM->CMD	"I will turn right 90 degrees."	None	None
+235	2019-10-31 09:45:24.48	RN	" turning. . ."	None	None
+236	2019-10-31 09:45:24.58	DM->CMD	"turning. . ."	None	None
+237	2019-10-31 09:45:33.26	RN	" done"	None	None
+238	2019-10-31 09:45:33.28	DM->CMD	"done"	None	None
+239	2019-10-31 09:45:30.11	CMD	"take a picture"	None	None
+240	2019-10-31 09:45:37.63	DM->RN	" send image"	None	None
+241	2019-10-31 09:45:37.63	DM->CMD	"I will send image."	None	None
+i008	2019-10-31 09:45:15.54	IMAGE	"frame008"	None	None
+242	2019-10-31 09:45:39.86	RN	" sent"	None	None
+243	2019-10-31 09:45:39.94	DM->CMD	"sent"	None	None
+244	2019-10-31 09:45:41.02	CMD	"turn left"	None	None
+245	2019-10-31 09:45:48.58	DM->CMD	"Can you repeat that? <beep>"	None	None
+246	2019-10-31 09:45:43.92	CMD	"turn left"	None	None
+247	2019-10-31 09:45:51.33	DM->CMD	"How far should I rotate left? <beep>"	None	None
+248	2019-10-31 09:45:46.69	CMD	"one eighty degrees"	None	None
+249	2019-10-31 09:45:54.22	DM->RN	" turn 180"	None	None
+250	2019-10-31 09:45:54.23	DM->CMD	"I will turn 180."	None	None
+251	2019-10-31 09:45:56.42	RN	" turning. . ."	None	None
+252	2019-10-31 09:45:56.53	DM->CMD	"turning. . ."	None	None
+253	2019-10-31 09:46:08.04	RN	" done"	None	None
+254	2019-10-31 09:46:08.10	DM->CMD	"done"	None	None
+255	2019-10-31 09:46:05.63	CMD	"take a picture"	None	None
+256	2019-10-31 09:46:13.17	DM->RN	" send image"	None	None
+257	2019-10-31 09:46:13.18	DM->CMD	"I will send image."	None	None
+i009	2019-10-31 09:45:50.40	IMAGE	"frame009"	None	None
+258	2019-10-31 09:46:15.29	RN	" sent"	None	None
+259	2019-10-31 09:46:15.36	DM->CMD	"sent"	None	None
+260	2019-10-31 09:46:17.31	CMD	"walk straight"	None	None
+261	2019-10-31 09:46:24.88	DM->CMD	"Can you repeat that? <beep>"	None	None
+262	2019-10-31 09:46:20.29	CMD	"move forward"	None	None
+263	2019-10-31 09:46:27.77	DM->CMD	"How far forward should I go? <beep>"	None	None
+264	2019-10-31 09:46:23.64	CMD	"four feet"	None	None
+265	2019-10-31 09:46:31.20	DM->RN	" move forward 4 feet"	None	None
+266	2019-10-31 09:46:31.20	DM->CMD	"I will move forward 4 feet."	None	None
+267	2019-10-31 09:46:33.12	RN	" moving. . ."	None	None
+268	2019-10-31 09:46:33.29	DM->CMD	"moving. . ."	None	None
+269	2019-10-31 09:46:40.50	RN	" done"	None	None
+270	2019-10-31 09:46:40.56	DM->CMD	"done"	None	None
+271	2019-10-31 09:46:43.56	CMD	"turn right"	None	None
+272	2019-10-31 09:46:51.13	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+273	2019-10-31 09:46:46.63	CMD	"thirty degrees"	None	None
+274	2019-10-31 09:46:54.28	DM->RN	" turn right 30 degrees"	None	None
+275	2019-10-31 09:46:54.32	DM->CMD	"I will turn right 30 degrees."	None	None
+276	2019-10-31 09:46:55.86	RN	" turning. . ."	None	None
+277	2019-10-31 09:46:55.92	DM->CMD	"turning. . ."	None	None
+278	2019-10-31 09:47:00.49	RN	" done"	None	None
+279	2019-10-31 09:47:00.63	DM->CMD	"done"	None	None
+280	2019-10-31 09:46:57.56	CMD	"walk straight"	None	None
+281	2019-10-31 09:47:05.13	DM->CMD	"Can you repeat that? <beep>"	None	None
+282	2019-10-31 09:47:00.08	CMD	"move forward"	None	None
+283	2019-10-31 09:47:07.57	DM->CMD	"How far forward should I go? <beep>"	None	None
+284	2019-10-31 09:47:02.33	CMD	"three feet"	None	None
+285	2019-10-31 09:47:09.87	DM->RN	" move forward 1.5 feet"	None	None
+286	2019-10-31 09:47:09.88	DM->CMD	"I will move forward 1.5 feet."	None	None
+287	2019-10-31 09:47:11.62	RN	" moving. . ."	None	None
+288	2019-10-31 09:47:11.69	DM->CMD	"moving. . ."	None	None
+289	2019-10-31 09:47:15.70	RN	" done"	None	None
+290	2019-10-31 09:47:15.78	DM->CMD	"done"	None	None
+291	2019-10-31 09:47:13.35	CMD	"turn right"	None	None
+292	2019-10-31 09:47:20.97	DM->CMD	"Can you repeat that? <beep>"	None	None
+293	2019-10-31 09:47:14.99	CMD	"turn right"	None	None
+294	2019-10-31 09:47:22.52	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+295	2019-10-31 09:47:17.05	CMD	"fifty degrees"	None	None
+296	2019-10-31 09:47:24.58	DM->CMD	"I will turn right 50 degrees."	None	None
+297	2019-10-31 09:47:26.36	RN	" turning. . ."	None	None
+298	2019-10-31 09:47:26.44	DM->CMD	"turning. . ."	None	None
+299	2019-10-31 09:47:36.92	RN	" done"	None	None
+300	2019-10-31 09:47:36.93	DM->CMD	"done"	None	None
+301	2019-10-31 09:47:26.00	CMD	"s<disfl> stop"	None	None
+302	2019-10-31 09:47:29.82	CMD	"stop stop"	None	None
+303	2019-10-31 09:47:37.33	DM->RN	" stop"	None	None
+304	2019-10-31 09:47:37.33	DM->CMD	"Processing...."	None	None
+305	2019-10-31 09:47:33.58	CMD	"move forward"	None	None
+306	2019-10-31 09:47:41.07	DM->CMD	"How far forward should I go? <beep>"	None	None
+307	2019-10-31 09:47:36.54	CMD	"through the door"	None	None
+308	2019-10-31 09:47:44.07	DM->CMD	"Can you repeat that? <beep>"	None	None
+309	2019-10-31 09:47:39.50	CMD	"through the door"	None	None
+310	2019-10-31 09:47:47.02	DM->CMD	"Can you repeat that? <beep>"	None	None
+311	2019-10-31 09:47:41.64	CMD	"into the room"	None	None
+312	2019-10-31 09:47:49.17	DM->RN	" move into room"	None	None
+313	2019-10-31 09:47:49.18	DM->CMD	"I will try to move into room."	None	None
+314	2019-10-31 09:48:01.35	RN	" I'm not sure which room you are referring to. <beep>"	None	None
+315	2019-10-31 09:48:01.35	DM->CMD	"I'm not sure which room you are referring to. <beep>"	None	None
+316	2019-10-31 09:48:02.49	CMD	"the room in front of you"	None	None
+317	2019-10-31 09:48:10.03	DM->RN	" move into room"	None	None
+318	2019-10-31 09:48:10.03	DM->CMD	"I will try to move into room."	None	None
+319	2019-10-31 09:48:20.20	RN	" Can you describe it another way? <beep>"	None	None
+320	2019-10-31 09:48:20.20	DM->CMD	"Can you describe it another way? <beep>"	None	None
+321	2019-10-31 09:48:19.23	CMD	"move forward"	None	None
+322	2019-10-31 09:48:26.83	DM->RN	" move to sign"	None	None
+323	2019-10-31 09:48:26.83	DM->CMD	"I will try to move to sign."	None	None
+324	2019-10-31 09:48:29.61	RN	" moving. . ."	None	None
+325	2019-10-31 09:48:29.78	DM->CMD	"moving. . ."	None	None
+326	2019-10-31 09:48:42.72	RN	" done"	None	None
+327	2019-10-31 09:48:42.83	DM->CMD	"done"	None	None
+328	2019-10-31 09:48:38.49	CMD	"take a picture"	None	None
+329	2019-10-31 09:48:45.98	DM->RN	" send image"	None	None
+330	2019-10-31 09:48:45.99	DM->CMD	"I will send image."	None	None
+i010	2019-10-31 09:48:20.50	IMAGE	"frame010"	None	None
+331	2019-10-31 09:48:48.59	RN	" sent"	None	None
+332	2019-10-31 09:48:48.66	DM->CMD	"sent"	None	None
+333	2019-10-31 09:48:47.31	CMD	"move forward"	None	None
+334	2019-10-31 09:48:54.78	DM->CMD	"Can you repeat that? <beep>"	None	None
+335	2019-10-31 09:48:49.13	CMD	"move forward"	None	None
+336	2019-10-31 09:48:56.67	DM->CMD	"How far forward should I go? <beep>"	None	None
+337	2019-10-31 09:48:51.85	CMD	"three feet"	None	None
+338	2019-10-31 09:48:59.48	DM->RN	" move forward 1.5 feet"	None	None
+339	2019-10-31 09:48:59.48	DM->CMD	"I will move forward 1.5 feet."	None	None
+340	2019-10-31 09:49:01.53	RN	" moving. . ."	None	None
+341	2019-10-31 09:49:01.67	DM->CMD	"moving. . ."	None	None
+342	2019-10-31 09:49:06.89	RN	" done"	None	None
+343	2019-10-31 09:49:07.10	DM->CMD	"done"	None	None
+344	2019-10-31 09:49:04.64	CMD	"turn right"	None	None
+345	2019-10-31 09:49:12.17	DM->CMD	"Can you repeat that? <beep>"	None	None
+346	2019-10-31 09:49:06.83	CMD	"turn right"	None	None
+347	2019-10-31 09:49:14.37	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+348	2019-10-31 09:49:09.60	CMD	"thirty degrees"	None	None
+349	2019-10-31 09:49:17.07	DM->RN	" turn right 30 degrees"	None	None
+350	2019-10-31 09:49:17.08	DM->CMD	"I will turn right 30 degrees."	None	None
+351	2019-10-31 09:49:18.62	RN	" turning. . ."	None	None
+352	2019-10-31 09:49:18.66	DM->CMD	"turning. . ."	None	None
+353	2019-10-31 09:49:25.08	RN	" done"	None	None
+354	2019-10-31 09:49:25.09	DM->CMD	"done"	None	None
+355	2019-10-31 09:49:19.93	CMD	"walk straight"	None	None
+356	2019-10-31 09:49:27.43	DM->CMD	"Can you repeat that? <beep>"	None	None
+357	2019-10-31 09:49:22.20	CMD	"move forward"	None	None
+358	2019-10-31 09:49:29.73	DM->CMD	"How far forward should I go? <beep>"	None	None
+359	2019-10-31 09:49:24.48	CMD	"six feet"	None	None
+360	2019-10-31 09:49:31.98	DM->RN	" move forward 6"	None	None
+361	2019-10-31 09:49:31.98	DM->CMD	"I will move forward 6."	None	None
+362	2019-10-31 09:49:34.03	RN	" moving. . ."	None	None
+363	2019-10-31 09:49:34.13	DM->CMD	"moving. . ."	None	None
+364	2019-10-31 09:49:48.74	RN	" done"	None	None
+365	2019-10-31 09:49:48.77	DM->CMD	"done"	None	None
+366	2019-10-31 09:49:45.10	CMD	"turn towards left"	None	None
+367	2019-10-31 09:49:52.72	DM->RN	" move into room on left"	None	None
+368	2019-10-31 09:49:52.73	DM->CMD	"I will try to move into room on left."	None	None
+369	2019-10-31 09:49:57.78	RN	" moving. . ."	None	None
+370	2019-10-31 09:49:57.89	DM->CMD	"moving. . ."	None	None
+371	2019-10-31 09:50:09.53	CMD	"stop"	None	None
+372	2019-10-31 09:50:17.03	DM->RN	" stop"	None	None
+373	2019-10-31 09:50:17.03	DM->CMD	"Processing...."	None	None
+374	2019-10-31 09:50:18.30	RN	" done"	None	None
+375	2019-10-31 09:50:18.37	DM->CMD	"done"	None	None
+376	2019-10-31 09:50:13.32	CMD	"take a picture"	None	None
+377	2019-10-31 09:50:20.83	DM->RN	" send image"	None	None
+378	2019-10-31 09:50:20.87	DM->CMD	"I will send image."	None	None
+i011	2019-10-31 09:49:53.27	IMAGE	"frame011"	None	None
+379	2019-10-31 09:50:22.88	RN	" sent"	None	None
+380	2019-10-31 09:50:22.97	DM->CMD	"sent"	None	None
+381	2019-10-31 09:50:32.36	CMD	"turn right"	None	None
+382	2019-10-31 09:50:39.83	DM->CMD	"Can you repeat that? <beep>"	None	None
+383	2019-10-31 09:50:34.76	CMD	"turn right"	None	None
+384	2019-10-31 09:50:42.27	DM->CMD	"Can you repeat that? <beep>"	None	None
+385	2019-10-31 09:50:36.65	CMD	"turn right"	None	None
+386	2019-10-31 09:50:44.18	DM->CMD	"Can you repeat that? <beep>"	None	None
+387	2019-10-31 09:50:38.99	CMD	"turn right"	None	None
+388	2019-10-31 09:50:46.48	DM->CMD	"Can you repeat that? <beep>"	None	None
+389	2019-10-31 09:50:41.59	CMD	"move forward"	None	None
+390	2019-10-31 09:50:49.08	DM->CMD	"How far forward should I go? <beep>"	None	None
+391	2019-10-31 09:50:44.11	CMD	"two feet"	None	None
+392	2019-10-31 09:50:51.62	DM->RN	" move forward 1.5 feet"	None	None
+393	2019-10-31 09:50:51.63	DM->CMD	"I will move forward 1.5 feet."	None	None
+394	2019-10-31 09:50:53.52	RN	" moving. . ."	None	None
+395	2019-10-31 09:50:53.59	DM->CMD	"moving. . ."	None	None
+396	2019-10-31 09:50:57.75	RN	" done"	None	None
+397	2019-10-31 09:50:57.80	DM->CMD	"done"	None	None
+398	2019-10-31 09:50:55.45	CMD	"turn right"	None	None
+399	2019-10-31 09:51:02.98	DM->CMD	"How far should I turn to the right? <beep>"	None	None
+400	2019-10-31 09:50:58.54	CMD	"thirty degrees"	None	None
+401	2019-10-31 09:51:06.03	DM->RN	" turn right 30 degrees"	None	None
+402	2019-10-31 09:51:06.03	DM->CMD	"I will turn right 30 degrees."	None	None
+403	2019-10-31 09:51:08.43	RN	" turning. . ."	None	None
+404	2019-10-31 09:51:08.54	DM->CMD	"turning. . ."	None	None
+405	2019-10-31 09:51:14.41	RN	" done"	None	None
+406	2019-10-31 09:51:14.48	DM->CMD	"done"	None	None
+407	2019-10-31 09:51:10.41	CMD	"take a picture"	None	None
+408	2019-10-31 09:51:17.93	DM->CMD	"Can you repeat that? <beep>"	None	None
+409	2019-10-31 09:51:12.84	CMD	"take a picture"	None	None
+410	2019-10-31 09:51:20.33	DM->RN	" send image"	None	None
+411	2019-10-31 09:51:20.37	DM->CMD	"I will send image."	None	None
+i012	2019-10-31 09:50:52.55	IMAGE	"frame012"	None	None
+412	2019-10-31 09:51:23.05	RN	" sent"	None	None
+413	2019-10-31 09:51:23.08	DM->CMD	"sent"	None	None
+414	2019-10-31 09:51:36.14	CMD	"turn left"	None	None
+415	2019-10-31 09:51:43.72	DM->CMD	"Can you repeat that? <beep>"	None	None
+416	2019-10-31 09:51:38.17	CMD	"turn left"	None	None
+417	2019-10-31 09:51:45.68	DM->CMD	"Can you repeat that? <beep>"	None	None
+418	2019-10-31 09:51:40.51	CMD	"turn left"	None	None
+419	2019-10-31 09:51:47.97	DM->CMD	"How far should I rotate left? <beep>"	None	None
+420	2019-10-31 09:51:43.64	CMD	"ninety degrees"	None	None
+421	2019-10-31 09:51:52.71	RN	" turning. . ."	None	None
+422	2019-10-31 09:51:52.78	DM->CMD	"turning. . ."	None	None
+423	2019-10-31 09:52:04.94	RN	" done"	None	None
+424	2019-10-31 09:52:04.96	DM->CMD	"done"	None	None
+425	2019-10-31 09:51:59.63	CMD	"walk straight"	None	None
+426	2019-10-31 09:52:07.13	DM->CMD	"Can you repeat that? <beep>"	None	None
+427	2019-10-31 09:52:02.04	CMD	"move forward"	None	None
+428	2019-10-31 09:52:09.72	DM->CMD	"How far forward should I go? <beep>"	None	None
+429	2019-10-31 09:52:04.97	CMD	"three feet"	None	None
+430	2019-10-31 09:52:12.68	DM->CMD	"Can you repeat that? <beep>"	None	None
+431	2019-10-31 09:52:06.83	CMD	"three feet"	None	None
+432	2019-10-31 09:52:14.43	DM->RN	" move to TV"	None	None
+433	2019-10-31 09:52:14.47	DM->CMD	"I will try to move to TV."	None	None
+434	2019-10-31 09:52:21.35	RN	" Can you describe it another way, using its color, size, or position? <beep>"	None	None
+435	2019-10-31 09:52:21.35	DM->CMD	"Can you describe it another way, using its color, size, or position? <beep>"	None	None
+436	2019-10-31 09:52:18.70	CMD	"move forward"	None	None
+437	2019-10-31 09:52:26.23	DM->CMD	"How far forward should I go? <beep>"	None	None
+438	2019-10-31 09:52:20.94	CMD	"three feet"	None	None
+439	2019-10-31 09:52:28.49	DM->RN	" move forward 3 feet"	None	None
+440	2019-10-31 09:52:28.49	DM->CMD	"I will move forward 3 feet."	None	None
+441	2019-10-31 09:52:29.70	RN	" moving. . ."	None	None
+442	2019-10-31 09:52:30.00	DM->CMD	"moving. . ."	None	None
+443	2019-10-31 09:52:37.32	RN	" done"	None	None
+444	2019-10-31 09:52:37.36	DM->CMD	"done"	None	None
+445	2019-10-31 09:52:35.93	CMD	"move forward three feet"	None	None
+446	2019-10-31 09:52:43.77	DM->RN	" turn left 150 degrees"	None	None
+447	2019-10-31 09:52:43.78	DM->CMD	"I will turn left 150 degrees."	None	None
+448	2019-10-31 09:52:45.57	RN	" turning. . ."	None	None
+449	2019-10-31 09:52:45.62	DM->CMD	"turning. . ."	None	None
+450	2019-10-31 09:53:00.53	RN	" done"	None	None
+451	2019-10-31 09:53:00.57	DM->CMD	"done"	None	None
+452	2019-10-31 09:52:55.59	CMD	"take a picture"	None	None
+453	2019-10-31 09:53:03.08	DM->RN	" send image"	None	None
+454	2019-10-31 09:53:03.08	DM->CMD	"I will send image."	None	None
+i013	2019-10-31 09:52:32.70	IMAGE	"frame013"	None	None
+455	2019-10-31 09:53:05.12	RN	" sent"	None	None
+456	2019-10-31 09:53:05.18	DM->CMD	"sent"	None	None
+457	2019-10-31 09:53:03.75	CMD	"rotate"	None	None
+458	2019-10-31 09:53:11.28	DM->CMD	"Can you repeat that? <beep>"	None	None
+459	2019-10-31 09:53:06.27	CMD	"turn left"	None	None
+460	2019-10-31 09:53:13.79	DM->CMD	"Can you repeat that? <beep>"	None	None
+461	2019-10-31 09:53:07.88	CMD	"turn left"	None	None
+462	2019-10-31 09:53:15.48	DM->CMD	"Can you repeat that? <beep>"	None	None
+463	2019-10-31 09:53:10.47	CMD	"turn left"	None	None
+464	2019-10-31 09:53:17.97	DM->CMD	"How far should I rotate left? <beep>"	None	None
+465	2019-10-31 09:53:13.44	CMD	"one fifty degrees"	None	None
+466	2019-10-31 09:53:20.93	DM->RN	" turn left 150 degrees"	None	None
+467	2019-10-31 09:53:20.93	DM->CMD	"I will turn left 150 degrees."	None	None
+468	2019-10-31 09:53:23.13	RN	" turning. . ."	None	None
+469	2019-10-31 09:53:23.20	DM->CMD	"turning. . ."	None	None
+470	2019-10-31 09:53:40.06	RN	" done"	None	None
+471	2019-10-31 09:53:40.20	DM->CMD	"done"	None	None
+472	2019-10-31 09:53:37.12	CMD	"turn left"	None	None
+473	2019-10-31 09:53:44.68	DM->CMD	"I will send image."	None	None
+i014	2019-10-31 09:53:13.67	IMAGE	"frame014"	None	None
+474	2019-10-31 09:53:46.70	RN	" sent"	None	None
+475	2019-10-31 09:53:46.76	DM->CMD	"sent"	None	None
+476	2019-10-31 09:54:00.81	CMD	"turn left"	None	None
+477	2019-10-31 09:54:08.37	DM->CMD	"Can you repeat that? <beep>"	None	None
+478	2019-10-31 09:54:02.78	CMD	"turn left"	None	None
+479	2019-10-31 09:54:10.28	DM->RN	" move into room on left"	None	None
+480	2019-10-31 09:54:10.32	DM->CMD	"I will try to move into room on left."	None	None
+481	2019-10-31 09:54:20.24	RN	" I'm not sure which room you are referring to. <beep>"	None	None
+482	2019-10-31 09:54:20.24	DM->CMD	"I'm not sure which room you are referring to. <beep>"	None	None
+483	2019-10-31 09:54:16.75	CMD	"on your left"	None	None
+484	2019-10-31 09:54:24.34	DM->CMD	"I will try to move into room."	None	None
+485	2019-10-31 09:54:28.53	RN	" Can you describe it another way? <beep>"	None	None
+486	2019-10-31 09:54:28.53	DM->CMD	"Can you describe it another way? <beep>"	None	None
+487	2019-10-31 09:54:26.35	CMD	"turn left"	None	None
+488	2019-10-31 09:54:33.83	DM->CMD	"Can you repeat that? <beep>"	None	None
+489	2019-10-31 09:54:28.76	CMD	"turn left"	None	None
+490	2019-10-31 09:54:36.24	DM->CMD	"Can you repeat that? <beep>"	None	None
+491	2019-10-31 09:54:30.38	CMD	"turn left"	None	None
+492	2019-10-31 09:54:37.98	DM->CMD	"Can you repeat that? <beep>"	None	None
+493	2019-10-31 09:54:33.47	CMD	"cancel"	None	None
+494	2019-10-31 09:54:40.98	DM->RN	" cancel command"	None	None
+495	2019-10-31 09:54:40.98	DM->CMD	"Processing...."	None	None
+496	2019-10-31 09:54:36.81	CMD	"turn left"	None	None
+497	2019-10-31 09:54:44.28	DM->CMD	"Can you repeat that? <beep>"	None	None
+498	2019-10-31 09:54:39.02	CMD	"turn left"	None	None
+499	2019-10-31 09:54:46.53	DM->RN	" move into room on left"	None	None
+500	2019-10-31 09:54:46.57	DM->CMD	"I will try to move into room on left."	None	None
+501	2019-10-31 09:54:58.44	RN	" Hmm, I'm not sure what you would like me to do. <beep>"	None	None
+502	2019-10-31 09:54:58.44	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	None	None
+503	2019-10-31 09:54:53.99	CMD	"turn left"	None	None
+504	2019-10-31 09:55:01.48	DM->CMD	"How far should I rotate left? <beep>"	None	None
+505	2019-10-31 09:54:58.24	CMD	"thirty degrees"	None	None
+506	2019-10-31 09:55:05.73	DM->RN	" turn left 30 degrees"	None	None
+507	2019-10-31 09:55:05.73	DM->CMD	"I will turn left 30 degrees."	None	None
+508	2019-10-31 09:55:07.45	RN	" turning. . ."	None	None
+509	2019-10-31 09:55:07.54	DM->CMD	"turning. . ."	None	None
+510	2019-10-31 09:55:13.43	RN	" done"	None	None
+511	2019-10-31 09:55:13.48	DM->CMD	"done"	None	None
+512	2019-10-31 09:55:08.35	CMD	"move forward"	None	None
+513	2019-10-31 09:55:15.88	DM->CMD	"How far forward should I go? <beep>"	None	None
+514	2019-10-31 09:55:11.21	CMD	"three feet"	None	None
+515	2019-10-31 09:55:18.83	DM->CMD	"Can you repeat that? <beep>"	None	None
+516	2019-10-31 09:55:14.44	CMD	"three feet"	None	None
+517	2019-10-31 09:55:21.99	DM->CMD	"Can you repeat that? <beep>"	None	None
+518	2019-10-31 09:55:16.51	CMD	"three feet"	None	None
+519	2019-10-31 09:55:24.03	DM->RN	" move forward 3 feet"	None	None
+520	2019-10-31 09:55:24.04	DM->CMD	"I will move forward 3 feet."	None	None
+521	2019-10-31 09:55:27.67	RN	" moving. . ."	None	None
+522	2019-10-31 09:55:27.72	DM->CMD	"moving. . ."	None	None
+523	2019-10-31 09:55:36.55	RN	" done"	None	None
+524	2019-10-31 09:55:36.63	DM->CMD	"done"	None	None
+525	2019-10-31 09:55:38.64	RN	" I moved forward as far as I could."	None	None
+526	2019-10-31 09:55:38.64	DM->CMD	"I moved forward as far as I could."	None	None
+527	2019-10-31 09:55:33.55	CMD	"move forward"	None	None
+528	2019-10-31 09:55:41.08	DM->CMD	"How far forward should I go? <beep>"	None	None
+529	2019-10-31 09:55:37.66	CMD	"two feet"	None	None
+530	2019-10-31 09:55:45.17	DM->RN	" move forward 1.5 feet"	None	None
+531	2019-10-31 09:55:45.18	DM->CMD	"I will move forward 1.5 feet."	None	None
+532	2019-10-31 09:55:49.43	RN	" There's an obstruction preventing me from doing that. <beep>"	None	None
+533	2019-10-31 09:55:49.43	DM->CMD	"There's an obstruction preventing me from doing that. <beep>"	None	None
+534	2019-10-31 09:55:46.51	CMD	"turn left then"	None	None
+535	2019-10-31 09:55:54.03	DM->CMD	"I will No-smoking sign.."	None	None
+536	2019-10-31 09:56:01.05	RN	" I'm not sure which object you are referring to. <beep>"	None	None
+537	2019-10-31 09:56:01.05	DM->CMD	"I'm not sure which object you are referring to. <beep>"	None	None
+538	2019-10-31 09:55:56.01	CMD	"turn left"	None	None
+539	2019-10-31 09:56:15.13	RN	" Can you describe it another way? <beep>"	None	None
+540	2019-10-31 09:56:15.13	DM->CMD	"Can you describe it another way? <beep>"	None	None
+541	2019-10-31 09:56:10.35	CMD	"turn left"	None	None
+542	2019-10-31 09:56:17.87	DM->CMD	"How far should I rotate left? <beep>"	None	None
+543	2019-10-31 09:56:15.42	CMD	"thirty degrees"	None	None
+544	2019-10-31 09:56:22.84	DM->RN	" turn left 30 degrees"	None	None
+545	2019-10-31 09:56:22.84	DM->CMD	"I will turn left 30 degrees."	None	None
+546	2019-10-31 09:56:24.07	RN	" turning. . ."	None	None
+547	2019-10-31 09:56:24.14	DM->CMD	"turning. . ."	None	None
+548	2019-10-31 09:56:29.38	RN	" done"	None	None
+549	2019-10-31 09:56:29.57	DM->CMD	"done"	None	None
+550	2019-10-31 09:56:24.43	CMD	"move forward"	None	None
+551	2019-10-31 09:56:31.99	DM->CMD	"How far forward should I go? <beep>"	None	None
+552	2019-10-31 09:56:27.35	CMD	"one foot"	None	None
+553	2019-10-31 09:56:34.88	DM->RN	" move forward 1 foot"	None	None
+554	2019-10-31 09:56:34.89	DM->CMD	"I will move forward 1 foot."	None	None
+555	2019-10-31 09:56:36.53	RN	" moving. . ."	None	None
+556	2019-10-31 09:56:36.63	DM->CMD	"moving. . ."	None	None
+557	2019-10-31 09:56:41.43	RN	" done"	None	None
+558	2019-10-31 09:56:41.55	DM->CMD	"done"	None	None
+559	2019-10-31 09:56:37.03	CMD	"move forward"	None	None
+560	2019-10-31 09:56:44.53	DM->CMD	"How far forward should I go? <beep>"	None	None
+561	2019-10-31 09:56:39.19	CMD	"one foot"	None	None
+562	2019-10-31 09:56:46.69	DM->RN	" move forward 1 foot"	None	None
+563	2019-10-31 09:56:46.73	DM->CMD	"I will move forward 1 foot."	None	None
+564	2019-10-31 09:56:50.57	RN	" moving. . ."	None	None
+565	2019-10-31 09:56:50.66	DM->CMD	"moving. . ."	None	None
+566	2019-10-31 09:56:56.13	RN	" done"	None	None
+567	2019-10-31 09:56:56.19	DM->CMD	"done"	None	None
+568	2019-10-31 09:56:51.29	CMD	"turn left"	None	None
+569	2019-10-31 09:56:58.78	DM->CMD	"How far should I rotate left? <beep>"	None	None
+570	2019-10-31 09:56:54.25	CMD	"thirty degrees"	None	None
+571	2019-10-31 09:57:01.73	DM->RN	" turn left 30 degrees"	None	None
+572	2019-10-31 09:57:01.73	DM->CMD	"I will turn left 30 degrees."	None	None
+573	2019-10-31 09:57:03.39	RN	" turning. . ."	None	None
+574	2019-10-31 09:57:03.46	DM->CMD	"turning. . ."	None	None
+575	2019-10-31 09:57:09.44	RN	" done"	None	None
+576	2019-10-31 09:57:09.44	DM->CMD	"done"	None	None
+577	2019-10-31 09:57:04.25	CMD	"turn right sixty degrees"	None	None
+578	2019-10-31 09:57:11.83	DM->CMD	"Can you repeat that? <beep>"	None	None
+579	2019-10-31 09:57:06.40	CMD	"turn right"	None	None
+580	2019-10-31 09:57:13.93	DM->CMD	"Can you repeat that? <beep>"	None	None
+581	2019-10-31 09:57:08.49	CMD	"turn right"	None	None
+582	2019-10-31 09:57:16.03	DM->CMD	"Can you repeat that? <beep>"	None	None
+583	2019-10-31 09:57:10.59	CMD	"turn right"	None	None
+584	2019-10-31 09:57:18.13	DM->CMD	"Can you repeat that? <beep>"	None	None
+585	2019-10-31 09:57:12.81	CMD	"turn right"	None	None
+586	2019-10-31 09:57:20.38	DM->CMD	"Can you repeat that? <beep>"	None	None
+587	2019-10-31 09:57:17.66	CMD	"turn right"	None	None
+588	2019-10-31 09:57:25.19	DM->CMD	"Can you repeat that? <beep>"	None	None
+589	2019-10-31 09:57:22.22	CMD	"turn left"	None	None
+590	2019-10-31 09:57:29.79	DM->CMD	"Can you repeat that? <beep>"	None	None
+591	2019-10-31 09:57:25.23	CMD	"move forward"	None	None
+592	2019-10-31 09:57:32.74	DM->CMD	"How far forward should I go? <beep>"	None	None
+593	2019-10-31 09:57:27.98	CMD	"through the door"	None	None
+594	2019-10-31 09:57:35.48	DM->CMD	"Can you repeat that? <beep>"	None	None
+595	2019-10-31 09:57:30.62	CMD	"through the door"	None	None
+596	2019-10-31 09:57:38.15	DM->CMD	"Can you repeat that? <beep>"	None	None
+597	2019-10-31 09:57:33.60	CMD	"into the other room"	None	None
+598	2019-10-31 09:57:41.14	DM->RN	" move into room"	None	None
+599	2019-10-31 09:57:41.17	DM->CMD	"I will try to move into room."	None	None
+600	2019-10-31 09:57:46.61	RN	" moving. . ."	None	None
+601	2019-10-31 09:57:46.68	DM->CMD	"moving. . ."	None	None
+602	2019-10-31 09:58:07.91	RN	" done"	None	None
+603	2019-10-31 09:58:07.97	DM->CMD	"done"	None	None
+604	2019-10-31 09:59:56.09	CMD	"task complete"	None	None
+605	2019-10-31 10:00:03.58	DM->CMD	"Can you repeat that? <beep>"	None	None
+606	2019-10-31 09:59:59.47	CMD	"task complete"	None	None
+607	2019-10-31 10:00:07.04	DM->RN	" end task"	None	None
+608	2019-10-31 10:00:07.04	DM->CMD	"Processing...."	None	None
+609	2019-10-31 10:00:09.63	RN	" Great job, teammate! Task complete. <beep>"	None	None

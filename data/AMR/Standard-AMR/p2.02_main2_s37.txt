@@ -1,0 +1,11 @@
+p2.02_main2_s37
+# ::tok I could n't hear everything you said . < beep >
+# ::snt I couldn't hear everything you said. <beep>
+(p / possible-01
+	:ARG1 (h / hear-01
+		:ARG0 (i / i)
+		:ARG1 (e / everything
+			:ARG1-of (s / say-01
+				:ARG0 (y / you))))
+	:polarity -)
+

@@ -1,0 +1,31 @@
+p2.06_main2_s192
+# ::tok I see objects all around me ; I need your help to decide which are important . < beep >
+# ::snt I see objects all around me; I need your help to decide which are important. <beep>
+(m / multi-sent
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (s / see-01
+			:ARG0 r
+			:ARG1 (o / object
+				:location (a2 / around
+					:mod (a3 / all)
+					:op1 r))
+			:stable -
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (h / help-01
+			:ARG0 c
+			:ARG1 (d / decide-01
+				:ARG0 r
+				:ARG1 (i / important-01
+					:ARG1 (o2 / object
+						:ARG1-of (i2 / include-91
+							:ARG2 o))))
+			:ARG2 r
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+

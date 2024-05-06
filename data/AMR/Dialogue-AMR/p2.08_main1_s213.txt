@@ -1,0 +1,16 @@
+p2.08_main1_s213
+# ::tok I 'm unsure which doorway you mean . < beep >
+# ::snt I'm unsure which doorway you mean. <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (c / clarify-10
+		:ARG0 (c2 / commander)
+		:ARG1 (t / thing
+			:ARG2-of (m / mean-01
+				:ARG0 c2)
+			:domain (d / doorway))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c2)
+

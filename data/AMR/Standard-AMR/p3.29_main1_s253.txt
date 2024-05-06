@@ -1,0 +1,12 @@
+p3.29_main1_s253
+# ::tok meet move five feet forward
+# ::snt meet move five feet forward
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (f / forward)
+	:extent (d / distance-quantity
+		:quant 5
+		:unit (f2 / foot))
+	:mode imperative)
+

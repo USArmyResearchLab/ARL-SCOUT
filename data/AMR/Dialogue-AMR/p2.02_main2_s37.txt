@@ -1,0 +1,18 @@
+p2.02_main2_s37
+# ::tok I could n't hear everything you said . < beep >
+# ::snt I couldn't hear everything you said. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / able-01
+		:ARG1 r
+		:ARG2 (h / hear-01
+			:ARG0 r
+			:ARG1 (e / everything
+				:ARG1-of (s / say-01
+					:ARG0 c)))
+		:polarity -
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

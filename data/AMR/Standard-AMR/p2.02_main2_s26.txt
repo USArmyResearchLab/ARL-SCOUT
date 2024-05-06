@@ -1,0 +1,11 @@
+p2.02_main2_s26
+# ::tok I see two yellow helmets to my left .
+# ::snt I see two yellow helmets to my left.
+(s / see-01
+	:ARG0 (i / i)
+	:ARG1 (h / helmet
+		:ARG1-of (y / yellow-02)
+		:ARG1-of (l / left-20
+			:ARG2 i)
+		:quant 2))
+

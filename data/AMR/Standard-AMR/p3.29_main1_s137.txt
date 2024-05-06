@@ -1,0 +1,13 @@
+p3.29_main1_s137
+# ::tok i ca n't move more than this
+# ::snt i can't move more than this
+(m / move-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:ARG1-of (p / possible-01
+		:polarity -)
+	:extent (d / distance-quantity
+		:ARG1-of (h / have-quant-91
+			:ARG3 (m2 / more)
+			:ARG4 (t / this))))
+

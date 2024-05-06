@@ -1,0 +1,12 @@
+p3.29_main1_s21
+# ::tok I will turn left 45 degrees
+# ::snt I will turn left 45 degrees
+(t / turn-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:direction (l / left-20
+		:ARG2 i)
+	:extent (a / angle-quantity
+		:quant 45
+		:unit (d / degree)))
+

@@ -1,0 +1,13 @@
+p2.02_main2_s30
+# ::tok Would you like me to move to take a good picture ? < beep >
+# ::snt Would you like me to move to take a good picture? <beep>
+(l / like-02
+	:ARG0 (y / you)
+	:ARG1 (m / move-01
+		:ARG0 (i / i)
+		:ARG1 i
+		:purpose (p / picture-01
+			:ARG0 i
+			:ARG1-of (g / good-02)))
+	:polarity (a / amr-unknown))
+

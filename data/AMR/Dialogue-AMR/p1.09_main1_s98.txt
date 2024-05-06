@@ -1,0 +1,21 @@
+p1.09_main1_s98
+# ::tok and then go into the other entryway on the left side of that room
+# ::snt and then go into the other entryway on the left side of that room
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (g / go-02
+			:ARG0 (r2 / robot-dm)
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:location (s / side
+					:ARG1-of (l / left-20)
+					:part-of (r / room
+						:mod (t / that)))
+				:mod (o / other))
+			:completable +
+			:time (t2 / then)
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r2))
+

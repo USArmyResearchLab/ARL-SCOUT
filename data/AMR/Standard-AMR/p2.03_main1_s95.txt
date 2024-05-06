@@ -1,0 +1,10 @@
+p2.03_main1_s95
+# ::tok I see a wall with a window opening .
+# ::snt I see a wall with a window opening.
+(s / see-01
+	:ARG0 (i / i)
+	:ARG1 (w / wall
+		:ARG1-of (h / have-part-91
+			:ARG2 (o / opening
+				:domain (w2 / window)))))
+

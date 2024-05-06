@@ -1,0 +1,12 @@
+p2.03_main2_s12
+# ::tok I 'm not sure .
+# ::snt I'm not sure.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:polarity (a2 / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+

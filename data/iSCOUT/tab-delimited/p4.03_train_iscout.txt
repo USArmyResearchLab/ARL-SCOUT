@@ -1,0 +1,456 @@
+id	time	stream	text	context	notes
+1	2019-07-19 09:09:54.43	CMD	"calibrate"	None	None
+2	2019-07-19 09:09:58.80	RN	"calibrating. . ."	None	None
+3	2019-07-19 09:09:58.82	DM->CMD	"calibrating. . ."	lidar43	None
+4	2019-07-19 09:10:04.54	RN	"calibrating. . ."	None	None
+5	2019-07-19 09:10:04.56	DM->CMD	"calibrating. . ."	lidar44	None
+6	2019-07-19 09:10:10.88	RN	"calibration complete"	None	None
+7	2019-07-19 09:10:10.89	DM->CMD	"calibration complete"	lidar45	None
+8	2019-07-19 09:10:45.40	CMD	"I am ready"	None	None
+9	2019-07-19 09:10:47.15	DM->RN	"participant is ready"	None	None
+10	2019-07-19 09:10:47.16	DM->CMD	"Processing...."	lidar46	None
+11	2019-07-19 09:10:52.15	RN	"I'm also ready.  <beep>"	None	None
+12	2019-07-19 09:10:52.18	DM->CMD	"I'm also ready.  <beep>"	lidar47	None
+13	2019-07-19 09:10:52.89	DM->RN	"participant is ready"	None	None
+14	2019-07-19 09:11:00.51	CMD	"take a picture"	None	None
+15	2019-07-19 09:11:02.26	DM->RN	"send image"	None	None
+16	2019-07-19 09:11:02.27	DM->CMD	"I will send image."	lidar48	None
+17	2019-07-19 09:11:10.14	CMD	"go forward"	None	None
+i000	2019-07-19 09:10:50.03	IMAGE	"frame000"	None	None
+18	2019-07-19 09:11:11.83	RN	"sent"	None	None
+19	2019-07-19 09:11:11.83	DM->CMD	"sent"	lidar49	None
+20	2019-07-19 09:11:11.89	DM->CMD	"How far forward should I go?  <beep>"	lidar50	None
+21	2019-07-19 09:11:13.69	CMD	"ten feet"	None	None
+22	2019-07-19 09:11:15.48	DM->RN	"move forward 10 feet"	None	None
+23	2019-07-19 09:11:15.49	DM->CMD	"I will move forward 10 feet."	lidar51	None
+24	2019-07-19 09:11:25.20	RN	"moving. . ."	None	None
+25	2019-07-19 09:11:25.20	DM->CMD	"moving. . ."	lidar52	None
+26	2019-07-19 09:11:42.07	RN	"done"	None	None
+27	2019-07-19 09:11:42.07	DM->CMD	"done"	lidar53	None
+28	2019-07-19 09:11:44.23	CMD	"turn left"	None	None
+29	2019-07-19 09:11:46.03	DM->CMD	"Can you repeat that?  <beep>"	lidar54	None
+30	2019-07-19 09:11:46.85	CMD	"turn left"	None	None
+31	2019-07-19 09:11:48.61	DM->CMD	"How far left should I turn?  You can tell me to turn to face something that you see. <beep>"	lidar55	None
+32	2019-07-19 09:11:51.13	CMD	"face the doorway"	None	None
+33	2019-07-19 09:11:52.90	DM->CMD	"Can you repeat that?  <beep>"	lidar56	None
+34	2019-07-19 09:11:54.50	CMD	"face the doorway"	None	None
+35	2019-07-19 09:11:56.26	DM->RN	"turn to face doorway"	None	None
+36	2019-07-19 09:11:56.26	DM->CMD	"I will try to turn to face doorway."	lidar57	None
+37	2019-07-19 09:12:03.94	RN	"I'm not sure which doorway you are referring to.  <beep>"	None	None
+38	2019-07-19 09:12:03.94	DM->CMD	"I'm not sure which doorway you are referring to.  <beep>"	lidar58	None
+39	2019-07-19 09:12:09.01	CMD	"turn left ninety degrees"	None	None
+40	2019-07-19 09:12:10.76	DM->RN	"turn left 90 degrees"	None	None
+41	2019-07-19 09:12:10.76	DM->CMD	"I will turn left 90 degrees."	lidar59	None
+42	2019-07-19 09:12:19.10	RN	"turning. . ."	None	None
+43	2019-07-19 09:12:19.10	DM->CMD	"turning. . ."	lidar60	None
+44	2019-07-19 09:12:35.50	RN	"done"	None	None
+45	2019-07-19 09:12:35.50	DM->CMD	"done"	lidar61	None
+46	2019-07-19 09:12:32.98	CMD	"turn left thirty degrees"	None	None
+47	2019-07-19 09:12:34.74	DM->CMD	"I will turn left 30 degrees."	lidar62	None
+48	2019-07-19 09:12:40.47	DM->RN	"turn left 30 degrees"	None	None
+49	2019-07-19 09:12:42.78	RN	"turning. . ."	None	None
+50	2019-07-19 09:12:42.78	DM->CMD	"turning. . ."	lidar63	None
+51	2019-07-19 09:12:48.81	RN	"done"	None	None
+52	2019-07-19 09:12:48.81	DM->CMD	"done"	lidar64	None
+53	2019-07-19 09:12:45.20	CMD	"take a picture"	None	None
+54	2019-07-19 09:12:46.95	DM->RN	"send image"	None	None
+55	2019-07-19 09:12:46.96	DM->CMD	"I will send image."	lidar65	None
+i001	2019-07-19 09:12:32.75	IMAGE	"frame001"	None	None
+56	2019-07-19 09:12:56.17	RN	"sent"	None	None
+57	2019-07-19 09:12:56.17	DM->CMD	"sent"	lidar66	None
+58	2019-07-19 09:12:58.85	CMD	"turn left thirty degrees"	None	None
+59	2019-07-19 09:13:00.60	DM->RN	"turn left 30 degrees"	None	None
+60	2019-07-19 09:13:00.61	DM->CMD	"I will turn left 30 degrees."	lidar67	None
+61	2019-07-19 09:13:10.01	RN	"turning. . ."	None	None
+62	2019-07-19 09:13:10.01	DM->CMD	"turning. . ."	lidar68	None
+63	2019-07-19 09:13:20.80	RN	"done"	None	None
+64	2019-07-19 09:13:20.80	DM->CMD	"done"	lidar69	None
+65	2019-07-19 09:13:17.02	CMD	"take a picture"	None	None
+66	2019-07-19 09:13:18.77	DM->RN	"send image"	None	None
+67	2019-07-19 09:13:18.78	DM->CMD	"I will send image."	lidar70	None
+i002	2019-07-19 09:13:04.34	IMAGE	"frame002"	None	None
+68	2019-07-19 09:13:27.31	RN	"sent"	None	None
+69	2019-07-19 09:13:27.31	DM->CMD	"sent"	lidar71	None
+70	2019-07-19 09:13:26.04	CMD	"turn left forty five degrees"	None	None
+71	2019-07-19 09:13:27.80	DM->RN	"turn left 45 degrees"	None	None
+72	2019-07-19 09:13:27.80	DM->CMD	"I will turn left 45 degrees."	lidar72	None
+73	2019-07-19 09:13:36.34	RN	"turning. . ."	None	None
+74	2019-07-19 09:13:36.34	DM->CMD	"turning. . ."	lidar73	None
+75	2019-07-19 09:13:43.74	RN	"done"	None	None
+76	2019-07-19 09:13:43.74	DM->CMD	"done"	lidar74	None
+77	2019-07-19 09:13:39.93	CMD	"take a picture"	None	None
+78	2019-07-19 09:13:41.68	DM->RN	"send image"	None	None
+79	2019-07-19 09:13:41.69	DM->CMD	"I will send image."	lidar75	None
+i003	2019-07-19 09:13:26.93	IMAGE	"frame003"	None	None
+80	2019-07-19 09:13:49.69	RN	"sent"	None	None
+81	2019-07-19 09:13:49.69	DM->CMD	"sent"	lidar76	None
+82	2019-07-19 09:13:48.49	CMD	"turn left a hundred degrees"	None	None
+83	2019-07-19 09:13:50.25	DM->RN	"turn 180"	None	None
+84	2019-07-19 09:13:50.26	DM->CMD	"I will turn 180."	lidar77	None
+85	2019-07-19 09:13:58.16	RN	"turning. . ."	None	None
+86	2019-07-19 09:13:58.16	DM->CMD	"turning. . ."	lidar78	None
+87	2019-07-19 09:14:02.04	CMD	"stop"	None	None
+88	2019-07-19 09:14:03.79	DM->RN	"stop"	None	None
+89	2019-07-19 09:14:03.80	DM->CMD	"Processing...."	lidar79	None
+90	2019-07-19 09:14:11.62	RN	"done"	None	None
+91	2019-07-19 09:14:11.62	DM->CMD	"done"	lidar80	None
+92	2019-07-19 09:14:07.54	CMD	"take a picture"	None	None
+93	2019-07-19 09:14:09.30	DM->RN	"send image"	None	None
+94	2019-07-19 09:14:09.30	DM->CMD	"I will send image."	lidar81	None
+i004	2019-07-19 09:13:54.79	IMAGE	"frame004"	None	None
+95	2019-07-19 09:14:17.75	RN	"sent"	None	None
+96	2019-07-19 09:14:17.75	DM->CMD	"sent"	lidar82	None
+97	2019-07-19 09:14:25.32	CMD	"left forty five degrees"	None	None
+98	2019-07-19 09:14:27.08	DM->RN	"turn left 45 degrees"	None	None
+99	2019-07-19 09:14:27.09	DM->CMD	"I will turn left 45 degrees."	lidar83	None
+100	2019-07-19 09:14:34.92	RN	"turning. . ."	None	None
+101	2019-07-19 09:14:34.92	DM->CMD	"turning. . ."	lidar84	None
+102	2019-07-19 09:14:41.50	RN	"done"	None	None
+103	2019-07-19 09:14:41.50	DM->CMD	"done"	lidar85	None
+104	2019-07-19 09:14:37.03	CMD	"take a picture"	None	None
+105	2019-07-19 09:14:38.78	DM->RN	"send image"	None	None
+106	2019-07-19 09:14:38.79	DM->CMD	"I will send image."	lidar86	None
+107	2019-07-19 09:14:44.52	DM->RN	"send image"	None	None
+i005	2019-07-19 09:14:23.94	IMAGE	"frame005"	None	None
+108	2019-07-19 09:14:47.21	RN	"sent"	None	None
+109	2019-07-19 09:14:47.21	DM->CMD	"sent"	lidar87	None
+110	2019-07-19 09:14:48.71	CMD	"go forward ten feet"	None	None
+111	2019-07-19 09:14:50.48	DM->RN	"move forward 10 feet"	None	None
+112	2019-07-19 09:14:50.49	DM->CMD	"I will move forward 10 feet."	lidar88	None
+113	2019-07-19 09:14:58.32	RN	"moving. . ."	None	None
+114	2019-07-19 09:14:58.32	DM->CMD	"moving. . ."	lidar89	None
+115	2019-07-19 09:15:15.05	RN	"done"	None	None
+116	2019-07-19 09:15:15.05	DM->CMD	"done"	lidar90	None
+117	2019-07-19 09:15:12.28	CMD	"take a picture"	None	None
+118	2019-07-19 09:15:14.04	DM->RN	"send image"	None	None
+119	2019-07-19 09:15:14.04	DM->CMD	"I will send image."	lidar91	None
+i006	2019-07-19 09:14:58.58	IMAGE	"frame006"	None	None
+120	2019-07-19 09:15:21.79	RN	"sent"	None	None
+121	2019-07-19 09:15:21.79	DM->CMD	"sent"	lidar92	None
+122	2019-07-19 09:15:21.38	CMD	"turn right thirty degrees"	None	None
+123	2019-07-19 09:15:23.14	DM->RN	"turn right 30 degrees"	None	None
+124	2019-07-19 09:15:23.14	DM->CMD	"I will turn right 30 degrees."	lidar93	None
+125	2019-07-19 09:15:31.93	RN	"turning. . ."	None	None
+126	2019-07-19 09:15:31.93	DM->CMD	"turning. . ."	lidar94	None
+127	2019-07-19 09:15:38.47	RN	"done"	None	None
+128	2019-07-19 09:15:38.47	DM->CMD	"done"	lidar95	None
+129	2019-07-19 09:15:36.25	CMD	"go forward seven feet"	None	None
+130	2019-07-19 09:15:38.03	DM->CMD	"Can you repeat that?  <beep>"	lidar96	None
+131	2019-07-19 09:15:40.06	CMD	"go forward seven feet"	None	None
+132	2019-07-19 09:15:41.84	DM->RN	"move forward 7ft"	None	None
+133	2019-07-19 09:15:41.85	DM->CMD	"I will move forward 7ft."	lidar97	None
+134	2019-07-19 09:15:50.05	RN	"moving. . ."	None	None
+135	2019-07-19 09:15:50.05	DM->CMD	"moving. . ."	lidar98	None
+136	2019-07-19 09:16:03.88	RN	"done"	None	None
+137	2019-07-19 09:16:03.88	DM->CMD	"done"	lidar99	None
+138	2019-07-19 09:16:01.11	CMD	"turn left twenty degrees"	None	None
+139	2019-07-19 09:16:02.88	DM->RN	"turn left 20 degrees"	None	None
+140	2019-07-19 09:16:02.88	DM->CMD	"I will turn left 20 degrees."	lidar100	None
+141	2019-07-19 09:16:11.07	RN	"turning. . ."	None	None
+142	2019-07-19 09:16:11.07	DM->CMD	"turning. . ."	lidar101	None
+143	2019-07-19 09:16:16.25	RN	"done"	None	None
+144	2019-07-19 09:16:16.25	DM->CMD	"done"	lidar102	None
+145	2019-07-19 09:16:12.85	CMD	"go forward ten feet"	None	None
+146	2019-07-19 09:16:14.62	DM->RN	"move forward 10 feet"	None	None
+147	2019-07-19 09:16:14.62	DM->CMD	"I will move forward 10 feet."	lidar103	None
+148	2019-07-19 09:16:22.69	RN	"moving. . ."	None	None
+149	2019-07-19 09:16:22.69	DM->CMD	"moving. . ."	lidar104	None
+150	2019-07-19 09:16:40.07	RN	"done"	None	None
+151	2019-07-19 09:16:40.07	DM->CMD	"done"	lidar105	None
+152	2019-07-19 09:16:36.80	CMD	"go backwards five feet"	None	None
+153	2019-07-19 09:16:38.58	DM->RN	"move back 2 feet"	None	None
+154	2019-07-19 09:16:38.58	DM->CMD	"I will move back 2 feet."	lidar106	None
+155	2019-07-19 09:16:46.12	RN	"moving. . ."	None	None
+156	2019-07-19 09:16:46.12	DM->CMD	"moving. . ."	lidar107	None
+157	2019-07-19 09:16:54.01	RN	"done"	None	None
+158	2019-07-19 09:16:54.01	DM->CMD	"done"	lidar108	None
+159	2019-07-19 09:16:48.54	CMD	"take a picture"	None	None
+160	2019-07-19 09:16:50.29	DM->RN	"send image"	None	None
+161	2019-07-19 09:16:50.30	DM->CMD	"I will send image."	lidar109	None
+i007	2019-07-19 09:16:33.60	IMAGE	"frame007"	None	None
+162	2019-07-19 09:16:57.89	RN	"sent"	None	None
+163	2019-07-19 09:16:57.89	DM->CMD	"sent"	lidar110	None
+164	2019-07-19 09:16:56.83	CMD	"go backwards five feet"	None	None
+165	2019-07-19 09:16:58.60	DM->CMD	"I will move back 2 feet."	lidar111	None
+166	2019-07-19 09:17:06.45	RN	"moving. . ."	None	the DM to RN command is missing
+167	2019-07-19 09:17:06.45	DM->CMD	"moving. . ."	lidar112	None
+168	2019-07-19 09:17:16.94	RN	"done"	None	None
+169	2019-07-19 09:17:16.94	DM->CMD	"done"	lidar113	None
+170	2019-07-19 09:17:12.43	CMD	"go backwards two feet"	None	None
+171	2019-07-19 09:17:14.20	DM->RN	"move back 2 feet"	None	None
+172	2019-07-19 09:17:14.20	DM->CMD	"I will move back 2 feet."	lidar114	None
+173	2019-07-19 09:17:22.22	RN	"moving. . ."	None	None
+174	2019-07-19 09:17:22.22	DM->CMD	"moving. . ."	lidar115	None
+175	2019-07-19 09:17:28.45	RN	"done"	None	None
+176	2019-07-19 09:17:28.45	DM->CMD	"done"	lidar116	None
+177	2019-07-19 09:17:23.50	CMD	"take a picture"	None	None
+178	2019-07-19 09:17:25.27	DM->RN	"send image"	None	None
+179	2019-07-19 09:17:25.28	DM->CMD	"I will send image."	lidar117	None
+i008	2019-07-19 09:17:08.39	IMAGE	"frame008"	None	None
+180	2019-07-19 09:17:33.12	RN	"sent"	None	None
+181	2019-07-19 09:17:33.12	DM->CMD	"sent"	lidar118	None
+182	2019-07-19 09:17:30.05	CMD	"turn around"	None	None
+183	2019-07-19 09:17:31.82	DM->RN	"turn left 180"	None	None
+184	2019-07-19 09:17:31.83	DM->CMD	"I will turn left 180."	lidar119	None
+185	2019-07-19 09:17:41.54	RN	"turning. . ."	None	None
+186	2019-07-19 09:17:41.54	DM->CMD	"turning. . ."	lidar120	None
+187	2019-07-19 09:17:59.92	RN	"done"	None	None
+188	2019-07-19 09:17:59.92	DM->CMD	"done"	lidar121	None
+189	2019-07-19 09:17:56.80	CMD	"go forward twenty feet"	None	None
+190	2019-07-19 09:17:58.58	DM->CMD	"How far forward should I go?  <beep>"	lidar122	None
+191	2019-07-19 09:17:59.25	CMD	"twenty feet"	None	None
+192	2019-07-19 09:18:01.03	DM->RN	"move forward 20 feet"	None	None
+193	2019-07-19 09:18:01.03	DM->CMD	"I will try to move forward 20 feet."	lidar123	None
+194	2019-07-19 09:18:08.78	RN	"moving. . ."	None	None
+195	2019-07-19 09:18:08.78	DM->CMD	"moving. . ."	lidar124	None
+196	2019-07-19 09:18:12.88	CMD	"stop"	None	None
+197	2019-07-19 09:18:14.63	DM->RN	"stop"	None	None
+198	2019-07-19 09:18:14.64	DM->CMD	"Processing...."	lidar125	None
+199	2019-07-19 09:18:22.38	RN	"done"	None	None
+200	2019-07-19 09:18:22.38	DM->CMD	"done"	lidar126	None
+201	2019-07-19 09:18:19.91	CMD	"take a picture"	None	None
+202	2019-07-19 09:18:21.68	DM->RN	"send image"	None	None
+203	2019-07-19 09:18:21.68	DM->CMD	"I will send image."	lidar127	None
+i009	2019-07-19 09:18:04.08	IMAGE	"frame009"	None	None
+204	2019-07-19 09:18:29.46	RN	"sent"	None	None
+205	2019-07-19 09:18:29.46	DM->CMD	"sent"	lidar128	None
+206	2019-07-19 09:18:27.04	CMD	"turn right"	None	None
+207	2019-07-19 09:18:28.79	DM->CMD	"How far should I turn to the right?  <beep>"	lidar129	None
+208	2019-07-19 09:18:30.99	CMD	"ninety degrees"	None	None
+209	2019-07-19 09:18:32.75	DM->RN	"turn right 90 degrees"	None	None
+210	2019-07-19 09:18:32.75	DM->CMD	"I will turn right 90 degrees."	lidar130	None
+211	2019-07-19 09:18:40.46	RN	"turning. . ."	None	None
+212	2019-07-19 09:18:40.46	DM->CMD	"turning. . ."	lidar131	None
+213	2019-07-19 09:18:49.53	RN	"done"	None	None
+214	2019-07-19 09:18:49.53	DM->CMD	"done"	lidar132	None
+215	2019-07-19 09:18:44.79	CMD	"take a picture"	None	None
+216	2019-07-19 09:18:46.54	DM->RN	"send image"	None	None
+217	2019-07-19 09:18:46.55	DM->CMD	"I will send image."	lidar133	None
+i010	2019-07-19 09:18:28.46	IMAGE	"frame010"	None	None
+218	2019-07-19 09:18:53.95	RN	"sent"	None	None
+219	2019-07-19 09:18:53.95	DM->CMD	"sent"	lidar134	None
+220	2019-07-19 09:19:18.79	CMD	"go forward five feet"	None	None
+221	2019-07-19 09:19:20.57	DM->RN	"move forward 5 feet"	None	None
+222	2019-07-19 09:19:20.57	DM->CMD	"I will move forward 5 feet."	lidar135	None
+223	2019-07-19 09:19:32.04	RN	"I will move forward as far as I can, ok?  <beep>"	None	None
+224	2019-07-19 09:19:32.04	DM->CMD	"I will move forward as far as I can, ok?  <beep>"	lidar136	None
+225	2019-07-19 09:19:33.99	CMD	"okay"	None	None
+226	2019-07-19 09:19:35.74	DM->RN	"move to front wall ahead"	None	None
+227	2019-07-19 09:19:35.74	DM->CMD	"I will move to front wall ahead."	lidar137	None
+228	2019-07-19 09:19:44.38	RN	"moving. . ."	None	None
+229	2019-07-19 09:19:44.38	DM->CMD	"moving. . ."	lidar138	None
+230	2019-07-19 09:19:53.51	RN	"done"	None	None
+231	2019-07-19 09:19:53.51	DM->CMD	"done"	lidar139	None
+232	2019-07-19 09:19:48.96	CMD	"take a picture"	None	None
+233	2019-07-19 09:19:50.74	DM->RN	"send image"	None	None
+234	2019-07-19 09:19:50.74	DM->CMD	"I will send image."	lidar140	None
+i011	2019-07-19 09:19:32.46	IMAGE	"frame011"	None	None
+235	2019-07-19 09:19:58.81	RN	"sent"	None	None
+236	2019-07-19 09:19:58.81	DM->CMD	"sent"	lidar141	None
+237	2019-07-19 09:19:56.36	CMD	"turn left five degrees"	None	None
+238	2019-07-19 09:19:58.13	DM->RN	"turn left 5 degrees"	None	None
+239	2019-07-19 09:19:58.14	DM->CMD	"I will turn left 5 degrees."	lidar142	None
+240	2019-07-19 09:20:05.44	CMD	"take a picture"	None	None
+241	2019-07-19 09:20:06.03	RN	"turning. . ."	None	None
+242	2019-07-19 09:20:06.03	DM->CMD	"turning. . ."	lidar143	None
+243	2019-07-19 09:20:07.20	DM->RN	"send image"	None	None
+244	2019-07-19 09:20:07.22	DM->CMD	"I will send image."	lidar144	None
+245	2019-07-19 09:20:09.66	RN	"done"	None	None
+246	2019-07-19 09:20:09.66	DM->CMD	"done"	lidar145	None
+i012	2019-07-19 09:19:48.69	IMAGE	"frame012"	None	None
+247	2019-07-19 09:20:15.44	RN	"sent"	None	None
+248	2019-07-19 09:20:15.44	DM->CMD	"sent"	lidar146	None
+249	2019-07-19 09:20:17.34	CMD	"turn left ten degrees"	None	None
+250	2019-07-19 09:20:19.09	DM->CMD	"Can you repeat that?  <beep>"	lidar147	None
+251	2019-07-19 09:20:20.39	CMD	"turn left ten degrees"	None	None
+252	2019-07-19 09:20:22.14	DM->RN	"turn left 10 degrees"	None	None
+253	2019-07-19 09:20:22.14	DM->CMD	"I will turn left 10 degrees."	lidar148	None
+254	2019-07-19 09:20:30.46	RN	"turning. . ."	None	None
+255	2019-07-19 09:20:30.46	DM->CMD	"turning. . ."	lidar149	None
+256	2019-07-19 09:20:35.07	RN	"done"	None	None
+257	2019-07-19 09:20:35.07	DM->CMD	"done"	lidar150	None
+258	2019-07-19 09:20:31.94	CMD	"take picture"	None	None
+259	2019-07-19 09:20:33.70	DM->RN	"send image"	None	None
+260	2019-07-19 09:20:33.70	DM->CMD	"I will send image."	lidar151	None
+i013	2019-07-19 09:20:14.48	IMAGE	"frame013"	None	None
+261	2019-07-19 09:20:41.08	RN	"sent"	None	None
+262	2019-07-19 09:20:41.08	DM->CMD	"sent"	lidar152	None
+263	2019-07-19 09:20:51.89	CMD	"can you go back to the wall on the east side"	None	None
+264	2019-07-19 09:20:53.65	DM->CMD	"Can you rephrase that?  <beep>"	lidar153	None
+265	2019-07-19 09:20:56.90	CMD	"can you go back to the wall to your east"	None	None
+266	2019-07-19 09:20:58.68	DM->CMD	"Can you rephrase that?  <beep>"	lidar154	None
+267	2019-07-19 09:21:07.44	CMD	"go to the east wall"	None	None
+268	2019-07-19 09:21:09.20	DM->CMD	"Can you rephrase that?  <beep>"	lidar155	None
+269	2019-07-19 09:21:18.19	CMD	"backup five feet"	None	None
+270	2019-07-19 09:21:18.19	CMD	"then turn towards the east"	None	None
+271	2019-07-19 09:21:19.95	DM->CMD	"Can you rephrase that?  <beep>"	lidar156	None
+272	2019-07-19 09:21:20.99	CMD	"backup five feet"	None	None
+273	2019-07-19 09:21:22.74	DM->CMD	"Can you rephrase that?  <beep>"	lidar157	None
+274	2019-07-19 09:21:26.04	CMD	"go backwards five feet"	None	None
+275	2019-07-19 09:21:28.48	DM->CMD	"Can you rephrase that?  <beep>"	lidar158	None
+276	2019-07-19 09:21:34.29	CMD	"go backwards five feet"	None	None
+277	2019-07-19 09:21:36.08	DM->CMD	"Can you rephrase that?  <beep>"	lidar159	None
+278	2019-07-19 09:21:41.71	CMD	"go backwards"	None	None
+279	2019-07-19 09:21:43.49	DM->CMD	"Can you rephrase that?  <beep>"	lidar160	None
+280	2019-07-19 09:21:44.25	CMD	"go backwards"	None	None
+281	2019-07-19 09:21:46.03	DM->CMD	"Can you rephrase that?  <beep>"	lidar161	None
+282	2019-07-19 09:21:49.20	CMD	"turn left"	None	None
+283	2019-07-19 09:21:50.99	DM->CMD	"Can you rephrase that?  <beep>"	lidar162	None
+284	2019-07-19 09:21:58.99	CMD	"turn right"	None	None
+285	2019-07-19 09:22:00.77	DM->CMD	"Can you rephrase that?  <beep>"	lidar163	None
+286	2019-07-19 09:22:07.91	CMD	"turn left"	None	None
+287	2019-07-19 09:22:09.69	DM->CMD	"Can you rephrase that?  <beep>"	lidar164	None
+288	2019-07-19 09:22:13.80	CMD	"take a picture"	None	None
+289	2019-07-19 09:22:15.58	DM->CMD	"Can you rephrase that?  <beep>"	lidar165	None
+290	2019-07-19 09:22:25.45	CMD	"calibrate"	None	None
+291	2019-07-19 09:22:27.23	DM->CMD	"Can you rephrase that?  <beep>"	lidar166	None
+292	2019-07-19 09:22:57.80	CMD	"go backwards"	None	None
+293	2019-07-19 09:22:59.58	DM->RN	"move back 2 feet"	None	None
+294	2019-07-19 09:22:59.58	DM->CMD	"I will move back 2 feet."	lidar167	None
+295	2019-07-19 09:23:10.19	RN	"moving. . ."	None	None
+296	2019-07-19 09:23:10.19	DM->CMD	"moving. . ."	lidar168	None
+297	2019-07-19 09:23:17.79	RN	"done"	None	None
+298	2019-07-19 09:23:17.79	DM->CMD	"done"	lidar169	None
+299	2019-07-19 09:23:14.80	CMD	"turn left"	None	None
+300	2019-07-19 09:23:16.59	DM->CMD	"Can you repeat that?  <beep>"	lidar170	None
+301	2019-07-19 09:23:19.09	CMD	"turn left"	None	None
+302	2019-07-19 09:23:20.84	DM->CMD	"How far left should I turn?  You can tell me to turn to face something that you see. <beep>"	lidar171	None
+303	2019-07-19 09:23:24.54	CMD	"face the first doorway"	None	None
+304	2019-07-19 09:23:26.33	DM->CMD	"Can you repeat that?  <beep>"	lidar172	None
+305	2019-07-19 09:23:27.95	CMD	"face the doorway"	None	None
+306	2019-07-19 09:23:29.73	DM->RN	"turn to face doorway"	None	None
+307	2019-07-19 09:23:29.73	DM->CMD	"I will try to turn to face doorway."	lidar173	None
+308	2019-07-19 09:23:41.07	RN	"I'm unsure which doorway you mean.  <beep>"	None	None
+309	2019-07-19 09:23:41.09	DM->CMD	"I'm unsure which doorway you mean.  <beep>"	lidar174	None
+310	2019-07-19 09:23:45.14	CMD	"turn left thirty degrees"	None	None
+311	2019-07-19 09:23:46.89	DM->RN	"turn left 30 degrees"	None	None
+312	2019-07-19 09:23:46.90	DM->CMD	"I will turn left 30 degrees."	lidar175	None
+313	2019-07-19 09:23:55.72	RN	"turning. . ."	None	None
+314	2019-07-19 09:23:55.72	DM->CMD	"turning. . ."	lidar176	None
+315	2019-07-19 09:24:05.57	RN	"done"	None	None
+316	2019-07-19 09:24:05.57	DM->CMD	"done"	lidar177	None
+317	2019-07-19 09:24:01.76	CMD	"turn left thirty degrees"	None	None
+318	2019-07-19 09:24:03.53	DM->CMD	"How far left should I turn?  You can tell me to turn to face something that you see. <beep>"	lidar178	None
+319	2019-07-19 09:24:04.79	CMD	"thirty degrees"	None	None
+320	2019-07-19 09:24:06.54	DM->RN	"turn left 30 degrees"	None	None
+321	2019-07-19 09:24:06.54	DM->CMD	"I will turn left 30 degrees."	lidar179	None
+322	2019-07-19 09:24:14.17	RN	"turning. . ."	None	None
+323	2019-07-19 09:24:14.17	DM->CMD	"turning. . ."	lidar180	None
+324	2019-07-19 09:24:18.20	RN	"done"	None	None
+325	2019-07-19 09:24:18.20	DM->CMD	"done"	lidar181	None
+326	2019-07-19 09:24:14.24	CMD	"go forward fifteen feet"	None	None
+327	2019-07-19 09:24:16.03	DM->RN	"move forward 15 feet"	None	None
+328	2019-07-19 09:24:16.03	DM->CMD	"I will move forward 15 feet."	lidar182	None
+329	2019-07-19 09:24:23.04	RN	"moving. . ."	None	None
+330	2019-07-19 09:24:23.04	DM->CMD	"moving. . ."	lidar183	None
+331	2019-07-19 09:24:44.00	RN	"done"	None	None
+332	2019-07-19 09:24:44.00	DM->CMD	"done"	lidar184	None
+333	2019-07-19 09:24:39.56	CMD	"take a picture"	None	None
+334	2019-07-19 09:24:41.34	DM->RN	"send image"	None	None
+335	2019-07-19 09:24:41.34	DM->CMD	"I will send image."	lidar185	None
+i014	2019-07-19 09:24:19.86	IMAGE	"frame014"	None	None
+336	2019-07-19 09:24:49.27	RN	"sent"	None	None
+337	2019-07-19 09:24:49.27	DM->CMD	"sent"	lidar186	None
+338	2019-07-19 09:24:48.24	CMD	"face the doorway"	None	None
+339	2019-07-19 09:24:50.03	DM->CMD	"Can you repeat that?  <beep>"	lidar187	None
+340	2019-07-19 09:24:50.59	CMD	"face the doorway"	None	None
+341	2019-07-19 09:24:52.38	DM->CMD	"Can you repeat that?  <beep>"	lidar188	None
+342	2019-07-19 09:24:53.25	CMD	"face the doorway"	None	None
+343	2019-07-19 09:24:55.03	DM->CMD	"Can you repeat that?  <beep>"	lidar189	None
+344	2019-07-19 09:24:57.09	CMD	"face the doorway"	None	None
+345	2019-07-19 09:24:58.85	DM->CMD	"Can you repeat that?  <beep>"	lidar190	None
+346	2019-07-19 09:25:00.09	CMD	"turn right"	None	None
+347	2019-07-19 09:25:01.84	DM->CMD	"How far should I turn to the right?  <beep>"	lidar191	None
+348	2019-07-19 09:25:04.80	CMD	"ninety degrees"	None	None
+349	2019-07-19 09:25:06.58	DM->RN	"turn right 90 degrees"	None	None
+350	2019-07-19 09:25:06.58	DM->CMD	"I will turn right 90 degrees."	lidar192	None
+351	2019-07-19 09:25:14.20	CMD	"stop"	None	None
+352	2019-07-19 09:25:14.59	RN	"turning. . ."	None	None
+353	2019-07-19 09:25:14.59	DM->CMD	"turning. . ."	lidar193	None
+354	2019-07-19 09:25:15.98	DM->RN	"stop"	None	None
+355	2019-07-19 09:25:15.98	DM->CMD	"Processing...."	lidar194	None
+356	2019-07-19 09:25:24.02	RN	"done"	None	None
+357	2019-07-19 09:25:24.02	DM->CMD	"done"	lidar195	None
+358	2019-07-19 09:25:19.14	CMD	"take a picture"	None	None
+359	2019-07-19 09:25:20.89	DM->RN	"send image"	None	None
+360	2019-07-19 09:25:20.90	DM->CMD	"I will send image."	lidar196	None
+i015	2019-07-19 09:24:58.78	IMAGE	"frame015"	None	None
+361	2019-07-19 09:25:28.53	RN	"sent"	None	None
+362	2019-07-19 09:25:28.53	DM->CMD	"sent"	lidar197	None
+363	2019-07-19 09:25:36.71	CMD	"go forward five feet"	None	None
+364	2019-07-19 09:25:38.50	DM->CMD	"Can you repeat that?  <beep>"	lidar198	None
+365	2019-07-19 09:25:41.34	CMD	"go forward as far as you can"	None	None
+366	2019-07-19 09:25:43.10	DM->RN	"move into room"	None	None
+367	2019-07-19 09:25:43.10	DM->CMD	"I will try to move into room."	lidar199	None
+368	2019-07-19 09:26:04.16	RN	"done"	None	None
+369	2019-07-19 09:26:04.16	DM->CMD	"done"	lidar200	None
+370	2019-07-19 09:26:01.59	CMD	"take a picture"	None	None
+371	2019-07-19 09:26:03.35	DM->RN	"send image"	None	None
+372	2019-07-19 09:26:03.38	DM->CMD	"I will send image."	lidar201	None
+i016	2019-07-19 09:25:40.71	IMAGE	"frame016"	None	None
+373	2019-07-19 09:26:11.16	RN	"sent"	None	None
+374	2019-07-19 09:26:11.16	DM->CMD	"sent"	lidar202	None
+375	2019-07-19 09:26:07.06	CMD	"go in there"	None	None
+376	2019-07-19 09:26:08.85	DM->CMD	"Can you repeat that?  <beep>"	lidar203	None
+377	2019-07-19 09:26:10.35	CMD	"move into the room"	None	None
+378	2019-07-19 09:26:12.13	DM->RN	"move into the center of the current room"	None	None
+379	2019-07-19 09:26:12.13	DM->CMD	"I will move into the center of the current room."	lidar204	None
+380	2019-07-19 09:26:25.43	RN	"Can you describe it another way?  <beep>"	None	None
+381	2019-07-19 09:26:25.43	DM->CMD	"Can you describe it another way?  <beep>"	lidar205	None
+382	2019-07-19 09:26:27.99	CMD	"go forward five feet "	None	None
+383	2019-07-19 09:26:29.75	DM->CMD	"How far forward should I go?  <beep>"	lidar206	None
+384	2019-07-19 09:26:53.24	CMD	"can you go past the cone"	None	None
+385	2019-07-19 09:26:55.03	DM->RN	"move to doorway"	None	None
+386	2019-07-19 09:26:55.03	DM->CMD	"I will move to doorway."	lidar207	None
+387	2019-07-19 09:27:17.27	RN	"done"	None	None
+388	2019-07-19 09:27:17.27	DM->CMD	"done"	lidar208	None
+389	2019-07-19 09:27:14.36	CMD	"go forward one feet"	None	None
+390	2019-07-19 09:27:16.15	DM->RN	"move forward 1 foot"	None	None
+391	2019-07-19 09:27:16.18	DM->CMD	"I will move forward 1 foot."	lidar209	None
+392	2019-07-19 09:27:18.98	RN	"There's an obstruction preventing me from doing that.  <beep>"	None	None
+393	2019-07-19 09:27:18.98	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	lidar210	None
+394	2019-07-19 09:27:21.89	DM->RN	"move forward 1 foot"	None	None
+395	2019-07-19 09:27:24.11	CMD	"turn right ninety degrees"	None	None
+396	2019-07-19 09:27:25.88	DM->CMD	"How far should I turn to the right?  <beep>"	lidar211	None
+397	2019-07-19 09:27:26.49	CMD	"ninety degrees"	None	None
+398	2019-07-19 09:27:28.24	DM->RN	"turn right 90 degrees"	None	None
+399	2019-07-19 09:27:28.24	DM->CMD	"I will turn right 90 degrees."	lidar212	None
+400	2019-07-19 09:27:38.43	RN	"turning. . ."	None	None
+401	2019-07-19 09:27:38.43	DM->CMD	"turning. . ."	lidar213	None
+402	2019-07-19 09:27:47.74	RN	"done"	None	None
+403	2019-07-19 09:27:47.74	DM->CMD	"done"	lidar214	None
+404	2019-07-19 09:27:42.44	CMD	"take a picture"	None	None
+405	2019-07-19 09:27:44.19	DM->RN	"send image"	None	None
+406	2019-07-19 09:27:44.20	DM->CMD	"I will send image."	lidar215	None
+i017	2019-07-19 09:27:20.36	IMAGE	"frame017"	None	None
+407	2019-07-19 09:27:51.90	RN	"sent"	None	None
+408	2019-07-19 09:27:51.90	DM->CMD	"sent"	lidar216	None
+409	2019-07-19 09:28:05.01	CMD	"go to the end of the alley"	None	None
+410	2019-07-19 09:28:06.79	DM->RN	"move to start position"	None	None
+411	2019-07-19 09:28:06.80	DM->CMD	"I will try to move to start position."	lidar217	None
+412	2019-07-19 09:28:20.45	RN	"moving. . ."	None	None
+413	2019-07-19 09:28:20.45	DM->CMD	"moving. . ."	lidar218	None
+414	2019-07-19 09:28:49.46	RN	"done"	None	None
+415	2019-07-19 09:28:49.46	DM->CMD	"done"	lidar219	None
+416	2019-07-19 09:29:40.79	CMD	"turn left"	None	None
+417	2019-07-19 09:29:42.55	DM->CMD	"How far should I move forward?  You can tell me to move to an object that you see or a distance.  I can send you a photo to start, ok? <beep>"	lidar220	None
+418	2019-07-19 09:29:45.84	CMD	"no"	None	None
+419	2019-07-19 09:29:47.59	DM->RN	"no"	None	None
+420	2019-07-19 09:29:47.60	DM->CMD	"Processing...."	lidar221	None
+421	2019-07-19 09:30:10.59	CMD	"turn around"	None	None
+422	2019-07-19 09:30:12.34	DM->RN	"turn left 180"	None	None
+423	2019-07-19 09:30:12.34	DM->CMD	"I will turn left 180."	lidar222	None
+424	2019-07-19 09:30:18.08	DM->RN	"turn left 180"	None	None
+425	2019-07-19 09:30:21.98	RN	"turning. . ."	None	None
+426	2019-07-19 09:30:21.98	DM->CMD	"turning. . ."	lidar223	None
+427	2019-07-19 09:30:42.30	RN	"done"	None	None
+428	2019-07-19 09:30:42.30	DM->CMD	"done"	lidar224	None
+429	2019-07-19 09:30:36.39	CMD	"take a picture"	None	None
+430	2019-07-19 09:30:38.14	DM->RN	"send image"	None	None
+431	2019-07-19 09:30:38.15	DM->CMD	"I will send image."	lidar225	None
+i018	2019-07-19 09:30:12.54	IMAGE	"frame018"	None	None
+432	2019-07-19 09:30:45.61	RN	"sent"	None	None
+433	2019-07-19 09:30:45.61	DM->CMD	"sent"	lidar226	None
+434	2019-07-19 09:31:15.34	CMD	"task complete"	None	None
+435	2019-07-19 09:31:17.09	DM->RN	"end task"	None	None
+436	2019-07-19 09:31:17.10	DM->CMD	"Processing...."	lidar227	None

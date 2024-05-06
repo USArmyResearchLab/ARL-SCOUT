@@ -1,0 +1,13 @@
+p3.29_main1_s261
+# ::tok turn right 45 degrees
+# ::snt turn right 45 degrees
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (r / right-04
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 45
+		:unit (d / degree))
+	:mode imperative)
+

@@ -1,0 +1,158 @@
+id	time	stream	text	context	notes
+1	12.11	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	None	None
+2	61.19	CMD	"explore the room"	None	None
+3	89.18	DM->CMD	"I need your help to explore the room and tell me what to do first.  Should I send you a picture so you can see what's here?"	None	None
+4	92.52000000000001	CMD	"send me a picture"	None	None
+5	92.88	RN	"<not speech>"	None	None
+6	94.31	RN	"<not speech>"	None	None
+7	97.65	DM->RN	"photo"	None	None
+i000	104.99	IMAGE	"frame000"	None	None
+8	104.5	RN	"image sent"	None	None
+9	106.16	DM->CMD	"sent"	None	None
+10	113.39	CMD	"face the door on your left"	None	None
+11	119.81	RN	"<not speech>"	None	None
+12	127	DM->CMD	"I see two doors on my left.  Which door?"	None	None
+13	127.46	CMD	"face the closest door on your left"	None	None
+14	130.79	RN	"<not speech>"	None	None
+15	140.49	DM->RN	"Move to face the closest door on your left."	None	None
+16	144.39	DM->CMD	"executing..."	None	None
+17	152.65	RN	"done"	None	None
+18	153.78	CMD	"go in the room"	None	None
+19	154.62	DM->CMD	"done"	None	None
+20	171.63	DM->CMD	"There's an obstruction at the entrance.  Would you like me to send a picture?"	None	None
+21	172.33	CMD	"send a picture"	None	None
+22	176.45	DM->RN	"photo"	None	None
+i001	177.34	IMAGE	"frame001"	None	None
+23	176.46	RN	"image sent"	None	None
+24	179.02	DM->CMD	"sent"	None	None
+25	183.62	CMD	"go to the other door"	None	None
+26	197.86	DM->RN	"Move to the other door."	None	None
+27	201.82	DM->CMD	"executing..."	None	None
+28	209.54	RN	"done"	None	None
+29	210.58	CMD	"go in that room"	None	None
+30	212.45	DM->CMD	"done"	None	None
+31	228.59	DM->CMD	"There's an obstruction at the entrance.  Would you like me to send a picture?"	None	None
+32	232.86	CMD	"send a picture"	None	None
+33	243.35	DM->RN	"turn to face the door, photo"	None	None
+i002	254.28	IMAGE	"frame002"	None	None
+34	252.89	RN	"image sent"	None	None
+35	255.52	DM->CMD	"sent"	None	None
+36	259.44	CMD	"face your starting position"	None	None
+37	260.77	CMD	"and send a picture"	None	None
+38	270.95	DM->RN	"turn to face the starting position, photo"	None	None
+39	274.14	DM->CMD	"executing..."	None	None
+i003	279.51	IMAGE	"frame003"	None	None
+40	279.08	RN	"image sent"	None	None
+41	281.22	DM->CMD	"sent"	None	None
+42	285.26	CMD	"go back to your starting position"	None	None
+43	293.63	DM->RN	"return to start"	None	None
+44	297.58	DM->CMD	"executing..."	None	None
+45	334.1	RN	"<not speech>"	None	None
+46	312.87	DM->CMD	"done"	None	None
+47	335.09	CMD	"turn left"	None	None
+48	338.27	CMD	"send a picture"	None	None
+49	344.18	DM->CMD	"How far should I turn left?"	None	None
+50	359.42	CMD	"turn nintety degrees left"	None	None
+51	372.02	DM->RN	"turn 90 left, photo"	None	None
+52	375.56	DM->CMD	"executing..."	None	None
+i004	381.24	IMAGE	"frame004"	None	None
+53	380.16	RN	"image sent"	None	None
+54	382.21	DM->CMD	"sent"	None	None
+55	425.99	CMD	"face the nearest traffic cone"	None	None
+56	460.1	DM->CMD	"I'm not sure which object is the traffic cone.  Can you describe it in another way, using color or spatial relations?"	None	None
+57	466.23	CMD	"face the nearest orange cone"	None	None
+58	481.32	DM->RN	"Move to face the nearest orange cone."	None	None
+59	485.67	DM->CMD	"executing..."	None	None
+60	492.46	RN	"done"	None	None
+61	494.48	DM->CMD	"done"	None	None
+62	525.06	CMD	"move to the right side of the orange cone"	None	None
+63	564.53	DM->RN	"Move to the right side of the orange cone."	None	None
+64	568.78	DM->CMD	"executing..."	None	None
+65	572.48	RN	"I don't think I'll fit"	None	None
+66	590.69	DM->CMD	"I won't fit there, but I can move further to the right, ok?"	None	None
+67	592.3299999999999	CMD	"okay do that"	None	None
+68	615.35	DM->RN	"move as far towards the right side as you can fit."	None	None
+69	619.71	DM->CMD	"executing..."	None	None
+70	624.98	RN	"done"	None	None
+71	626.98	DM->CMD	"done"	None	None
+72	644.5899999999999	CMD	"face the left side of the orange cone"	None	None
+73	665.94	DM->RN	"Move to face the left side of the orange cone."	None	None
+74	669.94	DM->CMD	"executing..."	None	None
+75	688.71	RN	"<unintelligible>"	None	None
+76	681.87	DM->CMD	"done"	None	None
+77	738.77	CMD	"<sigh> face east"	None	None
+78	755.45	DM->RN	"face east"	None	None
+79	762.42	DM->CMD	"executing..."	None	None
+80	768.03	CMD	"take a picture"	None	None
+81	773.09	RN	"done"	None	None
+82	774.52	DM->CMD	"done"	None	None
+83	777.29	DM->RN	"photo"	None	None
+i005	778.84	IMAGE	"frame005"	None	None
+84	778.43	RN	"image sent"	None	None
+85	781.53	DM->CMD	"sent"	None	None
+86	784.58	CMD	"face south"	None	None
+87	785.5	CMD	"and take a picture"	None	None
+88	792.52	DM->RN	"face south, photo"	None	None
+89	795.5	DM->CMD	"executing..."	None	None
+i006	803.03	IMAGE	"frame006"	None	None
+90	802.61	RN	"done"	None	None
+91	802.82	CMD	"face west"	None	None
+92	804.11	CMD	"and take a picture"	None	None
+93	804.21	DM->CMD	"sent"	None	None
+94	812.15	DM->RN	"face west, photo"	None	None
+95	815.52	DM->CMD	"executing..."	None	None
+i007	833.27	IMAGE	"frame007"	None	None
+96	832.78	RN	"image sent"	None	None
+97	835.05	DM->CMD	"sent"	None	None
+98	846.63	CMD	"face north"	None	None
+99	848.16	CMD	"and take a picture"	None	None
+100	857.62	DM->RN	"face north, photo"	None	None
+i008	869.27	IMAGE	"frame008"	None	None
+101	868.77	RN	"image sent"	None	None
+102	869.38	DM->CMD	"executing..."	None	None
+103	870.76	DM->CMD	"sent"	None	None
+104	894.02	CMD	"go to the wall behind you"	None	None
+105	896.85	CMD	"face north"	None	None
+106	897.75	CMD	"and then take a picture"	None	None
+107	931.99	DM->CMD	"Do you want me to back up to the wall behind me, or turn to go to it?"	None	None
+108	932	CMD	"back up"	None	None
+109	945.75	DM->RN	"back up to the wall behind you"	None	None
+110	955.89	DM->CMD	"Ok, back up to the wall and then what?"	None	None
+111	956.64	CMD	"take a picture"	None	None
+112	957.53	RN	"done"	None	None
+113	962.7	DM->RN	"photo"	None	None
+i009	964.94	IMAGE	"frame009"	None	None
+114	964.47	RN	"image sent"	None	None
+115	966.14	DM->CMD	"sent"	None	None
+116	974.66	CMD	"go through the other door"	None	None
+117	986.78	DM->RN	"Move to the other door"	None	None
+118	990.82	DM->CMD	"executing..."	None	None
+119	1006.43	DM->CMD	"done"	None	None
+120	1007.52	RN	"<unintelligible>"	None	None
+121	1008.52	CMD	"back up to the wall behind you"	None	None
+122	1010.73	RN	"<unintelligible>"	None	None
+123	1018.15	DM->RN	"back up to the wall behind you."	None	None
+124	1021.45	DM->CMD	"executing..."	None	None
+125	1021.87	CMD	"take a picture"	None	None
+126	1028.53	DM->RN	"photo"	None	None
+i010	1030.95	IMAGE	"frame010"	None	None
+127	1030.8	RN	"image sent"	None	None
+128	1031.53	DM->CMD	"done"	None	None
+129	1032.84	DM->CMD	"sent"	None	None
+130	1119.16	CMD	"turn northeast"	None	None
+131	1121.06	CMD	"and take a picture"	None	None
+132	1133.32	DM->RN	"face northeast and photo"	None	None
+133	1144.9	DM->CMD	"executing..."	None	None
+i011	1145.68	IMAGE	"frame011"	None	None
+134	1145.15	RN	"image sent"	None	None
+135	1146.7	CMD	"turn east"	None	None
+136	1147.49	DM->CMD	"sent"	None	None
+137	1148.31	CMD	"and take a picture"	None	None
+138	1158.84	DM->RN	"face east, photo"	None	None
+139	1161.88	DM->CMD	"executing..."	None	None
+i012	1167.18	IMAGE	"frame012"	None	None
+140	1166.75	RN	"<unintelligible>"	None	None
+141	1169.61	DM->CMD	"sent"	None	None
+142	1195.03	CMD	"<k:um how many>"	None	None
+143	1197.85	CMD	"there are three doorways"	None	None
+144	1203.21	DM->RN	"ending task"	None	None

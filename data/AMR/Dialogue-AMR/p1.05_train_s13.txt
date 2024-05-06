@@ -1,0 +1,33 @@
+p1.05_train_s13
+# ::tok I think that you are more familiar with doorways than I am , but you can tell me to move to any object or part of the building you can see .
+# ::snt I think that you are more familiar with doorways than I am, but you can tell me to move to any object or part of the building you can see.
+(c / contrast-01
+	:ARG1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (f / familiarize-01
+			:ARG1 (c2 / commander)
+			:ARG2 (d / doorway)
+			:ARG2-of (h / have-degree-91
+				:ARG1 c2
+				:ARG3 (m / more)
+				:ARG4 r)
+			:stable +
+			:time (n / now))
+		:ARG2 c2)
+	:ARG2 (o / open-option-SA
+		:ARG0 r
+		:ARG1 (m2 / move-01
+			:ARG0 r
+			:ARG1 r
+			:ARG2 (o2 / or
+				:ARG1-of (s / see-01
+					:ARG0 c2
+					:ARG1-of (p2 / possible-01))
+				:op1 (o3 / object
+					:mod (a2 / any))
+				:op2 (p / part
+					:part-of (b / building)))
+			:completable +
+			:time (n2 / now))
+		:ARG2 c2))
+

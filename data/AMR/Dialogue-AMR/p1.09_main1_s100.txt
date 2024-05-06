@@ -1,0 +1,63 @@
+p1.09_main1_s100
+# ::tok back up to entry way of room , photo , move to door currently to your left , then send photo , turn 180 , send photo
+# ::snt back up to entry way of room, photo, move to door currently to your left, then send photo, turn 180, send photo
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG0 r2
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:part-of (r / room))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r2
+				:ARG1 r2)
+			:time (a2 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:op3 (g2 / go-02
+			:ARG0 r2
+			:ARG3 (h2 / here)
+			:ARG4 (d / door
+				:ARG1-of (l / left-20
+					:ARG2 r2
+					:time (c3 / current)))
+			:completable +
+			:time (a4 / after
+				:op1 (n3 / now)))
+		:op4 (s2 / send-image-99
+			:ARG0 r2
+			:ARG1 (i2 / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a5 / after
+				:op1 (n4 / now))
+			:time (t / then))
+		:op5 (t2 / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:extent (a7 / angle-quantity
+				:quant 180
+				:unit (d2 / degree))
+			:time (a6 / after
+				:op1 (n5 / now)))
+		:op6 (s3 / send-image-99
+			:ARG0 r2
+			:ARG1 (i3 / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a8 / after
+				:op1 (n6 / now))))
+	:ARG2 (r2 / robot-rn))
+

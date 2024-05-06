@@ -1,0 +1,12 @@
+p3.29_main1_s264
+# ::tok I turned right 45 degrees
+# ::snt I turned right 45 degrees
+(t / turn-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:direction (r / right-04
+		:ARG2 i)
+	:extent (a / angle-quantity
+		:quant 45
+		:unit (d / degree)))
+

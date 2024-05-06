@@ -1,0 +1,10 @@
+p2.01_main1_s256
+# ::tok < pause > how far away are you from the object in front of you
+# ::snt <pause> how far away are you from the object in front of you
+(y / you
+	:location (r / relative-position
+		:op1 (o / object)
+		:quant (a / amr-unknown))
+	:op1-of (i / in-front-of
+		:location-of o))
+

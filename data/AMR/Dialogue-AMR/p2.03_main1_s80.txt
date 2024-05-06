@@ -1,0 +1,15 @@
+p2.03_main1_s80
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

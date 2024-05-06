@@ -1,0 +1,15 @@
+p2.08_main1_s195
+# ::tok I do n't see a door on the left . < beep >
+# ::snt I don't see a door on the left. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (d / door
+			:ARG1-of (l / left-20
+				:ARG2 r))
+		:polarity -
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+

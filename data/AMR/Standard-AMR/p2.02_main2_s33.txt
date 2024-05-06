@@ -1,0 +1,10 @@
+p2.02_main2_s33
+# ::tok move to cement block
+# ::snt move to cement block
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:ARG2 (b / block
+		:consist-of (c / cement))
+	:mode imperative)
+

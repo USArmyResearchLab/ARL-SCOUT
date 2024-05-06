@@ -1,0 +1,248 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	3.67	RN	"calibration complete"	None	None
+2	8.53	DM->CMD	"calibration complete"	None	None
+3	11.09	DM->RN	"photo"	None	None
+i000	15.29	IMAGE	"frame000"	None	None
+4	14.5	RN	"image sent"	None	None
+5	16.94	DM->CMD	"sent"	None	None
+6	30.82	CMD	"robot turn a hundred eighty degrees"	None	None
+7	33.92	CMD	"and take a photo"	None	None
+8	41.63	DM->RN	"turn 180, photo"	None	None
+9	45.68	DM->CMD	"executing..."	None	None
+i001	62.19	IMAGE	"frame001"	None	None
+10	61.45999999999999	RN	"image sent"	None	None
+11	63.69	CMD	"robot turn one hundred and eighty degrees"	None	None
+12	65.07	DM->CMD	"sent"	None	None
+13	67.19	CMD	"<pause> and proceed through the doorway about one foot into the room"	None	None
+14	73.25999999999999	CMD	"then take a photo"	None	None
+15	100.84	DM->CMD	"I'm not sure which doorway you mean?"	None	None
+16	100.85	CMD	"robot turn one hundred and eighty degrees"	None	None
+17	103.17	DM->RN	"turn 180"	None	None
+18	104	CMD	"and take a photo"	None	None
+19	110.12	DM->CMD	"executing..."	None	None
+20	113.47	DM->RN	"then photo"	None	None
+21	118.29	RN	"done"	None	None
+22	121.81	CMD	"robot proceed two meters"	None	None
+i002	121.47	IMAGE	"frame002"	None	None
+23	122.07	RN	"image sent"	None	None
+24	122.45	DM->CMD	"sent"	None	None
+25	125.49	CMD	"turn ninety degrees to the right"	None	None
+26	127.24	CMD	"and take a photo"	None	None
+27	137.03	DM->RN	"move forward 2 meters, turn 90 right, photo"	None	None
+28	140.6	DM->CMD	"executing..."	None	None
+i003	166.27	IMAGE	"frame003"	None	None
+29	164.73	RN	"image sent"	None	None
+30	167.72	DM->CMD	"sent"	None	None
+31	169.45	CMD	"robot turn ninety degrees to the left"	None	None
+32	174.24	CMD	"and continue to the farther wall"	None	None
+33	189.41	DM->RN	"turn 90 left"	None	None
+34	200.92	RN	"done"	None	None
+35	202.44	DM->CMD	"I'm not sure what you mean by the farther wall.  Where should I continue to?"	None	None
+36	207.56	CMD	"robot continue down the hallway directly in front of you underneath the overhead light"	None	None
+37	253.31	DM->CMD	"I don't see an overhead light in my current position.  Would you like me to send a photo?"	None	None
+38	254.73	CMD	"robot send a photo"	None	None
+39	260.21	DM->RN	"photo"	None	None
+i004	262.59	IMAGE	"frame004"	None	None
+40	261.03	RN	"image sent"	None	None
+41	261.87	CMD	"robot continue <pause> moving forward to the right of the red bucket"	None	None
+42	267.33	DM->CMD	"sent"	None	None
+43	271.21	CMD	"and continue forward until you reach the wall"	None	None
+44	288.65	DM->RN	"move forward through space to the right of bucket, continue until you reach the wall in front of you"	None	None
+45	291.96	DM->CMD	"executing..."	None	None
+46	301.89	CMD	"robot turn ninety degrees left"	None	None
+47	304.83	RN	"done"	None	None
+48	306.31	CMD	"and take a photo"	None	None
+49	307.47	DM->CMD	"done"	None	None
+50	312.65	DM->RN	"turn 90 left, phoot"	None	None
+51	319.32	DM->CMD	"executing..."	None	None
+i005	324.86	IMAGE	"frame005"	None	None
+52	326.31	RN	"<no speech>"	None	None
+53	326.19	DM->CMD	"sent"	None	None
+54	332.38	CMD	"robot continue forward"	None	None
+55	336.15	CMD	"and take a photo of the item hanging off the desk"	None	None
+56	350.83	DM->CMD	"executing..."	None	None
+57	365.95	DM->RN	"move halfway to the newspaper on right, take photo"	None	None
+i006	382.04	IMAGE	"frame006"	None	None
+58	380.67	RN	"image sent"	None	None
+59	383.74	DM->CMD	"sent"	None	None
+60	395.31	CMD	"robot turn ninety degrees to the left"	None	None
+61	399.32	CMD	"and take a photo"	None	None
+62	405.89	DM->RN	"turn 90 left, photo"	None	None
+63	410.37	DM->CMD	"executing..."	None	None
+i007	423.44	IMAGE	"frame007"	None	None
+64	422.04	RN	"image sent"	None	None
+65	424.84	DM->CMD	"sent"	None	None
+66	426.23	CMD	"robot continue further"	None	None
+67	431.74	CMD	"and take a photo of the map on the wall"	None	None
+68	446.01	DM->RN	"move to face the map on the wall, photo"	None	None
+69	450.33	DM->CMD	"executing..."	None	None
+i008	469.09	IMAGE	"frame008"	None	None
+70	468	RN	"image sent"	None	None
+71	470.05	DM->CMD	"sent"	None	None
+72	482.92	CMD	"robot return to the main hallway"	None	None
+73	498.21	DM->RN	"return to hallway from entrance you came in"	None	None
+74	502.17	DM->CMD	"executing..."	None	None
+75	510.95	RN	"done"	None	None
+76	513.82	DM->CMD	"done"	None	None
+77	517.23	CMD	"robot take a photo"	None	None
+78	523.76	DM->RN	"photo"	None	None
+i009	526.27	IMAGE	"frame009"	None	None
+79	523.77	RN	"image sent"	None	None
+80	527.14	DM->CMD	"sent"	None	None
+81	534.16	CMD	"robot continue to the second doorway in the hallway"	None	None
+82	541.46	CMD	"turn left ninety degrees"	None	None
+83	544.06	CMD	"and take a photo"	None	None
+84	546.24	RN	"<no speech>"	None	None
+85	562.6	DM->RN	"move to second doorway, turn left 90, photo"	None	None
+86	566.07	DM->CMD	"executing..."	None	None
+87	570.9399999999999	RN	"<unintelligible>"	None	None
+i010	595.74	IMAGE	"frame010"	None	None
+88	594.2199999999999	RN	"image sent"	None	None
+89	596.94	DM->CMD	"sent"	None	None
+90	597.66	CMD	"robot take a photo of the poster on the wall"	None	None
+91	602.7099999999999	RN	"<no speech>"	None	None
+92	608.16	RN	"<no speech>"	None	None
+93	618.73	DM->RN	"move halfway to poster on the wall, photo"	None	None
+94	622.44	DM->CMD	"executing..."	None	None
+i011	718.98	IMAGE	"frame011"	None	None
+95	622.64	RN	"alright so <unintelligible>"	None	None
+96	638.9	DM->CMD	"PLease be patient, I'm experiencing technical issues."	None	None
+97	666.31	RN	"<no speech>"	None	None
+98	678.07	RN	"<no speech>"	None	None
+99	686.17	DM->RN	"system"	None	None
+100	712.6	DM->CMD	"executing..."	None	None
+101	717.9699999999999	RN	"<no speech>"	None	None
+102	720	DM->CMD	"sent"	None	None
+103	726.9599999999999	RN	"<no speech>"	None	None
+104	736.24	RN	"<no speech>"	None	None
+105	770.14	RN	"<no speech>"	None	None
+106	785.03	RN	"<no speech>"	None	None
+107	787.88	RN	"<no speech>"	None	None
+108	790.08	RN	"<no speech>"	None	None
+109	791.79	RN	"<no speech>"	None	None
+110	792.54	RN	"<no speech>"	None	None
+111	794.58	RN	"<no speech>"	None	None
+112	797.53	RN	"<no speech>"	None	None
+113	805.5899999999999	RN	"<no speech>"	None	None
+114	811.1099999999999	RN	"<no speech>"	None	None
+115	835.8499999999999	RN	"<no speech>"	None	None
+116	840.2199999999999	RN	"<no speech>"	None	None
+117	882.6	DM->CMD	"system"	None	None
+118	884.2199999999999	RN	"<no speech>"	None	None
+119	892.05	RN	"<no speech>"	None	None
+120	895.55	RN	"<no speech>"	None	None
+121	903.2	RN	"<no speech>"	None	None
+122	904.37	RN	"<no speech>"	None	None
+123	905.53	RN	"<no speech>"	None	None
+124	941.55	RN	"<no speech>"	None	None
+125	943.8	RN	"<no speech>"	None	None
+126	967.31	RN	"<no speech>"	None	None
+127	970.43	RN	"<no speech>"	None	None
+128	974.7099999999999	RN	"<no speech>"	None	None
+129	976.2299999999999	RN	"<no speech>"	None	None
+130	980.3599999999999	RN	"<no speech>"	None	None
+131	989.07	RN	"<no speech>"	None	None
+132	992.99	RN	"<no speech>"	None	None
+133	994.8	RN	"<no speech>"	None	None
+134	1011.51	DM->CMD	"system"	None	None
+135	1033.25	CMD	"uh recalibrate"	None	None
+136	1040.27	DM->RN	"calibrate"	None	None
+137	1045.31	DM->CMD	"calibrating..."	None	None
+138	1048.19	RN	"yeah version <unintelligible>"	None	None
+139	1050.65	DM->CMD	"calibration complete"	None	None
+140	1050.82	CMD	"robot turn ninety degrees right"	None	None
+141	1055.05	CMD	"and take a photo"	None	None
+142	1057.25	RN	"<no speech>"	None	None
+143	1060.37	DM->RN	"turn 90 right, photo"	None	None
+144	1064.45	DM->CMD	"executing..."	None	None
+i012	1078.65	IMAGE	"frame012"	None	None
+145	1077.88	RN	"image sent"	None	None
+146	1078.57	CMD	"robot proceed to the middle of the room in front of you"	None	None
+147	1080.38	DM->CMD	"sent"	None	None
+148	1086.39	CMD	"then turn ninety degrees right"	None	None
+149	1088.92	CMD	"and take a photo"	None	None
+150	1113.61	RN	"<no speech>"	None	None
+151	1123.8	RN	"<no speech>"	None	None
+152	1125.97	DM->CMD	"I'm not sure which room you mean.  Should I proceed to the middle of this room or the next room?"	None	None
+153	1128.01	CMD	"robot proceed to the middle of the next room"	None	None
+154	1135.2	CMD	"turn ninety degrees right"	None	None
+155	1137.32	CMD	"and then take a photo"	None	None
+156	1148.09	DM->RN	"move through the doorway in front of you, proceed to middle of room, turn 90 right, photo"	None	None
+157	1151.68	DM->CMD	"executing..."	None	None
+i013	1192.12	IMAGE	"frame013"	None	None
+158	1190.82	RN	"image sent"	None	None
+159	1193.57	DM->CMD	"sent"	None	None
+160	1196.72	CMD	"robot enter the hallway through the door thirty five degrees to your right and in front of you <pause>"	None	None
+161	1211.12	CMD	"then face left in the hallway"	None	None
+162	1214.49	CMD	"and take a photo"	None	None
+163	1246.62	DM->CMD	"I'm not sure what you mean by face left?"	None	None
+164	1248.6	CMD	"<sigh> robot exit the doorway in front of you moving into the main hall"	None	None
+165	1250.28	DM->RN	"move into hallway through doorway 45 degrees to right in front of you"	None	None
+166	1261.65	CMD	"robot turn forty five degrees left"	None	None
+167	1262.64	RN	"done"	None	None
+168	1266.59	CMD	"and take a photo"	None	None
+169	1274.33	DM->RN	"turn 45 left, photo"	None	None
+170	1277.86	DM->CMD	"executing..."	None	None
+i014	1281.8	IMAGE	"frame014"	None	None
+171	1280.56	RN	"image sent"	None	None
+172	1283.11	DM->CMD	"sent"	None	None
+173	1285.84	CMD	"robot turn forty five <xxx unintelligible> degrees left"	None	None
+174	1289.75	CMD	"and take a photo <laughter>"	None	None
+175	1295.52	RN	"<no speech>"	None	None
+176	1296.86	DM->RN	"turn 45 left, hpoto"	None	None
+177	1301.11	DM->CMD	"executing..."	None	None
+i015	1308.92	IMAGE	"frame015"	None	None
+178	1307.66	RN	"image sent"	None	None
+179	1310.04	DM->CMD	"sente"	None	None
+180	1312.25	CMD	"robot continue down this hallway to the next doorway on the left"	None	None
+181	1330.15	DM->RN	"continue down hallway to next door on left"	None	None
+182	1334.35	DM->CMD	"executing..."	None	None
+183	1343.09	CMD	"robot <pause> turn nine <pause> robot turn ninety degrees left"	None	None
+184	1347.56	RN	"done"	None	None
+185	1347.1	DM->CMD	"done"	None	None
+186	1350.29	CMD	"and take a photo"	None	None
+187	1357.08	DM->RN	"turn 90 left, photo"	None	None
+188	1361.75	DM->CMD	"executing..."	None	None
+i016	1365.45	IMAGE	"frame016"	None	None
+189	1364.42	RN	"image sent"	None	None
+190	1367.12	DM->CMD	"sent"	None	None
+191	1368.09	CMD	"robot take a photo of the cereal box on the desk"	None	None
+192	1383.68	DM->RN	"move to face the cereal box on desk, photo"	None	None
+193	1388.77	DM->CMD	"executing..."	None	None
+i017	1401.79	IMAGE	"frame017"	None	None
+194	1400.7	RN	"image sent"	None	None
+195	1403.16	CMD	"robot turn a hundred and eighty degrees"	None	None
+196	1403.21	DM->CMD	"sent"	None	None
+197	1406.58	CMD	"and take a photo"	None	None
+198	1414.73	DM->RN	"turn 180, photo"	None	None
+199	1419.24	DM->CMD	"executing..."	None	None
+i018	1433.75	IMAGE	"frame018"	None	None
+200	1432.6	RN	"image sent"	None	None
+201	1435.32	DM->CMD	"sent"	None	None
+202	1443.83	CMD	"robot continue through the doorway in front of you"	None	None
+203	1448.68	CMD	"turn ninety degrees right"	None	None
+204	1450.09	CMD	"and take a photo"	None	None
+205	1459.58	DM->RN	"move through doorway in front of you, turn 90 right, photo"	None	None
+206	1463.57	DM->CMD	"executing..."	None	None
+i019	1478.7	IMAGE	"frame019"	None	None
+207	1477.65	RN	"image sent"	None	None
+208	1480.33	DM->CMD	"sent"	None	None
+209	1486.26	CMD	"robot continue into the hallway here"	None	None
+210	1503.4	DM->CMD	"How far should I continue into the hallway?"	None	None
+211	1504.11	CMD	"robot continue into the beginning of the hallway"	None	None
+212	1508.15	CMD	"then face north"	None	None
+213	1509.51	CMD	"and take a photo"	None	None
+214	1555.86	DM->RN	"Move just into hallway, face North down hallway, photo"	None	None
+215	1559.47	DM->CMD	"executing..."	None	None
+i020	1576.3	IMAGE	"frame020"	None	None
+216	1575.37	RN	"image sent"	None	None
+217	1578.49	DM->CMD	"sent"	None	None
+218	1580.58	CMD	"<b: uhh so how many doorways were there>"	None	None
+219	1587.87	CMD	"i found nine doorways"	None	None
+220	1591.82	CMD	"uh i saw two shovels"	None	None
+221	1594.52	CMD	"<b: okay and do you think there's anything that could that you could use to coordinate operations or activities in a headquarters type environment in there>"	None	None
+222	1601.77	CMD	"yeah there was what looked like a planning room there was a table with a bunch of chairs around it and a nefarious looking academic poster on it and a map of north africa on the wall and a calendar"	None	None
+223	1612.94	CMD	"<b: okay and were the last occupants speakers of english or some other foreign language>"	None	None
+224	1617.28	CMD	"uhhh it looked like they spoke arabic because their calendar their map and their movie posters were all in arabic"	None	None
+225	1624.4	CMD	"<b:okay>"	None	None

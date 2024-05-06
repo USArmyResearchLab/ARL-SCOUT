@@ -1,0 +1,95 @@
+id	time	stream	text	tu	rel	ant	context
+2	15.9	DM->CMD	"calibration complete"	1	1	translation-l	None
+3	18.14	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	2	None	None	None
+4	36.9	CMD	"<k: now you can begin>"	X-CMD	None	None	None
+5	38.32	CMD	"i am ready"	3	None	None	None
+6	65.63	DM->CMD	"I'm ready too.  "	3	5	reciprocal	None
+7	65.63	DM->CMD	"Would you like me to send you a picture so you can see the space?"	4	None	None	None
+8	66.54	CMD	"yes"	4	7	offer-accept	None
+9	78.6	DM->RN	"image"	4	8*	translation-r-direct	None
+10	79.29	RN	"image sent"	4	9	ack-done	None
+11	82.31	DM->CMD	"sent"	4	10	translation-l	None
+12	123.21	CMD	"<pause> trying to find out the number of doorways"	5	None	None	None
+13	179.82	DM->CMD	"I think that you are more familiar with doorways than I am, but you can tell me to move to any object or part of the building you can see."	5	12	comment	None
+14	186.74	CMD	"move to the end of the hallway"	6	None	None	None
+15	205.18	DM->RN	"move to the end of the hallway"	6	14	translation-r-direct	None
+16	209.16	DM->CMD	"executing..."	6	14	ack-doing	None
+17	223.67	RN	"done"	6	15	ack-done	None
+18	226.87	DM->CMD	"done"	6	17	translation-l	None
+19	229.02	CMD	"take another picture"	7	None	None	None
+20	242.12	DM->RN	"image"	7	19	translation-r-direct	None
+21	242.13	RN	"image sent"	7	20	ack-done	None
+22	245.21	DM->CMD	"sent"	7	21	translation-l	None
+23	259.52	CMD	"turn around"	8	None	None	None
+24	259.52	CMD	"and go back the opposite direction"	8	23	continue	None
+25	306.89	DM->CMD	"I can turn around and then how far should I go back the opposite direction?  You can tell me to move to any object or part of the building you can see, or a distance to move."	8	24	req-clar	None
+26	320.86	CMD	"move to the middle of the building"	8	25	clar-repair	None
+27	330.74	DM->RN	"rotate 180"	8	23	translation-r-direct	None
+28	345.92	RN	"done"	8	27	ack-done	None
+29	352.29	DM->CMD	"The middle of the building is outside of my operational zone.  I can move to the middle of this alley, ok?"	8	26	ack-try	None
+30	354.28	CMD	"yes"	8	29	answer	None
+31	369.76	DM->RN	"move to the middle of the alley"	8	30*	translation-r-direct	None
+32	372.97	DM->CMD	"executing..."	8	30*	ack-doing	None
+33	380.9	CMD	"stop there"	9	None	None	None
+34	386.44	CMD	"take another picture"	9	33	continue	None
+35	390.94	RN	"done"	8	31	ack-done	None
+36	396.97	DM->CMD	"done"	8	35	translation-l	None
+37	400.18	DM->RN	"image"	9	34	translation-r-direct	None
+38	401.54	RN	"image sent"	9	37	ack-done	None
+39	404	DM->CMD	"sent"	9	38	translation-l	None
+40	411.78	CMD	"move to where you see the first cone"	10	None	None	None
+41	466.95	DM->CMD	"I'm not sure which object you are referring to.  Can you describe it in another way, using color or its location?"	10	40	req-clar	None
+42	473.33	CMD	"<pause> move to the cone on the right a red cone on the right"	10	41	clar-repair	None
+43	500.29	DM->RN	"move to face the cone on the right"	10	42*	translation-r-direct	None
+44	504.57	DM->CMD	"executing..."	10	42*	ack-doing	None
+45	509.74	CMD	"take another picture"	11	None	None	None
+46	513.78	RN	"done"	10	43	ack-done	None
+47	516.28	DM->CMD	"done"	10	46	translation-l	None
+48	522.4	DM->RN	"image"	11	45	translation-r-direct	None
+49	525.94	RN	"image sent"	11	48	ack-done	None
+50	529.32	DM->CMD	"sent"	11	49	translation-l	None
+51	582.37	CMD	"<someone else talking, unintelligible>"	X-CMD	None	None	None
+52	617.33	CMD	"<pause, no command given entire press>"	X-CMD	None	None	None
+53	634.8	CMD	"turn to the left"	12	None	None	None
+54	638.23	CMD	"and go back down the hallway"	12	53	continue	None
+55	683.3	DM->CMD	"How far should I turn to the left? You can tell me to turn to face something, or a number of degrees or towards a particular direction."	12	53	req-clar	None
+56	726.5	CMD	"can you go back in this direction where you came from"	12	55	clar-repair	None
+57	750.13	DM->CMD	"Would you like me to return to my starting position?"	12	56	req-clar	None
+58	750.15	CMD	"return to your starting position"	12	57	clar-repair	None
+59	764.51	DM->RN	"return to start position"	12	58	translation-r-direct	None
+60	768.23	DM->CMD	"executing..."	12	58	ack-doing	None
+61	768.51	CMD	"take another photo"	13	None	None	None
+62	779.04	RN	"done"	12	59	ack-done	None
+63	781.58	DM->RN	"image"	13	61	translation-r-direct	None
+64	783.96	DM->CMD	"done"	12	62	translation-l	None
+65	787.04	RN	"image sent"	13	63	ack-done	None
+66	789.52	DM->CMD	"sent"	13	65	translation-l	None
+67	814.41	CMD	"move to the second doorway on the left"	14	None	None	None
+68	831.72	DM->RN	"move to the second doorway on the left"	14	67	translation-r-direct	None
+69	835.33	DM->CMD	"executing..."	14	67	ack-doing	None
+70	839.15	CMD	"take another picture"	15	None	None	None
+71	846.23	RN	"done"	14	68	ack-done	None
+72	848.83	DM->CMD	"done"	14	71	translation-l	None
+73	852.14	DM->RN	"image"	15	70	translation-r-direct	None
+74	853.29	RN	"image sent"	15	73	ack-done	None
+75	855.73	DM->CMD	"sent"	15	74	translation-l	None
+76	862.16	CMD	"<no command>"	None	None	None	None
+77	874.39	CMD	"<pause> turn to your right"	16	None	None	None
+78	911.64	DM->CMD	"How far should I turn to the right? Would you like me to face something?"	16	77	req-clar	None
+79	911.9	CMD	"face the end of the hallway"	16	78	clar-repair	None
+80	927.88	DM->RN	"turn to face the end of the hallway"	16	79	translation-r-contextual	None
+81	930.61	RN	"um which way the end to my right"	16	80	req-clar	None
+82	932.33	DM->CMD	"executing..."	16	79	ack-doing	None
+83	939.22	CMD	"take another picture"	17	None	None	None
+84	940.59	DM->RN	"turn right until facing the end of the hallway"	16	81	clar-repair	None
+85	947.07	RN	"done"	16	84	ack-done	None
+86	949.9	DM->CMD	"done"	16	85	translation-l	None
+87	952.74	DM->RN	"image"	17	83	translation-r-direct	None
+88	953.57	RN	"image sent"	17	87	ack-done	None
+89	956.12	DM->CMD	"sent"	17	88	translation-l	None
+90	1059.69	CMD	"<k:so how many doorways were there>"	X-CMD	None	None	None
+91	1062.72	CMD	"two just said there were two doorways"	X-CMD	None	None	None
+92	1069.09	CMD	"<k:okay>"	X-CMD	None	None	None
+93	1071.1	CMD	"there were three cones"	X-CMD	None	None	None
+94	1074.72	DM->RN	"ending task"	X-CMD	None	None	None
+95	1076.85	CMD	"<k:a container in which a soldier might be able to use to move things"	X-CMD	None	None	None

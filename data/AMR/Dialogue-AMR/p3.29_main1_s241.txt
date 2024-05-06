@@ -1,0 +1,16 @@
+p3.29_main1_s241
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+

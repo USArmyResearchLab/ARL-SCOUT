@@ -1,0 +1,309 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2018-09-10 14:16:32.76	DM->RN	"calibrate"	None	None
+2	2018-09-10 14:16:33.82	DM->CMD	"calibrating. . ."	lidar1	None
+3	2018-09-10 14:16:57.08	CMD	"<X: xxx>"	None	None
+4	2018-09-10 14:16:58.81	CMD	"<no speech>"	None	None
+5	2018-09-10 14:17:05.03	RN	"<X: audio sync in three two one>"	None	None
+6	2018-09-10 14:17:05.07	CMD	"<X: audio sync in three two one>"	None	None
+7	2018-09-10 14:17:09.11	RN	"<loud noise>"	None	None
+8	2018-09-10 14:17:09.11	CMD	"<loud noise>"	None	None
+9	2018-09-10 14:17:09.49	CMD	"<no speech>"	None	None
+10	2018-09-10 14:17:12.08	CMD	"<X: alright you can let it>"	None	None
+11	2018-09-10 14:17:12.41	DM->CMD	"calibration complete"	lidar2	None
+12	2018-09-10 14:17:20.80	CMD	"i am ready"	None	None
+13	2018-09-10 14:17:22.38	DM->RN	"participant is ready"	None	None
+14	2018-09-10 14:17:25.23	DM->CMD	"I'm also ready.  <beep>"	lidar3	None
+15	2018-09-10 14:17:32.66	CMD	"proceed to the nearest doorway"	None	None
+16	2018-09-10 14:17:37.88	DM->CMD	"The one directly ahead of me?  <beep>"	lidar4	None
+17	2018-09-10 14:17:39.77	CMD	"yes"	None	None
+18	2018-09-10 14:17:42.98	DM->CMD	"ok"	lidar5	None
+19	2018-09-10 14:17:46.75	DM->RN	"move into TV room"	None	None
+20	2018-09-10 14:17:56.28	RN	"done"	None	None
+21	2018-09-10 14:17:57.60	DM->CMD	"done"	lidar6	None
+22	2018-09-10 14:17:58.20	CMD	"take a photo"	None	None
+23	2018-09-10 14:18:01.42	DM->RN	"send image"	None	None
+i000	2018-09-10 14:18:06.22	IMAGE	"frame000"	None	None
+24	2018-09-10 14:18:02.25	RN	"sent"	None	None
+25	2018-09-10 14:18:03.33	DM->CMD	"sent"	lidar7	None
+26	2018-09-10 14:18:07.07	CMD	"go through <pause .55> go through the doorway"	None	None
+27	2018-09-10 14:18:13.56	DM->CMD	"I'm unsure which doorway you mean.  <beep>"	lidar8	None
+28	2018-09-10 14:18:15.08	CMD	"the one directly ahead of you"	None	None
+29	2018-09-10 14:18:21.35	DM->CMD	"Do you mean the one on the left?  <beep>"	lidar9	None
+30	2018-09-10 14:18:22.42	CMD	"yes"	None	None
+31	2018-09-10 14:18:25.17	DM->CMD	"ok"	lidar10	None
+32	2018-09-10 14:18:28.98	DM->RN	"move into TV hallway"	None	None
+33	2018-09-10 14:18:32.28	DM->CMD	"executing. . ."	lidar11	None
+34	2018-09-10 14:18:42.09	RN	"done"	None	None
+35	2018-09-10 14:18:43.18	DM->CMD	"done"	lidar12	None
+36	2018-09-10 14:18:43.49	CMD	"proceed to the next nearest doorway"	None	None
+37	2018-09-10 14:18:52.78	DM->CMD	"Would you like me to send a picture?  <beep>"	lidar13	None
+38	2018-09-10 14:18:54.02	CMD	"yes"	None	None
+39	2018-09-10 14:18:55.51	DM->RN	"send image"	None	None
+i001	2018-09-10 14:18:59.57	IMAGE	"frame001"	None	None
+40	2018-09-10 14:18:56.17	RN	"sent"	None	None
+41	2018-09-10 14:18:57.19	DM->CMD	"sent"	lidar14	None
+42	2018-09-10 14:19:05.38	DM->CMD	"I see more than one doorway.  <beep>"	lidar15	None
+43	2018-09-10 14:19:07.71	CMD	"the one closest to you"	None	None
+44	2018-09-10 14:19:12.53	DM->CMD	"Which doorway?  <beep>"	lidar16	None
+45	2018-09-10 14:19:13.74	CMD	"the one that you could see that is close <pause .30> closest to you"	None	None
+46	2018-09-10 14:19:24.82	DM->CMD	"ok"	lidar17	None
+47	2018-09-10 14:19:36.29	DM->RN	"move into Shoe Start room"	None	None
+48	2018-09-10 14:19:55.96	RN	"done"	None	None
+49	2018-09-10 14:19:57.22	CMD	"take a photo"	None	None
+50	2018-09-10 14:19:58.24	DM->CMD	"done"	lidar18	None
+51	2018-09-10 14:20:01.14	DM->RN	"send image"	None	None
+i002	2018-09-10 14:20:04.25	IMAGE	"frame002"	None	None
+52	2018-09-10 14:20:01.69	RN	"sent"	None	None
+53	2018-09-10 14:20:03.50	DM->CMD	"sent"	lidar19	None
+54	2018-09-10 14:20:12.62	CMD	"go through the doorway"	None	None
+55	2018-09-10 14:20:16.49	DM->CMD	"Which doorway?  <beep>"	lidar20	None
+56	2018-09-10 14:20:18.98	CMD	"the one that's closest to you"	None	None
+57	2018-09-10 14:20:28.49	DM->CMD	"ok"	lidar21	None
+58	2018-09-10 14:20:30.16	DM->RN	"move into Kitchen hallway"	None	None
+59	2018-09-10 14:20:42.01	CMD	"go the go the opposite way"	None	None
+60	2018-09-10 14:20:46.78	RN	"done"	None	None
+61	2018-09-10 14:20:47.75	DM->CMD	"done"	lidar22	None
+62	2018-09-10 14:20:49.74	CMD	"turn around um"	None	None
+63	2018-09-10 14:20:51.06	CMD	"and go back where you were"	None	None
+64	2018-09-10 14:20:56.11	DM->CMD	"ok"	lidar23	None
+65	2018-09-10 14:20:58.75	DM->RN	"move into Shoe Start room"	None	None
+66	2018-09-10 14:21:18.60	RN	"done"	None	None
+67	2018-09-10 14:21:19.61	DM->CMD	"done"	lidar24	None
+68	2018-09-10 14:21:19.76	CMD	"um take a photo of the room"	None	None
+69	2018-09-10 14:21:23.55	DM->RN	"send image"	None	None
+i003	2018-09-10 14:21:25.62	IMAGE	"frame003"	None	None
+70	2018-09-10 14:21:24.35	RN	"sent"	None	None
+71	2018-09-10 14:21:25.60	DM->CMD	"sent"	lidar25	None
+72	2018-09-10 14:21:32.23	CMD	"go through a new doorway"	None	None
+73	2018-09-10 14:21:39.35	DM->CMD	"Can you rephrase that?  <beep>"	lidar26	None
+74	2018-09-10 14:21:40.93	CMD	"go through another door"	None	None
+75	2018-09-10 14:21:50.19	DM->CMD	"Which doorway?  <beep>"	lidar27	None
+76	2018-09-10 14:21:53.75	CMD	"the one that you haven't gone through"	None	None
+77	2018-09-10 14:21:58.77	DM->CMD	"I'm not sure."	lidar28	None
+78	2018-09-10 14:22:01.53	CMD	"a different door"	None	None
+79	2018-09-10 14:22:05.24	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	lidar29	None
+80	2018-09-10 14:22:07.16	CMD	"go through a doorway that you haven't been through"	None	None
+81	2018-09-10 14:22:18.28	DM->CMD	"I'm not sure what you are asking me to do.  <beep>"	lidar30	None
+82	2018-09-10 14:22:22.53	CMD	"um go <pause .33> go straight"	None	None
+83	2018-09-10 14:22:29.50	DM->CMD	"How far should I move forward? <beep>"	lidar31	None
+84	2018-09-10 14:22:32.80	CMD	"five feet"	None	None
+85	2018-09-10 14:22:41.85	DM->CMD	"ok"	lidar32	None
+86	2018-09-10 14:22:45.11	DM->RN	"move forward 5 feet"	None	None
+87	2018-09-10 14:22:48.94	CMD	"okay stop"	None	None
+88	2018-09-10 14:22:52.23	DM->RN	"stop"	None	None
+89	2018-09-10 14:22:54.63	RN	"done"	None	None
+90	2018-09-10 14:22:55.04	RN	"i could move about four"	None	None
+91	2018-09-10 14:22:55.27	DM->CMD	"done"	lidar33	None
+92	2018-09-10 14:22:57.00	CMD	"go east"	None	None
+93	2018-09-10 14:23:01.36	CMD	"go east five feet"	None	None
+94	2018-09-10 14:23:01.44	DM->CMD	"processing. . ."	lidar34	None
+95	2018-09-10 14:23:03.67	DM->RN	"turn to face East"	None	None
+96	2018-09-10 14:23:05.46	DM->RN	"then. . ."	None	None
+97	2018-09-10 14:23:07.75	DM->RN	"move forward 5 feet"	None	None
+98	2018-09-10 14:23:10.78	DM->CMD	"executing. . ."	lidar35	None
+99	2018-09-10 14:23:25.25	RN	"done"	None	None
+100	2018-09-10 14:23:26.23	DM->CMD	"done"	lidar36	None
+101	2018-09-10 14:23:26.59	CMD	"go through the doorway uh heading uh <pause .71> north"	None	None
+102	2018-09-10 14:23:33.05	DM->CMD	"The one to my left?  <beep>"	lidar37	None
+103	2018-09-10 14:23:34.29	CMD	"yes"	None	None
+104	2018-09-10 14:23:35.46	DM->CMD	"ok"	lidar38	None
+105	2018-09-10 14:23:38.51	DM->RN	"move into TV room"	None	None
+106	2018-09-10 14:23:50.40	CMD	"take a photo"	None	None
+107	2018-09-10 14:23:51.81	RN	"done"	None	None
+108	2018-09-10 14:23:52.87	DM->CMD	"done"	lidar39	None
+109	2018-09-10 14:23:55.19	DM->RN	"send image"	None	None
+i004	2018-09-10 14:23:55.18	IMAGE	"frame004"	None	None
+110	2018-09-10 14:23:55.88	RN	"sent"	None	None
+111	2018-09-10 14:23:56.83	DM->CMD	"sent"	lidar40	None
+112	2018-09-10 14:24:05.92	CMD	"take a photo of a room"	None	None
+113	2018-09-10 14:24:17.95	DM->RN	"send image"	None	None
+i005	2018-09-10 14:24:17.87	IMAGE	"frame005"	None	None
+114	2018-09-10 14:24:19.02	RN	"sent"	None	None
+115	2018-09-10 14:24:20.10	DM->CMD	"sent"	lidar41	None
+116	2018-09-10 14:24:34.46	CMD	"go straight"	None	None
+117	2018-09-10 14:24:39.01	DM->CMD	"I'm unsure where or when I should stop going forward.  <beep>"	lidar42	None
+118	2018-09-10 14:24:40.76	CMD	"five feet"	None	None
+119	2018-09-10 14:24:45.10	DM->CMD	"ok"	lidar43	None
+120	2018-09-10 14:24:49.29	DM->RN	"move forward 5 feet"	None	None
+121	2018-09-10 14:24:54.13	DM->CMD	"moving. . ."	lidar44	None
+122	2018-09-10 14:25:00.10	CMD	"<no speech>"	None	None
+123	2018-09-10 14:25:00.48	RN	"done"	None	None
+124	2018-09-10 14:25:01.50	DM->CMD	"I moved forward 5 feet"	lidar45	None
+125	2018-09-10 14:25:02.98	CMD	"go west <pause .33> five feet"	None	None
+126	2018-09-10 14:25:12.39	DM->CMD	"processing. . ."	lidar46	None
+127	2018-09-10 14:25:22.13	DM->RN	"turn to face West"	None	None
+128	2018-09-10 14:25:25.11	DM->RN	"then. . ."	None	None
+129	2018-09-10 14:25:35.92	CMD	"oh go um go through the doorway <pause .34> ah uh <pause .28> directly <pause .47> ahead of you"	None	None
+130	2018-09-10 14:25:43.33	DM->CMD	"ok"	lidar47	None
+131	2018-09-10 14:25:47.70	DM->RN	"move into TV hallway"	None	None
+132	2018-09-10 14:25:49.75	DM->CMD	"executing. . ."	lidar48	None
+133	2018-09-10 14:25:59.56	CMD	"go through the door nearest uh <pause .31> go through the doorway nearest to you"	None	None
+134	2018-09-10 14:26:02.71	RN	"done"	None	None
+135	2018-09-10 14:26:03.39	CMD	"take a photo"	None	None
+136	2018-09-10 14:26:04.23	DM->CMD	"done"	lidar49	None
+137	2018-09-10 14:26:07.92	DM->RN	"send image"	None	None
+i006	2018-09-10 14:26:06.09	IMAGE	"frame006"	None	None
+138	2018-09-10 14:26:08.85	RN	"sent"	None	None
+139	2018-09-10 14:26:09.71	DM->CMD	"sent"	lidar50	None
+140	2018-09-10 14:26:21.73	CMD	"go to the nearest shoe"	None	None
+141	2018-09-10 14:26:30.98	DM->CMD	"processing. . ."	lidar51	None
+142	2018-09-10 14:26:38.89	DM->CMD	"I don't know what all the objects are around me.   <beep>"	lidar52	None
+143	2018-09-10 14:26:44.40	CMD	"go to a um <pause .60> to a new uh <pause .30> new object <pause .48> in the room"	None	None
+144	2018-09-10 14:26:54.71	DM->CMD	"I see objects all around me; I need your help to decide which are important. <beep>"	lidar53	None
+145	2018-09-10 14:26:56.44	DM->CMD	"There's too much lag in our communications for instantaneous instructions.  <beep>"	lidar54	None
+146	2018-09-10 14:26:57.91	DM->CMD	"If you describe an object, you can help me locate it.  <beep>"	lidar55	None
+147	2018-09-10 14:27:02.88	CMD	"go to a small object in the room"	None	None
+148	2018-09-10 14:27:08.86	DM->RN	"send image"	None	None
+i007	2018-09-10 14:27:06.34	IMAGE	"frame007"	None	None
+149	2018-09-10 14:27:10.06	RN	"sent"	None	None
+150	2018-09-10 14:27:10.81	DM->CMD	"sent"	lidar56	None
+151	2018-09-10 14:27:24.05	DM->CMD	"I don't see small object."	lidar57	None
+152	2018-09-10 14:27:31.26	CMD	"go north"	None	None
+153	2018-09-10 14:27:36.28	DM->CMD	"ok"	lidar58	None
+154	2018-09-10 14:27:39.12	DM->CMD	"How far forward should I go?  <beep>"	lidar59	None
+155	2018-09-10 14:27:40.97	CMD	"ten feet"	None	None
+156	2018-09-10 14:27:41.95	DM->RN	"turn to face North"	None	None
+157	2018-09-10 14:27:42.98	DM->CMD	"I will turn to face North"	lidar60	None
+158	2018-09-10 14:27:45.44	DM->RN	"then. . ."	None	None
+159	2018-09-10 14:27:46.97	DM->RN	"move forward 10 feet"	None	None
+160	2018-09-10 14:27:54.44	DM->CMD	"moving. . ."	lidar61	None
+161	2018-09-10 14:28:03.62	RN	"done"	None	None
+162	2018-09-10 14:28:04.69	DM->CMD	"done"	lidar62	None
+163	2018-09-10 14:28:04.72	CMD	"xxx take a photo"	None	None
+164	2018-09-10 14:28:07.26	DM->RN	"send image"	None	None
+i008	2018-09-10 14:28:03.39	IMAGE	"frame008"	None	None
+165	2018-09-10 14:28:08.04	RN	"sent"	None	None
+166	2018-09-10 14:28:09.25	DM->CMD	"sent"	lidar63	None
+167	2018-09-10 14:29:02.33	CMD	"go through the uh doorway um <pause .98> in front of you"	None	None
+168	2018-09-10 14:29:09.98	DM->RN	"move into Conf room"	None	None
+169	2018-09-10 14:29:14.17	DM->CMD	"moving. . ."	lidar64	None
+170	2018-09-10 14:29:20.00	RN	"done"	None	None
+171	2018-09-10 14:29:20.89	DM->CMD	"done"	lidar65	None
+172	2018-09-10 14:29:29.35	CMD	"go east"	None	None
+173	2018-09-10 14:29:32.24	DM->CMD	"processing. . ."	lidar66	None
+174	2018-09-10 14:29:35.53	DM->RN	"turn to face East"	None	None
+175	2018-09-10 14:29:43.38	RN	"done"	None	None
+176	2018-09-10 14:29:46.15	DM->CMD	"done"	lidar67	None
+177	2018-09-10 14:29:47.20	CMD	"go straight"	None	None
+178	2018-09-10 14:29:53.88	DM->CMD	"I'm unsure where or when I should stop going forward.  <beep>"	lidar68	None
+179	2018-09-10 14:29:57.41	CMD	"three feet"	None	None
+180	2018-09-10 14:30:00.56	DM->CMD	"processing. . ."	lidar69	None
+181	2018-09-10 14:30:03.50	DM->CMD	"I moved forward 2 feet"	lidar70	None
+182	2018-09-10 14:30:04.62	DM->RN	"move forward 3 feet"	None	None
+183	2018-09-10 14:30:12.70	DM->CMD	"I will move forward 3 feet"	lidar71	None
+184	2018-09-10 14:30:15.69	RN	"done"	None	None
+185	2018-09-10 14:30:18.49	CMD	"take a photo"	None	None
+186	2018-09-10 14:30:18.87	DM->CMD	"done"	lidar72	None
+187	2018-09-10 14:30:23.29	DM->RN	"send image"	None	None
+i009	2018-09-10 14:30:17.51	IMAGE	"frame009"	None	None
+188	2018-09-10 14:30:24.03	RN	"sent"	None	None
+189	2018-09-10 14:30:25.26	DM->CMD	"sent"	lidar73	None
+190	2018-09-10 14:30:28.61	CMD	"go south <pause .26> five feet"	None	None
+191	2018-09-10 14:30:37.88	DM->CMD	"processing. . ."	lidar74	None
+192	2018-09-10 14:30:41.31	DM->RN	"turn to face South"	None	None
+193	2018-09-10 14:30:48.17	DM->RN	"then. . ."	None	None
+194	2018-09-10 14:30:56.05	DM->RN	"move forward 5 feet"	None	None
+195	2018-09-10 14:30:57.23	RN	"into the room"	None	None
+196	2018-09-10 14:31:10.90	RN	"done"	None	None
+197	2018-09-10 14:31:13.17	DM->CMD	"done"	lidar75	None
+198	2018-09-10 14:31:13.60	CMD	"take a photo"	None	None
+199	2018-09-10 14:31:16.92	DM->RN	"send image"	None	None
+i010	2018-09-10 14:31:10.14	IMAGE	"frame010"	None	None
+200	2018-09-10 14:31:17.57	RN	"sent"	None	None
+201	2018-09-10 14:31:18.88	DM->CMD	"sent"	lidar76	None
+202	2018-09-10 14:31:38.18	CMD	"go south <pause .44> five feet"	None	None
+203	2018-09-10 14:31:44.35	DM->CMD	"processing. . ."	lidar77	None
+204	2018-09-10 14:31:50.05	DM->RN	"move forward 5 feet"	None	None
+205	2018-09-10 14:31:53.62	DM->CMD	"moving. . ."	lidar78	None
+206	2018-09-10 14:32:01.16	RN	"done"	None	None
+207	2018-09-10 14:32:02.23	DM->CMD	"done"	lidar79	None
+208	2018-09-10 14:32:08.62	CMD	"go through the nearest doorway"	None	None
+209	2018-09-10 14:32:17.03	DM->CMD	"Do you mean the one on the right?  <beep>"	lidar80	None
+210	2018-09-10 14:32:18.68	CMD	"yes"	None	None
+211	2018-09-10 14:32:21.16	DM->CMD	"ok"	lidar81	None
+212	2018-09-10 14:32:24.88	DM->RN	"move into TV hallway"	None	None
+213	2018-09-10 14:32:28.96	DM->CMD	"executing. . ."	lidar82	None
+214	2018-09-10 14:32:39.35	RN	"done"	None	None
+215	2018-09-10 14:32:39.74	CMD	"ta<disfl> take a photo"	None	None
+216	2018-09-10 14:32:40.43	DM->CMD	"done"	lidar83	None
+217	2018-09-10 14:32:43.22	DM->RN	"send image"	None	None
+i011	2018-09-10 14:32:35.24	IMAGE	"frame011"	None	None
+218	2018-09-10 14:32:43.98	RN	"sent"	None	None
+219	2018-09-10 14:32:44.86	DM->CMD	"sent"	lidar84	None
+220	2018-09-10 14:32:53.94	CMD	"go towards the nearest objects"	None	None
+221	2018-09-10 14:33:07.00	DM->CMD	"I see objects all around me; I need your help to decide which are important. <beep>"	lidar85	None
+222	2018-09-10 14:33:09.75	CMD	"<notification sound>"	None	None
+223	2018-09-10 14:33:10.28	DM->CMD	"If you describe an object, you can help me locate it.  <beep>"	lidar86	None
+224	2018-09-10 14:33:10.36	CMD	"<no speech>"	None	None
+225	2018-09-10 14:33:12.30	CMD	"the objects uh directly ahead of you"	None	None
+226	2018-09-10 14:33:31.28	CMD	"go to the objects uh towards the cone"	None	None
+227	2018-09-10 14:33:32.83	DM->CMD	"I don't see any object directly ahead."	lidar87	None
+228	2018-09-10 14:33:42.17	CMD	"<notification sound>"	None	None
+229	2018-09-10 14:33:42.70	DM->CMD	"The one directly to my right, or ahead and to the right?  <beep>"	lidar88	None
+230	2018-09-10 14:33:43.30	CMD	"<no speech>"	None	None
+231	2018-09-10 14:33:44.88	CMD	"ahead to y<disfl> to your right"	None	None
+232	2018-09-10 14:33:48.22	DM->CMD	"ok"	lidar89	None
+233	2018-09-10 14:34:02.37	DM->RN	"move into Construction room"	None	None
+234	2018-09-10 14:34:10.09	DM->RN	"move to easel with hardhats"	None	None
+235	2018-09-10 14:34:29.84	RN	"done"	None	None
+236	2018-09-10 14:34:30.90	DM->CMD	"done"	lidar90	None
+237	2018-09-10 14:34:32.39	CMD	"take a photo"	None	None
+238	2018-09-10 14:34:35.35	DM->RN	"send image"	None	None
+i012	2018-09-10 14:34:25.57	IMAGE	"frame012"	None	None
+239	2018-09-10 14:34:35.95	RN	"sent"	None	None
+240	2018-09-10 14:34:36.68	DM->CMD	"sent"	lidar91	None
+241	2018-09-10 14:35:04.07	CMD	"go west"	None	None
+242	2018-09-10 14:35:08.11	DM->RN	"turn to face West"	None	None
+243	2018-09-10 14:35:14.43	DM->CMD	"I will turn to face West"	lidar92	None
+244	2018-09-10 14:35:18.90	RN	"done"	None	None
+245	2018-09-10 14:35:20.03	DM->CMD	"done"	lidar93	None
+246	2018-09-10 14:35:22.92	CMD	"<no speech>"	None	None
+247	2018-09-10 14:35:24.32	CMD	"three feet go go west three feet"	None	None
+248	2018-09-10 14:35:29.82	DM->CMD	"ok"	lidar94	None
+249	2018-09-10 14:35:31.48	DM->RN	"move forward 3 feet"	None	None
+250	2018-09-10 14:35:38.06	RN	"done"	None	None
+251	2018-09-10 14:35:39.11	DM->CMD	"done"	lidar95	None
+252	2018-09-10 14:35:39.14	CMD	"<no speech>"	None	None
+253	2018-09-10 14:35:39.93	CMD	"take a photo"	None	None
+254	2018-09-10 14:35:41.48	DM->RN	"send image"	None	None
+i013	2018-09-10 14:35:31.04	IMAGE	"frame013"	None	None
+255	2018-09-10 14:35:42.34	RN	"sent"	None	None
+256	2018-09-10 14:35:42.93	DM->CMD	"sent"	lidar96	None
+257	2018-09-10 14:35:53.26	CMD	"<no speech>"	None	None
+258	2018-09-10 14:35:54.20	CMD	"turn around a hundred eighty degrees"	None	None
+259	2018-09-10 14:35:57.68	DM->RN	"turn 180"	None	None
+260	2018-09-10 14:35:59.99	DM->CMD	"I will turn around 180 degrees"	lidar97	None
+261	2018-09-10 14:36:15.38	RN	"done"	None	None
+262	2018-09-10 14:36:16.41	DM->CMD	"done"	lidar98	None
+263	2018-09-10 14:36:20.02	CMD	"go s<disfl> go south"	None	None
+264	2018-09-10 14:36:24.49	CMD	"<no speech>"	None	None
+265	2018-09-10 14:36:24.72	DM->CMD	"ok"	lidar99	None
+266	2018-09-10 14:36:26.09	CMD	"five feet "	None	None
+267	2018-09-10 14:36:26.71	CMD	"go south five feet"	None	None
+268	2018-09-10 14:36:29.60	DM->RN	"turn to face South"	None	None
+269	2018-09-10 14:36:40.63	RN	"done"	None	None
+270	2018-09-10 14:36:40.90	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	lidar100	None
+271	2018-09-10 14:36:44.07	CMD	"go as far as you could go"	None	None
+272	2018-09-10 14:36:45.14	DM->CMD	"done"	lidar101	None
+273	2018-09-10 14:36:49.41	DM->CMD	"ok"	lidar102	None
+274	2018-09-10 14:37:01.46	DM->RN	"move to front wall ahead"	None	None
+275	2018-09-10 14:37:04.76	DM->CMD	"moving. . ."	lidar103	None
+276	2018-09-10 14:37:08.02	RN	"done"	None	None
+277	2018-09-10 14:37:08.99	DM->CMD	"done"	lidar104	None
+278	2018-09-10 14:37:12.75	CMD	"go through the nearest doorway"	None	None
+279	2018-09-10 14:37:19.62	DM->CMD	"Do you mean the one on the left?  <beep>"	lidar105	None
+280	2018-09-10 14:37:20.25	CMD	"yes"	None	None
+281	2018-09-10 14:37:22.51	DM->CMD	"ok"	lidar106	None
+282	2018-09-10 14:37:26.81	DM->RN	"move into Office hallway"	None	None
+283	2018-09-10 14:37:42.98	CMD	"<X: xxx so how many doorways were there>"	None	None
+284	2018-09-10 14:37:46.19	RN	"done"	None	None
+285	2018-09-10 14:37:46.37	DM->CMD	"done"	lidar107	None
+286	2018-09-10 14:37:46.41	CMD	"three"	None	None
+287	2018-09-10 14:37:46.82	CMD	"<no speech>"	None	None
+288	2018-09-10 14:37:47.28	CMD	"<X: and how many shoes were there>"	None	None
+289	2018-09-10 14:37:48.97	CMD	"one"	None	None
+290	2018-09-10 14:37:49.44	CMD	"<no speech>"	None	None
+291	2018-09-10 14:37:50.14	CMD	"<X: and do you think there is anything that indicates the environment has been recently occupied>"	None	None
+292	2018-09-10 14:37:53.79	CMD	"yes"	None	None
+293	2018-09-10 14:37:54.34	CMD	"<no speech>"	None	None

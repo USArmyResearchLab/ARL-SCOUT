@@ -1,0 +1,18 @@
+p3.29_main1_s259
+# ::tok move forty five degrees to the right
+# ::snt move forty five degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+

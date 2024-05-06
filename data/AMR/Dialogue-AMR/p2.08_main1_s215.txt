@@ -1,0 +1,18 @@
+p2.08_main1_s215
+# ::tok Do you mean the one on the left ? < beep >
+# ::snt Do you mean the one on the left? <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (c / clarify-10
+		:ARG0 (c2 / commander)
+		:ARG1 (m / mean-01
+			:ARG0 (y / you)
+			:ARG2 (o / one
+				:ARG1-of (l / left-20))
+			:polarity (a / amr-unknown))
+		:ARG2 r2
+		:completable +
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 c2)
+

@@ -1,0 +1,19 @@
+p1.09_main1_s107
+# ::tok How far should I back up ? Until I reach the wall behind me ?
+# ::snt How far should I back up? Until I reach the wall behind me?
+(m / multi-sentence
+	:snt1 (r2 / recommend-01
+		:ARG1 (b3 / back-up-06
+			:ARG0 i
+			:ARG1 i
+			:extent (a2 / amr-unknown)))
+	:snt2 (b / back-up-06
+		:ARG0 (i / i)
+		:ARG1 i
+		:destination (r / reach-01
+			:ARG0 i
+			:ARG1 (w / wall
+				:location (b2 / behind
+					:op1 i)))
+		:polarity (a / amr-unknown)))
+

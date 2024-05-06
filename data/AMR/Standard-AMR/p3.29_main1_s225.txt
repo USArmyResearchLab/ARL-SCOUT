@@ -1,0 +1,11 @@
+p3.29_main1_s225
+# ::tok go straight five feet
+# ::snt go straight five feet
+(g / go-02
+	:ARG0 (y / you)
+	:ARG1-of (s / straight-04)
+	:extent (d / distance-quantity
+		:quant 5
+		:unit (f / foot))
+	:mode imperative)
+

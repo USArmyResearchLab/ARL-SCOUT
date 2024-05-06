@@ -1,0 +1,15 @@
+p2.05_main2_s138
+# ::tok Office hallway
+# ::snt Office hallway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (h / hallway
+			:name (n / name
+				:op1 "Office"))
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+

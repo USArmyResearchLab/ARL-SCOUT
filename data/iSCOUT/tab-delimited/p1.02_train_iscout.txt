@@ -1,0 +1,100 @@
+id	time	stream	text	context	notes
+1	35.12	CMD	"robot turn a hundred and eighty degrees"	None	None
+2	77.29	CMD	"robot turn one hundred and eighty degrees"	None	None
+3	81.15	CMD	"and proceed <whispering> one two three four five"	None	None
+4	96.4	CMD	"uh cancel last request uh robot"	None	None
+5	101.66	CMD	"turn one hundred and eighty degrees"	None	None
+6	103.69	CMD	"and proceed <pause> one meter"	None	None
+7	127.92	CMD	"<no command>"	None	None
+8	139.94	CMD	"robot proceed three meters"	None	None
+9	200.43	CMD	"robot proceed ten meters"	None	None
+10	200.44	CMD	"<NOTE: After this point, 212.1s were added to CMD to account for a technical error.>"	None	None
+11	217.92	RN	"calibration complete"	None	None
+12	218.23	CMD	"robot take a photo"	None	None
+13	223.77	DM->CMD	"calibration complete"	None	None
+14	229.09	DM->RN	"photo"	None	None
+i000	19.36	IMAGE	"frame000"	None	None
+15	231.72	RN	"image sent"	None	None
+16	231.96	IMAGE	"None"	None	None
+17	231.96	CMD	"robot turn ninety degrees left"	None	None
+18	234.29	DM->CMD	"sent"	None	None
+19	236.59	CMD	"and take a photo"	None	None
+20	245.5	DM->RN	"turn 45 left, photo"	None	None
+21	251.12	DM->CMD	"executing..."	None	None
+22	255.07	RN	"done"	None	None
+i001	45.77	IMAGE	"frame001"	None	None
+23	259.66	RN	"image sent"	None	None
+24	260.37	DM->CMD	"sent"	None	None
+25	279.71	CMD	"robot turn forty five degrees right"	None	None
+26	286.29	CMD	"and continue to second doorway"	None	None
+27	298.25	DM->RN	"turn 45 right, move forward to second doorway"	None	None
+28	304.15	DM->CMD	"executing..."	None	None
+29	314.21	CMD	"robot stop"	None	None
+30	322.35	DM->RN	"stop"	None	None
+31	333.6	CMD	"robot take a photo"	None	None
+32	333.77	RN	"still getting slight <unintelligible> issues but um"	None	None
+33	339.32	DM->CMD	"done"	None	None
+34	343.08	DM->RN	"photo"	None	None
+i002	133.26	IMAGE	"frame002"	None	None
+35	345.73	RN	"image sent"	None	None
+36	348.4	DM->CMD	"sent"	None	None
+37	358.03	DM->RN	"turn 90 left"	None	None
+38	363.55	DM->CMD	"executing..."	None	None
+39	394.47	RN	"we're getting massive network issues"	None	None
+40	407.26	DM->CMD	"Please be patient.  I'm experiencing some technical issues."	None	None
+41	418.34	CMD	"robot take a photo"	None	None
+42	418.62	RN	"done"	None	None
+43	421.79	DM->CMD	"done"	None	None
+44	426.14	DM->RN	"photo"	None	None
+45	428.07	CMD	"robot turn ninety degrees to the left"	None	None
+i003	216.3	IMAGE	"frame003"	None	None
+46	428.55	RN	"image sent"	None	None
+47	431.86	DM->CMD	"sent"	None	None
+48	432.25	CMD	"and take a photo"	None	None
+49	441.81	DM->RN	"turn 90 left, photo"	None	None
+50	447.31	DM->CMD	"executing..."	None	None
+i004	254.3	IMAGE	"frame004"	None	None
+51	466.68	RN	"image sent"	None	None
+52	469.57	DM->CMD	"sent"	None	None
+53	482.16	CMD	"robot continue to the first doorway"	None	None
+54	512.73	DM->RN	"return to first doorway"	None	None
+55	518.56	DM->CMD	"executing..."	None	None
+56	529.8	CMD	"robot take a photo"	None	None
+57	532.12	RN	"done"	None	None
+58	535	DM->CMD	"done"	None	None
+59	538.88	DM->RN	"photo"	None	None
+i005	328.66	IMAGE	"frame005"	None	None
+60	540.96	RN	"image sent"	None	None
+61	544.72	DM->CMD	"sent"	None	None
+62	546.01	CMD	"robot turn ninety degrees to the left"	None	None
+63	557.05	DM->RN	"turn 90 left, photo"	None	None
+64	562.93	DM->CMD	"executing..."	None	None
+65	570.27	CMD	"and take a photo"	None	None
+66	576.49	RN	"just for the record you meant l left correct"	None	None
+67	590.21	RN	"okay"	None	None
+i006	385.81	IMAGE	"frame006"	None	None
+68	598.29	RN	"image sent"	None	None
+69	600.77	CMD	"robot confirm that the object in front of you is a ladder"	None	None
+70	816.61	RN	"<no speech>"	None	None
+71	601.65	DM->CMD	"sent"	None	None
+72	630.96	DM->CMD	"I think that you are more familiar with ladders than I am.  Would you like me to move back from this object to get another photo?"	None	None
+73	630.97	CMD	"robot turn a hundred and eight degrees"	None	None
+74	645.62	DM->RN	"turn 180, photo"	None	None
+75	652.44	DM->CMD	"executing..."	None	None
+i007	451.19	IMAGE	"frame007"	None	None
+76	663.68	RN	"image sent"	None	None
+77	667.38	DM->CMD	"sent"	None	None
+78	669.64	CMD	"robot proceed to the other doorway"	None	None
+79	690.34	DM->RN	"move to face the other doorway"	None	None
+80	695.9	DM->CMD	"executing..."	None	None
+81	735.42	CMD	"robot take a photo"	None	None
+82	745.19	DM->CMD	"done"	None	None
+83	748.15	DM->RN	"photo"	None	None
+i008	537.17	IMAGE	"frame008"	None	None
+i009	539.62	IMAGE	"frame009"	None	None
+84	751.14	RN	"done"	None	None
+85	752.55	RN	"there we go"	None	None
+86	756.1	RN	"<static>"	None	None
+87	762.54	DM->CMD	"sent"	None	None
+88	788.05	DM->CMD	"Good job, teammate!"	None	None
+89	794.48	DM->RN	"end training"	None	None

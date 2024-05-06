@@ -1,0 +1,640 @@
+id	time	stream	text	context	notes
+1	2019-07-16 13:40:53.76	CMD	"calibrate"	None	None
+2	2019-07-16 13:40:58.16	RN	"calibrating. . ."	None	None
+3	2019-07-16 13:40:58.16	DM->CMD	"I'm also ready.  <beep>"	None	None
+4	2019-07-16 13:41:06.37	CMD	"I'm ready"	None	None
+5	2019-07-16 13:41:06.42	DM->RN	"participant is ready"	None	None
+6	2019-07-16 13:41:06.42	DM->CMD	"Processing...."	None	None
+7	2019-07-16 13:41:10.14	RN	"I'm also ready.  <beep>"	None	None
+8	2019-07-16 13:41:10.14	DM->CMD	"I'm also ready.  <beep>"	None	None
+9	2019-07-16 13:41:17.86	CMD	"send image"	None	None
+10	2019-07-16 13:41:17.92	DM->RN	"send image"	None	None
+11	2019-07-16 13:41:17.92	DM->CMD	"I will send image."	None	None
+i000	2019-07-16 13:41:07.25	IMAGE	"frame000"	None	None
+12	2019-07-16 13:41:21.87	RN	"sent"	None	None
+13	2019-07-16 13:41:21.92	DM->CMD	"sent"	None	None
+14	2019-07-16 13:41:35.86	CMD	"turn ninety degrees to the right"	None	I'm not sure why this command  includes "right" when the DM then says "left" should the t-r be an error?
+15	2019-07-16 13:41:35.91	DM->RN	"turn left 90 degrees"	None	None
+16	2019-07-16 13:41:35.91	DM->CMD	"I will turn left 90 degrees."	None	None
+17	2019-07-16 13:41:38.18	RN	"turning. . ."	None	None
+18	2019-07-16 13:41:38.21	DM->CMD	"turning. . ."	None	None
+19	2019-07-16 13:41:46.45	RN	"done"	None	None
+20	2019-07-16 13:41:46.50	DM->CMD	"done"	None	None
+21	2019-07-16 13:41:49.07	CMD	"send image"	None	None
+22	2019-07-16 13:41:49.12	DM->RN	"send image"	None	None
+23	2019-07-16 13:41:49.13	DM->CMD	"I will send image."	None	None
+i001	2019-07-16 13:41:37.58	IMAGE	"frame001"	None	None
+24	2019-07-16 13:41:52.46	RN	"sent"	None	None
+25	2019-07-16 13:41:52.54	DM->CMD	"sent"	None	None
+26	2019-07-16 13:42:02.37	CMD	"turn one hundred eighty degrees"	None	None
+27	2019-07-16 13:42:02.42	DM->RN	"turn 180"	None	None
+28	2019-07-16 13:42:02.43	DM->CMD	"I will turn 180."	None	None
+29	2019-07-16 13:42:03.85	RN	"turning. . ."	None	None
+30	2019-07-16 13:42:03.90	DM->CMD	"turning. . ."	None	None
+31	2019-07-16 13:42:15.94	RN	"done"	None	None
+32	2019-07-16 13:42:15.99	DM->CMD	"done"	None	None
+33	2019-07-16 13:42:18.08	CMD	"send image"	None	None
+34	2019-07-16 13:42:18.13	DM->RN	"send image"	None	None
+35	2019-07-16 13:42:18.16	DM->CMD	"I will send image."	None	None
+i002	2019-07-16 13:42:05.95	IMAGE	"frame002"	None	None
+36	2019-07-16 13:42:21.93	RN	"sent"	None	None
+37	2019-07-16 13:42:22.04	DM->CMD	"sent"	None	None
+38	2019-07-16 13:42:26.61	CMD	"turn left ninety degrees"	None	None
+39	2019-07-16 13:42:26.66	DM->RN	"turn left 90 degrees"	None	None
+40	2019-07-16 13:42:26.66	DM->CMD	"I will turn left 90 degrees."	None	None
+41	2019-07-16 13:42:28.07	RN	"turning. . ."	None	None
+42	2019-07-16 13:42:28.17	DM->CMD	"turning. . ."	None	None
+43	2019-07-16 13:42:36.98	RN	"done"	None	None
+44	2019-07-16 13:42:37.08	DM->CMD	"done"	None	None
+45	2019-07-16 13:42:39.76	CMD	"move forward three feet"	None	None
+46	2019-07-16 13:42:39.81	DM->RN	"turn left 150 degrees"	None	None
+47	2019-07-16 13:42:39.82	DM->CMD	"I will turn left 150 degrees."	None	None
+48	2019-07-16 13:42:42.37	RN	"turning. . ."	None	None
+49	2019-07-16 13:42:42.41	DM->CMD	"turning. . ."	None	None
+50	2019-07-16 13:42:54.72	RN	"done"	None	None
+51	2019-07-16 13:42:54.80	DM->CMD	"done"	None	None
+52	2019-07-16 13:42:57.86	CMD	"turn right one hundred fifty degrees"	None	None
+53	2019-07-16 13:42:57.91	DM->RN	"turn right 100 degrees"	None	None
+54	2019-07-16 13:42:57.92	DM->CMD	"I will turn right 100 degrees."	None	None
+55	2019-07-16 13:43:01.38	RN	"turning. . ."	None	None
+56	2019-07-16 13:43:01.45	DM->CMD	"turning. . ."	None	None
+57	2019-07-16 13:43:11.48	RN	"done"	None	None
+58	2019-07-16 13:43:11.59	DM->CMD	"done"	None	None
+59	2019-07-16 13:43:14.13	CMD	"turn right twenty degrees"	None	None
+60	2019-07-16 13:43:14.32	DM->RN	"turn right 20 degrees"	None	None
+61	2019-07-16 13:43:14.32	DM->CMD	"I will turn right 20 degrees."	None	None
+62	2019-07-16 13:43:16.40	RN	"turning. . ."	None	None
+63	2019-07-16 13:43:16.51	DM->CMD	"turning. . ."	None	None
+64	2019-07-16 13:43:20.04	RN	"done"	None	None
+65	2019-07-16 13:43:20.09	DM->CMD	"done"	None	None
+66	2019-07-16 13:43:25.06	CMD	"move forward three feet"	None	None
+67	2019-07-16 13:43:25.11	DM->RN	"move forward 3 feet"	None	None
+68	2019-07-16 13:43:25.11	DM->CMD	"I will move forward 3 feet."	None	None
+69	2019-07-16 13:43:27.00	RN	"moving. . ."	None	None
+70	2019-07-16 13:43:27.05	DM->CMD	"moving. . ."	None	None
+71	2019-07-16 13:43:34.98	RN	"done"	None	None
+72	2019-07-16 13:43:35.04	DM->CMD	"done"	None	None
+73	2019-07-16 13:43:37.16	CMD	"send image"	None	None
+74	2019-07-16 13:43:37.21	DM->RN	"send image"	None	None
+75	2019-07-16 13:43:37.22	DM->CMD	"I will send image."	None	None
+i003	2019-07-16 13:43:24.00	IMAGE	"frame003"	None	None
+76	2019-07-16 13:43:41.22	RN	"sent"	None	None
+77	2019-07-16 13:43:41.29	DM->CMD	"sent"	None	None
+78	2019-07-16 13:43:51.26	CMD	"turn left twenty degrees"	None	None
+79	2019-07-16 13:43:51.31	DM->RN	"turn left 20 degrees"	None	None
+80	2019-07-16 13:43:51.32	DM->CMD	"I will turn left 20 degrees."	None	None
+81	2019-07-16 13:43:53.59	RN	"turning. . ."	None	None
+82	2019-07-16 13:43:53.68	DM->CMD	"turning. . ."	None	None
+83	2019-07-16 13:43:58.44	RN	"done"	None	None
+84	2019-07-16 13:43:58.49	DM->CMD	"done"	None	None
+85	2019-07-16 13:44:00.32	CMD	"send image"	None	None
+86	2019-07-16 13:44:00.37	DM->RN	"send image"	None	None
+87	2019-07-16 13:44:00.37	DM->CMD	"I will send image."	None	None
+i004	2019-07-16 13:43:46.56	IMAGE	"frame004"	None	None
+88	2019-07-16 13:44:04.73	RN	"sent"	None	None
+89	2019-07-16 13:44:04.84	DM->CMD	"sent"	None	None
+90	2019-07-16 13:44:11.32	CMD	"turn right forty degrees"	None	None
+91	2019-07-16 13:44:11.37	DM->CMD	"Can you repeat that?  <beep>"	None	None
+92	2019-07-16 13:44:14.26	CMD	"turn right forty degrees"	None	None
+93	2019-07-16 13:44:14.32	DM->RN	"turn right 40 degrees"	None	None
+94	2019-07-16 13:44:14.32	DM->CMD	"I will turn right 40 degrees."	None	None
+95	2019-07-16 13:44:16.68	RN	"turning. . ."	None	None
+96	2019-07-16 13:44:16.72	DM->CMD	"turning. . ."	None	None
+97	2019-07-16 13:44:22.61	RN	"done"	None	None
+98	2019-07-16 13:44:22.66	DM->CMD	"done"	None	None
+99	2019-07-16 13:44:26.56	CMD	"move forward three feet"	None	None
+100	2019-07-16 13:44:26.62	DM->RN	"move forward 3 feet"	None	None
+101	2019-07-16 13:44:26.62	DM->CMD	"I will move forward 3 feet."	None	None
+102	2019-07-16 13:44:28.14	RN	"moving. . ."	None	None
+103	2019-07-16 13:44:28.19	DM->CMD	"moving. . ."	None	None
+104	2019-07-16 13:44:36.79	RN	"done"	None	None
+105	2019-07-16 13:44:36.89	DM->CMD	"done"	None	None
+106	2019-07-16 13:44:38.81	CMD	"send image"	None	None
+107	2019-07-16 13:44:38.87	DM->RN	"send image"	None	None
+108	2019-07-16 13:44:38.87	DM->CMD	"I will send image."	None	None
+i005	2019-07-16 13:44:24.37	IMAGE	"frame005"	None	None
+109	2019-07-16 13:44:42.47	RN	"sent"	None	None
+110	2019-07-16 13:44:42.52	DM->CMD	"sent"	None	None
+111	2019-07-16 13:44:48.36	CMD	"turn right ten degrees"	None	None
+112	2019-07-16 13:44:48.42	DM->RN	"turn right 10 degrees"	None	None
+113	2019-07-16 13:44:48.42	DM->CMD	"I will turn right 10 degrees."	None	None
+114	2019-07-16 13:44:50.81	RN	"turning. . ."	None	None
+115	2019-07-16 13:44:50.92	DM->CMD	"turning. . ."	None	None
+116	2019-07-16 13:44:54.09	RN	"done"	None	None
+117	2019-07-16 13:44:54.20	DM->CMD	"done"	None	None
+118	2019-07-16 13:44:57.52	CMD	"move forward two feet"	None	None
+119	2019-07-16 13:44:57.62	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+120	2019-07-16 13:45:00.61	CMD	"move forward two feet"	None	None
+121	2019-07-16 13:45:00.66	DM->CMD	"I don't understand"	None	None
+122	2019-07-16 13:45:04.51	CMD	"move forward three feet"	None	None
+123	2019-07-16 13:45:04.57	DM->RN	"turn left 150 degrees"	None	the same error has been made twice and I'm wondering why this could be now 
+124	2019-07-16 13:45:04.58	DM->CMD	"I will turn left 150 degrees."	None	None
+125	2019-07-16 13:45:09.83	RN	"turning. . ."	None	None
+126	2019-07-16 13:45:09.87	DM->CMD	"turning. . ."	None	None
+127	2019-07-16 13:45:28.42	RN	"done"	None	None
+128	2019-07-16 13:45:28.50	DM->CMD	"done"	None	None
+129	2019-07-16 13:45:32.01	CMD	"turn right a hundred fifty degrees"	None	None
+130	2019-07-16 13:45:32.07	DM->RN	"turn right 50 degrees"	None	None
+131	2019-07-16 13:45:32.08	DM->CMD	"I will turn right 50 degrees."	None	None
+132	2019-07-16 13:45:34.70	RN	"turning. . ."	None	None
+133	2019-07-16 13:45:34.75	DM->CMD	"turning. . ."	None	None
+134	2019-07-16 13:45:42.08	RN	"done"	None	None
+135	2019-07-16 13:45:42.12	DM->CMD	"done"	None	None
+136	2019-07-16 13:45:45.41	CMD	"turn right one hundred degrees"	None	None
+137	2019-07-16 13:45:45.47	DM->RN	"turn right 100 degrees"	None	None
+138	2019-07-16 13:45:45.48	DM->CMD	"I will turn right 100 degrees."	None	None
+139	2019-07-16 13:45:48.05	RN	"turning. . ."	None	None
+140	2019-07-16 13:45:48.16	DM->CMD	"turning. . ."	None	None
+141	2019-07-16 13:45:59.24	RN	"done"	None	None
+142	2019-07-16 13:45:59.33	DM->CMD	"done"	None	None
+143	2019-07-16 13:46:01.51	CMD	"move forward"	None	None
+144	2019-07-16 13:46:01.57	DM->CMD	"How far forward should I go?  You can tell me to move to something that you see.  I can send you a picture so you can see the space, ok? <beep>"	None	None
+145	2019-07-16 13:46:03.91	CMD	"three feet"	None	None
+146	2019-07-16 13:46:03.97	DM->RN	"move forward 3 feet"	None	None
+147	2019-07-16 13:46:03.97	DM->CMD	"I will move forward 3 feet."	None	None
+148	2019-07-16 13:46:06.28	RN	"moving. . ."	None	None
+149	2019-07-16 13:46:06.29	DM->CMD	"moving. . ."	None	None
+150	2019-07-16 13:46:15.77	RN	"done"	None	None
+151	2019-07-16 13:46:15.81	DM->CMD	"done"	None	None
+152	2019-07-16 13:46:18.43	CMD	"send image"	None	None
+153	2019-07-16 13:46:18.51	DM->RN	"send image"	None	None
+154	2019-07-16 13:46:18.52	DM->CMD	"I will send image."	None	None
+i006	2019-07-16 13:46:02.40	IMAGE	"frame006"	None	None
+155	2019-07-16 13:46:22.39	RN	"sent"	None	None
+156	2019-07-16 13:46:22.47	DM->CMD	"sent"	None	None
+157	2019-07-16 13:46:34.51	CMD	"turn right forty five degrees"	None	None
+158	2019-07-16 13:46:34.56	DM->RN	"turn right 45 degrees"	None	None
+159	2019-07-16 13:46:34.57	DM->CMD	"I will turn right 45 degrees."	None	None
+160	2019-07-16 13:46:36.69	RN	"turning. . ."	None	None
+161	2019-07-16 13:46:36.80	DM->CMD	"turning. . ."	None	None
+162	2019-07-16 13:46:43.97	RN	"done"	None	None
+163	2019-07-16 13:46:44.07	DM->CMD	"done"	None	None
+164	2019-07-16 13:46:45.72	CMD	"send image"	None	None
+165	2019-07-16 13:46:45.78	DM->RN	"send image"	None	None
+166	2019-07-16 13:46:45.82	DM->CMD	"I will send image."	None	None
+i007	2019-07-16 13:46:29.39	IMAGE	"frame007"	None	None
+167	2019-07-16 13:46:50.53	RN	"sent"	None	None
+168	2019-07-16 13:46:50.62	DM->CMD	"sent"	None	None
+169	2019-07-16 13:47:22.36	CMD	"move to crate"	None	None
+170	2019-07-16 13:47:22.42	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+171	2019-07-16 13:47:24.87	CMD	"move forward to crate"	None	None
+172	2019-07-16 13:47:24.96	DM->CMD	"I'm not sure what you mean."	None	None
+173	2019-07-16 13:47:27.82	CMD	"move forward two feet"	None	None
+174	2019-07-16 13:47:27.88	DM->RN	"move to Alley cone"	None	None
+175	2019-07-16 13:47:27.91	DM->CMD	"I will try to move to cone."	None	None
+176	2019-07-16 13:47:32.23	RN	"moving. . ."	None	None
+177	2019-07-16 13:47:32.31	DM->CMD	"moving. . ."	None	None
+178	2019-07-16 13:47:38.43	RN	"done"	None	None
+179	2019-07-16 13:47:38.45	DM->CMD	"done"	None	None
+180	2019-07-16 13:47:40.51	CMD	"send image"	None	None
+181	2019-07-16 13:47:40.56	DM->RN	"send image"	None	None
+182	2019-07-16 13:47:40.57	DM->CMD	"I will send image."	None	None
+i008	2019-07-16 13:47:23.42	IMAGE	"frame008"	None	None
+183	2019-07-16 13:47:44.28	RN	"sent"	None	None
+184	2019-07-16 13:47:44.39	DM->CMD	"sent"	None	None
+185	2019-07-16 13:47:56.76	CMD	"move forward three feet"	None	None
+186	2019-07-16 13:47:56.82	DM->RN	"move forward 3 feet"	None	None
+187	2019-07-16 13:47:56.82	DM->CMD	"I will move forward 3 feet."	None	None
+188	2019-07-16 13:47:59.30	RN	"moving. . ."	None	None
+189	2019-07-16 13:47:59.34	DM->CMD	"moving. . ."	None	None
+190	2019-07-16 13:48:07.42	RN	"done"	None	None
+191	2019-07-16 13:48:07.53	DM->CMD	"done"	None	None
+192	2019-07-16 13:48:09.37	CMD	"send image"	None	None
+193	2019-07-16 13:48:09.46	DM->RN	"send image"	None	None
+194	2019-07-16 13:48:09.47	DM->CMD	"I will send image."	None	None
+i009	2019-07-16 13:47:51.72	IMAGE	"frame009"	None	None
+195	2019-07-16 13:48:13.99	RN	"sent"	None	None
+196	2019-07-16 13:48:14.08	DM->CMD	"sent"	None	None
+197	2019-07-16 13:48:18.77	CMD	"move to end of hall"	None	None
+198	2019-07-16 13:48:18.86	DM->CMD	"Can you repeat that?  <beep>"	None	None
+199	2019-07-16 13:48:20.98	CMD	"move to the end of the hall"	None	None
+200	2019-07-16 13:48:21.07	DM->RN	"move to end of the hall ahead"	None	None
+201	2019-07-16 13:48:21.07	DM->CMD	"I will try to move to end of the hall ahead."	None	None
+202	2019-07-16 13:48:22.73	RN	"moving. . ."	None	None
+203	2019-07-16 13:48:22.79	DM->CMD	"moving. . ."	None	None
+204	2019-07-16 13:48:37.10	RN	"done"	None	None
+205	2019-07-16 13:48:37.12	DM->CMD	"done"	None	None
+206	2019-07-16 13:48:40.27	CMD	"send image"	None	None
+207	2019-07-16 13:48:40.32	DM->RN	"send image"	None	None
+208	2019-07-16 13:48:40.32	DM->CMD	"I will send image."	None	None
+i010	2019-07-16 13:48:22.17	IMAGE	"frame010"	None	None
+209	2019-07-16 13:48:44.77	RN	"sent"	None	None
+210	2019-07-16 13:48:44.78	DM->CMD	"sent"	None	None
+211	2019-07-16 13:48:48.31	CMD	"turn ninety degrees to the right"	None	None
+212	2019-07-16 13:48:48.33	DM->RN	"turn right 90 degrees"	None	None
+213	2019-07-16 13:48:48.37	DM->CMD	"I will turn right 90 degrees."	None	None
+214	2019-07-16 13:48:50.96	RN	"moving. . ."	None	None
+215	2019-07-16 13:48:51.05	DM->CMD	"moving. . ."	None	None
+216	2019-07-16 13:49:00.46	RN	"done"	None	None
+217	2019-07-16 13:49:00.57	DM->CMD	"done"	None	None
+218	2019-07-16 13:49:02.11	CMD	"send image"	None	None
+219	2019-07-16 13:49:02.17	DM->RN	"send image"	None	None
+220	2019-07-16 13:49:02.17	DM->CMD	"I will send image."	None	None
+i011	2019-07-16 13:48:43.36	IMAGE	"frame011"	None	None
+221	2019-07-16 13:49:05.97	RN	"sent"	None	None
+222	2019-07-16 13:49:06.00	DM->CMD	"sent"	None	None
+223	2019-07-16 13:49:11.47	CMD	"move to red object"	None	None
+224	2019-07-16 13:49:11.56	DM->CMD	"Can you repeat that?  <beep>"	None	None
+225	2019-07-16 13:49:13.71	CMD	"move to red object"	None	None
+226	2019-07-16 13:49:13.76	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	None	None
+227	2019-07-16 13:49:17.42	CMD	"move to stop sign"	None	None
+228	2019-07-16 13:49:17.47	DM->RN	"move to stop sign"	None	None
+229	2019-07-16 13:49:17.47	DM->CMD	"I will try to  move to stop sign."	None	None
+230	2019-07-16 13:49:20.60	RN	"moving. . ."	None	None
+231	2019-07-16 13:49:20.64	DM->CMD	"moving. . ."	None	None
+232	2019-07-16 13:49:37.36	RN	"done"	None	None
+233	2019-07-16 13:49:37.37	DM->CMD	"done"	None	None
+234	2019-07-16 13:49:38.86	CMD	"send image"	None	None
+235	2019-07-16 13:49:38.92	DM->RN	"send image"	None	None
+236	2019-07-16 13:49:38.92	DM->CMD	"I will send image."	None	None
+i012	2019-07-16 13:49:19.16	IMAGE	"frame012"	None	None
+237	2019-07-16 13:49:43.34	RN	"sent"	None	None
+238	2019-07-16 13:49:43.38	DM->CMD	"sent"	None	None
+239	2019-07-16 13:49:47.01	CMD	"turn right one hundred degrees"	None	None
+240	2019-07-16 13:49:47.06	DM->RN	"turn right 100 degrees"	None	None
+241	2019-07-16 13:49:47.07	DM->CMD	"I will turn right 100 degrees."	None	None
+242	2019-07-16 13:49:49.53	RN	"turning. . ."	None	None
+243	2019-07-16 13:49:49.62	DM->CMD	"turning. . ."	None	None
+244	2019-07-16 13:49:56.73	RN	"done"	None	None
+245	2019-07-16 13:49:56.79	DM->CMD	"done"	None	None
+246	2019-07-16 13:49:58.71	CMD	"send image"	None	None
+247	2019-07-16 13:49:58.77	DM->RN	"send image"	None	None
+248	2019-07-16 13:49:58.78	DM->CMD	"I will send image."	None	None
+i013	2019-07-16 13:49:38.48	IMAGE	"frame013"	None	None
+249	2019-07-16 13:50:03.44	RN	"sent"	None	None
+250	2019-07-16 13:50:03.45	DM->CMD	"sent"	None	None
+251	2019-07-16 13:50:04.66	CMD	"do a one eighty"	None	None
+252	2019-07-16 13:50:04.72	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+253	2019-07-16 13:50:07.56	CMD	"turn one hundred eighty degrees"	None	None
+254	2019-07-16 13:50:07.63	DM->RN	"turn 180"	None	None
+255	2019-07-16 13:50:07.63	DM->CMD	"I will turn 180."	None	None
+256	2019-07-16 13:50:09.60	RN	"turning. . ."	None	None
+257	2019-07-16 13:50:09.70	DM->CMD	"turning. . ."	None	None
+258	2019-07-16 13:50:22.73	RN	"done"	None	None
+259	2019-07-16 13:50:22.80	DM->CMD	"done"	None	None
+260	2019-07-16 13:50:24.87	CMD	"send image"	None	None
+261	2019-07-16 13:50:24.93	DM->RN	"send image"	None	None
+262	2019-07-16 13:50:24.97	DM->CMD	"I will send image."	None	None
+i014	2019-07-16 13:50:04.42	IMAGE	"frame014"	None	None
+263	2019-07-16 13:50:29.19	RN	"sent"	None	None
+264	2019-07-16 13:50:29.26	DM->CMD	"sent"	None	None
+265	2019-07-16 13:50:35.96	CMD	"move back to the hallway"	None	None
+266	2019-07-16 13:50:36.02	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+267	2019-07-16 13:50:38.27	CMD	"move back to the hallway"	None	None
+268	2019-07-16 13:50:38.37	DM->CMD	"I don't understand"	None	None
+269	2019-07-16 13:50:44.96	CMD	"turn right twenty degrees"	None	None
+270	2019-07-16 13:50:45.02	DM->RN	"turn right 20 degrees"	None	None
+271	2019-07-16 13:50:45.03	DM->CMD	"I will turn right 20 degrees."	None	None
+272	2019-07-16 13:50:47.95	RN	"turning. . ."	None	None
+273	2019-07-16 13:50:47.99	DM->CMD	"turning. . ."	None	None
+274	2019-07-16 13:50:52.93	RN	"done"	None	None
+275	2019-07-16 13:50:53.01	DM->CMD	"done"	None	None
+276	2019-07-16 13:50:56.66	CMD	"turn left forty degrees"	None	None
+277	2019-07-16 13:50:56.72	DM->RN	"turn left 40 degrees"	None	None
+278	2019-07-16 13:50:56.73	DM->CMD	"I will turn left 40 degrees."	None	None
+279	2019-07-16 13:51:00.09	RN	"turning. . ."	None	None
+280	2019-07-16 13:51:00.10	DM->CMD	"turning. . ."	None	None
+281	2019-07-16 13:51:05.16	RN	"done"	None	None
+282	2019-07-16 13:51:05.20	DM->CMD	"done"	None	None
+283	2019-07-16 13:51:07.51	CMD	"send image"	None	None
+284	2019-07-16 13:51:07.57	DM->RN	"send image"	None	None
+285	2019-07-16 13:51:07.57	DM->CMD	"I will send image."	None	None
+i015	2019-07-16 13:50:46.36	IMAGE	"frame015"	None	None
+286	2019-07-16 13:51:11.88	RN	"sent"	None	None
+287	2019-07-16 13:51:12.05	DM->CMD	"sent"	None	None
+288	2019-07-16 13:51:19.72	CMD	"move to other room"	None	None
+289	2019-07-16 13:51:19.78	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+290	2019-07-16 13:51:23.86	CMD	"move forward two feet"	None	None
+291	2019-07-16 13:51:23.92	DM->CMD	"I don't understand"	None	None
+292	2019-07-16 13:51:26.36	CMD	"move forward three feet"	None	None
+293	2019-07-16 13:51:26.42	DM->RN	"move forward 3 feet"	None	None
+294	2019-07-16 13:51:26.42	DM->CMD	"I will move forward 3 feet."	None	None
+295	2019-07-16 13:51:28.05	RN	"moving. . ."	None	None
+296	2019-07-16 13:51:28.13	DM->CMD	"moving. . ."	None	None
+297	2019-07-16 13:51:36.12	RN	"done"	None	None
+298	2019-07-16 13:51:36.22	DM->CMD	"done"	None	None
+299	2019-07-16 13:51:40.43	CMD	"turn left twnety degrees"	None	None
+300	2019-07-16 13:51:40.51	DM->RN	"turn left 20 degrees"	None	None
+301	2019-07-16 13:51:40.52	DM->CMD	"I will turn left 20 degrees."	None	None
+302	2019-07-16 13:51:42.60	RN	"turning. . ."	None	None
+303	2019-07-16 13:51:42.67	DM->CMD	"turning. . ."	None	None
+304	2019-07-16 13:51:47.54	RN	"done"	None	None
+305	2019-07-16 13:51:47.59	DM->CMD	"done"	None	None
+306	2019-07-16 13:51:49.18	CMD	"send image"	None	None
+307	2019-07-16 13:51:49.27	DM->RN	"send image"	None	None
+308	2019-07-16 13:51:49.27	DM->CMD	"I will send image."	None	None
+i016	2019-07-16 13:51:27.28	IMAGE	"frame016"	None	None
+309	2019-07-16 13:51:53.00	RN	"sent"	None	None
+310	2019-07-16 13:51:53.01	DM->CMD	"sent"	None	None
+311	2019-07-16 13:51:54.37	CMD	"move to chair"	None	None
+312	2019-07-16 13:51:54.43	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+313	2019-07-16 13:51:56.46	CMD	"move to chair"	None	None
+314	2019-07-16 13:51:56.52	DM->RN	"move to chair"	None	None
+315	2019-07-16 13:51:56.52	DM->CMD	"I will try to move to chair."	None	None
+316	2019-07-16 13:51:58.95	RN	"moving. . ."	None	None
+317	2019-07-16 13:51:59.06	DM->CMD	"moving. . ."	None	None
+318	2019-07-16 13:52:13.27	RN	"done"	None	None
+319	2019-07-16 13:52:13.29	DM->CMD	"done"	None	None
+320	2019-07-16 13:52:15.57	CMD	"send image"	None	None
+321	2019-07-16 13:52:15.62	DM->RN	"send image"	None	None
+322	2019-07-16 13:52:15.63	DM->CMD	"I will send image."	None	None
+i017	2019-07-16 13:51:53.09	IMAGE	"frame017"	None	None
+323	2019-07-16 13:52:19.78	RN	"sent"	None	None
+324	2019-07-16 13:52:19.85	DM->CMD	"sent"	None	None
+325	2019-07-16 13:52:24.98	CMD	"turn left eighty degrees"	None	None
+326	2019-07-16 13:52:25.07	DM->CMD	"Can you repeat that?  <beep>"	None	None
+327	2019-07-16 13:52:27.96	CMD	"turn left eighty degrees"	None	None
+328	2019-07-16 13:52:28.02	DM->CMD	"I don't understand"	None	None
+329	2019-07-16 13:52:30.86	CMD	"turn left ninety degrees"	None	None
+330	2019-07-16 13:52:30.92	DM->RN	"turn left 90 degrees"	None	None
+331	2019-07-16 13:52:30.92	DM->CMD	"I will turn left 90 degrees."	None	None
+332	2019-07-16 13:52:33.60	RN	"turning. . ."	None	None
+333	2019-07-16 13:52:33.68	DM->CMD	"turning. . ."	None	None
+334	2019-07-16 13:52:43.74	RN	"done"	None	None
+335	2019-07-16 13:52:43.81	DM->CMD	"done"	None	None
+336	2019-07-16 13:52:46.16	CMD	"send image"	None	None
+337	2019-07-16 13:52:46.22	DM->RN	"send image"	None	None
+338	2019-07-16 13:52:46.23	DM->CMD	"I will send image."	None	None
+i018	2019-07-16 13:52:22.96	IMAGE	"frame018"	None	None
+339	2019-07-16 13:52:50.69	RN	"sent"	None	None
+340	2019-07-16 13:52:50.70	DM->CMD	"sent"	None	None
+341	2019-07-16 13:52:51.42	CMD	"turn left twenty degrees"	None	None
+342	2019-07-16 13:52:51.48	DM->RN	"turn left 20 degrees"	None	None
+343	2019-07-16 13:52:51.52	DM->CMD	"I will turn left 20 degrees."	None	None
+344	2019-07-16 13:52:53.75	RN	"turning. . ."	None	None
+345	2019-07-16 13:52:53.92	DM->CMD	"turning. . ."	None	None
+346	2019-07-16 13:52:59.43	RN	"done"	None	None
+347	2019-07-16 13:52:59.47	DM->CMD	"done"	None	None
+348	2019-07-16 13:53:05.61	CMD	"send image"	None	None
+349	2019-07-16 13:53:05.67	DM->RN	"send image"	None	None
+350	2019-07-16 13:53:05.67	DM->CMD	"I will send image."	None	None
+i019	2019-07-16 13:52:42.19	IMAGE	"frame019"	None	None
+351	2019-07-16 13:53:08.92	RN	"sent"	None	None
+352	2019-07-16 13:53:09.00	DM->CMD	"sent"	None	None
+353	2019-07-16 13:53:11.96	CMD	"move to hallway"	None	None
+354	2019-07-16 13:53:12.06	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+355	2019-07-16 13:53:14.31	CMD	"move to the hallway"	None	None
+356	2019-07-16 13:53:14.40	DM->CMD	"I'm not sure what you mean."	None	None
+357	2019-07-16 13:53:21.42	CMD	"turn right twenty degrees"	None	None
+358	2019-07-16 13:53:21.48	DM->RN	"turn right 20 degrees"	None	None
+359	2019-07-16 13:53:21.48	DM->CMD	"I will turn right 20 degrees."	None	None
+360	2019-07-16 13:53:23.84	RN	"turning. . ."	None	None
+361	2019-07-16 13:53:23.95	DM->CMD	"turning. . ."	None	None
+362	2019-07-16 13:53:28.46	RN	"done"	None	None
+363	2019-07-16 13:53:28.57	DM->CMD	"done"	None	None
+364	2019-07-16 13:53:35.82	CMD	"send a message"	None	None
+365	2019-07-16 13:53:35.88	DM->RN	"send image"	None	None
+366	2019-07-16 13:53:35.88	DM->CMD	"I will send image."	None	None
+i020	2019-07-16 13:53:12.11	IMAGE	"frame020"	None	None
+367	2019-07-16 13:53:39.77	RN	"sent"	None	None
+368	2019-07-16 13:53:39.79	DM->CMD	"sent"	None	None
+369	2019-07-16 13:53:40.21	CMD	"move through doorway"	None	None
+370	2019-07-16 13:53:40.27	DM->CMD	"Can you repeat that?  <beep>"	None	None
+371	2019-07-16 13:53:42.73	CMD	"move through doorway"	None	None
+372	2019-07-16 13:53:42.82	DM->RN	"move into Kitchen hallway"	None	None
+373	2019-07-16 13:53:42.82	DM->CMD	"I will try to move into Kitchen hallway."	None	None
+374	2019-07-16 13:53:45.24	RN	"moving. . ."	None	None
+375	2019-07-16 13:53:45.35	DM->CMD	"moving. . ."	None	None
+376	2019-07-16 13:53:54.72	RN	"done"	None	None
+377	2019-07-16 13:53:54.77	DM->CMD	"done"	None	None
+378	2019-07-16 13:53:59.17	CMD	"turn left ninety degrees"	None	None
+379	2019-07-16 13:53:59.23	DM->RN	"turn left 90 degrees"	None	None
+380	2019-07-16 13:53:59.27	DM->CMD	"I will turn left 90 degrees."	None	None
+381	2019-07-16 13:54:01.94	RN	"turning. . ."	None	None
+382	2019-07-16 13:54:02.04	DM->CMD	"turning. . ."	None	None
+383	2019-07-16 13:54:12.65	RN	"done"	None	None
+384	2019-07-16 13:54:12.69	DM->CMD	"done"	None	None
+385	2019-07-16 13:54:14.56	CMD	"send image"	None	None
+386	2019-07-16 13:54:14.58	DM->RN	"send image"	None	None
+387	2019-07-16 13:54:14.62	DM->CMD	"I will send image."	None	None
+i021	2019-07-16 13:53:50.60	IMAGE	"frame021"	None	None
+388	2019-07-16 13:54:18.16	RN	"sent"	None	None
+389	2019-07-16 13:54:18.22	DM->CMD	"sent"	None	None
+390	2019-07-16 13:54:24.07	CMD	"move to doorway on the right"	None	None
+391	2019-07-16 13:54:24.17	DM->CMD	"Can you repeat that?  <beep>"	None	None
+392	2019-07-16 13:54:26.81	CMD	"move to the doorway on the right"	None	None
+393	2019-07-16 13:54:26.87	DM->CMD	"I'm not sure what you mean."	None	None
+394	2019-07-16 13:54:29.91	CMD	"move forward three feet"	None	None
+395	2019-07-16 13:54:29.97	DM->RN	"move forward 3 feet"	None	None
+396	2019-07-16 13:54:29.97	DM->CMD	"I will move forward 3 feet."	None	None
+397	2019-07-16 13:54:31.83	RN	"moving. . ."	None	None
+398	2019-07-16 13:54:31.94	DM->CMD	"moving. . ."	None	None
+399	2019-07-16 13:54:37.94	RN	"done"	None	None
+400	2019-07-16 13:54:37.99	DM->CMD	"done"	None	None
+401	2019-07-16 13:54:40.37	CMD	"send image"	None	None
+402	2019-07-16 13:54:40.42	DM->RN	"send image"	None	None
+403	2019-07-16 13:54:40.43	DM->CMD	"I will send image."	None	None
+i022	2019-07-16 13:54:15.79	IMAGE	"frame022"	None	None
+404	2019-07-16 13:54:45.55	RN	"sent"	None	None
+405	2019-07-16 13:54:45.56	DM->CMD	"sent"	None	None
+406	2019-07-16 13:54:46.51	CMD	"turn right forty five degrees"	None	None
+407	2019-07-16 13:54:46.57	DM->RN	"turn right 45 degrees"	None	None
+408	2019-07-16 13:54:46.57	DM->CMD	"I will turn right 45 degrees."	None	None
+409	2019-07-16 13:54:49.45	RN	"turning. . ."	None	None
+410	2019-07-16 13:54:49.56	DM->CMD	"turning. . ."	None	None
+411	2019-07-16 13:54:56.61	RN	"done"	None	None
+412	2019-07-16 13:54:56.72	DM->CMD	"done"	None	None
+413	2019-07-16 13:54:58.62	CMD	"send image"	None	None
+414	2019-07-16 13:54:58.68	DM->RN	"send image"	None	None
+415	2019-07-16 13:54:58.72	DM->CMD	"I will send image."	None	None
+i023	2019-07-16 13:54:33.47	IMAGE	"frame023"	None	None
+416	2019-07-16 13:55:03.33	RN	"sent"	None	None
+417	2019-07-16 13:55:03.34	DM->CMD	"sent"	None	None
+418	2019-07-16 13:55:04.56	CMD	"move forward two feet"	None	None
+419	2019-07-16 13:55:04.62	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+420	2019-07-16 13:55:06.91	CMD	"move forward two feet"	None	None
+421	2019-07-16 13:55:06.97	DM->CMD	"I'm not sure what you mean."	None	None
+422	2019-07-16 13:55:10.51	CMD	"move forward one foot"	None	None
+423	2019-07-16 13:55:10.57	DM->RN	"move forward 1 foot"	None	None
+424	2019-07-16 13:55:10.58	DM->CMD	"I will move forward 1 foot."	None	None
+425	2019-07-16 13:55:12.41	RN	"moving. . ."	None	None
+426	2019-07-16 13:55:12.60	DM->CMD	"moving. . ."	None	None
+427	2019-07-16 13:55:16.05	RN	"done"	None	None
+428	2019-07-16 13:55:16.08	DM->CMD	"done"	None	None
+429	2019-07-16 13:55:17.88	CMD	"send image"	None	None
+430	2019-07-16 13:55:17.97	DM->RN	"send image"	None	None
+431	2019-07-16 13:55:17.97	DM->CMD	"I will send image."	None	None
+i024	2019-07-16 13:54:52.78	IMAGE	"frame024"	None	None
+432	2019-07-16 13:55:22.44	RN	"sent"	None	None
+433	2019-07-16 13:55:22.45	DM->CMD	"sent"	None	None
+434	2019-07-16 13:55:22.61	CMD	"move forward one foot"	None	None
+435	2019-07-16 13:55:22.68	DM->RN	"move forward 1 foot"	None	None
+436	2019-07-16 13:55:22.68	DM->CMD	"I will move forward 1 foot."	None	None
+437	2019-07-16 13:55:24.40	RN	"moving. . ."	None	None
+438	2019-07-16 13:55:24.48	DM->CMD	"moving. . ."	None	None
+439	2019-07-16 13:55:28.08	RN	"done"	None	None
+440	2019-07-16 13:55:28.17	DM->CMD	"done"	None	None
+441	2019-07-16 13:55:34.06	CMD	"send image"	None	None
+442	2019-07-16 13:55:34.12	DM->RN	"send image"	None	None
+443	2019-07-16 13:55:34.12	DM->CMD	"I will send image."	None	None
+i025	2019-07-16 13:55:08.30	IMAGE	"frame025"	None	None
+444	2019-07-16 13:55:37.50	RN	"sent"	None	None
+445	2019-07-16 13:55:37.52	DM->CMD	"sent"	None	None
+446	2019-07-16 13:55:38.93	CMD	"move to chair"	None	None
+447	2019-07-16 13:55:39.02	DM->CMD	"Can you repeat that?  <beep>"	None	None
+448	2019-07-16 13:55:40.96	CMD	"move to chair"	None	None
+449	2019-07-16 13:55:41.02	DM->CMD	"I'm not sure what you mean."	None	None
+450	2019-07-16 13:55:43.46	CMD	"move to chair"	None	None
+451	2019-07-16 13:55:43.52	DM->RN	"move to chair"	None	None
+452	2019-07-16 13:55:43.53	DM->CMD	"I will try to move to chair."	None	None
+453	2019-07-16 13:55:45.50	RN	"moving. . ."	None	None
+454	2019-07-16 13:55:45.57	DM->CMD	"moving. . ."	None	None
+455	2019-07-16 13:55:58.41	RN	"done"	None	None
+456	2019-07-16 13:55:58.47	DM->CMD	"done"	None	None
+457	2019-07-16 13:56:03.26	CMD	"turn left ninety degrees"	None	None
+458	2019-07-16 13:56:03.32	DM->RN	"turn left 90 degrees"	None	None
+459	2019-07-16 13:56:03.33	DM->CMD	"I will turn left 90 degrees."	None	None
+460	2019-07-16 13:56:06.62	RN	"turning. . ."	None	None
+461	2019-07-16 13:56:06.67	DM->CMD	"turning. . ."	None	None
+462	2019-07-16 13:56:17.28	RN	"done"	None	None
+463	2019-07-16 13:56:17.32	DM->CMD	"done"	None	None
+464	2019-07-16 13:56:19.71	CMD	"send image"	None	None
+465	2019-07-16 13:56:19.78	DM->RN	"send image"	None	None
+466	2019-07-16 13:56:19.79	DM->CMD	"I will send image."	None	None
+i026	2019-07-16 13:55:53.07	IMAGE	"frame026"	None	None
+467	2019-07-16 13:56:23.41	RN	"sent"	None	None
+468	2019-07-16 13:56:23.46	DM->CMD	"sent"	None	None
+469	2019-07-16 13:56:32.57	CMD	"one eighty degrees"	None	None
+470	2019-07-16 13:56:32.63	DM->RN	"send image"	None	None
+471	2019-07-16 13:56:32.63	DM->CMD	"I will send image."	None	None
+i027	2019-07-16 13:56:07.00	IMAGE	"frame027"	None	None
+472	2019-07-16 13:56:38.40	RN	"sent"	None	None
+473	2019-07-16 13:56:38.52	DM->CMD	"sent"	None	None
+474	2019-07-16 13:56:42.87	CMD	"turn one hundred eighty degrees"	None	None
+475	2019-07-16 13:56:42.97	DM->RN	"turn 180"	None	None
+476	2019-07-16 13:56:42.98	DM->CMD	"I will turn 180."	None	None
+477	2019-07-16 13:56:44.99	RN	"turning. . ."	None	None
+478	2019-07-16 13:56:45.06	DM->CMD	"turning. . ."	None	None
+479	2019-07-16 13:56:54.55	RN	"done"	None	None
+480	2019-07-16 13:56:54.59	DM->CMD	"done"	None	None
+481	2019-07-16 13:56:56.57	CMD	"send image"	None	None
+482	2019-07-16 13:56:56.63	DM->RN	"send image"	None	None
+483	2019-07-16 13:56:56.63	DM->CMD	"I will send image."	None	None
+i028	2019-07-16 13:56:30.46	IMAGE	"frame028"	None	None
+484	2019-07-16 13:57:02.01	RN	"sent"	None	None
+485	2019-07-16 13:57:02.06	DM->CMD	"sent"	None	None
+486	2019-07-16 13:57:07.91	CMD	"turn left forty five degrees"	None	None
+487	2019-07-16 13:57:07.98	DM->RN	"turn left 45 degrees"	None	None
+488	2019-07-16 13:57:07.98	DM->CMD	"I will turn left 45 degrees."	None	None
+489	2019-07-16 13:57:11.13	RN	"turning. . ."	None	None
+490	2019-07-16 13:57:11.28	DM->CMD	"turning. . ."	None	None
+491	2019-07-16 13:57:20.20	RN	"done"	None	None
+492	2019-07-16 13:57:20.29	DM->CMD	"done"	None	None
+493	2019-07-16 13:57:22.17	CMD	"send image"	None	None
+494	2019-07-16 13:57:22.23	DM->RN	"send image"	None	None
+495	2019-07-16 13:57:22.24	DM->CMD	"I will send image."	None	None
+i029	2019-07-16 13:56:55.00	IMAGE	"frame029"	None	None
+496	2019-07-16 13:57:26.19	RN	"sent"	None	None
+497	2019-07-16 13:57:26.23	DM->CMD	"sent"	None	None
+498	2019-07-16 13:57:28.37	CMD	"move to fire hydrant"	None	None
+499	2019-07-16 13:57:28.47	DM->RN	"move 3 feet towards fire extinguisher"	None	None
+500	2019-07-16 13:57:28.48	DM->CMD	"I will try to move 3 feet towards fire extinguisher."	None	None
+501	2019-07-16 13:57:32.72	RN	"moving. . ."	None	None
+502	2019-07-16 13:57:32.78	DM->CMD	"moving. . ."	None	None
+503	2019-07-16 13:57:41.30	RN	"done"	None	None
+504	2019-07-16 13:57:41.38	DM->CMD	"done"	None	None
+505	2019-07-16 13:57:45.26	CMD	"move forward one foot"	None	None
+506	2019-07-16 13:57:45.32	DM->RN	"move forward 1 foot"	None	None
+507	2019-07-16 13:57:45.32	DM->CMD	"I will move forward 1 foot."	None	None
+508	2019-07-16 13:57:48.21	RN	"moving. . ."	None	None
+509	2019-07-16 13:57:48.24	DM->CMD	"moving. . ."	None	None
+510	2019-07-16 13:57:51.47	RN	"done"	None	None
+511	2019-07-16 13:57:51.52	DM->CMD	"done"	None	None
+512	2019-07-16 13:57:55.26	CMD	"turn right twenty degrees"	None	None
+513	2019-07-16 13:57:55.28	DM->RN	"turn right 20 degrees"	None	None
+514	2019-07-16 13:57:55.32	DM->CMD	"I will turn right 20 degrees."	None	None
+515	2019-07-16 13:57:57.81	RN	"turning. . ."	None	None
+516	2019-07-16 13:57:57.87	DM->CMD	"turning. . ."	None	None
+517	2019-07-16 13:58:03.32	RN	"done"	None	None
+518	2019-07-16 13:58:03.40	DM->CMD	"done"	None	None
+519	2019-07-16 13:58:10.47	CMD	"send image"	None	None
+520	2019-07-16 13:58:10.52	DM->RN	"send image"	None	None
+521	2019-07-16 13:58:10.53	DM->CMD	"I will send image."	None	None
+i030	2019-07-16 13:57:42.06	IMAGE	"frame030"	None	None
+522	2019-07-16 13:58:14.98	RN	"sent"	None	None
+523	2019-07-16 13:58:15.07	DM->CMD	"sent"	None	None
+524	2019-07-16 13:58:21.66	CMD	"move to crate"	None	None
+525	2019-07-16 13:58:21.68	DM->RN	"move to crate"	None	None
+526	2019-07-16 13:58:21.72	DM->CMD	"I will try to move to crate."	None	None
+527	2019-07-16 13:58:31.87	RN	"I'm not sure which object you are referring to. <beep>"	None	None
+528	2019-07-16 13:58:31.87	DM->CMD	"I'm not sure which object you are referring to. <beep>"	None	None
+529	2019-07-16 13:58:40.07	CMD	"move to shoe"	None	None
+530	2019-07-16 13:58:40.13	DM->RN	"move to single shoe"	None	None
+531	2019-07-16 13:58:40.17	DM->CMD	"I will try to  move to shoe."	None	None
+532	2019-07-16 13:58:42.92	RN	"moving. . ."	None	None
+533	2019-07-16 13:58:43.03	DM->CMD	"moving. . ."	None	None
+534	2019-07-16 13:58:52.97	RN	"done"	None	None
+535	2019-07-16 13:58:53.06	DM->CMD	"done"	None	None
+536	2019-07-16 13:59:00.31	CMD	"turn right forty five degrees"	None	None
+537	2019-07-16 13:59:00.33	DM->RN	"turn right 45 degrees"	None	None
+538	2019-07-16 13:59:00.37	DM->CMD	"I will turn right 45 degrees."	None	None
+539	2019-07-16 13:59:02.51	RN	"turning. . ."	None	None
+540	2019-07-16 13:59:02.59	DM->CMD	"turning. . ."	None	None
+541	2019-07-16 13:59:08.51	RN	"done"	None	None
+542	2019-07-16 13:59:08.53	DM->CMD	"done"	None	None
+543	2019-07-16 13:59:10.21	CMD	"send image"	None	None
+544	2019-07-16 13:59:10.27	DM->RN	"send image"	None	None
+545	2019-07-16 13:59:10.28	DM->CMD	"I will send image."	None	None
+i031	2019-07-16 13:58:41.11	IMAGE	"frame031"	None	None
+546	2019-07-16 13:59:15.14	RN	"sent"	None	None
+547	2019-07-16 13:59:15.18	DM->CMD	"sent"	None	None
+548	2019-07-16 13:59:19.76	CMD	"move to bucket"	None	None
+549	2019-07-16 13:59:19.82	DM->RN	"move to bucket with rope"	None	None
+550	2019-07-16 13:59:19.82	DM->CMD	"I will try to move to bucket with rope."	None	None
+551	2019-07-16 13:59:21.75	RN	"moving. . ."	None	None
+552	2019-07-16 13:59:21.84	DM->CMD	"moving. . ."	None	None
+553	2019-07-16 13:59:34.10	RN	"done"	None	None
+554	2019-07-16 13:59:34.23	DM->CMD	"done"	None	None
+555	2019-07-16 13:59:39.01	CMD	"turn right twenty degrees"	None	None
+556	2019-07-16 13:59:39.03	DM->RN	"turn right 20 degrees"	None	None
+557	2019-07-16 13:59:39.07	DM->CMD	"I will turn right 20 degrees."	None	None
+558	2019-07-16 13:59:41.15	RN	"turning. . ."	None	None
+559	2019-07-16 13:59:41.19	DM->CMD	"turning. . ."	None	None
+560	2019-07-16 13:59:45.16	RN	"done"	None	None
+561	2019-07-16 13:59:45.19	DM->CMD	"done"	None	None
+562	2019-07-16 13:59:46.97	CMD	"send image"	None	None
+563	2019-07-16 13:59:47.03	DM->RN	"send image"	None	None
+564	2019-07-16 13:59:47.03	DM->CMD	"I will send image."	None	None
+i032	2019-07-16 13:59:17.17	IMAGE	"frame032"	None	None
+565	2019-07-16 13:59:50.96	RN	"sent"	None	None
+566	2019-07-16 13:59:50.97	DM->CMD	"sent"	None	None
+567	2019-07-16 13:59:51.96	CMD	"move to sign"	None	None
+568	2019-07-16 13:59:52.02	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+569	2019-07-16 13:59:54.11	CMD	"move to sign"	None	None
+570	2019-07-16 13:59:54.17	DM->CMD	"I don't understand"	None	None
+571	2019-07-16 14:00:07.32	CMD	"move forward three feet"	None	None
+572	2019-07-16 14:00:07.37	DM->RN	"move forward 3 feet"	None	None
+573	2019-07-16 14:00:07.38	DM->CMD	"I will move forward 3 feet."	None	None
+574	2019-07-16 14:00:09.22	RN	"moving. . ."	None	None
+575	2019-07-16 14:00:09.25	DM->CMD	"moving. . ."	None	None
+576	2019-07-16 14:00:18.52	RN	"done"	None	None
+577	2019-07-16 14:00:18.57	DM->CMD	"done"	None	None
+578	2019-07-16 14:00:20.92	CMD	"send image"	None	None
+579	2019-07-16 14:00:20.98	DM->RN	"send image"	None	None
+580	2019-07-16 14:00:20.98	DM->CMD	"I will send image."	None	None
+i033	2019-07-16 13:59:50.81	IMAGE	"frame033"	None	None
+581	2019-07-16 14:00:25.33	RN	"sent"	None	None
+582	2019-07-16 14:00:25.43	DM->CMD	"sent"	None	None
+583	2019-07-16 14:00:47.42	CMD	"move forward three feet"	None	None
+584	2019-07-16 14:00:47.47	DM->RN	"move forward 3 feet"	None	None
+585	2019-07-16 14:00:47.48	DM->CMD	"I will move forward 3 feet."	None	None
+586	2019-07-16 14:00:50.06	RN	"moving. . ."	None	None
+587	2019-07-16 14:00:50.11	DM->CMD	"moving. . ."	None	None
+588	2019-07-16 14:00:56.23	RN	"done"	None	None
+589	2019-07-16 14:00:56.25	DM->CMD	"done"	None	None
+590	2019-07-16 14:01:01.03	CMD	"move forward two feet"	None	None
+591	2019-07-16 14:01:01.12	DM->CMD	"Can you repeat that?  <beep>"	None	None
+592	2019-07-16 14:01:05.36	CMD	"move forward two feet"	None	None
+593	2019-07-16 14:01:05.43	DM->CMD	"I'm not sure what you mean."	None	None
+594	2019-07-16 14:01:08.66	CMD	"move forward a foot and a half"	None	None
+595	2019-07-16 14:01:08.72	DM->RN	"move into room on left"	None	None
+596	2019-07-16 14:01:08.73	DM->CMD	"I will try to move into room on left."	None	None
+597	2019-07-16 14:01:10.95	RN	"moving. . ."	None	None
+598	2019-07-16 14:01:11.10	DM->CMD	"moving. . ."	None	None
+599	2019-07-16 14:01:25.74	RN	"done"	None	None
+600	2019-07-16 14:01:25.85	DM->CMD	"done"	None	None
+601	2019-07-16 14:02:44.66	CMD	"task complete"	None	None
+602	2019-07-16 14:02:44.68	DM->CMD	"Can you rephrase that?  <beep>"	None	None
+603	2019-07-16 14:02:47.92	CMD	"task complete"	None	None
+604	2019-07-16 14:02:47.98	DM->RN	"end task"	None	None
+605	2019-07-16 14:02:48.02	DM->CMD	"Processing...."	None	None

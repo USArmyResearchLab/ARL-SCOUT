@@ -1,0 +1,14 @@
+p2.02_main2_s29
+# ::tok I see a grey box - like object ahead and to the left .
+# ::snt I see a grey box-like object ahead and to the left.
+(s / see-01
+	:ARG0 (i / i)
+	:ARG1 (o / object
+		:ARG1-of (r / resemble-01
+			:ARG2 (b / box))
+		:ARG1-of (g / gray-02)
+		:ARG1-of (l / left-20
+			:ARG2 i)
+		:location (a / ahead
+			:op1 i)))
+

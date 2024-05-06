@@ -1,0 +1,14 @@
+p2.02_main2_s24
+# ::tok how many yellow helmets do you see
+# ::snt how many yellow helmets do you see
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (h / helmet
+			:ARG1-of (y / yellow-02)
+			:quant (a / amr-unknown))
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+

@@ -1,0 +1,23 @@
+p2.05_main2_s153
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+

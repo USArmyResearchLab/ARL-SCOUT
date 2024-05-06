@@ -1,0 +1,19 @@
+p3.29_main1_s55
+# ::tok I turned left 90 degrees
+# ::snt I turned left 90 degrees
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a2 / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

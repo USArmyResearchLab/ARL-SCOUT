@@ -1,0 +1,10 @@
+p2.08_main1_s195
+# ::tok I do n't see a door on the left . < beep >
+# ::snt I don't see a door on the left. <beep>
+(s / see-01
+	:ARG0 (i / i)
+	:ARG1 (d / door
+		:ARG1-of (l / left-20
+			:ARG2 i))
+	:polarity -)
+

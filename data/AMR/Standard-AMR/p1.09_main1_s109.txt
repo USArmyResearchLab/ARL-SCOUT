@@ -1,0 +1,14 @@
+p1.09_main1_s109
+# ::tok back up into hallway until you reach the wall behind you
+# ::snt back up into hallway until you reach the wall behind you
+(b / back-up-06
+	:ARG0 (y / you)
+	:ARG1 y
+	:destination (r / reach-01
+		:ARG0 y
+		:ARG1 (w / wall
+			:location (b2 / behind
+				:op1 y)))
+	:mode imperative
+	:path (h / hallway))
+

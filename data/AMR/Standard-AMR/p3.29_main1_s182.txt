@@ -1,0 +1,13 @@
+p3.29_main1_s182
+# ::tok turn eighty degrees to the left
+# ::snt turn eighty degrees to the left
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (l / left-20
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 80
+		:unit (d / degree))
+	:mode imperative)
+

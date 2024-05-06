@@ -1,0 +1,563 @@
+id	time	stream	text	tu	rel	ant	context
+2	1976-12-31 17:02:05.00	DM->RN	" participant is ready"	1	1	translation-r-direct-error	None
+3	1976-12-31 17:02:09.00	DM->CMD	"Processing...."	1	1	processing	None
+4	1976-12-31 18:24:39.00	RN	" I'm also ready. <beep>"	1	2	reciprocal	None
+5	1976-12-31 18:24:40.00	DM->CMD	"I'm also ready. <beep>"	1	4	translation-l	None
+6	2019-07-16 15:09:37.93	CMD	"I am also ready"	2	None	None	None
+7	1976-12-31 20:08:46.00	DM->RN	" participant is ready"	2	6	translation-r-direct	None
+8	1976-12-31 20:08:51.00	DM->CMD	"Processing...."	2	6	processing	None
+9	1976-12-31 21:03:17.00	RN	" I'm also ready. <beep>"	2	7	reciprocal	None
+10	1976-12-31 21:03:18.00	DM->CMD	"I'm also ready. <beep>"	2	9	translation-l	None
+11	2019-07-16 15:09:52.27	CMD	"send image"	3	None	None	None
+12	1977-01-01 00:00:18.00	DM->RN	" send image"	3	11	translation-r-direct	None
+13	1977-01-01 00:00:22.00	DM->CMD	"I will send image."	3	11	ack-wilco	None
+14	1977-01-01 01:22:43.00	RN	" sent"	3	12	ack-done	None
+15	1977-01-01 01:22:43.00	DM->CMD	"sent"	3	14	translation-l	None
+16	2019-07-16 15:10:06.75	CMD	"turn ninety degrees to the right"	4	None	None	None
+17	1977-01-01 15:23:37.00	DM->RN	" turn right 45 degrees"	4	16	translation-r-direct-error	None
+18	1977-01-01 15:23:42.00	DM->CMD	"I will turn right 45 degrees."	4	16	ack-wilco	None
+19	1977-01-01 15:54:14.00	RN	" turning. . ."	4	17	ack-doing	None
+20	1977-01-01 15:54:15.00	DM->CMD	"turning. . ."	4	19	translation-l	None
+21	1977-01-01 18:44:51.00	RN	" done"	4	17	ack-done	None
+22	1977-01-01 18:44:52.00	DM->CMD	"done"	4	21	translation-l	None
+23	1977-01-01 19:29:13.00	RN	" sent"	ERR	None	None	None
+24	1977-01-01 19:29:14.00	DM->CMD	"sent"	ERR	None	None	None
+25	2019-07-16 15:10:24.24	CMD	"turn one hundred eighty degrees"	5	None	None	None
+26	1977-01-01 20:18:50.00	DM->RN	" turn 180"	5	25	translation-r-direct	None
+27	1977-01-01 20:19:23.00	DM->CMD	"I will turn 180."	5	25	ack-wilco	None
+28	1977-01-01 21:04:53.00	RN	" turning. . ."	5	26	ack-doing	None
+29	1977-01-01 21:04:54.00	DM->CMD	"turning. . ."	5	28	translation-l	None
+30	1977-01-02 00:36:26.00	RN	" done"	5	26	ack-done	None
+31	1977-01-02 00:36:28.00	DM->CMD	"done"	5	30	translation-l	None
+32	2019-07-16 15:10:42.84	CMD	"send image"	6	None	None	None
+33	1977-01-02 01:08:47.00	DM->RN	" send image"	6	32	translation-r-direct	None
+34	1977-01-02 01:08:52.00	DM->CMD	"I will send image."	6	32	ack-wilco	None
+35	1977-01-02 02:25:39.00	RN	" sent"	6	33	ack-done	None
+36	1977-01-02 02:25:40.00	DM->CMD	"sent"	6	35	translation-l	None
+37	2019-07-16 15:11:01.08	CMD	"turn left ninety degrees"	7	None	None	None
+38	1977-01-02 17:33:34.00	DM->RN	" turn left 90 degrees"	7	37	translation-r-direct	None
+39	1977-01-02 17:33:40.00	DM->CMD	"I will turn left 90 degrees."	7	37	ack-wilco	None
+40	1977-01-02 18:34:24.00	RN	" turning. . ."	7	38	ack-doing	None
+41	1977-01-02 18:34:25.00	DM->CMD	"turning. . ."	7	40	translation-l	None
+42	1977-01-02 21:57:31.00	RN	" done"	7	38	ack-done	None
+43	1977-01-02 21:57:32.00	DM->CMD	"done"	7	42	translation-l	None
+44	2019-07-16 15:11:19.72	CMD	"send image"	8	None	None	None
+45	1977-01-02 22:31:14.00	DM->RN	" send image"	8	44	translation-r-direct	None
+46	1977-01-02 22:31:18.00	DM->CMD	"I will send image."	8	44	ack-wilco	None
+47	1977-01-02 23:50:31.00	RN	" sent"	8	45	ack-done	None
+48	1977-01-02 23:50:32.00	DM->CMD	"sent"	8	47	translation-l	None
+49	2019-07-16 15:11:25.40	CMD	"turn one hundred eighty degrees"	9	None	None	None
+50	1977-01-03 00:19:38.00	DM->RN	" turn 180"	9	49	translation-r-direct	None
+51	1977-01-03 00:20:13.00	DM->CMD	"I will turn 180."	9	49	ack-wilco	None
+52	1977-01-03 00:49:50.00	RN	" turning. . ."	9	50	ack-doing	None
+53	1977-01-03 00:49:51.00	DM->CMD	"turning. . ."	9	52	translation-l	None
+54	1977-01-03 05:40:00.00	RN	" done"	9	50	ack-done	None
+55	1977-01-03 05:40:02.00	DM->CMD	"done"	9	54	translation-l	None
+56	2019-07-16 15:11:47.36	CMD	"send image"	10	None	None	None
+57	1977-01-03 06:09:38.00	DM->RN	" send image"	10	56	translation-r-direct	None
+58	1977-01-03 06:10:14.00	DM->CMD	"I will send image."	10	56	ack-wilco	None
+59	1977-01-03 07:37:17.00	RN	" sent"	10	57	ack-done	None
+60	1977-01-03 07:37:17.00	DM->CMD	"sent"	10	59	translation-l	None
+61	2019-07-16 15:11:53.34	CMD	"move to computer"	11	None	None	None
+62	1977-01-03 07:55:14.00	DM->RN	" move to desk with computer"	11	61	translation-r-landmark	None
+63	1977-01-03 07:55:19.00	DM->CMD	"I will try to move to desk."	11	61	ack-wilco	None
+64	1977-01-03 08:56:16.00	RN	" moving. . ."	11	62	ack-doing	None
+65	1977-01-03 08:56:17.00	DM->CMD	"moving. . ."	11	64	translation-l	None
+66	1977-01-04 00:51:20.00	RN	" done"	11	62	ack-done	None
+67	1977-01-04 00:51:21.00	DM->CMD	"done"	11	66	translation-l	None
+68	2019-07-16 15:12:16.92	CMD	"turn one hundred eighty degrees"	12	None	None	None
+69	1977-01-04 01:43:46.00	DM->RN	" turn 180"	12	68	translation-r-direct	None
+70	1977-01-04 01:43:52.00	DM->CMD	"I will turn 180."	12	68	ack-wilco	None
+71	1977-01-04 02:30:22.00	RN	" turning. . ."	12	69	ack-doing	None
+72	1977-01-04 02:30:23.00	DM->CMD	"turning. . ."	12	71	translation-l	None
+73	1977-01-04 06:34:23.00	RN	" done"	12	69	ack-done	None
+74	1977-01-04 06:34:23.00	DM->CMD	"done"	12	73	translation-l	None
+75	2019-07-16 15:12:37.26	CMD	"send image"	13	None	None	None
+76	1977-01-04 07:07:09.00	DM->RN	" send image"	13	75	translation-r-direct	None
+77	1977-01-04 07:07:43.00	DM->CMD	"I will send image."	13	75	ack-wilco	None
+78	1977-01-04 08:30:26.00	RN	" sent"	13	76	ack-done	None
+79	1977-01-04 08:30:27.00	DM->CMD	"sent"	13	78	translation-l	None
+80	2019-07-16 15:12:49.93	CMD	"turn ninety degrees to the right"	14	None	None	None
+81	1977-01-04 10:53:34.00	DM->RN	" turn right 90 degrees"	14	80	translation-r-direct	None
+82	1977-01-04 10:53:39.00	DM->CMD	"I will turn right 90 degrees."	14	80	ack-wilco	None
+83	1977-01-04 11:51:52.00	RN	" turning. . ."	14	81	ack-doing	None
+84	1977-01-04 11:51:52.00	DM->CMD	"turning. . ."	14	83	translation-l	None
+85	1977-01-05 02:09:38.00	RN	" done"	14	81	ack-done	None
+86	1977-01-05 02:09:39.00	DM->CMD	"done"	14	85	translation-l	None
+87	2019-07-16 15:13:08.41	CMD	"turn twenty degrees to the right"	15	None	None	None
+88	1977-01-05 03:06:10.00	DM->RN	" turn left 20 degrees"	15	87	translation-r-direct-error	None
+89	1977-01-05 03:06:15.00	DM->CMD	"I will turn left 20 degrees."	15	87	ack-wilco	None
+90	1977-01-05 04:07:24.00	RN	" turning. . ."	15	88	ack-doing	None
+91	1977-01-05 04:07:24.00	DM->CMD	"turning. . ."	15	90	translation-l	None
+92	1977-01-05 05:00:18.00	RN	" done"	15	88	ack-done	None
+93	1977-01-05 05:00:19.00	DM->CMD	"done"	15	92	translation-l	None
+94	2019-07-16 15:13:17.96	CMD	"turn right forty degrees"	16	None	None	None
+95	1977-01-05 06:02:53.00	DM->RN	" turn right 40 degrees"	16	94	translation-r-direct	None
+96	1977-01-05 06:02:58.00	DM->CMD	"I will turn right 40 degrees."	16	94	ack-wilco	None
+97	1977-01-05 06:44:38.00	RN	" turning. . ."	16	95	ack-doing	None
+98	1977-01-05 06:44:40.00	DM->CMD	"turning. . ."	16	97	translation-l	None
+99	1977-01-05 08:30:13.00	RN	" done"	16	95	ack-done	None
+100	1977-01-05 08:30:14.00	DM->CMD	"done"	16	99	translation-l	None
+101	2019-07-16 15:13:30.64	CMD	"send image"	17	None	None	None
+102	1977-01-05 09:02:06.00	DM->RN	" send image"	17	101	translation-r-direct	None
+103	1977-01-05 09:02:10.00	DM->CMD	"I will send image."	17	101	ack-wilco	None
+104	1977-01-05 10:22:39.00	RN	" sent"	17	102	ack-done	None
+105	1977-01-05 10:22:39.00	DM->CMD	"sent"	17	104	translation-l	None
+106	2019-07-16 15:13:35.23	CMD	"move to hallway"	18	None	None	None
+107	1977-01-05 10:24:42.00	DM->CMD	"Can you rephrase that? <beep>"	18	106	req-clar	None
+108	2019-07-16 15:13:37.29	CMD	"move into the hallway"	18	106	clar-repair	None
+109	1977-01-05 10:58:33.00	DM->CMD	"I'm not sure what you mean."	18	107	nack	None
+110	2019-07-16 15:13:39.42	CMD	"move through doorway"	19	None	None	None
+111	1977-01-05 11:34:26.00	DM->CMD	"You can tell me to move a certain distance or to move to an object. <beep>"	19	110	missing-info	None
+112	2019-07-16 15:13:42.70	CMD	"move through doorway"	20	None	None	None
+113	1977-01-05 12:32:46.00	DM->RN	" move into Kitchen hallway"	20	112	translation-r-landmark	None
+114	1977-01-05 12:32:51.00	DM->CMD	"I will try to move into Kitchen hallway."	20	112	ack-wilco	None
+115	1977-01-05 13:18:39.00	RN	" moving. . ."	20	113	ack-doing	None
+116	1977-01-05 13:18:40.00	DM->CMD	"moving. . ."	20	115	translation-l	None
+117	1977-01-05 16:21:16.00	RN	" done"	20	113	ack-done	None
+118	1977-01-05 16:21:17.00	DM->CMD	"done"	20	117	translation-l	None
+119	2019-07-16 15:13:59.16	CMD	"send image"	21	None	None	None
+120	1977-01-06 04:09:28.00	DM->RN	" send image"	21	119	translation-r-direct	None
+121	1977-01-06 04:09:32.00	DM->CMD	"I will send image."	21	119	ack-wilco	None
+122	1977-01-06 05:22:18.00	RN	" sent"	21	120	ack-done	None
+123	1977-01-06 05:22:18.00	DM->CMD	"sent"	21	122	translation-l	None
+124	2019-07-16 15:14:07.82	CMD	"turn left ninety degrees"	22	None	None	None
+125	1977-01-06 06:41:04.00	DM->RN	" turn left 90 degrees"	22	124	translation-r-direct	None
+126	1977-01-06 06:41:09.00	DM->CMD	"I will turn left 90 degrees."	22	124	ack-wilco	None
+127	1977-01-06 07:11:31.00	RN	" turning. . ."	22	125	ack-doing	None
+128	1977-01-06 07:11:32.00	DM->CMD	"turning. . ."	22	127	translation-l	None
+129	1977-01-06 09:17:28.00	RN	" done"	22	125	ack-done	None
+130	1977-01-06 09:17:29.00	DM->CMD	"done"	22	129	translation-l	None
+131	2019-07-16 15:14:18.80	CMD	"send image"	23	None	None	None
+132	1977-01-06 09:41:18.00	DM->RN	" send image"	23	131	translation-r-direct	None
+133	1977-01-06 09:41:53.00	DM->CMD	"I will send image."	23	131	ack-wilco	None
+134	1977-01-06 11:00:13.00	RN	" sent"	23	132	ack-done	None
+135	1977-01-06 11:00:14.00	DM->CMD	"sent"	23	134	translation-l	None
+136	2019-07-16 15:14:26.37	CMD	"move to arrow"	24	None	None	None
+137	1977-01-06 11:41:56.00	DM->CMD	"Can you rephrase that? <beep>"	24	136	req-clar	None
+138	2019-07-16 15:14:28.65	CMD	"move to green arrow"	24	137	clar-repair	None
+139	1977-01-06 12:24:26.00	DM->RN	" move to green arrow"	24	138	translation-r-direct	None
+140	1977-01-06 12:24:30.00	DM->CMD	"I will try to move to green arrow."	24	138	ack-wilco	None
+141	1977-01-06 12:59:40.00	RN	" moving. . ."	24	139	ack-doing	None
+142	1977-01-06 12:59:41.00	DM->CMD	"moving. . ."	24	141	translation-l	None
+143	1977-01-06 15:35:00.00	RN	" done"	24	139	ack-done	None
+144	1977-01-06 15:35:01.00	DM->CMD	"done"	24	143	translation-l	None
+145	2019-07-16 15:14:43.93	CMD	"turn right ninety degrees"	25	None	None	None
+146	1977-01-06 16:44:37.00	DM->RN	" turn right 10 degrees"	25	145	translation-r-direct-error	None
+147	1977-01-06 16:44:41.00	DM->CMD	"I will turn right 10 degrees."	25	145	ack-wilco	None
+148	1977-01-06 17:15:40.00	RN	" turning. . ."	25	146	ack-doing	None
+149	1977-01-06 17:15:41.00	DM->CMD	"turning. . ."	25	148	translation-l	None
+150	1977-01-06 18:01:45.00	RN	" done"	25	146	ack-done	None
+151	1977-01-06 18:01:46.00	DM->CMD	"done"	25	150	translation-l	None
+152	2019-07-16 15:14:51.10	CMD	"turn right ninety degrees"	26	None	None	None
+153	1977-01-06 18:53:52.00	DM->RN	" turn right 90 degrees"	26	152	translation-r-direct	None
+154	1977-01-06 18:54:26.00	DM->CMD	"I will turn right 90 degrees."	26	152	ack-wilco	None
+155	1977-01-06 19:39:01.00	RN	" turning. . ."	26	153	ack-doing	None
+156	1977-01-06 19:39:02.00	DM->CMD	"turning. . ."	26	155	translation-l	None
+157	1977-01-07 10:03:40.00	RN	" done"	26	153	ack-done	None
+158	1977-01-07 10:03:41.00	DM->CMD	"done"	26	157	translation-l	None
+159	2019-07-16 15:15:08.78	CMD	"send image"	27	None	None	None
+160	1977-01-07 10:33:00.00	DM->RN	" send image"	27	159	translation-r-direct	None
+161	1977-01-07 10:33:34.00	DM->CMD	"I will send image."	27	159	ack-wilco	None
+162	1977-01-07 11:51:11.00	RN	" sent"	27	160	ack-done	None
+163	1977-01-07 11:51:12.00	DM->CMD	"sent"	27	162	translation-l	None
+164	2019-07-16 15:15:17.40	CMD	"move forward four feet "	28	None	None	None
+165	1977-01-07 13:08:42.00	DM->RN	" move forward 4"	28	164	translation-r-direct	None
+166	1977-01-07 13:08:45.00	DM->CMD	"I will move forward 4."	28	164	ack-wilco	None
+167	1977-01-07 14:00:54.00	RN	" moving. . ."	28	165	ack-doing	None
+168	1977-01-07 14:00:54.00	DM->CMD	"moving. . ."	28	167	translation-l	None
+169	1977-01-07 16:34:30.00	RN	" done"	28	165	ack-done	None
+170	1977-01-07 16:34:31.00	DM->CMD	"done"	28	169	translation-l	None
+171	2019-07-16 15:15:34.43	CMD	"move forward three feet"	29	None	None	None
+172	1977-01-07 17:54:41.00	DM->RN	" move forward 3 feet"	29	171	translation-r-direct	None
+173	1977-01-07 17:55:18.00	DM->CMD	"I will move forward 3 feet."	29	171	ack-wilco	None
+174	1977-01-07 18:34:00.00	RN	" moving. . ."	29	172	ack-doing	None
+175	1977-01-07 18:34:00.00	DM->CMD	"moving. . ."	29	174	translation-l	None
+176	1977-01-07 19:59:19.00	RN	" done"	29	172	ack-done	None
+177	1977-01-07 19:59:21.00	DM->CMD	"done"	29	176	translation-l	None
+178	2019-07-16 15:15:46.72	CMD	"turn ninety degrees to the left"	30	None	None	None
+179	1977-01-07 21:19:39.00	DM->RN	" turn left 90 degrees"	30	178	translation-r-direct	None
+180	1977-01-07 21:20:15.00	DM->CMD	"I will turn left 90 degrees."	30	178	ack-wilco	None
+181	1977-01-07 21:48:33.00	RN	" turning. . ."	30	179	ack-doing	None
+182	1977-01-07 21:48:35.00	DM->CMD	"turning. . ."	30	181	translation-l	None
+183	1977-01-08 12:21:43.00	RN	" done"	30	179	ack-done	None
+184	1977-01-08 12:21:44.00	DM->CMD	"done"	30	183	translation-l	None
+185	2019-07-16 15:16:04.12	CMD	"send image"	31	None	None	None
+186	1977-01-08 13:06:03.00	DM->RN	" send image"	31	185	translation-r-direct	None
+187	1977-01-08 13:06:07.00	DM->CMD	"I will send image."	31	185	ack-wilco	None
+188	1977-01-08 14:12:51.00	RN	" sent"	31	186	ack-done	None
+189	1977-01-08 14:12:53.00	DM->CMD	"sent"	31	188	translation-l	None
+190	2019-07-16 15:16:07.92	CMD	"move into room"	32	None	None	None
+191	1977-01-08 14:17:44.00	DM->CMD	"Can you repeat that? <beep>"	32	190	req-repeat	None
+192	2019-07-16 15:16:10.54	CMD	"move into room"	32	191	clar-repeat	None
+193	1977-01-08 14:53:39.00	DM->RN	" move into room on left"	32	192	translation-r-situated	None
+194	1977-01-08 14:53:43.00	DM->CMD	"I will try to move into room on left."	32	192	ack-wilco	None
+195	1977-01-08 17:35:44.00	RN	" I'm not sure where you want me to go. <beep>"	32	193	missing-info	None
+196	1977-01-08 17:35:45.00	DM->CMD	"I'm not sure where you want me to go. <beep>"	32	195	translation-l	None
+197	2019-07-16 15:16:23.56	CMD	"move forward three feet"	33	None	None	None
+198	1977-01-08 18:42:03.00	DM->RN	" move forward 3 feet"	33	197	translation-r-direct	None
+199	1977-01-08 18:42:06.00	DM->CMD	"I will move forward 3 feet."	33	197	ack-wilco	None
+200	1977-01-08 19:19:51.00	RN	" moving. . ."	33	198	ack-doing	None
+201	1977-01-08 19:19:52.00	DM->CMD	"moving. . ."	33	200	translation-l	None
+202	1977-01-08 22:25:53.00	RN	" done"	33	198	ack-done	None
+203	1977-01-08 22:25:53.00	DM->CMD	"done"	33	202	translation-l	None
+204	2019-07-16 15:16:45.32	CMD	"turn right forty five degrees"	34	None	None	None
+205	1977-01-09 00:51:53.00	DM->RN	" turn right 45 degrees"	34	204	translation-r-direct	None
+206	1977-01-09 00:51:58.00	DM->CMD	"I will turn right 45 degrees."	34	204	ack-wilco	None
+207	1977-01-09 01:30:11.00	RN	" turning. . ."	34	205	ack-doing	None
+208	1977-01-09 01:30:11.00	DM->CMD	"turning. . ."	34	207	translation-l	None
+209	1977-01-09 03:04:03.00	RN	" done"	34	205	ack-done	None
+210	1977-01-09 03:04:04.00	DM->CMD	"done"	34	209	translation-l	None
+211	2019-07-16 15:16:56.46	CMD	"send image"	35	None	None	None
+212	1977-01-09 03:38:48.00	DM->RN	" send image"	35	211	translation-r-direct	None
+213	1977-01-09 03:38:52.00	DM->CMD	"I will send image."	35	211	ack-wilco	None
+214	1977-01-09 16:03:22.00	RN	" sent"	35	212	ack-done	None
+215	1977-01-09 16:03:23.00	DM->CMD	"sent"	35	214	translation-l	None
+216	2019-07-16 15:17:03.93	CMD	"move into room"	36	None	None	None
+217	1977-01-09 17:07:47.00	DM->CMD	"Can you repeat that? <beep>"	36	216	req-repeat	None
+218	2019-07-16 15:17:08.60	CMD	"move to doorway"	36	217	clar-repeat	None
+219	1977-01-09 18:08:35.00	DM->CMD	"I'm not sure what you mean."	36	218	nack	None
+220	2019-07-16 15:17:11.12	CMD	"move forward three feet"	37	None	None	None
+221	1977-01-09 19:12:04.00	DM->RN	" move into room on left"	37	220	translation-r-situated	None
+222	1977-01-09 19:12:09.00	DM->CMD	"I will try to move into room on left."	37	220	ack-wilco	None
+223	1977-01-09 19:50:22.00	RN	" moving. . ."	37	221	ack-doing	None
+224	1977-01-09 19:50:23.00	DM->CMD	"moving. . ."	37	223	translation-l	None
+225	1977-01-09 22:29:05.00	RN	" done"	37	221	ack-done	None
+226	1977-01-09 22:29:05.00	DM->CMD	"done"	37	225	translation-l	None
+227	2019-07-16 15:17:28.73	CMD	"turn left forty five degrees"	38	None	None	None
+228	1977-01-09 23:51:56.00	DM->RN	" turn right 45 degrees"	38	227	translation-r-direct-error	None
+229	1977-01-09 23:52:01.00	DM->CMD	"I will turn right 45 degrees."	38	227	ack-wilco	None
+230	1977-01-10 00:43:55.00	RN	" turning. . ."	38	228	ack-doing	None
+231	1977-01-10 00:43:56.00	DM->CMD	"turning. . ."	38	230	translation-l	None
+232	1977-01-10 02:51:56.00	RN	" done"	38	228	ack-done	None
+233	1977-01-10 02:51:58.00	DM->CMD	"done"	38	232	translation-l	None
+234	2019-07-16 15:18:15.52	CMD	"send image"	39	None	None	None
+235	1977-01-11 00:01:09.00	DM->CMD	"Can you rephrase that? <beep>"	39	234	req-clar	None
+236	2019-07-16 15:18:18.76	CMD	"send image"	39	235	clar-repair	None
+237	1977-01-11 00:37:59.00	DM->RN	" send image"	39	236	translation-r-direct	None
+238	1977-01-11 00:38:35.00	DM->CMD	"I will send image."	39	236	ack-wilco	None
+239	1977-01-11 02:14:07.00	RN	" sent"	39	237	ack-done	None
+240	1977-01-11 02:14:08.00	DM->CMD	"sent"	39	239	translation-l	None
+241	2019-07-16 15:18:28.44	CMD	"turn left ninety degrees"	40	None	None	None
+242	1977-01-11 03:35:25.00	DM->RN	" turn left 90 degrees"	40	241	translation-r-direct	None
+243	1977-01-11 03:35:28.00	DM->CMD	"I will turn left 90 degrees."	40	241	ack-wilco	None
+244	1977-01-11 04:54:35.00	RN	" turning. . ."	40	242	ack-doing	None
+245	1977-01-11 04:54:35.00	DM->CMD	"turning. . ."	40	244	translation-l	None
+246	1977-01-11 07:19:37.00	RN	" done"	40	242	ack-done	None
+247	1977-01-11 07:19:38.00	DM->CMD	"done"	40	246	translation-l	None
+248	2019-07-16 15:18:46.64	CMD	"send image"	41	None	None	None
+249	1977-01-11 08:32:02.00	DM->RN	" send image"	41	248	translation-r-direct	None
+250	1977-01-11 08:32:07.00	DM->CMD	"I will send image."	41	248	ack-wilco	None
+251	1977-01-11 09:49:52.00	RN	" sent"	41	249	ack-done	None
+252	1977-01-11 09:49:53.00	DM->CMD	"sent"	41	251	translation-l	None
+253	2019-07-16 15:19:01.08	CMD	"move to shoes"	42	None	None	None
+254	1977-01-11 23:39:31.00	DM->RN	" move to single shoe"	42	253	translation-r-landmark	None
+255	1977-01-11 23:39:37.00	DM->CMD	"I will try to move to shoe."	42	253	ack-wilco	None
+256	1977-01-12 01:26:10.00	RN	" Can you describe it another way, using its color, size, or position? <beep>"	42	254	req-clar	None
+257	1977-01-12 01:26:11.00	DM->CMD	"Can you describe it another way, using its color, size, or position? <beep>"	42	256	translation-l	None
+258	2019-07-16 15:19:12.68	CMD	"turn right ninety degrees"	43	None	None	None
+259	1977-01-12 03:01:05.00	DM->RN	" turn right 90 degrees"	43	258	translation-r-direct	None
+260	1977-01-12 03:01:09.00	DM->CMD	"I will turn right 90 degrees."	43	258	ack-wilco	None
+261	1977-01-12 03:47:48.00	RN	" turning. . ."	43	259	ack-doing	None
+262	1977-01-12 03:47:49.00	DM->CMD	"turning. . ."	43	261	translation-l	None
+263	1977-01-12 06:47:01.00	RN	" done"	43	259	ack-done	None
+264	1977-01-12 06:47:02.00	DM->CMD	"done"	43	263	translation-l	None
+265	2019-07-16 15:19:28.83	CMD	"send image"	44	None	None	None
+266	1977-01-12 07:13:49.00	DM->RN	" send image"	44	265	translation-r-direct	None
+267	1977-01-12 07:14:23.00	DM->CMD	"I will send image."	44	265	ack-wilco	None
+268	2019-07-16 15:19:32.78	CMD	"move to shoes"	45	None	None	None
+269	1977-01-12 08:25:14.00	DM->CMD	"Can you rephrase that? <beep>"	45	268	req-clar	None
+270	1977-01-12 08:34:30.00	RN	" sent"	44	266	ack-done	None
+271	1977-01-12 08:34:30.00	DM->CMD	"sent"	44	270	translation-l	None
+272	2019-07-16 15:19:35.36	CMD	"move to shoe"	45	269	clar-repair	None
+273	1977-01-12 09:19:27.00	DM->CMD	"I'm not sure what you mean."	45	272	nack	None
+274	2019-07-16 15:19:38.48	CMD	"move forward three feet"	46	None	None	None
+275	1977-01-12 10:12:12.00	DM->RN	" move forward 3 feet"	46	274	translation-r-direct	None
+276	1977-01-12 10:12:45.00	DM->CMD	"I will move forward 3 feet."	46	274	ack-wilco	None
+277	1977-01-12 10:37:23.00	RN	" moving. . ."	46	275	ack-doing	None
+278	1977-01-12 10:37:23.00	DM->CMD	"moving. . ."	46	277	translation-l	None
+279	1977-01-12 12:26:38.00	RN	" done"	46	275	ack-done	None
+280	1977-01-12 12:26:38.00	DM->CMD	"done"	46	279	translation-l	None
+281	2019-07-16 15:19:49.56	CMD	"send image"	47	None	None	None
+282	1977-01-12 13:00:19.00	DM->RN	" send image"	47	281	translation-r-direct	None
+283	1977-01-12 13:00:23.00	DM->CMD	"I will send image."	47	281	ack-wilco	None
+284	1977-01-12 14:12:26.00	RN	" sent"	47	282	ack-done	None
+285	1977-01-12 14:12:26.00	DM->CMD	"sent"	47	284	translation-l	None
+286	2019-07-16 15:19:56.36	CMD	"move into room"	48	None	None	None
+287	1977-01-12 14:59:39.00	DM->RN	" move into the center of the current room"	48	286	translation-r-landmark	None
+288	1977-01-12 14:59:42.00	DM->CMD	"I will try to move into the center of the current room."	48	286	ack-wilco	None
+289	1977-01-13 05:23:09.00	RN	" moving. . ."	48	287	ack-doing	None
+290	1977-01-13 05:23:09.00	DM->CMD	"moving. . ."	48	289	translation-l	None
+291	1977-01-13 08:07:00.00	RN	" done"	48	287	ack-done	None
+292	1977-01-13 08:07:01.00	DM->CMD	"done"	48	291	translation-l	None
+293	2019-07-16 15:20:24.51	CMD	"turn forty five degrees to the right"	49	None	None	None
+294	1977-01-13 10:20:29.00	DM->RN	" turn right 45 degrees"	49	293	translation-r-direct	None
+295	1977-01-13 10:21:04.00	DM->CMD	"I will turn right 45 degrees."	49	293	ack-wilco	None
+296	1977-01-13 10:55:58.00	RN	" turning. . ."	49	294	ack-doing	None
+297	1977-01-13 10:55:59.00	DM->CMD	"turning. . ."	49	296	translation-l	None
+298	1977-01-13 12:58:59.00	RN	" done"	49	294	ack-done	None
+299	1977-01-13 12:59:00.00	DM->CMD	"done"	49	298	translation-l	None
+300	2019-07-16 15:20:38.01	CMD	"turn thirty degrees to the right"	50	None	None	None
+301	1977-01-13 14:17:53.00	DM->RN	" turn right 30 degrees"	50	300	translation-r-direct	None
+302	1977-01-13 14:17:58.00	DM->CMD	"I will turn right 30 degrees."	50	300	ack-wilco	None
+303	1977-01-13 14:53:10.00	RN	" turning. . ."	50	301	ack-doing	None
+304	1977-01-13 14:53:11.00	DM->CMD	"turning. . ."	50	303	translation-l	None
+305	1977-01-13 16:16:49.00	RN	" done"	50	301	ack-done	None
+306	1977-01-13 16:16:50.00	DM->CMD	"done"	50	305	translation-l	None
+307	2019-07-16 15:20:50.60	CMD	"set<disfl> turn fifteen degrees to the right"	51	None	None	None
+308	1977-01-13 17:26:06.00	DM->RN	" turn right 15 degrees"	51	307	translation-r-direct	None
+309	1977-01-13 17:26:11.00	DM->CMD	"I will turn right 15 degrees."	51	307	ack-wilco	None
+310	1977-01-13 18:04:20.00	RN	" turning. . ."	51	308	ack-doing	None
+311	1977-01-13 18:04:21.00	DM->CMD	"turning. . ."	51	310	translation-l	None
+312	1977-01-14 06:31:12.00	RN	" done"	51	308	ack-done	None
+313	1977-01-14 06:31:12.00	DM->CMD	"done"	51	312	translation-l	None
+314	2019-07-16 15:21:00.72	CMD	"send image"	52	None	None	None
+315	1977-01-14 07:01:13.00	DM->RN	" send image"	52	314	translation-r-direct	None
+316	1977-01-14 07:01:18.00	DM->CMD	"I will send image."	52	314	ack-wilco	None
+317	2019-07-16 15:21:04.57	CMD	"move to stop sign"	53	None	None	None
+318	1977-01-14 08:20:24.00	DM->RN	" move to stop sign"	53	317	translation-r-direct	None
+319	1977-01-14 08:20:28.00	DM->CMD	"I will try to move to stop sign."	53	317	ack-wilco	None
+320	1977-01-14 08:30:41.00	RN	" sent"	52	315	ack-done	None
+321	1977-01-14 08:30:41.00	DM->CMD	"sent"	52	320	translation-l	None
+322	1977-01-14 09:20:10.00	RN	" moving. . ."	53	318	ack-doing	None
+323	1977-01-14 09:20:11.00	DM->CMD	"moving. . ."	53	322	translation-l	None
+324	1977-01-14 13:15:40.00	RN	" done"	53	318	ack-done	None
+325	1977-01-14 13:15:41.00	DM->CMD	"done"	53	314	translation-l	None
+326	2019-07-16 15:21:27.61	CMD	"turn right forty five degrees"	54	None	None	None
+327	1977-01-14 14:34:39.00	DM->RN	" turn right 45 degrees"	54	326	translation-r-direct	None
+328	1977-01-14 14:34:43.00	DM->CMD	"I will turn right 45 degrees."	54	326	ack-wilco	None
+329	1977-01-14 15:44:09.00	RN	" turning. . ."	54	327	ack-doing	None
+330	1977-01-14 15:44:10.00	DM->CMD	"turning. . ."	54	329	translation-l	None
+331	1977-01-14 17:16:20.00	RN	" done"	54	327	ack-done	None
+332	1977-01-14 17:16:20.00	DM->CMD	"done"	54	331	translation-l	None
+333	2019-07-16 15:21:40.70	CMD	"turn right forty five degrees"	55	None	None	None
+334	1977-01-14 18:36:57.00	DM->RN	" turn right 45 degrees"	55	333	translation-r-direct	None
+335	1977-01-14 18:37:01.00	DM->CMD	"I will turn right 45 degrees."	55	333	ack-wilco	None
+336	1977-01-14 19:29:28.00	RN	" turning. . ."	55	334	ack-doing	None
+337	1977-01-14 19:29:28.00	DM->CMD	"turning. . ."	55	336	translation-l	None
+338	1977-01-14 21:18:41.00	RN	" done"	55	334	ack-done	None
+339	1977-01-14 21:18:42.00	DM->CMD	"done"	55	338	translation-l	None
+340	2019-07-16 15:21:54.56	CMD	"send image"	56	None	None	None
+341	1977-01-14 21:57:51.00	DM->RN	" send image"	56	340	translation-r-direct	None
+342	1977-01-14 21:57:55.00	DM->CMD	"I will send image."	56	340	ack-wilco	None
+343	1977-01-15 10:18:01.00	RN	" sent"	56	341	ack-done	None
+344	1977-01-15 10:18:01.00	DM->CMD	"sent"	56	343	translation-l	None
+345	2019-07-16 15:22:03.52	CMD	"move to hallway"	57	None	None	None
+346	1977-01-15 11:35:22.00	DM->CMD	"Can you rephrase that? <beep>"	57	345	req-clar	None
+347	2019-07-16 15:22:05.66	CMD	"move to hallway"	57	346	clar-repair	None
+348	1977-01-15 12:11:57.00	DM->CMD	"I don't understand"	57	347	nack	None
+349	2019-07-16 15:22:09.53	CMD	"move to hallway"	58	None	None	None
+350	1977-01-15 13:22:51.00	DM->CMD	"You can tell me to move a certain distance or to move to an object. <beep>"	58	349	missing-info	None
+351	2019-07-16 15:22:12.04	CMD	"move through doorway"	59	None	None	None
+352	1977-01-15 14:02:49.00	DM->RN	" move into Kitchen hallway"	59	351	translation-r-landmark	None
+353	1977-01-15 14:02:55.00	DM->CMD	"I will try to move into Kitchen hallway."	59	351	ack-wilco	None
+354	1977-01-15 15:06:25.00	RN	" moving. . ."	59	352	ack-doing	None
+355	1977-01-15 15:06:26.00	DM->CMD	"moving. . ."	59	354	translation-l	None
+356	1977-01-15 18:48:16.00	RN	" done"	59	352	ack-done	None
+357	1977-01-15 18:48:17.00	DM->CMD	"done"	59	356	translation-l	None
+358	2019-07-16 15:22:32.70	CMD	"send image"	60	None	None	None
+359	1977-01-15 19:37:54.00	DM->RN	" send image"	60	358	translation-r-direct	None
+360	1977-01-15 19:37:58.00	DM->CMD	"I will send image."	60	358	ack-wilco	None
+361	1977-01-15 20:42:37.00	RN	" sent"	60	359	ack-done	None
+362	1977-01-15 20:42:37.00	DM->CMD	"sent"	60	361	translation-l	None
+363	2019-07-16 15:22:38.30	CMD	"turn left forty five degrees"	61	None	None	None
+364	1977-01-15 21:26:05.00	DM->RN	" turn left 45 degrees"	61	363	translation-r-direct	None
+365	1977-01-15 21:26:10.00	DM->CMD	"I will turn left 45 degrees."	61	363	ack-wilco	None
+366	1977-01-15 21:57:44.00	RN	" turning. . ."	61	364	ack-doing	None
+367	1977-01-15 21:57:45.00	DM->CMD	"turning. . ."	61	366	translation-l	None
+368	1977-01-16 00:02:17.00	RN	" done"	61	364	ack-done	None
+369	1977-01-16 00:02:18.00	DM->CMD	"done"	61	368	translation-l	None
+370	2019-07-16 15:22:55.24	CMD	"send image"	62	None	None	None
+371	1977-01-16 01:52:52.00	DM->RN	" send image"	62	370	translation-r-direct	None
+372	1977-01-16 01:52:57.00	DM->CMD	"I will send image."	62	370	ack-wilco	None
+373	1977-01-16 14:18:26.00	RN	" sent"	62	371	ack-done	None
+374	1977-01-16 14:18:27.00	DM->CMD	"sent"	62	373	translation-l	None
+375	2019-07-16 15:23:03.77	CMD	"move to room on the left"	63	None	None	None
+376	1977-01-16 15:40:28.00	DM->CMD	"Can you repeat that? <beep>"	63	375	req-repeat	None
+377	2019-07-16 15:23:06.80	CMD	"move to room on the left"	63	376	clar-repeat	None
+378	1977-01-16 16:29:30.00	DM->CMD	"I'm not sure what you mean."	63	377	nack	None
+379	2019-07-16 15:23:10.64	CMD	"move forward two feet"	64	None	None	None
+380	1977-01-16 17:25:28.00	DM->CMD	"You can tell me to move a certain distance or to move to an object. <beep>"	64	379	missing-info	None
+381	2019-07-16 15:23:13.05	CMD	"two feet forward"	64	380	clar-repair	None
+382	1977-01-16 18:02:05.00	DM->CMD	"Can you repeat that? <beep>"	64	381	req-repeat	None
+383	2019-07-16 15:23:15.87	CMD	"move to two"	64	382	clar-repeat	None
+384	1977-01-16 18:43:51.00	DM->CMD	"You can tell me to move a certain distance or to move to an object. <beep>"	64	383	missing-info	None
+385	2019-07-16 15:23:22.17	CMD	"move to suitcase"	65	None	None	None
+386	1977-01-16 20:34:36.00	DM->CMD	"Can you repeat that? <beep>"	65	385	req-repeat	None
+387	2019-07-16 15:23:24.92	CMD	"move forward one foot"	66	None	None	None
+388	1977-01-16 21:26:10.00	DM->RN	" move into room on left"	66	387	translation-r-situated	None
+389	1977-01-16 21:26:16.00	DM->CMD	"I will try to move into room on left."	66	387	ack-wilco	None
+390	1977-01-16 22:35:02.00	RN	" moving. . ."	66	388	ack-doing	None
+391	1977-01-16 22:35:03.00	DM->CMD	"moving. . ."	66	390	translation-l	None
+392	1977-01-17 01:59:53.00	RN	" done"	66	388	ack-done	None
+393	1977-01-17 01:59:53.00	DM->CMD	"done"	66	392	translation-l	None
+394	2019-07-16 15:23:44.75	CMD	"send image"	67	None	None	None
+395	1977-01-17 02:48:01.00	DM->RN	" send image"	67	394	translation-r-direct	None
+396	1977-01-17 02:48:39.00	DM->CMD	"I will send image."	67	394	ack-wilco	None
+397	1977-01-17 03:49:04.00	RN	" sent"	67	395	ack-done	None
+398	1977-01-17 03:49:05.00	DM->CMD	"sent"	67	397	translation-l	None
+399	2019-07-16 15:23:52.17	CMD	"move forty five degrees to the right"	68	None	None	None
+400	1977-01-17 05:08:41.00	DM->RN	" turn right 45 degrees"	68	399	translation-r-direct	None
+401	1977-01-17 05:08:46.00	DM->CMD	"I will turn right 45 degrees."	68	399	ack-wilco	None
+402	1977-01-17 06:03:55.00	RN	" turning. . ."	68	400	ack-doing	None
+403	1977-01-17 06:03:56.00	DM->CMD	"turning. . ."	68	402	translation-l	None
+404	1977-01-17 19:56:09.00	RN	" done"	68	400	ack-done	None
+405	1977-01-17 19:56:10.00	DM->CMD	"done"	68	404	translation-l	None
+406	2019-07-16 15:24:08.56	CMD	"send image"	69	None	None	None
+407	1977-01-17 20:30:25.00	DM->RN	" send image"	69	406	translation-r-direct	None
+408	1977-01-17 20:30:29.00	DM->CMD	"I will send image."	69	406	ack-wilco	None
+409	1977-01-17 21:41:29.00	RN	" sent"	69	407	ack-done	None
+410	1977-01-17 21:41:30.00	DM->CMD	"sent"	69	409	translation-l	None
+411	2019-07-16 15:24:13.60	CMD	"move to fire hydrant"	70	None	None	None
+412	1977-01-17 22:01:14.00	DM->CMD	"Can you rephrase that? <beep>"	70	411	req-clar	None
+413	2019-07-16 15:24:16.25	CMD	"move to fire hydrant"	70	412	clar-repair	None
+414	1977-01-17 22:47:46.00	DM->RN	" move 3 feet towards fire extinguisher"	70	413	translation-r-landmark	None
+415	1977-01-17 22:47:50.00	DM->CMD	"I will try to move 3 feet towards fire extinguisher."	70	413	ack-wilco	None
+416	1977-01-17 23:48:13.00	RN	" moving. . ."	70	414	ack-doing	None
+417	1977-01-17 23:48:14.00	DM->CMD	"moving. . ."	70	416	translation-l	None
+418	1977-01-18 02:35:32.00	RN	" done"	70	414	ack-done	None
+419	1977-01-18 02:35:33.00	DM->CMD	"done"	70	418	translation-l	None
+420	2019-07-16 15:24:37.80	CMD	"send image"	71	None	None	None
+421	1977-01-18 04:47:47.00	DM->RN	" send image"	71	420	translation-r-direct	None
+422	1977-01-18 04:47:51.00	DM->CMD	"I will send image."	71	420	ack-wilco	None
+423	1977-01-18 06:05:26.00	RN	" sent"	71	421	ack-done	None
+424	1977-01-18 06:05:27.00	DM->CMD	"sent"	71	423	translation-l	None
+425	2019-07-16 15:24:46.35	CMD	"move to crate"	72	None	None	None
+426	1977-01-18 07:03:38.00	DM->RN	" move to crate"	72	425	translation-r-direct	None
+427	1977-01-18 07:03:43.00	DM->CMD	"I will try to move to crate."	72	425	ack-wilco	None
+428	1977-01-18 07:47:50.00	RN	" moving. . ."	72	426	ack-doing	None
+429	1977-01-18 07:47:51.00	DM->CMD	"moving. . ."	72	428	translation-l	None
+430	1977-01-18 22:10:44.00	RN	" done"	72	426	ack-done	None
+431	1977-01-18 22:10:44.00	DM->CMD	"done"	72	430	translation-l	None
+432	2019-07-16 15:25:03.76	CMD	"do a one eighty"	73	None	None	None
+433	1977-01-18 23:06:08.00	DM->RN	" away from. . ."	73	432	processing	None
+434	1977-01-18 23:06:13.00	DM->CMD	"Processing...."	73	432	translation-l	None
+435	2019-07-16 15:25:13.20	CMD	"turn one hundred eighty degrees"	73	432	summarization	None
+436	1977-01-19 01:49:36.00	DM->RN	" turn 180"	73	435	translation-r-direct	None
+437	1977-01-19 01:49:41.00	DM->CMD	"I will turn 180."	73	435	ack-wilco	None
+438	1977-01-19 03:17:55.00	RN	" turning. . ."	73	436	ack-doing	None
+439	1977-01-19 03:17:56.00	DM->CMD	"turning. . ."	73	438	translation-l	None
+440	1977-01-19 06:34:12.00	RN	" done"	73	436	ack-done	None
+441	1977-01-19 06:34:13.00	DM->CMD	"done"	73	440	translation-l	None
+442	2019-07-16 15:25:33.10	CMD	"send image"	74	None	None	None
+443	1977-01-19 07:07:02.00	DM->RN	" send image"	74	442	translation-r-direct	None
+444	1977-01-19 07:07:05.00	DM->CMD	"I will send image."	74	442	ack-wilco	None
+445	1977-01-19 08:06:21.00	RN	" sent"	74	443	ack-done	None
+446	1977-01-19 08:06:22.00	DM->CMD	"sent"	74	445	translation-l	None
+447	2019-07-16 15:25:41.63	CMD	"turn forty five degrees to the left"	75	None	None	None
+448	1977-01-19 09:44:33.00	DM->RN	" turn left 45 degrees"	75	447	translation-r-direct	None
+449	1977-01-19 09:44:36.00	DM->CMD	"I will turn left 45 degrees."	75	447	ack-wilco	None
+450	1977-01-19 10:45:05.00	RN	" turning. . ."	75	448	ack-doing	None
+451	1977-01-19 10:45:06.00	DM->CMD	"turning. . ."	75	450	translation-l	None
+452	1977-01-19 13:42:36.00	RN	" done"	75	448	ack-done	None
+453	1977-01-19 13:42:37.00	DM->CMD	"done"	75	452	translation-l	None
+454	2019-07-16 15:26:00.36	CMD	"turn forty five degrees to the left"	76	None	None	None
+455	1977-01-20 02:05:15.00	DM->RN	" turn left 45 degrees"	76	454	translation-r-direct	None
+456	1977-01-20 02:05:20.00	DM->CMD	"I will turn left 45 degrees."	76	454	ack-wilco	None
+457	1977-01-20 03:22:51.00	RN	" turning. . ."	76	455	ack-doing	None
+458	1977-01-20 03:22:52.00	DM->CMD	"turning. . ."	76	457	translation-l	None
+459	1977-01-20 05:08:40.00	RN	" done"	76	455	ack-done	None
+460	1977-01-20 05:08:41.00	DM->CMD	"done"	76	459	translation-l	None
+461	2019-07-16 15:26:14.17	CMD	"send image"	77	None	None	None
+462	1977-01-20 05:36:08.00	DM->RN	" send image"	77	461	translation-r-direct	None
+463	1977-01-20 05:36:13.00	DM->CMD	"I will send image."	77	461	ack-wilco	None
+464	2019-07-16 15:26:18.35	CMD	"move to bucket"	78	None	None	None
+465	1977-01-20 06:57:44.00	DM->RN	" move to bucket with rope"	78	464	translation-r-landmark	None
+466	1977-01-20 06:57:50.00	DM->CMD	"I will try to move to bucket with rope."	78	464	ack-wilco	None
+467	1977-01-20 07:09:53.00	RN	" sent"	77	462	ack-done	None
+468	1977-01-20 07:09:54.00	DM->CMD	"sent"	77	467	translation-l	None
+469	1977-01-20 07:38:52.00	RN	" moving. . ."	78	465	ack-doing	None
+470	1977-01-20 07:38:53.00	DM->CMD	"moving. . ."	78	469	translation-l	None
+471	1977-01-20 11:37:48.00	RN	" done"	78	465	ack-done	None
+472	1977-01-20 11:37:48.00	DM->CMD	"done"	78	471	translation-l	None
+473	2019-07-16 15:26:45.66	CMD	"send image"	79	None	None	None
+474	1977-01-20 14:25:19.00	DM->RN	" send image"	79	473	translation-r-direct	None
+475	1977-01-20 14:25:24.00	DM->CMD	"I will send image."	79	473	ack-wilco	None
+476	1977-01-20 15:27:52.00	RN	" sent"	79	474	ack-done	None
+477	1977-01-20 15:27:53.00	DM->CMD	"sent"	79	476	translation-l	None
+478	2019-07-16 15:26:50.44	CMD	"move down the hall four feet"	80	None	None	None
+479	1977-01-20 15:56:59.00	DM->RN	" move forward 5 feet"	80	478	translation-r-situated	None
+480	1977-01-20 15:57:03.00	DM->CMD	"I will move forward 5 feet."	80	478	ack-wilco	None
+481	1977-01-21 06:42:34.00	RN	" There's an obstruction preventing me from doing that. <beep>"	80	479	ack-cant	None
+482	1977-01-21 06:42:35.00	DM->CMD	"There's an obstruction preventing me from doing that. <beep>"	80	481	translation-l	None
+483	2019-07-16 15:27:09.40	CMD	"turn right thirty degrees"	81	None	None	None
+484	1977-01-21 08:21:08.00	DM->CMD	"Can you rephrase that? <beep>"	81	483	req-clar	None
+485	2019-07-16 15:27:12.38	CMD	"turn right thirty degrees"	81	484	clar-repair	None
+486	1977-01-21 09:13:32.00	DM->RN	" turn right 30 degrees"	81	485	translation-r-direct	None
+487	1977-01-21 09:13:36.00	DM->CMD	"I will turn right 30 degrees."	81	485	ack-wilco	None
+488	1977-01-21 09:53:27.00	RN	" turning. . ."	81	486	ack-doing	None
+489	1977-01-21 09:53:28.00	DM->CMD	"turning. . ."	81	488	translation-l	None
+490	1977-01-21 11:51:15.00	RN	" done"	81	486	ack-done	None
+491	1977-01-21 11:51:15.00	DM->CMD	"done"	81	490	translation-l	None
+492	2019-07-16 15:27:25.02	CMD	"send image"	82	None	None	None
+493	1977-01-21 12:21:55.00	DM->RN	" send image"	82	492	translation-r-direct	None
+494	1977-01-21 12:21:59.00	DM->CMD	"I will send image."	82	492	ack-wilco	None
+495	2019-07-16 15:27:28.60	CMD	"move forward five feet"	83	None	None	None
+496	1977-01-21 13:34:28.00	DM->RN	" move forward 5 feet"	83	495	translation-r-direct	None
+497	1977-01-21 13:34:32.00	DM->CMD	"I will move forward 5 feet."	83	495	ack-wilco	None
+498	1977-01-21 13:34:33.00	RN	" sent"	82	493	ack-done	None
+499	1977-01-21 13:34:33.00	DM->CMD	"sent"	82	498	translation-l	None
+500	1977-01-21 14:03:10.00	RN	" moving. . ."	83	496	ack-doing	None
+501	1977-01-21 14:03:11.00	DM->CMD	"moving. . ."	83	500	translation-l	None
+502	1977-01-21 16:41:22.00	RN	" done"	83	496	ack-done	None
+503	1977-01-21 16:41:23.00	DM->CMD	"done"	83	502	translation-l	None
+504	2019-07-16 15:27:47.60	CMD	"send image"	84	None	None	None
+505	1977-01-21 18:46:08.00	DM->RN	" send image"	84	504	translation-r-direct	None
+506	1977-01-21 18:46:12.00	DM->CMD	"I will send image."	84	504	ack-wilco	None
+507	1977-01-21 19:55:56.00	RN	" sent"	84	505	ack-done	None
+508	1977-01-21 19:55:57.00	DM->CMD	"sent"	84	507	translation-l	None
+509	2019-07-16 15:28:02.68	CMD	"move to room on left"	85	None	None	None
+510	1977-01-22 10:21:08.00	DM->CMD	"Can you repeat that? <beep>"	85	509	req-repeat	None
+511	2019-07-16 15:28:05.87	CMD	"move into the room on the left"	85	510	clar-repeat	None
+512	1977-01-22 11:01:20.00	DM->RN	" move into Office"	85	511	translation-r-landmark	None
+513	1977-01-22 11:01:53.00	DM->CMD	"I will try to move into room."	85	511	ack-wilco	None
+514	1977-01-22 13:35:07.00	RN	" Hmm, I'm not sure what you would like me to do. <beep>"	85	512	nack	None
+515	1977-01-22 13:35:07.00	DM->CMD	"Hmm, I'm not sure what you would like me to do. <beep>"	85	514	translation-l	None
+516	2019-07-16 15:28:18.70	CMD	"move forward five feet"	86	None	None	None
+517	1977-01-22 14:36:19.00	DM->RN	" move forward 5 feet"	86	516	translation-r-direct	None
+518	1977-01-22 14:36:53.00	DM->CMD	"I will move forward 5 feet."	86	516	ack-wilco	None
+519	1977-01-22 15:24:22.00	RN	" moving. . ."	86	517	ack-doing	None
+520	1977-01-22 15:24:22.00	DM->CMD	"moving. . ."	86	519	translation-l	None
+521	1977-01-22 17:51:07.00	RN	" done"	86	517	ack-done	None
+522	1977-01-22 17:51:07.00	DM->CMD	"done"	86	521	translation-l	None
+523	2019-07-16 15:28:33.16	CMD	"turn left forty five degrees"	87	None	None	None
+524	1977-01-22 18:43:44.00	DM->RN	" turn left 45 degrees"	87	523	translation-r-direct	None
+525	1977-01-22 18:43:48.00	DM->CMD	"I will turn left 45 degrees."	87	523	ack-wilco	None
+526	1977-01-22 19:47:12.00	RN	" turning. . ."	87	524	ack-doing	None
+527	1977-01-22 19:47:12.00	DM->CMD	"turning. . ."	87	526	translation-l	None
+528	1977-01-23 00:01:29.00	RN	" done"	87	524	ack-done	None
+529	1977-01-23 00:01:29.00	DM->CMD	"done"	87	528	translation-l	None
+530	2019-07-16 15:28:54.86	CMD	"send image"	88	None	None	None
+531	1977-01-23 00:28:41.00	DM->RN	" send image"	88	530	translation-r-direct	None
+532	1977-01-23 00:28:47.00	DM->CMD	"I will send image."	88	530	ack-wilco	None
+533	1977-01-23 12:40:52.00	RN	" sent"	88	531	ack-done	None
+534	1977-01-23 12:40:53.00	DM->CMD	"sent"	88	533	translation-l	None
+535	2019-07-16 15:28:58.76	CMD	"move to table"	89	None	None	None
+536	1977-01-23 12:44:37.00	DM->RN	" move to Conference table"	89	535	translation-r-landmark	None
+537	1977-01-23 12:44:41.00	DM->CMD	"I will try to move to table."	89	535	ack-wilco	None
+538	1977-01-23 13:21:14.00	RN	" moving. . ."	89	536	ack-doing	None
+539	1977-01-23 13:21:14.00	DM->CMD	"moving. . ."	89	538	translation-l	None
+540	1977-01-23 16:49:27.00	RN	" done"	89	536	ack-done	None
+541	1977-01-23 16:49:28.00	DM->CMD	"done"	89	540	translation-l	None
+542	2019-07-16 15:29:16.54	CMD	"turn left ninety degrees"	90	None	None	None
+543	1977-01-23 17:53:01.00	DM->RN	" turn left 90 degrees"	90	542	translation-r-direct	None
+544	1977-01-23 17:53:35.00	DM->CMD	"I will turn left 90 degrees."	90	542	ack-wilco	None
+545	1977-01-23 18:42:05.00	RN	" turning. . ."	90	543	ack-doing	None
+546	1977-01-23 18:42:06.00	DM->CMD	"turning. . ."	90	545	translation-l	None
+547	1977-01-23 21:19:06.00	RN	" done"	90	543	ack-done	None
+548	1977-01-23 21:19:07.00	DM->CMD	"done"	90	547	translation-l	None
+549	2019-07-16 15:29:31.76	CMD	"send image"	91	None	None	None
+550	1977-01-23 21:48:02.00	DM->RN	" send image"	91	549	translation-r-direct	None
+551	1977-01-23 21:48:37.00	DM->CMD	"I will send image."	91	549	ack-wilco	None
+552	1977-01-23 23:07:42.00	RN	" sent"	91	550	ack-done	None
+553	1977-01-23 23:07:43.00	DM->CMD	"sent"	91	552	translation-l	None
+554	2019-07-16 15:29:36.64	CMD	"turn left ten degrees "	92	None	None	None
+555	1977-01-23 23:22:00.00	DM->CMD	"Can you repeat that? <beep>"	92	554	req-repeat	None
+556	2019-07-16 15:29:39.16	CMD	"turn left ten degrees "	92	555	clar-repeat	None
+557	1977-01-24 00:06:53.00	DM->CMD	"I don't understand"	92	556	nack	None
+558	2019-07-16 15:29:42.22	CMD	"turn left ten degrees "	93	None	None	None
+559	1977-01-24 01:03:47.00	DM->RN	" turn left 10 degrees"	93	558	translation-r-direct	None
+560	1977-01-24 01:04:23.00	DM->CMD	"I will turn left 10 degrees."	93	558	ack-wilco	None
+561	1977-01-24 02:11:01.00	RN	" turning. . ."	93	559	ack-doing	None
+562	1977-01-24 02:11:01.00	DM->CMD	"turning. . ."	93	561	translation-l	None
+563	1977-01-24 03:19:16.00	RN	" done"	93	559	ack-done	None

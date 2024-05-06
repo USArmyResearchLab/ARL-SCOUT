@@ -1,0 +1,167 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	0	DM->RN	"calibrate"	None	None
+2	0	DM->CMD	"calibrating. . ."	None	None
+3	22.97	RN	"done"	None	None
+4	23.74	DM->CMD	"calibration complete"	None	None
+5	25.79	DM->CMD	"Hello! <beep>"	None	None
+6	26.97	DM->CMD	". . ."	None	None
+7	27.96	DM->CMD	"Thanks for teaming up with me today."	None	None
+8	29.37	DM->CMD	". . ."	None	None
+9	31.32	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	None	None
+10	32.6	DM->CMD	". . ."	None	None
+11	34.8	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	None	None
+12	35.72	DM->CMD	". . ."	None	None
+13	38.67	DM->CMD	"You can ask for help at any time."	None	None
+14	57.39	CMD	"uh turn around please"	None	None
+15	62.67	DM->CMD	"ok"	None	None
+16	65.27	DM->RN	"turn 180"	None	None
+17	66.05	DM->CMD	"I will turn around 180 degrees"	None	None
+18	68.7	DM->CMD	"turning. . ."	None	None
+19	84.63	RN	"uh done"	None	None
+20	86.18	DM->CMD	"done"	None	None
+21	89.04	CMD	"take a picture"	None	None
+22	91.12	DM->RN	"send image"	None	None
+i000	91.8	IMAGE	"frame000"	None	None
+23	92.13	RN	"sent"	None	None
+24	93.69	DM->CMD	"sent"	None	None
+25	96.27	CMD	"turn left"	None	None
+26	102.56	DM->CMD	"I'm not sure where or when to stop turning.  <beep>"	None	None
+27	103.98	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	None	None
+28	104.91	CMD	"turn left ninety degrees"	None	None
+29	107.54	DM->CMD	"ok"	None	None
+30	112.33	DM->RN	"turn left 90 degrees"	None	None
+31	115.32	DM->CMD	"turning. . ."	None	None
+32	125.11	RN	"done"	None	None
+33	126.05	CMD	"take a picture"	None	None
+34	126.49	DM->CMD	"I turned left 90 degrees"	None	None
+35	128.45	DM->RN	"send image"	None	None
+i001	129.13	IMAGE	"frame001"	None	None
+36	129.53	RN	"sent"	None	None
+37	130.93	DM->CMD	"sent"	None	None
+38	137.05	CMD	"turn left ninety degrees"	None	None
+39	140.48	DM->CMD	"ok"	None	None
+40	143.06	DM->RN	"turn left 90 degrees"	None	None
+41	143.98	DM->CMD	"I will turn left 90 degrees"	None	None
+42	145.61	DM->CMD	"turning. . ."	None	None
+43	156.339999999999	RN	"done"	None	None
+44	158.269999999999	CMD	"take a picture"	None	None
+45	158.97	DM->CMD	"done"	None	None
+46	160.07	DM->RN	"send image"	None	None
+i002	160.94	IMAGE	"frame002"	None	None
+47	161.279999999999	RN	"sent"	None	None
+48	162.57	DM->CMD	"sent"	None	None
+49	175.38	CMD	"uh move forward"	None	None
+50	182.17	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	None	None
+51	183.56	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	None	None
+52	185.709999999999	CMD	"move forward to the first door"	None	None
+53	189.25	DM->CMD	"processing. . ."	None	None
+54	199.98	DM->RN	"move to alley Door 1"	None	None
+55	204.04	DM->CMD	"moving. . ."	None	None
+56	216.089999999999	RN	"done"	None	None
+57	216.99	DM->CMD	"done"	None	None
+58	217.35	CMD	"turn left ninety degrees"	None	None
+59	221.45	DM->CMD	"ok"	None	None
+60	224.52	DM->RN	"turn left 90 degrees"	None	None
+61	226.53	DM->CMD	"turning. . ."	None	None
+62	237.22	RN	"done"	None	None
+63	238.51	DM->CMD	"done"	None	None
+64	239.67	CMD	"take a picture"	None	None
+65	241.39	DM->RN	"send image"	None	None
+i003	242.03	IMAGE	"frame003"	None	None
+66	242.369999999999	RN	"sent"	None	None
+67	243.66	DM->CMD	"sent"	None	None
+68	245.91	CMD	"turn around a hundred and eighty degrees"	None	None
+69	249.81	DM->CMD	"ok"	None	None
+70	251.93	DM->RN	"turn 180"	None	None
+71	254.4	DM->CMD	"turning. . ."	None	None
+72	276.57	RN	"done"	None	None
+73	278.2	DM->CMD	"I turned around 180 degrees"	None	None
+74	278.229999999999	CMD	"take a picture"	None	None
+75	281.2	DM->RN	"send image"	None	None
+i004	282.23	IMAGE	"frame004"	None	None
+76	282.57	RN	"sent"	None	None
+77	283.599999999999	CMD	"turn left ninety degrees"	None	None
+78	283.81	DM->CMD	"sent"	None	None
+79	287.45	DM->CMD	"ok"	None	None
+80	290.33	DM->RN	"turn left 90 degrees"	None	None
+81	291.26	DM->CMD	"I will turn left 90 degrees"	None	None
+82	293.4	DM->CMD	"turning. . ."	None	None
+83	303.14	RN	"done"	None	None
+84	305.44	DM->CMD	"done"	None	None
+85	320.07	CMD	"uh move forward ten feet to"	None	None
+86	324.32	DM->CMD	"ok"	None	None
+87	326.81	DM->RN	"move forward 10 feet"	None	None
+88	327.59	DM->CMD	"I will move forward 10 feet"	None	None
+89	330.13	DM->CMD	"moving. . ."	None	None
+90	341.789999999999	RN	" done"	None	None
+91	342.12	CMD	"take a picture"	None	None
+92	342.97	DM->CMD	"done"	None	None
+93	344.32	DM->RN	"send image"	None	None
+i005	345.14	IMAGE	"frame005"	None	None
+94	345.51	RN	"sent"	None	None
+95	346.66	DM->CMD	"sent"	None	None
+96	351.219999999999	CMD	"turn around a hundred and eighty degrees"	None	None
+97	354.16	DM->CMD	"ok"	None	None
+98	356.96	DM->RN	"turn 180"	None	None
+99	357.98	DM->CMD	"I will turn around 180 degrees"	None	None
+100	360.44	DM->CMD	"turning. . ."	None	None
+101	378.05	CMD	"take a picture"	None	None
+102	378.409999999999	RN	"done"	None	None
+103	379.72	DM->CMD	"done"	None	None
+104	381.25	DM->RN	"send image"	None	None
+i006	382.02	IMAGE	"frame006"	None	None
+105	382.45	RN	"sent"	None	None
+106	383.47	DM->CMD	"sent"	None	None
+107	384.39	CMD	"move forward <pause> fifteen feet"	None	None
+108	389.09	DM->CMD	"ok"	None	None
+109	397.11	DM->RN	"move forward 15 feet"	None	None
+110	399.84	DM->CMD	"moving. . ."	None	None
+111	413.979999999999	CMD	"stop"	None	None
+112	415.5	RN	"done"	None	None
+113	417.76	DM->CMD	"done"	None	None
+114	418.2	CMD	"take a picture"	None	None
+115	420.18	DM->RN	"send image"	None	None
+i007	420.9	IMAGE	"frame007"	None	None
+116	421.21	RN	"sent"	None	None
+117	424.39	DM->CMD	"sent"	None	None
+118	426.61	CMD	"turn left uhh <pause> forty five degrees"	None	None
+119	431.81	DM->CMD	"ok"	None	None
+120	435	DM->RN	"turn left 45 degrees"	None	None
+121	435.75	DM->CMD	"I will turn left 45 degrees"	None	None
+122	437.93	DM->CMD	"turning. . ."	None	None
+123	446.02	CMD	"take a picture"	None	None
+124	446.75	RN	"done? <difficult to hear>"	None	None
+125	448.23	DM->CMD	"done"	None	None
+126	449.06	DM->RN	"send image"	None	None
+i008	449.74	IMAGE	"frame008"	None	None
+127	449.96	RN	"sent"	None	None
+128	451.09	DM->CMD	"sent"	None	None
+129	454.56	CMD	"turn left <pause> twenty degrees"	None	None
+130	460.56	DM->CMD	"ok, I think I got it."	None	None
+131	467.06	DM->RN	"turn left 20 degrees"	None	None
+132	471.61	DM->CMD	"I will turn left 20 degrees"	None	None
+133	472.659999999999	CMD	"<pause> take a picture"	None	None
+134	472.78	DM->CMD	"turning. . ."	None	None
+135	473.87	RN	"done"	None	None
+136	475.35	DM->CMD	"done"	None	None
+137	476.33	DM->RN	"send image"	None	None
+i009	477.04	IMAGE	"frame009"	None	None
+138	477.33	RN	"sent"	None	None
+139	478.53	DM->CMD	"sent"	None	None
+140	483.61	CMD	"<no command>"	None	None
+141	487.03	CMD	"what is that thing in front of you"	None	None
+142	491.17	DM->CMD	"processing. . ."	None	None
+143	506.37	DM->CMD	"I see a barrel and a plant."	None	None
+144	536.47	CMD	"<other voice: what you'll do>"	None	None
+145	539.63	CMD	"how many cones did you see"	None	None
+146	552.72	DM->CMD	"processing. . ."	None	None
+147	555.79	DM->CMD	"I'm not sure which object you are referring to. <beep>"	None	None
+148	557.71	DM->CMD	"I don't know what all the objects are around me.   <beep>"	None	None
+149	559.1	DM->CMD	"If you describe an object, you can help me to learn what it is.  <beep>"	None	None
+150	561.6	DM->CMD	"Can you describe it another way, using its color, size, or position?  <beep>"	None	None
+151	581.11	CMD	"<now uh how many doorways were there>"	None	None
+152	583.17	CMD	"there were two doorways"	None	None
+153	585.01	CMD	"<okay and how many cones were there>"	None	None
+154	586.41	CMD	"there were two cones"	None	None
+155	587.949999999999	CMD	"<alright and do you think there's any type of container in which a soldier might be able to use to move things>"	None	None

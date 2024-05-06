@@ -1,0 +1,12 @@
+p3.29_main1_s37
+# ::tok move a hundred eighty degrees to the right
+# ::snt move a hundred eighty degrees to the right
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (r / right-04)
+	:extent (a / angle-quantity
+		:quant 180
+		:unit (d / degree))
+	:mode imperative)
+

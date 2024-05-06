@@ -1,0 +1,11 @@
+p2.02_train_s172
+# ::tok can you send me another photo
+# ::snt can you send me another photo
+(s / send-01
+	:ARG0 (y / you)
+	:ARG1 (p / photo
+		:mod (a / another))
+	:ARG2 (i / i)
+	:mode imperative
+	:polite +)
+

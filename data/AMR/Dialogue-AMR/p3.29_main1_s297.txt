@@ -1,0 +1,13 @@
+p3.29_main1_s297
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

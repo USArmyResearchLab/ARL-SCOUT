@@ -1,0 +1,181 @@
+id	time	stream	text	tu	rel	ant	context
+1	2018-09-19 11:16:29.94	DM->RN	"calibrate"	1	0	translation-r-direct	None
+2	2018-09-19 11:16:30.63	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+3	2018-09-19 11:16:54.09	RN	"<X: audio sync in three two one>"	X-CMD	None	None	None
+4	2018-09-19 11:16:54.11	CMD	"<X: audio sync in three two one>"	X-CMD	None	None	None
+5	2018-09-19 11:16:58.30	RN	"<loud noise>"	X-CMD	None	None	None
+6	2018-09-19 11:16:58.30	CMD	"<loud noise>"	X-CMD	None	None	None
+7	2018-09-19 11:17:00.41	DM->CMD	"calibration complete"	1	0	ack-done	None
+8	2018-09-19 11:17:00.74	CMD	"<X: okay you can let it up>"	X-CMD	None	None	None
+9	2018-09-19 11:17:11.14	CMD	"i am ready"	2	None	None	None
+10	2018-09-19 11:17:15.39	DM->RN	"participant is ready"	2	9	translation-r-direct	None
+11	2018-09-19 11:17:17.44	DM->CMD	"I'm also ready.  <beep>"	2	9	reciprocal	None
+12	2018-09-19 11:17:21.76	CMD	"robot will you please <pause .86> go <pause .79> forty five feet ahead of you please"	3	None	None	None
+13	2018-09-19 11:17:31.12	DM->CMD	"processing. . ."	3	12	processing	None
+14	2018-09-19 11:17:34.35	DM->RN	"move forward 5 feet"	3	12	translation-r-situated	None
+15	2018-09-19 11:17:34.98	DM->CMD	"I will move forward 5 feet"	3	12	ack-wilco	None
+16	2018-09-19 11:17:43.46	RN	"done"	3	14	ack-done	None
+17	2018-09-19 11:17:44.30	DM->CMD	"done"	3	16	translation-l	None
+18	2018-09-19 11:18:02.55	CMD	"can you take a picture of what you see in front of you"	4	None	None	None
+19	2018-09-19 11:18:21.18	CMD	"robot can you take a picture of what you see"	4	18	summarization	None
+20	2018-09-19 11:18:25.29	DM->CMD	"What should we do next?  <beep>"	5	None	None	None
+21	2018-09-19 11:18:29.11	CMD	"take a picture please"	4	19	summarization	None
+22	2018-09-19 11:18:42.36	CMD	"robot can you take a picture for me"	4	21	summarization	None
+23	2018-09-19 11:19:00.23	CMD	"robot can you hear me"	6	None	None	None
+24	2018-09-19 11:19:17.56	CMD	"robot will you please take a picture for me"	4	22	summarization	None
+25	2018-09-19 11:19:27.21	DM->CMD	"Please remember to hold down the Push-to-talk button while you are talking.  <beep>"	7	None	None	None
+26	2018-09-19 11:19:31.50	CMD	"robot will you please take a picture for me"	4	24	summarization	None
+27	2018-09-19 11:19:58.22	CMD	"robot will you please take a picture for me"	4	26	summarization	None
+28	2018-09-19 11:20:35.68	CMD	"robot will you turn to the right"	8	None	None	None
+29	2018-09-19 11:20:53.71	CMD	"robot can you hear me at all"	9	None	None	None
+30	2018-09-19 11:20:57.56	DM->CMD	"Would you like me to send a picture?  <beep>"	10	None	None	None
+31	2018-09-19 11:21:01.90	CMD	"yes send me a picture"	10	30	offer-accept	None
+32	2018-09-19 11:21:28.00	CMD	"please send me a picture"	10	31	summarization	None
+33	2018-09-19 11:21:35.38	DM->RN	"send image"	10	32	translation-r-direct	None
+34	2018-09-19 11:21:37.70	RN	"sent"	10	33	ack-done	None
+35	2018-09-19 11:21:37.99	DM->CMD	"sent"	10	34	translation-l	None
+36	2018-09-19 11:22:01.41	CMD	"robot can you tell me next to the shovel what the words say on that box next to the shovel"	11	None	None	None
+37	2018-09-19 11:22:12.53	DM->CMD	"I couldn't hear everything you said.  <beep>"	11	36	nack	None
+38	2018-09-19 11:22:21.43	CMD	"robot can you tell me <pause 1.09> next to the shovel <pause .51> what the words say on that container"	11	37	clar-repair	None
+39	2018-09-19 11:22:36.90	DM->CMD	"processing. . ."	11	38	processing	None
+40	2018-09-19 11:22:46.05	DM->RN	"send image of bucket"	11	38	translation-r-default	None
+41	2018-09-19 11:22:57.05	RN	"sent"	11	40	ack-done	None
+42	2018-09-19 11:22:57.56	DM->CMD	"sent"	11	41	translation-l	None
+43	2018-09-19 11:23:21.20	CMD	"thank you"	11	42	3feedback	None
+44	2018-09-19 11:23:24.05	CMD	"now robot can you turn a little bit more to your right"	12	None	None	None
+45	2018-09-19 11:23:45.00	CMD	"robot can you please turn to your right"	12	44	summarization	None
+46	2018-09-19 11:23:53.54	DM->CMD	"How far should I turn to the right?  <beep>"	12	45	req-clar	None
+47	2018-09-19 11:23:59.97	CMD	"just a little bit <laugh>"	12	46	clar-repair	None
+48	2018-09-19 11:24:08.66	DM->CMD	"You can tell me to turn a number of degrees or to face something.  <beep>"	12	47	nar	None
+49	2018-09-19 11:24:17.14	CMD	"five degrees please"	12	48	clar-repair	None
+50	2018-09-19 11:24:23.13	DM->CMD	"ok"	12	49*	ack-wilco	None
+51	2018-09-19 11:24:29.61	DM->RN	"turn right 5 degrees"	12	49*	translation-r-direct	None
+52	2018-09-19 11:24:33.45	RN	"done"	12	51	ack-done	None
+53	2018-09-19 11:24:34.56	DM->CMD	"done"	12	52	translation-l	None
+54	2018-09-19 11:24:36.77	CMD	"okay can you turn ten degrees"	13	None	None	None
+55	2018-09-19 11:24:53.39	CMD	"robot can you turn ten degrees to your right"	13	54	summarization	None
+56	2018-09-19 11:25:13.86	CMD	"okay robot can you turn ten degrees to your right please"	13	55	summarization	None
+57	2018-09-19 11:25:21.85	DM->CMD	"ok"	13	56	ack-wilco	None
+58	2018-09-19 11:25:26.80	DM->RN	"turn right 10 degrees"	13	56	translation-r-direct	None
+59	2018-09-19 11:25:31.23	RN	"done"	13	58	ack-done	None
+60	2018-09-19 11:25:31.83	DM->CMD	"done"	13	59	translation-l	None
+61	2018-09-19 11:25:38.09	CMD	"thank you"	13	60	3feedback	None
+62	2018-09-19 11:25:39.31	CMD	"can you turn fifteen degrees to your right"	14	None	None	None
+63	2018-09-19 11:25:43.23	DM->CMD	"processing. . ."	14	62	processing	None
+64	2018-09-19 11:25:48.34	DM->RN	"turn right 15 degrees"	14	62	translation-r-direct	None
+65	2018-09-19 11:25:53.79	RN	"done"	14	64	ack-done	None
+66	2018-09-19 11:25:54.71	DM->CMD	"done"	14	65	translation-l	None
+67	2018-09-19 11:26:00.60	CMD	"thank you robot"	14	66	3feedback	None
+68	2018-09-19 11:26:02.22	CMD	"now can you just back up two feet"	15	None	None	None
+69	2018-09-19 11:26:21.29	CMD	"robot will you back up two feet please"	15	68	summarization	None
+70	2018-09-19 11:26:27.22	DM->CMD	"I didn't get all of that.  <beep>"	15	69	nack	None
+71	2018-09-19 11:26:31.39	CMD	"can you go backwards two feet"	15	70	clar-repair	None
+72	2018-09-19 11:26:35.57	DM->CMD	"ok"	15	71	ack-wilco	None
+73	2018-09-19 11:26:41.96	DM->RN	"move back 2"	15	71	translation-r-direct	None
+74	2018-09-19 11:26:50.25	RN	"done"	15	73	ack-done	None
+75	2018-09-19 11:26:51.14	DM->CMD	"done"	15	74	translation-l	None
+76	2018-09-19 11:26:53.00	CMD	"thank you"	15	75	3feedback	None
+77	2018-09-19 11:26:55.29	CMD	"robot will you turn "	16	None	None	None
+78	2018-09-19 11:26:59.27	CMD	"ten degrees to your right"	16	77	continue	None
+79	2018-09-19 11:27:17.70	CMD	"robot will you turn ten degrees to your right"	16	78*	summarization	None
+80	2018-09-19 11:27:37.88	DM->CMD	"Please remember to hold down the Push-to-talk button while you are talking.  <beep>"	17	None	None	None
+81	2018-09-19 11:27:40.02	CMD	"robot will you turn fifteen degrees to your right"	18	None	None	None
+82	2018-09-19 11:27:45.45	DM->CMD	"processing. . ."	18	81	processing	None
+83	2018-09-19 11:27:54.12	DM->RN	"turn right 15 degrees"	18	81	translation-r-direct	None
+84	2018-09-19 11:27:56.66	DM->CMD	"executing. . ."	18	81	ack-doing	None
+85	2018-09-19 11:27:59.36	RN	"done"	18	83	ack-done	None
+86	2018-09-19 11:28:00.65	DM->CMD	"done"	18	85	translation-l	None
+87	2018-09-19 11:28:03.28	CMD	"will you move forward one foot"	19	None	None	None
+88	2018-09-19 11:28:12.91	CMD	"robot will you move forward one foot"	19	87	summarization	None
+89	2018-09-19 11:28:33.54	CMD	"robot will you please move forward one foot"	19	88	summarization	None
+90	2018-09-19 11:28:56.45	CMD	"robot can you please move forward for me"	20	None	None	None
+91	2018-09-19 11:29:03.96	DM->CMD	"How far should I move forward? <beep>"	20	90	req-clar	None
+92	2018-09-19 11:29:05.73	CMD	"one foot"	20	91	clar-repair	None
+93	2018-09-19 11:29:09.90	DM->CMD	"Can you repeat that?  <beep>"	20	92	req-repeat	None
+94	2018-09-19 11:29:11.66	CMD	"one foot"	20	93	clar-repeat	None
+95	2018-09-19 11:29:13.64	DM->CMD	"ok"	20	94*	ack	None
+96	2018-09-19 11:29:17.61	DM->RN	"move forward 1 foot"	20	94*	translation-r-direct	None
+97	2018-09-19 11:29:18.24	DM->CMD	"I will move forward 1 foot"	20	94*	ack-wilco	None
+98	2018-09-19 11:29:21.76	RN	"done"	20	96	ack-done	None
+99	2018-09-19 11:29:23.42	DM->CMD	"done"	20	98	translation-l	None
+100	2018-09-19 11:29:27.49	CMD	"will you take a picture for me"	21	None	None	None
+101	2018-09-19 11:29:49.92	CMD	"robot will you please take a picture for me"	21	100	summarization	None
+102	2018-09-19 11:29:55.19	DM->RN	"send image"	21	101	translation-r-direct	None
+103	2018-09-19 11:29:56.39	RN	"sent"	21	102	ack-done	None
+104	2018-09-19 11:29:56.70	DM->CMD	"sent"	21	103	translation-l	None
+105	2018-09-19 11:30:03.62	CMD	"will you move forward for me"	22	None	None	None
+106	2018-09-19 11:30:19.44	CMD	"robot will you move forward two feet"	23	None	None	None
+107	2018-09-19 11:30:40.22	CMD	"robot will you move forward two feet please"	23	106	summarization	None
+108	2018-09-19 11:31:10.31	CMD	"robot i will treat you to lunch"	24	None	None	None
+109	2018-09-19 11:31:13.02	CMD	"will you please move forward two feet <laughing>"	23	107	summarization	None
+110	2018-09-19 11:31:15.90	CMD	"<breath>"	None	None	None	None
+111	2018-09-19 11:31:16.97	DM->CMD	"ok"	23	109	ack-wilco	None
+112	2018-09-19 11:31:22.38	DM->RN	"move forward 2 feet"	23	109	translation-r-direct	None
+113	2018-09-19 11:31:22.90	DM->CMD	"I will move forward 2 feet"	23	109	ack-wilco	None
+114	2018-09-19 11:31:28.71	RN	"done"	23	112	ack-done	None
+115	2018-09-19 11:31:30.43	DM->CMD	"done"	23	114	translation-l	None
+116	2018-09-19 11:31:32.13	CMD	"thank you"	23	115	3feedback	None
+117	2018-09-19 11:31:35.25	CMD	"robot will you turn to your right two feet"	25	None	None	None
+118	2018-09-19 11:31:49.62	DM->CMD	"I'm unsure where or when I should stop turning.  <beep>"	25	117	missing-info	None
+119	2018-09-19 11:31:56.05	CMD	"will you turn to your right"	25	118	clar-repair	None
+120	2018-09-19 11:32:01.79	CMD	"twenty degrees"	25	119	continue	None
+121	2018-09-19 11:32:05.68	DM->RN	"turn right 20 degrees"	25	120*	translation-r-direct	None
+122	2018-09-19 11:32:06.84	DM->CMD	"turning. . ."	25	120*	ack-doing	None
+123	2018-09-19 11:32:10.61	RN	"done"	25	121	ack-done	None
+124	2018-09-19 11:32:13.23	DM->CMD	"done"	25	123	translation-l	None
+125	2018-09-19 11:32:15.42	CMD	"will you <pause .62> turn to your right"	26	None	None	None
+126	2018-09-19 11:32:19.89	CMD	"twenty more degrees"	26	125	continue	None
+127	2018-09-19 11:32:21.56	DM->CMD	"processing. . ."	26	126*	processing	None
+128	2018-09-19 11:32:26.21	DM->RN	"turn right 20 degrees"	26	126*	translation-r-direct	None
+129	2018-09-19 11:32:30.89	RN	"done"	26	128	ack-done	None
+130	2018-09-19 11:32:31.48	DM->CMD	"done"	26	129	translation-l	None
+131	2018-09-19 11:32:33.42	CMD	"will you take a picture for me"	27	None	None	None
+132	2018-09-19 11:32:56.61	CMD	"robot will you please take a picture for me"	27	131	summarization	None
+133	2018-09-19 11:33:03.77	DM->RN	"send image"	27	132	translation-r-direct	None
+134	2018-09-19 11:33:04.81	RN	"sent"	27	133	ack-done	None
+135	2018-09-19 11:33:05.17	DM->CMD	"sent"	27	134	translation-l	None
+136	2018-09-19 11:33:10.48	DM->CMD	"If you're having trouble figuring out how far I should move or turn to get to something, you can always try telling me to go directly to whatever you are interested in.  <beep>"	28	None	None	None
+137	2018-09-19 11:33:26.56	CMD	"okay i will do that"	28	136	3feedback	None
+138	2018-09-19 11:33:27.85	CMD	"will you please go directly to the entranceway that you are facing"	29	None	None	None
+139	2018-09-19 11:34:22.48	CMD	"can you move forward toward the doorway for i can see the objects"	30	None	None	None
+140	2018-09-19 11:34:46.26	CMD	"robot will you please take a picture of the of the way you are facing"	30	139	continue	None
+141	2018-09-19 11:34:54.29	DM->CMD	"I didn't get all of that.  <beep>"	30	140*	nack	None
+142	2018-09-19 11:34:56.88	CMD	"will you move forward"	30	141	clar-repair	None
+143	2018-09-19 11:34:58.32	CMD	"and take a picture of the direction you are facing please"	30	142	continue	None
+144	2018-09-19 11:35:08.22	DM->CMD	"How far should I move forward? <beep>"	30	142	req-clar	None
+145	2018-09-19 11:35:19.54	CMD	"four feet"	30	144	clar-repair	None
+146	2018-09-19 11:35:25.73	DM->RN	"move forward 4"	30	145*	translation-r-direct	None
+147	2018-09-19 11:35:26.63	DM->CMD	"moving. . ."	30	145*	ack-doing	None
+148	2018-09-19 11:35:28.25	DM->RN	"then. . ."	30	146	link-next	None
+149	2018-09-19 11:35:29.54	DM->RN	"send image"	30	143	translation-r-direct	None
+150	2018-09-19 11:35:34.28	RN	"done and sent"	30	149*	ack-done	None
+151	2018-09-19 11:35:37.08	DM->CMD	"done, sent"	30	150	translation-l	None
+152	2018-09-19 11:35:42.66	CMD	"thank you"	30	151	3feedback	None
+153	2018-09-19 11:35:46.09	CMD	"robot will you please turn <pause .94> right"	31	None	None	None
+154	2018-09-19 11:35:51.76	CMD	"twenty five degrees"	31	153	continue	None
+155	2018-09-19 11:36:06.05	CMD	"robot will you please turn right"	31	153	summarization	None
+156	2018-09-19 11:36:09.81	CMD	"at a twenty five degree angle please"	31	154	summarization	None
+157	2018-09-19 11:36:13.18	DM->CMD	"ok"	31	156*	ack-wilco	None
+158	2018-09-19 11:36:19.08	DM->RN	"turn right 25 degrees"	31	156*	translation-r-direct	None
+159	2018-09-19 11:36:24.58	RN	"done"	31	158	ack-done	None
+160	2018-09-19 11:36:25.16	DM->CMD	"done"	31	159	translation-l	None
+161	2018-09-19 11:36:27.95	CMD	"good job"	31	160	3feedback	None
+162	2018-09-19 11:36:29.30	CMD	"will you please turn right twenty five feet again"	32	None	None	None
+163	2018-09-19 11:36:34.08	DM->CMD	"processing. . ."	32	162	processing	None
+164	2018-09-19 11:36:39.11	DM->RN	"turn right 25 degrees"	32	162	translation-r-history	TU:31
+165	2018-09-19 11:36:43.85	RN	"done"	32	164	ack-done	None
+166	2018-09-19 11:36:44.66	DM->CMD	"done"	32	165	translation-l	None
+167	2018-09-19 11:36:47.82	CMD	"good"	32	166	3feedback	None
+168	2018-09-19 11:36:49.66	CMD	"will you please turn right fifteen feet"	33	None	None	None
+169	2018-09-19 11:36:55.30	DM->CMD	"ok"	33	168	ack-wilco	None
+170	2018-09-19 11:37:00.45	DM->RN	"turn right 15 degrees"	33	168	translation-r-history	TU:31
+171	2018-09-19 11:37:04.00	RN	"done"	33	170	ack-done	None
+172	2018-09-19 11:37:04.59	DM->CMD	"done"	33	171	translation-l	None
+173	2018-09-19 11:37:06.99	CMD	"thank you"	33	172	3feedback	None
+174	2018-09-19 11:37:08.05	CMD	"robot will you please take a picture of the area that you are facing"	34	None	None	None
+175	2018-09-19 11:37:14.00	DM->RN	"send image"	34	174	translation-r-direct	None
+176	2018-09-19 11:37:14.95	RN	"sent"	34	175	ack-done	None
+177	2018-09-19 11:37:15.82	DM->CMD	"sent"	34	176	translation-l	None
+178	2018-09-19 11:37:40.80	CMD	"i found number entryways doorways twelve entryways one shovel"	X-CMD	None	None	None
+179	2018-09-19 11:37:48.97	CMD	"uh one container that looked like a can of paint that had english writing on it"	X-CMD	None	None	None
+180	2018-09-19 11:37:54.91	CMD	"though and um i saw like tables and chairs in the hallway of the second corridor in the corner that looked like it would be good for activities"	X-CMD	None	None	None

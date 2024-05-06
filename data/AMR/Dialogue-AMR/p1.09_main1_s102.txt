@@ -1,0 +1,30 @@
+p1.09_main1_s102
+# ::tok nope stop stop
+# ::snt nope stop stop
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:polarity -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (s / stop-01
+			:ARG0 r
+			:ARG1 r
+			:completable +
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r)
+	:snt3 (c3 / command-SA
+		:ARG0 c
+		:ARG1 (s2 / stop-01
+			:ARG0 r
+			:ARG1 r
+			:completable +
+			:time (a3 / after
+				:op1 (n3 / now)))
+		:ARG2 r))
+

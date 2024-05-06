@@ -1,0 +1,38 @@
+p1.09_main1_s100
+# ::tok back up to entry way of room , photo , move to door currently to your left , then send photo , turn 180 , send photo
+# ::snt back up to entry way of room, photo, move to door currently to your left, then send photo, turn 180, send photo
+(a / and
+	:op1 (b / back-up-06
+		:ARG0 (y / you)
+		:ARG1 y
+		:destination (e / entryway
+			:part-of (r / room))
+		:mode imperative)
+	:op2 (p / photograph-01
+		:ARG0 y
+		:mode imperative)
+	:op3 (m / move-01
+		:ARG0 y
+		:ARG1 y
+		:ARG2 (d / door
+			:ARG1-of (l / left-20
+				:ARG2 y
+				:time (c / current)))
+		:mode imperative)
+	:op4 (s / send-01
+		:ARG0 y
+		:ARG1 (p2 / photo)
+		:mode imperative
+		:time (t / then))
+	:op5 (t2 / turn-01
+		:ARG0 y
+		:ARG1 y
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d2 / degree))
+		:mode imperative)
+	:op6 (s2 / send-01
+		:ARG0 y
+		:ARG1 (p3 / photo)
+		:mode imperative))
+

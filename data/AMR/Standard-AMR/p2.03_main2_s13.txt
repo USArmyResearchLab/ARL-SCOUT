@@ -1,0 +1,12 @@
+p2.03_main2_s13
+# ::tok I do n't know what all the objects are around me . < beep >
+# ::snt I don't know what all the objects are around me. <beep>
+(k / know-01
+	:ARG0 (i / i)
+	:ARG1 (o / object
+		:domain (t / thing)
+		:location (a / around
+			:op1 i)
+		:mod (a2 / all))
+	:polarity -)
+

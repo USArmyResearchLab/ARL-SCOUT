@@ -1,0 +1,18 @@
+p1.07_main2_s50
+# ::tok back up eleven feet
+# ::snt back up eleven feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 11
+			:unit (f / foot))
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

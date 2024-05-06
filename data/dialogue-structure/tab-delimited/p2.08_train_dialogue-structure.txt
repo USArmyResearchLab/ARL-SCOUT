@@ -1,0 +1,136 @@
+id	time	stream	text	tu	rel	ant	context
+1	0	DM->RN	"calibrate"	1	0	translation-r-direct	None
+2	0	DM->CMD	"calibrating. . ."	1	0	ack-doing	None
+3	9.75	RN	"done"	1	1	ack-done	None
+4	12.63	DM->CMD	"calibration complete"	1	3	translation-l	None
+5	13.78	DM->CMD	"Hello! <beep>"	2	None	None	None
+6	15	DM->CMD	". . ."	2	5	link-next	None
+7	16.6	DM->CMD	"Thanks for teaming up with me today."	2	5	continue	None
+8	17.94	DM->CMD	". . ."	2	7	link-next	None
+9	20.24	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	2	7	continue	None
+10	21.43	DM->CMD	". . ."	2	9	link-next	None
+11	24.69	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	2	9	continue	None
+12	25.91	DM->CMD	". . ."	2	11	link-next	None
+13	29.23	DM->CMD	"You can ask for help at any time."	2	11	continue	None
+14	50.68	CMD	"<yeah>"	None	None	None	None
+15	51.3399999999999	CMD	"go ahead"	3	None	None	None
+16	57.6999999999999	CMD	"we're looking for doorways"	3	15	continue	None
+17	63.79	DM->CMD	"Hmm. . ."	3	16*	processing	None
+18	65.86	CMD	"go ahead"	3	15	summarization	None
+19	68.31	CMD	"move for"	3	18	continue	None
+20	68.92	DM->CMD	"Would you like me to send a picture?  <beep>"	4	None	None	None
+21	71.82	CMD	"no thank you not right now"	4	20	offer-reject	None
+22	78.52	CMD	"<pause> move forward"	5	None	None	None
+23	84.59	DM->CMD	"I'm not sure where or when to stop moving forward.  <beep>"	5	22	missing-info	None
+24	86.56	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	5	23	continue	None
+25	91.82	CMD	"<so the>"	None	None	None	None
+26	92.66	CMD	"move ahead"	5	22	summarization	None
+27	97.67	DM->CMD	"How far forward should I go?  <beep>"	5	26	req-clar	None
+28	141.709999999999	CMD	"<m: a real chance for you to try all of those kind of <unintelligible> and see what you like>"	X-CMD	None	None	None
+29	144.66	CMD	"move to the next doorway"	6	27	clar-repair	None
+30	149.58	DM->CMD	"processing. . ."	6	29	processing	None
+31	160.1	DM->RN	"move to alley Door 1"	6	29	translation-r-landmark	None
+32	164.36	DM->CMD	"moving. . ."	6	29	ack-doing	None
+33	176.49	RN	"done"	6	31	ack-done	None
+34	177.62	DM->CMD	"done"	6	33	translation-l	None
+35	178.48	CMD	"take a picture"	7	None	None	None
+36	181.48	DM->RN	"send image"	7	35	translation-r-direct	None
+37	182.4	RN	"sent"	7	36	ack-done	None
+38	183.92	DM->CMD	"sent"	7	37	translation-l	None
+39	186.73	CMD	"move to the next doorway"	8	None	None	None
+40	190.14	DM->CMD	"processing. . ."	8	39	processing	None
+41	194.89	DM->RN	"move to alley Door 2"	8	39	translation-r-landmark	None
+42	200.64	DM->CMD	"moving. . ."	8	39	ack-doing	None
+43	216.16	RN	"done"	8	41	ack-done	None
+44	217.6	DM->CMD	"done"	8	43	translation-l	None
+45	230.91	CMD	"sorry"	9	None	None	None
+46	231.26	CMD	"<a: it's okay>"	X-CMD	None	None	None
+47	231.76	CMD	"take a picture"	9	45	continue	None
+48	233.41	DM->RN	"send image"	9	47	translation-r-direct	None
+49	234.63	RN	"sent"	9	48	ack-done	None
+50	236.12	DM->CMD	"sent"	9	49	translation-l	None
+51	239.76	CMD	"move to the next cone"	10	None	None	None
+52	246.19	DM->CMD	"I'm not sure which object you are referring to. <beep>"	10	51	missing-info	None
+53	247.57	DM->CMD	". . ."	10	52	link-next	None
+54	248.92	DM->CMD	"I don't know what all the objects are around me.   <beep>"	10	52	continue	None
+55	250.61	DM->CMD	"but. . ."	10	54	link-next	None
+56	252.01	DM->CMD	"If you describe an object, you can help me to learn what it is.  <beep>"	10	54	continue	None
+57	254.62	DM->CMD	"Can you describe it another way, using its color, size, or position?  <beep>"	10	56	req-clar	None
+58	257.61	CMD	"<pause> move to the next doorway "	10	57*	clar-repair	None
+59	262.52	DM->CMD	"processing. . ."	10	58	processing	None
+60	268.5	DM->RN	"move to alley Door 1"	10	58	translation-r-landmark	None
+61	294.48	DM->CMD	"moving. . ."	10	58	ack-doing	None
+62	313.9	RN	"done"	10	60	ack-done	None
+63	314.96	DM->CMD	"done"	10	62	translation-l	None
+64	317.92	CMD	"take a picture"	11	None	None	None
+65	320.33	DM->RN	"send image"	11	64	translation-r-direct	None
+66	321.26	RN	"sent"	11	65	ack-done	None
+67	322.59	DM->CMD	"sent"	11	66	translation-l	None
+68	329.48	CMD	"move to the next doorway"	12	None	None	None
+69	334.36	DM->CMD	"processing. . ."	12	68	processing	None
+70	338.5	DM->RN	"move to alley Door 2"	12	68	translation-r-landmark	None
+71	366.79	DM->CMD	"moving. . ."	12	68	ack-doing	None
+72	385.23	RN	"i see <?>"	None	None	None	None
+73	386.25	RN	"done"	12	70	ack-done	None
+74	387.37	DM->CMD	"done"	12	73	translation-l	None
+75	388.02	CMD	"take a picture"	13	None	None	None
+76	391.01	DM->RN	"send image"	13	75	translation-r-direct	None
+77	392.64	RN	"sent"	13	76	ack-done	None
+78	393.95	DM->CMD	"sent"	13	77	translation-l	None
+79	398.55	CMD	"<pause> are there any other doorways"	14	None	None	None
+80	407.1	CMD	"<a: so um just to remind you>"	X-CMD	None	None	None
+81	407.55	DM->CMD	"processing. . ."	14	79	processing	None
+82	408.26	CMD	"move to the next doorway"	15	None	None	None
+83	410.14	CMD	"<a: um try>"	X-CMD	None	None	None
+84	418.45	DM->CMD	"I see 2 doorways."	14	79	answer	None
+85	420.62	DM->CMD	"processing. . ."	15	82	processing	None
+86	426.51	DM->RN	"move to alley Door 1"	15	82	translation-r-landmark	None
+87	445.85	DM->CMD	"moving. . ."	15	82	ack-doing	None
+88	467.48	RN	"done"	15	86	ack-done	None
+89	468.52	DM->CMD	"done"	15	88	translation-l	None
+90	470.32	CMD	"take a picture"	16	None	None	None
+91	472.46	DM->RN	"send image"	16	90	translation-r-direct	None
+92	473.34	RN	"sent"	16	91	ack-done	None
+93	474.47	DM->CMD	"sent"	16	92	translation-l	None
+94	479.98	CMD	"<pause> move to the next doorway"	17	None	None	None
+95	485.27	DM->CMD	"processing. . ."	17	94	processing	None
+96	488.93	DM->RN	"move to alley Door 2"	17	94	translation-r-landmark	None
+97	513.03	DM->CMD	"moving. . ."	17	94	ack-doing	None
+98	531.33	RN	"done"	17	96	ack-done	None
+99	532.07	DM->CMD	"done"	17	98	translation-l	None
+100	533.66	CMD	"take a picture"	18	None	None	None
+101	535.28	DM->RN	"send image"	18	100	translation-r-direct	None
+102	536.31	RN	"sent"	18	101	ack-done	None
+103	537.6	DM->CMD	"sent"	18	102	translation-l	None
+104	577.78	CMD	"move do move south"	19	None	None	None
+105	584.92	DM->CMD	"processing. . ."	19	104	processing	None
+106	600.87	DM->CMD	"How far south should I go?"	19	104	req-clar	None
+107	603.85	DM->CMD	"You can tell me to move a certain distance or to move to an object.  <beep>"	19	106	continue	None
+108	612.829999999999	CMD	"<pause>  move to the next doorway"	20	None	None	None
+109	616.89	CMD	"<pause> but move south"	20	108	continue	None
+110	620.63	DM->CMD	"processing. . ."	20	109*	processing	None
+111	656.36	DM->CMD	"I don't see a doorway to the south."	20	109*	missing-info	None
+112	682.35	DM->CMD	"I can move to take a good picture of an object that you are interested in.  <beep>"	20	111	continue	None
+113	695.68	CMD	"move to the next doorway"	20	112*	clar-repair	None
+114	699.45	DM->CMD	"processing. . ."	20	113	processing	None
+115	706.58	DM->RN	"move to alley Door 1"	20	113	translation-r-landmark	None
+116	733.35	DM->CMD	"moving. . ."	20	113	ack-doing	None
+117	751.48	RN	"done"	20	115	ack-done	None
+118	752.8	DM->CMD	"done"	20	117	translation-l	None
+119	755.479999999999	CMD	"<a: that stops>"	X-CMD	None	None	None
+120	756.439999999999	CMD	"take a picture"	21	None	None	None
+121	760.04	DM->RN	"send image"	21	120	translation-r-direct	None
+122	761.03	RN	"and sent"	21	121	ack-done	None
+123	762.3	DM->CMD	"sent"	21	122	translation-l	None
+124	808.21	DM->CMD	"I can turn to face the doorway, ok?"	22	None	None	None
+125	830.839999999999	CMD	"<a: okay we're gonna go ahead and review>"	X-CMD	None	None	None
+126	833.54	CMD	"<a: how many doorways were there>"	X-CMD	None	None	None
+127	835.51	CMD	"three"	X-CMD	None	None	None
+128	836.089999999999	CMD	"how many cones were there"	X-CMD	None	None	None
+129	837.75	CMD	"one"	X-CMD	None	None	None
+130	838.359999999999	CMD	"<a: do you think there's any type of container in which a soldier might be able to use to move things>"	X-CMD	None	None	None
+131	843.859999999999	CMD	"yes"	X-CMD	None	None	None
+132	844.4	CMD	"<a: what w were they>"	X-CMD	None	None	None
+133	846.17	CMD	"the black containers right here"	X-CMD	None	None	None
+134	847.709999999999	CMD	"<a: the black containers>"	X-CMD	None	None	None
+135	848.609999999999	CMD	"<a: okay>"	X-CMD	None	None	None

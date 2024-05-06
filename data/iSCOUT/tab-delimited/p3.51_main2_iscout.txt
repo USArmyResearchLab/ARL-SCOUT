@@ -1,0 +1,313 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2018-08-13 15:06:33.94	DM->RN	"calibrate"	None	None
+2	2018-08-13 15:06:34.75	DM->CMD	"calibrating. . ."	None	None
+3	2018-08-13 15:06:59.54	CMD	"<X: audio sync in three two one>"	None	None
+4	2018-08-13 15:06:59.59	RN	"<X: audio sync in three two one>"	None	None
+5	2018-08-13 15:07:03.36	RN	"<loud noise>"	None	None
+6	2018-08-13 15:07:03.36	CMD	"<loud noise>"	None	None
+7	2018-08-13 15:07:05.79	DM->CMD	"calibration complete"	None	None
+8	2018-08-13 15:07:14.84	CMD	"i am ready"	None	None
+9	2018-08-13 15:07:16.07	DM->CMD	"I'm also ready.  <beep>"	None	None
+10	2018-08-13 15:07:20.25	CMD	"let's move forward"	None	None
+11	2018-08-13 15:07:25.26	DM->CMD	"How far should I move forward? <beep>"	None	None
+12	2018-08-13 15:07:28.47	CMD	"ten feet"	None	None
+13	2018-08-13 15:07:30.06	DM->CMD	"processing. . ."	None	None
+14	2018-08-13 15:07:36.98	DM->RN	"move forward 10 feet"	None	None
+15	2018-08-13 15:07:37.84	DM->CMD	"I will move forward 10 feet"	None	None
+16	2018-08-13 15:07:51.32	RN	"done"	None	None
+17	2018-08-13 15:07:52.45	DM->CMD	"done"	None	None
+18	2018-08-13 15:07:54.81	CMD	"can you locate the doorway closest to you"	None	None
+19	2018-08-13 15:08:00.55	DM->CMD	"Do you mean the one on the left?  <beep>"	None	None
+20	2018-08-13 15:08:02.69	CMD	"the one on the left"	None	None
+21	2018-08-13 15:08:07.58	DM->CMD	"ok, I think I got it."	None	None
+22	2018-08-13 15:08:15.36	DM->CMD	"What should we do next?  <beep>"	None	None
+23	2018-08-13 15:08:19.66	CMD	"do you see a doorway"	None	None
+24	2018-08-13 15:08:22.52	DM->CMD	"yes"	None	None
+25	2018-08-13 15:08:26.11	CMD	"can you take a picture"	None	None
+26	2018-08-13 15:08:29.54	DM->RN	"send image"	None	None
+i000	2018-08-13 15:08:34.69	IMAGE	"frame000"	None	None
+27	2018-08-13 15:08:31.23	RN	"sent"	None	None
+28	2018-08-13 15:08:32.19	DM->CMD	"sent"	None	None
+29	2018-08-13 15:08:42.52	CMD	"can you move forward"	None	None
+30	2018-08-13 15:08:49.86	DM->CMD	"I'm unsure where or when I should stop going forward.  <beep>"	None	None
+31	2018-08-13 15:08:54.76	CMD	"can you move forward five feet"	None	None
+32	2018-08-13 15:08:58.21	DM->CMD	"processing. . ."	None	None
+33	2018-08-13 15:09:01.79	DM->RN	"move forward 5 feet"	None	None
+34	2018-08-13 15:09:04.83	RN	"i don't think i can go five feet"	None	None
+35	2018-08-13 15:09:11.69	DM->CMD	"I will move forward as far as I can, ok?  <beep>"	None	None
+36	2018-08-13 15:09:13.69	RN	"uh i'll go as far as i can"	None	None
+37	2018-08-13 15:09:15.88	CMD	"ok"	None	None
+38	2018-08-13 15:09:27.11	RN	"done"	None	None
+39	2018-08-13 15:09:28.05	RN	"i moved about four feet"	None	None
+40	2018-08-13 15:09:33.74	DM->CMD	"I was only able to move forward 4 feet."	None	None
+41	2018-08-13 15:09:38.29	CMD	"can you take a picture"	None	None
+42	2018-08-13 15:09:42.24	DM->RN	"send image"	None	None
+i001	2018-08-13 15:09:45.65	IMAGE	"frame001"	None	None
+43	2018-08-13 15:09:43.64	RN	"sent"	None	None
+44	2018-08-13 15:09:44.61	DM->CMD	"sent"	None	None
+45	2018-08-13 15:09:47.39	CMD	"do you see a doorway near you"	None	None
+46	2018-08-13 15:09:53.75	DM->CMD	"Do you mean the one on the left?  <beep>"	None	None
+47	2018-08-13 15:09:59.09	CMD	"yes"	None	None
+48	2018-08-13 15:10:12.33	CMD	"the one o<disfl> <pause .68> the one on the left"	None	None
+49	2018-08-13 15:10:17.29	DM->CMD	"yes"	None	None
+50	2018-08-13 15:10:18.37	DM->CMD	"I'm not sure where you want me to go.  <beep>"	None	None
+51	2018-08-13 15:10:22.00	CMD	"can you please move forward five feet"	None	None
+52	2018-08-13 15:10:28.81	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	None	None
+53	2018-08-13 15:10:32.40	CMD	"can you counter clockwise turn <pause .79> to the left"	None	None
+54	2018-08-13 15:10:39.21	DM->CMD	"ok"	None	None
+55	2018-08-13 15:10:46.15	DM->RN	"turn left 45 degrees"	None	None
+56	2018-08-13 15:10:47.38	DM->CMD	"I will turn left 45 degrees"	None	None
+57	2018-08-13 15:10:55.07	RN	"done"	None	None
+58	2018-08-13 15:10:56.18	DM->CMD	"done"	None	None
+59	2018-08-13 15:10:58.81	CMD	"let's move forward <pause .75> five feet"	None	None
+60	2018-08-13 15:11:03.37	DM->CMD	"ok"	None	None
+61	2018-08-13 15:11:06.09	DM->RN	"move forward 5 feet"	None	None
+62	2018-08-13 15:11:20.43	RN	"done"	None	None
+63	2018-08-13 15:11:21.42	DM->CMD	"I moved forward 5 feet"	None	None
+64	2018-08-13 15:11:23.95	CMD	"do you see any available objects"	None	None
+65	2018-08-13 15:11:30.76	DM->RN	"send image"	None	None
+i002	2018-08-13 15:11:33.21	IMAGE	"frame002"	None	None
+66	2018-08-13 15:11:32.69	RN	"sent"	None	None
+67	2018-08-13 15:11:40.38	CMD	"let's turn slightly to the left"	None	None
+68	2018-08-13 15:11:43.10	CMD	"but keep forward five feet"	None	None
+69	2018-08-13 15:11:50.64	DM->CMD	"processing. . ."	None	None
+70	2018-08-13 15:11:54.09	DM->CMD	"How far should I rotate left? <beep>"	None	None
+71	2018-08-13 15:11:58.27	CMD	"maybe a half turn"	None	None
+72	2018-08-13 15:12:04.20	DM->CMD	"ok, I think I got it."	None	None
+73	2018-08-13 15:12:11.94	DM->RN	"turn left 45 degrees"	None	None
+74	2018-08-13 15:12:12.54	DM->CMD	"I will turn left 45 degrees"	None	None
+75	2018-08-13 15:12:24.20	RN	"done"	None	None
+76	2018-08-13 15:12:24.34	CMD	"is there a doorway near"	None	None
+77	2018-08-13 15:12:25.31	DM->CMD	"done"	None	None
+78	2018-08-13 15:12:36.32	DM->CMD	"I see more than one doorway.  <beep>"	None	None
+79	2018-08-13 15:12:38.88	CMD	"go to the nearest doorway you see"	None	None
+80	2018-08-13 15:12:44.56	DM->CMD	"Do you mean the one on the left?  <beep>"	None	None
+81	2018-08-13 15:12:45.67	DM->CMD	"Do you mean the one on the right?  <beep>"	None	None
+82	2018-08-13 15:12:49.28	CMD	"let's go with the one on the right"	None	None
+83	2018-08-13 15:12:53.31	DM->CMD	"ok"	None	None
+84	2018-08-13 15:13:09.43	DM->RN	"move to Shoe Start - hall doorway"	None	None
+85	2018-08-13 15:13:13.45	DM->CMD	"executing. . ."	None	None
+86	2018-08-13 15:13:35.21	RN	"done"	None	None
+87	2018-08-13 15:13:36.42	DM->CMD	"done"	None	None
+88	2018-08-13 15:13:38.15	CMD	"take a picture"	None	None
+89	2018-08-13 15:13:40.83	DM->RN	"send image"	None	None
+i003	2018-08-13 15:13:41.01	IMAGE	"frame003"	None	None
+90	2018-08-13 15:13:42.20	RN	"sent"	None	None
+91	2018-08-13 15:13:43.05	DM->CMD	"sent"	None	None
+92	2018-08-13 15:13:47.51	CMD	"is this a doorway"	None	None
+93	2018-08-13 15:13:51.74	DM->CMD	"yes"	None	None
+94	2018-08-13 15:13:57.42	CMD	"can you locate the next doorway"	None	None
+95	2018-08-13 15:14:03.99	DM->CMD	"I'm unsure which doorway you mean.  <beep>"	None	None
+96	2018-08-13 15:14:08.54	CMD	"let's move <pause .94> four"	None	None
+97	2018-08-13 15:14:10.63	CMD	"four"	None	None
+98	2018-08-13 15:14:11.44	CMD	"<no speech>"	None	None
+99	2018-08-13 15:14:12.53	CMD	"five feet down"	None	None
+100	2018-08-13 15:14:16.80	DM->CMD	"processing. . ."	None	None
+101	2018-08-13 15:14:18.91	DM->RN	"move forward 5 feet"	None	None
+102	2018-08-13 15:14:24.09	DM->CMD	"moving. . ."	None	None
+103	2018-08-13 15:14:28.31	RN	"done"	None	None
+104	2018-08-13 15:14:29.39	DM->CMD	"done"	None	None
+105	2018-08-13 15:14:41.43	CMD	"do you see a doorway near"	None	None
+106	2018-08-13 15:14:50.37	DM->CMD	"I see more than one doorway.  <beep>"	None	None
+107	2018-08-13 15:14:56.20	CMD	"let's go to the nearest doorway <pause .86> to your left"	None	None
+108	2018-08-13 15:15:05.34	DM->CMD	"ok"	None	None
+109	2018-08-13 15:15:15.52	DM->RN	"move to Shoe Start external door"	None	None
+110	2018-08-13 15:15:21.37	DM->CMD	"executing. . ."	None	None
+111	2018-08-13 15:15:21.87	RN	"<unintelligible> to be outside"	None	None
+112	2018-08-13 15:15:23.39	RN	"<yes>"	None	None
+113	2018-08-13 15:15:40.87	RN	"done"	None	None
+114	2018-08-13 15:15:41.84	DM->CMD	"done"	None	None
+115	2018-08-13 15:15:43.65	CMD	"is this a doorway"	None	None
+116	2018-08-13 15:15:45.52	DM->CMD	"yes"	None	None
+117	2018-08-13 15:15:48.88	CMD	"can you please take a picture"	None	None
+118	2018-08-13 15:15:51.75	DM->RN	"send image"	None	None
+i004	2018-08-13 15:15:50.18	IMAGE	"frame004"	None	None
+119	2018-08-13 15:15:53.08	RN	"sent"	None	None
+120	2018-08-13 15:15:53.48	DM->CMD	"sent"	None	None
+121	2018-08-13 15:16:01.96	CMD	"can you go to the first shoe that you see"	None	None
+122	2018-08-13 15:16:08.78	DM->CMD	"processing. . ."	None	None
+123	2018-08-13 15:16:13.98	DM->CMD	"I think you are more familiar with shoes than I am."	None	None
+124	2018-08-13 15:16:23.71	CMD	"let's make a s<disfl> uh a slight right"	None	None
+125	2018-08-13 15:16:26.02	CMD	"and move forward four feet"	None	None
+126	2018-08-13 15:16:34.66	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	None	None
+127	2018-08-13 15:16:40.60	CMD	"turn around"	None	None
+128	2018-08-13 15:16:41.69	CMD	"<no speech>"	None	None
+129	2018-08-13 15:16:42.47	CMD	"move forward"	None	None
+130	2018-08-13 15:16:46.09	DM->CMD	"ok, I think I got it."	None	None
+131	2018-08-13 15:16:49.31	DM->RN	"turn 180"	None	None
+132	2018-08-13 15:16:54.33	DM->CMD	"How far should I move forward? <beep>"	None	None
+133	2018-08-13 15:16:59.14	DM->RN	"then. . ."	None	None
+134	2018-08-13 15:17:03.32	CMD	"ten feet is fine"	None	None
+135	2018-08-13 15:17:11.99	DM->RN	"move forward 10 feet"	None	None
+136	2018-08-13 15:17:15.71	DM->CMD	"executing. . ."	None	None
+137	2018-08-13 15:17:20.94	CMD	"can you stop"	None	None
+138	2018-08-13 15:17:25.36	DM->RN	"stop"	None	None
+139	2018-08-13 15:17:26.79	RN	"done"	None	None
+140	2018-08-13 15:17:30.69	DM->CMD	"done"	None	None
+141	2018-08-13 15:17:33.59	CMD	"what do you see near you"	None	None
+142	2018-08-13 15:17:37.86	DM->RN	"send image"	None	None
+i005	2018-08-13 15:17:34.86	IMAGE	"frame005"	None	None
+143	2018-08-13 15:17:39.25	RN	"sent"	None	None
+144	2018-08-13 15:17:40.32	DM->CMD	"I will send a picture"	None	None
+145	2018-08-13 15:17:47.26	CMD	"move forward"	None	None
+146	2018-08-13 15:17:49.49	CMD	"five <pause .36> spaces"	None	None
+147	2018-08-13 15:17:53.41	DM->CMD	"ok"	None	None
+148	2018-08-13 15:17:56.61	DM->RN	"move forward 5 feet"	None	None
+149	2018-08-13 15:18:09.36	RN	"i could only go four"	None	None
+150	2018-08-13 15:18:11.32	RN	"done"	None	None
+151	2018-08-13 15:18:14.03	DM->CMD	"done"	None	None
+152	2018-08-13 15:18:18.21	CMD	"do you see any objects near"	None	None
+153	2018-08-13 15:18:28.78	DM->CMD	"I see objects all around me; I need your help to decide which are important. <beep>"	None	None
+154	2018-08-13 15:18:31.74	DM->CMD	"If you describe an object, you can help me locate it.  <beep>"	None	None
+155	2018-08-13 15:18:36.03	CMD	"i'm looking for a shoe"	None	None
+156	2018-08-13 15:18:37.75	CMD	"<no speech>"	None	None
+157	2018-08-13 15:18:38.59	CMD	"can you locate the shoe"	None	None
+158	2018-08-13 15:18:47.83	DM->CMD	"I think you are more familiar with shoes than I am."	None	None
+159	2018-08-13 15:18:54.17	CMD	"let's <pause > turn right a little bit"	None	None
+160	2018-08-13 15:18:57.00	CMD	"and move forward five fe<disfl> feet"	None	None
+161	2018-08-13 15:19:08.67	DM->CMD	"The one to my left?  <beep>"	None	None
+162	2018-08-13 15:19:11.72	CMD	"yes the one to your left"	None	None
+163	2018-08-13 15:19:17.89	DM->CMD	"ok, I think I got it."	None	None
+164	2018-08-13 15:19:23.49	DM->RN	"turn left 45 degrees"	None	None
+165	2018-08-13 15:19:24.78	DM->RN	"then. . ."	None	None
+166	2018-08-13 15:19:27.09	DM->RN	"move forward 5 feet"	None	None
+167	2018-08-13 15:19:43.89	RN	"done"	None	None
+168	2018-08-13 15:19:44.56	DM->CMD	"I turned left 45 degrees"	None	None
+169	2018-08-13 15:19:46.59	CMD	"is there any objects near you"	None	None
+170	2018-08-13 15:19:47.26	DM->CMD	"I moved forward 5 feet"	None	None
+171	2018-08-13 15:19:52.70	DM->RN	"send image"	None	None
+i006	2018-08-13 15:19:47.07	IMAGE	"frame006"	None	None
+172	2018-08-13 15:19:53.87	RN	"sent"	None	None
+173	2018-08-13 15:19:54.49	DM->CMD	"sent"	None	None
+174	2018-08-13 15:19:59.09	CMD	"is that a doorway i see"	None	None
+175	2018-08-13 15:20:03.36	DM->CMD	"yes"	None	None
+176	2018-08-13 15:20:05.48	CMD	"can you please take a pic"	None	None
+177	2018-08-13 15:20:08.93	DM->RN	"send image"	None	None
+i007	2018-08-13 15:20:04.52	IMAGE	"frame007"	None	None
+178	2018-08-13 15:20:11.71	RN	"sent"	None	None
+179	2018-08-13 15:20:12.68	DM->CMD	"sent"	None	None
+180	2018-08-13 15:20:20.21	CMD	"move forward <pause .80> five feet"	None	None
+181	2018-08-13 15:20:27.60	DM->CMD	"ok"	None	None
+182	2018-08-13 15:20:29.64	DM->RN	"move forward 5 feet"	None	None
+183	2018-08-13 15:20:32.60	RN	"uh i probably can't go five feet"	None	None
+184	2018-08-13 15:20:35.09	RN	"should i go as far as i can"	None	None
+185	2018-08-13 15:20:36.56	RN	"<DM: yeah>"	None	None
+186	2018-08-13 15:20:44.29	DM->CMD	"I will move forward as far as I can, ok?  <beep>"	None	None
+187	2018-08-13 15:20:46.28	RN	"uh done"	None	None
+188	2018-08-13 15:20:47.51	RN	"i was able to move five feet"	None	None
+189	2018-08-13 15:20:48.12	DM->CMD	"done"	None	None
+190	2018-08-13 15:20:48.96	CMD	"are there any objects nearby"	None	None
+191	2018-08-13 15:20:53.87	DM->RN	"send image"	None	None
+i008	2018-08-13 15:20:47.31	IMAGE	"frame008"	None	None
+192	2018-08-13 15:20:55.07	RN	"sent"	None	None
+193	2018-08-13 15:20:56.28	DM->CMD	"sent"	None	None
+194	2018-08-13 15:21:00.67	CMD	"this is not a doorway"	None	None
+195	2018-08-13 15:21:05.87	DM->CMD	"ok"	None	None
+196	2018-08-13 15:21:11.62	CMD	"let's make a slight turn to the right"	None	None
+197	2018-08-13 15:21:14.77	CMD	"and move forward six feet"	None	None
+198	2018-08-13 15:21:19.32	DM->CMD	"ok"	None	None
+199	2018-08-13 15:21:24.56	DM->RN	"turn right 45 degrees"	None	None
+200	2018-08-13 15:21:27.00	DM->RN	"then. . ."	None	None
+201	2018-08-13 15:21:34.38	DM->RN	"move forward 6"	None	None
+202	2018-08-13 15:21:47.94	RN	"done"	None	None
+203	2018-08-13 15:21:49.07	DM->CMD	"done"	None	None
+204	2018-08-13 15:21:50.47	CMD	"can you lo<disfl> locate any objects nearby"	None	None
+205	2018-08-13 15:21:57.95	DM->RN	"send image"	None	None
+i009	2018-08-13 15:21:50.40	IMAGE	"frame009"	None	None
+206	2018-08-13 15:21:59.04	RN	"sent"	None	None
+207	2018-08-13 15:22:00.37	DM->CMD	"sent"	None	None
+208	2018-08-13 15:22:07.63	CMD	"let's move forward"	None	None
+209	2018-08-13 15:22:10.00	CMD	"four feet"	None	None
+210	2018-08-13 15:22:15.53	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	None	None
+211	2018-08-13 15:22:20.66	CMD	"turn to the left"	None	None
+212	2018-08-13 15:22:24.67	DM->CMD	"ok"	None	None
+213	2018-08-13 15:22:30.93	DM->CMD	"How far should I turn to the left?  <beep>"	None	None
+214	2018-08-13 15:22:34.21	CMD	"slight turn"	None	None
+215	2018-08-13 15:22:36.70	DM->CMD	"ok"	None	None
+216	2018-08-13 15:22:40.66	DM->RN	"turn left 45 degrees"	None	None
+217	2018-08-13 15:22:47.81	RN	"done"	None	None
+218	2018-08-13 15:22:48.90	DM->CMD	"I turned left 45 degrees"	None	None
+219	2018-08-13 15:22:51.86	CMD	"a slight turn right forty five degrees"	None	None
+220	2018-08-13 15:22:56.86	DM->RN	"turn right 45 degrees"	None	None
+221	2018-08-13 15:22:57.93	DM->CMD	"I will turn right 45 degrees"	None	None
+222	2018-08-13 15:23:04.62	RN	"done"	None	None
+223	2018-08-13 15:23:05.84	DM->CMD	"done"	None	None
+224	2018-08-13 15:23:07.89	CMD	"can you turn a little bit more to the right"	None	None
+225	2018-08-13 15:23:20.77	CMD	"can you turn a little more to the right"	None	None
+226	2018-08-13 15:23:27.42	DM->CMD	"processing. . ."	None	None
+227	2018-08-13 15:23:28.78	DM->CMD	"How far is a little bit? <beep>"	None	None
+228	2018-08-13 15:23:38.73	CMD	"two feet"	None	None
+229	2018-08-13 15:23:41.67	DM->RN	"turn right 15 degrees"	None	None
+230	2018-08-13 15:23:43.89	DM->CMD	"I'm not sure."	None	None
+231	2018-08-13 15:23:45.58	DM->CMD	"ok, I think I got it."	None	None
+232	2018-08-13 15:23:47.74	RN	"done"	None	None
+233	2018-08-13 15:23:49.96	DM->CMD	"done"	None	None
+234	2018-08-13 15:23:50.37	CMD	"let's move forward"	None	None
+235	2018-08-13 15:23:54.67	DM->CMD	"ok"	None	None
+236	2018-08-13 15:23:56.41	DM->CMD	"How far should I move forward? <beep>"	None	None
+237	2018-08-13 15:23:58.11	CMD	"four feet"	None	None
+238	2018-08-13 15:24:00.87	DM->CMD	"ok"	None	None
+239	2018-08-13 15:24:06.69	DM->RN	"move forward 4"	None	None
+240	2018-08-13 15:24:20.96	RN	"done"	None	None
+241	2018-08-13 15:24:22.05	DM->CMD	"done"	None	None
+242	2018-08-13 15:24:22.84	CMD	"are there any shoes nearby"	None	None
+243	2018-08-13 15:24:25.19	DM->RN	"send image"	None	None
+i010	2018-08-13 15:24:15.81	IMAGE	"frame010"	None	None
+244	2018-08-13 15:24:26.45	RN	"sent"	None	None
+245	2018-08-13 15:24:34.18	CMD	"let's move forward three feet"	None	None
+246	2018-08-13 15:24:39.70	DM->CMD	"processing. . ."	None	None
+247	2018-08-13 15:24:43.10	DM->RN	"move forward 3 feet"	None	None
+248	2018-08-13 15:24:53.41	RN	"done"	None	None
+249	2018-08-13 15:24:56.13	DM->CMD	"done"	None	None
+250	2018-08-13 15:24:57.38	CMD	"take a picture"	None	None
+251	2018-08-13 15:24:58.59	DM->RN	"send image"	None	None
+i011	2018-08-13 15:24:48.60	IMAGE	"frame011"	None	None
+252	2018-08-13 15:24:59.81	RN	"sent"	None	None
+253	2018-08-13 15:25:00.90	DM->CMD	"sent"	None	None
+254	2018-08-13 15:25:06.78	CMD	"let's make a forty five degree right turn"	None	None
+255	2018-08-13 15:25:09.99	CMD	"and move forward four feet"	None	None
+256	2018-08-13 15:25:10.17	DM->RN	"turn right 45 degrees"	None	None
+257	2018-08-13 15:25:12.99	DM->RN	"then. . ."	None	None
+258	2018-08-13 15:25:14.15	DM->CMD	"I will turn right 45 degrees"	None	None
+259	2018-08-13 15:25:19.34	DM->RN	"move forward 4"	None	None
+260	2018-08-13 15:25:24.25	DM->CMD	"moving. . ."	None	None
+261	2018-08-13 15:25:28.68	RN	"done"	None	None
+262	2018-08-13 15:25:29.57	DM->CMD	"done"	None	None
+263	2018-08-13 15:25:31.46	CMD	"are there any objects nearby"	None	None
+264	2018-08-13 15:25:33.81	DM->RN	"send image"	None	None
+i012	2018-08-13 15:25:23.20	IMAGE	"frame012"	None	None
+265	2018-08-13 15:25:35.16	RN	"sent"	None	None
+266	2018-08-13 15:25:41.70	CMD	"let's make a sharp left turn"	None	None
+267	2018-08-13 15:25:45.93	CMD	"keeping forward <pause .78> six feet"	None	None
+268	2018-08-13 15:25:54.00	DM->RN	"turn left 90 degrees"	None	None
+269	2018-08-13 15:25:55.29	DM->CMD	"I will turn left 90 degrees"	None	None
+270	2018-08-13 15:26:05.39	RN	"done"	None	None
+271	2018-08-13 15:26:08.70	DM->CMD	"done"	None	None
+272	2018-08-13 15:26:11.61	CMD	"can you turn a little more to the left"	None	None
+273	2018-08-13 15:26:17.70	DM->CMD	"ok"	None	None
+274	2018-08-13 15:26:26.41	DM->RN	"turn left 15 degrees"	None	None
+275	2018-08-13 15:26:33.04	RN	"done"	None	None
+276	2018-08-13 15:26:33.83	DM->CMD	"done"	None	None
+277	2018-08-13 15:26:34.56	CMD	"now let's move forward"	None	None
+278	2018-08-13 15:26:37.74	CMD	"to the four feet"	None	None
+279	2018-08-13 15:26:43.78	DM->CMD	"I'm not sure if I can move that far forward.  <beep>"	None	None
+280	2018-08-13 15:26:46.66	CMD	"do you see any objects nearby"	None	None
+281	2018-08-13 15:26:50.20	DM->RN	"send image"	None	None
+i013	2018-08-13 15:26:38.43	IMAGE	"frame013"	None	None
+282	2018-08-13 15:26:51.45	RN	"sent"	None	None
+283	2018-08-13 15:27:00.57	CMD	"shoes"	None	None
+284	2018-08-13 15:27:05.57	DM->CMD	"I'm not sure."	None	None
+285	2018-08-13 15:27:15.35	CMD	"turn to the right"	None	None
+286	2018-08-13 15:27:18.01	CMD	"move forward five steps"	None	None
+287	2018-08-13 15:27:23.15	DM->CMD	"How far should I rotate right? <beep>"	None	None
+288	2018-08-13 15:27:50.05	CMD	"<X: how many doorways were there>"	None	None
+289	2018-08-13 15:27:51.50	CMD	"um five doorways"	None	None
+290	2018-08-13 15:27:53.21	CMD	"<no speech>"	None	None
+291	2018-08-13 15:27:53.54	CMD	"<X: and how many shoes were there>"	None	None
+292	2018-08-13 15:27:55.28	CMD	"um i didn't see uh zero shoes"	None	None
+293	2018-08-13 15:27:57.64	CMD	"<X: ok>"	None	None
+294	2018-08-13 15:27:57.66	DM->RN	"please wait"	None	None
+295	2018-08-13 15:27:58.23	CMD	"<X: and do you think there's anything that indicates the environment has been recently occupied>"	None	None
+296	2018-08-13 15:28:02.29	CMD	"no"	None	None
+297	2018-08-13 15:28:04.01	CMD	"<X: okay>"	None	None

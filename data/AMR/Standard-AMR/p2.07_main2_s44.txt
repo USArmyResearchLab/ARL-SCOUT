@@ -1,0 +1,13 @@
+p2.07_main2_s44
+# ::tok turn right ninety degrees
+# ::snt turn right ninety degrees
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (r / right-04
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 90
+		:unit (d / degree))
+	:mode imperative)
+

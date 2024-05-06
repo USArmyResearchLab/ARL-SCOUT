@@ -1,0 +1,28 @@
+p1.09_main1_s96
+# ::tok no if you can just back up to the entryway of that room
+# ::snt no if you can just back up to the entryway of that room
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:polarity -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:part-of (r2 / room
+					:mod (t / that)))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r
+				:ARG1 r)
+			:mod (j / just)
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r))
+

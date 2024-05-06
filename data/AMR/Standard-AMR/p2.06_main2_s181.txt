@@ -1,0 +1,12 @@
+p2.06_main2_s181
+# ::tok < pause > turn ninety degrees south east
+# ::snt <pause> turn ninety degrees south east
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (s / southeast)
+	:extent (a / angle-quantity
+		:quant 90
+		:unit (d / degree))
+	:mode imperative)
+

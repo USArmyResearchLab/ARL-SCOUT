@@ -1,0 +1,11 @@
+p2.09_main2_s133
+# ::tok I will turn around 180 degrees
+# ::snt I will turn around 180 degrees
+(t / turn-01
+	:ARG0 (i / i)
+	:ARG1 i
+	:extent (a / around)
+	:extent (a2 / angle-quantity
+		:quant 180
+		:unit (d / degree)))
+

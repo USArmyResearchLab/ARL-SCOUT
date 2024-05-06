@@ -1,0 +1,10 @@
+p2.08_main1_s193
+# ::tok < pause > go to the doorway to your left
+# ::snt <pause> go to the doorway to your left
+(g / go-02
+	:ARG0 (y / you)
+	:ARG4 (d / doorway
+		:ARG1-of (l / left-20
+			:ARG2 y))
+	:mode imperative)
+

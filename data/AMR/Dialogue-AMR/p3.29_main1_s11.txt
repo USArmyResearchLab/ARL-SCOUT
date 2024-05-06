@@ -1,0 +1,14 @@
+p3.29_main1_s11
+# ::tok calibration complete
+# ::snt calibration complete
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (c / calibrate-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c2 / commander))
+

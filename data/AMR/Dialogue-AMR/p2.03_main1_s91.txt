@@ -1,0 +1,30 @@
+p2.03_main1_s91
+# ::tok alright done and sent
+# ::snt alright done and sent
+(m / multi-sentence
+	:snt1 (j / judge-SA
+		:ARG0 (r / robot-rn)
+		:ARG1 (a / all-right)
+		:ARG2 (c / commander-dm)
+		:stable -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (a3 / and
+			:op1 (d / do-02
+				:ARG0 r
+				:complete +
+				:ongoing -
+				:time (b / before
+					:op1 (n2 / now)))
+			:op2 (s / send-image-99
+				:ARG0 r
+				:ARG1 (i / in-front-of
+					:op1 r)
+				:ARG2 c
+				:complete +
+				:ongoing -
+				:time (b2 / before
+					:op1 (n3 / now))))
+		:ARG2 c))
+

@@ -1,0 +1,16 @@
+p1.07_main2_s56
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+

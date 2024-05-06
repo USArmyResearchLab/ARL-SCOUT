@@ -1,0 +1,17 @@
+p1.04_main1_s49
+# ::tok turn right 90 , image
+# ::snt turn right 90, image
+(a / and
+	:op1 (t / turn-01
+		:ARG0 (y / you)
+		:ARG1 y
+		:direction (r / right-04
+			:ARG2 y)
+		:extent (a2 / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:mode imperative)
+	:op2 (i / image-101
+		:ARG0 y
+		:mode imperative))
+

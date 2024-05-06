@@ -1,0 +1,16 @@
+p3.29_main1_s251
+# ::tok move five feet closer
+# ::snt move five feet closer
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:ARG2 (c / close-10
+		:ARG1 y
+		:ARG2-of (h / have-degree-91
+			:ARG1 y
+			:ARG3 (m2 / more)))
+	:extent (d / distance-quantity
+		:quant 5
+		:unit (f / foot))
+	:mode imperative)
+

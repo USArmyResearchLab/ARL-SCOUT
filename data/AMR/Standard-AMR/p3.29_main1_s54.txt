@@ -1,0 +1,12 @@
+p3.29_main1_s54
+# ::tok move three three feet ahead
+# ::snt move three three feet ahead
+(m / move-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (a / ahead)
+	:extent (d / distance-quantity
+		:quant 3
+		:unit (f / foot))
+	:mode imperative)
+

@@ -1,0 +1,18 @@
+p3.29_main1_s166
+# ::tok turn left 10 degrees
+# ::snt turn left 10 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+

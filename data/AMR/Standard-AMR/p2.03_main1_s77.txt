@@ -1,0 +1,11 @@
+p2.03_main1_s77
+# ::tok turn to face North
+# ::snt turn to face North
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:destination (f / face-01
+		:ARG0 y
+		:ARG1 (n / north))
+	:mode imperative)
+

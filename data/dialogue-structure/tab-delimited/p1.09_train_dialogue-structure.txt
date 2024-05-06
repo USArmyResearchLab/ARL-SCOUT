@@ -1,0 +1,180 @@
+id	time	stream	text	tu	rel	ant	context
+1	3.18	RN	"calibration complete"	1	0	ack-done	None
+2	9.69	DM->CMD	"calibration complete"	1	1	translation-l	None
+3	13.43	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests.  I'll say DONE when I've completed your request, or SENT after sending you a photo, or I may ask for more information or let you know if there is a problem.  You can ask me for help at any time."	1	0	comment	None
+4	21.35	CMD	"take a photo"	2	None	None	None
+5	28.95	DM->RN	"photo"	2	4	translation-r-direct	None
+6	29.97	RN	"image sent"	2	5	ack-done	None
+7	32.1	DM->CMD	"sent"	2	6	translation-l	None
+8	52.62	CMD	"I'm ready"	3	None	None	None
+9	71.16	CMD	"move forward a little bit"	3	8	continue	None
+10	75.08	DM->CMD	"I'm also ready.  What should I do next?  You can tell me to move to an object that you see or to move a certain distance."	3	8	req-clar	None
+11	81.51	DM->CMD	"How far is a little bit?"	3	9	req-clar	None
+12	81.52	CMD	"two feet"	4	11	clar-repair	None
+13	94.2	DM->RN	"move forward 2 feet"	4	12*	translation-r-direct	None
+14	97.57	DM->CMD	"executing..."	4	12*	ack-doing	None
+15	103.01	RN	"done"	4	13	ack-done	None
+16	104.49	DM->CMD	"done"	4	15	translation-l	None
+17	113.15	CMD	"move forward a little bit again"	5	None	None	None
+18	113.15	CMD	"and then turn left"	5	17	continue	None
+19	119.33	CMD	"then take a photo"	5	18	continue	None
+20	128.4	DM->CMD	"Does a little bit mean two feet?"	5	19*	req-clar	None
+21	137.16	DM->RN	"move forward two feet"	5	17	translation-r-history	ID: 12
+22	143.43	RN	"done"	5	21	ack-done	None
+23	156.6	CMD	"yes it does"	5	20	clar-repair	None
+24	172.66	DM->CMD	"How far should I turn left?  Until facing the door to my left?"	5	18	req-clar	None
+25	177.87	CMD	"perpendicular to the doorway"	4	24	clar-repair	None
+26	202.24	DM->RN	"move until perpendicular to the first doorway to your left"	4	25*	translation-r-direct-partial	None
+27	207.04	DM->CMD	"executing..."	4	25	ack-doing	None
+28	209.9	RN	"done"	4	26	ack-done	None
+29	220.91	DM->RN	"turn to face the doorway to the left"	4	26	continue	None
+30	230.18	RN	"done"	4	29	ack-done	None
+31	231.27	DM->CMD	"done"	4	30	translation-l	None
+32	235.18	CMD	"take a photo"	5	None	None	None
+33	241.3	DM->RN	"photo"	5	32	translation-r-direct	None
+34	242.13	RN	"image sent"	5	33	ack-done	None
+35	244.01	DM->CMD	"sent"	5	34	translation-l	None
+36	244.05	CMD	"move around the cone into the next room"	6	None	None	None
+37	249.01	CMD	"turn right ninety degrees"	6	36	continue	None
+38	252.38	CMD	"and take a photo"	6	37	continue	None
+39	282.41	DM->CMD	"There is not enough space for me to move around the cone and enter the room ahead.  Would you like me to get as close as possible to the room?"	6	38*	req-clar	None
+40	291.6	CMD	"yes i would "	6	39	clar-repair	None
+41	291.6	CMD	"on the right side of the cone"	6	40	continue	None
+42	311.43	DM->RN	"move to the right side of the cone, get as close as possible"	6	41*	translation-r-direct	None
+43	319.42	DM->CMD	"executing..."	6	41*	ack-doing	None
+44	322.51	RN	"done"	6	42	ack-done	None
+45	324.59	DM->CMD	"done"	6	44	translation-l	None
+46	324.72	CMD	"turn left about forty five degrees"	7	None	None	None
+47	329.4	CMD	"and take a photo"	7	46	continue	None
+48A	336.16	DM->RN	"turn left 45, "	7	46	translation-r-direct	None
+48B	None	DM->RN	"photo"	7	47	translation-r-direct	None
+49	339.44	DM->CMD	"executing..."	7	47*	ack-doing	None
+50	348.25	CMD	"can you tell if there's a doorway in that room"	8	None	None	None
+51	349.26	RN	"<no speech>"	None	None	None	None
+52	350.91	DM->CMD	"sent"	7	47	ack-done	map
+53	381.5	DM->CMD	"My LIDAR map isn't showing any other doorway in the room ahead."	8	50	answer	None
+54	387.1	CMD	"okay"	8	53	3feedback	None
+55	387.1	CMD	"then turn around one hundred and eighty degrees"	9	None	None	None
+56	391.75	CMD	"move forward about two feet"	9	55	continue	None
+57	394.28	CMD	"then turn left and continue down the hallway you're in"	9	56	continue	None
+58A	410.64	DM->RN	"turn around 180, "	9	55	translation-r-direct	None
+58B	None	DM->RN	"move forward two feet, "	9	56	translation-r-direct	None
+58C	None	DM->RN	"turn left to face back down the hallway"	9	57	translation-r-direct	None
+59	422.27	DM->CMD	"How far should I continue down the hallway?"	9	57	req-clar	None
+60	444.26	RN	"done"	9	58C*	ack-done	None
+61	458.95	CMD	"continue up to the next opening on your left side"	10	None	None	None
+62	472.64	DM->RN	"move to the next door on the left"	10	61	translation-r-direct	None
+63	476.26	DM->CMD	"executing..."	10	61	ack-doing	None
+64	492.97	CMD	"turn right about thirty degrees"	11	None	None	None
+65	492.97	CMD	"and take a photo"	11	64	continue	None
+66	494.72	DM->CMD	"done"	10	61	ack-done	map
+67A	506.55	DM->RN	"turn right 30, "	11	64	translation-r-direct	None
+67B	None	DM->RN	"photo"	11	65	translation-r-direct	None
+68	509.9	DM->CMD	"executing..."	11	65*	ack-doing	None
+69	514.83	RN	"image sent"	11	67B*	ack-done	None
+70	516.56	DM->CMD	"sent"	11	69	translation-l	None
+71	521.92	CMD	"turn back to face the doorway"	12	None	None	None
+72	521.92	CMD	"and then can you tell what is inside that doorway"	12	71	continue	None
+73	535.48	DM->RN	"turn left to face the doorway"	12	71	translation-r-situated	None
+74	558.41	DM->CMD	"You are probably more familiar with the objects inside the doorway than I am.  Should I send a picture after turning to face the doorway?"	12	72	req-clar	None
+75	565.35	CMD	"yes"	12	74	clar-repair	None
+76	572.27	DM->RN	"photo"	12	75*	translation-r-direct	None
+77	572.79	CMD	"can you get around that object"	13	None	None	None
+78	573.39	RN	"image sent"	12	76	ack-done	None
+79	575.78	DM->CMD	"sent"	12	78	translation-l	None
+80	590.09	DM->CMD	"No, the object is obstructing the doorway."	13	77	answer	None
+81	594.92	CMD	"turn to your left ninety degrees"	14	None	None	None
+82	597.07	CMD	"and take a photo"	14	81	continue	None
+83A	604.93	DM->RN	"turn left 90, "	14	81	translation-r-direct	None
+83B	None	DM->RN	"photo"	14	82	translation-r-direct	None
+84	607.71	DM->CMD	"executing..."	14	82*	ack-doing	None
+85	618.86	RN	"image sent"	14	83B*	ack-done	None
+86	621.7	DM->CMD	"sent"	14	85	translation-l	None
+87	646.79	CMD	"go back to the other doorway"	15	None	None	None
+88	659.39	DM->RN	"return to the other doorway"	15	87	translation-r-direct	None
+89	662.92	DM->CMD	"executing..."	15	87	ack-doing	None
+90	668.77	CMD	"face the doorway"	16	None	None	None
+91	673.31	CMD	"and back up until you hit the wall"	16	90	continue	None
+92	675.8	DM->CMD	"done"	15	87	ack-done	map
+93	678.57	CMD	"or just about hit the wall"	16	91	continue	None
+94A	689	DM->RN	"turn to face the doorway, "	16	90	translation-r-contextual	None
+94B	None	DM->RN	"back up to the wall"	16	93*	translation-r-direct	None
+95	692.48	DM->CMD	"executing..."	16	93*	ack-doing	None
+96	697.84	CMD	"stop"	17	None	None	None
+97	700.56	CMD	"take a photo"	17	96	continue	None
+98	710.01	DM->CMD	"done"	17	93*	ack-done	map
+99	712.46	DM->RN	"photo"	17	97	translation-r-direct	None
+100	712.84	RN	"image sent"	17	99	ack-done	None
+101	714.96	DM->CMD	"sent"	17	100	translation-l	None
+102	723.07	CMD	"do the same thing to the other doorway"	18	None	None	None
+103	732.21	DM->CMD	"executing..."	18	102	ack-doing	None
+104	745.21	DM->RN	"return to face the other doorway, then back up to the wall there and send photo"	18	102	translation-r-history	None
+105	774.73	RN	"image sent"	18	104	ack-done	None
+106	776.65	CMD	"move up to that <pause> space between the uh object that blocks the doorway in the doorway itself"	19	None	None	None
+107	776.95	DM->CMD	"sent"	18	105	translation-l	None
+108	785.6	CMD	"and take a photo"	19	106	continue	None
+109	794.23	DM->CMD	"executing..."	19	108*	ack-doing	None
+110A	816.42	DM->RN	"move to space between obstruction in doorway and door frame on left,"	19	106	translation-r-direct	None
+110B	None	DM->RN	"photo"	19	108	translation-r-direct	None
+111	843.26	DM->RN	"sent"	ERR	None	None	None
+112	847.26	DM->CMD	"sent"	19	108*	ack-done	map
+113	851.55	CMD	"if you can turn around"	20	None	None	None
+114	851.55	CMD	"and take another photo so i have a clear picture of everything"	20	None	None	None
+115A	869.21	DM->RN	"turn 180, "	20	113	translation-r-direct	None
+115B	None	DM->RN	"photo"	20	114	translation-r-direct	None
+116	872.4	DM->CMD	"executing..."	20	114*	ack-doing	None
+117	887.64	RN	"image sent"	20	115B*	ack-done	None
+118	890.32	DM->CMD	"sent"	20	117	translation-l	None
+119	896.6	CMD	"go back to where you started"	21	None	None	None
+120	901.7	CMD	"turn a hundred and eighty degrees"	21	119	continue	None
+121	904.72	CMD	"and take a photo at the entryway"	21	120	continue	None
+122A	916.58	DM->RN	"return to start, "	21	119	translation-r-direct	None
+122B	None	DM->RN	"turn 180, "	21	120	translation-r-direct	None
+122C	None	DM->RN	"photo"	21	121	translation-r-direct	None
+123	921.87	DM->CMD	"executing..."	21	121*	ack-doing	None
+124	929.79	None	"None"	None	None	None	None
+125	947.88	RN	"<unintelligible>"	None	None	None	None
+126	949.9	CMD	"back up a little bit"	22	None	None	None
+127	957.18	RN	"image sent"	21	122C*	ack-done	None
+128	963.68	DM->CMD	"How far is a little bit?"	22	126	req-clar	None
+129	965	CMD	"same thing as before by two feet"	22	128	clar-repair	None
+130	969.17	DM->CMD	"Two feet?"	22	128	continue	None
+131	970.38	CMD	"you know what make it four"	22	129	correction-update	None
+132	979.68	DM->RN	"Back up four feet"	22	131*	translation-r-direct	None
+133	983.57	DM->CMD	"executing..."	22	131*	ack-doing	None
+134	998.38	RN	"done"	22	132	ack-done	None
+135	1001.6	DM->CMD	"done"	22	134	translation-l	None
+136	1003.81	CMD	"take a photo"	23	None	None	None
+137	1010.2	DM->RN	"photo"	23	136	translation-r-direct	None
+138	1013.43	RN	"image sent"	23	137	ack-done	None
+139	1015.48	DM->CMD	"sent"	23	138	translation-l	None
+140	1031.4	CMD	"are you sure there's no way to get into the first doorway"	24	None	None	None
+141	1062.88	DM->CMD	"I'm not sure.  I will return to face the first doorway and send a photo, ok?"	24	140	ack-try	None
+142	1065.07	CMD	"no just back up a little bit"	24	141	clar-repair	None
+143	1067.74	CMD	"and take another photo"	24	142	continue	None
+144	1078.54	DM->CMD	"Four feet?"	24	142	req-clar	None
+145	1078.63	CMD	"two feet this time"	24	144	clar-repair	None
+146A	1087.35	DM->RN	"back up two feet, "	24	145*	translation-r-direct	None
+146B	None	DM->RN	"photo"	24	143	translation-r-direct	None
+147	1090.98	DM->CMD	"executing..."	24	145*	ack-doing	None
+148	1099.07	RN	"image sent"	24	146B*	ack-done	None
+149	1102.06	DM->CMD	"sent"	24	148	translation-l	None
+150	1121.4	CMD	"go back to the start"	25	None	None	None
+151	1124.94	CMD	"and turn around"	25	150	continue	None
+152	1126.69	CMD	"and do a victory lap"	25	151	continue	None
+153A	1140.27	DM->RN	"return to starting point, "	25	150	translation-r-direct	None
+153B	None	DM->RN	"do victory lap"	25	152	translation-r-direct	None
+154	1148.76	DM->RN	"hold on lap"	25	153B	continue	None
+155	1151.9	CMD	"<k:and we'll review so how many doorways were there>"	X-CMD	None	None	None
+156	1156.04	CMD	"there are two doorways in the hallway and behind the robot is three doorways"	X-CMD	None	None	None
+157	1165.54	CMD	"<k:okay>"	X-CMD	None	None	None
+158	1165.92	CMD	"per se"	X-CMD	None	None	None
+159	1167.33	CMD	"i saw two cones how about you robot"	26	None	None	None
+160	1190.01	DM->CMD	"I think you are better at recognizing cones than I am."	26	159	nar	None
+161	1204.83	CMD	"there are two containers that uh three containers that a soldier can move things uh two drums and a cardboard box in the first doorway"	X-CMD	None	None	None
+162	1214.48	CMD	"<k:alright>"	X-CMD	None	None	None
+163	1227.89	CMD	"end session"	X-CMD	None	None	None
+164	1228.78	DM->RN	"ending task"	X-CMD	None	None	None
+165	1232.41	DM->CMD	"Great job, teammate!"	X-CMD	None	None	None
+166	1457.76	RN	"<no speech>"	None	None	None	None
+167	1461.48	RN	"<no speech>"	None	None	None	None

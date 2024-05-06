@@ -1,0 +1,17 @@
+p3.29_main1_s243
+# ::tok move eight feet straight
+# ::snt move eight feet straight
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 8
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

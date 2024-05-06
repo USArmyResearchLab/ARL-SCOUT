@@ -1,0 +1,16 @@
+p2.08_main1_s211
+# ::tok I will turn around 180 degrees
+# ::snt I will turn around 180 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+

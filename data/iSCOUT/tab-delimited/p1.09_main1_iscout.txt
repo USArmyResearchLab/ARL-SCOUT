@@ -1,0 +1,189 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2.92	RN	"calibration complete"	None	None
+2	9.24	CMD	"	I am ready are you"	None	None
+3	12.64	DM->CMD	"calibration complete"	None	None
+4	17.84	DM->CMD	"I'm ready.  What should we do next?"	None	None
+5	21	CMD	"robot can I call you fido"	None	None
+6	27.82	DM->CMD	"Yes. I am Fido."	None	None
+7	35.84	CMD	"fantastic"	None	None
+8	35.84	CMD	"please take a photo fido"	None	None
+9	36.91	DM->RN	"photo"	None	None
+i000	38.62	IMAGE	"frame000"	None	None
+10	37.93	RN	"image sent"	None	None
+11	40.02	DM->CMD	"sent"	None	None
+12	52.42	CMD	"fido take a photo every thirty degrees"	None	None
+13	57.29	CMD	"and then go back to your starting position"	None	None
+14	90.46	DM->CMD	"I'm not sure what you mean by a photo every 30 degrees.  Should I turn around here 360 degrees?"	None	None
+15	101.66	CMD	"no"	None	None
+16	101.66	CMD	"start where you are and lurk until you are ninety degrees"	None	None
+17	108.46	CMD	"then turn one eighty degrees"	None	None
+18	110.34	CMD	"and then do another photo every thirty degrees until you're back to where your current position is"	None	None
+19	120.84	CMD	"essentially I don't need photos behind you"	None	None
+20	126.47	DM->CMD	"executing..."	None	None
+21	144.64	DM->RN	"turn 30 left, photo"	None	None
+22	151.67	DM->RN	"then turn 30 left, photo"	None	None
+23	154.74	RN	"<no speech>"	None	None
+24	155.77	DM->RN	"then turn 30 left, photo"	None	None
+i001	153.03	IMAGE	"frame001"	None	None
+i002	162.78	IMAGE	"frame002"	None	None
+i003	166.84	IMAGE	"frame003"	None	None
+25	166.07	RN	"done"	None	None
+26	183.25	DM->RN	"return to start position, turn right 90, stopping every 30 degrees to send photo"	None	None
+i004	201.75	IMAGE	"frame004"	None	None
+i005	207.22	IMAGE	"frame005"	None	None
+i006	212.85	IMAGE	"frame006"	None	None
+27	212.37	RN	"done"	None	None
+28	213.92	DM->RN	"return to start position"	None	None
+29	222.82	DM->CMD	"done"	None	None
+30	229.08	CMD	"can you go back to that blue sign on the wall back up to it"	None	None
+31	235.55	CMD	"and take a photo"	None	None
+32	240.33	CMD	"thank you fido"	None	None
+33	241.48	DM->CMD	"executing..."	None	None
+34	259.57	DM->RN	"Back up to blue sign on wall to your left, send photo"	None	None
+35	273.58	RN	"that's when i should be driving backwards"	None	None
+36	284.5	DM->RN	"That was the command: back up to"	None	None
+i007	310.18	IMAGE	"frame007"	None	None
+37	310.13	RN	"sent"	None	None
+38	314.4	DM->CMD	"sent"	None	None
+39	323.23	CMD	"fido back up <laughter> to the other wall"	None	None
+40	327.07	CMD	"and take a picture of that blue sign that's behind you"	None	None
+41	335.25	DM->CMD	"What other wall?  I see several walls."	None	None
+42	347.11	CMD	"the wall on your right that's attached to the fire extinguisher"	None	None
+43	371.32	DM->RN	"back up to the wall across from the blue sign, turn to face blue sign, photo"	None	None
+44	374.81	DM->CMD	"executing..."	None	None
+i008	390.99	IMAGE	"frame008"	None	None
+45	390.28	RN	"image sent"	None	None
+46	392.58	DM->CMD	"sent"	None	None
+47	399.32	CMD	"can you zoom in into that picture slash blue thing"	None	None
+48	408.26	DM->CMD	"I can't zoom in, but I can move closer, ok?"	None	None
+49	416.24	CMD	"that's ok"	None	None
+50	435.37	DM->RN	"move to get a good shot of blue sign, image"	None	None
+51	441.72	DM->CMD	"executing..."	None	None
+i009	445.51	IMAGE	"frame009"	None	None
+52	445.03	RN	"image sent"	None	None
+53	447.82	DM->CMD	"sent"	None	None
+54	453.27	CMD	"robot do you read arabic"	None	None
+55	458.25	DM->CMD	"No.  Do you?"	None	None
+56	461.75	CMD	"sorry you're fido not robot <pause> "	None	None
+57	461.75	CMD	"no I do not"	None	None
+58	474.86	CMD	"okay <pause>"	None	None
+59	474.86	CMD	"can you go to the other doorway the one that's on your right"	None	None
+60	481.93	CMD	"and go in about halfway into that room"	None	None
+61	485.87	CMD	"turn left"	None	None
+62	487.51	CMD	"then take a photo"	None	None
+63	491.58	DM->CMD	"How far should I turn left in the other room?"	None	None
+64	500.48	CMD	"use your best judgement"	None	None
+65	515.6	DM->CMD	"I will turn 90 degrees when you say turn left, ok?"	None	None
+66	523.21	CMD	"okay"	None	None
+67	538.42	DM->RN	"move into next room through doorway on the right, move into center of room, turn left 90, photo"	None	None
+68	542.07	DM->CMD	"executing..."	None	None
+69	560.71	CMD	"turn left"	None	None
+i010	563.48	IMAGE	"frame010"	None	None
+70	562.8599999999999	RN	"image sent"	None	None
+71	566.94	DM->CMD	"sent"	None	None
+72	571.34	DM->RN	"turn left 90"	None	None
+73	573.14	CMD	"do you know what that is"	None	None
+i011	582.43	IMAGE	"frame011"	None	None
+74	581.64	RN	"image sent"	None	None
+75	588.51	DM->CMD	"sent"	None	None
+76	596.66	CMD	"are you calibrated to detect shoes"	None	None
+77	610.71	DM->CMD	"No.  I need your help to find shoes."	None	None
+78	620.5600000000001	CMD	"turn about thirty degrees"	None	None
+79	623.35	CMD	"and take a photo"	None	None
+80	623.35	CMD	"actually you know what take a photo of every corner in the room that you are currently in"	None	None
+81	638.17	DM->RN	"turn to face each corner of the room, send photo of each corner"	None	None
+82	641.44	DM->CMD	"executing..."	None	None
+i012	650.88	IMAGE	"frame012"	None	None
+i013	655.34	IMAGE	"frame013"	None	None
+i014	655.38	IMAGE	"frame014"	None	None
+i015	658.23	IMAGE	"frame015"	None	None
+83	665.27	RN	"done"	None	None
+84	668	DM->CMD	"done"	None	None
+85	671.39	CMD	"turn around"	None	None
+86	673.51	CMD	"and take another photo a closer look at those dvds or those boxes on top of the wood"	None	None
+87	695.12	DM->RN	"turn around 180, move closer to objects on left front corner of crate, phot"	None	None
+88	698.79	DM->CMD	"executing..."	None	None
+89	711.46	DM->RN	"move close enough to take good photo of objects"	None	None
+i016	662.5	IMAGE	"frame016"	None	None
+90	721.66	RN	"image sent"	None	None
+91	724.88	DM->CMD	"sent"	None	None
+92	739.64	CMD	"can you go around and take a photo behind the tv"	None	None
+93	747.95	CMD	"please and thank you"	None	None
+94	769.66	DM->CMD	"No.  My LIDAR map is showing no space behind the TV.  Do you want me to move around the left or right side of the TV?"	None	None
+95	779.41	RN	"<no speech>"	None	None
+96	789.69	CMD	"no if you can just back up to the entryway of that room"	None	None
+97	794.5	CMD	"take a photo"	None	None
+98	795.49	CMD	"and then go into the other entryway on the left side of that room"	None	None
+99	802.68	CMD	"and take a photo in front and behind you"	None	None
+100	824.19	DM->RN	"back up to entry way of room, photo, move to door currently to your left, then send photo, turn 180, send photo"	None	None
+101	827.56	DM->CMD	"executing..."	None	None
+102	867.65	CMD	"nope stop stop"	None	None
+103	867.66	DM->RN	"stop"	None	None
+i017	721.96	IMAGE	"frame017"	None	None
+i018	850.44	IMAGE	"frame018"	None	None
+104	869.27	RN	"<unintelligible>"	None	None
+105	875.46	CMD	"back up into that hallway"	None	None
+106	875.47	DM->CMD	"Did I misunderstand?"	None	None
+107	893.25	DM->CMD	"How far shoudl I back up?  Until I reach the wall behind me?"	None	None
+108	899.27	CMD	"yes"	None	None
+109	906.72	DM->RN	"back up into hallway until you reach the wall behind you"	None	None
+110	918.44	RN	"done"	None	None
+111	920.51	DM->CMD	"done"	None	None
+112	927.71	CMD	"turn to your right about ninety degrees"	None	None
+113	932.78	CMD	"and take a photo"	None	None
+114	934.64	CMD	"and turn a hundred and eighty degrees after that"	None	None
+115	937.54	CMD	"and take another photo"	None	None
+116	949.99	DM->RN	"turn right 90, photo, turn right 180, photo"	None	None
+117	953.58	DM->CMD	"executing..."	None	None
+i019	859.73	IMAGE	"frame019"	None	None
+i020	961.97	IMAGE	"frame020"	None	None
+118	972.1099999999999	RN	"done"	None	None
+119	975.74	DM->CMD	"done"	None	None
+120	984.66	CMD	"investigate that white sign that's to your right"	None	None
+121	998.8	DM->CMD	"I see more than one white sign to my right.  Should I move to face the one closest to me?"	None	None
+122	1012.82	CMD	"please do"	None	None
+123	1015.34	DM->CMD	"executing..."	None	None
+124	1023.31	DM->RN	"move to face the first white sign on the right"	None	None
+125	1057.38	RN	"done"	None	None
+126	1059.69	DM->CMD	"done"	None	None
+127	1063.46	DM->CMD	"Should I send a picture?"	None	None
+128	1069.85	CMD	"please"	None	None
+129	1070.12	DM->RN	"photo"	None	None
+i021	973.34	IMAGE	"frame021"	None	None
+130	1070.13	RN	"image sent"	None	None
+131	1073.74	DM->CMD	"sent"	None	None
+132	1077.81	CMD	"do you know what that is"	None	None
+133	1088.48	DM->CMD	"I'm not sure, but it is similar to Arabic numerals."	None	None
+134	1103.03	CMD	"go into that room"	None	None
+135	1106.05	CMD	"and take a three hundred and sixty degree photo"	None	None
+136	1111.24	CMD	"actually you know what go into that room"	None	None
+137	1113.83	CMD	"and take a photo every thirty degrees three hundred and sixty degrees in that room"	None	None
+138	1113.83	CMD	"go back to where you are"	None	None
+139	1125.73	CMD	"and wait for further instructions"	None	None
+140	1125.73	CMD	"thanks fido"	None	None
+141	1125.97	DM->CMD	"executing..."	None	None
+142	1151.63	DM->RN	"move into room ahead and to the right, move to center of room, turn 360, sending photos every 30 degrees, then return to the position that you are in now"	None	None
+143	1230.59	CMD	"stop"	None	None
+144	1231.42	DM->RN	"stop"	None	None
+145	1233.12	CMD	"go into the room you just saw"	None	None
+146	1258.81	DM->CMD	"I'm not sure which room you are referring to.  Can you describe it another way, using proximity to an object or location?"	None	None
+i022	1071.35	IMAGE	"frame022"	None	None
+i023	1176.85	IMAGE	"frame023"	None	None
+i024	1179.58	IMAGE	"frame024"	None	None
+i025	1183.31	IMAGE	"frame025"	None	None
+i026	1187.21	IMAGE	"frame026"	None	None
+i027	1191.42	IMAGE	"frame027"	None	None
+i028	1197.74	IMAGE	"frame028"	None	None
+i029	1202.17	IMAGE	"frame029"	None	None
+i030	1206.0	IMAGE	"frame030"	None	None
+i031	1211.69	IMAGE	"frame031"	None	None
+i032	1216.14	IMAGE	"frame032"	None	None
+147	1274.95	RN	"<no speech>"	None	None
+148	1305.47	CMD	"robot fido i saw nine doorways "	None	None
+149	1305.47	CMD	"how about you"	None	None
+150	1328.49	DM->CMD	"I'm not sure what a doorway is exactly.  I detect six on the LIDAR map."	None	None
+151	1365.66	CMD	"in our search i saw two shoes"	None	None
+152	1365.66	CMD	"how about you"	None	None
+153	1382.25	DM->CMD	"I think you are more familiar with shoes than I am.  Good job finding them!"	None	None
+154	1406.1	CMD	"i believe it has been recently occupied as there was a sleeping bag or a duffel bag and dvds next to uh a tv um and it was a newer tv so um it's not old um and i also saw a poster and signs as well as a few um uh um structures or uh er cloths that you would need for privacy"	None	None

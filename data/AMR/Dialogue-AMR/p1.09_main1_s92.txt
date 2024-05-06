@@ -1,0 +1,26 @@
+p1.09_main1_s92
+# ::tok can you go around and take a photo behind the tv
+# ::snt can you go around and take a photo behind the tv
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (b / behind
+				:op1 (t / television))
+			:completable +
+			:path (a2 / around)
+			:time (a3 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c2
+			:completable +
+			:location b
+			:time (a4 / after
+				:op1 (n2 / now))))
+	:ARG2 (r / robot-dm))
+

@@ -1,0 +1,8544 @@
+# ::id p1.09_main1_s92
+# ::tok can you go around and take a photo behind the tv
+# ::snt can you go around and take a photo behind the tv
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (b / behind
+				:op1 (t / television))
+			:completable +
+			:path (a2 / around)
+			:time (a3 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c2
+			:completable +
+			:location b
+			:time (a4 / after
+				:op1 (n2 / now))))
+	:ARG2 (r / robot-dm))
+
+# ::id p1.09_main1_s93
+# ::tok please and thank you
+# ::snt please and thank you
+(a / and
+	:op1 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (d / do-02
+			:ARG0 (r / robot-dm)
+			:completable -
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r)
+	:op2 (t / thank-SA
+		:ARG0 c2
+		:ARG2 r
+		:ongoing +
+		:time (n2 / now)))
+
+# ::id p1.09_main1_s94
+# ::tok No . My LIDAR map is showing no space behind the TV . Do you want me to move around the left or right side of the TV ?
+# ::snt No. My LIDAR map is showing no space behind the TV. Do you want me to move around the left or right side of the TV?
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (r / robot-dm)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:polarity -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (s / sense-01
+			:ARG0 r
+			:ARG1 (s2 / show-01
+				:ARG0 (m2 / map
+					:mod (l / lidar)
+					:poss r)
+				:ARG1 (s3 / space
+					:location (b / behind
+						:op1 (t / television))
+					:polarity -)
+				:ARG2 r)
+			:stable -
+			:time (n2 / now))
+		:ARG2 c)
+	:snt3 (o / offer-SA
+		:ARG0 r
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (o2 / or
+				:op1 (s4 / side
+					:ARG1-of (l2 / left-20
+						:ARG2 t))
+				:op2 (s5 / side
+					:ARG1-of (r2 / right-04
+						:ARG2 t)))
+			:completable +
+			:direction (a3 / around)
+			:polarity (a4 / amr-unknown)
+			:time (a5 / after
+				:op1 (n3 / now)))
+		:ARG2 c))
+
+# ::id p1.09_main1_s95
+# ::tok < no speech >
+# ::snt <no speech>
+(a / amr-empty)
+
+# ::id p1.09_main1_s96
+# ::tok no if you can just back up to the entryway of that room
+# ::snt no if you can just back up to the entryway of that room
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:polarity -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:part-of (r2 / room
+					:mod (t / that)))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r
+				:ARG1 r)
+			:mod (j / just)
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r))
+
+# ::id p1.09_main1_s97
+# ::tok take a photo
+# ::snt take a photo
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.09_main1_s98
+# ::tok and then go into the other entryway on the left side of that room
+# ::snt and then go into the other entryway on the left side of that room
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (g / go-02
+			:ARG0 (r2 / robot-dm)
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:location (s / side
+					:ARG1-of (l / left-20)
+					:part-of (r / room
+						:mod (t / that)))
+				:mod (o / other))
+			:completable +
+			:time (t2 / then)
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r2))
+
+# ::id p1.09_main1_s99
+# ::tok and take a photo in front and behind you
+# ::snt and take a photo in front and behind you
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (s / send-image-99
+			:ARG0 (r / robot-dm)
+			:ARG1 (a2 / and
+				:op1 (i / in-front-of
+					:op1 r)
+				:op2 (b / behind
+					:op1 r))
+			:ARG2 c2
+			:completable +
+			:time (a3 / after
+				:op1 (n / now)))
+		:ARG2 r))
+
+# ::id p1.09_main1_s100
+# ::tok back up to entry way of room , photo , move to door currently to your left , then send photo , turn 180 , send photo
+# ::snt back up to entry way of room, photo, move to door currently to your left, then send photo, turn 180, send photo
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG0 r2
+			:ARG3 (h / here)
+			:ARG4 (e / entryway
+				:part-of (r / room))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r2
+				:ARG1 r2)
+			:time (a2 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:op3 (g2 / go-02
+			:ARG0 r2
+			:ARG3 (h2 / here)
+			:ARG4 (d / door
+				:ARG1-of (l / left-20
+					:ARG2 r2
+					:time (c3 / current)))
+			:completable +
+			:time (a4 / after
+				:op1 (n3 / now)))
+		:op4 (s2 / send-image-99
+			:ARG0 r2
+			:ARG1 (i2 / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a5 / after
+				:op1 (n4 / now))
+			:time (t / then))
+		:op5 (t2 / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:extent (a7 / angle-quantity
+				:quant 180
+				:unit (d2 / degree))
+			:time (a6 / after
+				:op1 (n5 / now)))
+		:op6 (s3 / send-image-99
+			:ARG0 r2
+			:ARG1 (i3 / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a8 / after
+				:op1 (n6 / now))))
+	:ARG2 (r2 / robot-rn))
+
+# ::id p1.09_main1_s101
+# ::tok executing ...
+# ::snt executing...
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p1.09_main1_s102
+# ::tok nope stop stop
+# ::snt nope stop stop
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:polarity -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (s / stop-01
+			:ARG0 r
+			:ARG1 r
+			:completable +
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r)
+	:snt3 (c3 / command-SA
+		:ARG0 c
+		:ARG1 (s2 / stop-01
+			:ARG0 r
+			:ARG1 r
+			:completable +
+			:time (a3 / after
+				:op1 (n3 / now)))
+		:ARG2 r))
+
+# ::id p1.09_main1_s103
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.09_main1_s104
+# ::tok < unintelligible >
+# ::snt <unintelligible>
+(a / amr-empty)
+
+# ::id p1.09_main1_s105
+# ::tok back up into that hallway
+# ::snt back up into that hallway
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG4 (h / hallway
+			:mod (t / that))
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.09_main1_s106
+# ::tok Did I misunderstand ?
+# ::snt Did I misunderstand?
+(q / question-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (u / understand-01
+		:ARG0 r
+		:polarity (a / amr-unknown)
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p1.09_main1_s107
+# ::tok How far should I back up ? Until I reach the wall behind me ?
+# ::snt How far should I back up? Until I reach the wall behind me?
+(m / multi-sentence
+	:snt1 (r / request-SA
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (c / clarify-10
+			:ARG0 (c2 / commander)
+			:ARG1 (g / go-02
+				:ARG0 r2
+				:ARG1 (a / amr-unknown)
+				:manner (b / back-02
+					:ARG0 r2
+					:ARG1 r2))
+			:ARG2 r2
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 c2)
+	:snt2 (r3 / request-SA
+		:ARG0 r2
+		:ARG1 (c3 / clarify-10
+			:ARG0 c2
+			:ARG1 (g2 / go-02
+				:ARG0 r2
+				:ARG1 (r4 / reach-01
+					:ARG0 r2
+					:ARG1 (w / wall
+						:location (b2 / behind
+							:op1 r2)))
+				:manner (b3 / back-02
+					:ARG0 r2
+					:ARG1 r2)
+				:polarity (a3 / amr-unknown))
+			:ARG2 r2
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c2))
+
+# ::id p1.09_main1_s108
+# ::tok yes
+# ::snt yes
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p1.09_main1_s109
+# ::tok back up into hallway until you reach the wall behind you
+# ::snt back up into hallway until you reach the wall behind you
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r2 / robot-rn)
+		:ARG4 (r / reach-01
+			:ARG0 r2
+			:ARG1 (w / wall
+				:location (b / behind
+					:op1 r2)))
+		:completable +
+		:manner (b2 / back-02
+			:ARG0 r2
+			:ARG1 r2)
+		:path (h / hallway)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p1.09_main1_s110
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p1.09_main1_s111
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p1.05_train_s12
+# ::tok < pause > trying to find out the number of doorways
+# ::snt <pause> trying to find out the number of doorways
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (t / task-01
+		:ARG1 (f / find-out-03
+			:ARG0 c
+			:ARG1 (n / number
+				:quant-of (d / doorway)))
+		:ARG2 c
+		:complete -
+		:ongoing +
+		:time (n2 / now))
+	:ARG2 (r / robot-dm))
+
+# ::id p1.05_train_s13
+# ::tok I think that you are more familiar with doorways than I am , but you can tell me to move to any object or part of the building you can see .
+# ::snt I think that you are more familiar with doorways than I am, but you can tell me to move to any object or part of the building you can see.
+(c / contrast-01
+	:ARG1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (f / familiarize-01
+			:ARG1 (c2 / commander)
+			:ARG2 (d / doorway)
+			:ARG2-of (h / have-degree-91
+				:ARG1 c2
+				:ARG3 (m / more)
+				:ARG4 r)
+			:stable +
+			:time (n / now))
+		:ARG2 c2)
+	:ARG2 (o / open-option-SA
+		:ARG0 r
+		:ARG1 (m2 / move-01
+			:ARG0 r
+			:ARG1 r
+			:ARG2 (o2 / or
+				:ARG1-of (s / see-01
+					:ARG0 c2
+					:ARG1-of (p2 / possible-01))
+				:op1 (o3 / object
+					:mod (a2 / any))
+				:op2 (p / part
+					:part-of (b / building)))
+			:completable +
+			:time (n2 / now))
+		:ARG2 c2))
+
+# ::id p1.05_train_s14
+# ::tok move to the end of the hallway
+# ::snt move to the end of the hallway
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG4 (e / end
+			:part-of (h / hallway))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.05_train_s15
+# ::tok move to the end of the hallway
+# ::snt move to the end of the hallway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (e / end
+			:part-of (h / hallway))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.05_train_s16
+# ::tok executing ...
+# ::snt executing...
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p1.05_train_s17
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p1.05_train_s18
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p1.05_train_s19
+# ::tok take another picture
+# ::snt take another picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:mod (a2 / another)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.05_train_s20
+# ::tok image
+# ::snt image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.05_train_s21
+# ::tok image sent
+# ::snt image sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p1.05_train_s22
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p1.07_main2_s50
+# ::tok back up eleven feet
+# ::snt back up eleven feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 11
+			:unit (f / foot))
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.07_main2_s51
+# ::tok and then turn forty five degrees to your right
+# ::snt and then turn forty five degrees to your right
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (t / turn-01
+			:ARG0 (r2 / robot-dm)
+			:ARG1 r2
+			:completable +
+			:direction (r / right-04
+				:ARG2 r2)
+			:extent (a2 / angle-quantity
+				:quant 45
+				:unit (d / degree))
+			:time (t2 / then)
+			:time (a3 / after
+				:op1 (n / now)))
+		:ARG2 r2))
+
+# ::id p1.07_main2_s52
+# ::tok and take a photo
+# ::snt and take a photo
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (s / send-image-99
+			:ARG0 (r / robot-dm)
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c2
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r))
+
+# ::id p1.07_main2_s53
+# ::tok back up 11 feet , turn 45 right , image
+# ::snt back up 11 feet, turn 45 right, image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG1 (d / distance-quantity
+				:quant 11
+				:unit (f / foot))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r2
+				:ARG1 r2)
+			:time (a2 / after
+				:op1 (n / now)))
+		:op2 (t / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:direction (r / right-04
+				:ARG2 r2)
+			:extent (a4 / angle-quantity
+				:quant 45
+				:unit (d2 / degree))
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:op3 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a5 / after
+				:op1 (n3 / now))))
+	:ARG2 (r2 / robot-rn))
+
+# ::id p1.07_main2_s54
+# ::tok executing ...
+# ::snt executing...
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p1.07_main2_s55
+# ::tok image sent
+# ::snt image sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p1.07_main2_s56
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p1.04_main1_s39
+# ::tok move forward till you reach the wall
+# ::snt move forward till you reach the wall
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r2 / robot-dm)
+		:ARG4 (r / reach-01
+			:ARG0 r2
+			:ARG1 (w / wall))
+		:completable +
+		:direction (f / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p1.04_main1_s40
+# ::tok then turn ninety degrees right
+# ::snt then turn ninety degrees right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (t2 / then)
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p1.04_main1_s41
+# ::tok send picture
+# ::snt send picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.04_main1_s42
+# ::tok I see a few walls . Which wall should I move to ?
+# ::snt I see a few walls. Which wall should I move to?
+(m / multi-sentence
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (s / see-01
+			:ARG0 r
+			:ARG1 (w / wall
+				:quant (f / few))
+			:stable -
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (c2 / clarify-10
+			:ARG0 c
+			:ARG1 (g / go-02
+				:ARG0 r
+				:ARG4 (a2 / amr-unknown
+					:domain w))
+			:ARG2 r
+			:completable +
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+
+# ::id p1.04_main1_s43
+# ::tok the wall straight ahead
+# ::snt the wall straight ahead
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (c2 / clarify-10
+		:ARG0 c
+		:ARG1 (w / wall
+			:location (a2 / ahead
+				:ARG1-of (s / straight-04)))
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p1.04_main1_s44
+# ::tok Move to the wall directly ahead of you
+# ::snt Move to the wall directly ahead of you
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (w / wall
+			:location (a / ahead
+				:ARG1-of (d / direct-02)
+				:op1 r))
+		:completable +
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.04_main1_s45
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p1.04_main1_s46
+# ::tok I 'm moving to the wall ahead of me . Then what ?
+# ::snt I'm moving to the wall ahead of me. Then what?
+(m / multi-sentence
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG3 (h / here)
+			:ARG4 (w / wall
+				:location (a2 / ahead
+					:op1 r))
+			:complete -
+			:ongoing +
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (i / instruct-01
+			:ARG0 c
+			:ARG1 (a3 / amr-unknown)
+			:ARG2 r
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+
+# ::id p1.04_main1_s47
+# ::tok turn right ninety degrees
+# ::snt turn right ninety degrees
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p1.04_main1_s48
+# ::tok send picture
+# ::snt send picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p1.04_main1_s49
+# ::tok turn right 90 , image
+# ::snt turn right 90, image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (t / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:direction (r / right-04
+				:ARG2 r2)
+			:extent (a2 / angle-quantity
+				:quant 90
+				:unit (d / degree))
+			:time (a3 / after
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now))))
+	:ARG2 (r2 / robot-rn))
+
+# ::id p1.04_main1_s50
+# ::tok executing ...
+# ::snt executing...
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p1.04_main1_s51
+# ::tok image sent
+# ::snt image sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p1.04_main1_s52
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_train_s166
+# ::tok can you turn at least maybe ten more degrees to your left
+# ::snt can you turn at least maybe ten more degrees to your left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / at-least
+			:op1 (a2 / angle-quantity
+				:mod (m / more)
+				:quant 10
+				:unit (d / degree)))
+		:time (a3 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_train_s167
+# ::tok ok , I think I got it .
+# ::snt ok, I think I got it.
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (r / robot-dm)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (u / understand-01
+			:ARG0 r
+			:ARG1 (i / it)
+			:stable +
+			:time (n2 / now))
+		:ARG2 c))
+
+# ::id p2.02_train_s168
+# ::tok turn left 10 degrees
+# ::snt turn left 10 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_train_s169
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.02_train_s170
+# ::tok I will turn left 10 degrees
+# ::snt I will turn left 10 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_train_s171
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_train_s172
+# ::tok can you send me another photo
+# ::snt can you send me another photo
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:mod (a2 / another)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_train_s173
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_train_s174
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_train_s175
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.07_main2_s44
+# ::tok turn right ninety degrees
+# ::snt turn right ninety degrees
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p2.07_main2_s45
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.07_main2_s46
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p2.07_main2_s47
+# ::tok I will turn right 90 degrees
+# ::snt I will turn right 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s48
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s49
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.07_main2_s50
+# ::tok move five feet down the hallway on your right
+# ::snt move five feet down the hallway on your right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:path (h / hallway
+			:ARG0-of (r / right-04
+				:ARG2 r2))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p2.07_main2_s51
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s52
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s53
+# ::tok move into TV hallway
+# ::snt move into TV hallway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (h / hallway
+			:name (n / name
+				:op1 "TV"))
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s54
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.07_main2_s55
+# ::tok turn to face East
+# ::snt turn to face East
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (e / east))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s56
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.07_main2_s57
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG1 (r / robot-rn)
+		:completable +
+		:direction (f / forward)
+		:extent (d / distance-quantity
+			:quant 5
+			:unit (f2 / foot))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s58
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s59
+# ::tok stop there
+# ::snt stop there
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:location (t / there)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s60
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s61
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.07_main2_s62
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s63
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.07_main2_s64
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.07_main2_s65
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.07_main2_s66
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.03_main1_s72
+# ::tok robot < pause > face north
+# ::snt robot <pause> face north
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (n / north))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s73
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s74
+# ::tok face < pause > south
+# ::snt face <pause> south
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (s / south))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s75
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s76
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s77
+# ::tok turn to face North
+# ::snt turn to face North
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (n / north))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s78
+# ::tok I will turn to face North
+# ::snt I will turn to face North
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (n / north))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s79
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.03_main1_s80
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s81
+# ::tok I will send a picture
+# ::snt I will send a picture
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.03_main1_s82
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.03_main1_s83
+# ::tok turn to face South
+# ::snt turn to face South
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (s / south))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s84
+# ::tok I will turn to face South
+# ::snt I will turn to face South
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:destination (f / face-01
+			:ARG0 r
+			:ARG1 (s / south))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s85
+# ::tok and . . .
+# ::snt and. . .
+(h / hold-floor-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.03_main1_s86
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.03_main1_s87
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.03_main1_s88
+# ::tok I will send a picture
+# ::snt I will send a picture
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.03_main1_s89
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.03_main1_s90
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s91
+# ::tok alright done and sent
+# ::snt alright done and sent
+(m / multi-sentence
+	:snt1 (j / judge-SA
+		:ARG0 (r / robot-rn)
+		:ARG1 (a / all-right)
+		:ARG2 (c / commander-dm)
+		:stable -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (a3 / and
+			:op1 (d / do-02
+				:ARG0 r
+				:complete +
+				:ongoing -
+				:time (b / before
+					:op1 (n2 / now)))
+			:op2 (s / send-image-99
+				:ARG0 r
+				:ARG1 (i / in-front-of
+					:op1 r)
+				:ARG2 c
+				:complete +
+				:ongoing -
+				:time (b2 / before
+					:op1 (n3 / now))))
+		:ARG2 c))
+
+# ::id p2.03_main1_s92
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s93
+# ::tok robot what is in front of me
+# ::snt robot what is in front of me
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (a / amr-unknown
+			:location (i / in-front-of
+				:op1 r))
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.03_main1_s94
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main1_s95
+# ::tok I see a wall with a window opening .
+# ::snt I see a wall with a window opening.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (w / wall
+			:ARG1-of (h / have-part-91
+				:ARG2 (o / opening
+					:domain (w2 / window))))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.09_main2_s130
+# ::tok < pause > make a u turn
+# ::snt <pause> make a u turn
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.09_main2_s131
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.09_main2_s132
+# ::tok turn 180
+# ::snt turn 180
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.09_main2_s133
+# ::tok I will turn around 180 degrees
+# ::snt I will turn around 180 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.09_main2_s134
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.09_main2_s135
+# ::tok < long pause >
+# ::snt <long pause>
+(a / amr-empty)
+
+# ::id p2.09_main2_s136
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.09_main2_s137
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main1_s79
+# ::tok can you move several yards towards the white door
+# ::snt can you move several yards towards the white door
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG2 (s / several
+			:op1 (d / distance-quantity
+				:quant 1
+				:unit (y / yard)))
+		:completable +
+		:direction (d2 / door
+			:ARG1-of (w / white-03))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main1_s80
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main1_s81
+# ::tok I will move forward 6 feet , ok ?
+# ::snt I will move forward 6 feet, ok?
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 6
+			:unit (f / foot))
+		:ARG3 (h / here)
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main1_s82
+# ::tok uh i think six feet is too fff far
+# ::snt uh i think six feet is too fff far
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG1-of (c2 / cause-01
+		:ARG0 (h / have-degree-91
+			:ARG1 (d / distance-quantity
+				:quant 6
+				:unit (f / foot))
+			:ARG2 (f2 / far)
+			:ARG3 (t / too)))
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:polarity -
+	:time (n / now))
+
+# ::id p2.02_main1_s83
+# ::tok < pause > maybe three feet
+# ::snt <pause> maybe three feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:ARG1-of (p / possible-01)
+			:quant 3
+			:unit (f / foot))
+		:ARG3 (h / here)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main1_s84
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.02_main1_s85
+# ::tok move 3 feet towards shoe start door
+# ::snt move 3 feet towards shoe start door
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG4 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (d2 / door
+			:name (n / name
+				:op1 "shoe"
+				:op2 "start"))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 (r / robot-rn))
+
+# ::id p2.02_main1_s86
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG3 (h / here)
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main1_s87
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.02_main1_s88
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main2_s9
+# ::tok robot what do you see
+# ::snt robot what do you see
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (a / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.03_main2_s10
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main2_s11
+# ::tok Hmm . . .
+# ::snt Hmm. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main2_s12
+# ::tok I 'm not sure .
+# ::snt I'm not sure.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:polarity (a2 / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main2_s13
+# ::tok I do n't know what all the objects are around me . < beep >
+# ::snt I don't know what all the objects are around me. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (f / familiarize-01
+		:ARG1 r
+		:ARG2 (o / object
+			:domain (t / thing)
+			:location (a2 / around
+				:op1 r)
+			:mod (a3 / all))
+		:polarity -
+		:stable +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.03_main2_s14
+# ::tok If you describe an object , you can help me to learn what it is . < beep >
+# ::snt If you describe an object, you can help me to learn what it is. <beep>
+(o / open-option-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (f / familiarize-01
+		:ARG0 (c / commander)
+		:ARG1 r
+		:ARG1-of (p / possible-01)
+		:ARG2 (o2 / object)
+		:condition (d / describe-01
+			:ARG0 c
+			:ARG1 o2)
+		:stable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.06_main2_s168
+# ::tok turn thirty degrees south
+# ::snt turn thirty degrees south
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (s / south)
+		:extent (a / angle-quantity
+			:quant 30
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s169
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s170
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.06_main2_s171
+# ::tok turn left 30 degrees
+# ::snt turn left 30 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 30
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s172
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.06_main2_s173
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s174
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s175
+# ::tok done and sent
+# ::snt done and sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.06_main2_s176
+# ::tok < pause > is there a shovel in the room
+# ::snt <pause> is there a shovel in the room
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / sense-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (s2 / shovel
+			:ARG1-of (b / be-located-at-91
+				:ARG2 (r / room)
+				:polarity (a / amr-unknown)))
+		:stable -
+		:time (n / now))
+	:ARG2 r2)
+
+# ::id p2.06_main2_s177
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s178
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s179
+# ::tok I think you are more familiar with shovels than I am .
+# ::snt I think you are more familiar with shovels than I am.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (f / familiarize-01
+		:ARG1 (c / commander)
+		:ARG2 (s / shovel)
+		:ARG2-of (h / have-degree-91
+			:ARG1 c
+			:ARG3 (m / more)
+			:ARG4 r)
+		:stable +
+		:time (n / now))
+	:ARG2 c)
+
+# ::id p2.06_main2_s180
+# ::tok What do you think ? < beep >
+# ::snt What do you think? <beep>
+(q / question-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / sense-01
+		:ARG0 (c / commander)
+		:ARG1 (a / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 c)
+
+# ::id p2.06_main2_s181
+# ::tok < pause > turn ninety degrees south east
+# ::snt <pause> turn ninety degrees south east
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (s / southeast)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s182
+# ::tok and take a picture
+# ::snt and take a picture
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (s / send-image-99
+			:ARG0 (r / robot-dm)
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c2
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r))
+
+# ::id p2.06_main2_s183
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.06_main2_s184
+# ::tok turn left 90 degrees
+# ::snt turn left 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s185
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.06_main2_s186
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.06_main2_s187
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s188
+# ::tok done and sent
+# ::snt done and sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.06_main2_s189
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s190
+# ::tok do you see foreign writing
+# ::snt do you see foreign writing
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (t / thing
+			:ARG1-of (w / write-01))
+		:polarity (a / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.06_main2_s191
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.06_main2_s192
+# ::tok I see objects all around me ; I need your help to decide which are important . < beep >
+# ::snt I see objects all around me; I need your help to decide which are important. <beep>
+(m / multi-sent
+	:snt1 (a / assert-SA
+		:ARG0 (r / robot-dm)
+		:ARG1 (s / see-01
+			:ARG0 r
+			:ARG1 (o / object
+				:location (a2 / around
+					:mod (a3 / all)
+					:op1 r))
+			:stable -
+			:time (n / now))
+		:ARG2 (c / commander))
+	:snt2 (r2 / request-SA
+		:ARG0 r
+		:ARG1 (h / help-01
+			:ARG0 c
+			:ARG1 (d / decide-01
+				:ARG0 r
+				:ARG1 (i / important-01
+					:ARG1 (o2 / object
+						:ARG1-of (i2 / include-91
+							:ARG2 o))))
+			:ARG2 r
+			:completable +
+			:time (a4 / after
+				:op1 (n2 / now)))
+		:ARG2 c))
+
+# ::id p2.06_main2_s193
+# ::tok < notification sound >
+# ::snt <notification sound>
+(a / amr-empty)
+
+# ::id p2.06_main2_s194
+# ::tok Would you like me to send a picture ? < beep >
+# ::snt Would you like me to send a picture? <beep>
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG1 (i / in-front-of)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c
+	:ARG0-of s
+	:op1-of i)
+
+# ::id p2.06_main2_s195
+# ::tok no
+# ::snt no
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:polarity -
+	:time (n / now))
+
+# ::id p2.05_main2_s132
+# ::tok robot turn around
+# ::snt robot turn around
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:extent (a2 / around)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.05_main2_s133
+# ::tok and < pause > leave this room
+# ::snt and <pause> leave this room
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (g / go-02
+			:ARG0 (r2 / robot-dm)
+			:ARG4 (l / leave-11
+				:ARG0 r2
+				:ARG1 (r / room
+					:mod (t / this)))
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r2))
+
+# ::id p2.05_main2_s134
+# ::tok can you do that
+# ::snt can you do that
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (a / able-01
+		:ARG1 (r / robot-dm)
+		:ARG2 (d / do-02
+			:ARG0 r
+			:ARG1 (t / that))
+		:polarity (a2 / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.05_main2_s135
+# ::tok ok , I think I got it .
+# ::snt ok, I think I got it.
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (r / robot-dm)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:snt2 (a2 / assert-SA
+		:ARG0 r
+		:ARG1 (u / understand-01
+			:ARG0 r
+			:ARG1 (i / it)
+			:stable +
+			:time (n2 / now))
+		:ARG2 c))
+
+# ::id p2.05_main2_s136
+# ::tok turn 180
+# ::snt turn 180
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:extent (a / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.05_main2_s137
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.05_main2_s138
+# ::tok Office hallway
+# ::snt Office hallway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (h / hallway
+			:name (n / name
+				:op1 "Office"))
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+
+# ::id p2.05_main2_s139
+# ::tok via . . .
+# ::snt via. . .
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG3 (h / here)
+		:completable -
+		:path (v / via)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.05_main2_s140
+# ::tok Cleaning room
+# ::snt Cleaning room
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r2 / robot-rn)
+		:ARG3 (h / here)
+		:completable -
+		:path (r / room
+			:name (n / name
+				:op1 "Cleaning"))
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r2)
+
+# ::id p2.05_main2_s141
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.05_main2_s142
+# ::tok < laughter > i got it wrong
+# ::snt <laughter> i got it wrong
+(m / mistake-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (i / it)
+	:ARG2 (c / commander-dm)
+	:complete +
+	:ongoing -
+	:time (b / before
+		:op1 (n / now)))
+
+# ::id p2.05_main2_s143
+# ::tok turn ninety degrees to your right
+# ::snt turn ninety degrees to your right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p2.05_main2_s144
+# ::tok uh done < laughter >
+# ::snt uh done <laughter>
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.05_main2_s145
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.05_main2_s146
+# ::tok and take a picture
+# ::snt and take a picture
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (s / send-image-99
+			:ARG0 (r / robot-dm)
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c2
+			:completable +
+			:time (a2 / after
+				:op1 (n / now)))
+		:ARG2 r))
+
+# ::id p2.05_main2_s147
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.05_main2_s148
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p2.05_main2_s149
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.05_main2_s150
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.05_main2_s151
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.05_main2_s152
+# ::tok uh done and sent
+# ::snt uh done and sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.05_main2_s153
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+
+# ::id p2.01_main1_s256
+# ::tok < pause > how far away are you from the object in front of you
+# ::snt <pause> how far away are you from the object in front of you
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / sense-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 (b / be-located-at-91
+			:ARG1 r2
+			:ARG2 (r / relative-position
+				:op1 (o / object
+					:location (i / in-front-of
+						:op1 r2))
+				:quant (d / distance-quantity
+					:quant (a / amr-unknown))))
+		:stable -
+		:time (n / now))
+	:ARG2 r2)
+
+# ::id p2.01_main1_s257
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.01_main1_s258
+# ::tok I 'm not sure .
+# ::snt I'm not sure.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / sense-01
+		:ARG0 r
+		:polarity (a2 / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.01_main1_s259
+# ::tok . . .
+# ::snt . . .
+(h / hold-floor-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.01_main1_s260
+# ::tok move forward one foot
+# ::snt move forward one foot
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:completable +
+		:direction (f / forward)
+		:extent (d / distance-quantity
+			:quant 1
+			:unit (f2 / foot))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.01_main1_s261
+# ::tok I will move close to it , ok ?
+# ::snt I will move close to it, ok?
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG4 (c / close-10
+			:ARG1 r
+			:ARG2 (i / it))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c2 / commander))
+
+# ::id p2.01_main1_s262
+# ::tok okay move close to it < laughter >
+# ::snt okay move close to it <laughter>
+(m / multi-sentence
+	:snt1 (a / accept-SA
+		:ARG0 (c / commander)
+		:ARG2 (r / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:snt2 (c2 / command-SA
+		:ARG0 c
+		:ARG1 (g / go-02
+			:ARG0 r
+			:ARG4 (c3 / close-10
+				:ARG1 r
+				:ARG2 (i / it))
+			:completable +
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r))
+
+# ::id p2.01_main1_s263
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.01_main1_s264
+# ::tok move to newspaper
+# ::snt move to newspaper
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG3 (h / here)
+		:ARG4 (n / newspaper)
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 (r / robot-rn))
+
+# ::id p2.01_main1_s265
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.01_main1_s266
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.01_main1_s267
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s20
+# ::tok can you take a photo
+# ::snt can you take a photo
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s21
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s22
+# ::tok oh sent
+# ::snt oh sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_main2_s23
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_main2_s24
+# ::tok how many yellow helmets do you see
+# ::snt how many yellow helmets do you see
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (h / helmet
+			:ARG1-of (y / yellow-02)
+			:quant (a / amr-unknown))
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.02_main2_s25
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s26
+# ::tok I see two yellow helmets to my left .
+# ::snt I see two yellow helmets to my left.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (h / helmet
+			:ARG1-of (y / yellow-02)
+			:ARG1-of (l / left-20
+				:ARG2 r)
+			:quant 2)
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s27
+# ::tok is there a < pause > toolbox < pause > grey toolbox in front
+# ::snt is there a <pause> toolbox <pause> grey toolbox in front
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / sense-01
+		:ARG0 (r / robot-dm)
+		:ARG1 (t / toolbox
+			:ARG1-of (b / be-located-at-91
+				:ARG2 (f / front))
+			:ARG1-of (g / gray-02)
+			:polarity (a / amr-unknown))
+		:stable -
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.02_main2_s28
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s29
+# ::tok I see a grey box - like object ahead and to the left .
+# ::snt I see a grey box-like object ahead and to the left.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (o / object
+			:ARG1-of (g / gray-02)
+			:ARG1-of (r2 / resemble-01
+				:ARG2 (b / box))
+			:ARG1-of (l / left-20
+				:ARG2 r2)
+			:location (a2 / ahead
+				:op1 r2)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s30
+# ::tok Would you like me to move to take a good picture ? < beep >
+# ::snt Would you like me to move to take a good picture? <beep>
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG1 r
+		:completable +
+		:purpose (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG1-of (g2 / good-02)
+			:ARG2 c)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s31
+# ::tok yes can you take a picture
+# ::snt yes can you take a picture
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / send-image
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.02_main2_s32
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.02_main2_s33
+# ::tok move to cement block
+# ::snt move to cement block
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG4 (b / block
+			:consist-of (c3 / cement))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s34
+# ::tok do you know the objects beside it
+# ::snt do you know the objects beside it
+(q / question-SA
+	:ARG0 (c / commander)
+	:ARG1 (f / familiarize-01
+		:ARG1 (r / robot-dm)
+		:ARG2 (o / object
+			:location (b / beside
+				:op1 (i / it)))
+		:polarity (a / amr-unknown)
+		:stable +
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p2.02_main2_s35
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG3 (h / here)
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s36
+# ::tok can you stop
+# ::snt can you stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s37
+# ::tok I could n't hear everything you said . < beep >
+# ::snt I couldn't hear everything you said. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / able-01
+		:ARG1 r
+		:ARG2 (h / hear-01
+			:ARG0 r
+			:ARG1 (e / everything
+				:ARG1-of (s / say-01
+					:ARG0 c)))
+		:polarity -
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s38
+# ::tok Can you repeat that ? < beep >
+# ::snt Can you repeat that? <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (r3 / repeat-01
+		:ARG0 (c / commander)
+		:ARG1 (t / that)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_main2_s39
+# ::tok can you stop
+# ::snt can you stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s40
+# ::tok uh done
+# ::snt uh done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.02_main2_s41
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s42
+# ::tok can take another photo
+# ::snt can take another photo
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:mod (a2 / another)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s43
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s44
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_main2_s45
+# ::tok can you move back two feet
+# ::snt can you move back two feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:ARG3 (h / here)
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s46
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.02_main2_s47
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.02_main2_s48
+# ::tok move back 2 feet
+# ::snt move back 2 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:ARG3 (h / here)
+		:completable +
+		:manner (b / back-02
+			:ARG0 r
+			:ARG1 r)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.02_main2_s49
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG3 (h / here)
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.02_main2_s50
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.02_main2_s51
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s189
+# ::tok go to the next doorway
+# ::snt go to the next doorway
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG3 (h / here)
+		:ARG4 (d / doorway
+			:mod (n / next))
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 (r2 / robot-dm))
+
+# ::id p2.08_main1_s190
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s191
+# ::tok I see more than one doorway . < beep >
+# ::snt I see more than one doorway. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (d / doorway
+			:quant (m / more-than
+				:op1 1))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s192
+# ::tok . . .
+# ::snt . . .
+(h / hold-floor-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.08_main1_s193
+# ::tok < pause > go to the doorway to your left
+# ::snt <pause> go to the doorway to your left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG3 (h / here)
+		:ARG4 (d / doorway
+			:ARG1-of (l / left-20
+				:ARG2 r))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s194
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s195
+# ::tok I do n't see a door on the left . < beep >
+# ::snt I don't see a door on the left. <beep>
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (d / door
+			:ARG1-of (l / left-20
+				:ARG2 r))
+		:polarity -
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s196
+# ::tok Should I send a picture ? < beep >
+# ::snt Should I send a picture? <beep>
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.08_main1_s197
+# ::tok send a picture
+# ::snt send a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s198
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p2.08_main1_s199
+# ::tok turn left 90 degrees
+# ::snt turn left 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s200
+# ::tok I will turn left 90 degrees
+# ::snt I will turn left 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s201
+# ::tok and . . .
+# ::snt and. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-dm)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.08_main1_s202
+# ::tok then . . .
+# ::snt then. . .
+(h / hold-floor-SA
+	:ARG0 (c / commander-dm)
+	:ARG2 (r / robot-rn)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.08_main1_s203
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s204
+# ::tok I will send a picture
+# ::snt I will send a picture
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p2.08_main1_s205
+# ::tok done and sent
+# ::snt done and sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.08_main1_s206
+# ::tok done , sent
+# ::snt done, sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / and
+		:op1 (d / do-02
+			:ARG0 r
+			:complete +
+			:ongoing -
+			:time (b / before
+				:op1 (n / now)))
+		:op2 (s / send-image-99
+			:ARG0 r
+			:ARG1 (i / in-front-of
+				:op1 r)
+			:ARG2 c
+			:complete +
+			:ongoing -
+			:time (b2 / before
+				:op1 (n2 / now))))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s207
+# ::tok turn around
+# ::snt turn around
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:extent (a2 / around)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s208
+# ::tok and go to the next doorway
+# ::snt and go to the next doorway
+(a / and
+	:op2 (c / command-SA
+		:ARG0 (c2 / commander)
+		:ARG1 (g / go-02
+			:ARG0 (r / robot-dm)
+			:ARG3 (h / here)
+			:ARG4 (d / doorway
+				:mod (n / next))
+			:completable +
+			:time (a2 / after
+				:op1 (n2 / now)))
+		:ARG2 r))
+
+# ::id p2.08_main1_s209
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s210
+# ::tok turn 180
+# ::snt turn 180
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s211
+# ::tok I will turn around 180 degrees
+# ::snt I will turn around 180 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:extent (a2 / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s212
+# ::tok but . . .
+# ::snt but. . .
+(h / hold-floor-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete -
+	:ongoing +
+	:time (n / now))
+
+# ::id p2.08_main1_s213
+# ::tok I 'm unsure which doorway you mean . < beep >
+# ::snt I'm unsure which doorway you mean. <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (c / clarify-10
+		:ARG0 (c2 / commander)
+		:ARG1 (t / thing
+			:ARG2-of (m / mean-01
+				:ARG0 c2)
+			:domain (d / doorway))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c2)
+
+# ::id p2.08_main1_s214
+# ::tok Do you mean the one on the right ? < beep >
+# ::snt Do you mean the one on the right? <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (c / clarify-10
+		:ARG0 (c2 / commander)
+		:ARG1 (m / mean-01
+			:ARG0 c2
+			:ARG2 (o / one
+				:ARG1-of (r3 / right-04))
+			:polarity (a / amr-unknown))
+		:ARG2 r2
+		:completable +
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 c2)
+
+# ::id p2.08_main1_s215
+# ::tok Do you mean the one on the left ? < beep >
+# ::snt Do you mean the one on the left? <beep>
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (c / clarify-10
+		:ARG0 (c2 / commander)
+		:ARG1 (m / mean-01
+			:ARG0 (y / you)
+			:ARG2 (o / one
+				:ARG1-of (l / left-20))
+			:polarity (a / amr-unknown))
+		:ARG2 r2
+		:completable +
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 c2)
+
+# ::id p2.08_main1_s216
+# ::tok right
+# ::snt right
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (c2 / clarify-10
+		:ARG0 c
+		:ARG1 (r / right-04)
+		:ARG2 (r2 / robot-dm)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:ARG2 r2)
+
+# ::id p2.08_main1_s217
+# ::tok uh done
+# ::snt uh done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.08_main1_s218
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s219
+# ::tok move to Cleaning room - hall doorway
+# ::snt move to Cleaning room - hall doorway
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG3 (h / here)
+		:ARG4 (d / doorway
+			:name (n / name
+				:op1 "Cleaning"
+				:op2 "Room"
+				:op3 "Hall"))
+		:completable +
+		:time (a / after
+			:op1 (n2 / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s220
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG3 (h / here)
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s221
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p2.08_main1_s222
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p2.08_main1_s223
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s224
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p2.08_main1_s225
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s0
+# ::tok ( calibrate )
+# ::snt (calibrate)
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (c3 / calibrate-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s1
+# ::tok calibrating . . .
+# ::snt calibrating. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (c / calibrate-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c2 / commander))
+
+# ::id p3.29_main1_s2
+# ::tok calibrate
+# ::snt calibrate
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (c3 / calibrate-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s10
+# ::tok i am ready
+# ::snt i am ready
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (r / ready-02
+		:ARG1 c
+		:stable +
+		:time (n / now))
+	:ARG2 (r2 / robot-dm))
+
+# ::id p3.29_main1_s11
+# ::tok calibration complete
+# ::snt calibration complete
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (c / calibrate-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c2 / commander))
+
+# ::id p3.29_main1_s13
+# ::tok I 'm also ready .
+# ::snt I'm also ready.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (r2 / ready-02
+		:ARG1 r
+		:mod (a2 / also)
+		:stable +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s14
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s15
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s16
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s17
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s18
+# ::tok go forty five degrees to the left
+# ::snt go forty five degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s19
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s20
+# ::tok turn left 45 degrees
+# ::snt turn left 45 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s21
+# ::tok I will turn left 45 degrees
+# ::snt I will turn left 45 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 c)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s22
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s23
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s24
+# ::tok go straight three feet
+# ::snt go straight three feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s25
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s26
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s27
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s28
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s29
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s30
+# ::tok go straight three feet
+# ::snt go straight three feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s31
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s32
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s33
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s34
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s35
+# ::tok I moved forward 3 feet
+# ::snt I moved forward 3 feet
+(a / assert-SA
+    :ARG0 (r / robot-dm)
+    :ARG1 (g / go-02
+        :ARG0 r 
+        :ARG1 (d / distance-quantity
+            :quant 3
+            :unit (f / foot))
+        :complete +
+        :direction (f2 / forward)
+        :ongoing -
+        :time (b / before
+            :op1 (n / now)))
+    :ARG2 (c / commander))
+
+# ::id p3.29_main1_s37
+# ::tok move a hundred eighty degrees to the right
+# ::snt move a hundred eighty degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s38
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s39
+# ::tok turn right 180
+# ::snt turn right 180
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s40
+# ::tok I will turn right 180 degrees
+# ::snt I will turn right 180 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 180
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s41
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s42
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s43
+# ::tok move a hundred and twenty degrees to the to the left
+# ::snt move a hundred and twenty degrees to the to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 120
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s44
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s45
+# ::tok turn left 120 degrees
+# ::snt turn left 120 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 120
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s46
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s47
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s48
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s49
+# ::tok move ninety degrees to the left
+# ::snt move ninety degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s50
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s51
+# ::tok turn left 90 degrees
+# ::snt turn left 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s52
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s53
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s54
+# ::tok move three three feet ahead
+# ::snt move three three feet ahead
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (a / ahead)
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s55
+# ::tok I turned left 90 degrees
+# ::snt I turned left 90 degrees
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a2 / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s56
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:direction (f2 / forward)
+		:mode imperative)
+	:ARG2 r)
+
+# ::id p3.29_main1_s57
+# ::tok I will move forward 3 feet
+# ::snt I will move forward 3 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s58
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s59
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s60
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s61
+# ::tok turn ninety degrees to the right
+# ::snt turn ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s62
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s63
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s64
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s65
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s66
+# ::tok move three feet forward
+# ::snt move three feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:completable +
+		:direction (f2 / forward)
+		:extent (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s67
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s68
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s69
+# ::tok I will move forward 3 feet
+# ::snt I will move forward 3 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s70
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s71
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s72
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s73
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s74
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s75
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s76
+# ::tok move ten feet forward
+# ::snt move ten feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 10
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s77
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s78
+# ::tok move forward 10 feet
+# ::snt move forward 10 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 10
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s79
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s80
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s81
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s82
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s83
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s84
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s85
+# ::tok move five feet forward
+# ::snt move five feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s86
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s87
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s88
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s89
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s90
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s91
+# ::tok I moved forward 5 feet
+# ::snt I moved forward 5 feet
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:complete +
+		:direction (f2 / forward)
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s92
+# ::tok turn four degree turn ninety degrees right
+# ::snt turn four degree turn ninety degrees right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s93
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s94
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s95
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s96
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s97
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s98
+# ::tok move five degrees five feet forward
+# ::snt move five degrees five feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s99
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s100
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s101
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s102
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s103
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s104
+# ::tok I moved forward 5 feet
+# ::snt I moved forward 5 feet
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:complete +
+		:direction (f2 / forward)
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s105
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s106
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s107
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s108
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s109
+# ::tok turn left ninety degrees
+# ::snt turn left ninety degrees
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s110
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s111
+# ::tok turn left 90 degrees
+# ::snt turn left 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s112
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s113
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s114
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s115
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s116
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s117
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s118
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s119
+# ::tok go straight four feet
+# ::snt go straight four feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s120
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s121
+# ::tok move forward 4 ft
+# ::snt move forward 4 ft
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s122
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s123
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s124
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s125
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s126
+# ::tok turn right ninety degrees
+# ::snt turn right ninety degrees
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s127
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s128
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s129
+# ::tok I will turn right 90 degrees
+# ::snt I will turn right 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s130
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s131
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s132
+# ::tok go forward four four feet
+# ::snt go forward four four feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s133
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s134
+# ::tok move forward 4 ft
+# ::snt move forward 4ft
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s135
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s136
+# ::tok go forward four feet
+# ::snt go forward four feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s137
+# ::tok i ca n't move more than this
+# ::snt i can't move more than this
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (a2 / able-01
+		:ARG1 (r2 / robot-dm)
+		:ARG2 (g / go-02
+			:ARG0 r2
+			:ARG1 (d / distance-quantity
+				:ARG1-of (h / have-quant-91
+					:ARG3 (m / more)
+					:ARG4 (t / this))))
+		:polarity -
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s138
+# ::tok there 's two feet
+# ::snt there's two feet
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s139
+# ::tok I did n't get all of that .
+# ::snt I didn't get all of that.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (u / understand-01
+		:ARG0 r
+		:ARG1 (t / that
+			:mod (a2 / all))
+		:polarity -
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s140
+# ::tok Can you repeat that ?
+# ::snt Can you repeat that?
+(r / request-SA
+	:ARG0 (r2 / robot-dm)
+	:ARG1 (r3 / repeat-01
+		:ARG0 (c / commander)
+		:ARG1 (t / that)
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s141
+# ::tok go forward four feet
+# ::snt go forward four feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 4
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s142
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s143
+# ::tok I 'm not sure if I can move that far forward .
+# ::snt I'm not sure if I can move that far forward.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (a2 / able-01
+		:ARG1 r
+		:ARG2 (g / go-02
+			:ARG0 r
+			:ARG1 (f / far
+				:mod (t / that))
+			:direction (f2 / forward))
+		:polarity (a3 / amr-unknown)
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s144
+# ::tok go forward three feet < fee >
+# ::snt go forward three feet <fee>
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s145
+# ::tok I will move forward as far as I can , ok ?
+# ::snt I will move forward as far as I can, ok?
+(o / offer-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (f / far
+			:ARG2-of (h / have-degree-91
+				:ARG1 (m / move-01)
+				:ARG3 (e / equal)
+				:ARG4 (d / distance-quantity
+					:ARG1-of (p / possible-01))))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s146
+# ::tok okay
+# ::snt okay
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s147
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s148
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s149
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s150
+# ::tok move ten degrees to the left
+# ::snt move ten degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s151
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s152
+# ::tok turn left 10 degrees
+# ::snt turn left 10 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s153
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s154
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s155
+# ::tok go forward two feet
+# ::snt go forward two feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s156
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s157
+# ::tok There 's an obstruction preventing me from doing that .
+# ::snt There's an obstruction preventing me from doing that.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / sense-01
+		:ARG0 r
+		:ARG1 (t / thing
+			:ARG0-of (o / obstruct-01)
+			:ARG0-of (p / prevent-01
+				:ARG1 (d / do-02
+					:ARG0 r
+					:ARG1 (t2 / that))))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s158
+# ::tok move ninety degrees to the left
+# ::snt move ninety degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s159
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s160
+# ::tok turn left 90 degrees
+# ::snt turn left 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s161
+# ::tok I will turn left 90 degrees
+# ::snt I will turn left 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s162
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s163
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s164
+# ::tok move another ten degrees to the left
+# ::snt move another ten degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:mod (a2 / another)
+			:quant 10
+			:unit (d / degree))
+		:time (a3 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s165
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s166
+# ::tok turn left 10 degrees
+# ::snt turn left 10 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 10
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s167
+# ::tok executing . . .
+# ::snt executing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s168
+# ::tok move forward five feet
+# ::snt move forward five feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s169
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s170
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s171
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s172
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s173
+# ::tok uh i 'm gon na avoid this wall i think cause it from the picture
+# ::snt uh i'm gonna avoid this wall i think cause it from the picture
+(p / promise-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:completable +
+		:path (t / thing
+			:purpose (a / avoid-01
+				:ARG0 r
+				:ARG1 (w / wall
+					:mod (t2 / this))
+				:ARG1-of (c / cause-01
+					:ARG0 (b / be-from-91
+						:ARG1 w
+						:ARG2 (p2 / picture)))))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c2 / commander-dm))
+
+# ::id p3.29_main1_s174
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s175
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s176
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s177
+# ::tok move forward two feet
+# ::snt move forward two feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s178
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s179
+# ::tok move forward 2 feet
+# ::snt move forward 2 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s180
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s181
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s182
+# ::tok turn eighty degrees to the left
+# ::snt turn eighty degrees to the left
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 80
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s183
+# ::tok I moved forward 2 feet
+# ::snt I moved forward 2 feet
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:complete +
+		:direction (f2 / forward)
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s184
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s185
+# ::tok turn left 80 degrees
+# ::snt turn left 80 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:direction (l / left-20
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 80
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s186
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s187
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s188
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s189
+# ::tok go forward five feet
+# ::snt go forward five feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s190
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s191
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s192
+# ::tok I will move forward 5 feet
+# ::snt I will move forward 5 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s193
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s194
+# ::tok go forward two feet
+# ::snt go forward two feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s195
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s196
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s197
+# ::tok move forward 2 feet
+# ::snt move forward 2 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s198
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s199
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s200
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s201
+# ::tok move ninety degrees to the right
+# ::snt move ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s202
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s203
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s204
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s205
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s206
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s207
+# ::tok move ninety degrees to the right
+# ::snt move ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s208
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s209
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s210
+# ::tok I will turn right 90 degrees
+# ::snt I will turn right 90 degrees
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:completable +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s211
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s212
+# ::tok go forward two feet
+# ::snt go forward two feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s213
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s214
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s215
+# ::tok move forward 2 feet
+# ::snt move forward 2 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s216
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s217
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s218
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s219
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s220
+# ::tok go ninety degrees to the right
+# ::snt go ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s221
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s222
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s223
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s224
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s225
+# ::tok go straight five feet
+# ::snt go straight five feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s226
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s227
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s228
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s229
+# ::tok I will move forward 5 feet
+# ::snt I will move forward 5 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s230
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s231
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s232
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s233
+# ::tok move ninety degrees to the right
+# ::snt move ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s234
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s235
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s236
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s237
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s238
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s239
+# ::tok I turned right 90 degrees
+# ::snt I turned right 90 degrees
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a2 / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s240
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s241
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s242
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s243
+# ::tok move eight feet straight
+# ::snt move eight feet straight
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 8
+			:unit (f / foot))
+		:completable +
+		:path (t / thing
+			:ARG1-of (s / straight-04))
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s244
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s245
+# ::tok move forward 8 ft
+# ::snt move forward 8ft
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 8
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s246
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s247
+# ::tok take a picture
+# ::snt take a picture
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s248
+# ::tok send image
+# ::snt send image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-rn)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s249
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander-dm)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s250
+# ::tok sent
+# ::snt sent
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / send-image-99
+		:ARG0 r
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 (c / commander)
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 c)
+
+# ::id p3.29_main1_s251
+# ::tok move five feet closer
+# ::snt move five feet closer
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:ARG4 (c3 / close-10
+			:ARG1 r
+			:ARG2-of (h / have-degree-91
+				:ARG1 r
+				:ARG3 (m / more)))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s252
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s253
+# ::tok meet move five feet forward
+# ::snt meet move five feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s254
+# ::tok I will move forward 5 feet
+# ::snt I will move forward 5 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s255
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s256
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s257
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s258
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s259
+# ::tok move forty five degrees to the right
+# ::snt move forty five degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s260
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s261
+# ::tok turn right 45 degrees
+# ::snt turn right 45 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s262
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 r)
+
+# ::id p3.29_main1_s263
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s264
+# ::tok I turned right 45 degrees
+# ::snt I turned right 45 degrees
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete +
+		:direction (r2 / right-04
+			:ARG2 r)
+		:extent (a2 / angle-quantity
+			:quant 45
+			:unit (d / degree))
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s265
+# ::tok move five feet closer
+# ::snt move five feet closer
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:ARG4 (c3 / close-10
+			:ARG1 r
+			:ARG2-of (h / have-degree-91
+				:ARG1 r
+				:ARG3 (m / more)))
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s266
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s267
+# ::tok move forward 5 feet
+# ::snt move forward 5 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s268
+# ::tok I will move forward 5 feet
+# ::snt I will move forward 5 feet
+(p / promise-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:ARG1 (d / distance-quantity
+			:quant 5
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s269
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s270
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s271
+# ::tok move two feet forward
+# ::snt move two feet forward
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s272
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s273
+# ::tok move forward 2 feet
+# ::snt move forward 2 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 2
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s274
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s275
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s276
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s277
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s278
+# ::tok turn ninety degrees to the right
+# ::snt turn ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s279
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s280
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s281
+# ::tok I will turn right 90 degrees
+# ::snt I will turn right 90 degrees
+(p / promise-SA
+	:ARG0 (c / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s282
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s283
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s284
+# ::tok turn ninety degrees to the right
+# ::snt turn ninety degrees to the right
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s285
+# ::tok ok
+# ::snt ok
+(a / accept-SA
+	:ARG0 (r / robot-dm)
+	:ARG2 (c / commander)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s286
+# ::tok turn right 90 degrees
+# ::snt turn right 90 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 90
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s287
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s288
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s289
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s290
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s291
+# ::tok move forward ten feet
+# ::snt move forward ten feet
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-dm)
+		:ARG1 (d / distance-quantity
+			:quant 10
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s292
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s293
+# ::tok move forward 10 feet
+# ::snt move forward 10 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 10
+			:unit (f / foot))
+		:completable +
+		:direction (f2 / forward)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s294
+# ::tok moving . . .
+# ::snt moving. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (g / go-02
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s295
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s296
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-dm)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s297
+# ::tok stop
+# ::snt stop
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (s / stop-01
+		:ARG0 (r / robot-rn)
+		:ARG1 r
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+
+# ::id p3.29_main1_s298
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s299
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s300
+# ::tok move right twenty five degrees
+# ::snt move right twenty five degrees
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-dm)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 25
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s301
+# ::tok processing . . .
+# ::snt processing. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (p / process-01
+		:ARG0 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s302
+# ::tok turn right 25 degrees
+# ::snt turn right 25 degrees
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (t / turn-01
+		:ARG0 (r2 / robot-rn)
+		:ARG1 r2
+		:completable +
+		:direction (r / right-04
+			:ARG2 r2)
+		:extent (a / angle-quantity
+			:quant 25
+			:unit (d / degree))
+		:time (a2 / after
+			:op1 (n / now)))
+	:ARG2 r2)
+
+# ::id p3.29_main1_s303
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s304
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-rn)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander-dm))
+
+# ::id p3.29_main1_s305
+# ::tok done
+# ::snt done
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (d / do-02
+		:ARG0 r
+		:complete +
+		:ongoing -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (c / commander))
+
+# ::id p3.29_main1_s306
+# ::tok okay
+# ::snt okay
+(a / accept-SA
+	:ARG0 (c / commander)
+	:ARG2 (r / robot-dm)
+	:complete +
+	:ongoing -
+	:time (n / now))
+
+# ::id p3.29_main1_s307
+# ::tok alright so how many doorways were there
+# ::snt alright so how many doorways were there
+(m / multi-sentence
+	:snt1 (j / judge-SA
+		:ARG0 (e / experimenter)
+		:ARG1 (t / task-01
+			:mod (a / all-right))
+		:ARG2 (c / commander)
+		:stable -
+		:time (n / now))
+	:snt2 (q / question-SA
+		:ARG0 (e2 / experimenter)
+		:ARG1 (r / remember-01
+			:ARG0 c2
+			:ARG1 (d / doorway
+				:quant (a2 / amr-unknown))
+			:stable +
+			:time (n2 / now))
+		:ARG2 (c2 / commander)))
+
+# ::id p3.29_main1_s308
+# ::tok two
+# ::snt two
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (r / remember-01
+		:ARG0 c
+		:ARG1 (h / have-quant-91
+			:ARG2 2)
+		:stable +
+		:time (n / now))
+	:ARG2 (e / experimenter))
+
+# ::id p3.29_main1_s309
+# ::tok i did n't see any
+# ::snt i didn't see any
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 c
+		:ARG1 (a2 / any)
+		:polarity -
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (e / experimenter))
+
+# ::id p3.29_main1_s310
+# ::tok uh there were clothes hanging
+# ::snt uh there were clothes hanging
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (s / see-01
+		:ARG0 c
+		:ARG1 (h / hang-01
+			:ARG1 (c2 / clothes))
+		:stable -
+		:time (b / before
+			:op1 (n / now)))
+	:ARG2 (e / experimenter))
+
+# ::id p3.29_main1_s311
+# ::tok actually i did n't say clothes hanging outside of a
+# ::snt actually i didn't say clothes hanging outside of a
+(a / assert-SA
+	:ARG0 (c / commander)
+	:ARG1 (c2 / clarify-10
+		:ARG0 c
+		:ARG1 (s / say-01
+			:ARG0 c
+			:ARG1 (h / hang-01
+				:ARG1 (c3 / clothes)
+				:location (o / outside))
+			:polarity -)
+		:complete +
+		:ongoing -
+		:time (n / now))
+	:ARG2 (e / experimenter))
+
+# ::id p3.29_main1_s312
+# ::tok Good job !
+# ::snt Good job!
+(j / judge-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / task-01
+		:ARG1-of (g / good-02))
+	:ARG2 (c / commander)
+	:stable -
+	:time (n / now))
+
+# ::id p3.29_main1_s313
+# ::tok end task
+# ::snt end task
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (e / end-01 :completable +
+		:ARG0 r
+		:ARG1 (t / task-01)
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 (r / robot-rn))

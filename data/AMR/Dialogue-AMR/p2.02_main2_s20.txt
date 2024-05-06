@@ -1,0 +1,15 @@
+p2.02_main2_s20
+# ::tok can you take a photo
+# ::snt can you take a photo
+(c / command-SA
+	:ARG0 (c2 / commander)
+	:ARG1 (s / send-image-99
+		:ARG0 (r / robot-dm)
+		:ARG1 (i / in-front-of
+			:op1 r)
+		:ARG2 c2
+		:completable +
+		:time (a / after
+			:op1 (n / now)))
+	:ARG2 r)
+

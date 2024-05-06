@@ -1,0 +1,14 @@
+p1.04_main1_s40
+# ::tok then turn ninety degrees right
+# ::snt then turn ninety degrees right
+(t / turn-01
+	:ARG0 (y / you)
+	:ARG1 y
+	:direction (r / right-04
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 90
+		:unit (d / degree))
+	:mode imperative
+	:time (t2 / then))
+

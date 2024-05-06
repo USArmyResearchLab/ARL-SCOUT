@@ -1,0 +1,37 @@
+p1.07_main2_s53
+# ::tok back up 11 feet , turn 45 right , image
+# ::snt back up 11 feet, turn 45 right, image
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (a / and
+		:op1 (g / go-02
+			:ARG1 (d / distance-quantity
+				:quant 11
+				:unit (f / foot))
+			:completable +
+			:manner (b / back-02
+				:ARG0 r2
+				:ARG1 r2)
+			:time (a2 / after
+				:op1 (n / now)))
+		:op2 (t / turn-01
+			:ARG0 r2
+			:ARG1 r2
+			:completable +
+			:direction (r / right-04
+				:ARG2 r2)
+			:extent (a4 / angle-quantity
+				:quant 45
+				:unit (d2 / degree))
+			:time (a3 / after
+				:op1 (n2 / now)))
+		:op3 (s / send-image-99
+			:ARG0 r2
+			:ARG1 (i / in-front-of
+				:op1 r2)
+			:ARG2 c2
+			:completable +
+			:time (a5 / after
+				:op1 (n3 / now))))
+	:ARG2 (r2 / robot-rn))
+

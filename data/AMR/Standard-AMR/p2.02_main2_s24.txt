@@ -1,0 +1,9 @@
+p2.02_main2_s24
+# ::tok how many yellow helmets do you see
+# ::snt how many yellow helmets do you see
+(s / see-01
+	:ARG0 (y2 / you)
+	:ARG1 (h / helmet
+		:ARG1-of (y / yellow-02)
+		:quant (a / amr-unknown)))
+

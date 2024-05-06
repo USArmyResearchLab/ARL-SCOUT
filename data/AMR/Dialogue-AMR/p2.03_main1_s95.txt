@@ -1,0 +1,15 @@
+p2.03_main1_s95
+# ::tok I see a wall with a window opening .
+# ::snt I see a wall with a window opening.
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (s / see-01
+		:ARG0 r
+		:ARG1 (w / wall
+			:ARG1-of (h / have-part-91
+				:ARG2 (o / opening
+					:domain (w2 / window))))
+		:stable -
+		:time (n / now))
+	:ARG2 (c / commander))
+

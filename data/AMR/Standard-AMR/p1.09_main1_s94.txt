@@ -1,0 +1,28 @@
+p1.09_main1_s94
+# ::tok No . My LIDAR map is showing no space behind the TV . Do you want me to move around the left or right side of the TV ?
+# ::snt No. My LIDAR map is showing no space behind the TV. Do you want me to move around the left or right side of the TV?
+(m / multi-sentence
+	:snt1 (n / no)
+	:snt2 (s / show-01
+		:ARG0 (m2 / map
+			:mod (l / lidar)
+			:poss (i / i))
+		:ARG1 (s2 / space
+			:location (b / behind
+				:op1 (t / television))
+			:polarity -))
+	:snt3 (w / want-01
+		:ARG0 (y / you)
+		:ARG1 (m3 / move-01
+			:ARG0 i
+			:ARG1 i
+			:ARG2 (o / or
+				:op1 (s3 / side
+					:ARG1-of (l2 / left-20
+						:ARG2 t))
+				:op2 (s4 / side
+					:ARG1-of (r / right-04
+						:ARG2 t)))
+			:direction (a / around))
+		:polarity (a2 / amr-unknown)))
+

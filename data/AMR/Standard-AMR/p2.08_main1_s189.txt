@@ -1,0 +1,9 @@
+p2.08_main1_s189
+# ::tok go to the next doorway
+# ::snt go to the next doorway
+(g / go-02
+	:ARG0 (y / you)
+	:ARG4 (d / doorway
+		:mod (n / next))
+	:mode imperative)
+

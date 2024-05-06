@@ -1,0 +1,13 @@
+p2.06_main2_s187
+# ::tok turning . . .
+# ::snt turning. . .
+(a / assert-SA
+	:ARG0 (r / robot-dm)
+	:ARG1 (t / turn-01
+		:ARG0 r
+		:ARG1 r
+		:complete -
+		:ongoing +
+		:time (n / now))
+	:ARG2 (c / commander))
+

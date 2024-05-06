@@ -1,0 +1,12 @@
+p3.29_main1_s220
+# ::tok go ninety degrees to the right
+# ::snt go ninety degrees to the right
+(g / go-02
+	:ARG0 (y / you)
+	:direction (r / right-04
+		:ARG2 y)
+	:extent (a / angle-quantity
+		:quant 90
+		:unit (d / degree))
+	:mode imperative)
+

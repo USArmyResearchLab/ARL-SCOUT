@@ -1,0 +1,64 @@
+id	time	stream	text	context	notes
+1	2.61	RN	"ready"	None	None
+2	41.91	CMD	"go forward robot"	None	None
+3	74.37	DM->CMD	"How far forward should I go?  You can tell me to move a distance or to move to an object.  Would you like me to send a picture so you can see the space?"	None	None
+4	78.46	CMD	"send a picture"	None	None
+5	88.7	DM->RN	"photo"	None	None
+i000	89.47	IMAGE	"frame000"	None	None
+6	88.74	RN	"image sent"	None	None
+7	91.86	DM->CMD	"sent"	None	None
+8	125.08	CMD	"move to first cone"	None	None
+9	151.93	DM->CMD	"I'm not sure which object you are referring to.  Can you describe it another way, using color or its location?"	None	None
+10	154.22	CMD	"move to orange cone in doorway"	None	None
+11	174.69	DM->RN	"move to the orange cone in the first doorway"	None	None
+12	178.16	DM->CMD	"executing..."	None	None
+13	185.68	RN	"done"	None	None
+14	186	CMD	"send photo"	None	None
+15	187.95	DM->CMD	"done"	None	None
+16	195.05	DM->RN	"image"	None	None
+i001	198.12	IMAGE	"frame001"	None	None
+17	197.39	RN	"image sent"	None	None
+18	199.69	DM->CMD	"sent"	None	None
+19	222.02	CMD	"go back three feet"	None	None
+20	233.2	DM->RN	"move back three feet"	None	None
+21	236.52	DM->CMD	"executing..."	None	None
+22	241.39	RN	"done"	None	None
+23	243.66	DM->CMD	"done"	None	None
+24	248.51	CMD	"turn east"	None	None
+25	272.84	DM->CMD	"executing..."	None	None
+26	277.97	DM->RN	"turn to face east"	None	None
+27	287.18	CMD	"send photo"	None	None
+28	287.44	RN	"done"	None	None
+29	290.63	DM->CMD	"done"	None	None
+30	294.55	RN	"<no speech>"	None	None
+31	296.59	DM->RN	"image"	None	None
+i002	298.5	IMAGE	"frame002"	None	None
+32	297.64	RN	"image sent"	None	None
+33	300.21	DM->CMD	"sent"	None	None
+34	308.9	CMD	"proceed forward to orange cone"	None	None
+35	331.33	DM->RN	"move forward to orange cone ahead"	None	None
+36	334.83	DM->CMD	"executing..."	None	None
+37	350.22	CMD	"send photo"	None	None
+38	351.73	RN	"done"	None	None
+39	354.13	DM->CMD	"done"	None	None
+40	359.58	DM->RN	"image"	None	None
+i003	360.8	IMAGE	"frame003"	None	None
+41	360.04	RN	"image sent"	None	None
+42	362.82	DM->CMD	"sent"	None	None
+43	381.48	CMD	"turn left"	None	None
+44	411.15	DM->CMD	"How far to the left should I turn?  You can tell me about how many degrees, or to turn to face something."	None	None
+45	416.44	CMD	"turn left ninety degrees"	None	None
+46	428.08	DM->RN	"turn left 90"	None	None
+47	431.85	DM->CMD	"executing..."	None	None
+48	437.41	RN	"done"	None	None
+49	438.69	CMD	"send photo"	None	None
+50	440.28	DM->CMD	"done"	None	None
+51	447.08	DM->RN	"image"	None	None
+i004	449.35	IMAGE	"frame004"	None	None
+52	448.54	RN	"image sent"	None	None
+53	450.84	DM->CMD	"sent"	None	None
+54	594.96	CMD	"<m:so how many doorways were there>"	None	None
+55	599.43	CMD	"two doorways"	None	None
+56	603.57	CMD	"<m:alright and how many cones were there>"	None	None
+57	605.34	CMD	"two cones"	None	None
+58	606.92	CMD	"<m:do you think there's any type of container>"	None	None

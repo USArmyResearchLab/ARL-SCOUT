@@ -1,0 +1,10 @@
+p2.08_main1_s208
+# ::tok and go to the next doorway
+# ::snt and go to the next doorway
+(a / and
+	:op2 (g / go-02
+		:ARG0 (y / you)
+		:ARG4 (d / doorway
+			:mod (n / next))
+		:mode imperative))
+

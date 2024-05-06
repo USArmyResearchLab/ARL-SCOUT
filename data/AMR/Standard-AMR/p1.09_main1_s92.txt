@@ -1,0 +1,16 @@
+p1.09_main1_s92
+# ::tok can you go around and take a photo behind the tv
+# ::snt can you go around and take a photo behind the tv
+(a / and
+	:op1 (g / go-02
+		:ARG0 (y / you)
+		:mode imperative
+		:path (a2 / around)
+		:polite +)
+	:op2 (p / photograph-01
+		:ARG0 y
+		:location (b / behind
+			:op1 (t / television))
+		:mode imperative
+		:polite +))
+

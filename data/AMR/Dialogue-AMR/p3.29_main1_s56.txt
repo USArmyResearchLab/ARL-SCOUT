@@ -1,0 +1,14 @@
+p3.29_main1_s56
+# ::tok move forward 3 feet
+# ::snt move forward 3 feet
+(c / command-SA
+	:ARG0 (c2 / commander-dm)
+	:ARG1 (g / go-02
+		:ARG0 (r / robot-rn)
+		:ARG1 (d / distance-quantity
+			:quant 3
+			:unit (f / foot))
+		:direction (f2 / forward)
+		:mode imperative)
+	:ARG2 r)
+

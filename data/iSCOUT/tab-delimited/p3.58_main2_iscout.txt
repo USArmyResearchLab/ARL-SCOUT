@@ -1,0 +1,382 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2018-08-06 11:15:14.24	DM->CMD	"calibrating. . ."	None	None
+2	2018-08-06 11:15:16.48	DM->RN	"calibrate"	None	None
+3	2018-08-06 11:15:39.61	CMD	"<X: unintelligible not CMD>"	None	None
+4	2018-08-06 11:15:49.77	CMD	"<X: audio sync three <silent> one>"	None	None
+5	2018-08-06 11:15:50.41	RN	"<sync in three two one>"	None	None
+6	2018-08-06 11:15:53.21	RN	"<loud noise>"	None	None
+7	2018-08-06 11:15:53.21	CMD	"<loud noise>"	None	None
+8	2018-08-06 11:16:03.23	DM->CMD	"calibration complete"	None	None
+9	2018-08-06 11:16:07.84	CMD	"okay robot i'm ready"	None	None
+10	2018-08-06 11:16:13.76	DM->RN	"participant is ready"	None	None
+11	2018-08-06 11:16:15.77	DM->CMD	"I'm also ready.  <beep>"	None	None
+12	2018-08-06 11:16:17.75	CMD	"great"	None	None
+13	2018-08-06 11:16:20.21	CMD	"take a picture of what's in front of you"	None	None
+14	2018-08-06 11:16:22.14	CMD	"i wanna see what it is"	None	None
+15	2018-08-06 11:16:24.00	DM->CMD	"ok"	None	None
+16	2018-08-06 11:16:26.36	DM->RN	"send image"	None	None
+i000	2018-08-06 11:16:35.78	IMAGE	"frame000"	None	None
+17	2018-08-06 11:16:33.20	RN	"sent"	None	None
+18	2018-08-06 11:16:35.16	DM->CMD	"sent"	None	None
+19	2018-08-06 11:16:50.27	CMD	"perfect"	None	None
+20	2018-08-06 11:16:51.68	CMD	"to your right <pause> move <pause>"	None	None
+21	2018-08-06 11:16:55.39	CMD	"sorry turn um <pause> forty five degrees"	None	None
+22	2018-08-06 11:16:59.39	CMD	"and take a picture"	None	None
+23	2018-08-06 11:17:04.14	DM->CMD	"processing. . ."	None	None
+24	2018-08-06 11:17:07.48	DM->RN	"turn right 45 degrees"	None	None
+25	2018-08-06 11:17:08.77	DM->RN	"then. . ."	None	None
+26	2018-08-06 11:17:09.90	DM->RN	"send image"	None	None
+27	2018-08-06 11:17:13.03	DM->CMD	"executing. . ."	None	None
+i001	2018-08-06 11:17:21.55	IMAGE	"frame001"	None	None
+28	2018-08-06 11:17:20.34	RN	"done and sent"	None	None
+29	2018-08-06 11:17:22.12	DM->CMD	"done, sent"	None	None
+30	2018-08-06 11:17:32.51	CMD	"okay"	None	None
+31	2018-08-06 11:17:34.15	CMD	"to your left turn <pause> "	None	None
+32	2018-08-06 11:17:39.45	CMD	"ninety degrees"	None	None
+33	2018-08-06 11:17:41.19	CMD	"take a picture"	None	None
+34	2018-08-06 11:17:45.79	DM->CMD	"ok"	None	None
+35	2018-08-06 11:17:48.78	DM->RN	"turn left 90 degrees"	None	None
+36	2018-08-06 11:17:50.48	DM->RN	"then. . ."	None	None
+37	2018-08-06 11:17:51.35	DM->RN	"send image"	None	None
+38	2018-08-06 11:17:55.27	DM->CMD	"turning. . ."	None	None
+i002	2018-08-06 11:18:00.91	IMAGE	"frame002"	None	None
+39	2018-08-06 11:17:59.56	RN	"done and sent"	None	None
+40	2018-08-06 11:18:01.41	DM->CMD	"done, sent"	None	None
+41	2018-08-06 11:18:16.90	CMD	"perfect"	None	None
+42	2018-08-06 11:18:19.70	CMD	"turn to your right <pause> forty degrees"	None	None
+43	2018-08-06 11:18:23.94	CMD	"and move forward five feet"	None	None
+44	2018-08-06 11:18:27.59	DM->CMD	"processing. . ."	None	None
+45	2018-08-06 11:18:33.48	DM->RN	"turn right 40 degrees"	None	None
+46	2018-08-06 11:18:35.03	DM->RN	"then. . ."	None	None
+47	2018-08-06 11:18:36.66	DM->RN	"move forward 5 feet"	None	None
+48	2018-08-06 11:18:39.18	DM->CMD	"executing. . ."	None	None
+49	2018-08-06 11:18:45.60	RN	"done"	None	None
+50	2018-08-06 11:18:47.70	DM->CMD	"done"	None	None
+51	2018-08-06 11:18:52.63	CMD	"to your right turn forty degrees"	None	None
+52	2018-08-06 11:18:55.30	CMD	"and take a picture of what's in front of you"	None	None
+53	2018-08-06 11:18:58.72	DM->CMD	"ok"	None	None
+54	2018-08-06 11:19:04.24	DM->RN	"turn right 40 degrees"	None	None
+55	2018-08-06 11:19:05.62	DM->RN	"then. . ."	None	None
+56	2018-08-06 11:19:06.49	DM->RN	"send image"	None	None
+i003	2018-08-06 11:19:11.24	IMAGE	"frame003"	None	None
+57	2018-08-06 11:19:10.79	RN	"done and sent"	None	None
+58	2018-08-06 11:19:12.76	DM->CMD	"done, sent"	None	None
+59	2018-08-06 11:19:24.13	CMD	"move forward <pause> ten feet"	None	None
+60	2018-08-06 11:19:30.59	DM->CMD	"I will move forward 10 feet"	None	None
+61	2018-08-06 11:19:31.18	DM->RN	"move forward 10 feet"	None	None
+62	2018-08-06 11:19:42.68	RN	"done"	None	None
+63	2018-08-06 11:19:43.82	DM->CMD	"done"	None	None
+64	2018-08-06 11:19:46.26	CMD	"okay"	None	None
+65	2018-08-06 11:19:46.86	CMD	"to your left"	None	None
+66	2018-08-06 11:19:48.31	CMD	"turn <pause> thirty degrees"	None	None
+67	2018-08-06 11:19:52.67	CMD	"and take a picture"	None	None
+68	2018-08-06 11:19:55.15	DM->CMD	"processing. . ."	None	None
+69	2018-08-06 11:20:01.38	DM->RN	"turn left 30 degrees"	None	None
+70	2018-08-06 11:20:02.84	DM->RN	"then. . ."	None	None
+71	2018-08-06 11:20:04.11	DM->RN	"send image"	None	None
+i004	2018-08-06 11:20:10.69	IMAGE	"frame004"	None	None
+72	2018-08-06 11:20:11.19	RN	"done and sent"	None	None
+73	2018-08-06 11:20:13.16	DM->CMD	"done, sent"	None	None
+74	2018-08-06 11:20:31.46	CMD	"okay move forward <pause> um <pause>"	None	None
+75	2018-08-06 11:20:36.19	CMD	"ten feet"	None	None
+76	2018-08-06 11:20:41.22	DM->CMD	"ok"	None	None
+77	2018-08-06 11:20:44.02	DM->RN	"move forward 10 feet"	None	None
+78	2018-08-06 11:20:48.90	DM->CMD	"moving. . ."	None	None
+79	2018-08-06 11:20:56.32	RN	"done"	None	None
+80	2018-08-06 11:20:56.78	CMD	"to your right turn forty five degrees"	None	None
+81	2018-08-06 11:20:58.36	DM->CMD	"I moved forward 10 feet"	None	None
+82	2018-08-06 11:21:03.16	DM->CMD	"processing. . ."	None	None
+83	2018-08-06 11:21:05.91	DM->RN	"turn right 45 degrees"	None	None
+84	2018-08-06 11:21:09.52	DM->CMD	"turning. . ."	None	None
+85	2018-08-06 11:21:10.52	RN	"done"	None	None
+86	2018-08-06 11:21:11.24	CMD	"take a picture of that"	None	None
+87	2018-08-06 11:21:11.83	DM->CMD	"done"	None	None
+88	2018-08-06 11:21:13.24	DM->RN	"send image"	None	None
+i005	2018-08-06 11:21:16.42	IMAGE	"frame005"	None	None
+89	2018-08-06 11:21:18.04	RN	"sent"	None	None
+90	2018-08-06 11:21:19.38	DM->CMD	"sent"	None	None
+91	2018-08-06 11:21:23.06	CMD	"okay"	None	None
+92	2018-08-06 11:21:23.67	CMD	"turn another forty five degrees"	None	None
+93	2018-08-06 11:21:25.52	CMD	"take a picture of that"	None	None
+94	2018-08-06 11:21:29.77	DM->CMD	"processing. . ."	None	None
+95	2018-08-06 11:21:32.82	DM->RN	"turn right 45 degrees"	None	None
+96	2018-08-06 11:21:34.05	DM->RN	"then. . ."	None	None
+97	2018-08-06 11:21:35.27	DM->RN	"send image"	None	None
+i006	2018-08-06 11:21:39.34	IMAGE	"frame006"	None	None
+98	2018-08-06 11:21:41.46	RN	"done and sent"	None	None
+99	2018-08-06 11:21:42.63	DM->CMD	"done, sent"	None	None
+100	2018-08-06 11:22:01.47	CMD	"move forward <pause> ten feet"	None	None
+101	2018-08-06 11:22:07.87	DM->CMD	"processing. . ."	None	None
+102	2018-08-06 11:22:10.98	DM->RN	"move forward 10 feet"	None	None
+103	2018-08-06 11:22:14.60	DM->CMD	"moving. . ."	None	None
+104	2018-08-06 11:22:22.68	RN	"done"	None	None
+105	2018-08-06 11:22:23.37	CMD	"to your left forty five degrees"	None	None
+106	2018-08-06 11:22:24.47	DM->CMD	"done"	None	None
+107	2018-08-06 11:22:25.44	CMD	"take a picture"	None	None
+108	2018-08-06 11:22:29.14	DM->CMD	"processing. . ."	None	None
+109	2018-08-06 11:22:31.62	DM->RN	"turn left 45 degrees"	None	None
+110	2018-08-06 11:22:32.52	DM->RN	"then. . ."	None	None
+111	2018-08-06 11:22:34.30	DM->RN	"send image"	None	None
+112	2018-08-06 11:22:39.21	DM->CMD	"executing. . ."	None	None
+i007	2018-08-06 11:22:38.18	IMAGE	"frame007"	None	None
+113	2018-08-06 11:22:41.09	RN	"done and sent"	None	None
+114	2018-08-06 11:22:42.69	CMD	"<no speech>"	None	None
+115	2018-08-06 11:22:43.26	DM->CMD	"done, sent"	None	None
+116	2018-08-06 11:22:48.20	CMD	"to your left turn another <pause> ten degrees"	None	None
+117	2018-08-06 11:22:52.61	CMD	"and move forward <pause> three feet"	None	None
+118	2018-08-06 11:22:55.69	DM->CMD	"ok"	None	None
+119	2018-08-06 11:23:01.30	DM->RN	"turn left 10 degrees"	None	None
+120	2018-08-06 11:23:02.76	DM->RN	"then. . ."	None	None
+121	2018-08-06 11:23:03.70	DM->RN	"move forward 3 feet"	None	None
+122	2018-08-06 11:23:09.06	DM->CMD	"moving. . ."	None	None
+123	2018-08-06 11:23:12.12	RN	"done"	None	None
+124	2018-08-06 11:23:13.05	CMD	"to your left turn <pause>"	None	None
+125	2018-08-06 11:23:13.30	DM->CMD	"done"	None	None
+126	2018-08-06 11:23:16.71	CMD	"thirty degrees"	None	None
+127	2018-08-06 11:23:17.64	CMD	"and move forward one foot"	None	None
+128	2018-08-06 11:23:23.09	DM->CMD	"ok"	None	None
+129	2018-08-06 11:23:27.65	DM->RN	"turn left 30 degrees"	None	None
+130	2018-08-06 11:23:28.72	DM->RN	"then. . ."	None	None
+131	2018-08-06 11:23:29.66	DM->RN	"move forward 1 foot"	None	None
+132	2018-08-06 11:23:34.22	DM->CMD	"moving. . ."	None	None
+133	2018-08-06 11:23:43.02	RN	"done"	None	None
+134	2018-08-06 11:23:44.68	DM->CMD	"done"	None	None
+135	2018-08-06 11:23:45.68	CMD	"take a picture of that"	None	None
+136	2018-08-06 11:23:49.25	DM->RN	"send image"	None	None
+i008	2018-08-06 11:23:47.05	IMAGE	"frame008"	None	None
+137	2018-08-06 11:23:51.62	RN	"sent"	None	None
+138	2018-08-06 11:23:53.58	DM->CMD	"sent"	None	None
+139	2018-08-06 11:23:58.56	CMD	"okay move forward five feet"	None	None
+140	2018-08-06 11:24:04.28	DM->CMD	"processing. . ."	None	None
+141	2018-08-06 11:24:21.41	DM->CMD	"There's an obstruction preventing me from doing that.  <beep>"	None	None
+142	2018-08-06 11:24:25.58	CMD	"okay"	None	None
+143	2018-08-06 11:24:29.28	CMD	"to your left <pause>turn <pause> twenty degrees"	None	None
+144	2018-08-06 11:24:36.04	DM->CMD	"ok"	None	None
+145	2018-08-06 11:24:40.96	DM->RN	"turn left 20 degrees"	None	None
+146	2018-08-06 11:24:46.37	CMD	"move forward if you can <pause> two feet"	None	None
+147	2018-08-06 11:24:47.38	RN	"done"	None	None
+148	2018-08-06 11:24:49.89	DM->CMD	"done"	None	None
+149	2018-08-06 11:24:53.93	DM->CMD	"ok"	None	None
+150	2018-08-06 11:24:55.77	DM->RN	"move forward 2 feet"	None	None
+151	2018-08-06 11:24:59.82	DM->CMD	"moving. . ."	None	None
+152	2018-08-06 11:25:04.54	RN	"done"	None	None
+153	2018-08-06 11:25:05.78	CMD	"perfect"	None	None
+154	2018-08-06 11:25:06.23	DM->CMD	"done"	None	None
+155	2018-08-06 11:25:06.91	CMD	"to your right <pause> turn <pause> twenty degrees"	None	None
+156	2018-08-06 11:25:11.96	CMD	"move forward if you can <pause> three feet"	None	None
+157	2018-08-06 11:25:17.60	DM->CMD	"processing. . ."	None	None
+158	2018-08-06 11:25:22.46	DM->RN	"turn right 20 degrees"	None	None
+159	2018-08-06 11:25:23.33	DM->RN	"then. . ."	None	None
+160	2018-08-06 11:25:26.86	DM->RN	"move forward 3 feet"	None	None
+161	2018-08-06 11:25:29.87	DM->CMD	"executing. . ."	None	None
+162	2018-08-06 11:25:31.35	RN	"done"	None	None
+163	2018-08-06 11:25:32.43	CMD	"take a picture of that"	None	None
+164	2018-08-06 11:25:33.49	DM->CMD	"done"	None	None
+165	2018-08-06 11:25:35.52	DM->RN	"send image"	None	None
+i009	2018-08-06 11:25:30.98	IMAGE	"frame009"	None	None
+166	2018-08-06 11:25:36.67	RN	"sent"	None	None
+167	2018-08-06 11:25:37.71	DM->CMD	"sent"	None	None
+168	2018-08-06 11:25:50.84	CMD	"to your left <pause> turn <pause> twenty degrees"	None	None
+169	2018-08-06 11:25:55.57	CMD	"move forward three feet"	None	None
+170	2018-08-06 11:26:00.47	DM->CMD	"ok"	None	None
+171	2018-08-06 11:26:06.63	DM->RN	"turn left 20 degrees"	None	None
+172	2018-08-06 11:26:08.25	DM->RN	"then. . ."	None	None
+173	2018-08-06 11:26:09.43	DM->RN	"move forward 3 feet"	None	None
+174	2018-08-06 11:26:16.46	RN	"done"	None	None
+175	2018-08-06 11:26:18.53	DM->CMD	"done"	None	None
+176	2018-08-06 11:26:28.24	CMD	"okay"	None	None
+177	2018-08-06 11:26:29.27	CMD	"to your left turn another thirty degrees"	None	None
+178	2018-08-06 11:26:37.17	DM->CMD	"processing. . ."	None	None
+179	2018-08-06 11:26:41.33	DM->RN	"turn left 30 degrees"	None	None
+180	2018-08-06 11:26:49.16	RN	"done"	None	None
+181	2018-08-06 11:26:50.18	DM->CMD	"done"	None	None
+182	2018-08-06 11:26:54.67	CMD	"okay "	None	None
+183	2018-08-06 11:26:57.75	CMD	"correction on my end"	None	None
+184	2018-08-06 11:27:00.62	CMD	"to your right move <pause> turn ninety degrees"	None	None
+185	2018-08-06 11:27:07.05	DM->CMD	"I will turn right 90 degrees"	None	None
+186	2018-08-06 11:27:07.66	DM->RN	"turn right 90 degrees"	None	None
+187	2018-08-06 11:27:19.19	RN	"done"	None	None
+188	2018-08-06 11:27:20.15	DM->CMD	"done"	None	None
+189	2018-08-06 11:27:22.58	CMD	"take a picture of that"	None	None
+190	2018-08-06 11:27:25.02	DM->RN	"send image"	None	None
+i010	2018-08-06 11:27:20.93	IMAGE	"frame010"	None	None
+191	2018-08-06 11:27:27.91	RN	"sent"	None	None
+192	2018-08-06 11:27:29.24	DM->CMD	"sent"	None	None
+193	2018-08-06 11:27:34.91	CMD	"perfect"	None	None
+194	2018-08-06 11:27:35.81	CMD	"okay to your right turn another <pause>"	None	None
+195	2018-08-06 11:27:40.25	CMD	"twenty degrees"	None	None
+196	2018-08-06 11:27:41.25	CMD	"move forward <pause> three feet"	None	None
+197	2018-08-06 11:27:48.41	DM->CMD	"ok"	None	None
+198	2018-08-06 11:27:52.29	DM->RN	"turn right 20 degrees"	None	None
+199	2018-08-06 11:27:53.61	DM->RN	"then. . ."	None	None
+200	2018-08-06 11:27:54.55	DM->RN	"move forward 3 feet"	None	None
+201	2018-08-06 11:27:56.80	DM->CMD	"executing. . ."	None	None
+202	2018-08-06 11:28:03.52	RN	"done"	None	None
+203	2018-08-06 11:28:05.55	DM->CMD	"done"	None	None
+204	2018-08-06 11:28:07.65	CMD	"can you move another <pause> three feet forward"	None	None
+205	2018-08-06 11:28:12.06	DM->CMD	"ok"	None	None
+206	2018-08-06 11:28:14.81	DM->RN	"move forward 3 feet"	None	None
+207	2018-08-06 11:28:22.41	DM->CMD	"moving. . ."	None	None
+208	2018-08-06 11:28:25.03	RN	"done"	None	None
+209	2018-08-06 11:28:25.61	CMD	"perfect"	None	None
+210	2018-08-06 11:28:25.61	CMD	"take a picture of that"	None	None
+211	2018-08-06 11:28:26.26	DM->CMD	"done"	None	None
+212	2018-08-06 11:28:27.81	DM->RN	"send image"	None	None
+i011	2018-08-06 11:28:21.63	IMAGE	"frame011"	None	None
+213	2018-08-06 11:28:29.60	RN	"sent"	None	None
+214	2018-08-06 11:28:30.53	DM->CMD	"sent"	None	None
+215	2018-08-06 11:28:44.09	CMD	"okay"	None	None
+216	2018-08-06 11:28:45.05	CMD	"move forward <pause>"	None	None
+217	2018-08-06 11:28:47.81	CMD	"four feet"	None	None
+218	2018-08-06 11:28:55.10	DM->CMD	"I will move forward 4 feet"	None	None
+219	2018-08-06 11:28:58.57	DM->RN	"move forward 4ft"	None	None
+220	2018-08-06 11:29:05.39	RN	"done"	None	None
+221	2018-08-06 11:29:05.91	CMD	"to your right turn <pause> thirty degrees"	None	None
+222	2018-08-06 11:29:06.40	DM->CMD	"done"	None	None
+223	2018-08-06 11:29:13.34	DM->CMD	"processing. . ."	None	None
+224	2018-08-06 11:29:18.21	DM->RN	"turn right 30 degrees"	None	None
+225	2018-08-06 11:29:25.12	RN	"done"	None	None
+226	2018-08-06 11:29:26.89	DM->CMD	"done"	None	None
+227	2018-08-06 11:29:28.53	CMD	"turn another twenty degrees "	None	None
+228	2018-08-06 11:29:30.64	CMD	"and take a picture of that"	None	None
+229	2018-08-06 11:29:33.87	DM->CMD	"ok"	None	None
+230	2018-08-06 11:29:38.10	DM->RN	"turn right 20 degrees"	None	None
+231	2018-08-06 11:29:39.34	DM->RN	"then. . ."	None	None
+232	2018-08-06 11:29:40.25	DM->RN	"send image"	None	None
+233	2018-08-06 11:29:43.09	DM->CMD	"executing. . ."	None	None
+i012	2018-08-06 11:29:36.48	IMAGE	"frame012"	None	None
+234	2018-08-06 11:29:45.52	RN	"done and sent"	None	None
+235	2018-08-06 11:29:48.06	DM->CMD	"done, sent"	None	None
+236	2018-08-06 11:29:56.07	CMD	"okay"	None	None
+237	2018-08-06 11:30:01.82	CMD	"move forward <pause> five feet"	None	None
+238	2018-08-06 11:30:07.24	DM->CMD	"ok"	None	None
+239	2018-08-06 11:30:13.43	DM->RN	"turn right 20 degrees"	None	None
+240	2018-08-06 11:30:14.81	DM->RN	"then. . ."	None	None
+241	2018-08-06 11:30:16.49	DM->RN	"move forward 5 feet"	None	None
+242	2018-08-06 11:30:20.20	DM->CMD	"turning. . ."	None	None
+243	2018-08-06 11:30:25.61	RN	"done"	None	None
+244	2018-08-06 11:30:26.49	DM->CMD	"done"	None	None
+245	2018-08-06 11:30:28.04	CMD	"perfect"	None	None
+246	2018-08-06 11:30:30.29	CMD	"to your right turn <pause>"	None	None
+247	2018-08-06 11:30:33.99	CMD	"eighty degrees"	None	None
+248	2018-08-06 11:30:38.79	DM->CMD	"processing. . ."	None	None
+249	2018-08-06 11:30:43.31	DM->RN	"turn right 80 degrees"	None	None
+250	2018-08-06 11:30:52.74	DM->CMD	"turning. . ."	None	None
+251	2018-08-06 11:30:57.75	RN	"done"	None	None
+252	2018-08-06 11:30:58.82	DM->CMD	"done"	None	None
+253	2018-08-06 11:30:59.57	CMD	"take a picture of what's in front of you"	None	None
+254	2018-08-06 11:31:02.45	DM->RN	"send image"	None	None
+i013	2018-08-06 11:30:56.90	IMAGE	"frame013"	None	None
+255	2018-08-06 11:31:07.43	RN	"sent"	None	None
+256	2018-08-06 11:31:09.02	DM->CMD	"sent"	None	None
+257	2018-08-06 11:31:12.93	CMD	"okay good job by the way"	None	None
+258	2018-08-06 11:31:15.51	CMD	"okay so  <pause> move forward <pause> three feet"	None	None
+259	2018-08-06 11:31:17.92	DM->CMD	"Thank you."	None	None
+260	2018-08-06 11:31:25.01	DM->RN	"move forward 3 feet"	None	None
+261	2018-08-06 11:31:31.59	DM->CMD	"moving. . ."	None	None
+262	2018-08-06 11:31:32.14	RN	"done"	None	None
+263	2018-08-06 11:31:32.70	CMD	"move forward another three feet"	None	None
+264	2018-08-06 11:31:36.42	DM->CMD	"done"	None	None
+265	2018-08-06 11:31:38.19	DM->CMD	"ok"	None	None
+266	2018-08-06 11:31:40.88	DM->RN	"move forward 3 feet"	None	None
+267	2018-08-06 11:31:49.93	RN	"done"	None	None
+268	2018-08-06 11:31:49.97	CMD	"kay to your left turn <pause> sixty degrees"	None	None
+269	2018-08-06 11:31:50.96	DM->CMD	"I moved forward 3 feet"	None	None
+270	2018-08-06 11:31:57.87	DM->CMD	"processing. . ."	None	None
+271	2018-08-06 11:32:02.04	DM->RN	"turn left 60 degrees"	None	None
+272	2018-08-06 11:32:07.46	DM->CMD	"turning. . ."	None	None
+273	2018-08-06 11:32:09.50	RN	"done"	None	None
+274	2018-08-06 11:32:10.71	CMD	"take a picture of what's in front of you"	None	None
+275	2018-08-06 11:32:11.02	DM->CMD	"done"	None	None
+276	2018-08-06 11:32:13.40	DM->RN	"send image"	None	None
+i014	2018-08-06 11:32:07.16	IMAGE	"frame014"	None	None
+277	2018-08-06 11:32:18.73	RN	"sent"	None	None
+278	2018-08-06 11:32:20.18	DM->CMD	"sent"	None	None
+279	2018-08-06 11:32:27.89	CMD	"okay"	None	None
+280	2018-08-06 11:32:30.16	CMD	"move forward <pause> five feet"	None	None
+281	2018-08-06 11:32:35.53	DM->CMD	"I will move forward 5 feet"	None	None
+282	2018-08-06 11:32:35.93	DM->CMD	"I moved forward 3 feet"	None	None
+283	2018-08-06 11:32:38.60	DM->RN	"move forward 5 feet"	None	None
+284	2018-08-06 11:32:43.71	DM->CMD	"I will move forward 5 feet"	None	None
+285	2018-08-06 11:32:47.45	RN	"done"	None	None
+286	2018-08-06 11:32:48.97	DM->CMD	"done"	None	None
+287	2018-08-06 11:32:51.16	CMD	"that's perfect"	None	None
+288	2018-08-06 11:32:53.39	CMD	"to your left turn <pause> thirty degrees "	None	None
+289	2018-08-06 11:32:57.38	CMD	"and take a picture of that"	None	None
+290	2018-08-06 11:33:00.56	DM->CMD	"ok"	None	None
+291	2018-08-06 11:33:06.28	DM->RN	"turn left 30 degrees"	None	None
+292	2018-08-06 11:33:07.30	DM->RN	"then. . ."	None	None
+293	2018-08-06 11:33:08.19	DM->RN	"send image"	None	None
+294	2018-08-06 11:33:09.81	DM->CMD	"executing. . ."	None	None
+295	2018-08-06 11:33:10.62	RN	"<no speech>"	None	None
+i015	2018-08-06 11:32:59.16	IMAGE	"frame015"	None	None
+296	2018-08-06 11:33:11.58	RN	"done and sent"	None	None
+297	2018-08-06 11:33:13.31	DM->CMD	"done, sent"	None	None
+298	2018-08-06 11:33:18.65	CMD	"to your right  turn <pause> thirty degrees "	None	None
+299	2018-08-06 11:33:22.82	CMD	"move forward <pause> seven feet"	None	None
+300	2018-08-06 11:33:27.00	DM->CMD	"ok"	None	None
+301	2018-08-06 11:33:32.37	DM->RN	"turn right 30 degrees"	None	None
+302	2018-08-06 11:33:33.35	DM->RN	"then. . ."	None	None
+303	2018-08-06 11:33:36.84	DM->RN	"move forward 7ft"	None	None
+304	2018-08-06 11:33:41.61	DM->CMD	"moving. . ."	None	None
+305	2018-08-06 11:33:47.97	RN	"done"	None	None
+306	2018-08-06 11:33:49.13	DM->CMD	"done"	None	None
+307	2018-08-06 11:33:49.48	CMD	"turn forty five degrees to your right"	None	None
+308	2018-08-06 11:33:51.79	CMD	"and take picture of what's in front of you"	None	None
+309	2018-08-06 11:33:55.35	DM->CMD	"processing. . ."	None	None
+310	2018-08-06 11:33:57.99	DM->RN	"turn right 45 degrees"	None	None
+311	2018-08-06 11:33:59.69	DM->RN	"then. . ."	None	None
+312	2018-08-06 11:34:00.68	DM->RN	"send image"	None	None
+313	2018-08-06 11:34:04.08	DM->CMD	"turning. . ."	None	None
+i016	2018-08-06 11:33:53.68	IMAGE	"frame016"	None	None
+314	2018-08-06 11:34:06.92	RN	"done and sent"	None	None
+315	2018-08-06 11:34:08.64	DM->CMD	"done, sent"	None	None
+316	2018-08-06 11:34:20.53	CMD	"to your right turn <pause> "	None	None
+317	2018-08-06 11:34:24.55	CMD	"forty degrees"	None	None
+318	2018-08-06 11:34:26.05	CMD	"and move forward <pause>  five feet"	None	None
+319	2018-08-06 11:34:30.77	DM->CMD	"processing. . ."	None	None
+320	2018-08-06 11:34:36.12	DM->RN	"turn right 40 degrees"	None	None
+321	2018-08-06 11:34:37.06	DM->RN	"then. . ."	None	None
+322	2018-08-06 11:34:38.41	DM->RN	"move forward 5 feet"	None	None
+323	2018-08-06 11:34:42.06	DM->CMD	"executing. . ."	None	None
+324	2018-08-06 11:34:50.64	RN	"done"	None	None
+325	2018-08-06 11:34:52.35	DM->CMD	"done"	None	None
+326	2018-08-06 11:34:54.01	CMD	"to your right turn <pause> fifty degrees"	None	None
+327	2018-08-06 11:34:57.69	CMD	"take a picture of that"	None	None
+328	2018-08-06 11:35:00.33	DM->CMD	"ok"	None	None
+329	2018-08-06 11:35:07.76	DM->RN	"turn right 50 degrees"	None	None
+330	2018-08-06 11:35:08.79	DM->RN	"then. . ."	None	None
+331	2018-08-06 11:35:09.83	DM->RN	"send image"	None	None
+332	2018-08-06 11:35:13.23	DM->CMD	"turning. . ."	None	None
+i017	2018-08-06 11:35:04.54	IMAGE	"frame017"	None	None
+333	2018-08-06 11:35:18.72	RN	"done and sent"	None	None
+334	2018-08-06 11:35:21.21	DM->CMD	"done, sent"	None	None
+335	2018-08-06 11:35:27.65	CMD	"to your left <pause>turn fifty degrees"	None	None
+336	2018-08-06 11:35:31.29	CMD	"move forward <pause> ten feet"	None	None
+337	2018-08-06 11:35:35.98	DM->CMD	"ok"	None	None
+338	2018-08-06 11:35:40.81	DM->RN	"turn left 50 degrees"	None	None
+339	2018-08-06 11:35:42.19	DM->RN	"then. . ."	None	None
+340	2018-08-06 11:35:43.08	DM->RN	"move forward 10 feet"	None	None
+341	2018-08-06 11:35:47.43	DM->CMD	"moving. . ."	None	None
+342	2018-08-06 11:35:55.92	RN	"done"	None	None
+343	2018-08-06 11:35:57.01	DM->CMD	"I moved forward 10 feet"	None	None
+344	2018-08-06 11:35:58.36	CMD	"to your left <pause> move ninety de<disfl> turn ninety degrees"	None	None
+345	2018-08-06 11:36:02.80	CMD	"move forward three feet"	None	None
+346	2018-08-06 11:36:05.87	DM->CMD	"I will turn left 90 degrees"	None	None
+347	2018-08-06 11:36:06.64	DM->RN	"turn left 90 degrees"	None	None
+348	2018-08-06 11:36:07.86	DM->CMD	"I will move forward 3 feet"	None	None
+349	2018-08-06 11:36:08.39	DM->RN	"move forward 3 feet"	None	None
+350	2018-08-06 11:36:24.43	RN	"done"	None	None
+351	2018-08-06 11:36:25.53	DM->CMD	"done"	None	None
+352	2018-08-06 11:36:46.37	CMD	"<X: and how many doorways were there>"	None	None
+353	2018-08-06 11:36:47.85	DM->RN	"please wait"	None	None
+354	2018-08-06 11:36:48.58	CMD	"we found four doorways"	None	None
+355	2018-08-06 11:36:51.44	CMD	"<X: and how many shovels were there>"	None	None
+356	2018-08-06 11:36:53.17	CMD	"we only found two shovels"	None	None
+357	2018-08-06 11:36:55.80	CMD	"<X: do you think there's anything you could use to coordinate operations or activities in a headquarters type environment>"	None	None
+358	2018-08-06 11:37:01.41	CMD	"um well headquarters as far as a construction yes <pause>we saw the water the desks the hard hats shovels rake um plants stop signs cones and dangerous lines"	None	None
+359	2018-08-06 11:37:20.69	CMD	"<X: okay and were the last occupants speakers of english or a foreign language>"	None	None
+360	2018-08-06 11:37:25.28	CMD	"foreign language"	None	None
+361	2018-08-06 11:37:26.46	CMD	"signs on the walls and the posters"	None	None
+362	2018-08-06 11:37:29.12	CMD	"<X: okay great>"	None	None

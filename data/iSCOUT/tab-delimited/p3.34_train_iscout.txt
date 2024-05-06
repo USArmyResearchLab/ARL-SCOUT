@@ -1,0 +1,272 @@
+id	time	stream	text	context	notes
+0	0	CMD	"(calibrate)"	None	None
+1	2018-09-05 13:37:24.71	DM->CMD	"calibrating. . ."	lidar1	None
+2	2018-09-05 13:37:27.16	DM->RN	"calibrate"	None	None
+3	2018-09-05 13:37:56.88	CMD	"<no speech>"	None	None
+4	2018-09-05 13:38:03.71	CMD	"<X: audio sync in three two one>"	None	None
+5	2018-09-05 13:38:03.75	RN	"<X: audio sync in three two one>"	None	None
+6	2018-09-05 13:38:07.60	RN	"<click> "	None	None
+7	2018-09-05 13:38:07.71	RN	"<loud noise>"	None	None
+8	2018-09-05 13:38:07.71	CMD	"<loud noise>"	None	None
+9	2018-09-05 13:38:10.52	CMD	"<X: okay you can let>"	None	None
+10	2018-09-05 13:38:15.81	DM->CMD	"calibration complete"	lidar2	None
+11	2018-09-05 13:38:19.98	CMD	"i am ready"	None	None
+12	2018-09-05 13:38:26.12	DM->CMD	"Hello! <beep>"	lidar3	None
+13	2018-09-05 13:38:29.86	DM->CMD	"Thanks for teaming up with me today."	lidar4	None
+14	2018-09-05 13:38:35.63	DM->CMD	"Please be aware that there may be lag times in receiving and processing your requests."	lidar5	None
+15	2018-09-05 13:38:44.15	DM->CMD	"I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."	lidar6	None
+16	2018-09-05 13:38:55.52	DM->CMD	"You can ask for help at any time."	lidar7	None
+17	2018-09-05 13:39:03.42	DM->CMD	"I'm also ready.  <beep>"	lidar8	None
+18	2018-09-05 13:39:13.10	CMD	"<no speech>"	None	None
+19	2018-09-05 13:39:18.04	CMD	"okay robot"	None	None
+20	2018-09-05 13:39:19.94	CMD	"enter the alley"	None	None
+21	2018-09-05 13:39:21.81	CMD	"turn to the left"	None	None
+22	2018-09-05 13:39:26.72	DM->CMD	"processing. . ."	lidar9	None
+23	2018-09-05 13:39:35.63	DM->CMD	"How far should I turn to the left?  <beep>"	lidar10	None
+24	2018-09-05 13:39:42.60	CMD	"<no speech>"	None	None
+25	2018-09-05 13:39:49.51	CMD	"turn <pause 1.47> twenty degrees to the left"	None	None
+26	2018-09-05 13:39:55.58	DM->CMD	"ok"	lidar11	None
+27	2018-09-05 13:40:01.72	DM->RN	"turn left 20 degrees"	None	None
+28	2018-09-05 13:40:05.26	DM->CMD	"turning. . ."	lidar12	None
+29	2018-09-05 13:40:08.36	RN	"done"	None	None
+30	2018-09-05 13:40:10.27	DM->CMD	"done"	lidar13	None
+31	2018-09-05 13:40:13.02	CMD	"start moving forward"	None	None
+32	2018-09-05 13:40:14.80	CMD	"and continue"	None	None
+33	2018-09-05 13:40:20.61	DM->CMD	"processing. . ."	lidar14	None
+34	2018-09-05 13:40:32.56	DM->CMD	"How far forward should I go?  <beep>"	lidar15	None
+35	2018-09-05 13:40:35.38	CMD	"<no speech>"	None	None
+36	2018-09-05 13:40:37.48	CMD	"until you hit something"	None	None
+37	2018-09-05 13:40:39.71	CMD	"then stop"	None	None
+38	2018-09-05 13:40:44.98	DM->CMD	"ok"	lidar16	None
+39	2018-09-05 13:40:48.29	DM->RN	"move to front wall ahead"	None	None
+40	2018-09-05 13:40:51.51	DM->CMD	"moving. . ."	lidar17	None
+41	2018-09-05 13:40:57.60	CMD	"stop"	None	None
+42	2018-09-05 13:40:59.29	RN	"done"	None	None
+43	2018-09-05 13:41:01.53	DM->CMD	"done"	lidar18	None
+44	2018-09-05 13:41:10.83	CMD	"turn <pause 2.85> thirty degrees to the right"	None	None
+45	2018-09-05 13:41:19.25	DM->CMD	"processing. . ."	lidar19	None
+46	2018-09-05 13:41:23.87	DM->RN	"turn right 30 degrees"	None	None
+47	2018-09-05 13:41:27.75	DM->CMD	"I will turn right 30 degrees"	lidar20	None
+48	2018-09-05 13:41:28.50	RN	"done"	None	None
+49	2018-09-05 13:41:29.60	CMD	"<no speech>"	None	None
+50	2018-09-05 13:41:30.83	CMD	"s<disfl> start moving forward until you hit something or i tell you to stop"	None	None
+51	2018-09-05 13:41:30.96	DM->CMD	"done"	lidar21	None
+52	2018-09-05 13:41:39.80	DM->CMD	"processing. . ."	lidar22	None
+53	2018-09-05 13:41:48.35	DM->RN	"move to front wall ahead"	None	None
+54	2018-09-05 13:41:54.84	DM->CMD	"moving. . ."	lidar23	None
+55	2018-09-05 13:41:58.00	CMD	"take a photo of what's in front of you"	None	None
+56	2018-09-05 13:42:00.50	CMD	"stop"	None	None
+57	2018-09-05 13:42:02.22	DM->RN	"stop"	None	None
+58	2018-09-05 13:42:03.26	RN	"done"	None	None
+59	2018-09-05 13:42:05.14	DM->CMD	"done"	lidar24	None
+60	2018-09-05 13:42:05.86	DM->RN	"send image"	None	None
+i000	2018-09-05 13:42:10.35	IMAGE	"frame000"	None	None
+61	2018-09-05 13:42:06.89	RN	"sent"	None	None
+62	2018-09-05 13:42:08.81	DM->CMD	"sent"	lidar25	None
+63	2018-09-05 13:42:22.76	CMD	"<no speech>"	None	None
+64	2018-09-05 13:42:25.13	CMD	"please take a photo of the <pause .40> orange cone"	None	None
+65	2018-09-05 13:42:33.06	DM->CMD	"processing. . ."	lidar26	None
+66	2018-09-05 13:42:40.37	DM->CMD	"Would you like me to move to take a good picture?  <beep>"	lidar27	None
+67	2018-09-05 13:42:42.79	CMD	"yes please"	None	None
+68	2018-09-05 13:42:45.55	DM->CMD	"ok"	lidar28	None
+69	2018-09-05 13:42:50.91	DM->RN	"move to Alley cone"	None	None
+70	2018-09-05 13:42:52.85	DM->RN	"then. . ."	None	None
+71	2018-09-05 13:42:54.17	DM->RN	"send image"	None	None
+72	2018-09-05 13:42:57.07	DM->CMD	"executing. . ."	lidar29	None
+i001	2018-09-05 13:43:12.45	IMAGE	"frame001"	None	None
+73	2018-09-05 13:43:09.68	RN	"done and sent"	None	None
+74	2018-09-05 13:43:12.46	DM->CMD	"done, sent"	lidar30	None
+75	2018-09-05 13:43:20.06	CMD	"okay thank you"	None	None
+76	2018-09-05 13:43:21.02	CMD	"turn <pause 1.70> fifteen degrees to the left"	None	None
+77	2018-09-05 13:43:25.59	CMD	"and then start moving forward until you hit something"	None	None
+78	2018-09-05 13:43:31.67	DM->CMD	"processing. . ."	lidar31	None
+79	2018-09-05 13:43:38.79	DM->RN	"turn left 15 degrees"	None	None
+80	2018-09-05 13:43:39.22	DM->RN	"then. . ."	None	None
+81	2018-09-05 13:43:40.84	DM->RN	"move to front wall ahead"	None	None
+82	2018-09-05 13:43:44.15	DM->CMD	"turning. . ."	lidar32	None
+83	2018-09-05 13:43:49.48	DM->CMD	"Correcting course. . ."	lidar33	None
+84	2018-09-05 13:44:01.67	RN	"done"	None	None
+85	2018-09-05 13:44:04.01	DM->CMD	"done"	lidar34	None
+86	2018-09-05 13:44:04.58	CMD	"<no speech>"	None	None
+87	2018-09-05 13:44:06.12	CMD	"turn around uh one hundred eighty degrees"	None	None
+88	2018-09-05 13:44:08.76	CMD	"<no speech>"	None	None
+89	2018-09-05 13:44:09.70	CMD	"and then take a picture"	None	None
+90	2018-09-05 13:44:14.06	DM->CMD	"processing. . ."	lidar35	None
+91	2018-09-05 13:44:16.42	DM->RN	"turn 180"	None	None
+92	2018-09-05 13:44:17.58	DM->RN	"then. . ."	None	None
+93	2018-09-05 13:44:18.51	DM->RN	"send image"	None	None
+94	2018-09-05 13:44:22.50	DM->CMD	"executing. . ."	lidar36	None
+i002	2018-09-05 13:44:34.54	IMAGE	"frame002"	None	None
+95	2018-09-05 13:44:32.40	RN	"done and sent"	None	None
+96	2018-09-05 13:44:35.81	DM->CMD	"done, sent"	lidar37	None
+97	2018-09-05 13:44:42.61	CMD	"<no speech>"	None	None
+98	2018-09-05 13:44:45.27	CMD	"start moving forward <breath> <pause 1.51> until <pause 0.39> i let you know to stop"	None	None
+99	2018-09-05 13:44:55.08	DM->CMD	"ok"	lidar38	None
+100	2018-09-05 13:44:58.74	DM->RN	"move to front wall ahead"	None	None
+101	2018-09-05 13:45:23.05	CMD	"stop"	None	None
+102	2018-09-05 13:45:24.45	DM->RN	"stop"	None	None
+103	2018-09-05 13:45:25.27	RN	"<sigh>"	None	None
+104	2018-09-05 13:45:25.62	RN	"done"	None	None
+105	2018-09-05 13:45:27.42	CMD	"backup"	None	None
+106	2018-09-05 13:45:28.03	DM->CMD	"done"	lidar39	None
+107	2018-09-05 13:45:32.77	DM->CMD	"processing. . ."	lidar40	None
+108	2018-09-05 13:45:40.88	DM->CMD	"How far should I move back?  <beep>"	lidar41	None
+109	2018-09-05 13:45:42.74	CMD	"until i say stop"	None	None
+110	2018-09-05 13:45:47.47	DM->CMD	"ok"	lidar42	None
+111	2018-09-05 13:46:00.72	DM->RN	"move back until stop"	None	None
+112	2018-09-05 13:46:20.12	CMD	"<no speech>"	None	None
+113	2018-09-05 13:46:26.51	CMD	"stop"	None	None
+114	2018-09-05 13:46:28.10	DM->RN	"stop"	None	None
+115	2018-09-05 13:46:29.12	RN	"done"	None	None
+116	2018-09-05 13:46:29.77	CMD	"turn to the right ninety degrees"	None	None
+117	2018-09-05 13:46:31.67	CMD	"and take a picture"	None	None
+118	2018-09-05 13:46:37.17	DM->CMD	"processing. . ."	lidar43	None
+119	2018-09-05 13:46:53.16	DM->RN	"turn right 90 degrees"	None	None
+120	2018-09-05 13:46:54.78	DM->RN	"then. . ."	None	None
+121	2018-09-05 13:46:55.84	DM->RN	"send image"	None	None
+122	2018-09-05 13:46:58.06	DM->CMD	"turning. . ."	lidar44	None
+123	2018-09-05 13:47:04.59	RN	"done"	None	None
+i003	2018-09-05 13:47:09.61	IMAGE	"frame003"	None	None
+124	2018-09-05 13:47:09.41	RN	"se uh sent"	None	None
+125	2018-09-05 13:47:12.12	DM->CMD	"done, sent"	lidar45	None
+126	2018-09-05 13:47:21.36	CMD	"go forward until you encounter an obstacle"	None	None
+127	2018-09-05 13:47:31.04	DM->CMD	"processing. . ."	lidar46	None
+128	2018-09-05 13:47:37.08	DM->RN	"move to front wall ahead"	None	None
+129	2018-09-05 13:47:46.05	RN	"<lip smack>"	None	None
+130	2018-09-05 13:47:46.34	RN	"done"	None	None
+131	2018-09-05 13:47:48.31	DM->CMD	"done"	lidar47	None
+132	2018-09-05 13:47:48.36	CMD	"take a picture"	None	None
+133	2018-09-05 13:47:53.17	DM->RN	"send image"	None	None
+i004	2018-09-05 13:47:53.80	IMAGE	"frame004"	None	None
+134	2018-09-05 13:47:53.70	RN	"sent"	None	None
+135	2018-09-05 13:47:56.61	DM->CMD	"sent"	lidar48	None
+136	2018-09-05 13:48:00.90	CMD	"turn to the left ninety degrees"	None	None
+137	2018-09-05 13:48:03.59	CMD	"and then start moving forward <pause 0.50> until i say to stop"	None	None
+138	2018-09-05 13:48:10.55	DM->CMD	"processing. . ."	lidar49	None
+139	2018-09-05 13:48:17.30	DM->RN	"turn left 90 degrees"	None	None
+140	2018-09-05 13:48:18.55	DM->RN	"then. . ."	None	None
+141	2018-09-05 13:48:19.73	DM->RN	"move to front wall ahead"	None	None
+142	2018-09-05 13:48:46.69	CMD	"stop <sto> stop"	None	None
+143	2018-09-05 13:48:48.90	DM->RN	"stop"	None	None
+144	2018-09-05 13:48:49.21	RN	"<sigh>"	None	None
+145	2018-09-05 13:48:49.60	RN	"done"	None	None
+146	2018-09-05 13:48:52.05	DM->CMD	"done"	lidar50	None
+147	2018-09-05 13:48:52.69	CMD	"backup"	None	None
+148	2018-09-05 13:48:55.97	CMD	"two feet"	None	None
+149	2018-09-05 13:49:01.97	DM->CMD	"processing. . ."	lidar51	None
+150	2018-09-05 13:49:08.41	DM->RN	"move back 2 feet"	None	None
+151	2018-09-05 13:49:13.34	DM->CMD	"moving. . ."	lidar52	None
+152	2018-09-05 13:49:15.89	RN	"done"	None	None
+153	2018-09-05 13:49:17.44	DM->CMD	"done"	lidar53	None
+154	2018-09-05 13:49:18.44	CMD	"<no speech>"	None	None
+155	2018-09-05 13:49:21.61	CMD	"move up <pause 1.4> six inches"	None	None
+156	2018-09-05 13:49:25.43	CMD	"then turn to the right ninety degrees"	None	None
+157	2018-09-05 13:49:27.88	CMD	"and then take a picture"	None	None
+158	2018-09-05 13:49:30.90	DM->CMD	"processing. . ."	lidar54	None
+159	2018-09-05 13:49:42.38	DM->RN	"move forward .5 foot"	None	None
+160	2018-09-05 13:49:43.59	DM->RN	"then. . ."	None	None
+161	2018-09-05 13:49:45.39	DM->RN	"turn right 90 degrees"	None	None
+162	2018-09-05 13:49:46.23	DM->RN	"then. . ."	None	None
+163	2018-09-05 13:49:46.86	DM->RN	"send image"	None	None
+164	2018-09-05 13:49:50.37	DM->CMD	"executing. . ."	lidar55	None
+i005	2018-09-05 13:50:01.43	IMAGE	"frame005"	None	None
+165	2018-09-05 13:50:02.55	RN	"done and sent"	None	None
+166	2018-09-05 13:50:05.56	DM->CMD	"done, sent"	lidar56	None
+167	2018-09-05 13:50:10.32	CMD	"turn to the left four degrees"	None	None
+168	2018-09-05 13:50:13.76	CMD	" and then take a picture"	None	None
+169	2018-09-05 13:50:18.52	DM->CMD	"processing. . ."	lidar57	None
+170	2018-09-05 13:50:24.92	DM->RN	"turn left 4 degrees"	None	None
+171	2018-09-05 13:50:25.40	DM->RN	"then. . ."	None	None
+172	2018-09-05 13:50:26.19	DM->RN	"send image"	None	None
+173	2018-09-05 13:50:34.85	RN	"<lip smack>"	None	None
+174	2018-09-05 13:50:34.95	DM->CMD	"turning. . ."	lidar58	None
+i006	2018-09-05 13:50:33.55	IMAGE	"frame006"	None	None
+175	2018-09-05 13:50:35.19	RN	"done and sent"	None	None
+176	2018-09-05 13:50:38.33	DM->CMD	"done, sent"	lidar59	None
+177	2018-09-05 13:50:51.11	CMD	"turn to the left <pause 2.9> uh forty five degrees"	None	None
+178	2018-09-05 13:50:57.25	CMD	"and then start moving forward <pause 0.54> until i say to stop"	None	None
+179	2018-09-05 13:51:04.43	DM->CMD	"processing. . ."	lidar60	None
+180	2018-09-05 13:51:14.31	DM->RN	"turn left 45 degrees"	None	None
+181	2018-09-05 13:51:15.35	DM->RN	"then. . ."	None	None
+182	2018-09-05 13:51:16.56	DM->RN	"move to front wall ahead"	None	None
+183	2018-09-05 13:51:19.80	DM->CMD	"turning. . ."	lidar61	None
+184	2018-09-05 13:51:34.07	RN	"done"	None	None
+185	2018-09-05 13:51:35.96	DM->CMD	"done"	lidar62	None
+186	2018-09-05 13:51:38.58	CMD	"<no speech>"	None	None
+187	2018-09-05 13:51:41.66	CMD	"turn to the left <pause 0.59> unt<disfl> un <pause 1.24> un u <sigh> turn to the left until that wall <pause 0.24> is out of your way"	None	None
+188	2018-09-05 13:51:50.77	CMD	"and then proceed forward"	None	None
+189	2018-09-05 13:51:54.96	DM->CMD	"processing. . ."	lidar63	None
+190	2018-09-05 13:52:08.95	DM->CMD	"How far should I turn to the left?  <beep>"	lidar64	None
+191	2018-09-05 13:52:13.41	CMD	"twenty five degrees to the left"	None	None
+192	2018-09-05 13:52:17.76	DM->CMD	"ok"	lidar65	None
+193	2018-09-05 13:52:24.52	DM->RN	"turn left 25 degrees"	None	None
+194	2018-09-05 13:52:27.41	DM->CMD	"turning. . ."	lidar66	None
+195	2018-09-05 13:52:30.57	RN	"done"	None	None
+196	2018-09-05 13:52:34.17	DM->CMD	"done"	lidar67	None
+197	2018-09-05 13:52:34.72	CMD	"turn ten more degrees to the left"	None	None
+198	2018-09-05 13:52:38.91	DM->CMD	"ok"	lidar68	None
+199	2018-09-05 13:52:44.72	DM->RN	"turn left 10 degrees"	None	None
+200	2018-09-05 13:52:47.65	DM->CMD	"turning. . ."	lidar69	None
+201	2018-09-05 13:52:50.19	RN	"done"	None	None
+202	2018-09-05 13:52:51.92	DM->CMD	"done"	lidar70	None
+203	2018-09-05 13:52:52.58	CMD	"start moving forward if you can"	None	None
+204	2018-09-05 13:52:58.33	DM->CMD	"processing. . ."	lidar71	None
+205	2018-09-05 13:53:01.76	DM->RN	"move to front wall ahead"	None	None
+206	2018-09-05 13:53:06.12	DM->CMD	"moving. . ."	lidar72	None
+207	2018-09-05 13:53:07.19	CMD	"take a picture of what you see"	None	None
+208	2018-09-05 13:53:14.34	RN	"done"	None	None
+209	2018-09-05 13:53:15.81	DM->CMD	"done"	lidar73	None
+210	2018-09-05 13:53:16.62	DM->RN	"send image"	None	None
+i007	2018-09-05 13:53:14.49	IMAGE	"frame007"	None	None
+211	2018-09-05 13:53:16.97	RN	"sent"	None	None
+212	2018-09-05 13:53:18.63	DM->CMD	"sent"	lidar74	None
+213	2018-09-05 13:53:23.49	CMD	"turn to the left <pause 1.93> eighty degrees"	None	None
+214	2018-09-05 13:53:28.03	CMD	"and then take a picture"	None	None
+215	2018-09-05 13:53:30.46	DM->CMD	"ok"	lidar75	None
+216	2018-09-05 13:53:36.34	DM->RN	"turn left 80 degrees"	None	None
+217	2018-09-05 13:53:37.44	DM->RN	"then. . ."	None	None
+218	2018-09-05 13:53:38.47	DM->RN	"send image"	None	None
+219	2018-09-05 13:53:41.77	DM->CMD	"turning. . ."	lidar76	None
+i008	2018-09-05 13:53:47.64	IMAGE	"frame008"	None	None
+220	2018-09-05 13:53:50.67	RN	"done and sent"	None	None
+221	2018-09-05 13:53:52.91	DM->CMD	"done, sent"	lidar77	None
+222	2018-09-05 13:53:59.94	CMD	"turn to the left <pause 2.33> forty five degrees"	None	None
+223	2018-09-05 13:54:04.99	CMD	"and then take a picture"	None	None
+224	2018-09-05 13:54:09.33	DM->CMD	"processing. . ."	lidar78	None
+225	2018-09-05 13:54:12.93	DM->RN	"turn left 45 degrees"	None	None
+226	2018-09-05 13:54:14.02	DM->RN	"then. . ."	None	None
+227	2018-09-05 13:54:15.07	DM->RN	"send image"	None	None
+228	2018-09-05 13:54:19.05	DM->CMD	"executing. . ."	lidar79	None
+i009	2018-09-05 13:54:19.43	IMAGE	"frame009"	None	None
+229	2018-09-05 13:54:22.58	RN	"done and sent"	None	None
+230	2018-09-05 13:54:24.79	DM->CMD	"done, sent"	lidar80	None
+231	2018-09-05 13:54:29.78	CMD	"turn to the right <pause 1.95> twelve degrees"	None	None
+232	2018-09-05 13:54:33.65	CMD	"and then take a picture"	None	None
+233	2018-09-05 13:54:38.31	DM->CMD	"processing. . ."	lidar81	None
+234	2018-09-05 13:54:42.96	DM->RN	"turn right 12 degrees"	None	None
+235	2018-09-05 13:54:43.88	DM->RN	"then. . ."	None	None
+236	2018-09-05 13:54:44.72	DM->RN	"send image"	None	None
+237	2018-09-05 13:54:47.63	DM->CMD	"turning. . ."	lidar82	None
+i010	2018-09-05 13:54:44.60	IMAGE	"frame010"	None	None
+238	2018-09-05 13:54:48.17	RN	"done and sent"	None	None
+239	2018-09-05 13:54:50.60	DM->CMD	"done, sent"	lidar83	None
+240	2018-09-05 13:55:03.31	CMD	"turn to the left twenty five degrees"	None	None
+241	2018-09-05 13:55:05.67	CMD	"and then start moving forward"	None	None
+242	2018-09-05 13:55:10.25	DM->CMD	"processing. . ."	lidar84	None
+243	2018-09-05 13:55:20.07	DM->RN	"turn left 25 degrees"	None	None
+244	2018-09-05 13:55:20.50	DM->RN	"then. . ."	None	None
+245	2018-09-05 13:55:21.70	DM->RN	"move to front wall ahead"	None	None
+246	2018-09-05 13:55:31.81	DM->CMD	"moving. . ."	lidar85	None
+247	2018-09-05 13:55:32.73	CMD	"take a picture"	None	None
+248	2018-09-05 13:55:36.18	CMD	"and stop"	None	None
+249	2018-09-05 13:55:38.05	DM->RN	"stop"	None	None
+250	2018-09-05 13:55:38.60	RN	"<lip smack>"	None	None
+251	2018-09-05 13:55:38.86	RN	"done"	None	None
+252	2018-09-05 13:55:40.21	DM->CMD	"done"	lidar86	None
+253	2018-09-05 13:55:41.37	DM->RN	"send image"	None	None
+i011	2018-09-05 13:55:37.93	IMAGE	"frame011"	None	None
+254	2018-09-05 13:55:41.74	RN	"sent"	None	None
+255	2018-09-05 13:55:43.76	DM->CMD	"sent"	lidar87	None
+256	2018-09-05 13:56:10.75	CMD	"xxx"	None	None
+257	2018-09-05 13:56:10.98	CMD	"<X: xxx um so how many doorways where there>"	None	None
+258	2018-09-05 13:56:13.94	CMD	"i saw three openings doorways"	None	None
