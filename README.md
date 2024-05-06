@@ -41,9 +41,9 @@ Commanders were given three resources: a robot, a map, and photographs. The robo
 
 ## SCOUT Contents
 
-Unique Commanders (human participants) are named as `p{exp}.{ID}` where `{exp}` is the experiment number (1-4) and `{ID}` is the Commander's ID assigned within that experiment. For example, the Commander `p1.01` is the first Commander in Experiment 1. Each Commander completed three trials {train, main1, main2}. The `main_trial_distribution.xlsx` file notes which counting task was completed in each main trial.
+Unique Commanders (human participants) are named as `p{exp}.{ID}` where `{exp}` is the experiment number (1-4) and `{ID}` is the Commander's ID assigned within that experiment. For example, the Commander `p1.01` is the first Commander in Experiment 1. Each Commander completed three trials {train, main1, main2}. The `data/main_trial_distribution.xlsx` file notes which counting task was completed in each main trial.
 
-The data and annotation files are divided by type over five directories:
+The data and annotation files are divided by type over five directories with the `data/` directory of this repository:
 
 - [Transcripts](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#transcripts)
 - [iSCOUT (images)](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#iscout)
@@ -73,7 +73,7 @@ SCOUT has been used in a number of publications and research areas.
 
 **Dialogue Structure**
 
-- Bonial, Claire, Taylor Hudson, Anthony L. Baker, Stephanie M. Lukin, and David Traum ["Making Sense of Stop."](https://www.areaworkshop.org/wp-content/uploads/2022/07/Bonial-etal-2022.pdf) Annotation, Recognition and Evaluation of Actions Workshop. 2022.
+- Bonial, Claire, Taylor Hudson, Anthony L. Baker, Stephanie M. Lukin, and David Traum [📎 "Making Sense of Stop."](https://www.areaworkshop.org/wp-content/uploads/2022/07/Bonial-etal-2022.pdf) Annotation, Recognition and Evaluation of Actions Workshop. 2022.
 
 - Bonial, Claire, Mitchell Abrams, Anthony L. Baker, Taylor Hudson, Stephanie M. Lukin, David Traum, and Clare R. Voss. [📎 "Context Is Key: Annotating Situated Dialogue Relations in Multi-floor Dialogue."](http://semdial.org/anthology/Z21-Bonial_semdial_0006.pdf) In Proceedings of the 25th Workshop on the Semantics and Pragmatics of Dialogue. 2021.
 
