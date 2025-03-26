@@ -55,7 +55,7 @@ Clicking on each of the links above will redirect you to a detailed overview of 
 
 ## Citation
 
-Please cite the following paper to reference the SCOUT data release:
+Please cite the following paper to reference the SCOUT data release ([link to pdf paper](https://aclanthology.org/2024.lrec-main.1259.pdf)):
 
 ```
 @inproceedings{lukin2024scout,
@@ -70,6 +70,8 @@ Please cite the following paper to reference the SCOUT data release:
 ## Publications Using SCOUT
 
 SCOUT has been used in a number of publications and research areas. 
+
+- Bonial, Claire*, Stephanie M. Lukin*, Mitchell Abrams, Anthony Baker, Lucia Donatelli, Ashley Foots, Cory J. Hayes, Cassidy Henry, Taylor Hudson, Matthew Marge, Kimberly A. Pollard, Ron Artstein, David Traum, Clare R. Voss. [📎 "Human-Robot Dialogue Annotation for Multi-Modal Common Ground."](https://arxiv.org/pdf/2411.12829) Journal on Language Resources and Evaluation (LREV). 2024.
 
 **Dialogue Structure**
 
