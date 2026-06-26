@@ -87,6 +87,8 @@ Please cite the following paper to reference the Video-SCOUT data release:
 
 SCOUT has been used in a number of publications and research areas. 
 
+- Bonial, Claire*, Stephanie M. Lukin*, Mitchell Abrams, Anthony Baker, Lucia Donatelli, Ashley Foots, Cory J. Hayes, Cassidy Henry, Taylor Hudson, Matthew Marge, Kimberly A. Pollard, Ron Artstein, David Traum, Clare R. Voss. [📎 "Human-Robot Dialogue Annotation for Multi-Modal Common Ground."](https://arxiv.org/pdf/2411.12829) Journal on Language Resources and Evaluation (LREV). 2024.
+
 **Dialogue Structure**
 
 -  Bonial, Claire*, Stephanie M. Lukin*, Mitchell Abrams, Anthony Baker, Lucia Donatelli, Ashley Foots, Cory J. Hayes, Cassidy Henry, Taylor Hudson, Matthew Marge, Kimberly A. Pollard, Ron Artstein, David Traum, Clare R. Voss. [📎 "Human-Robot Dialogue Annotation for Multi-Modal Common Ground."](https://arxiv.org/pdf/2411.12829) Journal on Language Resources and Evaluation (LREV). 2024.
