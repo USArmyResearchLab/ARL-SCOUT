@@ -259,7 +259,7 @@ Each trial video runs the entire length of the trial, which was capped at 20 min
 
 <p><video src="media/video-example.mp4" width="320" height="240" controls></video></p>
 
-(If the video doesn't display, you can find it here: [https://gitlab.sitcore.net/bot-language/scout/-/blob/master/media/video-example.mp4](https://gitlab.sitcore.net/bot-language/scout/-/blob/master/media/video-example.mp4))
+(If the video doesn't display, you can find it here: [https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/media/video-example.mp4](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/media/video-example.mp4))
 
 The subtitle files can be added as a subtitle track to the videos using media players, e.g., VLC. If opening the .mp4 in VLC, the subtitle track should load automatically if it is in the same directory as the .mp4.
 

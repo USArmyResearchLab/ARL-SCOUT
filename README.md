@@ -51,7 +51,7 @@ The data and annotation files are divided by type over five directories with the
 - [Maps](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#maps)
 - [Dialogue Structure](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#dialogue-structure)
 - [AMR (Dialogue Semantics)](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#amr)
-- [Video-SCOUT](https://gitlab.sitcore.net/bot-language/scout/-/blob/master/scout_contents.md#video-scout)
+- [Video-SCOUT](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#video-scout)
 
 
 
