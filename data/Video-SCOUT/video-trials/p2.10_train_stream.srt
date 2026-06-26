@@ -1,0 +1,752 @@
+1
+00:00:00,000 --> 00:00:05,000
+Robot: "calibrating. . ."
+
+2
+00:00:15,600 --> 00:00:20,600
+Robot: "calibration complete"
+
+3
+00:00:16,830 --> 00:00:21,830
+Robot: "Hello! "
+
+4
+00:00:18,030 --> 00:00:23,030
+Robot: ". . ."
+
+5
+00:00:19,300 --> 00:00:24,300
+Robot: "Thanks for teaming up with me today."
+
+6
+00:00:20,450 --> 00:00:25,450
+Robot: ". . ."
+
+7
+00:00:22,810 --> 00:00:27,810
+Robot: "Please be aware that there may be lag times in receiving and processing your requests."
+
+8
+00:00:24,130 --> 00:00:29,130
+Robot: ". . ."
+
+9
+00:00:27,010 --> 00:00:32,010
+Robot: "I'll give you feedback on what I'm doing, let you know if there is a problem, and I may ask for more information."
+
+10
+00:00:28,040 --> 00:00:33,040
+Robot: ". . ."
+
+11
+00:00:35,110 --> 00:00:40,110
+Robot: "You can ask for help at any time."
+
+12
+00:00:48,870 --> 00:00:53,870
+CMD: "move forward"
+
+13
+00:00:52,590 --> 00:00:57,590
+Robot: "I'm not sure where or when to stop moving forward.  "
+
+14
+00:00:53,940 --> 00:00:58,940
+Robot: "You can tell me to move a certain distance or to move to an object.  "
+
+15
+00:00:55,390 --> 00:01:00,390
+Robot: "Would you like me to send a picture?  "
+
+16
+00:01:19,140 --> 00:01:24,140
+CMD: "start moving forward"
+
+17
+00:01:31,070 --> 00:01:36,070
+Robot: "There's too much lag in our communications for instantaneous instructions.  "
+
+18
+00:01:34,240 --> 00:01:39,240
+Robot: "I'm unsure where or when I should stop going forward.  "
+
+19
+00:01:35,420 --> 00:01:40,420
+Robot: "You can tell me to move a certain distance or to move to an object.  "
+
+20
+00:01:44,330 --> 00:01:49,330
+Robot: "Should I send a picture? "
+
+21
+00:01:52,220 --> 00:01:57,220
+CMD: "move forward ten feet"
+
+22
+00:01:55,440 --> 00:02:00,440
+Robot: "ok"
+
+23
+00:01:59,930 --> 00:02:04,930
+Robot: "I will move forward 10 feet"
+
+24
+00:02:02,410 --> 00:02:07,410
+Robot: "moving. . ."
+
+25
+00:02:15,200 --> 00:02:20,200
+Robot: "done"
+
+26
+00:02:21,100 --> 00:02:26,100
+CMD: "continue moving another ten feet until i tell you to stop"
+
+27
+00:02:29,360 --> 00:02:34,360
+Robot: "ok, I think I got it."
+
+28
+00:02:34,050 --> 00:02:39,050
+Robot: "I will move forward 10 feet"
+
+29
+00:02:36,420 --> 00:02:41,420
+Robot: "moving. . ."
+
+30
+00:02:52,150 --> 00:02:57,150
+Robot: "done"
+
+31
+00:02:54,600 --> 00:02:59,600
+CMD: "keep moving"
+
+32
+00:03:03,480 --> 00:03:08,480
+Robot: "processing. . ."
+
+33
+00:03:15,760 --> 00:03:20,760
+Robot: "Would you like me to repeat the last action?  "
+
+34
+00:03:17,840 --> 00:03:22,840
+CMD: "yes"
+
+35
+00:03:19,460 --> 00:03:24,460
+Robot: "ok"
+
+36
+00:03:27,150 --> 00:03:32,150
+Robot: "moving. . ."
+
+37
+00:03:33,640 --> 00:03:38,640
+CMD: "stop"
+
+38
+00:03:39,240 --> 00:03:44,240
+Robot: "done"
+
+39
+00:04:02,940 --> 00:04:07,940
+CMD: "back up three feet"
+
+40
+00:04:06,280 --> 00:04:11,280
+Robot: "ok"
+
+41
+00:04:16,250 --> 00:04:21,250
+Robot: "moving. . ."
+
+42
+00:04:18,040 --> 00:04:23,040
+CMD: "stop"
+
+43
+00:04:23,000 --> 00:04:28,000
+Robot: "done"
+
+44
+00:04:28,380 --> 00:04:33,380
+CMD: "turn left"
+
+45
+00:04:34,460 --> 00:04:39,460
+Robot: "I'm not sure where or when to stop turning.  "
+
+46
+00:04:35,770 --> 00:04:40,770
+Robot: "You can tell me to turn a number of degrees or to face something.  "
+
+47
+00:04:44,360 --> 00:04:49,360
+CMD: "turn ninety degrees to the left "
+
+48
+00:04:46,740 --> 00:04:51,740
+CMD: "and then stop"
+
+49
+00:04:48,030 --> 00:04:53,030
+Robot: "ok"
+
+50
+00:04:51,570 --> 00:04:56,570
+Robot: "I will turn left 90 degrees"
+
+51
+00:04:53,500 --> 00:04:58,500
+Robot: "turning. . ."
+
+52
+00:05:03,400 --> 00:05:08,400
+CMD: "take a picture"
+
+53
+00:05:04,560 --> 00:05:09,560
+Robot: "done"
+
+54
+00:05:10,000 --> 00:05:15,000
+Robot: "sent"
+
+55
+00:05:18,010 --> 00:05:23,010
+CMD: "turn ninety degrees to the right"
+
+56
+00:05:20,590 --> 00:05:25,590
+CMD: "and then start moving ten feet"
+
+57
+00:05:25,280 --> 00:05:30,280
+Robot: "processing. . ."
+
+58
+00:05:32,170 --> 00:05:37,170
+Robot: "I will turn right 90 degrees"
+
+59
+00:05:33,560 --> 00:05:38,560
+Robot: "and. . ."
+
+60
+00:05:39,070 --> 00:05:44,070
+Robot: "I will move forward 10 feet"
+
+61
+00:05:46,730 --> 00:05:51,730
+Robot: "moving. . ."
+
+62
+00:05:47,610 --> 00:05:52,610
+CMD: "continue moving until i tell you to stop"
+
+63
+00:05:57,350 --> 00:06:02,350
+Robot: "There's too much lag in our communications for instantaneous instructions.  "
+
+64
+00:06:01,130 --> 00:06:06,130
+Robot: "done"
+
+65
+00:06:10,060 --> 00:06:15,060
+CMD: "take a picture"
+
+66
+00:06:14,590 --> 00:06:19,590
+Robot: "sent"
+
+67
+00:06:27,760 --> 00:06:32,760
+CMD: "turn ninety degrees to the right"
+
+68
+00:06:31,800 --> 00:06:36,800
+Robot: "ok"
+
+69
+00:06:37,640 --> 00:06:42,640
+Robot: "turning. . ."
+
+70
+00:06:49,470 --> 00:06:54,470
+CMD: "take a picture"
+
+71
+00:06:50,220 --> 00:06:55,220
+Robot: "I turned right 90 degrees"
+
+72
+00:06:53,700 --> 00:06:58,700
+Robot: "sent"
+
+73
+00:06:59,280 --> 00:07:04,280
+CMD: "turn ninety degrees to the right"
+
+74
+00:07:02,050 --> 00:07:07,050
+CMD: "and then continue and then move forward twenty feet"
+
+75
+00:07:07,490 --> 00:07:12,490
+Robot: "processing. . ."
+
+76
+00:07:18,820 --> 00:07:23,820
+Robot: "turning. . ."
+
+77
+00:07:25,030 --> 00:07:30,030
+Robot: "moving. . ."
+
+78
+00:07:46,160 --> 00:07:51,160
+Robot: "done"
+
+79
+00:07:46,310 --> 00:07:51,310
+CMD: "continue moving twenty feet"
+
+80
+00:07:57,720 --> 00:08:02,720
+Robot: "I'm not sure if I can move that far forward.  "
+
+81
+00:07:58,720 --> 00:08:03,720
+Robot: "I will move forward as far as I can, ok?  "
+
+82
+00:08:11,010 --> 00:08:16,010
+CMD: "move forward ten feet"
+
+83
+00:08:16,370 --> 00:08:21,370
+Robot: "I will move forward 10 feet"
+
+84
+00:08:18,350 --> 00:08:23,350
+Robot: "moving. . ."
+
+85
+00:08:35,130 --> 00:08:40,130
+Robot: "done"
+
+86
+00:10:05,440 --> 00:10:10,440
+CMD: "back up fifteen feet"
+
+87
+00:10:10,160 --> 00:10:15,160
+Robot: "ok"
+
+88
+00:10:23,320 --> 00:10:28,320
+Robot: "moving. . ."
+
+89
+00:10:27,880 --> 00:10:32,880
+CMD: "stop"
+
+90
+00:10:34,680 --> 00:10:39,680
+Robot: "done"
+
+91
+00:10:37,520 --> 00:10:42,520
+CMD: "turn forty five degrees to the right"
+
+92
+00:10:42,680 --> 00:10:47,680
+Robot: "ok"
+
+93
+00:10:46,840 --> 00:10:51,840
+Robot: "I will turn right 45 degrees"
+
+94
+00:10:48,630 --> 00:10:53,630
+Robot: "turning. . ."
+
+95
+00:10:57,320 --> 00:11:02,320
+CMD: "take a picture"
+
+96
+00:10:57,950 --> 00:11:02,950
+Robot: "done"
+
+97
+00:11:01,520 --> 00:11:06,520
+Robot: "sent"
+
+98
+00:11:03,680 --> 00:11:08,680
+CMD: "turn ten degrees to the right"
+
+99
+00:11:07,230 --> 00:11:12,230
+Robot: "ok"
+
+100
+00:11:14,250 --> 00:11:19,250
+Robot: "turning. . ."
+
+101
+00:11:17,400 --> 00:11:22,400
+CMD: "take a picture"
+
+102
+00:11:18,420 --> 00:11:23,420
+Robot: "done"
+
+103
+00:11:22,570 --> 00:11:27,570
+Robot: "sent"
+
+104
+00:11:52,050 --> 00:11:57,050
+CMD: "move forward five feet"
+
+105
+00:11:58,670 --> 00:12:03,670
+Robot: "I'm not sure if I can move that far forward.  "
+
+106
+00:11:59,880 --> 00:12:04,880
+Robot: "I will move forward as far as I can, ok?  "
+
+107
+00:12:05,040 --> 00:12:10,040
+CMD: "okay"
+
+108
+00:12:12,510 --> 00:12:17,510
+Robot: "moving. . ."
+
+109
+00:12:24,590 --> 00:12:29,590
+Robot: "done"
+
+110
+00:12:26,610 --> 00:12:31,610
+CMD: "back up five feet"
+
+111
+00:12:30,690 --> 00:12:35,690
+Robot: "ok"
+
+112
+00:12:41,380 --> 00:12:46,380
+Robot: "moving. . ."
+
+113
+00:12:44,550 --> 00:12:49,550
+CMD: "stop"
+
+114
+00:12:50,380 --> 00:12:55,380
+Robot: "done"
+
+115
+00:12:51,150 --> 00:12:56,150
+CMD: "turn ninety degrees to the right"
+
+116
+00:12:55,030 --> 00:13:00,030
+Robot: "ok"
+
+117
+00:13:00,640 --> 00:13:05,640
+Robot: "turning. . ."
+
+118
+00:13:11,400 --> 00:13:16,400
+Robot: "I turned right 90 degrees"
+
+119
+00:13:11,790 --> 00:13:16,790
+CMD: "take a picture"
+
+120
+00:13:16,500 --> 00:13:21,500
+Robot: "sent"
+
+121
+00:13:28,880 --> 00:13:33,880
+CMD: "turn  ninety degrees to the right"
+
+122
+00:13:33,530 --> 00:13:38,530
+Robot: "ok"
+
+123
+00:13:39,110 --> 00:13:44,110
+Robot: "turning. . ."
+
+124
+00:13:51,470 --> 00:13:56,470
+CMD: "move forward twenty feet"
+
+125
+00:13:57,500 --> 00:14:02,500
+Robot: "ok"
+
+126
+00:14:08,320 --> 00:14:13,320
+Robot: "moving. . ."
+
+127
+00:14:27,360 --> 00:14:32,360
+CMD: "stop"
+
+128
+00:14:31,770 --> 00:14:36,770
+CMD: "turn forty five degrees to the left"
+
+129
+00:14:32,240 --> 00:14:37,240
+Robot: "done"
+
+130
+00:14:35,610 --> 00:14:40,610
+Robot: "ok"
+
+131
+00:14:41,470 --> 00:14:46,470
+Robot: "turning. . ."
+
+132
+00:14:51,190 --> 00:14:56,190
+CMD: "turn forty five degrees to the left"
+
+133
+00:14:52,680 --> 00:14:57,680
+Robot: "I turned left 45 degrees"
+
+134
+00:14:55,310 --> 00:15:00,310
+Robot: "ok"
+
+135
+00:14:58,130 --> 00:15:03,130
+Robot: "I will turn left 45 degrees"
+
+136
+00:15:00,190 --> 00:15:05,190
+Robot: "turning. . ."
+
+137
+00:15:06,030 --> 00:15:11,030
+CMD: "take a picture"
+
+138
+00:15:07,540 --> 00:15:12,540
+Robot: "done"
+
+139
+00:15:11,060 --> 00:15:16,060
+Robot: "sent"
+
+140
+00:15:15,500 --> 00:15:20,500
+CMD: "turn ninety degrees to the left"
+
+141
+00:15:19,900 --> 00:15:24,900
+Robot: "ok"
+
+142
+00:15:24,550 --> 00:15:29,550
+Robot: "I will turn left 90 degrees"
+
+143
+00:15:26,660 --> 00:15:31,660
+Robot: "turning. . ."
+
+144
+00:15:36,470 --> 00:15:41,470
+CMD: "move forward"
+
+145
+00:15:37,120 --> 00:15:42,120
+Robot: "done"
+
+146
+00:15:43,280 --> 00:15:48,280
+Robot: "How far should I move forward? "
+
+147
+00:15:58,100 --> 00:16:03,100
+CMD: "until i tell you to stop"
+
+148
+00:16:15,800 --> 00:16:20,800
+Robot: "processing. . ."
+
+149
+00:16:20,760 --> 00:16:25,760
+Robot: "moving. . ."
+
+150
+00:16:45,250 --> 00:16:50,250
+CMD: "stop"
+
+151
+00:16:48,470 --> 00:16:53,470
+Robot: "done"
+
+152
+00:16:53,080 --> 00:16:58,080
+CMD: "take a picture"
+
+153
+00:16:57,530 --> 00:17:02,530
+Robot: "sent"
+
+154
+00:17:17,730 --> 00:17:22,730
+CMD: " turn right ninety degrees"
+
+155
+00:17:22,030 --> 00:17:27,030
+Robot: "ok"
+
+156
+00:17:28,760 --> 00:17:33,760
+Robot: "turning. . ."
+
+157
+00:17:42,370 --> 00:17:47,370
+Robot: "done"
+
+158
+00:17:42,680 --> 00:17:47,680
+CMD: "turn right a hundred and eighty degrees"
+
+159
+00:17:47,350 --> 00:17:52,350
+Robot: "ok"
+
+160
+00:17:50,650 --> 00:17:55,650
+Robot: "I will turn right 180 degrees"
+
+161
+00:17:54,130 --> 00:17:59,130
+Robot: "turning. . ."
+
+162
+00:18:19,580 --> 00:18:24,580
+CMD: "take a picture"
+
+163
+00:18:24,850 --> 00:18:29,850
+Robot: "done, sent"
+
+164
+00:18:34,240 --> 00:18:39,240
+CMD: "back up five feet"
+
+165
+00:18:41,530 --> 00:18:46,530
+Robot: "I'm not sure if I can move that far back. "
+
+166
+00:18:43,140 --> 00:18:48,140
+Robot: "I will move back as far as I can, ok?  "
+
+167
+00:18:45,280 --> 00:18:50,280
+CMD: "okay"
+
+168
+00:18:47,880 --> 00:18:52,880
+Robot: "processing. . ."
+
+169
+00:18:58,260 --> 00:19:03,260
+Robot: "moving. . ."
+
+170
+00:19:03,300 --> 00:19:08,300
+CMD: "take a picture"
+
+171
+00:19:04,280 --> 00:19:09,280
+Robot: "done"
+
+172
+00:19:08,020 --> 00:19:13,020
+Robot: "sent"
+
+173
+00:19:33,520 --> 00:19:38,520
+CMD: "move forward two feet"
+
+174
+00:19:37,540 --> 00:19:42,540
+Robot: "ok"
+
+175
+00:19:40,560 --> 00:19:45,560
+Robot: "I will move forward 2 feet"
+
+176
+00:19:44,470 --> 00:19:49,470
+Robot: "moving. . ."
+
+177
+00:19:52,600 --> 00:19:57,600
+Robot: "done"
+
+178
+00:20:03,120 --> 00:20:08,120
+CMD: " turn left ninety degrees"
+
+179
+00:20:10,370 --> 00:20:15,370
+Robot: "ok"
+
+180
+00:20:16,460 --> 00:20:21,460
+Robot: "turning. . ."
+
+181
+00:20:32,160 --> 00:20:37,160
+Robot: "done"
+
+182
+00:20:36,400 --> 00:20:41,400
+CMD: "move forward"
+
+183
+00:20:46,770 --> 00:20:51,770
+Robot: "How far forward should I go?  "
+
+184
+00:20:48,200 --> 00:20:53,200
+CMD: "til i tell you to stop"
+
+185
+00:20:51,220 --> 00:20:56,220
+Robot: "processing. . ."
+
+186
+00:21:01,640 --> 00:21:06,640
+Robot: "moving. . ."
+
+187
+00:21:14,200 --> 00:21:19,200
+CMD: "stop"
+
+188
+00:21:20,800 --> 00:21:25,800
+Robot: "done"
+

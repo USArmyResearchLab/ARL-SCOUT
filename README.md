@@ -6,6 +6,7 @@ The Situated Corpus Of Understanding Transactions (SCOUT) is a multi-modal colle
 
 SCOUT contains **Transcripts** of human-robot dialogues, aligned with the **Images** taken by the robot at the request of the Commander. The transcripts have been annotated with **Dialogue Structure**, including Transcaction Units (TUs), Antecedents, and Relations. A subset of utterances have been annotated with **Dialogue Semantics** including Standard-AMR and Dialogue-AMR. A subset of the **Maps** have been curated that depict the LIDAR Maps at the end of the dialogue and have been annotated as Exploration Maps.
 
+The Video-SCOUT subset contains **Robot Recorded Videos** and **Transaction Unit Video Clips**. 
 
 ## Contents
 - [Experimental Design](#experimental-design)
@@ -50,19 +51,34 @@ The data and annotation files are divided by type over five directories with the
 - [Maps](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#maps)
 - [Dialogue Structure](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#dialogue-structure)
 - [AMR (Dialogue Semantics)](https://github.com/USArmyResearchLab/ARL-SCOUT/tree/main/scout_contents.md#amr)
+- [Video-SCOUT](https://gitlab.sitcore.net/bot-language/scout/-/blob/master/scout_contents.md#video-scout)
+
+
+
 
 Clicking on each of the links above will redirect you to a detailed overview of the data nomenclature, structure, and format.
 
-## Citation
+## Citations
 
-Please cite the following paper to reference the SCOUT data release:
+Please cite the following paper to reference the SCOUT data release ([link to pdf paper](https://aclanthology.org/2024.lrec-main.1259.pdf)):
 
 ```
 @inproceedings{lukin2024scout,
-    title = {{SCOUT: A Situated and Multi-Modal Human-Robot Dialogue Corpus}},
+    title = {{SCOUT}: A Situated and Multi-Modal Human-Robot Dialogue Corpus},
     booktitle = {{The Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)}},
     author = {Lukin, Stephanie M., and Bonial, Claire N. and Marge, Matthew and Hudson, Taylor and Hayes, Cory J. and Pollard, Kimberly A. and Baker, Anthony and Foots, Ashley and Artstein, Ron and Gervits, Felix and Abrams, Mitchell and Henry, Cassidy and Donatelli, Lucia and Leuski, Anton and Hill, Susan G. and Traum, David and Voss, Clare R.},
     year = {2024}
+}
+```
+
+Please cite the following paper to reference the Video-SCOUT data release:
+
+```
+@inproceedings{lukin2026video,
+    title = {Non-Event Oriented Video Assessments in Long-Form Robot Videos},
+    booktitle = {Workshop on Multimodal Augmented Generation via MultimodAl Retrieval at ACL},
+    author = {Lukin, Stephanie M., and Pollard, Kimberly. A., and Bonial, Claire N., and Hayes, Cory J. and Artstein, Ron and Georgila, Kallirroi and Traum, David},
+    year = {2026}
 }
 ```
 
@@ -72,6 +88,8 @@ Please cite the following paper to reference the SCOUT data release:
 SCOUT has been used in a number of publications and research areas. 
 
 **Dialogue Structure**
+
+-  Bonial, Claire*, Stephanie M. Lukin*, Mitchell Abrams, Anthony Baker, Lucia Donatelli, Ashley Foots, Cory J. Hayes, Cassidy Henry, Taylor Hudson, Matthew Marge, Kimberly A. Pollard, Ron Artstein, David Traum, Clare R. Voss. [📎 "Human-Robot Dialogue Annotation for Multi-Modal Common Ground."](https://arxiv.org/pdf/2411.12829) Journal on Language Resources and Evaluation (LREV). 2024.
 
 - Bonial, Claire, Taylor Hudson, Anthony L. Baker, Stephanie M. Lukin, and David Traum [📎 "Making Sense of Stop."](https://www.areaworkshop.org/wp-content/uploads/2022/07/Bonial-etal-2022.pdf) Annotation, Recognition and Evaluation of Actions Workshop. 2022.
 

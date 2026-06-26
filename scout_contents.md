@@ -11,6 +11,8 @@ The data and annotation files from each Commander's trials are divided by type o
 - [maps/](#maps)
 - [dialogue_structure/](#dialogue-structure)
 - [AMR/](#AMR)
+- [Video-SCOUT](#Video-SCOUT)
+
 
 
 
@@ -187,7 +189,7 @@ ID.  time    stream   text                                             TU ant. r
 
 ## AMR
 
-Abstract meaning representation (AMR) annotation has been conducted on a subset of sentences from Experiments 1--3. New files were created to supplement the transcripts with a column that indicates if the utterance has been annotated with AMR, and a hyperlink to an individual .txt file with the AMR annotations. Commanders who completed all three trials (train, main1, main2) have the following annotated spreadsheet files (Commander p1.09 shown below), however, only a subset of utterances have been annotated, and are listed in `data/AMR/StandardAMR/` and `data/AMR/DialogueAMR/`:
+Abstract meaning representation (AMR) annotation has been conducted on a subset of sentences from Experiments 1--3. New files were created to supplement the transcripts with a column that indicates if the utterance has been annotated with AMR, and a hyperlink to an individual .txt file with the AMR annotations. Commanders who completed all three trials (train, main1, main2) have the following annotated spreadsheet files (Commander p1.09 shown below); however, only a subset of utterances have been annotated, and are listed in `data/AMR/StandardAMR/` and `data/AMR/DialogueAMR/`:
 
 ```
 └─── data/AMR/
@@ -236,4 +238,95 @@ p1.09_main1_s101
 ```
 
 Additionally, all the Standard-AMR and Dialogue-AMR are compiled into two files: `Standard-AMR/Standard-AMR-All.txt` and `Dialogue-AMR/Dialogue-AMR-All.txt`
+
+
+## Video-SCOUT
+
+### Full Trial Videos and Subtitles
+
+Full-length .mp4 videos from the robot’s front-facing camera were created for a subset of the trials. Accompanying each video is an .srt subtitle file containing the dialogue between the Commander and the Robot (Dialogue Manager). At this time, full trial videos with subtitles are only available for Experiments 1 and 2. Commanders who completed all three trials (train, main1, main2) have the following video and subtitle files (Commander p1.01 shown below):
+```
+└─── data/Video-SCOUT/video-trials/
+     └─── p1.01_train_stream.mp4
+     └─── p1.01_train_stream.srt
+     └─── p1.01_main1_stream.mp4
+     └─── p1.01_main1_stream.srt
+     └─── p1.01_main2_stream.mp4
+     └─── p1.01_main2_stream.srt
+```
+
+Each trial video runs the entire length of the trial, which was capped at 20 minutes. Some videos are longer due to technical difficulties. The iSCOUT images requested by the Commander are contained within the entirely of these videos. A sample clip from p1.01_main1.mp4 is shown below, displaying its respective subtitle file.
+
+<p><video src="media/video-example.mp4" width="320" height="240" controls></video></p>
+
+(If the video doesn't display, you can find it here: [https://gitlab.sitcore.net/bot-language/scout/-/blob/master/media/video-example.mp4](https://gitlab.sitcore.net/bot-language/scout/-/blob/master/media/video-example.mp4))
+
+The subtitle files can be added as a subtitle track to the videos using media players, e.g., VLC. If opening the .mp4 in VLC, the subtitle track should load automatically if it is in the same directory as the .mp4.
+
+Below is the start of `p1.01_main1_stream.srt`:
+
+```
+1
+00:00:20.36 --> 00:00:25.36
+Robot: "calibration complete"
+
+2
+00:00:31.01 --> 00:00:36.01
+CMD: "i'm ready"
+
+3
+00:00:50.59 --> 00:00:55.59
+Robot: "I'm also ready.  Would you like me to send a picture so you can see the room?"
+
+4
+00:00:55.20 --> 00:01:00.20
+CMD: "send a picture"
+
+5
+00:01:02.93 --> 00:01:07.93
+CMD: "do a three hundred and sixty degree spin"
+
+6
+00:01:05.17 --> 00:01:10.17
+Robot: "sent"
+
+...
+```
+
+
+### TU Videos and Subtitles
+
+TU Videos were created by segmenting the trial video into clips containing the beginning and end of each TU. TU annotations and timestamps were obtained from the SCOUT dialogue structure spreadsheets. Each TU Video is a segment from the full video of the robot's front-facing camera, clipped to include a single TU. Accompanying each TU Video, is the clipped subtitle file containing the dialogue between the Commander and the Robot (Dialogue Manager) for that TU. The subtitle files can be added as a subtitle track to the videos using media players, e.g., VLC. If opening the .mp4 in VLC, the subtitle track should load automatically if it is in the same directory as the .mp4..
+
+Commanders who completed all three trials (train, main1, main2) have the following video and subtitles files for each of their TUs (Commander p1.01 shown below):
+```
+└─── data/Video-SCOUT/video-tus/p1.01_main1/
+     └─── p1.01_main1_TU1.mp4
+     └─── p1.01_main1_TU1.srt
+     └─── p1.01_main1_TU2.mp4
+     └─── p1.01_main1_TU2.srt
+     └─── ...
+     └─── p1.01_main1_TU23.mp4
+     └─── p1.01_main1_TU23.srt
+```
+
+The timestamp for the first utterance of each TU .srt file is 0:00:00 so it can play with the video clip. Below is `p1.01_main1_TU2.srt` in its entirety:
+
+```
+0
+00:00:00.00 --> 00:00:05.00
+CMD: "i'm ready"
+
+1
+00:00:19.58 --> 00:00:24.58
+Robot: "I'm also ready.  Would you like me to send a picture so you can see the room?"
+
+2
+00:00:24.19 --> 00:00:29.19
+CMD: "send a picture"
+
+3
+00:00:34.16 --> 00:00:39.16
+Robot: "sent"
+```
 
